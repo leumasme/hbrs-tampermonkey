@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         HBRS eva2 Timetable Cleaner
-// @version      0.1
-// @description  ...
+// @version      1.0
+// @description  Clean up your HBRS eva2 timetable!
 // @author       Temm
+// @updateURL    https://openuserjs.org/meta/Temm/HBRS_eva2_Timetable_Cleaner.meta.js
+// @downloadURL  https://openuserjs.org/install/Temm/HBRS_eva2_Timetable_Cleaner.user.js
 // @match        https://eva2.inf.h-brs.de/stundenplan/anzeigen/*mode=grid*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=h-brs.de
 // @grant        none
-// @license      GPLv3
+// @copyright    2022, Temm (https://openuserjs.org/users/Temm)
+// @license      GPL-3.0-or-later
 // ==/UserScript==
 console.log("Loaded Timetable Cleaner!");
 (function () {
@@ -142,29 +145,29 @@ console.log("Loaded Timetable Cleaner!");
     let uiControls = document.createElement("div");
     uiControls.style.display = "inline-block";
 
-    let cleanupCheckbox = document.createElement("input");
-    cleanupCheckbox.type = "checkbox";
-    cleanupCheckbox.id = "cleanup";
+    // let cleanupCheckbox = document.createElement("input");
+    // cleanupCheckbox.type = "checkbox";
+    // cleanupCheckbox.id = "cleanup";
     // cleanupCheckbox.checked = true;
-    uiControls.appendChild(cleanupCheckbox);
+    // uiControls.appendChild(cleanupCheckbox);
 
-    let cleanupLabel = document.createElement("label");
-    cleanupLabel.textContent = "Clean up rows (Sort Modules Upwards)";
-    cleanupLabel.setAttribute("for", "cleanup");
-    uiControls.appendChild(cleanupLabel);
-    uiControls.appendChild(document.createElement("br"));
+    // let cleanupLabel = document.createElement("label");
+    // cleanupLabel.textContent = "Clean up rows (Sort Modules Upwards)";
+    // cleanupLabel.setAttribute("for", "cleanup");
+    // uiControls.appendChild(cleanupLabel);
+    // uiControls.appendChild(document.createElement("br"));
 
-    let highlightCheckbox = document.createElement("input");
-    highlightCheckbox.type = "checkbox";
-    highlightCheckbox.id = "highlight";
+    // let highlightCheckbox = document.createElement("input");
+    // highlightCheckbox.type = "checkbox";
+    // highlightCheckbox.id = "highlight";
     // highlightCheckbox.checked = true;
-    uiControls.appendChild(highlightCheckbox);
+    // uiControls.appendChild(highlightCheckbox);
 
-    let highlightLabel = document.createElement("label");
-    highlightLabel.textContent = "Highlight free time";
-    highlightLabel.setAttribute("for", "highlight");
-    uiControls.appendChild(highlightLabel);
-    uiControls.appendChild(document.createElement("br"));
+    // let highlightLabel = document.createElement("label");
+    // highlightLabel.textContent = "Highlight free time";
+    // highlightLabel.setAttribute("for", "highlight");
+    // uiControls.appendChild(highlightLabel);
+    // uiControls.appendChild(document.createElement("br"));
 
     let btn = document.createElement("button");
     btn.textContent = "Apply Filter";
@@ -179,7 +182,6 @@ console.log("Loaded Timetable Cleaner!");
             }
         });
         $$("select[id^='module-']").forEach(s => s.disabled = true);
-        
         
         cleanEmptyRows();
     }
