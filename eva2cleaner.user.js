@@ -122,6 +122,14 @@ console.log("Loaded Timetable Cleaner!");
         organizedData[module.cleanTitle].push(module);
     }
 
+    let semesterId = decodeURIComponent(new URLSearchParams(window.location.search).get("identifier_semester") ?? "none");
+    let savedData = localStorage.getItem("timetableCleanerData_" + semesterId)
+    savedData = savedData ? JSON.parse(savedData) : {
+        version: 1,
+        hiddenModules: [],
+    };
+    console.log("Loaded Saved Data", savedData, "for semester id:", semesterId);
+
     let sortedModules = Object.values(organizedData).sort((a, b) => b.length - a.length);
     for (const module of sortedModules) {
         let select = document.createElement("select");
@@ -134,7 +142,7 @@ console.log("Loaded Timetable Cleaner!");
             let option = document.createElement("option");
             option.value = submodule.title;
             option.text = submodule.title;
-            option.selected = true;
+            option.selected = !savedData.hiddenModules.includes(submodule.title);
             select.appendChild(option);
         }
         interface.appendChild(select);
@@ -175,14 +183,21 @@ console.log("Loaded Timetable Cleaner!");
         // Apply filters
         btn.disabled = true;
         console.log(modules.length)
-        Array.from($$("select[id^='module-']")).map(s => Array.from(s.querySelectorAll("option:not(:checked)"))).flat().map(o => o.value).forEach(title => {
+
+        let hiddenModuleNames = Array.from($$("select[id^='module-']"))
+            .map(s => Array.from(s.querySelectorAll("option:not(:checked)")))
+            .flat().map(o => o.value);
+        savedData.hiddenModules = hiddenModuleNames;
+        localStorage.setItem("timetableCleanerData_" + semesterId, JSON.stringify(savedData));
+
+        hiddenModuleNames.forEach(title => {
             let removedModules = modules.filter(m => m.querySelector(".lvtitel").textContent == title);
             for (const module of removedModules) {
                 removeModule(module);
             }
         });
         $$("select[id^='module-']").forEach(s => s.disabled = true);
-        
+
         cleanEmptyRows();
     }
     uiControls.appendChild(btn);

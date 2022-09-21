@@ -25,7 +25,7 @@
 - Click "Apply Filter" to remove all Courses that are not selected
 
 ## Planned Features
-- [ ] Save selected courses between page reloads
+- [x] Save selected courses between page reloads
 - [ ] Move courses to the Top row of the day to reduce free space and visual clutter
 - [ ] Highlight free time between courses
 - [ ] Count total free time between courses
