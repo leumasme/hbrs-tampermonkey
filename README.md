@@ -26,6 +26,6 @@
 
 ## Planned Features
 - [x] Save selected courses between page reloads
-- [ ] Move courses to the Top row of the day to reduce free space and visual clutter
+- [x] Move courses to the Top row of the day to reduce free space and visual clutter
 - [ ] Highlight free time between courses
 - [ ] Count total free time between courses

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HBRS eva2 Timetable Cleaner
-// @version      1.0
+// @version      1.1
 // @description  Clean up your HBRS eva2 timetable!
 // @author       Temm
 // @updateURL    https://openuserjs.org/meta/Temm/HBRS_eva2_Timetable_Cleaner.meta.js
