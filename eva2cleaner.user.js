@@ -21,6 +21,52 @@ console.log("Loaded Timetable Cleaner!");
     //#endregion
 
     //#region Interface Helper Functions
+    /** @argument {HTMLElement} element */
+    function getTableCoordsOfModule(element) {
+        let rows = Array.from($$("tr[class^='row']"));
+        let row = rows.find(row => Array.from(row.children).includes(element));
+        let y = rows.indexOf(row);
+        let x = 0;
+        for (const elem of row.children) {
+            if (elem === element) break;
+            x += parseInt(elem.getAttribute("colspan") ?? 1);
+        }
+        return { x, y };
+    }
+
+    /** 
+     * @argument {number} x
+     * @argument {number} y
+     */
+    function getModuleOfTableCoords(x, y) {
+        let rows = Array.from($$("tr[class^='row']"));
+        let row = rows[y];
+        for (const elem of row.children) {
+            if (elem.matches(".row-label-one")) continue;
+            if (x === 0) return elem;
+            x -= elem.getAttribute("colspan") || 1;
+        }
+    }
+
+    /** @argument {HTMLElement} module */
+    function isSpaceFree(row, start, width) {
+        let rows = Array.from($$("tr[class^='row']"));
+        let cols = Array.from(rows[row].querySelectorAll("td:not(.row-label-one)"));
+        let currStart = 0;
+        let end = start + width;
+        for (const elem of cols) {
+            let currWidth = parseInt(elem.getAttribute("colspan") ?? 1);
+            let currEnd = currStart + currWidth;
+            // check if currStart->currEnd collides with start->end
+            if (!elem.matches(".cell-border")) {
+                if (currEnd >= start) return false;
+            }
+            currStart += currWidth;
+            if (currStart >= end) return true;
+        }
+        return true;
+    }
+
     /** @argument {HTMLElement} module */
     function removeModule(module) {
         let length = module.getAttribute("colspan");
@@ -36,8 +82,11 @@ console.log("Loaded Timetable Cleaner!");
             if (day.some(row => row.contains(module))) return day;
         }
     }
-    /** @argument {HTMLElement} row */
+    /** @argument {HTMLElement|number} row */
     function findDayOfRow(row) {
+        if (typeof row === "number") {
+            row = $$("tr[class^='row']")[row];
+        }
         for (const day of days) {
             if (day.includes(row)) return day;
         }
@@ -48,12 +97,11 @@ console.log("Loaded Timetable Cleaner!");
         rows.forEach((row) => {
             let children = Array.from(row.children);
             if (!children.some(cell => cell.classList.contains("object-cell-border"))) {
-                console.log("Row has no modules");
+                // Row has no modules
                 let dayLabel = findDayOfRow(row)[0].children[0];
                 let day = findDayOfRow(row);
                 // There are no modules in this row
                 if (row.children[0].classList.contains("row-label-one")) {
-                    console.log("Row has a day label")
                     // Day label found in row, it will have to be moved down before removing row
                     // This is the only row of the day, keep it.
                     if (day.length == 1) return;
@@ -61,9 +109,7 @@ console.log("Loaded Timetable Cleaner!");
                     day[1].children[0].before(dayLabel);
                 }
                 // There are no modules or day labels in this row, remove it
-                console.log("Removing a row");
                 // Reduce day label height so it doesnt overflow into next day
-                console.log(dayLabel);
                 dayLabel.setAttribute("rowspan", parseInt(dayLabel.getAttribute("rowspan")) - 1)
                 row.remove();
                 day.splice(day.indexOf(row), 1);
@@ -153,17 +199,18 @@ console.log("Loaded Timetable Cleaner!");
     let uiControls = document.createElement("div");
     uiControls.style.display = "inline-block";
 
-    // let cleanupCheckbox = document.createElement("input");
-    // cleanupCheckbox.type = "checkbox";
-    // cleanupCheckbox.id = "cleanup";
-    // cleanupCheckbox.checked = true;
-    // uiControls.appendChild(cleanupCheckbox);
+    let cleanupCheckbox = document.createElement("input");
+    cleanupCheckbox.type = "checkbox";
+    cleanupCheckbox.id = "cleanup";
+    cleanupCheckbox.checked = true;
+    uiControls.appendChild(cleanupCheckbox);
 
-    // let cleanupLabel = document.createElement("label");
-    // cleanupLabel.textContent = "Clean up rows (Sort Modules Upwards)";
-    // cleanupLabel.setAttribute("for", "cleanup");
-    // uiControls.appendChild(cleanupLabel);
-    // uiControls.appendChild(document.createElement("br"));
+    let cleanupLabel = document.createElement("label");
+    cleanupLabel.textContent = "Clean up rows (Sort Modules Upwards)";
+    cleanupLabel.setAttribute("for", "cleanup");
+    cleanupLabel.style.marginBottom = "0px";
+    uiControls.appendChild(cleanupLabel);
+    uiControls.appendChild(document.createElement("br"));
 
     // let highlightCheckbox = document.createElement("input");
     // highlightCheckbox.type = "checkbox";
@@ -182,6 +229,7 @@ console.log("Loaded Timetable Cleaner!");
     btn.onclick = () => {
         // Apply filters
         btn.disabled = true;
+        cleanupCheckbox.disabled = true;
         console.log(modules.length)
 
         let hiddenModuleNames = Array.from($$("select[id^='module-']"))
@@ -197,6 +245,37 @@ console.log("Loaded Timetable Cleaner!");
             }
         });
         $$("select[id^='module-']").forEach(s => s.disabled = true);
+
+        if (cleanupCheckbox.checked) {
+            let runNext = true;
+            while (runNext) {
+                runNext = false;
+
+                let modules = Array.from($$(".object-cell-border"));
+                for (const module of modules) {
+                    let day = findDayOfModule(module);
+                    console.log("the day is ", day);
+                    let { x, y } = getTableCoordsOfModule(module);
+                    let width = parseInt(module.getAttribute("colspan") ?? 1);
+                    if (y == 0) continue;
+
+                    let aboveModuleDay = findDayOfRow(y - 1);
+                    if (day == aboveModuleDay && isSpaceFree(y - 1, x, width)) {
+                        // Module can be moved up!
+                        runNext = true;
+
+                        for (let i = 0; i < width; i++) {
+                            module.before(empty.cloneNode());
+                        }
+                        let toReplace = getModuleOfTableCoords(x, y - 1);
+                        for (let i = 1; i < width; i++) {
+                            toReplace.nextElementSibling.remove();
+                        }
+                        getModuleOfTableCoords(x, y - 1).replaceWith(module);
+                    }
+                }
+            }
+        }
 
         cleanEmptyRows();
     }
