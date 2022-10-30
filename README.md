@@ -1,7 +1,7 @@
 # hbrs-tampermonkey
 ## Scripts
-[Eva2 Timetable Cleaner](#Eva2)
-[FSLab Speed Control](#FSLab)
+- [Eva2 Timetable Cleaner](#Eva2)
+- [FSLab Speed Control](#FSLab)
 ## Eva2
 
 ### [Deutsch] Einführung zum Eva2 tool
