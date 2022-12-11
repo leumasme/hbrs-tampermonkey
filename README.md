@@ -36,10 +36,20 @@
 - [ ] Count total free time between courses
 
 ## FSLab
+### Features
+- Fine Video Speed Control
+- Subtitles
 ### Installation
 - Use a Browser that supports Tampermonkey. All common browsers on Windows should work.
 - Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (or use [this link](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) if you are using firefox)
-- Click [here](https://openuserjs.org/install/Temm/HBRS_FSLab_speed.user.js) and click install ([alternative backup-link](https://github.com/leumasme/hbrs-tampermonkey/raw/main/fslabspeed.user.js))
+- Click [here](https://openuserjs.org/install/Temm/HBRS_FSLab_Enhancer.user.js) and click install ([alternative backup-link](https://github.com/leumasme/hbrs-tampermonkey/raw/main/fslabenhancer.user.js))
 
-### Usage
+### Speed Usage
 On all FSLab Course Video Links (lectures.fslab.de/course/\*/\*), an input box is added below the video. Enter a number to set the playback speed of the video. This can be any speed so you can set numbers like 1.3 which isn't possible with the player controls.
+### Subtitles Usage
+To enable subtitles, press the "CC" button on the bottom right in the player controls and select a language.
+If there are no languages listed then I have not generated subtitles for your course, please contact me via Discord (@Temm#9188).
+
+The subtitles may be very wrong. They are automatically generated with OpenAI's Whisper (large version) model.
+I would put the VTT files in this repo so anyone can make changes and PR them to update the subtitles, but I would likely get into
+copyright trouble if I publicly publish video transcripts without the professors permission.
