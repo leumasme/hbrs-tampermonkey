@@ -1,11 +1,15 @@
 // ==UserScript==
-// @name         LEA Login
+// @name         HBRS LEA Login
 // @version      1.0
-// @description  Your in-dev script
+// @description  Auto-Login for LEA
 // @author       Temm
 // @match        http*://lea.hochschule-bonn-rhein-sieg.de/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=h-brs.de
 // @grant        none
+// @copyright    2022, Temm (https://openuserjs.org/users/Temm)
+// @license      GPL-3.0-or-later
+// @updateURL    https://openuserjs.org/meta/Temm/HBRS_LEA_Login.meta.js
+// @downloadURL  https://openuserjs.org/install/Temm/HBRS_LEA_Login.user.js
 // ==/UserScript==
 
 console.log("LEA Login Tampermonkey Loaded");
