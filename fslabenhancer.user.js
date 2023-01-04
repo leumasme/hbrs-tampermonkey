@@ -13,6 +13,7 @@
 // ==/UserScript==
 
 console.log("FSLab Enhancer Loaded, player: ", player != null);
+const plugin = player.getPlugin("closed_captions");
 
 // Speed Control
 let speed = localStorage.getItem("fslabspeed") ?? 1;
@@ -48,22 +49,84 @@ let languages = { "de": "Deutsch", "en": "Englisch" };
 for (let [lang, name] of Object.entries(languages)) {
     vid.insertAdjacentHTML("afterbegin", `<track label="${name}" kind="subtitles" srclang="${lang}" src="https://tf.2d.rocks/vtt/${course}/${lang}_${video}.mp4.vtt" />`)
 }
+
 let done = 0;
 function langDone() {
     done++;
     if (done == Object.keys(languages).length) {
-        player.getPlugin("closed_captions").onSubtitleAvailable()
+        plugin.onSubtitleAvailable()
+        player.listenTo(plugin.container, "container:subtitle:changed", ({ id }) => {
+            /** @type {{id: number, name: string, track: TextTrack}} */
+            let track = plugin.container.closedCaptionsTracks.find(e => e.id == id);
+
+            console.log("Subtitle Changed to ", track);
+            displayTranscript(track.track);
+        })
     }
 }
 document.querySelectorAll("video > track").forEach(e => {
     e.addEventListener("error", () => {
-        console.log("%c Subtitles Language Unavailable: "+e.srclang+" ", "background: red; color: black");
+        console.log("%c Subtitles Language Unavailable: " + e.srclang + " ", "background: red; color: black");
         e.remove();
         langDone()
     })
     e.addEventListener("load", () => {
-        console.log("%c Subtitles Language Available: "+e.srclang+" ", "background: #bada55; color: black");
+        console.log("%c Subtitles Language Available: " + e.srclang + " ", "background: #bada55; color: black");
         langDone()
     })
 });
 
+document.getElementById("player").style.display = "flex";
+let transcript = document.createElement("div");
+document.getElementById("player").insertAdjacentElement("beforeend", transcript);
+// player is 1024px, transcript should take free space
+transcript.style.flex = "1";
+transcript.style.overflow = "auto";
+transcript.style.padding = "1em";
+transcript.style.backgroundColor = "rgba(0,0,0,0.7)";
+transcript.style.color = "white";
+transcript.style.display = "none";
+// transcript should be 576px high, otherwise scrollable
+transcript.style.maxHeight = "576px";
+
+function displayTranscript(track) {
+    // Clear the transcript element
+    transcript.innerHTML = "";
+
+    if (track == -1) {
+        transcript.style.display = "none";
+        return;
+    };
+    transcript.style.display = "block";
+
+    let frag = document.createDocumentFragment();
+    for (let cue of track.cues) {
+        let p = document.createElement("p");
+        p.innerText = cue.text;
+        frag.appendChild(p);
+    }
+    transcript.appendChild(frag);
+}
+
+// Current transcript line should be scrolled into view
+setInterval(() => {
+    let track = plugin.container.closedCaptionsTracks.find(e => e.id == plugin.container.closedCaptionsTrackId)?.track;
+    if (!track) return;
+
+    let cue = track.activeCues[0];
+    if (!cue) return;
+
+    let line = Array.from(transcript.children).find(e => e.innerText == cue.text);
+    if (!line) return;
+
+    // We can't use scrollIntoView here because it also scrolls the main page
+    // line.scrollIntoView({ behavior: "smooth", block: "center" });
+    transcript.scrollTop = line.offsetTop - transcript.offsetTop - transcript.clientHeight / 2 + line.clientHeight / 2;;
+
+    // Remove the highlight from the previous line
+    let prev = transcript.querySelector("p[style]");
+    if (prev) prev.removeAttribute("style");
+
+    // Highlight the line
+    line.style.backgroundColor = "rgba(186, 186, 65,0.5)";
+}, 200);
