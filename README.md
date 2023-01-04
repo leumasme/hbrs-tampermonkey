@@ -12,6 +12,7 @@
 - [Eva2 Timetable Cleaner](#Eva2)
 - [FSLab Enhancer](#FSLab)
 - [Praktomat Enhancer](#Praktomat)
+- [Lea Autologin](#Lea)
 ## Eva2
 [Script Link](https://openuserjs.org/install/Temm/HBRS_eva2_Timetable_Cleaner.user.js)
 ### [Deutsch] Nutzung
