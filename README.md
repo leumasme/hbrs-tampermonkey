@@ -60,3 +60,11 @@ copyright trouble if I publicly publish video transcripts without the professors
 - Uplad many files at once via a drag-and-drop area
 ### Usage
 Just open an upload page and drag files into the drop area
+
+## Lea
+### Features
+- Automatically stay logged in while idle on a page (Never click something and get thrown to the login page again)
+- Automatically log in on the login page
+### Usage
+Just install the script.
+Note that your username and password will be stored in your browser the first time you log into lea so the script can automatically log you in in the future. They are never sent anywhere else than to lea.
