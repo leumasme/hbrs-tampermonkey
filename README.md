@@ -44,6 +44,7 @@
 ### Features
 - Fine Video Speed Control
 - Subtitles
+- Subtitle transcript next to the video
 
 ### Speed Usage
 On all FSLab Course Video Links (lectures.fslab.de/course/\*/\*), an input box is added below the video. Enter a number to set the playback speed of the video. This can be any speed so you can set numbers like 1.3 which isn't possible with the player controls.
