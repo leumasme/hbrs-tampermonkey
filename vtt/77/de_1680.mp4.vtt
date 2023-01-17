@@ -1,0 +1,329 @@
+WEBVTT
+
+00:00.000 --> 00:14.000
+Dann betrachten wir mal im nächsten Schritt unsere Logik als der gemeinsamen Sprache, die wir verwenden wollen, die komplexen Aussagen.
+
+00:14.000 --> 00:25.000
+Wir haben gerade gesagt, Automata-Aussagen, wie zum Beispiel das regnet, werden durch Aussagen variabel dargestellt, die meinetwegen durch große Buchstaben dargestellt werden.
+
+00:25.000 --> 00:47.000
+Wir definieren uns komplexe logische Formeln wie folgt.
+
+00:47.000 --> 01:12.000
+Sie bestehen aus genau einer aussagenlogischen Variablen
+
+01:12.000 --> 01:39.000
+oder aus genau einer aussagenlogischen Variablen oder aus zusammengesetzten Formeln.
+
+01:39.000 --> 01:58.000
+Wir sehen also schon hier, die Definition der logischen Formeln ist rekursiv, weil sie grundlegend entweder durch atomare Aussagen definiert sind oder aber eben durch deren Zusammensetzung.
+
+01:58.000 --> 02:08.000
+Also nennen wir solche komplexen logischen Formeln einfach mal P, Q usw.
+
+02:08.000 --> 02:21.000
+Wobei ausgehend von P oder P gewählt wurde, weil es für Proposition oder im Deutschen Proposition, sprich Aussage steht.
+
+02:21.000 --> 02:30.000
+Also sind unsere komplexen und sind unsere logischen Formeln, die bauen wir jetzt wie folgt.
+
+02:30.000 --> 02:36.000
+Das heißt wir müssen uns jetzt definieren, wie wir Formeln zusammensetzen können.
+
+02:36.000 --> 02:58.000
+Nämlich, wenn P und Q formen.
+
+02:58.000 --> 03:02.000
+Wir können also ein kleines P hinschreiben.
+
+03:02.000 --> 03:13.000
+Dieses P kann zum Beispiel als Aussage eine atomare Aussage, also ein großes A, also stehend für es regnet sein.
+
+03:13.000 --> 03:38.000
+Oder aber man kann eine Formel P nehmen und aus ihr eine zusammengesetzte Formel bilden, indem man eine andere Formel Q nimmt und sie verknüpft durch ein Dach und Klammer darum setzt.
+
+03:38.000 --> 03:50.000
+Man kann auch diese beiden Formeln nehmen und ein umgedrehtes Dach dazwischen schreiben und Klammern darum machen.
+
+03:50.000 --> 04:03.000
+Man kann auch diese beiden Aussagen oder diese beiden Formeln nehmen und einen Pfeil dazwischen schreiben und Klammern darum.
+
+04:03.000 --> 04:13.000
+Und was man auch machen kann, ist man kann ein kleines Häkchen vor so etwas machen.
+
+04:13.000 --> 04:23.000
+Man kann das noch erweitern. Oftmals sieht man auch einen Pfeil, der in beide Richtungen geht.
+
+04:23.000 --> 04:38.000
+Wenn jetzt P und Q eine Aussage sind, also zum Beispiel P bedeutet es regnet und Q bedeutet die Sonne scheint,
+
+04:38.000 --> 04:51.000
+dann soll diese Formel hier stehen für die Aussage P und Q.
+
+04:51.000 --> 05:03.000
+Diese Formel hier mit dem umgedrehten Dach soll stehen für die Aussage P oder Q.
+
+05:03.000 --> 05:22.000
+Diese Formel hier soll stehen für die Aussage, wenn P, dann Q.
+
+05:22.000 --> 05:33.000
+Die dahinten Spare ich mal und die hier vorne, die soll stehen für nicht P.
+
+05:33.000 --> 05:40.000
+Was wir also jetzt haben, ist genau das, was wir im ersten Clip festgestellt haben.
+
+05:40.000 --> 05:45.000
+Die Ungenauigkeiten der natürlichen Sprache haben wir eliminiert. Es gibt kein Aber mehr.
+
+05:45.000 --> 05:52.000
+Wir haben kein Problem mehr, wo das nicht hingehört und welches Und sich wo drauf bezieht und wo geklammert werden muss,
+
+05:52.000 --> 06:01.000
+weil wir haben nur noch Junktoren, die es uns ermöglichen, Aussagen zusammenzusetzen.
+
+06:01.000 --> 06:19.000
+Diese sind Und genannt Konjunktion, sind Oder genannt Disjunktion oder sind ein Pfeil genannt Subjunktion oder manchmal auch Implikation.
+
+06:19.000 --> 06:30.000
+Vor allen Dingen aber haben wir natürlich auch eine Negation, also nicht P, indem wir ein Häkchen davor schreiben.
+
+06:30.000 --> 06:38.000
+Wir können jetzt also Folgendes machen.
+
+06:38.000 --> 07:00.000
+Wenn wir sagen, A soll die Aussage sein, es regnet. B soll die Aussage sein, die Sonne scheint.
+
+07:00.000 --> 07:10.000
+Dann wissen wir ja was.
+
+07:10.000 --> 07:24.000
+Atomare Aussagen, dargestellt durch aussagenlogische Formen, durch Aussagenvariablen sind atomare Formen.
+
+07:24.000 --> 07:38.000
+Das heißt, meinetwegen stellt sich so ein einfaches P dar und diese Aussage hier, meinetwegen, stellt ein einfaches Q dar.
+
+07:38.000 --> 07:56.000
+Und das bedeutet, dass ich, wenn ich schreibe P und Q, ich im Endeffekt meine A und B.
+
+07:56.000 --> 08:17.000
+Was also entsprechen soll der Aussage, es regnet und die Sonne scheint.
+
+08:17.000 --> 08:34.000
+Also auf diese Art und Weise können wir natürlichsprachige Aussagen genau fassen, genau hinschreiben und wir wissen genau, was sie bedeuten soll.
+
+08:34.000 --> 08:48.000
+Naja, das Wichtigste an einer Aussage ist jetzt natürlich die Frage, ob eine Aussage wahr ist oder nicht.
+
+08:48.000 --> 09:11.000
+Ich schreibe dazu hin, Aussagen sind wahr oder falsch.
+
+09:11.000 --> 09:17.000
+Erinnern Sie sich an den Satz, es zieht?
+
+09:17.000 --> 09:24.000
+Die Aussage kann wahr sein, wenn es zieht, sie kann falsch sein, wenn es nicht zieht.
+
+09:24.000 --> 09:39.000
+Der Sprechakt, die dahinter liegende Intention, bitte macht das Fenster zu, hat überhaupt nichts mit dem Wahrheitswert der Aussage zu tun und ist insofern für uns vollkommen irrelevant.
+
+09:39.000 --> 09:47.000
+Uns geht es um die Wahrheitsbedingungen von Formen.
+
+09:47.000 --> 10:11.000
+Also gehen wir wie folgt vor, wenn P wahr ist oder als wahr angenommen ist
+
+10:11.000 --> 10:18.000
+und wenn Q wahr ist.
+
+10:18.000 --> 10:40.000
+Naja, dann ist doch auch klar, dass die Formel P und Q wahr sein sollen.
+
+10:40.000 --> 10:51.000
+Und zwar ebenso auch umgekehrt.
+
+10:51.000 --> 11:05.000
+Was wir dazu also brauchen, ist implizit erstens das Wissen, ein initiales Wissen um die Wahrheitsbedingungen unserer Aussagen variabel.
+
+11:05.000 --> 11:16.000
+Das wird, lernen Sie in der Logik, um über eine sogenannte Belegungsfunktion oder ein Assignment erzeugt.
+
+11:16.000 --> 11:30.000
+Ich schreibe jetzt, und das soll für die Vorlesung über diskrete Mathematik voll und ganz reichen, folgendes hin.
+
+11:30.000 --> 11:59.000
+Die Bedeutung einer Formel ist ihr Wahrheitswert.
+
+11:59.000 --> 12:08.000
+Und der ist begründet.
+
+12:08.000 --> 12:30.000
+Der Wahrheitswert einer Formel gründet sich
+
+12:30.000 --> 12:52.000
+auf die Wahrheitswerten der atomaren Aussagen, also der Aussagenvariabel.
+
+12:52.000 --> 12:59.000
+Nun möchte man diese natürlich ausrechnen.
+
+12:59.000 --> 13:09.000
+Und das macht man wie folgt.
+
+13:09.000 --> 13:19.000
+Wir sind nach wie vor bei der Definition.
+
+13:19.000 --> 13:44.000
+Wahrheitswerte sind für uns vorerst einfach nur wahr und falsch.
+
+13:44.000 --> 13:54.000
+Und um das Ganze ein bisschen informatischer zu gestalten, macht man wie folgendes.
+
+13:54.000 --> 14:12.000
+Wahr schreibt man als 1 und falsch als 0.
+
+14:12.000 --> 14:16.000
+Wir haben also zwei mögliche Wahrheitswerte.
+
+14:16.000 --> 14:42.000
+Und jetzt macht man folgendes.
+
+14:42.000 --> 14:46.000
+Und das macht jetzt ein bisschen komisch aussehen.
+
+14:46.000 --> 14:52.000
+Eine Formel P ist P mit so einem fetten Strich oben.
+
+14:52.000 --> 14:54.000
+Was heißt das?
+
+14:54.000 --> 15:20.000
+Also P bedeutet es regnet, dann soll P Strich den Wert 0 haben,
+
+15:20.000 --> 15:25.000
+wenn die Aussage P falsch ist.
+
+15:25.000 --> 15:34.000
+Und sie soll den Wert 1 haben, wenn die Aussage P wahr ist.
+
+15:34.000 --> 15:59.000
+Also sie soll 0 sein, wenn es nicht regnet und sie soll wahr sein, wenn es regnet.
+
+15:59.000 --> 16:04.000
+Weil wir oftmals nicht wissen, ob es jetzt regnet oder nicht,
+
+16:04.000 --> 16:12.000
+können wir also einfach mit dem Ausdruck P Strich sagen,
+
+16:12.000 --> 16:19.000
+der Wahrheitswert der Aussage P, der Wahrheitswert der Aussage es regnet.
+
+16:19.000 --> 16:21.000
+Und wozu ist das wichtig?
+
+16:21.000 --> 16:41.000
+Das ist für folgendes wichtig und zwar für die Semantik der logischen Junkturen.
+
+16:41.000 --> 16:46.000
+Naja, jetzt ist doch folgendes.
+
+16:46.000 --> 17:02.000
+Der Wahrheitswert zum Beispiel der Formel P und Q.
+
+17:02.000 --> 17:17.000
+Der soll sich ja ergeben aus den Wahrheitswerten der Formeln P und Q.
+
+17:17.000 --> 17:25.000
+Also auch wenn wir jetzt nicht wissen, was die tatsächlichen Wahrheitswerte von P und Q sind,
+
+17:25.000 --> 17:35.000
+möchten wir aus diesen beiden Wahrheitswerten die Bedeutung der Konjunktion so definieren,
+
+17:35.000 --> 17:42.000
+dass die Bedeutung der Aussage P und Q genau den Wahrheitswert ergibt,
+
+17:42.000 --> 17:50.000
+den wir bekommen, wenn wir die Wahrheitswerte der beiden Aussagen miteinander verknüpfen.
+
+17:50.000 --> 17:57.000
+Und das bedeutet jetzt im Endeffekt nichts anderes als folgendes.
+
+17:57.000 --> 18:03.000
+Ich mal Ihnen dazu ein kleines Bildchen.
+
+18:03.000 --> 18:12.000
+Wir haben also eine Menge von Aussagenvariablen,
+
+18:12.000 --> 18:22.000
+also einen Haufen von Aussagenvariablen und zwei Wahrheitswerte 0 und 1.
+
+18:22.000 --> 18:36.000
+Und in unserer Welt ist es nun mal so, dass bestimmte Aussagen bestimmte Wahrheitswerte haben.
+
+18:36.000 --> 18:43.000
+Also die Aussage A zum Beispiel ist falsch, die Aussage B ist wahr, die Aussage C ist wahr
+
+18:43.000 --> 18:48.000
+und die Aussage D wiederum ist falsch.
+
+18:48.000 --> 19:01.000
+Jetzt möchte man natürlich sich überlegen, wie sich der Wahrheitswert von A
+
+19:01.000 --> 19:10.000
+oder bleiben wir mal schön im... ja passt.
+
+19:10.000 --> 19:14.000
+Also doch, Entschuldigung.
+
+19:14.000 --> 19:25.000
+Also für P gleich A und meinetwegen C gleich... Q gleich C,
+
+19:25.000 --> 19:33.000
+möchte man den Wahrheitswert der Aussage P und Q betrachten.
+
+19:33.000 --> 19:45.000
+Und der Wahrheitswert der Aussage P und Q ist also der Wahrheitswert der Aussage A und B.
+
+19:45.000 --> 19:55.000
+Und der soll sich jetzt irgendwie ergeben aus dem Wahrheitswert der Aussage A und dem Wahrheitswert der Aussage B.
+
+19:55.000 --> 20:10.000
+Was ja, wenn wir diese zufällig wissen würden, einmal 0 und einmal 1 ist.
+
+20:10.000 --> 20:19.000
+So, wir brauchen also jetzt eine Operation auf den Wahrheitswerten.
+
+20:19.000 --> 20:27.000
+Hier muss irgendwie eine tolle Operation stehen, die es uns erlaubt, die 0 und die 1 miteinander zu verrechnen,
+
+20:27.000 --> 20:36.000
+sodass sich 0 oder 1 ergibt auf genau die Art und Weise, wie sie die Konjunktion modellieren soll.
+
+20:36.000 --> 20:40.000
+Und das macht man folgt.
+
+20:40.000 --> 20:48.000
+Man kann es sich sehr einfach über sogenannte Wahrheitstabellen definieren.
+
+20:48.000 --> 21:02.000
+Wenn also eine Formel P den Wahrheitswert 0 hat, dann hat die Formel nicht P den Wahrheitswert 1
+
+21:02.000 --> 21:11.000
+und wenn die Formel P den Wahrheitswert 1 hat, dann hat die Formel nicht P den Wahrheitswert 0.
+
+21:11.000 --> 21:35.000
+Die Formel für die Wahrheitswerte der Formeln P und Q, 0, 0, 0, 1, 1, 0, 1, 1, ergibt sich jetzt folgendes.
+
+21:35.000 --> 21:45.000
+Der Wahrheitswert der Aussage P und Q ist 0, 0, 0, 1.
+
+21:45.000 --> 21:54.000
+Der Wahrheitswert der Aussage P oder Q ist 0, 1, 1, 1.
+
+21:54.000 --> 22:05.000
+Und der Wahrheitswert der Aussage P, Q ist 1, 1, 0, 1.
+
+22:05.000 --> 22:16.000
+Damit haben Sie die Semantik der logischen Operatoren Negation, Konjunktion, Disjunktion und Subjunktion
+
+22:16.000 --> 22:33.000
+oder Implikation formal definiert und können auf diese Art und Weise die Wahrheitswerte von Formeln bestimmen.
+

@@ -1,0 +1,326 @@
+WEBVTT
+
+00:00.000 --> 00:14.000
+Also fangen wir an. Angefangen wird natürlich jede Schlussfolgerung mit einer Schlussfolgerung ohne Prämisse.
+
+00:14.000 --> 00:18.000
+Sonst kann man ja gar nicht anfangen. Das ist das, was wir als Aktion nennen.
+
+00:18.000 --> 00:32.000
+Und wir nennen als Aktion, dass eine Sequenz, die aus einer beliebigen prädikaten logischen Form P besteht, hier vorne,
+
+00:32.000 --> 00:41.000
+und einer beliebigen prädikaten logischen Form, hier hinten, eine gültige Sequenz ist.
+
+00:41.000 --> 00:45.000
+Ja, warum ist denn das so? Schauen wir mal hin.
+
+00:45.000 --> 00:53.000
+Also, die Sequenz P – ich weiß immer noch nicht, wie ich dieses Symbol am besten aussprechen soll –
+
+00:53.000 --> 01:06.000
+dieses P-Sequenz impliziert sich selbst genau dann, wenn – hier habe ich noch die aussagenlogische Interpretation hingeschrieben –
+
+01:06.000 --> 01:13.000
+wenn wann immer P unter einer Interpretation wahr wird, auch P wahr wird.
+
+01:13.000 --> 01:21.000
+Ja, hallo. Das ist natürlich richtig. Und es gilt genauso in der Prädikaten.
+
+01:21.000 --> 01:32.000
+Also, wir dürfen aus dem Nichts annehmen, dass die Sequenz P – Sequenzimplikation P – gültig ist.
+
+01:32.000 --> 01:40.000
+Das ist unsere Aktion. Mehr brauchen wir nicht.
+
+01:40.000 --> 01:56.000
+Und jetzt geht es los. Jetzt kommen fürchterlich viele Regeln, viele von denen aber wirklich in ihrer Bedeutung und Anwendung trivial sind.
+
+01:56.000 --> 02:07.000
+Aber Sie wissen ja, man muss schon ein bisschen genauer sein. Fangen wir mal mit dieser hier an.
+
+02:07.000 --> 02:22.000
+Wenn ich eine Sequenz habe, P, P, also eine Formel P, eine Formel P, eine Sequenz von Formeln P, Sequenzimplikation Q,
+
+02:22.000 --> 02:35.000
+dann, wenn das eine korrekte Sequenz ist, dann folgt daraus auch, dass das Weglassen eines Ps
+
+02:35.000 --> 02:42.000
+eine korrekte Sequenz, eine gültige Sequenz ergibt. Das sage ich jetzt einmal.
+
+02:42.000 --> 02:52.000
+Ich sage genauso, wenn hier in den Subzidenzen dieser Sequenzimplikation das P zweimal vorkommt,
+
+02:52.000 --> 03:00.000
+dann darf ich es weglassen und ich erhalte wieder eine gültige Sequenz.
+
+03:00.000 --> 03:09.000
+Sehr hübsch ist natürlich zum Beispiel auch dieses hier. Ich habe ja gesagt, das hier ist eine Sequenz von Formeln.
+
+03:09.000 --> 03:20.000
+Sie ist also eigentlich nicht reinfolgeinvalidiert. Sie ist eigentlich reinfolge-sensitiv.
+
+03:20.000 --> 03:26.000
+Wenn hier also eine Formel P gefolgt von einer Formel Q vorkommt, dann sage ich einfach mal,
+
+03:26.000 --> 03:35.000
+wenn das eine gültige Sequenz ist, dann ist das auch eine gültige Sequenz. Hier hinten darf ich auch umdrehen.
+
+03:35.000 --> 03:43.000
+Ich gebe Ihnen noch zwei Regeln. Wenn P Sequenzimplikation Q eine gültige Sequenz ist,
+
+03:43.000 --> 03:51.000
+dann darf ich hier vor das P auch noch eine beliebige andere Formel schreiben und ich darf das auch hier hinten machen.
+
+03:51.000 --> 04:02.000
+Das sind Regeln. Genau so, wie Sie eine Resolutionsregel anwenden.
+
+04:02.000 --> 04:07.000
+Sie haben eine Klausel und Sie haben noch eine Klausel und aus dieser Klausel leiten Sie das ab.
+
+04:07.000 --> 04:17.000
+Ja, wenn es ein MGU gibt. Hier sage ich einfach, wenn das eine Sequenz ist, dann ist das auch eine. Fertig aus.
+
+04:17.000 --> 04:22.000
+Richtig. Betrachten wir zum Beispiel die Resolutionsregel. Hier unten ist es.
+
+04:22.000 --> 04:27.000
+Stellen Sie sich für, das ist eine Klausel, das ist eine Klausel, da haben Sie irgendwie ein komplementäres Paar
+
+04:27.000 --> 04:31.000
+und dann kriegen Sie diese Klausel aus. Hier heißt diese Regel Cut-Regel.
+
+04:31.000 --> 04:37.000
+Sie sagt, wenn das eine gültige Sequenz ist und wenn das eine gültige Sequenz ist,
+
+04:37.000 --> 04:42.000
+also wenn diese Klausel erfüllt ist und diese Klausel erfüllt ist, dann ist auch diese Klausel erfüllt.
+
+04:42.000 --> 04:50.000
+Also dann ist auch diese Sequenz gültig. Das sind einfach Regeln. Die können Sie anwenden.
+
+04:50.000 --> 04:56.000
+Ohne, und das ist jetzt das andere, was ich in dieser Vorlesung immer betont habe,
+
+04:56.000 --> 05:05.000
+ohne zu überlegen, ob diese Formeln, die da stehen, irgendeinen Sinn ergeben.
+
+05:05.000 --> 05:18.000
+Sie können alle Beweise in Ihrem Informatikstudium führen, ohne zu verstehen, worum es überhaupt geht.
+
+05:18.000 --> 05:25.000
+Gut. Was ich Ihnen ja gesagt habe, ist, dass ich Ihnen natürlich auch beweisen muss,
+
+05:25.000 --> 05:34.000
+dass man diese Regeln anwenden darf. Und naja, das geht jetzt relativ flott.
+
+05:34.000 --> 05:39.000
+Überlegen Sie sich einfach mal hier, wie sieht denn das aus? Warum heißt denn das Idee?
+
+05:39.000 --> 05:45.000
+Das heißt Idee wie Identpotenz. Hier steht, diese Sequenz sei gültig.
+
+05:45.000 --> 05:56.000
+Das bedeutet ja, dass die prädikatenlogische Interpretation der Konjunktion aller dieser Formeln
+
+05:56.000 --> 06:04.000
+vom Wahrheitswert gleich ist. Nein. Entschuldigung.
+
+06:04.000 --> 06:12.000
+Wenn die prädikatenlogische Interpretation der Konjunktion aller dieser Formeln impliziert,
+
+06:12.000 --> 06:19.000
+dass die Interpretation auch die Disjunktion aller dieser Formeln erfüllt. Das steht hier ja.
+
+06:19.000 --> 06:29.000
+Das heißt hier steht p und p und und und und. Und was wissen wir? Die Konjunktion wird abgebildet
+
+06:29.000 --> 06:36.000
+auf das Infimum oder das Minimum oder wie Sie es wollen.
+
+06:36.000 --> 06:44.000
+Und wir wissen, dass die Konjunktion identpotent ist. p und p hat denselben Wahrheitswert wie p.
+
+06:44.000 --> 06:53.000
+Pups. Das ist der Beweis dafür, dass diese Rede korrekt ist. Hier können Sie genauso gut argumentieren
+
+06:53.000 --> 06:59.000
+oder nicht. Hier hinten. Wir wissen, dass die Disjunktion komutativ ist.
+
+06:59.000 --> 07:05.000
+Also ist es pups egal, ob zuerst p und p vorkommt oder p und p.
+
+07:05.000 --> 07:12.000
+Und so kann man die Korrektheit all dieser Regeln beweisen.
+
+07:12.000 --> 07:20.000
+Was habe ich hier genommen? Hier steht das weakening. Wir haben eine Sequenz p und q.
+
+07:20.000 --> 07:28.000
+Das heißt aus der Konjunktion von p folgt die Götigkeit oder folgt, dass die Disjunktion von q erfüllt ist.
+
+07:28.000 --> 07:35.000
+Jetzt kann ich das weakening, das wir aus der prädikatenlogik kennen, hier anwenden.
+
+07:35.000 --> 07:42.000
+Und dann steht da dieser Kern, den ich jetzt einfach wieder durch die Definition der Interpretationsfunktion der Sequenz
+
+07:42.000 --> 07:47.000
+umfauen kann. Und schon steht es da.
+
+07:47.000 --> 07:54.000
+Und jetzt sehen Sie auch, warum das so hübsch ist, wenn man mit den Wahrheitswerten direkt argumentiert.
+
+07:54.000 --> 08:03.000
+Wir betrachten ja die Konjunktion, also das Infimum aller Formen über p und das Supremum aller Formen über q.
+
+08:03.000 --> 08:14.000
+Und diese Sequenz ist ja nötig, wenn im Endeffekt der Wahrheitswert, der hier rauskommt, kleiner gleich dem Wahrheitswert ist, der hier rauskommt.
+
+08:14.000 --> 08:21.000
+So, jetzt überlegen wir uns das einfach. Wenn wir also hier einen Wahrheitswert haben, der kleiner gleich dem ist,
+
+08:21.000 --> 08:29.000
+dann können wir den hier natürlich auch größer machen. Und immer noch ist der kleiner als der.
+
+08:29.000 --> 08:35.000
+Und größer machen können wir ihn, indem wir irgendetwas dazu tun. Und das Supremum.
+
+08:35.000 --> 08:48.000
+Also, dieses kleine Ding hier ist im Endeffekt der Beweis der Gültigkeit der weakening.
+
+08:48.000 --> 08:52.000
+Und für left macht man es genauso.
+
+08:52.000 --> 09:01.000
+Wenn diese Sequenz hier gültig ist, ist der Wahrheitswert hiervon kleiner gleich dem Wahrheitswert hiervon.
+
+09:01.000 --> 09:13.000
+Wenn dieser Wahrheitswert hier kleiner ist als der hier, ist dieser Wahrheitswert hier auch größer als jeder Wahrheitswert kleiner dem hier.
+
+09:13.000 --> 09:22.000
+Und wie kriege ich den Wahrheitswert von dem Kleiner? Na gut, indem ich eben das Intimum über noch einen bilde.
+
+09:22.000 --> 09:31.000
+Vielleicht kommt das Gleiche raus, vielleicht kommt das Kleine raus.
+
+09:31.000 --> 09:35.000
+Der Knaller ist jetzt natürlich die sogenannte Cut-Regel.
+
+09:35.000 --> 09:43.000
+Die Cut-Regel ermöglicht es uns, aus zwei Sequenzen etwas herauszuschneiden.
+
+09:43.000 --> 09:51.000
+Und ich habe nicht ohne Grund die Analogie zur Resonanzregel hergestellt.
+
+09:51.000 --> 09:56.000
+Schauen wir uns die Regel nochmal kurz an.
+
+09:56.000 --> 10:16.000
+Die sagt, wenn ich eine Sequenz habe, die also ausdrückt, wann immer die Konjunktion hiervon die Disjunktion hiervon infiziert und wann immer die Konjunktion hiervon die Disjunktion hiervon infiziert,
+
+10:16.000 --> 10:26.000
+dann darf ich das p, das einmal hier in den Subzidenzen vorkommt und einmal hier in den Antizidenzen, dann darf ich das p weglassen
+
+10:26.000 --> 10:38.000
+und jetzt gucken sie hin und die verbleibenden Antizidenzen vereinigen und die verbleibenden Subzidenzen vereinigen.
+
+10:38.000 --> 10:41.000
+Sieht schon verflitzt nach der Resolution aus.
+
+10:41.000 --> 10:50.000
+Und entsprechend der Resolution funktioniert auch der Beweis der Gültigkeit dieser.
+
+10:50.000 --> 10:58.000
+Nehmen wir also mal an, die Prämissen, der Cut-Regel sein erfüllt.
+
+10:58.000 --> 11:08.000
+Wir wissen also p impliziert q oder p und wir wissen p und r impliziert s.
+
+11:08.000 --> 11:21.000
+Ich lese das jetzt tatsächlich so, obwohl sie wissen, dass das im Endeffekt die Rechnungen auf den Wahrheitswerten unter allen prädikaten logischen Interpretationen ist.
+
+11:21.000 --> 11:28.000
+Und jetzt sehen sie die Rangierregel wieder, unser Shunting.
+
+11:28.000 --> 11:39.000
+Denn das Tolle ist, wir können jetzt natürlich, weil hier ein kleiner Gleich steht, dieses p hier komplementieren und darüber ziehen.
+
+11:39.000 --> 11:43.000
+Weil hier steht ja eine Disjunktion und hier stehen Konjunktionen.
+
+11:43.000 --> 11:49.000
+Gucken sie noch mal auf den Folien nach, wo die Rangierregel im Shuntingregel definiert ist.
+
+11:49.000 --> 12:03.000
+Das heißt, aus dieser Formel hier, wenn diese Sequenzen, wenn die Sequenzen in der Prämisse der Regel erfüllt sind, bedeutet es, dass diese Ungleichungen hier wahr sind.
+
+12:03.000 --> 12:10.000
+Und aufgrund der Rechengesetze hier weiß ich dann, dass auch diese Ungleichungen hier wahr sind.
+
+12:10.000 --> 12:24.000
+Das heißt, p und die Konjunktion über groß p und die Konjunktion über die Negation von p ist kleiner Gleich der Disjunktion über u.
+
+12:24.000 --> 12:30.000
+Und das Gleiche kann ich machen, ich kann dieses hier natürlich auch darüber schieben und es daran gehen.
+
+12:30.000 --> 12:37.000
+So, und jetzt muss man einfach nur ein bisschen rechnen.
+
+12:37.000 --> 12:49.000
+Was wollen wir jetzt zeigen? Also was wir bis jetzt gemacht haben ist, dass wir gesagt haben, aus diesen beiden, aus der Gültigkeit dieser beiden Sequenzen muss ja die Gültigkeit dieser Sequenz folgen.
+
+12:49.000 --> 12:54.000
+Wir gehen jetzt davon aus, diese Sequenz ist gültig und diese Sequenz ist gültig.
+
+12:54.000 --> 13:00.000
+Das haben wir durch unsere kleinen Gleichungen dargestellt.
+
+13:00.000 --> 13:12.000
+Und jetzt müssen wir beweisen, dass wenn diese kleinen Gleichungen wahr sind, Sie merken, vorhin standen hier die Formeln und hier standen die Relationen.
+
+13:12.000 --> 13:17.000
+Jetzt machen wir das Gleiche hier. Hier stehen die Sequenzen und hier stehen die Ungleichungen.
+
+13:17.000 --> 13:30.000
+Also wenn die Ungleichung, die das hier darstellt und die Ungleichung, die das hier darstellt, dann muss auch die Ungleichung hier unten wahr sein.
+
+13:30.000 --> 13:39.000
+Wann ist diese Ungleichung hier unten wahr? Naja dann, wenn die Konjunktion von all diesen hier kleiner Gleich der Disjunktion der hier ist.
+
+13:39.000 --> 13:58.000
+Nehmen wir also mal an, die Konjunktion hier oder betrachten die Konjunktion hier und weisen mithilfe dieser Eigenschaften nach, dass der Wahrheitswert dieser Konjunktion kleiner Gleich dem Wahrheitswert dieser Disjunktion ist.
+
+13:58.000 --> 14:20.000
+Also wie ich gesagt habe, wir gucken uns den Wahrheitswert der Konjunktion an, wenn wir diese beiden Antizidenzen nach links von dieser Sequenz integrieren.
+
+14:20.000 --> 14:44.000
+Also die Konjunktion von P und die Konjunktion von L. So, jetzt wissen wir ja, dass, Moment, jetzt muss ich kurz gucken, wo habe ich es hingeschrieben, dass das P kleiner Gleich dem Q oder dem P ist.
+
+14:44.000 --> 15:00.000
+Wenn ich hier P und R betrachte und P kleiner Gleich Q oder P ist, dann ist natürlich Q oder P für P eingesetzt, kleiner Gleich Q oder P und R.
+
+15:00.000 --> 15:17.000
+Jetzt benutze ich das Gleich für das R hier. Wir wissen ja, das R ist kleiner Gleich dem S oder dem P-Kompliment. Also ist dieses hier kleiner Gleich dem hier.
+
+15:17.000 --> 15:31.000
+Jetzt steht hier, Sie sehen es sofort, eine Konjunktion von zwei Disjunktionen. Und reflexartig wendet man das Diskutivitätsgesetz ab.
+
+15:31.000 --> 15:53.000
+Und reflexartig erkennt man sofort, hier hinten steht P und nicht P. P und nicht P ist false. False ist neutral bezüglich der Disjunktion. Das heißt, wir können diesen Term hier weglassen, ohne das Ergebnis zu verändern.
+
+15:53.000 --> 16:07.000
+Also wir lassen es weg, wenden das Assoziativitätsgesetz an, damit wir ein paar Klammern weglassen können. Und jetzt haben wir hier folgendes stehen. Q und S oder P und S oder Q und P.
+
+16:07.000 --> 16:28.000
+Ja, jetzt können wir doch jeden dieser Terme hier abschätzen. Q und S ist ja immer kleiner als nur Q. P und S ist immer kleiner als nur S.
+
+16:28.000 --> 16:39.000
+Und Q und P ist immer kleiner als nur Q. Also ist die Disjunktion hiervon immer kleiner als die Disjunktion von denen.
+
+16:39.000 --> 16:59.000
+Und jetzt gucken wir uns das an. Hier steht zweimal Q. Ja, drehen wir das einmal um, stellen fest, idempotent. Und jetzt steht hier Q oder S. Und was haben wir gezeigt? Der Wahrheitswert von P und R ist immer kleiner gleich dem Wahrheitswert von Q oder S.
+
+16:59.000 --> 17:11.000
+Und damit haben wir die Gültigkeit dieser Regeln gezeigt.
+

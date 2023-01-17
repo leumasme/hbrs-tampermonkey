@@ -1,0 +1,614 @@
+WEBVTT
+
+00:00.000 --> 00:08.000
+So, dann kommen wir zum Schluss noch zu zwei oder drei schönen Beispielen.
+
+00:08.000 --> 00:14.000
+Wir bleiben erstmal für dieses Beispiel nochmal in der Aussage würdig.
+
+00:14.000 --> 00:24.000
+Einfach nur, um einzufügen, wie solche Kalkülregeln verwendet werden.
+
+00:24.000 --> 00:31.000
+Also, wenn Sie eben abgeschaltet haben bei diesen ganzen Korrektheitsdingern und bei diesen Beweisen, ist das kein Problem.
+
+00:31.000 --> 00:36.000
+Hauptsache, Sie sind jetzt wieder dabei.
+
+00:36.000 --> 00:44.000
+Wieder möchten wir ZEI im Endeffekt eine Tautologie beweisen.
+
+00:44.000 --> 00:47.000
+Dass eine Formel eine Tautologie ist.
+
+00:47.000 --> 00:53.000
+Und das ist etwas, was Sie ja schon längst wissen.
+
+00:53.000 --> 00:58.000
+Nicht p oder q impliziert p impliziert q.
+
+00:58.000 --> 01:00.000
+Oder ich drücke es mal so aus.
+
+01:00.000 --> 01:04.000
+Nicht p oder q impliziert p Subjunktion q.
+
+01:04.000 --> 01:06.000
+Das drücken wir natürlich so aus.
+
+01:06.000 --> 01:14.000
+Aber erinnern Sie sich im Hinterkopf schon an das Deduktionstheoret.
+
+01:14.000 --> 01:18.000
+Mit dem man dann so etwas nach vorne zieht.
+
+01:18.000 --> 01:25.000
+Okay, wir wollen also, um zu beweisen, dass, hier müsste jetzt natürlich ein Schritt.
+
+01:25.000 --> 01:28.000
+Ja, ne, i reicht ja hier für die Aussagenlogik.
+
+01:28.000 --> 01:34.000
+Wir müssen jetzt also zeigen, dass, wenn das hier eine Tautologie ist,
+
+01:34.000 --> 01:44.000
+die entsprechende Sequenz, wo vorne links nichts dransteht, eine gültige Sequenz ist.
+
+01:44.000 --> 01:46.000
+Das müssen wir machen.
+
+01:46.000 --> 01:52.000
+Wie geht man da jetzt vor?
+
+01:52.000 --> 02:08.000
+In der Tat handelt man sich jetzt von hinten nach vorne durch einen solchen Beweis durch.
+
+02:08.000 --> 02:14.000
+Das ist gar nicht so ungewöhnlich.
+
+02:14.000 --> 02:19.000
+Weil Sie wollen ja das beweisen.
+
+02:19.000 --> 02:22.000
+Das ist ja das, was es zu beweisen gibt.
+
+02:22.000 --> 02:34.000
+Also wollen Sie ja sehen, wie kann ich diese Formel, wie kann ich die Gültigkeit dieser Formel nachweisen.
+
+02:34.000 --> 02:44.000
+Also Sie wollen diese Sequenz herleiten in diesem Kalkül.
+
+02:44.000 --> 02:49.000
+Und wenn Sie jetzt genau hingucken, dann ist diese Sequenz,
+
+02:49.000 --> 02:58.000
+diese Sequenz determiniert im Endeffekt eindeutig, welche Regel angewendet worden sein muss,
+
+02:58.000 --> 03:02.000
+um zu diesem Schluss zu kommen.
+
+03:02.000 --> 03:08.000
+Wir können also sozusagen diese Behauptung hier zerlegen,
+
+03:08.000 --> 03:13.000
+in eine neue Sequenz, deren Gültigkeit zu beweisen ist.
+
+03:13.000 --> 03:18.000
+Naja, schauen wir hin, das ist eine Formel, die eine Subjunktion ist,
+
+03:18.000 --> 03:21.000
+auf der rechten Seite einer Sequenz.
+
+03:21.000 --> 03:29.000
+Und dafür gibt es genau eine Regel, nämlich die Replikationseinführung auf der rechten Seite, die IR.
+
+03:29.000 --> 03:33.000
+So, was heißt das?
+
+03:33.000 --> 03:38.000
+Moment, genau.
+
+03:38.000 --> 03:48.000
+Wenn ich also diese Subjunktion hier haben will, dann muss ich vorher das gehabt haben.
+
+03:48.000 --> 03:58.000
+Im Endeffekt entspricht das in Anführungszeichen dem Reduktionstheorien, das ich vorhin angesprochen habe.
+
+03:58.000 --> 04:05.000
+Das hier ist die Anwendung der Replikationseinführung auf der rechten Seite.
+
+04:05.000 --> 04:11.000
+Wenn Sie das hier haben, dürfen Sie das hier hinschreiben.
+
+04:11.000 --> 04:20.000
+Unsere Frage war jetzt, um das zu zeigen, muss ich was zeigen?
+
+04:20.000 --> 04:24.000
+Naja, das, woraus ich es herleiten kann.
+
+04:24.000 --> 04:30.000
+Wir haben jetzt also das Problem, die Gültigkeit dieser Sequenz zu beweisen,
+
+04:30.000 --> 04:35.000
+überführt in das Problem, die Gültigkeit dieser Sequenz zu beweisen.
+
+04:35.000 --> 04:43.000
+Okay, jetzt haben wir auf der rechten Seite eine Subjunktion stehen und hier haben wir eine Disjunktion stehen.
+
+04:43.000 --> 04:46.000
+Jetzt können wir ja eigentlich schon mehrere Sachen machen.
+
+04:46.000 --> 04:51.000
+Jetzt können wir uns überlegen, wo kommt eine Disjunktion auf der linken Seite her?
+
+04:51.000 --> 05:01.000
+Oder wir können uns überlegen, wo kommt eine Subjunktion auf der rechten Seite her?
+
+05:01.000 --> 05:07.000
+Wenn es jetzt schon einmal mit der Replikationseinführung auf der rechten Seite geklappt hat,
+
+05:07.000 --> 05:11.000
+dann machen wir es doch gleich nochmal.
+
+05:11.000 --> 05:14.000
+Wir wollen also hier hin.
+
+05:14.000 --> 05:27.000
+Wir wollen, dass die Sequenz, die aus nicht p oder q p Subjunktion q folgt, wollen wir herleiten.
+
+05:27.000 --> 05:32.000
+Und wie ich eben gesagt habe, dann können wir uns entweder überlegen, wo kommt das oder her,
+
+05:32.000 --> 05:35.000
+oder wir können uns überlegen, wo kommt die Subjunktion her.
+
+05:35.000 --> 05:39.000
+Nehmen wir wieder, wo kommt die Subjunktion auf der rechten Seite her,
+
+05:39.000 --> 05:41.000
+dann haben wir das gleiche Problem wie hier oben.
+
+05:41.000 --> 05:47.000
+Da haben wir diese Teilformel nach links geschoben.
+
+05:47.000 --> 05:51.000
+Jetzt machen wir hier genau dasselbe und schieben das p nach links.
+
+05:51.000 --> 05:55.000
+Das heißt, wir haben diese Formel, die ursprünglich da war, hier,
+
+05:55.000 --> 06:02.000
+und jetzt haben wir die Prämisse dieser Subjunktion hier rübergezogen.
+
+06:02.000 --> 06:11.000
+Beziehungsweise, wenn wir wissen, dass dieses eine gültige Sequenz ist,
+
+06:11.000 --> 06:15.000
+dann wissen wir auch, dass das hier eine gültige Sequenz ist.
+
+06:15.000 --> 06:20.000
+Wenn das hier eine gültige Sequenz ist, wissen wir auch, dass das hier eine gültige Sequenz ist.
+
+06:20.000 --> 06:23.000
+Und dann hat unser Beweis geklappt.
+
+06:23.000 --> 06:28.000
+Also, die Frage ist, wie gehen wir jetzt hier vor?
+
+06:28.000 --> 06:31.000
+Was könnte man jetzt hier machen?
+
+06:31.000 --> 06:35.000
+Man könnte das q hier rüberziehen, dabei negieren.
+
+06:35.000 --> 06:39.000
+Man könnte das p hier rüberziehen, dabei negieren.
+
+06:39.000 --> 06:46.000
+Man könnte versuchen, dieses hier rüberziehen, wenn man denn unbedingt will.
+
+06:46.000 --> 06:51.000
+Oder man könnte versuchen, diese Disjunktion aufzulösen.
+
+06:51.000 --> 06:56.000
+Oder man könnte diese beiden Formeln zu einer Konjunktion zusammenführen,
+
+06:56.000 --> 07:00.000
+wenn man jetzt sozusagen hier nach unten weitermachen will.
+
+07:00.000 --> 07:04.000
+Die Frage ist aber, wo sind wir von oben her gekommen?
+
+07:04.000 --> 07:07.000
+Und da bietet sich eigentlich nur die Disjunktion an.
+
+07:07.000 --> 07:10.000
+Da bin ich mal gespannt, ob es auch klappt.
+
+07:10.000 --> 07:16.000
+Offensichtlich wurde diese Disjunktion als Letztes erzeugt.
+
+07:16.000 --> 07:19.000
+Wir wollen ja zu unseren Axiomen.
+
+07:19.000 --> 07:23.000
+Also, wo kommt jetzt diese Disjunktion her?
+
+07:23.000 --> 07:25.000
+Hier. Da wollen wir hin.
+
+07:25.000 --> 07:27.000
+Das ist diese Formel von hier.
+
+07:27.000 --> 07:34.000
+Wir müssen uns also überlegen, wo eine Disjunktion auf der linken Seite herkommen kann.
+
+07:34.000 --> 07:42.000
+Und sie kann nur daher kommen, wenn wir eine Regel zur Einführung der Disjunktion auf der linken Seite anwenden.
+
+07:42.000 --> 07:46.000
+Ja, und wenn wir jetzt dieses Teil hier nehmen, wissen wir,
+
+07:46.000 --> 07:51.000
+dass wir die Gültigkeit dieser beiden Sequenzen hier beweisen müssen.
+
+07:51.000 --> 08:04.000
+Nämlich PQ einmal mit Q hier und einmal mit nicht P da.
+
+08:04.000 --> 08:10.000
+Also, um die Gültigkeit dieser Sequenz brauchen wir diese, um die Gültigkeit dieser Sequenz brauchen wir diese,
+
+08:10.000 --> 08:14.000
+um die Gültigkeit dieser Sequenz brauchen wir diese beiden Sequenzen.
+
+08:14.000 --> 08:17.000
+Naja, und wenn Sie jetzt schon mal genauer hinschauen,
+
+08:17.000 --> 08:28.000
+dann sehen Sie, dass das hier schon ziemlich nahe an unseren Axiomen ist.
+
+08:28.000 --> 08:33.000
+Wir müssen jetzt also – Moment, jetzt müssen wir mal zurückgucken.
+
+08:33.000 --> 08:34.000
+Richtig.
+
+08:34.000 --> 08:43.000
+Wir schauen uns jetzt als erstes mal an, wo kommt denn dieses nicht PQ her.
+
+08:43.000 --> 08:47.000
+Wo ist das eine gültige Sequenz, kann man sich jetzt schon vorstellen.
+
+08:47.000 --> 08:52.000
+Das hier entspricht ja der Konjunktion der Formeln nicht P und P.
+
+08:52.000 --> 08:55.000
+Die hat kein Modell.
+
+08:55.000 --> 08:59.000
+Dementsprechend folgt alles daraus, also auch Punkt.
+
+08:59.000 --> 09:06.000
+Nur mal, um sich zu überlegen, um zu lernen, um zu üben,
+
+09:06.000 --> 09:11.000
+was die Bedeutung oder wie man solche Sequenzen lesen kann.
+
+09:11.000 --> 09:17.000
+Ja gut, und jetzt wissen wir, dass das negierte P hier nur daher kommen kann,
+
+09:17.000 --> 09:20.000
+dass wir es auf der linken Seite negiert haben.
+
+09:20.000 --> 09:25.000
+Das heißt, es muss vorher positiv auf der rechten Seite gestanden haben.
+
+09:25.000 --> 09:30.000
+Und jetzt steht hier PQP und da überlegen wir uns,
+
+09:30.000 --> 09:35.000
+naja, PP wäre ein Axiom, wo können wir denn das Q herkriegen.
+
+09:35.000 --> 09:40.000
+Naja, und das kriegen wir durch die Abschwächungsregel auf der rechten Seite.
+
+09:40.000 --> 09:44.000
+Und dann haben wir hier stehen, das ist jetzt ein bisschen verdeckt,
+
+09:44.000 --> 09:50.000
+hier haben wir das Axiom stehen PP, das wird einfach um ein Q erweitert,
+
+09:50.000 --> 09:54.000
+dann wird ein P rüber geschoben und wir haben die grüne Sequenz,
+
+09:54.000 --> 09:58.000
+die Gültigkeit der grünen Sequenz nachgelesen.
+
+09:58.000 --> 10:04.000
+Für die blaue ist es noch einfacher, weil da keine Negation drin vorkommt.
+
+10:04.000 --> 10:08.000
+Da sagen wir einfach QQ ist ein Axiom und auf der linken Seite
+
+10:08.000 --> 10:12.000
+stechen wir ein P ab, fertig.
+
+10:12.000 --> 10:20.000
+Und damit haben wir jetzt sozusagen von hier ausgehend dieses hergeleitet.
+
+10:20.000 --> 10:24.000
+Oder haben wir gewusst, das hier muss herzuleiten sein,
+
+10:24.000 --> 10:27.000
+um das herzuleiten, muss das herzuleiten sein,
+
+10:27.000 --> 10:32.000
+um das herzuleiten, müssen diese beiden herzuleiten sein.
+
+10:32.000 --> 10:36.000
+Dieses Ding ist auf diese Art und Weise aus einem Axiom zu erzeugen
+
+10:36.000 --> 10:41.000
+und dieses Ding ist auf diese Art und Weise aus einem Axiom zu erzeugen.
+
+10:41.000 --> 10:45.000
+Umgekehrt, wenn wir mit diesem Axiom anfangen, machen wir das da draus,
+
+10:45.000 --> 10:48.000
+das da draus, oh guck mal mit diesen beiden Dingern,
+
+10:48.000 --> 10:50.000
+wenn man das gescheit einsetzt, können wir das machen,
+
+10:50.000 --> 10:52.000
+wenn wir das haben, können wir das machen,
+
+10:52.000 --> 10:58.000
+wenn wir das machen, das und das und wir sind fertig.
+
+10:58.000 --> 11:09.000
+Gut, letzte Woche schon habe ich Ihnen versucht,
+
+11:09.000 --> 11:20.000
+dieses Beispiel mit dem Sokrates zu erklären.
+
+11:20.000 --> 11:36.000
+Und heute möchte ich Ihnen noch einfach eigentlich Handwerkszeug an die Hand geben,
+
+11:36.000 --> 11:41.000
+wie man einen solchen Beweis konstruiert.
+
+11:41.000 --> 11:46.000
+Wenn Sie in anderen Büchern nachsehen oder im Internet oder in anderen Videos,
+
+11:46.000 --> 11:49.000
+werden Sie sehen und vielleicht, wenn das gleich mit diesem Tool noch klappt,
+
+11:49.000 --> 11:54.000
+werden Sie sehen, dass das häufig in einer Art Baumstruktur gemacht wird.
+
+11:54.000 --> 11:57.000
+Die lässt sich aber nur sehr schlecht darstellen,
+
+11:57.000 --> 12:01.000
+deswegen nehme ich mal wieder diese übliche Zeilenmutation.
+
+12:01.000 --> 12:08.000
+Nehmen wir mal an, wir wollen beweisen, dass wenn es kein x gibt,
+
+12:08.000 --> 12:12.000
+nein, dass wenn es ein x gibt, so dass nicht p von x,
+
+12:12.000 --> 12:20.000
+das daraus folgt, nicht für alle x gilt p von x, ganz einfache Sache.
+
+12:20.000 --> 12:26.000
+Aber das ist jetzt etwas, wo wir unsere Quantorenregeln mal einsetzen müssen.
+
+12:26.000 --> 12:31.000
+Wir können also von vorne herein schon mal sagen,
+
+12:31.000 --> 12:38.000
+naja, diese atomaten Formeln, die hier vorkommen, das sind unsere p's.
+
+12:38.000 --> 12:41.000
+Wir brauchen also Axiome mit unserem p.
+
+12:41.000 --> 12:48.000
+Da setzen wir die gleich mal mit einer Konstante hin.
+
+12:48.000 --> 12:52.000
+Und wo wir hin wollen, ist ja das hier, ist ja diese Sequenz.
+
+12:52.000 --> 12:57.000
+Es existiert ein x, so dass nicht px und nicht für alle x px.
+
+12:57.000 --> 13:01.000
+Da wollen wir hin. Wie kommen wir da hin?
+
+13:01.000 --> 13:06.000
+Und jetzt kann man wirklich schön sehen, wie man sich von unten nach oben
+
+13:06.000 --> 13:13.000
+beziehungsweise von oben nach unten da durchhandelt.
+
+13:13.000 --> 13:16.000
+In einem ersten Schritt zum Beispiel überlegt man sich,
+
+13:16.000 --> 13:21.000
+ja, wo kommt denn diese Existenzquantur hier links her?
+
+13:21.000 --> 13:31.000
+Und dazu haben wir die Regel zur Einführung des Existenzquanturs auf der linken Seite.
+
+13:31.000 --> 13:38.000
+Nämlich werden dieses x hier entsprechend durch Fernkonstante ersetzt.
+
+13:38.000 --> 13:40.000
+Das ist ganz gerade nicht im Kopf.
+
+13:40.000 --> 13:45.000
+Also wenn wir das haben, oder wenn das eine gültige Sequenz ist,
+
+13:45.000 --> 13:51.000
+dann folgt daraus durch die Anwendung der Einführung des Existenzquanturs links
+
+13:51.000 --> 14:00.000
+die Gültigkeit dieser Sequenz hier.
+
+14:00.000 --> 14:04.000
+Wir können aber genauso gut auch mal von oben anfangen,
+
+14:04.000 --> 14:08.000
+weil wir wissen ja, wir brauchen ja auch ein Altquantur.
+
+14:08.000 --> 14:14.000
+Und wir wissen, dass wir hier irgendwie mit Negationen rumschieben müssen.
+
+14:14.000 --> 14:19.000
+Also wenn wir jetzt links schon Existenzquantur brauchen
+
+14:19.000 --> 14:24.000
+und links eine mediierte Formel haben, hier oben haben wir die positive Formel,
+
+14:24.000 --> 14:27.000
+tun wir doch mal den Altquantur auch links einführen,
+
+14:27.000 --> 14:32.000
+weil dadurch, dass wir hinterher das eine oder das andere von links nach rechts rumschieben,
+
+14:32.000 --> 14:39.000
+ist ja die Wahrscheinlichkeit relativ groß, dass wir irgendwie unsere verbotene Dualität hier hinkriegen.
+
+14:39.000 --> 14:43.000
+Wir nehmen also unsere Aktion.
+
+14:43.000 --> 14:45.000
+Sie können es auch nur von oben nach unten machen.
+
+14:45.000 --> 14:49.000
+Das ist jetzt nochmal ein Beispiel, wie man vielleicht auch von oben nach unten zusetzen kann.
+
+14:49.000 --> 14:54.000
+Wir nehmen jetzt also unsere Regel, die es uns erlaubt, links eine Altquantur einzuführen.
+
+14:54.000 --> 15:04.000
+Jetzt sehen Sie, jetzt steht hier für alle xpx positiv,
+
+15:04.000 --> 15:08.000
+hier hinten steht es negativ, es muss also irgendwie da rüber.
+
+15:08.000 --> 15:12.000
+Da unten steht es ja auch da links und da haben wir schon eine Idee, wie das geht.
+
+15:12.000 --> 15:18.000
+Und dieses Teil, was hier unten steht, das muss jetzt noch irgendwo her.
+
+15:18.000 --> 15:32.000
+Also, was wir machen, ist jetzt dieses PA negativ oder hier rüber zu kriegen,
+
+15:32.000 --> 15:37.000
+mit der Negationsanführung links oder mit der Rangierung, nennen Sie es wie Sie wollen.
+
+15:37.000 --> 15:41.000
+Und jetzt haben wir dieses Nicht-PA hier, das wir da unten brauchen,
+
+15:41.000 --> 15:45.000
+um diese Existenz über die negierte Form rauszukriegen.
+
+15:45.000 --> 15:58.000
+Und dann weiß ich ja, darf ich die Reihenfolge von Formen in dieser Sequenz vertauschen.
+
+15:58.000 --> 16:01.000
+Also ziehe ich die einfach um.
+
+16:01.000 --> 16:07.000
+Das ist die Anwendung der... ach, falsche Version noch.
+
+16:07.000 --> 16:11.000
+Das ist nicht Excel, nicht ExchangeLab, sondern CHL.
+
+16:11.000 --> 16:14.000
+Ist auf dem neuen Folie korrigiert.
+
+16:14.000 --> 16:17.000
+So, und jetzt gucken wir uns das hier an.
+
+16:17.000 --> 16:21.000
+Wir wussten ja, wir brauchen ja die negativierte Version des ALG-Quantors,
+
+16:21.000 --> 16:23.000
+hier auf der rechten Seite.
+
+16:23.000 --> 16:26.000
+Der steht jetzt hier vorne, das heißt, jetzt können wir ihn hier nach hinten rüberziehen.
+
+16:26.000 --> 16:28.000
+Und dabei gehen wir.
+
+16:28.000 --> 16:31.000
+Zack, und schon ist unser Beweis fertig.
+
+16:31.000 --> 16:47.000
+Ich würde gerne noch diesen Beweis hier schön mit der ALG-Quantifikation zeigen.
+
+16:47.000 --> 16:53.000
+Und interessanterweise stellt man dabei eben auch fest,
+
+16:53.000 --> 16:56.000
+dass man die Cut-Regel gar nicht braucht.
+
+16:56.000 --> 17:04.000
+Aber dazu möchte ich eben versuchen, das von einem Rechner zu machen.
+
+17:04.000 --> 17:12.000
+Und nochmal mein Hinweis.
+
+17:12.000 --> 17:17.000
+Sie finden unheimlich viele tolle Sachen.
+
+17:17.000 --> 17:20.000
+Ich habe noch viele andere gefunden, die ich fast noch besser finde,
+
+17:20.000 --> 17:23.000
+als das, was hier auf dem Folie steht,
+
+17:23.000 --> 17:26.000
+die Ihnen was zum Sequenzenkalkül erklärt.
+
+17:26.000 --> 17:30.000
+Das ist genauso wie für natürliche Deduktion oder für Soluzion.
+
+17:30.000 --> 17:35.000
+Und ich habe Ihnen hier mal einen Theoreenbeweiser aufgeschrieben,
+
+17:35.000 --> 17:42.000
+mit dem Sie für Aussagenlogik im Internet rumspielen können,
+
+17:42.000 --> 17:45.000
+um solche Beweise zu machen.
+
+17:45.000 --> 17:50.000
+Aber sowas gibt es natürlich auch fast für alle anderen Kalküle.
+
+17:50.000 --> 18:00.000
+Und das möchte ich Ihnen sozusagen auch als Hinweis geben,
+
+18:00.000 --> 18:05.000
+wenn es darum geht, dass Sie sich auf eine Klausur vorbereiten oder so.
+
+18:05.000 --> 18:07.000
+Sie können sich beliebige Beispiele nehmen,
+
+18:07.000 --> 18:10.000
+auch wenn es dazu keine Musterlösungen gibt oder so.
+
+18:10.000 --> 18:12.000
+Sie versuchen sie zu lösen.
+
+18:12.000 --> 18:15.000
+Und es gibt fast immer ein passendes Tool,
+
+18:15.000 --> 18:21.000
+mit dem Sie Ihre Lösung überprüfen können.
+

@@ -1,0 +1,344 @@
+WEBVTT
+
+00:00.000 --> 00:15.000
+Also das wichtige an der Logik ist ja, dass wir eine genau definierte Sprache haben und für diese genau definierte Sprache festlegen, was die Bedeutung der einzelnen Wörter aus dieser Sprache ist, also der Formel.
+
+00:15.000 --> 00:18.000
+Wie diese Sprache aussieht, haben wir eben gemacht in der Syntax.
+
+00:18.000 --> 00:35.000
+Jetzt kommen wir zur Semantik der Aussagenlogik. Sprich, was wir machen ist, wir wollen jeder Formel eine eindeutige Bedeutung zuweisen.
+
+00:35.000 --> 00:39.000
+Und sowas macht man in der Regel, indem man etwas interpretiert.
+
+00:39.000 --> 00:55.000
+Also eine Interpretation i weist jetzt ausdrücken aus unserer Menge der Formeln, also im Endeffekt weist den Formeln aus FML eine Bedeutung zu.
+
+00:55.000 --> 01:01.000
+So, was ist jetzt diese Bedeutung? Diese Bedeutung ist irgendwo verborgen in einer Struktur.
+
+01:01.000 --> 01:07.000
+Wir nennen es mal vorläufig ein Modell.
+
+01:07.000 --> 01:22.000
+Sie haben ein Modell, Sie haben eine Idee der Welt und in dieser Welt, in diesem Modell der Welt interpretieren Sie Formeln.
+
+01:22.000 --> 01:34.000
+Das ist genau das gleiche, Sie interpretieren ja auch eine natürliche sprachige Aussage in Ihrem Kopf bezüglich Ihrem Modell der Welt.
+
+01:34.000 --> 01:45.000
+Wenn also jemand sagt, es ist heiß, dann interpretieren Sie dessen Aussage, indem Sie sich überlegen, das Wort heiß, das er verwendet.
+
+01:45.000 --> 01:54.000
+Was bedeutet das Wort heiß für mich? Und daraus schließen Sie, ja ich bin gleicher Meinung oder nicht.
+
+01:54.000 --> 02:07.000
+So, das nennen wir dieses Modell, um den Begriff jetzt gleich erstmal wieder zu vergessen, nennen wir eine Struktur.
+
+02:07.000 --> 02:20.000
+Was das genau ist, sollen Sie jetzt erstmal nicht beunruhigen, insbesondere soll Sie aber auch nicht beunruhigen, dass ich so eine Struktur häufig als algebra bezeichne.
+
+02:20.000 --> 02:29.000
+So, was machen wir jetzt mit Formen? Ganz einfach, wir brauchen dazu zwei Dinge.
+
+02:29.000 --> 02:45.000
+Und zwar brauchen wir eine Komponente unserer Interpretation, die allen atomaren Aussagen, also sprich allen Aussagenvariablen tatsächlich einen Wahrheitswert zuordnet.
+
+02:45.000 --> 02:56.000
+Und das macht so ein schön geschwungenes A. Für diejenigen von Ihnen, die sagen, das ist ein Alpha, das ist vollkommen in Ordnung.
+
+02:56.000 --> 03:04.000
+Man nimmt ein A, weil es sich aus dem Englischen ableitet, sich das ableitet aus dem Wort Assignment, also Zuweisung.
+
+03:04.000 --> 03:16.000
+Außerdem steckt in dieser Interpretation I noch ein kleines I drin. Und was macht dieses kleine I?
+
+03:16.000 --> 03:33.000
+Dieses kleine I ist dafür verantwortlich, dass die strukturbildenden Elemente der Formeln, also die logischen Junktoren auf entsprechende Operationen in unserem Modell, in unserer Struktur abgebildet werden.
+
+03:33.000 --> 03:53.000
+Wenn also jemand sagt, es ist heiß und es regnet, dann haben Sie in Ihrem Kopf eine Interpretation durch ein solches A, um herauszufinden, ob jetzt es heiß ist und oder ob es regnet.
+
+03:53.000 --> 04:12.000
+Dann haben Sie zwei Wahrheitswerte und weil Ihr Gesprächspartner ja gesagt hat, es regnet und es ist heiß, brauchen Sie jetzt noch eine Möglichkeit, dieses und, was also genau der Konjunktion in einer Formel entspricht, ebenfalls zu interpretieren.
+
+04:12.000 --> 04:36.000
+Also wir setzen die Interpretation pro schönes großes I zusammen aus diesem kleinen I, das uns erklärt, wie die Junktoren zu interpretieren sind, und aus dem kleinen geschwungenen A, welches uns erklärt, welche Wahrheitswerte die jeweiligen atomaren Aussagen haben.
+
+04:36.000 --> 04:49.000
+So, jetzt sind also I und A Funktionen und das kann man sich so vorstellen, jetzt schauen Sie mal hier hin, hier steht jetzt eine Formel A irgendwas B.
+
+04:49.000 --> 05:06.000
+Jetzt nehmen wir uns also das A und dieses A weist uns irgendwie einen Wert aus unserem Modell, aus unserer Welt zu, das macht das kleine A.
+
+05:06.000 --> 05:20.000
+Und das kleine I macht jetzt nichts anderes, als diesen Junktor abzubilden auf eine Operation, meinetwegen ja ein uns.
+
+05:20.000 --> 05:26.000
+So spielt das grafisch gesehen zusammen.
+
+05:26.000 --> 05:43.000
+Also zwei propositionalen Variablen werden, das ist hier jetzt noch ein bisschen anders dargestellt, ich halte da meinen Arm drüber, werden Wahrheitswerte zugeordnet und den Junktoren werden spezielle Operationen zugeordnet.
+
+05:43.000 --> 05:52.000
+Ja, um nicht immer I von irgendwas hinzuschreiben, macht man das I unten auch manchmal einfach in den Index ein.
+
+05:52.000 --> 05:59.000
+So, und wie sieht das jetzt im Detail aus?
+
+05:59.000 --> 06:11.000
+Alpha A ist also eine Funktion, die jeder propositionalen Variable einen Wahrheitswert zuordnet.
+
+06:11.000 --> 06:28.000
+Wissen Sie natürlich, es gibt viele solche Funktionen, das ist natürlich klar, weil wir ja alle möglichen Situationen erklären können wollen, in denen den unterschiedlichen Aussagenvariablen unterschiedliche Wahrheitswerte zugeordnet werden können.
+
+06:28.000 --> 06:45.000
+Sie können sich eine Belegung Alpha aber auch einfach als eine Tabelle vorstellen, in dem für jede Aussagenvariable aus ihrem Alphabet hinten ein Element aus Omega steht.
+
+06:45.000 --> 06:51.000
+So, jetzt haben wir also das Alpha, die Belegung erklärt.
+
+06:51.000 --> 06:59.000
+Jetzt kommt die große Frage, wie funktioniert jetzt die Interpretation der logischen Symbole?
+
+06:59.000 --> 07:06.000
+Wir müssen ja, um unser I zu basteln, noch das kleine I betrachten.
+
+07:06.000 --> 07:16.000
+Sie stellen fest, in der üblichen, in der Standarddefinition der Aussagenlogik fällt jetzt dieses I erstmal weg. Warum?
+
+07:16.000 --> 07:18.000
+Schauen wir uns das einfach mal an.
+
+07:18.000 --> 07:29.000
+Man schreibt das so, dass man hier die Interpretation notiert, die man benutzt, die in diesem Fall natürlich hauptsächlich von dem Alpha abhängt.
+
+07:29.000 --> 07:38.000
+Und wir wollen uns jetzt definieren, was die Bedeutung einer Formel P ist.
+
+07:38.000 --> 07:47.000
+Also I irgendwas Punkt P steht im Endeffekt für Bedeutung von P.
+
+07:47.000 --> 07:56.000
+So, wenn P jetzt eine Aussagenvariable ist, dann ist das ja eine atomare Formel, die man nicht weiter zerlegen kann.
+
+07:56.000 --> 07:59.000
+Das heißt, da kommen gar keine logischen Jungtoren vor.
+
+07:59.000 --> 08:02.000
+Wir brauchen also das kleine I gar nicht.
+
+08:02.000 --> 08:10.000
+Was wir aber brauchen, ist der Wahrheitswert dieser atomaren Formel, sprich dieser Aussagenvariable.
+
+08:10.000 --> 08:17.000
+Also, die Bedeutung einer Aussagenvariable ist ihr Wahrheitswert.
+
+08:17.000 --> 08:23.000
+Ist also der Wert, der ihr durch das Alpha zieht.
+
+08:23.000 --> 08:39.000
+Gut, wie Sie sehen, ist jetzt natürlich die Bedeutung festgelegt durch Elemente aus Omega und das kann 0 oder 1 sein.
+
+08:39.000 --> 08:50.000
+Betrachten wir doch mal eine Formel, die besteht aus der Negation einer Formel P.
+
+08:50.000 --> 09:02.000
+Dann ist die Frage, wann würden wir denn der Formel nicht P den Wahrheitswert 1 zuordnen?
+
+09:02.000 --> 09:12.000
+Nun, und das machen wir genau dann, wenn wir der Formel P den Wahrheitswert 0 zuordnen.
+
+09:12.000 --> 09:14.000
+Was machen wir also?
+
+09:14.000 --> 09:25.000
+Wir schneiden sozusagen von dem nicht P das nicht ab und überlegen uns oder rechnen aus, was denn die Bedeutung der Formel P ist.
+
+09:25.000 --> 09:32.000
+Und wenn diese Formel P den Wert 0 hat, ist die Bedeutung der Formel nicht P 1.
+
+09:32.000 --> 09:41.000
+Und wenn die Bedeutung der Formel P 1 ist, dann ist die Bedeutung der Formel nicht P 0.
+
+09:41.000 --> 09:48.000
+Das, denke ich, ist noch relativ okay und das macht auch jeden Mathematiker zufrieden.
+
+09:48.000 --> 09:52.000
+Jetzt kommt man zu dem, was man in die Standarddefinition nennt.
+
+09:52.000 --> 10:03.000
+Es gibt noch die drei komplexen Formeln P und Q, P oder Q und P impliziert Q.
+
+10:03.000 --> 10:17.000
+Und dann sagt man, die Formel P und Q hat die Bedeutung wahr oder man sagt auch P und Q ist wahr,
+
+10:17.000 --> 10:23.000
+genau dann, wenn P wahr ist und Q wahr ist.
+
+10:23.000 --> 10:37.000
+Also eine Definition haben Sie, denke ich, wahrscheinlich, wenn Sie es so schon gesehen haben, genau so gesehen, dass hier ein Un steht.
+
+10:37.000 --> 10:54.000
+Und die Formel P oder Q ist wahr, also die Formel P oder Q ist wahr, genau dann, wenn die Formel P wahr ist oder wenn die Formel Q wahr ist.
+
+10:54.000 --> 10:57.000
+Und hier haben wir einen Tippfehler in den Folien.
+
+10:57.000 --> 11:01.000
+Diese Klammern hier müssen weg.
+
+11:01.000 --> 11:07.000
+Das Dumme ist, wenn ich jetzt hier drauf drücke, gehen die roten Striche auch wieder weg.
+
+11:07.000 --> 11:21.000
+Gut, und dann bleibt natürlich noch die Bedeutung der Subjunktion zu erklären und dann kommt so etwas raus wie ein Konditional.
+
+11:21.000 --> 11:29.000
+Wenn die Bedeutung von P 1 ist, dann ist auch die Bedeutung von Q 1.
+
+11:29.000 --> 11:42.000
+Wenn also diese Aussage stimmt, dann geben wir der Formel P impiziert Q den Wahrheitswert 1.
+
+11:42.000 --> 11:50.000
+Das Problem dabei ist, dass das oftmals als eine Schummelei empfunden wird.
+
+11:50.000 --> 12:00.000
+Weil, was machen wir? Naja, statt und, schreiben wir und, statt oder, schreiben wir oder und statt wenn dann, schreiben wir wenn dann.
+
+12:00.000 --> 12:09.000
+Und in der Tat ist das etwas, was wir ein bisschen formaler uns noch ausdenken wollen,
+
+12:09.000 --> 12:20.000
+weil wir ja gesagt haben, die Bedeutung einer Formel ergibt sich in einer mathematischen Struktur, in einer Algebra.
+
+12:20.000 --> 12:36.000
+Eine einfachere Variante der Definition von logischen Operatoren haben Sie wahrscheinlich schon kennengelernt durch Wahrheitstabellen.
+
+12:36.000 --> 12:43.000
+Wenn also P, eine Formel P den Wert wahr hat, dann hat die Formel nicht P den Wert 0.
+
+12:43.000 --> 12:46.000
+Wenn sie den Wert 0 hat, hat nicht P den Wert 1.
+
+12:46.000 --> 13:00.000
+Die Disjunktion ist so erklärt, dass sobald eines der beiden Disjunkte den Wahrheitswert 1 hat, die Disjunktion P oder Q auch wahr ist.
+
+13:00.000 --> 13:07.000
+Nur wenn beide Disjunkte falsch sind, ist auch die Disjunktion im Gesamten falsch.
+
+13:07.000 --> 13:15.000
+Ein bisschen quasi dual dazu, ja gut, egal, ist die Konjunktion.
+
+13:15.000 --> 13:21.000
+Die Konjunktion zweier Aussagen ist nur dann wahr, wenn beide Aussagen wahr sind.
+
+13:21.000 --> 13:28.000
+Und sobald eine der beiden falsch ist, ist natürlich auch die Konjunktion der Aussagen falsch.
+
+13:28.000 --> 13:33.000
+Und schließlich haben wir hier noch die Definition der Subjunktion.
+
+13:33.000 --> 13:46.000
+Und da müssen Sie natürlich darauf achten mit dem Wenn dann, dass eine Subjunktion im Endeffekt grundsätzlich wahr ist,
+
+13:46.000 --> 13:52.000
+wenn die Prämisse, so nennt man das, was da vorne dran steht, falsch ist.
+
+13:52.000 --> 14:06.000
+Denn wenn eine Annahme in Anführungszeichen nicht stimmt, dann kann man daraus folgen, was immer man möchte, also auch wahr.
+
+14:06.000 --> 14:17.000
+Gut, wenn Sie jetzt bereits ein bisschen Ahnung haben von mathematischen Strukturen,
+
+14:17.000 --> 14:25.000
+dann erkennen Sie, dass die Operatoren Konjunktion und Disjunktion komutativ sind.
+
+14:25.000 --> 14:31.000
+Komutativ bedeutet, man darf die Reihenfolge der Argumente umtauschen.
+
+14:31.000 --> 14:40.000
+Das sieht man auf eine sehr einfache Art und Weise, wenn man sich anguckt, wie diese Tabellen aussehen.
+
+14:40.000 --> 14:47.000
+Und wir stellen fest, diese Tabellen können wir an der Diagonalen spiegeln.
+
+14:47.000 --> 14:53.000
+Das heißt, wir können die Zeilen mit den Spalten vertauschen.
+
+14:53.000 --> 14:59.000
+Also das, was Sie in linearer Algebra dann als Transpolierung einer Matrix darstellen wollen.
+
+14:59.000 --> 15:10.000
+Deswegen sind diese Operatoren komutativ und Sie dürfen die Reihenfolge vertauschen.
+
+15:10.000 --> 15:27.000
+Idempotenz heißt, dass ein Operator, mit dem man ein Argument auf sich selber anwendet, dieses Argument nicht verändert.
+
+15:27.000 --> 15:35.000
+Das heißt, falsch oder falsch bleibt falsch und wahr oder wahr bleibt wahr.
+
+15:35.000 --> 15:44.000
+Wir sehen also, dass in der Diagonalen dann jeweils diese Wahrheitswerte hier gleich bleiben.
+
+15:44.000 --> 15:52.000
+Die Assoziativität besagt, dass man geklammerte Ausdrücke umklammern darf,
+
+15:52.000 --> 15:58.000
+aber wohlgemerkt natürlich nur bezüglich eines Operators.
+
+15:58.000 --> 16:12.000
+Also ich schreibe Ihnen das mal etwas anders hin, wenn Sie haben 3 plus 7 plus 2.
+
+16:12.000 --> 16:20.000
+Dann ist das das Gleiche wie 3 plus 7 plus 2.
+
+16:20.000 --> 16:25.000
+Also in diesem Fall hätten wir so etwas, dass die Addition assoziativ ist.
+
+16:25.000 --> 16:34.000
+Für die Division zum Beispiel oder die Subtraktion können Sie sich mal überlegen.
+
+16:34.000 --> 16:44.000
+Die Neutralität bedeutet, dass sich, wenn ein Argument diesen Wert annimmt,
+
+16:44.000 --> 16:50.000
+das Ergebnis durch das andere Argument ergibt.
+
+16:50.000 --> 16:59.000
+Also irgendwas oder falsch ergibt irgendwas und irgendwas und wahr ergibt irgendwas.
+
+16:59.000 --> 17:04.000
+Das, denke ich, kennen Sie entweder alles oder können es einfach nachgucken.
+
+17:04.000 --> 17:12.000
+Was etwas seltener zu finden ist, ist der Begriff des Annihilators und den erkennen Sie hier.
+
+17:12.000 --> 17:23.000
+Einen Annihilator nennt man ein Objekt, das eine Operation quasi immer annihiliert, kaputt macht.
+
+17:23.000 --> 17:25.000
+Und das sieht man hier.
+
+17:25.000 --> 17:36.000
+Also sobald eine Null auftaucht in einer Konjunktion, macht sie die gesamte Konjunktion zur Null.
+
+17:36.000 --> 17:42.000
+Gut, also ich denke so weit.
+
+17:42.000 --> 17:45.000
+Das hier haben Sie auf jeden Fall schon mal gesehen.
+
+17:45.000 --> 17:51.000
+Und auf der Folie davor, die in Anführungszeichen etwas komplizierterer Definition,
+
+17:51.000 --> 18:00.000
+sollte Ihnen auch keine große Schwierigkeiten beim Verständnis bereitet haben.
+
+18:00.000 --> 18:08.000
+Wir gucken uns gleich noch eine etwas andere an oder drei andere.
+
+18:08.000 --> 18:31.000
+Vielen Dank.
+

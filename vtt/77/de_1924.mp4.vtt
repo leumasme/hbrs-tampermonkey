@@ -1,0 +1,359 @@
+WEBVTT
+
+00:00.000 --> 00:11.000
+Gut, also, wir haben uns jetzt diese verschiedenen Quantor hin- und herschiebe-Gesetze definiert
+
+00:11.000 --> 00:14.000
+und teilweise auch bewiesen, dass sie gelten.
+
+00:14.000 --> 00:19.000
+Jetzt führen wir einfach nur noch mal ein paar andere Sachen ein.
+
+00:19.000 --> 00:29.000
+Jetzt sagen wir einfach mal, hier für so eine Formel P wissen wir ja, da können ja freie Variablen vorkommen.
+
+00:29.000 --> 00:38.000
+Da definiert man sich jetzt einfach den sogenannten universellen Abschluss.
+
+00:38.000 --> 00:47.000
+Da heißt nichts anderes, als dass man vor so eine Formel P für alle darin frei vorkommenden Variablen
+
+00:47.000 --> 00:50.000
+noch die entsprechenden i-Quantoren schreibt.
+
+00:50.000 --> 00:54.000
+Und weil einem das manchmal zu viel ist, schreibt man einfach so ein dickes, fettes a davor.
+
+00:54.000 --> 00:56.000
+Da ist sie ja.
+
+00:56.000 --> 00:58.000
+Warum kann man das machen?
+
+00:58.000 --> 01:01.000
+Na ja, jetzt überlegen wir mal.
+
+01:01.000 --> 01:11.000
+Für freie Variablen, wann wird denn dann so eine Formel gültig, wenn sie für alle Belegungen gültig ist?
+
+01:11.000 --> 01:19.000
+Und das bedeutet, für alle Belegungen heißt für alle Werte a von für alle freien Variablen.
+
+01:19.000 --> 01:27.000
+Und das fällt eigentlich mit der Definition von a-Quantoren zusammen.
+
+01:27.000 --> 01:36.000
+Und das ist genau das, was die Grundlage des Generalisierungslemmers ist,
+
+01:36.000 --> 01:42.000
+nämlich dass, wenn wir hier eine Menge von Formeln haben, diese erfüllt ist,
+
+01:42.000 --> 01:47.000
+genau dann, wenn deren universeller Abschluss erfüllt ist.
+
+01:47.000 --> 01:52.000
+Den können wir aber auch in der umgekehrten Richtung setzen.
+
+01:52.000 --> 01:54.000
+Was heißt das?
+
+01:54.000 --> 02:03.000
+Wenn hier vorne ganz viele a-Quantoren stehen, die ja ganz viele Variablen quantifizieren,
+
+02:03.000 --> 02:05.000
+dann können wir die eigentlich auch weglassen.
+
+02:05.000 --> 02:07.000
+Was heißt das?
+
+02:07.000 --> 02:17.000
+Ja, die a-Quantoren heißen eben, man muss halt immer gelten.
+
+02:17.000 --> 02:23.000
+Die a-Quantoren sind eigentlich gar nicht das große Problem.
+
+02:23.000 --> 02:27.000
+Das Problem sind die Existenzquantoren.
+
+02:27.000 --> 02:32.000
+Gut, der Beweis des Generalisierungslemmers geht im Endeffekt über Substitutionslehrer.
+
+02:32.000 --> 02:37.000
+Also wo wir gesagt haben, mit der Substitution durch alle Therme,
+
+02:37.000 --> 02:39.000
+wupps, das geht ins Alpha rein und hin und her.
+
+02:39.000 --> 02:41.000
+Müssen wir jetzt gar nicht ins Detail nehmen.
+
+02:41.000 --> 02:47.000
+Das Interessante ist halt, dass wir sozusagen für freie Variablen a-Quantoren einführen können
+
+02:47.000 --> 02:58.000
+und wenn jedes Vorkommen einer Variablen durch ein und denselben a-Quantor gebunden ist,
+
+02:58.000 --> 03:02.000
+also alle diese Vorkommen dieser Variablen durch den einen a-Quantor gebunden ist,
+
+03:02.000 --> 03:07.000
+können wir ihn im Endeffekt auch weglassen.
+
+03:07.000 --> 03:13.000
+Das würde ja für die Normalform bedeuten, für die Prenex-Normalform,
+
+03:13.000 --> 03:17.000
+dass vorne schon ganz viel Krempel wegfällt. Das ist ja richtig cool.
+
+03:17.000 --> 03:26.000
+So, haben wir also dieses Generalisierungslehrer uns angeguckt
+
+03:26.000 --> 03:31.000
+und jetzt kommen wir noch zu einem zweiten Punkt der sogenannten gebundenen Umbenennung.
+
+03:31.000 --> 03:36.000
+Die wurde auch schon in der Übung angesprochen.
+
+03:36.000 --> 03:47.000
+Wenn wir eine Formel haben, p, in der alle Vorkommen von x durch einen Quantor q gebunden sind,
+
+03:47.000 --> 03:52.000
+dann darf man diese Variablen natürlich umbenennen.
+
+03:52.000 --> 03:58.000
+Vorausgesetzt, das ist eine neue Variable bzw. ja, das ist eine neue Variable,
+
+03:58.000 --> 04:02.000
+also eine Variable, die vorher in dp noch nicht vorkommt.
+
+04:02.000 --> 04:05.000
+Das Prinzip kennen Sie aus dem Programmieren.
+
+04:05.000 --> 04:10.000
+Sie dürfen sozusagen Variablen umbenennen und aus der Variablen-Test
+
+04:10.000 --> 04:18.000
+oder der Variablen-Test der Variable mit dem Namen Test einen bedeutungsvollen Namen geben.
+
+04:18.000 --> 04:20.000
+Das ist die eine Sache.
+
+04:20.000 --> 04:29.000
+Die andere Sache ist, dass Sie auf diese Art und Weise in einer Prenexform
+
+04:29.000 --> 04:38.000
+oder nehmen wir einfach mal eine normale Formel, die irgendwie kunterbunt aufgebaut werden kann,
+
+04:38.000 --> 04:46.000
+alle Variablen so umbenennen können, dass es entweder freie Variablen sind und bleiben,
+
+04:46.000 --> 04:51.000
+Generalisierungslehrer, oder aber wenn wir gebundene Variablen haben,
+
+04:51.000 --> 04:54.000
+egal wie, all Quantor existenz Quantor,
+
+04:54.000 --> 05:00.000
+wir die jeweils so umbenennen können, dass es einmalig vorkommende Namen sind.
+
+05:00.000 --> 05:07.000
+Das erste Vorkommen von x, das durch ein Quantor gebunden ist, nennen wir die Variable x1.
+
+05:07.000 --> 05:12.000
+Das zweite Mal, wo sie vorkommt, nennen wir sie x2 und haben verschiedene Variablen.
+
+05:12.000 --> 05:14.000
+Das ist cool.
+
+05:14.000 --> 05:25.000
+Also, das ist hier geschrieben, wenn hier über x, wenn das x hier in p gebunden ist durch diesen Quantor,
+
+05:25.000 --> 05:32.000
+x Quantor hier, dann können wir diesen Quantor auch, dann können wir diese Variable auch umbenennen,
+
+05:32.000 --> 05:41.000
+das in einem y und eben in dieser Formel p auch jedes Vorkommen von x durch dieses y ersetzen,
+
+05:41.000 --> 05:46.000
+wenn natürlich dieses y sonst nicht in der Formel p vorkommt.
+
+05:46.000 --> 05:48.000
+Gut.
+
+05:48.000 --> 05:55.000
+Jetzt können wir den Begriff, das nennt man gebundene Umbenennung.
+
+05:55.000 --> 06:05.000
+Wir hatten ja vorher gesagt mit der Substitution, dass eine Substitution nicht auf eine gebundene Variable wirkt.
+
+06:05.000 --> 06:14.000
+Aber wie eine Variable innerhalb eines quantifizierten Ausdrucks heißt, ist pupsiger.
+
+06:14.000 --> 06:16.000
+Deswegen die Gebundene.
+
+06:16.000 --> 06:25.000
+So, jetzt können wir den Begriff der bereinigten Formel, den wir ja schon hatten, nochmal ein bisschen schöner bauen für uns
+
+06:25.000 --> 06:33.000
+und wir sagen, wie wir es vorhin hatten, eine Formel heißt für uns jetzt, ab jetzt bereinigt,
+
+06:33.000 --> 06:44.000
+wenn wie zuvor auch keine Variable sowohl frei wie auch gebunden vorkommt
+
+06:44.000 --> 06:51.000
+und jetzt fordern wir zusätzlich, dass wenn wir zwei quantifizierte Ausdrücke haben,
+
+06:51.000 --> 06:58.000
+einmal über eine Variable x1 und einmal über eine Variable x2, grundsätzlich diese Variablen auch verschieden sind.
+
+06:58.000 --> 07:04.000
+Also es gibt keine in Anführungszeichen mehrfach Quantifizierung.
+
+07:04.000 --> 07:09.000
+Der Begriff ist eigentlich blöd, weil es ja nicht mehrfach wird.
+
+07:09.000 --> 07:22.000
+Es geht einfach darum, dass ein und derselbe Variablenname nicht in mehreren quantifizierten Ausdrücken vorkommt.
+
+07:22.000 --> 07:24.000
+Gut.
+
+07:24.000 --> 07:30.000
+Dass man bereinigen kann, dass man Formeln bereinigen kann, haben wir schon gesehen.
+
+07:30.000 --> 07:43.000
+Und dass man jetzt diese Bedingungen zusätzlich erfüllen kann, das ist gewährleistet durch das Verfahren der gebundenen Umbenennung.
+
+07:43.000 --> 07:58.000
+Wir wissen also jetzt, dass wir auch hier hingehen können und zu jeder Formel eine äquivalente Formel finden können,
+
+07:58.000 --> 08:03.000
+die nach unserer neuen Definition bereinigt genannt werden kann.
+
+08:03.000 --> 08:05.000
+Schön.
+
+08:05.000 --> 08:07.000
+Gut.
+
+08:07.000 --> 08:10.000
+Und jetzt kommt der große Knaller.
+
+08:10.000 --> 08:22.000
+Jetzt sagen wir nämlich einfach, für jede bereinigte Formel P existiert eine dazu äquivalente Formel Q, die in Präningsform ist.
+
+08:22.000 --> 08:24.000
+Das ist genau das, worauf wir hinaus wollten.
+
+08:24.000 --> 08:26.000
+Das heißt also nichts anderes.
+
+08:26.000 --> 08:44.000
+Wir können jede prädikatenlogische Formel hernehmen und bereinigen durch Umbenennung der Variablen und durch die gebundene.
+
+08:44.000 --> 08:46.000
+Ich habe einen Frosch im Hals heute.
+
+08:46.000 --> 08:49.000
+Und durch die gebundene Umbenennung.
+
+08:49.000 --> 09:09.000
+Und dann können wir durch die Anwendung der Quantorengesetze, die wir gefunden haben, können wir diese Formel in eine Präningsform finden.
+
+09:09.000 --> 09:20.000
+Der Beweis ist also im Endeffekt eine strukturelle Induktion über die Anwendung der Quantorengesetze, nachdem man die Formel bereinigt hat.
+
+09:20.000 --> 09:30.000
+Strukturelle Induktionsbeweise sind grundsätzlich etwas, womit man jeden Studenten verängstigen kann.
+
+09:30.000 --> 09:44.000
+Vollkommen zu Unrecht, weil es ist eigentlich nur eine technische Sache und weil ich weder finde, dass eine technische Sache so wichtig ist, noch dass ich sie verschrecken will.
+
+09:44.000 --> 09:47.000
+Soll das als Beweis gelten?
+
+09:47.000 --> 09:48.000
+Man kann es beweisen.
+
+09:48.000 --> 09:51.000
+Fertig.
+
+09:51.000 --> 10:00.000
+So, und jetzt kommt direkt der nächste Knaller.
+
+10:00.000 --> 10:16.000
+Für jede Formel, für jede prädikatenlogische Formel gibt es eine dazuäquivalente Formel im sogenannter PCNF, pränexkonjunktiver Normalformel.
+
+10:16.000 --> 10:26.000
+Also für jede Formel P gibt es eine Formel Q, wobei Q in Pränexform ist.
+
+10:26.000 --> 10:39.000
+Das heißt, alle Quantoren sind schön aufgeräumt und weiterhin ist dann, nachdem diese Formel quantorenmäßig schön aufgeräumt worden ist,
+
+10:39.000 --> 10:47.000
+die Matrix, also das, was nach den Quantoren übrig bleibt, in konjunktiver Normalform.
+
+10:47.000 --> 10:49.000
+Wie macht man das?
+
+10:49.000 --> 10:55.000
+Erstens, die Formel P wird in eine geschlossene bereinigte Pränexform gebracht.
+
+10:55.000 --> 11:03.000
+Wir haben eben unser Theorien gesehen, das uns die Existenz dieser bereinigten Pränexform garantiert.
+
+11:03.000 --> 11:05.000
+Und was haben wir jetzt?
+
+11:05.000 --> 11:26.000
+Jetzt haben wir hier vorne einen ganzen Haufen Quantoren stehen und dahinter irgendeine prädikatenlogische Formel, in denen alle Variablen gebunden sind.
+
+11:26.000 --> 11:38.000
+Und jetzt können wir uns überlegen, für die beliebigen logischen Junktoren, die darin stehen, oder die Argumente dieser logischen Junktoren,
+
+11:38.000 --> 11:49.000
+sind ganz unten die atomaren Formeln, die unseren Aussagen entsprechen bzw. deren Wahrheitswert in Abhängigkeit von den Quantoren hier vorne.
+
+11:49.000 --> 12:03.000
+Mit anderen Worten, was hier steht, ist eine Formel, die wir nach den ganz normalen Gesetzen der Unformung der logischen Operatoren manipulieren können, wie wir wollen.
+
+12:03.000 --> 12:14.000
+Und wir haben gesehen, dass solche Formeln grundsätzlich in eine equivalente konjunktive Normalform überführt werden können.
+
+12:14.000 --> 12:17.000
+Also, genau das macht man.
+
+12:17.000 --> 12:24.000
+Wir nehmen also die Formel P und bringen sie erstmal in eine geschlossene bereinigte Pränexform.
+
+12:24.000 --> 12:28.000
+Wir rubbeln die Karten und jetzt haben wir eine quantorenfreie Matrix.
+
+12:28.000 --> 12:33.000
+Und das können wir jetzt, wie in der Aussagenlogik, einfach in eine konjunktive Normalform überführen.
+
+12:33.000 --> 12:39.000
+Wir können sie auch in eine disjunktive Normalform überführen, aber Sie wissen ja, die ist nicht so interessant.
+
+12:39.000 --> 12:44.000
+Gut, was ist also bis jetzt Stand der Dinge?
+
+12:44.000 --> 12:52.000
+Wir können eine Formel in diese hübsche Form bringen.
+
+12:52.000 --> 13:06.000
+Nämlich vorneweg steht eine Sequenz von All- und Existenzkantoren und die Matrix ist in konjunktiver Normalform.
+
+13:06.000 --> 13:16.000
+Aber, und das ist eigentlich schon sehr hübsch und sehr normal, aber wir haben uns noch nicht damit beschäftigt, wie die Sequenz der Quantoren aussieht.
+
+13:16.000 --> 13:20.000
+Da können nämlich für alle existiert existiert, für alle für alle existiert.
+
+13:20.000 --> 13:24.000
+Die können noch vermischt sein.
+
+13:24.000 --> 13:36.000
+Das heißt, was man jetzt noch machen möchte, ist natürlich diese Quantoren-Sequenz aufräumen.
+

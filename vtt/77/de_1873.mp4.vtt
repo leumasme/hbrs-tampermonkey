@@ -1,0 +1,389 @@
+WEBVTT
+
+00:00.000 --> 00:14.000
+Wir können jetzt Therme auswerten, also die Teile von prädikatenlogischen Formeln,
+
+00:14.000 --> 00:24.000
+die Elemente in unserer Struktur bezeichnen.
+
+00:24.000 --> 00:40.000
+Wir können jetzt Folgendes sagen, die Symbole, die in einer Signatur festgelegt werden,
+
+00:40.000 --> 00:49.000
+werden jetzt durch dieses kleine eckige J in unserer Struktur A interpretiert.
+
+00:49.000 --> 00:55.000
+Stören Sie sich jetzt noch nicht an diesem kleinen J, das momentan fett ist vom Himmel, das wird gleich klar.
+
+00:55.000 --> 01:08.000
+Therme, also um genauer zu sein, Sigma-Therme, werden jetzt durch diese Evaluationsfunktion auf U ausgewertet.
+
+01:08.000 --> 01:14.000
+Also die Evaluationsfunktion übersetzt einen Therme in einem funktionalen Ausdruck in dieser Struktur,
+
+01:14.000 --> 01:19.000
+den wir in ausrechnen können und dann kommt meinetwegen 7 raus oder andere.
+
+01:19.000 --> 01:31.000
+Die Variablen sind durch unsere normale Belegungsfunktion mit Werten belegt, also mit Objekten aus unserer Struktur.
+
+01:31.000 --> 01:37.000
+Nicht notwendigerweise mit Wahrheitswerten, meistens nicht.
+
+01:37.000 --> 01:45.000
+Wir brauchen also wieder, oder wir haben wieder im Endeffekt das gleiche wie bei einer aussagenlogischen Formel,
+
+01:45.000 --> 01:49.000
+eine Interpretation, der geben wir jetzt einen leichten anderen Namen.
+
+01:49.000 --> 01:55.000
+Sie können das J aussprechen oder anders geschwungenes I, ist mehr burscht.
+
+01:55.000 --> 02:04.000
+Es ist so, diese Interpretation J beinhaltet also auch wieder hier unsere Evaluation A,
+
+02:04.000 --> 02:09.000
+genauso wie wir es vorher schon mal hatten. Hinzu kommt jetzt natürlich noch die Auswertungsfunktion,
+
+02:09.000 --> 02:19.000
+die beinhaltet aber dieses A und J muss natürlich diese Auswertungsfunktion E enthalten.
+
+02:19.000 --> 02:23.000
+Ist natürlich noch nicht alles, es muss noch ein bisschen was dazu kommen.
+
+02:23.000 --> 02:29.000
+Also wir bauen uns jetzt genauso wie das schöne geschwungene I als Interpretationsfunktion
+
+02:29.000 --> 02:36.000
+für aussagenlogische Funktionen bauen wir uns jetzt eine Interpretationsfunktion für prädikatenlogische Formeln.
+
+02:36.000 --> 02:48.000
+Und diese Funktion hat jetzt halt acht, ja, vorher hatten wir immer geschrieben dieses I hier,
+
+02:48.000 --> 02:56.000
+das bestand aus einem kleinen eckigen I und einer Belegungsfunktion.
+
+02:56.000 --> 03:07.000
+Und jetzt haben wir halt dieses hier und da haben wir unser J und ein Alpha.
+
+03:07.000 --> 03:11.000
+Und wo sehen Sie das E hinschreiben, ist mehr burscht, weil eigentlich wird dieses E,
+
+03:11.000 --> 03:16.000
+naja, ebenfalls durch Alpha und J festgelegt.
+
+03:16.000 --> 03:23.000
+Wie spielen jetzt Prädikatenlogik und Aussagenlogik zusammen?
+
+03:23.000 --> 03:32.000
+Und jetzt endlich zahlt sich aus, warum wir das Ganze von Anfang an relativ formal angegangen sind.
+
+03:32.000 --> 03:38.000
+Das macht man eigentlich nur, am Anfang macht man es sich, wenn man es sich am Anfang schwer macht,
+
+03:38.000 --> 03:45.000
+dann sollte man es nur deswegen tun, damit es hinterher einfacher wird und das wird es jetzt.
+
+03:45.000 --> 04:04.000
+Prädikatenlogische Formeln sind logische Formeln, deren in Anführungszeichen atomare Aussagen aus Prädikaten bestehen.
+
+04:04.000 --> 04:09.000
+Prädikatsymbole werden interpretiert und deren Argumente werden ausgewertet.
+
+04:09.000 --> 04:12.000
+Was machen wir also?
+
+04:12.000 --> 04:26.000
+Wir werten alle Terme durch E hinunter komplett aus.
+
+04:26.000 --> 04:40.000
+Das heißt, wir haben in unserer Struktur alle Terme der Formel hier auf Objekte abgebildet.
+
+04:40.000 --> 04:48.000
+Wir gehen hin und interpretieren die Prädikatsymbole als Relationen dazwischen, die es hier hinten ja gibt.
+
+04:48.000 --> 04:56.000
+Jetzt stellen Sie sich vor, wir haben hier ein Prädikatsymbol, das kleiner gleich sein soll und da steht eine 3 und da steht eine 7
+
+04:56.000 --> 05:03.000
+und dann steht hier 3 kleiner gleich 7 und dieser relationale Ausdruck, 3 kleiner gleich 7, hier hinten ist richtig.
+
+05:03.000 --> 05:11.000
+Wenn jetzt aber steht hier x kleiner gleich y und x wird ausgewertet zu 12 und y wird ausgewertet zu 2,
+
+05:11.000 --> 05:23.000
+dann haben wir hier hinten den Ausdruck stehen 12 kleiner gleich 2 und das Duple 12 und 2 ist nicht Element der Relation kleiner gleich.
+
+05:23.000 --> 05:36.000
+Das heißt, diese Aussage hier drüben ist falsch, sie kann also auf den Wahrheitswert falsch abgebildet werden.
+
+05:36.000 --> 05:46.000
+Das heißt, wenn wir diese logische Formel, die hier steht, komplett runter interpretieren,
+
+05:46.000 --> 05:59.000
+haben wir hier hinten etwas stehen, was im Endeffekt nur noch besteht aus logischen Junktoren mit Einsen und Nullen dazwischen.
+
+05:59.000 --> 06:03.000
+Das stimmt nicht ganz, aber am Anfang soll es mal reichen.
+
+06:03.000 --> 06:12.000
+Naja, die logischen Junktoren kennen wir ja und 0 und 1 waren für uns die Wahrheitswerte, die eine Aussage bekommen können
+
+06:12.000 --> 06:23.000
+und 12 kleiner gleich 2 ist eine Aussage, die wahr sein kann oder falsch, in dem Fall falsch.
+
+06:23.000 --> 06:33.000
+Und die werden wir dann eben schön durch die Semantik der logischen Junktoren interpretieren, so wie wir sie bereits aus der Aussagenlogik kennen.
+
+06:33.000 --> 06:36.000
+Wir können diese alte Semantik also benutzen.
+
+06:36.000 --> 06:40.000
+Was wir dann noch dazubauen müssen, sind natürlich die Quartiere.
+
+06:40.000 --> 06:48.000
+So, und wie geht das? Das geht so, wenn ich meine Maus finde.
+
+06:48.000 --> 07:00.000
+Also, wir nehmen uns eine Signatur. Zu dieser Signatur eine passende Signale.
+
+07:00.000 --> 07:06.000
+Wir nehmen jetzt mal an, und das wird jetzt natürlich wieder Wasser auf die Mühlen von Darius Avaba sein,
+
+07:06.000 --> 07:16.000
+wir nehmen implizit einen Latentyp Omega an, beziehungsweise wir bauen uns in diese Sigma Algebra,
+
+07:16.000 --> 07:22.000
+in diese Sigma Algebra noch diesen deutschen Verband für 0 und 1 mit rein,
+
+07:22.000 --> 07:26.000
+damit wir tatsächlich mit Wahrheitswerten rechnen können.
+
+07:26.000 --> 07:34.000
+So, und jetzt überlegen wir uns, wie interpretieren wir eine logische Form?
+
+07:34.000 --> 07:44.000
+Nehmen wir die hier, p t1 bis tf, also das Prädikat p mit den Argumenten t1 bis tf.
+
+07:44.000 --> 07:49.000
+Wann ist diese Formel hier wahr?
+
+07:49.000 --> 08:00.000
+Diese Formel ist wahr genau dann, wenn wir alle Argumente dieses Prädikatsymbols auswerten,
+
+08:00.000 --> 08:10.000
+das sind ja Terme, und wir die Interpretation dieses Prädikatsymbols betrachten,
+
+08:10.000 --> 08:18.000
+also p mit diesem eckigen Wort da unten, und das war ja eine Relation, meinetwegen p.
+
+08:18.000 --> 08:29.000
+Also, der Ausdruck p t1 tn ist wahr, wenn die Werte von t1 bis tn zueinander in der Relation p stehen.
+
+08:29.000 --> 08:57.000
+Also, wenn hier steht leq x,y, dann wird das jetzt ausgewertet, x zu 7, also das hier ist dann 7,
+
+08:57.000 --> 09:08.000
+und y wird ausgewertet zu 3, das ist also das, und das soll jetzt Element der Relation p sein,
+
+09:08.000 --> 09:16.000
+und das wird ja durch j festgelegt, und wir sagen halt, okay, muss also Element der kleinergleichen Relation sein.
+
+09:16.000 --> 09:23.000
+Das schreibt man normalerweise dann eben so hin, 7 kleinergleich 3, und das würden wir jetzt mit falsch bezeichnen.
+
+09:23.000 --> 09:32.000
+So, das ist an dieser Stelle schon mal alles.
+
+09:32.000 --> 09:41.000
+Prädikatsymbole werden einfach als Relationen interpretiert, die es daher gibt, nachdem ihre Argumente ausgewertet sind.
+
+09:41.000 --> 09:46.000
+So, und jetzt sehen Sie dieses komische Ding hier mit diesen vielen Sternchen.
+
+09:46.000 --> 09:49.000
+Diese Sternchen stehen jetzt für beliebige logische Operatoren.
+
+09:49.000 --> 09:54.000
+Deswegen steht der einstellige Operator hier vorne, der soll die Migration bezeichnen, wir haben ja nur einen,
+
+09:54.000 --> 10:02.000
+und das hier ist jetzt ein beliebiger zweistelliger logischer Operator.
+
+10:02.000 --> 10:06.000
+Wie wird jetzt eine solche Formel interpretiert?
+
+10:06.000 --> 10:10.000
+Also hier steht jetzt nur noch mal die Kurzschreibweise mit der Erfüllungsrelation,
+
+10:10.000 --> 10:12.000
+also diese Interpretationen erfüllen diese Formen.
+
+10:12.000 --> 10:16.000
+Das ist genau das Gleiche, das ist Schema f, wie in der Aussagenmöglichkeit.
+
+10:16.000 --> 10:21.000
+Wie sieht es jetzt aus mit einer solchen Formel, wo logische Junktoren drin vorkommen?
+
+10:21.000 --> 10:31.000
+Naja, so eine logische Formel, komplexe Formel mit mehreren logischen Junktoren ist wahr genau dann, wenn was der Fall ist.
+
+10:31.000 --> 10:51.000
+Naja, sie ist wahr, wenn wir die Elemente p und q dieser Formel, dass die ja Teilformeln sind, wieder rekursiv interpretieren.
+
+10:51.000 --> 10:54.000
+Das ist das Gleiche wie bei den Termen.
+
+10:54.000 --> 11:00.000
+Ein komplexer Term wird ausgewertet, indem die Teilterme ausgewertet werden und dann mit der Funktion zusammengebaut.
+
+11:00.000 --> 11:02.000
+Hier machen wir das genauso.
+
+11:02.000 --> 11:12.000
+Eine komplexe logische Formel p irgendwas q wird ausgewertet, wird interpretiert,
+
+11:12.000 --> 11:17.000
+indem man die Teilformeln interpretiert, für die man dann ja ein Wahrheitswert bekommt,
+
+11:17.000 --> 11:24.000
+und dann eben diese komische Operation ausführt, die ja aber natürlich irgendwie interpretiert werden muss.
+
+11:24.000 --> 11:28.000
+So, und wie interpretieren wir diese logischen Formeln?
+
+11:28.000 --> 11:32.000
+Die interpretieren wir genauso, wie wir es in der Aussagenlogik machen.
+
+11:32.000 --> 11:39.000
+So, und jetzt gucken Sie genau hin, hier steht das geschweifte i für die Interpretation der Prädikatenlogik
+
+11:39.000 --> 11:43.000
+und hier steht die Interpretationsfunktion der Aussagenlogik.
+
+11:43.000 --> 11:49.000
+Denn wie diese logischen Operatoren zu interpretieren sind, wissen wir schon.
+
+11:49.000 --> 12:00.000
+Wir bauen uns also dann, wir nehmen dann einfach hier das Kompliment des Infimums der Interpretation von p und q.
+
+12:00.000 --> 12:08.000
+Und wenn das Kompliment des Infimums dieser beiden Interpretationen, der Formel p und q, 1 ergibt,
+
+12:08.000 --> 12:14.000
+dann ist die Formel Sternchen p, Sternchen q wahr.
+
+12:14.000 --> 12:17.000
+Das ist der Trick.
+
+12:17.000 --> 12:24.000
+So, das einzige, was jetzt nun wirklich anders ist,
+
+12:24.000 --> 12:31.000
+und wo man leider wieder tatsächlich diesen fürchterlichen Schwafeldrick machen muss,
+
+12:31.000 --> 12:40.000
+zumindest, ja, sind jetzt die Quantoren.
+
+12:40.000 --> 12:49.000
+Was wir noch nicht betrachtet haben, sind also Formeln der Form für alle xp beziehungsweise es existiert ein xp.
+
+12:49.000 --> 12:56.000
+Aber, ja, nun, die Semantik dafür ist jetzt auch keine Hexerei.
+
+12:56.000 --> 13:02.000
+Weil was bedeutet, es gibt ein x zu das p von x?
+
+13:02.000 --> 13:14.000
+Naja, das heißt ganz einfach, es muss einen möglichen Wert für x geben, der das Prädikat p mit dem Argument diesen Wertes erfüllt.
+
+13:14.000 --> 13:20.000
+So, wir müssen also die Belegung von x betrachten.
+
+13:20.000 --> 13:26.000
+Und die Existenzaussage, es existiert ein x, bedeutet nichts anderes,
+
+13:26.000 --> 13:34.000
+als dass wir in der Domäne unserer Struktur hier hinten einen Wert für dieses x finden müssen,
+
+13:34.000 --> 13:41.000
+so dass die Interpretation der Formel mit diesem Wert für das x wahr ergibt.
+
+13:41.000 --> 13:43.000
+Und das ist genau das, was da steht.
+
+13:43.000 --> 13:46.000
+Ah, Entschuldigung, was hier unten steht.
+
+13:46.000 --> 13:55.000
+Also, es existiert ein x, so dass p, oder diese Interpretation, erfüllt die Formel oder das Modell der Formel,
+
+13:55.000 --> 14:01.000
+genau da, wenn die Interpretationsfunktion mit einer Belegung in dieser Struktur,
+
+14:01.000 --> 14:04.000
+weil es eine Sigma-Eigetrei ist, blablabla, blablabla,
+
+14:04.000 --> 14:10.000
+die Formel, es existiert ein xp, zu 1 auswertet, also true.
+
+14:10.000 --> 14:14.000
+Und wann passiert das?
+
+14:14.000 --> 14:23.000
+Wir definieren die Interpretation von, es existiert ein xp, als true,
+
+14:23.000 --> 14:33.000
+genau dann, wenn wir, so ähnlich wie in der Substitution,
+
+14:33.000 --> 14:41.000
+dieses x, über das existenziell quantifiziert wird, ändern wir in dieser Belebungsfunktion.
+
+14:41.000 --> 14:47.000
+Und wir ersetzen es durch ein a, also ein Element aus unserer Domäne.
+
+14:47.000 --> 15:04.000
+Wenn also diese Interpretationsfunktion für eine Ersetzung von x in p durch etwas, was den Wert a hat, zu 1 ausgewertet wird,
+
+15:04.000 --> 15:08.000
+dann ist diese Formel hier wahr.
+
+15:08.000 --> 15:14.000
+Also, es muss ein a aus dieser Domäne umgeben,
+
+15:14.000 --> 15:23.000
+so dass, wenn wir x in p bei der Interpretation durch den Wert a ersetzen, sich einzelt,
+
+15:23.000 --> 15:26.000
+dann ist diese Formel wahr.
+
+15:26.000 --> 15:37.000
+Für alle, oder die universelle Quantifikation, ist genau die gleiche, nur steht jetzt hier alle.
+
+15:37.000 --> 15:51.000
+Also, für alle xp, also x, für alle x gilt, x ist grün, diese Formel ist wahr,
+
+15:51.000 --> 15:59.000
+wenn alle möglichen Objekte, alle möglichen Objekte aus unserer Domäne eingesetzt für x
+
+15:59.000 --> 16:10.000
+bei der Interpretation der Formel, ist grün, wahrergebend.
+
+16:10.000 --> 16:23.000
+In der Tierwelt gilt das natürlich nicht, weil es Eichhörnchen gibt, die sind nicht grün.
+
+16:23.000 --> 16:32.000
+Aber zum Beispiel in dieser Formel hier, es existiert ein x, so dass grün von x wird zu wahr ausgewertet,
+
+16:32.000 --> 16:43.000
+weil es Halsband-Sittiche gibt, ich glaube, die sind grün, hauptsächlich, bis aufs Halsband eben.
+
+16:43.000 --> 16:49.000
+Es gibt natürlich auch Alligatoren, die sind vielleicht auch noch grün, es gibt Chameleons,
+
+16:49.000 --> 16:57.000
+die sind manchmal grün und nicht, aber es gibt eben auch Eichhörnchen, wenn die grün sind, dann richtig.
+
+16:57.000 --> 17:20.000
+Also, das ist die Semantik der Allkantoren und das ist die Semantik der Existenzkantoren.
+

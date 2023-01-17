@@ -1,0 +1,311 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Also, wo war ich? Genau, wir hatten bis jetzt nur die Strukturregeln, also wie darf ich die Sequenzen manipulieren?
+
+00:10.000 --> 00:16.000
+Und jetzt kommen wir dazu, wie kann ich die Formeln in den Sequenzen manipulieren?
+
+00:16.000 --> 00:22.000
+Wir wollen eine Negation haben, wir wollen eine Disjunktion haben, wir wollen eine Subjunktion haben.
+
+00:22.000 --> 00:30.000
+Und dazu sagen wir jetzt ganz einfach Folgendes. Also wenn ich so eine Sequenz habe, wo hier hinten eine Formel P steht,
+
+00:30.000 --> 00:42.000
+dann darf ich, wenn das eine korrekte Sequenz ist, dann darf ich das P hier hinten weglassen, aber stattdessen hier vorne ein Nicht-P-Umschreiben.
+
+00:42.000 --> 00:55.000
+Wenn Sie das jetzt schon sich überlegen, dass hier ja eine Implikation steht, hier eine Konjunktion und hier eine Disjunktion,
+
+00:55.000 --> 01:06.000
+dann sehen Sie, dass das nichts anderes ist wieder als die Rongier-Regeln. Sie ziehen eine Formel über den Implikationspfeil,
+
+01:06.000 --> 01:17.000
+egal in welcher Richtung, und dabei negieren Sie sie. Das geht natürlich nur, wenn vor der Implikation eine Konjunktion steht und dahinter eine Disjunktion.
+
+01:17.000 --> 01:34.000
+Aber genau so sind Sequenzen ja definiert. Gut. Und was natürlich auch gilt, das machen wir jetzt häufiger implizit.
+
+01:34.000 --> 01:42.000
+Wir wissen ja, wir dürfen Sequenzen umsortieren, weil Konjunktion und Disjunktion komutativ und assoziativ sind.
+
+01:42.000 --> 01:47.000
+Also könnten wir dieses Nicht-P auch dahinschreiben.
+
+01:47.000 --> 01:58.000
+Natürlich, und das, denke ich, sieht man sofort, wenn hier in dieser Sequenz die Formeln P und Q auftauchen,
+
+01:58.000 --> 02:07.000
+dann ist diese Sequenz hier gültig, wenn P gültig ist und Q gültig ist und die Konjunktion über P.
+
+02:07.000 --> 02:13.000
+Naja, wenn P gültig ist und Q gültig ist, dann wissen wir aus der Aussagenlogik und der Prädipatenlogik,
+
+02:13.000 --> 02:17.000
+dass natürlich auch die Konjunktion von P und Q wahr ist.
+
+02:17.000 --> 02:24.000
+Wir können also zwei beliebige Formeln aus dieser Sequenz hier formeln, nehmen und ersetzen durch die Konjunktion.
+
+02:24.000 --> 02:29.000
+Das gleiche können wir natürlich für die Disjunktion dahinten machen.
+
+02:29.000 --> 02:36.000
+Wenn hier hinten zwei Formeln auftauchen, wissen wir, die sind per Disjunktion miteinander verknüpft.
+
+02:36.000 --> 02:40.000
+Das heißt, wir können daraus eine Disjunktion machen.
+
+02:40.000 --> 02:54.000
+Spaßig, wenn man den entsprechenden Humor hat, wird es jetzt natürlich für die Subjunktion.
+
+02:54.000 --> 02:57.000
+Gucken wir uns mal zuerst diesen Fall an.
+
+02:57.000 --> 03:03.000
+Wenn hier vorne ein kleines P steht und hier hinten ein kleines Q, dann darf ich diese Sequenz übernehmen,
+
+03:03.000 --> 03:10.000
+dass P hier hinten hinschieben und stattdessen die Subjunktion PQ hinschreiben.
+
+03:10.000 --> 03:13.000
+Naja, warum?
+
+03:13.000 --> 03:23.000
+Wir wenden die Schampingregel an von vorhin, im Endeffekt diese Negation, schieben das P hier rüber.
+
+03:23.000 --> 03:27.000
+Wenn wir das P von hier nach hier rüber schieben, steht es negiert da.
+
+03:27.000 --> 03:32.000
+Dann steht hier Q nicht P.
+
+03:32.000 --> 03:44.000
+Und wenn hier Q nicht P steht, dann wissen wir, können wir daraus Q oder nicht P machen.
+
+03:44.000 --> 03:51.000
+Q oder nicht P ist dasselbe wie nicht P oder Q und das ist unsere Semantik der Subjunktion.
+
+03:51.000 --> 03:54.000
+Cool, oder?
+
+03:54.000 --> 04:00.000
+Jetzt habe ich Ihnen verbal schon die Korrektheit dieser Regel bewegt.
+
+04:00.000 --> 04:07.000
+Naja, und auf der linken Seite können wir eine Subjunktion einführen und jetzt kommt der Punkt,
+
+04:07.000 --> 04:14.000
+an dem man sieht, dass sich dieser Kalkül eben wohltuend von der natürlichen Subjunktion unterscheidet.
+
+04:14.000 --> 04:20.000
+Da hatten wir die Argumentation über zwei bereits erfolgte Teilbeweise,
+
+04:20.000 --> 04:23.000
+die wir hier als Sequenzen darstellen.
+
+04:23.000 --> 04:30.000
+Wenn wir eine Sequenz haben, wo einmal das Q hier vorne steht und einmal das P hier hinten,
+
+04:30.000 --> 04:41.000
+mit sonst verschiedenen Antizidenzien und Subzidenzien, dann können wir aber beide müssen gelten.
+
+04:41.000 --> 04:44.000
+Beide müssen gültig sein.
+
+04:44.000 --> 04:52.000
+Dann ist auch diese Sequenz gültig, wenn wir hier vorne eine Subjunktion machen.
+
+04:52.000 --> 05:02.000
+Natürlich ist das sehr schön, wenn man die Maus im richtigen Fenster hat.
+
+05:02.000 --> 05:04.000
+Ach, sehen Sie mal.
+
+05:04.000 --> 05:09.000
+Endlich, nachdem die Vorlesung fast zu Ende ist, gibt es ein kleines Beispiel,
+
+05:09.000 --> 05:13.000
+bevor wir die Gültigkeit dieser anderen Regeln sehen.
+
+05:13.000 --> 05:19.000
+Sie wissen doch, habe ich vorhin auch gesagt,
+
+05:19.000 --> 05:28.000
+es gibt die erste Aktion aus dem Hilbert-Kalkül, die berühmte Tautologie P impliziert Q impliziert P.
+
+05:28.000 --> 05:30.000
+Ist immer wahnsinnig.
+
+05:30.000 --> 05:32.000
+Immer.
+
+05:32.000 --> 05:40.000
+Für klassische Aussagenlogik und klassische Prädikatik.
+
+05:40.000 --> 05:45.000
+Wie können wir jetzt beweisen in unserem Kalkül,
+
+05:45.000 --> 05:50.000
+nachdem wir jetzt schon die Korrektheit einiger Regeln bewiesen haben,
+
+05:50.000 --> 05:55.000
+dass tatsächlich diese Formel gültig ist?
+
+05:55.000 --> 06:02.000
+Nun, wir können das zeigen, indem sie natürlich aus dem Nichts folgt.
+
+06:02.000 --> 06:11.000
+Also indem wir ohne weitere Annahmen auf die Gültigkeit dieser Formel schließen können.
+
+06:11.000 --> 06:15.000
+Das ist genau das Gleiche, wie wir gesagt haben.
+
+06:15.000 --> 06:22.000
+Die leere Menge enthält diese Formel.
+
+06:22.000 --> 06:25.000
+Was überlegt man sich dazu?
+
+06:25.000 --> 06:30.000
+Naja, hier kommen Formeln P und Q vor.
+
+06:30.000 --> 06:38.000
+Wie können wir einen Beweis in unserem Sequenzenkalkül überhaupt nur durchführen?
+
+06:38.000 --> 06:43.000
+Das können wir nur beginnen, indem wir eine Aktion verwenden.
+
+06:43.000 --> 06:51.000
+Und unsere Aktion hat gesagt, wir dürfen beliebige Sequenzen als gegeben annehmen,
+
+06:51.000 --> 06:59.000
+wenn das Antizesen aus nur einer Formel besteht und das Subzidenz genau aus einer Formel
+
+06:59.000 --> 07:01.000
+und die beiden Formeln sind gleich.
+
+07:01.000 --> 07:09.000
+Weil wir wissen, impliziert P ist gültig.
+
+07:09.000 --> 07:12.000
+Jetzt steht da also diese Sequenz.
+
+07:12.000 --> 07:18.000
+P, Sequenzenimplikation P.
+
+07:18.000 --> 07:20.000
+Was können wir denn jetzt machen?
+
+07:20.000 --> 07:21.000
+Naja, wir schauen uns das mal an.
+
+07:21.000 --> 07:29.000
+Wir haben einen Riesenhaufen hier von Formeln, die wir anwenden könnten.
+
+07:29.000 --> 07:35.000
+Gut, hier sind noch mehr.
+
+07:35.000 --> 07:38.000
+Interessant ist jetzt hier das weakening.
+
+07:38.000 --> 07:43.000
+Wir hatten hier ja ein kleines P stehen und hier ein kleines P.
+
+07:43.000 --> 07:47.000
+Dann sagt diese Regel, links darfst du noch irgendetwas beliebiges dazu schreiben.
+
+07:47.000 --> 07:49.000
+Gut, das heißt jetzt P.
+
+07:49.000 --> 07:53.000
+Aber es sind halt einfach nur unbenenkt.
+
+07:53.000 --> 08:01.000
+Also gehen wir doch hin und sagen, naja, wenn P, Sequenzenimplikation P eine gültige Sequenz ist,
+
+08:01.000 --> 08:10.000
+dann ist auch QP, Sequenzenimplikation P eine gültige Sequenz.
+
+08:10.000 --> 08:12.000
+Dann dürfen wir das umdrehen.
+
+08:12.000 --> 08:14.000
+Ja, ist klar.
+
+08:14.000 --> 08:26.000
+Jetzt haben wir also die Gültigkeit dieser Sequenz hergenannt.
+
+08:26.000 --> 08:32.000
+Und jetzt überlegen wir wieder, das war genau eine Sequenz, die wir brauchten,
+
+08:32.000 --> 08:40.000
+um die Implikationseinführung auf der rechten Seite zu implementieren.
+
+08:40.000 --> 08:49.000
+Erinnern Sie sich daran, das war jetzt nichts anderes als Shunting hierüber, Negation, Semantik der Subjunktion, blub.
+
+08:49.000 --> 08:58.000
+Also, wenn das hier eine gültige Sequenz ist, ist das hier nach der Implikationseinführung auch eine gültige Sequenz.
+
+08:58.000 --> 09:02.000
+Ja, und jetzt steht hier P.
+
+09:02.000 --> 09:04.000
+Was können wir jetzt machen?
+
+09:04.000 --> 09:09.000
+Jetzt können wir die gleiche nochmal anwenden und dieses P hier rüberziehen und schon steht es da.
+
+09:09.000 --> 09:11.000
+Und wissen Sie, woran Sie das erinnert?
+
+09:11.000 --> 09:13.000
+Als Deduktionstheorie.
+
+09:13.000 --> 09:32.000
+So, und Sie sehen jetzt hoffentlich, dass auch wenn Sie es vielleicht, oder auch wenn Sie es selbstverständlich
+
+09:32.000 --> 09:40.000
+am Ende des ersten Semesters so selbst noch nicht durchführen können,
+
+09:40.000 --> 09:47.000
+sehen Sie aber bereits, wie durch diesen Aufbau der Semantik, der Logiken,
+
+09:47.000 --> 09:59.000
+dieser Aufbau immer in Anführungszeichen einfacher wirkt, weil man sich zunutze macht, was man darunter schon gebaut hat.
+
+09:59.000 --> 10:07.000
+Wenn wir uns diese drei Regeln, Negationseinführung links, Negationseinführung rechts,
+
+10:07.000 --> 10:13.000
+Konjunktionseinführung links und Implikationseinführung rechts angucken,
+
+10:13.000 --> 10:24.000
+dann sind die Beweise für die Korrektheit dieser Formen in Anführungszeichen ganz einfach.
+
+10:24.000 --> 10:33.000
+Und wenn wir wissen, dass mit dem Kleiner gleich für die Implikation und Interpretation des Ganzen in der passenden Struktur,
+
+10:33.000 --> 10:42.000
+dann muss man nur noch hinschreiben, diese beiden Regeln hier sind korrekt wegen der Rangierregeln.
+
+10:42.000 --> 10:54.000
+Diese beiden Regeln, diese Regeln hier mit der Konjunktion sind korrekt, weil man klammern darf,
+
+10:54.000 --> 10:59.000
+weil die Konjunktion assoziativ ist. Das reicht.
+
+10:59.000 --> 11:13.000
+Und wie ich es eben erklärt habe, wiederum mit der Rangierregel und der Disjunktionsregel,
+
+11:13.000 --> 11:30.000
+hier wissen wir ja aufgrund dieser Äquivalenz, dass diese Regel korrekt ist.
+
+11:30.000 --> 11:47.000
+Die Regel der Subjunktionseinführung auf der linken Seite, die erfordert jetzt ein bisschen mehr.
+
+11:47.000 --> 12:01.000
+Ich mache jetzt aber mal an dieser Stelle eine kurze Pause.
+

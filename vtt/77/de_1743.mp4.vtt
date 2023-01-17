@@ -1,0 +1,203 @@
+WEBVTT
+
+00:00.000 --> 00:09.000
+Die Frage also ist, was bedeutet dieses Zeichen?
+
+00:09.000 --> 00:13.000
+Wir wollen es einfach einmal abgrenzen
+
+00:13.000 --> 00:17.000
+und aufschreiben die verschiedenen Zeichen,
+
+00:17.000 --> 00:20.000
+mit denen Sie es eventuell verwechseln können.
+
+00:20.000 --> 00:24.000
+Wir haben noch dieses Zeichen,
+
+00:24.000 --> 00:27.000
+wir haben noch dieses Zeichen,
+
+00:27.000 --> 00:31.000
+wir haben dieses Zeichen.
+
+00:31.000 --> 00:37.000
+Zum Unterscheiden der Subjunktion
+
+00:37.000 --> 00:40.000
+und von der Implikation etc.
+
+00:40.000 --> 00:42.000
+habe ich am Anfang der Folie
+
+00:42.000 --> 00:45.000
+den richtigen Lieferzeichen.
+
+00:45.000 --> 00:48.000
+Also lassen wir das mal weg.
+
+00:48.000 --> 00:52.000
+Es bleiben also üblich diese fünf Zeichen.
+
+00:52.000 --> 00:58.000
+Und diese beiden Zeichen
+
+00:58.000 --> 01:05.000
+werden einmal gelesen als entails
+
+01:05.000 --> 01:16.000
+oder aus... folgt...
+
+01:16.000 --> 01:25.000
+Und dieses Zeichen hier heißt
+
+01:25.000 --> 01:35.000
+erfüllt oder ist die Erfüllbarkeitsrelation
+
+01:35.000 --> 01:44.000
+oder wird gesprochen als...
+
+01:44.000 --> 01:56.000
+erfüllt... oder... ist ein Modell von...
+
+01:56.000 --> 02:01.000
+Und jetzt, wo wir das aufgeschrieben haben,
+
+02:01.000 --> 02:08.000
+ohne jetzt genauere Bedeutung davon einzunehmen,
+
+02:08.000 --> 02:18.000
+können wir schon mal sagen,
+
+02:18.000 --> 02:29.000
+aus einer Menge von Formen folgt eine Formel,
+
+02:29.000 --> 02:45.000
+genau da, wenn jedes Modell von p
+
+02:45.000 --> 02:56.000
+ist auch Modell von klein e.
+
+02:56.000 --> 03:00.000
+Und das heißt also genau dann,
+
+03:00.000 --> 03:10.000
+wenn wir irgendeine Interpretation haben,
+
+03:10.000 --> 03:14.000
+die p erfüllt,
+
+03:14.000 --> 03:24.000
+dann ist diese Interpretation auch...
+
+03:24.000 --> 03:28.000
+dann erfüllt diese Interpretation auch p.
+
+03:28.000 --> 03:33.000
+Beziehungsweise genau dann, wenn...
+
+03:33.000 --> 03:36.000
+So, und jetzt können wir uns schon mal überlegen,
+
+03:36.000 --> 03:38.000
+was wir hier so hatten,
+
+03:38.000 --> 03:40.000
+nämlich sozusagen wir hatten ein Modell
+
+03:40.000 --> 03:42.000
+einer Menge von Formen,
+
+03:42.000 --> 03:44.000
+genau dann, wenn dieses Modell
+
+03:44.000 --> 03:48.000
+die Konjunktion aller Formen aus dieser Menge war.
+
+03:48.000 --> 03:55.000
+Also, wenn i alpha von...
+
+03:55.000 --> 03:57.000
+und jetzt kommt man sich so groß
+
+03:57.000 --> 04:02.000
+von Konjunkturzeichen über alle p gleich 1 ist,
+
+04:02.000 --> 04:10.000
+dann ist auch i alpha von klein p 1.
+
+04:10.000 --> 04:15.000
+Nun, also, Sie sehen,
+
+04:15.000 --> 04:18.000
+dieses Zeichen hier ist definiert,
+
+04:18.000 --> 04:21.000
+oder die Bedeutung dieses Zeichens hier
+
+04:21.000 --> 04:24.000
+ist definiert mit der Bedeutung dieses Zeichens.
+
+04:24.000 --> 04:27.000
+Und das heißt jetzt nichts anderes als,
+
+04:27.000 --> 04:39.000
+wenn wir in irgendeiner Welt leben,
+
+04:39.000 --> 04:42.000
+wenn wir in irgendeiner Welt leben,
+
+04:42.000 --> 04:50.000
+für die gilt, dass dadurch alle Formen aus p wahr wären,
+
+04:50.000 --> 04:56.000
+dann gilt auch in dieser Welt die Formel klein p.
+
+04:56.000 --> 05:00.000
+Dann heißt das nichts anderes,
+
+05:00.000 --> 05:03.000
+als dass die Menge aller Welten,
+
+05:03.000 --> 05:08.000
+in denen das große p gilt, eine Teilmenge ist,
+
+05:08.000 --> 05:13.000
+aller Welten, in denen die Formel klein p wahr ist.
+
+05:13.000 --> 05:15.000
+Und das wiederum heißt,
+
+05:15.000 --> 05:18.000
+wenn wir uns also sicher sein können,
+
+05:18.000 --> 05:22.000
+dass alle Formen aus groß p gelten,
+
+05:22.000 --> 05:25.000
+können wir daraus schließen,
+
+05:25.000 --> 05:28.000
+weil wir ja in einer Teilmenge sind,
+
+05:28.000 --> 05:32.000
+dass auch die Formel klein p gilt.
+
+05:32.000 --> 05:38.000
+Wir können also hier aus der Existenz
+
+05:38.000 --> 05:42.000
+eines Modells von groß p,
+
+05:42.000 --> 05:45.000
+die Aussage, dass dieses Modell auch
+
+05:45.000 --> 05:47.000
+eines von klein p ist,
+
+05:47.000 --> 05:53.000
+aus p folgen, dass klein p gilt.
+
+05:53.000 --> 06:03.000
+Okay?
+

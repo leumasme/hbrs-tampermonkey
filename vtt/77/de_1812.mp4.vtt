@@ -1,0 +1,77 @@
+WEBVTT
+
+00:00.000 --> 00:22.000
+So, also, wir waren jetzt gerade im Stehen geblieben vor dem Aufnahmeproblem, dass wir für den Resolutionskalkül als Voraussetzung brauchen, dass die Formeln, mit denen wir arbeiten, in konjunktiver Normalform vorliegen.
+
+00:22.000 --> 00:46.000
+Gut, wie sieht jetzt dieser Kalkül aus? Denken Sie dran, wir hatten die natürliche Reduktion zumindest kurz besprochen. Das war ein System von Ableitungsregeln, die es uns dann eben erlaubt haben, einen Beweis als eine Abfolge von Anwendungen dieser Regel darzustellen.
+
+00:46.000 --> 01:15.000
+Und wenn wir jetzt ein Resolutionskalkül brauchen, brauchen wir natürlich neue Regeln. Und einfach mal, um sich das herzuleiten, wie sowas funktionieren könnte, haben Sie aus den bisherigen Beispielen bzw. aus den Übungsaufgaben vielleicht mal den Fall gehabt, dass Sie irgendwie eine Formel gegeben hatten und daraus eine interessante CNF abgeleitet haben.
+
+01:15.000 --> 01:29.000
+Und in dieser konjunktiven Normalform, oder das war halt eine Formel, die hieß p oder q und nicht p oder q. Haben Sie zum Beispiel durch das kanonische Verfahren zur Herleitung von CNF aus Wahrheitstabellen bekommen.
+
+01:29.000 --> 01:50.000
+Wenn Sie allerdings versucht haben, das über Äquivalenzumformungen zu machen, je nachdem wie geschickt Sie vorgegangen sind, haben Sie festgestellt, als CNF und als DNF hat sich nur q ergeben. Sie haben also ein anderes Ergebnis bekommen, obwohl das natürlich eine CNF ist und das auch, ja klar.
+
+01:50.000 --> 02:06.000
+Aber die hier ist ja eigentlich wesentlich hübscher. Warum? Was ist passiert? Genau das, was ich eben gesagt habe, das nicht zu den Wahrheitsbedingungen beitragende Literalpaar haben wir gestrichen.
+
+02:06.000 --> 02:28.000
+Also in diesem Fall hier galt, wenn man das mal einsetzt, dass wir eben entweder q mit 1, also wenn p gleich 0 ist, haben wir hier zwar 0, aber hier kommt 1 raus und damit der Wahrheitswert von q.
+
+02:28.000 --> 02:48.000
+Oder wir haben 1, wenn p gleich 1, das ist jetzt ein bisschen wütgeschrieben, einmal sollte hier 2 und einmal sollte false stehen, haben wir eben 1 infimum q. Also in jedem Fall ist der Wahrheitswert dieser Formel durch den Wahrheitswert von q bestimmt.
+
+02:48.000 --> 03:04.000
+Es wäre also zu vermuten, ob man nicht eine Schlussregel bauen kann, die wie folgt aussieht. Wenn wir eine Disjunktion von a und b haben und, Achtung, hier habe ich das jetzt schon verallgemeinert, eine Disjunktion von nicht a und irgendeinem anderen Literal c,
+
+03:04.000 --> 03:22.000
+dass man dann daraus folgert, dass die Formel b oder c wahr ist. Also man dieses a fliegt mit dem nicht a weg und den Rest behält man irgendwie.
+
+03:22.000 --> 03:43.000
+So, schauen wir uns das Ganze jetzt also mal im Detail an. Wir definieren uns einen Kalkül der aussagenlogischen Resolution und der besteht nur aus einer einzigen Regel, kein Axiom, keine 17.000 andere Regel, nur einer einzigen Regel.
+
+03:43.000 --> 04:08.000
+Das sieht jetzt auf den ersten Blick vielleicht ein bisschen verwirrend aus, aber wenn Sie sich das Handout daneben legen, dann sehen Sie, dass Sie eigentlich nur hier auf eines besonders achten müssen.
+
+04:08.000 --> 04:23.000
+Sie haben hier eine lange Klausel und hier eine lange Klausel. Das heißt eine Disjunktion von Literalen oder zwei Disjunktionen von Literalen.
+
+04:23.000 --> 04:40.000
+Und einmal kommt in einer dieser Klauseln das Literal l vor und einmal kommt es in negativ und in der anderen Klausel kommt es in negativer Form vor.
+
+04:40.000 --> 05:04.000
+Eine solche Kalkülregel bedeutet ja, wenn wir diese Klausel als gültig hergeleitet haben und wenn wir diese Klausel als gültig hergeleitet haben, dann wollen wir mithilfe dieser Resolutionsregel eine andere Klausel herleiten, die ebenfalls gültig sein soll.
+
+05:04.000 --> 05:31.000
+Und das ist die sogenannte Resolvente, die Resolvente r. Und wenn Sie jetzt genau hinschauen, dann sehen Sie, die Resolvente besteht aus den Literalen der beiden Elternklauseln, wobei wir aber das sogenannte komplementäre Paar herausgestrichen haben.
+
+05:31.000 --> 05:51.000
+Also hier geht es von l1 bis lm, l1 bis lm ohne eben l und hier geht es von l-1 bis l-n ohne eben hier das negative l. Der Rest wird einfach zusammengepackt.
+
+05:51.000 --> 06:02.000
+Eine erste Bemerkung dazu. Das sieht jetzt natürlich so aus, als würde man immer aus zwei Klauseln eine machen. Das stimmt auch.
+
+06:02.000 --> 06:16.000
+Wenn man sich jetzt überlegt, dass hier m Literale drin sind und hier n Literale, dann hätten wir hier unten m plus n minus zwei Literale in einer Klausel.
+
+06:16.000 --> 06:34.000
+Man würde also vermuten, dass durch die Anwendung dieser Resolutionsregel Klauseln immer größer werden. Das ist aber nicht so. Es ist in keinster Weise gesagt, dass diese Dinger hier tatsächlich existieren.
+
+06:34.000 --> 06:50.000
+Es kann also durchaus sein, dass hier in der Elternklausel gar keine l Striche stehen, sondern nur ein negatives l und wenn man jetzt diese Klausel mit dieser Klausel resolvieren würde,
+
+06:50.000 --> 07:12.000
+käme also nur dieser Teil hier als Ergebnis raus, was dieser Klausel entspricht, ohne diesen einen Literal und somit kann man Klauseln auch verkürzen.
+
+07:12.000 --> 07:27.000
+Hier unten sind nochmal die wichtigsten Begriffe genannt. Wir sprechen von Elternklauseln. Den Prozess nennen wir Resolution oder das Verb dazu ist Resolvieren.
+
+07:27.000 --> 07:43.000
+Das Ergebnis ist die Resolvente. Oft kann man das dann eben auch so schön als Bäumchen darstellen und die einzelnen Bäume der einzelnen Resolutionsschritte kann man dann auch zu komplexen Bäumen zusammenbauen.
+
+07:43.000 --> 08:03.000
+Erinnern Sie sich daran, das hier war das Symbol für die Lehre-Klausel, also die Lehre-Disjunktion und diese wird häufig in der Literatur stattdessen auch mit einer kleinen Box bezeichnet.
+

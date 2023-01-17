@@ -1,0 +1,401 @@
+WEBVTT
+
+00:00.000 --> 00:14.960
+Gut, also wir haben uns die Semantik definiert, dann haben wir gesehen, dass
+
+00:14.960 --> 00:21.320
+wir die wichtigsten Begriffe, Gültigkeit, Wahr, Modell und so weiter alles erben.
+
+00:21.320 --> 00:27.520
+Dann haben wir uns ein Beispiel angeguckt, wie das mit einer einfachen Formel
+
+00:27.520 --> 00:32.720
+aussieht. Das waren sogar noch eine ohne Quantor. Wir haben festgestellt, dass es
+
+00:32.720 --> 00:37.660
+dazu eventuell ein kleines Problemchen mit freien Variablen gibt, bzw. kein
+
+00:37.660 --> 00:48.440
+Problem, aber dass man da sehr wohl aufpassen muss. Genau, und jetzt
+
+00:48.440 --> 00:55.480
+können wir uns noch mal kurz zurücklehnen und bevor wir uns auf die Formel mit
+
+00:55.480 --> 01:04.520
+Quantoren stürzen, noch kurz die anderen offengebliebenen Definitionen aus der
+
+01:04.520 --> 01:15.200
+Aussagenlogik klauen und erben. Und das sind genau diese Definitionen, die uns
+
+01:15.200 --> 01:21.000
+wiederum am Anfang so fürchterlich viel Verständnisprobleme bereitet haben und
+
+01:21.000 --> 01:31.120
+die jetzt auf ganz natürliche Art und Weise wieder folgen. Und zwar reden wir
+
+01:31.120 --> 01:35.880
+oder sprechen wir davon Implikation, Äquivalenz, Enttäuschung oder logischer
+
+01:35.880 --> 01:44.800
+Schlussfolgerung. Also ganz einfach, also eine Formel Q oder eine Formel P
+
+01:44.800 --> 01:54.520
+impliziert eine Formel Q, wenn jede erfüllende Interpretation von P auch
+
+01:54.520 --> 02:00.880
+eine erfüllende Interpretation von Q ist. Entschuldigung, Tippfehler.
+
+02:00.880 --> 02:15.360
+Gut, ganz einfach. Sie werden äquivalent genannt, ja, wenn diese Implikation in
+
+02:15.360 --> 02:24.960
+beide Richtungen geht. Wir sagen, dass eine Interpretation eine Menge von Formeln
+
+02:24.960 --> 02:30.200
+erfüllt, wenn sie jede einzelne Formel aus dieser Formelmenge erfüllt.
+
+02:30.200 --> 02:35.640
+Eins zu eins, ja. Also Sie sehen, hier steht nirgends, im Endeffekt steht hier
+
+02:35.640 --> 02:40.440
+nirgends etwas anderes, als wir es bisher in der Aussagenlogik kannten, nur dass
+
+02:40.440 --> 02:43.600
+wir jetzt über Formeln aus der Prädikatenlogik sprechen. Das ist alles.
+
+02:43.600 --> 02:52.720
+Und genauso ist es natürlich auch mit der logischen Implikation, Entailment.
+
+02:52.720 --> 02:58.680
+Wir sagen also, eine Formel P folgt logisch aus einer Formelmenge groß P,
+
+02:58.680 --> 03:04.280
+wenn jede Interpretation, die die Formelmenge erfüllt, auch eine Interpretation
+
+03:04.280 --> 03:15.880
+dieser Formel ist. Fertig. Eine erfüllende Interpretation dieser Formel ist.
+
+03:15.880 --> 03:28.320
+Ebenso, was allerdings momentan wichtig ist, müssen wir, und deswegen funktioniert
+
+03:28.320 --> 03:33.120
+das so schön mit der Rückführung auf der Aussagenlogik, davon ausgehen, dass wir
+
+03:33.120 --> 03:38.320
+lediglich von Formeln sprechen, die geschlossen sind, also keine freien
+
+03:38.320 --> 03:49.640
+variablen Beinhalten. Dann aber haben wir auch genau dieselben wichtigen
+
+03:49.640 --> 03:54.800
+Tautologien, wie wir sie in der Aussagenlogik kennengelernt haben.
+
+03:54.800 --> 04:02.760
+Das heißt, hier steht schon wieder P äquivalent zu P. Hier steht natürlich P ist äquivalent zu Q.
+
+04:02.760 --> 04:11.440
+Genau dann, wenn die Formel P-B-Implikation Q allgemeingültig ist, wenn sie unter jeder
+
+04:11.440 --> 04:19.760
+Interpretation erfüllt ist. Und die logische Implikation können wir wieder
+
+04:19.760 --> 04:25.080
+genauso darauf zurückzuführen, dass eben die Subjunktion der Konjunktion aller
+
+04:25.080 --> 04:33.320
+Formeln in P und der zu Schluss folgenden Formel P als Konsequenz auch
+
+04:33.320 --> 04:39.920
+gültig ist. Und auch da gilt wieder, also wir haben zum Beispiel eine
+
+04:39.920 --> 04:48.040
+Tautologie P, naja, wenn sie, die immer erfüllt ist. Das heißt, das ist dann auch
+
+04:48.040 --> 04:55.560
+eine Formel, die aus der leeren Menge von Formeln logisch abgeleitet werden kann.
+
+04:55.880 --> 05:09.800
+Gucken wir uns das jetzt mal, wenn ich meine Maus gefunden habe, für eine Formel an,
+
+05:09.800 --> 05:18.160
+die einen Existenzquartum beinhaltet. Wir fragen uns jetzt also die Formel, es
+
+05:18.160 --> 05:26.120
+existiert ein x, so dass P x y und Q zx. Wir fragen uns, ob diese Formel erfüllbar ist.
+
+05:26.120 --> 05:35.520
+Nun, wann ist sie erfüllbar? Sie ist erfüllbar, wenn wir eine zu der, wenn sie
+
+05:35.520 --> 05:41.200
+eine Interpretation besitzt, die sie wahrmacht. Das heißt, wir brauchen eine
+
+05:41.200 --> 05:45.960
+Struktur, in der wir sie interpretieren. Diese Struktur, also so eine Sigma-Algebra,
+
+05:45.960 --> 05:55.200
+muss jetzt also passend sein zu der Signatur, die uns diese Formel vorgibt.
+
+05:55.200 --> 06:01.200
+Wir brauchen also in unserer Sigma-Algebra irgendwie zwei verschiedene
+
+06:01.200 --> 06:06.560
+zweistellige Relationen und das war's auch schon.
+
+06:06.560 --> 06:13.840
+Gut, wir schauen uns an, die natürlichen Zahlen. Wir interpretieren das P als
+
+06:13.840 --> 06:21.160
+echt kleiner, wir interpretieren das Q als Detailbarkeitsrelation und weil es,
+
+06:21.160 --> 06:26.880
+sage ich jetzt mal, um punktuelle Erfüllbarkeit geht, setzen wir einfach
+
+06:26.880 --> 06:35.760
+mal y auf 3 und z auf 2 und hoffen, dass da jetzt, wenn wir das interpretieren,
+
+06:35.760 --> 06:41.760
+eine 1 rauskommt. Also schauen wir doch mal, was passiert. Wir interpretieren jetzt
+
+06:41.760 --> 06:54.240
+also diese Formel. Wann ist diese Aussage, dass es ein x gibt, das diese
+
+06:54.240 --> 07:02.680
+Konjunktion erfüllt, wahr? Nun, sie ist dann wahr, wenn es ein Element a aus der
+
+07:02.680 --> 07:14.320
+Grundmenge unserer Sigma-Algebra, unserer Struktur, gibt, so dass, wenn wir den
+
+07:14.320 --> 07:22.880
+Wert von x durch dieses a ersetzen, die Formel pi xy und qzx wahrnimmt.
+
+07:22.880 --> 07:30.080
+Wir müssen also so ein a haben. Okay, gut, das können wir uns jetzt schon mal merken.
+
+07:30.080 --> 07:35.720
+Diese Interpretation hier muss das und das wahrnehmen. Jetzt schauen wir uns das hier an.
+
+07:35.720 --> 07:39.840
+A, hier steht eine Konjunktion, das heißt, wir wissen, wir müssen das
+
+07:39.840 --> 07:46.960
+interpretieren, das interpretieren und den Wahrheitswert, der daraus kommt, mit
+
+07:46.960 --> 07:52.760
+dem Infimum verrechnen. Jetzt nehmen wir diese Interpretation, wie gesagt, der
+
+07:52.760 --> 07:58.240
+Wert von x durch ein entsprechendes a ist ja durch die Semantik des Existenzquantors
+
+07:58.240 --> 08:10.480
+festgelegt. Und jetzt gucken wir uns an, die Interpretation von p und q, also kleiner
+
+08:10.480 --> 08:21.920
+und geteilt. Und dann steht für pi xy, ich sage mal, x kleiner y, wobei
+
+08:21.920 --> 08:27.800
+natürlich dieses x jetzt noch ausgewertet werden muss. Ist ja ein
+
+08:27.800 --> 08:34.880
+Term, genauso wie das y noch ausgewertet werden muss. Es muss also ausgewertet werden
+
+08:34.880 --> 08:42.240
+bezüglich der Belegungsfunktion, die wir in unserer Interpretation genommen haben
+
+08:42.240 --> 08:56.320
+und mit dem als existent angenommenen a. Gut, also relativ
+
+08:56.320 --> 09:02.800
+kryptisch steht jetzt hier einfach nur, es muss im Endeffekt
+
+09:02.800 --> 09:13.440
+x kleiner y und z ist ein Teiler von x. So, was machen wir? Also wir haben jetzt
+
+09:13.440 --> 09:22.080
+hier die einzelnen Strukturelemente dieser Formel mit dem kleinen j
+
+09:22.080 --> 09:26.360
+interpretiert, dann stehen unsere Aufwertungsfunktionen da und diese
+
+09:26.360 --> 09:32.400
+Evaluationen können wir jetzt ausrechnen. Diese sind jetzt für Variablen ja immer
+
+09:32.400 --> 09:39.120
+gleich dem Wert der Variablen und der wird angegeben durch alpha und in diesem
+
+09:39.120 --> 09:44.480
+Falle eben durch ein alpha, das an der Stelle x durch ein a verändert wurde.
+
+09:44.480 --> 09:50.640
+Also ist natürlich die Belegung von x, egal was sie vorher war, jetzt auf jeden Fall a.
+
+09:50.640 --> 10:05.440
+Also a kleiner alpha von y, wobei x den Wert a hat. Naja y ist nicht x, also y
+
+10:05.440 --> 10:15.920
+hat den Wert, den alpha y zuweist. Das ist die 3. Also steht hier eine 3.
+
+10:15.920 --> 10:22.720
+Hier machen wir jetzt dasselbe, alpha von z, wobei x den Wert a hat, z ist aber ungleich
+
+10:22.720 --> 10:28.880
+x, ist also wurscht, ist der Wert von z, ist 2, steht da und hier haben wir jetzt
+
+10:28.880 --> 10:37.640
+wieder x a stehen. Gut, das passt hier gar nicht mehr auf die Folie drauf.
+
+10:37.640 --> 10:44.200
+Also letztendlich, nachdem wir die Werte, nachdem wir diese Variablen
+
+10:44.200 --> 10:50.440
+ausgerechnet, nachdem wir diese Variablen evaluiert haben, also ihre Belegung
+
+10:50.440 --> 10:58.560
+gefunden haben, steht jetzt hier so eine Formel wie a kleiner 3 und 2 ist ein
+
+10:58.560 --> 11:05.880
+Teiler von a. So, was bedeutet jetzt dieses a? Das steht jetzt hier nicht
+
+11:05.880 --> 11:12.960
+extra dran, wahrscheinlich weil es über den Folienrand hier rausgeht. Das ganze
+
+11:12.960 --> 11:21.840
+Ding hier wird ja wahr, wenn es so ein a gibt, dass dieses Ding hier wahr wird.
+
+11:21.840 --> 11:27.800
+Und jetzt setzen wir a einfach mal gleich 2. Wir wissen ja nur, a ist ein
+
+11:27.800 --> 11:33.600
+Element aus unserer Domäne. So, jetzt setzen wir a gleich 2 und dann steht hier 2 ist kleiner 3
+
+11:33.600 --> 11:41.120
+und 2 teilt 2. Jetzt überlegen wir kurz, 2 ist kleiner 3, stimmt und 2 ist ein
+
+11:41.120 --> 11:51.600
+Teiler von 2. Stimmt auch, rechnen wir aus, wahr. Also, die Aussage, dass es eine
+
+11:51.600 --> 12:02.720
+natürliche Zahl gibt, die durch 2 teilbar ist und kleiner als 3 ist, ist wahr.
+
+12:02.720 --> 12:08.880
+Und das, was ich gerade gesagt habe, es gibt eine natürliche Zahl, kleiner 3, die
+
+12:08.880 --> 12:19.560
+durch 2 teilbar ist, ist die Interpretation dieser Formel, die hier
+
+12:19.560 --> 12:28.160
+oben steht. Normalerweise würden sie das eben gleich so hinschreiben. Oder würden
+
+12:28.160 --> 12:38.040
+sie gleich hinschreiben, es existiert ein x, x kleiner y und z teilt x mit, in diesem
+
+12:38.040 --> 12:49.840
+Fall z gleich 2. Gut, also so können wir jetzt überprüfen, ob eine Formel
+
+12:49.840 --> 12:57.440
+erfüllbar ist, indem wir eben eine Interpretation suchen, die sie wahrmacht.
+
+12:57.440 --> 13:11.360
+Dann ist eine Formel erfüllbar. Schauen wir uns mal diese Formel an hier. Für
+
+13:11.360 --> 13:20.520
+alle y existiert ein x, so dass p x y und q 2 x. Diese soll jetzt ein Modell
+
+13:20.520 --> 13:32.600
+haben. Was heißt das? Wir müssen also eine Struktur finden, in der
+
+13:32.600 --> 13:40.240
+die Interpretation für alle Belegungen wahr wird. Wenn es keine solche Struktur
+
+13:40.240 --> 13:54.040
+gibt, dann hat sie kein Modell. Wir versuchen es also als erstes Mal und
+
+13:54.040 --> 14:01.000
+interpretieren diese Formel jetzt so, so als Schreibweise, wie sie es einfach
+
+14:01.000 --> 14:06.040
+kennen, wenn sie es irgendwo lesen. Diese Formel soll jetzt zum Beispiel das hier
+
+14:06.040 --> 14:13.680
+heißen, für alle y existiert ein x, so dass x kleiner y und x ist gerade.
+
+14:14.720 --> 14:19.600
+Jetzt gucken wir uns das mal an in den natürlichen Zahlen und wir stellen
+
+14:19.600 --> 14:25.240
+fest, die natürlichen Zahlen mit der Null sind kein Modell dieser Formel. Warum?
+
+14:25.240 --> 14:35.600
+Es gibt nämlich eine Belegung, nämlich wenn y gleich Null ist, so dass diese
+
+14:35.600 --> 14:40.840
+Formel hier falsch wird. Warum? Wenn y Null ist, steht hier, es gibt eine natürliche
+
+14:40.840 --> 14:46.280
+Zahl, die kleiner ist als Null und sie ist durch zwei teilbar. Es gibt keine
+
+14:46.280 --> 14:50.160
+natürliche Zahl kleiner Null, also ist das hier falsch.
+
+14:50.160 --> 15:05.120
+So, umgekehrt überlegen wir uns ein anderes Modell und nehmen die ganzen
+
+15:05.120 --> 15:13.080
+Zahlen. Dann haben wir Glück gehabt, denn zu jeder ganzen Zahl y finden wir eine
+
+15:13.080 --> 15:24.280
+ganze Zahl x, die kleiner ist als y und die durch zwei teilbar ist, weil
+
+15:24.280 --> 15:31.160
+wir nehmen, wenn y gerade ist, nehmen wir y minus 2, y minus 2 ist offensichtlich
+
+15:31.160 --> 15:39.480
+kleiner als y und weil y gerade war, ist y minus 2 auch gerade. Und wenn y
+
+15:39.480 --> 15:45.600
+gerade ist, dann nehmen wir eben y minus 1, y minus 1 ist auch kleiner als y und
+
+15:45.600 --> 15:54.600
+weil y gerade war, ist y minus 1 gerade. Passt. Also, und diesem Modell wird diese
+
+15:54.600 --> 16:05.840
+Formel als wahr interpretiert. Das heißt, diese Formel hat ein Modell. An dieser
+
+16:05.840 --> 16:16.680
+Stelle vielleicht einfach mal eine Bemerkung. Da kommen wir, je nachdem wie die
+
+16:16.680 --> 16:26.560
+Zeit vorschreitet, heute noch dazu. Es ist also sehr interessant, sich Formelmengen,
+
+16:26.560 --> 16:34.680
+Formelmengen zu betrachten und zu überlegen, welche Modelle sie haben
+
+16:34.680 --> 16:43.960
+können, beziehungsweise was kein Modell ist. Warum kann das interessant sein? Das
+
+16:43.960 --> 16:49.040
+kann ja insofern interessant sein, wenn wir nämlich versuchen, durch eine
+
+16:49.040 --> 16:59.480
+Formelmenge Modelle zu beschreiben. Eine Formelmenge beschreibt ja eine Menge von
+
+16:59.480 --> 17:03.440
+Modellen oder zwei Mengen von Modellen, nämlich einmal die Menge von Modellen,
+
+17:03.440 --> 17:08.440
+die Modell, Entschuldigung, Strukturen, Interpretationen, nämlich die Interpretationen,
+
+17:08.440 --> 17:14.160
+die Modelle von dieser Formel sind und diejenigen, die es nicht sind. So, wenn wir
+
+17:14.160 --> 17:19.640
+jetzt irgendwie eine bestimmte Struktur im Hinterkopf haben, möchte man sich
+
+17:19.640 --> 17:26.480
+natürlich die Frage stellen, suchen wir doch mal eine hübsche Formelmenge, die
+
+17:26.480 --> 17:33.000
+hoffenbar ausreicht, so dass das, was wir haben wollen, tatsächlich auch ein Modell
+
+17:33.000 --> 17:40.360
+dieser Formelmenge ist. Also, auf diesen Aspekt kommen wir gleich.
+

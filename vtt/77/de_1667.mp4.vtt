@@ -1,0 +1,233 @@
+WEBVTT
+
+00:00.000 --> 00:15.000
+Also mit Hilfe solcher Äquivalenzen, Äquivalentendarstellungen, kann man sehr effizient arbeiten,
+
+00:15.000 --> 00:26.000
+weil sie im Endeffekt dazu dienen können, bestimmte Formen einer gewissen komplexen Struktur anders darzustellen,
+
+00:26.000 --> 00:31.000
+ohne dass sich die Wahrheitsbedingungen ändern.
+
+00:31.000 --> 00:38.000
+Ein ganz einfaches Beispiel, es ist nicht der Fall, dass es nicht regnet, ist eine blöde Aussage.
+
+00:38.000 --> 00:43.000
+Man würde doch eigentlich eher sagen, es regnet.
+
+00:43.000 --> 01:02.000
+Also als Äquivalenzen und verschiedene Darstellungen würde man jetzt zum Beispiel Rechenregeln einführen wollen.
+
+01:02.000 --> 01:14.000
+Ich nenne es auch mal Rechenregeln, die wahrheitserhaltende Umformungen von logischen Formen ermöglichen.
+
+01:14.000 --> 01:23.000
+Also zum Beispiel die bereits angesprochene Involutivität der Negation sagt nichts anderes aus,
+
+01:23.000 --> 01:28.000
+als dass die doppelte Negation bestrichen werden kann.
+
+01:28.000 --> 01:38.000
+Wenn Sie also eine Formel haben, wo zwei Negationszeichen drin vorkommen, dann können Sie die einfach weglassen.
+
+01:38.000 --> 01:52.000
+Wir hatten auch bereits hingeschrieben, dass man die Implikation umschreiben kann in eine Disjunktion.
+
+01:52.000 --> 02:02.000
+Und wir hatten das De Morganische Gesetz, das ich jetzt vereinfacht noch mal darstelle,
+
+02:02.000 --> 02:15.000
+als nicht p und q ist äquivalent zu nicht p oder nicht q.
+
+02:15.000 --> 02:28.000
+In Verbindung mit diesem Gesetz hier oben können Sie dann auch zum Beispiel die Negationen nach links und nach rechts schieben.
+
+02:28.000 --> 02:37.000
+Ein sehr wichtiger Rechenregel sind zum Beispiel auch Rechenreden.
+
+02:37.000 --> 02:47.000
+Also das ist die Involutivität der Negation.
+
+02:47.000 --> 02:56.000
+Das hier ist im Endeffekt Implikationsauflösung.
+
+02:56.000 --> 03:03.000
+Das hier ist De Morgan.
+
+03:03.000 --> 03:09.000
+Dann haben wir folgendes sehr wichtiges Gesetz.
+
+03:09.000 --> 03:29.000
+p und q oder r ist äquivalent zu p und q oder p und r.
+
+03:29.000 --> 03:38.000
+Das kennen Sie im Endeffekt auch aus der ganz normalen mathematischen Arithmetic.
+
+03:38.000 --> 03:45.000
+a mal b plus c ist gleich ab plus ac.
+
+03:45.000 --> 04:03.000
+Dementsprechend nennen wir das auch Distributivität, um genau zu sein von der Konjunktion über die Disjunktion.
+
+04:03.000 --> 04:11.000
+Interessanterweise gilt das auch für die Disjunktion.
+
+04:11.000 --> 04:20.000
+Warum sage ich interessanterweise? Ganz einfach als Übungsaufgabe oder als Spaßaufgabe.
+
+04:20.000 --> 04:31.000
+Überlegen Sie sich einfach mal, ob das mit der Addition und der Multiplikation auf den natürlichen Zahlen auch gilt.
+
+04:31.000 --> 04:39.000
+Schließlich und letztendlich haben wir noch eine sehr wichtige Regel.
+
+04:39.000 --> 04:46.000
+Das ist nämlich die sogenannte Schandtig-Regel.
+
+04:46.000 --> 04:57.000
+Also zu Deutsch so etwas wie Rougier-Regel.
+
+04:57.000 --> 05:04.000
+Sie ist sehr sehr nützlich. Ich denke in der Logik werden Sie sie auf jeden Fall bekommen.
+
+05:04.000 --> 05:08.000
+Ich benutze sie relativ häufig, deswegen führe ich sie hier einfach mal ein.
+
+05:08.000 --> 05:21.000
+Oft hat man es ja, dass man eine Formel hat, die aus einer Implikation besteht, deren Prämisse ein bisschen komplexer sind.
+
+05:21.000 --> 05:30.000
+Also es muss p und q gelten oder wenn p und q gelten, dann soll R folgen.
+
+05:30.000 --> 05:40.000
+Und das kann man äquivalent umformen zu einer Formel, die aussieht.
+
+05:40.000 --> 05:57.000
+Ich kann dieses p hier hinten hinüberschieben, indem ich es negiere und rechts von der Implikation Disjunktion betrachte und links nur Konjunktion.
+
+05:57.000 --> 06:03.000
+Jetzt machen wir hier gleich klamm und rum, damit es auch komplett richtig aussieht.
+
+06:03.000 --> 06:11.000
+Natürlich könnten Sie jetzt hier auch ohne Probleme das q hinüberschieben, dann würde hier das p stehen und hier ein nicht q.
+
+06:11.000 --> 06:21.000
+Warum? Ist ja klar, weil Konjunktion symmetrisch ist, das heißt Sie können hier umdrehen und dann funktioniert das da hinten genauso.
+
+06:21.000 --> 06:35.000
+Gut, das sind also Äquivalenzen, die Sie allesamt auf die gleiche Art und Weise, wie wir es bisher schon gemacht haben, beweisen können.
+
+06:35.000 --> 06:49.000
+Ebenfalls sehr wichtig, wie wir später feststellen, sind einfach solche kleinen Tricks, mit denen man arbeiten kann.
+
+06:49.000 --> 07:04.000
+Man kann ja zum Beispiel sagen, wenn p und q gilt, dann folgt daraus was?
+
+07:04.000 --> 07:16.000
+Naja, ich muss überlegen, unter allen Bedingungen oder unter allen Wahrheitsbedingungen, die p und q wahr machen, das bedeutet beide sind wahr, muss auch die Konklusion wahr sein.
+
+07:16.000 --> 07:27.000
+Das heißt, diese Implikation ist immer wahr, weil wann immer diese beiden wahr sind, ist natürlich auch eines von den beiden wahr.
+
+07:27.000 --> 07:43.000
+Und das interessante ist jetzt, jetzt folgt, wenn p wahr ist, dann wissen wir auch was? Dann wissen wir auch, dass p oder r wahr ist.
+
+07:43.000 --> 07:55.000
+Weil wenn p wahr ist, dann ist auf jeden Fall ein Element dieser Disjunktion wahr und somit können wir im Endeffekt irgendetwas beliebiges hinschreiben.
+
+07:55.000 --> 08:09.000
+Selbst wenn r falsch ist, bleibt p oder r wahr, weil die Implikation dann höhlich ist, wenn die Prämesse wahr ist und entsprechend die Konklusion auch.
+
+08:09.000 --> 08:17.000
+Also sowas nennt man Abschwächungs- oder Abschätzungsoperationen.
+
+08:17.000 --> 08:25.000
+Man kann also eine Formel nach unten quasi abschätzen und den Wahrheitswert einer Formel nach unten oder nach oben abschätzen.
+
+08:25.000 --> 08:47.000
+Gut und schließlich und letztendlich gibt es noch etwas, was sehr wichtig ist und das sind sogenannte Trautologien.
+
+08:47.000 --> 09:09.000
+Also eine Formel p heißt Trautologie genau dann, wenn p äquivalent zum True ist.
+
+09:09.000 --> 09:35.000
+Das heißt, nur um es nochmal zu sagen, es gilt immer, also ganz egal was für Wahrheitswerte wir für unsere Aussagenvariablen annehmen, dass die Formel p wahr ist.
+
+09:35.000 --> 09:49.000
+Und von den Trautologien gibt es auch einige ganz ganz wichtige, nämlich zum Beispiel p oder nicht p.
+
+09:49.000 --> 10:01.000
+Diese Formel ist immer wahr, weil wenn p wahr ist, kommt in der Auswertung der Disjunktion hier ein wahr heraus, sodass die gesamte Disjunktion wahr ist.
+
+10:01.000 --> 10:17.000
+Wenn p falsch ist, ist dieses Disjunkt hier falsch, hier haben wir die Komplementation, das heißt aus diesem falsch wird ein wahr und damit haben wir ein wahr, was die gesamte Disjunktion wahr macht.
+
+10:17.000 --> 10:27.000
+Somit ist das auf jeden Fall eine Trautologie und ergibt immer den Wahrheitswert wahr.
+
+10:27.000 --> 10:51.000
+Ich muss gerade schauen, damit ich alle Wichtigen erwische.
+
+10:51.000 --> 11:07.000
+Eine weitere sehr wichtige Trautologie ist p impliziert q impliziert p.
+
+11:07.000 --> 11:16.000
+Diese Aussage ist ebenfalls immer wahr.
+
+11:16.000 --> 11:26.000
+Das könnten wir uns meinetwegen nochmal kurz anhand einer Wahrheitstabelle angucken.
+
+11:26.000 --> 11:45.000
+p und q, dann müssen wir uns einmal die Implikation qp ansehen und dann müssen wir uns ansehen p impliziert q impliziert p.
+
+11:45.000 --> 11:52.000
+Dann schreiben wir hier wieder unsere Wahrheitswerte hin.
+
+11:52.000 --> 12:02.000
+Dann sind wir bei der Implikation von hier nach hier bei einem wahr, hier bei einem falsch, hier bei einem wahr und hier bei einem wahr.
+
+12:02.000 --> 12:16.000
+Und jetzt schauen wir uns an p impliziert dieses, also 0 impliziert 1 ist wahr, 0 impliziert 0 ist wahr, 1 impliziert 1 ist wahr und 1 impliziert 1 ist auch wahr.
+
+12:16.000 --> 12:31.000
+Das heißt in der Tat stellen wir fest, dass diese Formel hier für alle möglichen Kombinationen von Belegungen für die Teilformeln p und q immer den Wahrheitswert wahr erhält.
+
+12:31.000 --> 12:34.000
+Warum habe ich Ihnen diese Regel gezeigt?
+
+12:34.000 --> 12:43.000
+Diese Regel ist, sage ich mal, ein aussage-logisches Axiom, wenn man die Logik ein bisschen anders definieren will.
+
+12:43.000 --> 12:50.000
+Das können Sie in einer fortgeschrittenen Logikvorlesung sich genauer überlegen.
+
+12:50.000 --> 12:59.000
+Das Interessante daran ist, dass dies eine Formel ist, in der nur ein Operator vorkommt, nämlich die Subjunktion.
+
+12:59.000 --> 13:12.000
+Und ich habe Ihnen ja gesagt, mit Subjunktion und dem False kommt man in der Aussagenlogik genau so weit, wie wenn man alle anderen Operatoren auch noch hinzunimmt.
+
+13:12.000 --> 13:19.000
+So, jetzt muss ich mal kurz schauen.
+
+13:19.000 --> 13:23.000
+Wir haben das alles erledigt.
+
+13:23.000 --> 13:39.000
+Und als abschließendes Thema dieser Einleitung, wir müssen uns ja erstmal eigentlich nur auf die Sprache einigen, die wir verwenden wollen, um das zu machen, was wir machen werden,
+
+13:39.000 --> 13:56.000
+nämlich Diskretion Automatik, werden wir uns im nächsten Videoclip noch damit beschäftigen, wie man jetzt diese sprachlichen Elemente verwendet, um Schlussfolgerungen zu ziehen.
+
+13:56.000 --> 14:02.000
+Sprich, was es für Beweistechniken gibt.
+
+14:02.000 --> 14:08.000
+Die brauchen wir als Handwerkszeug, weil wir viele Beweisewerten führen müssen.
+
+14:08.000 --> 14:18.000
+Und mit dem, was wir bis jetzt über Logik wissen, haben wir schon genügend Wissen, um einige kleine Beweisprinzipien kennenzulernen.
+
+14:18.000 --> 14:39.000
+Das sehen wir uns im nächsten Video.
+

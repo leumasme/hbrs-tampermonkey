@@ -1,0 +1,416 @@
+WEBVTT
+
+00:00.000 --> 00:10.040
+Jetzt können wir uns natürlich anschauen, die Resolution in der
+
+00:10.040 --> 00:14.800
+Haussagen-Logik, das waren für uns Finner-Übungen. Da hat man immer geguckt, wo stehen die?
+
+00:14.800 --> 00:20.560
+Irgendwann haben wir gelernt, ja, die Bäume werden vielleicht unübersichtlich.
+
+00:20.560 --> 00:24.840
+Dann hat man gesehen, diese lineare Darstellung mit Zeilennummerierung oder
+
+00:24.840 --> 00:31.000
+so wird vielleicht irgendwann länglich. Man hat alle seine Vor- und Nachteile.
+
+00:31.000 --> 00:36.800
+Die Frage, die man sich also stellt, kann man das Ganze nicht, sagen wir mal, genauso wie
+
+00:36.800 --> 00:46.160
+den Unifikationsalgorithmus irgendwie algorithmisieren. Und dazu gibt es in der
+
+00:46.160 --> 00:55.200
+Tat Varianten des Resolutionskalküls. Und im ersten Moment auf jeden Fall mal
+
+00:55.200 --> 01:04.440
+Varianten, wie man sich überlegen kann, das Resolutionskalkül, so wie wir es bis jetzt kennen,
+
+01:04.440 --> 01:16.120
+systematisch anzubringen. Dazu gibt es als erstes etwas, was man lineare Resolution nennt.
+
+01:16.120 --> 01:23.280
+Und das kann ich Ihnen ganz einfach an einem Bietchen darstellen.
+
+01:23.280 --> 01:40.040
+Wenn Sie einen Resolutionsbeweis als Baum verstehen wollen, dann sah das immer irgendwie so aus,
+
+01:40.040 --> 01:53.440
+ganz fürchterlich. Hier, hier, irgendwie so. Eine lineare Resolution soll jetzt aber folgende Form haben.
+
+01:53.440 --> 02:07.200
+Sie beginnt mit zwei Elternklauseln und resolviert zu einer Resolvente.
+
+02:07.200 --> 02:17.400
+Diese Resolvente hält man jetzt fest. Man sucht zu dieser Resolvente eine zweite Elternklausel,
+
+02:17.400 --> 02:28.480
+zu der man eine Resolvente bildet, die man dann wiederum festhält, eine weitere Elternklausel dazu sucht,
+
+02:28.480 --> 02:39.960
+diese nimmt, diese festhält und so weiter, bis man hier unten die Resolvente erhält, die man sucht.
+
+02:39.960 --> 02:45.640
+Also, was weiß ich, irgendwie ein bestimmtes Literal oder eine bestimmte Klausel.
+
+02:45.640 --> 02:51.160
+Und wenn man eine ganz bestimmte sucht, meine kriegen auch die leere Klausel.
+
+02:51.160 --> 02:59.920
+Das ist also die Idee einer linearen Resolution. Das ist genau das, was hier steht.
+
+02:59.920 --> 03:08.640
+Man wählt also initial zwei Elternklauseln und auch da kommt jetzt nachher natürlich die Frage,
+
+03:08.640 --> 03:16.280
+kann man diese Wahl der beiden Elternklauseln noch geschickt gestalten? Ja, kann man.
+
+03:16.280 --> 03:27.960
+Und dann geht man hin, dass man sozusagen jede Folge Resolvente aus der letzten Resolvente bildet
+
+03:27.960 --> 03:39.320
+mit dieser neuen Elternklausel und diese neue Elternklausel sucht man aus der ursprünglichen Menge der Klauseln
+
+03:39.320 --> 03:47.800
+vereinigt mit allen Resolventen, die man bisher gebildet hat. Also, um das noch mal grafisch darzustellen,
+
+03:47.800 --> 04:05.560
+bringen wir also hier, dieses Teil hier wird gewählt aus einer, aus P, das hier ist P,
+
+04:05.560 --> 04:17.320
+das hier ist R0 und das hier ist R0'. R wird hier rausgewählt und das wird hier rausgewählt.
+
+04:17.320 --> 04:25.120
+Hier bilden wir eine Resolvente und wenn wir diese Resolvente jetzt wieder resolvieren wollen,
+
+04:25.120 --> 04:37.520
+können wir P und dieses Ding hier dazu nehmen. Um genau zu sein, können wir das hier dazu nehmen.
+
+04:37.520 --> 04:45.840
+In dem Schritt hier können wir, wenn wir das also gemacht haben, können wir bei der Auswahl hier
+
+04:45.840 --> 04:57.760
+all dieses in Betracht ziehen, um es zu retten. Also, so funktioniert diese Linie.
+
+04:57.760 --> 05:08.320
+Jetzt kann man, also der Effekt dabei ist, dass der Suchraum wesentlich kleiner wird,
+
+05:08.320 --> 05:14.800
+weil die Resolvente wird jetzt mal festgehalten, wir müssen im Endeffekt nur den rechten Zweig immer suchen.
+
+05:14.800 --> 05:23.760
+Allerdings, das was ich angesprochen habe, sowohl die Wahl der Elternklauseln sollte geschickt erfolgen,
+
+05:23.760 --> 05:32.640
+wie dann natürlich auch nach wie vor in jedem Schritt die Wahl der zweiten Elternklausel sollte geschickt erfolgen.
+
+05:32.640 --> 05:42.160
+Und dazu kann man sich jetzt noch eine weitere Einschränkung überlegen, nämlich,
+
+05:42.160 --> 05:48.800
+und jetzt sehen Sie genau das, was ich hier oben gesagt habe eben, bei der Wahl von Elternklauseln
+
+05:48.800 --> 05:59.680
+lässt man nicht mehr zu, die Wahl bisheriger Resolventen, sondern man lässt immer nur zu,
+
+05:59.680 --> 06:09.920
+dass aus einer Elternklausel beginnend aus P eine Resolvente gebildet wird.
+
+06:09.920 --> 06:16.160
+Diese Resolvente, die jetzt anders ist als alle, die da oben stehen,
+
+06:16.160 --> 06:24.400
+darf jetzt aber auch nur wieder mit Klauseln aus P resoniert werden und so weiter.
+
+06:24.400 --> 06:33.120
+Das heißt, in diesem Falle schränken wir den Suchraum auf der rechten Seite noch weiter ein.
+
+06:33.120 --> 06:42.160
+Jetzt haben wir nur ein Problem, dieses Verfahren ist jetzt nicht mehr widerlegungsvollständig.
+
+06:42.160 --> 06:45.920
+Das kann man an folgendem Beispiel sehen.
+
+06:45.920 --> 06:58.560
+Hier sehen Sie einfach zwei literale P und Q und alle Permutationen von Klauseln, die man daraus herleiten kann.
+
+06:58.560 --> 07:03.680
+Also PQ, nicht PQ, P nicht Q, nicht P nicht Q.
+
+07:03.680 --> 07:12.560
+Und jetzt sehen Sie natürlich, dass Sie diese Klausel hier, nicht PQ,
+
+07:12.560 --> 07:21.440
+können Sie mit nicht P nicht Q resolvieren und Sie kriegen raus die Klausel nicht P.
+
+07:21.440 --> 07:26.240
+Dann können Sie das Ganze hier noch mal machen und so weiter und so fort, also auf jeden Fall,
+
+07:26.240 --> 07:37.120
+weil Sie dann ja die Resolvente bestehend aus einer Klausel mit nur einem Literal weiterverwenden dürfen in dieser Resolution,
+
+07:37.120 --> 07:44.400
+kriegen Sie es hin, die Anzahl der Literale in den Resolventen jeweils zu kürzen
+
+07:44.400 --> 07:50.560
+und Sie müssen ja auf eine Resolvente mit null Literalen kommen, nur dann haben Sie ja die leere Klausel.
+
+07:50.560 --> 07:57.360
+Das geht hier aber nicht, weil wenn Sie versuchen oder wenn Sie das hier mit dem resolvieren,
+
+07:57.360 --> 08:04.000
+klar, schön, dann fliegt das P gegen das nicht P raus und Sie kriegen eine Resolvente Q.
+
+08:04.000 --> 08:10.240
+Diese Resolvente Q dürfen Sie jetzt aber nicht mehr anfassen.
+
+08:10.240 --> 08:14.800
+Nein, diese Resolvente Q steht jetzt natürlich da,
+
+08:14.800 --> 08:24.960
+aber diese Resolvente Q dürften Sie jetzt nicht mit einer anderen Resolvente nicht Q zur leeren Klausel resolvieren,
+
+08:24.960 --> 08:36.560
+weil Sie die Resolvente Q eben nur wieder mit einem von diesen zwei elementigen Klauseln resolvieren dürften.
+
+08:36.560 --> 08:44.880
+Sie könnten also niemals hier eine Klausel der Länge Null erfolgen.
+
+08:44.880 --> 08:54.240
+Dann antworten Sie, Sie brauchen eigentlich immer eine der Länge Eins, sonst klappt es nicht.
+
+08:54.240 --> 09:15.280
+Gut, was macht man jetzt, wenn man eine effiziente Art und Weise der Resolution gefunden hat,
+
+09:15.280 --> 09:18.240
+die aber nicht mehr vollständig ist?
+
+09:18.240 --> 09:25.200
+Es gibt also logische Schlüsse, die korrekt sind,
+
+09:25.200 --> 09:33.120
+die wir aber jetzt in Anführungszeichen effizient, sagen wir mal besser effektiv, nicht nachbauen können.
+
+09:33.120 --> 09:35.120
+Was macht man dann?
+
+09:35.120 --> 09:42.160
+Naja, wenn man ein schönes Verfahren hat, das aber nicht zu einer Logik passt,
+
+09:42.160 --> 09:48.480
+dann geht man hin und ändert die Logik soweit, dass sie zu dem Verfahren passt.
+
+09:48.480 --> 09:55.920
+Wir haben jetzt ein Beweisverfahren, das ist korrekt bezüglich einer bestimmten logischen Sprache,
+
+09:55.920 --> 09:59.920
+dass es korrekt ist, war okay, aber es ist nicht mehr vollständig.
+
+09:59.920 --> 10:05.920
+Wir waren ja von der Vollständigkeit ausgegangen als Beweisverfahren.
+
+10:05.920 --> 10:12.720
+Wir haben jetzt also für diese Art der Resolution den dummen Fall, dass wir zwar wissen,
+
+10:12.720 --> 10:17.680
+wenn wir ein p aus p ableiten können, dass auch korrekt ist,
+
+10:17.680 --> 10:26.400
+aber wir können nicht für jede korrekte logische Implikation auch eine Ableitung finden.
+
+10:26.400 --> 10:28.400
+Was macht man also?
+
+10:28.400 --> 10:33.680
+Naja, man schränkt einfach die Menge der Formelmengen ein.
+
+10:33.680 --> 10:43.760
+Und zwar schränkt man die Formelmengen jetzt so ein, dass man hier gar nicht mehr beliebige Formeln hinschreiben darf,
+
+10:43.760 --> 10:52.160
+sondern nur solche Formeln, die, wenn sie den logischen Schluss erfüllen,
+
+10:52.160 --> 10:59.920
+auch die schöne Eigenschaft haben, dass man sie mit diesem Verfahren beweisen kann.
+
+10:59.920 --> 11:01.920
+Sehen Sie, was ich meine?
+
+11:01.920 --> 11:19.040
+Wir müssen jetzt also hingehen und die Menge der möglichen prädikatologischen Formeln
+
+11:19.040 --> 11:27.920
+so beschränken, dass unser vorher nicht vollständiger Kalkül vollständig wird.
+
+11:27.920 --> 11:36.880
+Was wir also jetzt machen, ist tatsächlich eine Beschränkung der Ausdrucksfähigkeit der Prädikatenlogik.
+
+11:36.880 --> 11:46.640
+Aber eine Beschränkung, die uns die Vollständigkeit eines Verfahrens garantiert, das definitiv finde ich.
+
+11:46.640 --> 12:01.520
+Und eine Beschränkung, die in ihrer Ausdrucksstärke hoffentlich, die die Ausdrucksstärke betreffend, hoffentlich nicht allzu gravierend ist.
+
+12:01.520 --> 12:06.160
+Genau.
+
+12:06.160 --> 12:16.320
+Und diese Einschränkung nennt man eine Einschränkung auf sogenannte Hornklauteln.
+
+12:16.320 --> 12:35.040
+Wir wollen im Folgenden nur solche Formeln betrachten, die, wenn wir sie in eine normalisierte, polemisierte Klauselform überführen,
+
+12:35.040 --> 12:44.240
+eine Form haben, die höchstens ein positives Literal enthält.
+
+12:44.240 --> 12:57.520
+Also, eine Formel muss dergestalt sein, dass, wenn wir sie in eine erfüllungsequivalente Menge von Klauseln umgeformt haben,
+
+12:57.520 --> 13:04.000
+jede dieser Klauseln höchstens ein positives Literal enthält.
+
+13:04.000 --> 13:08.320
+Nun, da gibt es mehrere Möglichkeiten.
+
+13:08.320 --> 13:12.720
+Erstens, die Klausel ist leer.
+
+13:12.720 --> 13:17.360
+Die enthält höchstens ein positives Literal. Super.
+
+13:17.360 --> 13:19.200
+Nämlich keins.
+
+13:19.200 --> 13:26.800
+Und diese leere Klausel ist natürlich auch eine ganz tolle Klausel, weil die brauchen wir sowieso für unsere Wiederlegungsbeweidung.
+
+13:26.800 --> 13:36.240
+Die leere Klausel repräsentiert die Formel false, diejenige also, die kein Modell hat.
+
+13:36.240 --> 13:43.360
+Es gibt auch Formeln, die haben ein positives Literal und kein negatives.
+
+13:43.360 --> 13:49.280
+Es sind also unnähere Klauseln. Unnähere Klauseln, die aus nur einem Literal bestehen.
+
+13:49.280 --> 13:56.640
+Naja, und unnähere Klauseln, die nur aus einem Literal bestehen, repräsentieren ja eine Formel, die nur aus diesem Literal besteht.
+
+13:56.640 --> 14:04.000
+Wenn da eine Variable drin vorkommt, eine freie Variable, ist die halt halbkantifiziert.
+
+14:04.000 --> 14:13.440
+Dann gibt es Formeln, die haben ein positives Literal und mehrere negative Literale.
+
+14:13.440 --> 14:22.480
+Wenn man sich jetzt überlegt, welche logischen Formeln das entsprechen, dann sieht die so aus.
+
+14:22.480 --> 14:32.560
+Nämlich b1 und b2 bis und bn gemeinsam Subjunktion h.
+
+14:32.560 --> 14:52.880
+Eine solche Klausel drückt also eine, sage ich jetzt mal, Implikation aus, die wahr ist unter der Bedingung, dass alle ihre Prämissen erfüllt sind.
+
+14:52.880 --> 15:05.680
+Mit anderen Worten, um zu beweisen, dass dieses Literal hier erfüllt ist, muss ich zeigen, dass alle diese Literale erfüllt sind.
+
+15:05.680 --> 15:09.600
+Beziehungsweise nicht widerlich macht.
+
+15:09.600 --> 15:20.640
+Und schließlich und letztendlich gibt es auch noch Klauseln, die kein positives Literal enthalten, sondern nur negative.
+
+15:20.640 --> 15:34.160
+Wenn wir das jetzt umformen, dann hat das die logische Form, es existiert kein x, sodass b1 und b2 und so weiter und so fort.
+
+15:34.160 --> 15:42.880
+Das ist jetzt die Sprache der Hornlogik.
+
+15:42.880 --> 16:06.720
+Wir können also keine Klauseln betrachten, die eine Subjunktion der Form haben, die hier hinten in der Konsequenz mit der Subjunktion auftaucht.
+
+16:06.720 --> 16:34.320
+Gut, das bedeutet jetzt folgendes, die Aussage, dass aus einer Menge von Formen die Konjunktion g1 bis gn erfüllbar ist,
+
+16:34.320 --> 16:49.120
+heißt ja, dass es Instanzen oder eine Belegung der Variablen, die in g1 bis gn vorkommen, gibt, die diese Konjunktion wahrmachen.
+
+16:49.120 --> 16:58.560
+So, und jetzt wenden wir im Endeffekt das Widerspruchslämmer an, negieren das Ganze,
+
+16:58.560 --> 17:07.760
+dann wird ein Altquantor daraus und hier drin wird eine Disjunktion von negierten Literalen daraus.
+
+17:07.760 --> 17:24.320
+Das heißt, um zu zeigen, dass eine Konjunktion erfüllbar ist, zeigen wir, dass die Vereinigung der Menge p von Formen mit dieser Negation hier unerfüllbar ist.
+
+17:24.320 --> 17:35.120
+Gut, und wenn man sich jetzt eine andere Schreibweise dazu einmässt, nämlich diese hier, kann man das auch anders schreiben.
+
+17:35.120 --> 17:49.360
+Also statt f schreibt man fail, für ein einfaches Literal schreibt man einfach dieses Literal hin und macht einen Punkt dahinter, den Quantor können wir uns ja sparen.
+
+17:49.360 --> 18:06.720
+Eine solche Subjunktion, wissen wir ja, hat immer ein Literal in der Konsequenz, auf das geschlossen werden kann, wenn alle Literale in der konjunktiven Prämisse erfüllt sind.
+
+18:06.720 --> 18:19.520
+Dann schreibt man halt so hin, dass H, wenn, lesen Sie das als wenn, H, wenn, B1 und B2 und immer, also dieses Komma ist dann die Und.
+
+18:19.520 --> 18:28.320
+Und aus Gründen, die wir dann gleich sehen werden, kann man dann solche Klauseln hier, die nur aus einer Negation bestehen,
+
+18:28.320 --> 18:41.600
+Sie können sie auch hier umdrehen, Sie können sagen, also hier aus dieser negierten Existenzaussage über diese Konjunktion, die kann man auch so hinschreiben.
+
+18:41.600 --> 18:52.400
+Also wieder eine Konjunktion B1 bis BN schreibt man einfach so hin, die Tatsache, dass wir aber eine negierte Existenzaussage haben, bezeichnet man mit einem Fragezeichenstrich.
+
+18:52.400 --> 19:09.920
+Also, das bedeutet, dass man diesen Ausdruck hier, die Formelmenge vereinigt, diesen Teil hier ist unerfüllbar, können wir auch schreiben, die Formelmenge vereinigt,
+
+19:09.920 --> 19:23.200
+in dieser Schreibweise ermöglicht es uns mit dieser Variante der Resolution die leere Klausel abzuleiten.
+
+19:23.200 --> 19:32.720
+Eine solche Menge P von Hornklauseln nennt man auch logisches Programm, darum zeichne ich Ihnen gleich.
+
+19:32.720 --> 19:56.560
+Nehmen wir mal an, wir hätten ein logisches Programm P und mit Hilfe dieses logischen Programms P könnten wir logisch beweisen, also wir haben das Entailment,
+
+19:56.560 --> 20:24.880
+das, naja, wir könnten halt zeigen zum Beispiel Double, 3 und 6, weil wir sagen wollen, das Prädikat Double treffe jetzt zu für alle Werte x und y, sodass das Doppelte von x und y ist.
+
+20:24.880 --> 20:33.280
+Das wäre jetzt, ja, wir haben ein Programm, mit dem könnte man das tun.
+
+20:33.280 --> 20:47.840
+Wenn man dieses Programm hat, kann man sich jetzt die Frage stellen, hör mal, gibt es eine Zahl y, sodass y 2x mal 3 ist?
+
+20:47.840 --> 21:10.640
+Das heißt, umgesetzt würden wir fragen, ist die Aussage, für alle y gilt nicht Double 3y, also die Aussage, es gibt keine Zahl, die doppelt so groß ist wie 3.
+
+21:10.640 --> 21:25.840
+Das steht hier, für alle y gilt, y ist nicht das Doppelte von 3, wenn diese Aussage unerfüllbar ist, haben wir gezeigt, es gibt eine Zahl.
+
+21:25.840 --> 21:53.680
+Also, wenn wir jetzt diese Aussage hier zu P hinzufügen würden und wir dann die leere Klausel ableiten, würden wir wissen, die Annahme, es gibt keine Zahl, die doppelt so groß ist wie 3,
+
+21:53.680 --> 22:00.160
+wenn die zu einem Widerspruch führt, wissen wir, es gibt eine Zahl, die doppelt so groß ist wie 3.
+
+22:00.160 --> 22:29.120
+Und jetzt kommt der Punkt, an dem der Frosch ins Wasser sitzt, und das ist nämlich die Tatsache, dass wenn wir das hier, wenn wir eine leere Klausel wegresolvieren wollen, mit diesem negativen Literal, wir jetzt ja erstmal nur Klauseln benutzen können, die mindestens ein positives Literal haben.
+
+22:29.120 --> 22:40.480
+Und die müssen dann unifiziert werden, was einfach ist, es gibt ja nur ein positives Literal, man kann das schnell überprüfen.
+
+22:40.480 --> 22:57.600
+Und dann ergibt sich aus der Unifikation eine Substitution, die uns sagt, für welchen Wert y, diese Aussage hier, falsch ist.
+
+22:57.600 --> 23:09.440
+Die Aussage, es gibt keine Zahl, die doppelt so groß ist wie 3, ist falsch für die Zahl 6.
+
+23:09.440 --> 23:28.320
+Und das ist genau das, was man herausbekommt. Man bekommt quasi ein Gegen Beispiel für die Annahme dieser Unerfüllbarkeit.
+

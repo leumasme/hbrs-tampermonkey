@@ -1,0 +1,203 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+So, und jetzt kommen wir noch zu einem sehr, sehr schönen Beispiel.
+
+00:06.000 --> 00:15.000
+Wir haben uns jetzt überlegt, ist denn folgende Formel wahr in einer bestimmten Interpretation mit einer bestimmten Belegung,
+
+00:15.000 --> 00:21.000
+oder kann folgende Formel wahr werden, hat sie ein Modell, hat sie kein Modell, was auch immer.
+
+00:21.000 --> 00:25.000
+Ich habe Ihnen hier jetzt mal eine ganz tolle Formel hingeschrieben
+
+00:25.000 --> 00:32.000
+und hoffe, dass dieses Beispiel bei Ihnen einen kleinen Aha-Effekt auslöst.
+
+00:32.000 --> 00:39.000
+Schauen Sie sich mal an, wie fürchterlich kompliziert diese Formel ist. Grauenvoll.
+
+00:39.000 --> 00:49.000
+Und wir wollen uns jetzt mal überlegen, hat die ein Modell, kann die wahr sein, ist die immer falsch,
+
+00:49.000 --> 00:52.000
+was in aller Welt ist denn das für ein Teil?
+
+00:52.000 --> 00:59.000
+So, jetzt schaut man mal wirklich genau hin.
+
+00:59.000 --> 01:08.000
+Und wenn man genau hinschaut, stellt man fest, okay,
+
+01:08.000 --> 01:25.000
+das ist eine Formel, die über alle Vorkommen von x irgendwie hier allquantifiziert.
+
+01:25.000 --> 01:28.000
+So, und das ist die einzige.
+
+01:28.000 --> 01:33.000
+Dann kommen noch Terme vor und so weiter und so fort.
+
+01:33.000 --> 01:39.000
+So, das soll uns jetzt aber erstmal nicht weiter interessieren.
+
+01:39.000 --> 01:42.000
+Wir gucken uns das einfach mal syntaktisch an.
+
+01:42.000 --> 01:52.000
+Wenn man sich das hier anguckt, px und qaf von x, das ist dasselbe wie das, was hier hinten steht.
+
+01:52.000 --> 01:57.000
+Und hier steht irgendeine andere Formel.
+
+01:57.000 --> 02:04.000
+So, jetzt gehen wir einfach mal hin und schreiben das mal um.
+
+02:04.000 --> 02:08.000
+Wir nennen dieses Ding hier jetzt meinetwegen mal so.
+
+02:08.000 --> 02:10.000
+Und jetzt das Interessante.
+
+02:10.000 --> 02:17.000
+Wovon hängt grundsätzlich der Wahrheitswert dieser Formel hier ab?
+
+02:17.000 --> 02:21.000
+Naja, der hängt natürlich von x ab.
+
+02:21.000 --> 02:31.000
+Ich definiere mir also eine Formel, die nenne ich jetzt mal qx.
+
+02:31.000 --> 02:38.000
+Und die ist wahr genau dann, wenn diese Formel wahr ist, beziehungsweise falsch, wenn sie falsch ist.
+
+02:38.000 --> 02:44.000
+Das heißt, in der Definition dieses q steckt drin die Bedeutung von dem p, von dem q,
+
+02:44.000 --> 02:47.000
+da steckt drin die Bedeutung von dem a und von dem f.
+
+02:47.000 --> 02:51.000
+Das ist erstmal alles vollkommen pupsegal.
+
+02:51.000 --> 02:58.000
+Diese Formel hier heißt einfach nur q von x.
+
+02:58.000 --> 03:02.000
+Dementsprechend heißt die hier hinten auch x.
+
+03:02.000 --> 03:06.000
+Jetzt gucken wir uns die hier an, hier machen wir das Gleiche, das ist jetzt auch irgendein x.
+
+03:06.000 --> 03:09.000
+So, und die nennen wir jetzt Rx.
+
+03:09.000 --> 03:13.000
+Und jetzt schauen wir uns das noch mal an, was dann da steht.
+
+03:13.000 --> 03:16.000
+Dann steht nämlich genau das hier da.
+
+03:16.000 --> 03:23.000
+So, da steht jetzt qx impliziert Rx impliziert qx.
+
+03:23.000 --> 03:26.000
+So, und was stellen wir als nächstes fest?
+
+03:26.000 --> 03:31.000
+Alle diese x sind gebunden, das ist eine geschlossene Formel.
+
+03:31.000 --> 03:37.000
+Also, hier unten, ach hier unten, da habe ich es ja noch mal hingeschrieben,
+
+03:37.000 --> 03:44.000
+man erhält also diese Formel hier und diese Formel ist geschlossen.
+
+03:44.000 --> 03:53.000
+Und von ihrer Struktur her ist sie jetzt nichts anderes als diese dritte Aktion,
+
+03:53.000 --> 03:56.000
+das wir in der Aussagenlogik kennengelernt hatten.
+
+03:56.000 --> 04:07.000
+Da hieß es doch immer hier, die Formel p impliziert q impliziert p ist immer wahr.
+
+04:07.000 --> 04:15.000
+So, das heißt, auch diese geschlossene Formel, deren Wahrheitswert jetzt ja nur
+
+04:15.000 --> 04:23.000
+von der Interpretation dieser logischen, sorry, das war eine größere Formel,
+
+04:23.000 --> 04:27.000
+hier habe ich eben falsch angemalt, also hier steht es richtig.
+
+04:27.000 --> 04:36.000
+Also, die Interpretation dieser Formel hier hängt nur ab von der Interpretation
+
+04:36.000 --> 04:39.000
+ihrer logischen Operatoren und der logischen Struktur dieser Formel.
+
+04:39.000 --> 04:48.000
+Das heißt, weil das jetzt eine Tautologie ist, strukturell, ist diese Formel gültig.
+
+04:48.000 --> 04:56.000
+Und zwar überall, sie ist für alle Interpretationen auf allen Sigma-Strukturen gültig.
+
+04:56.000 --> 05:08.000
+Das ist ein ziemlicher Knaller. Fassen wir zusammen.
+
+05:08.000 --> 05:20.000
+Prädikatenlogik oder prädikatenlogische Formeln werden immer in sogenannten
+
+05:20.000 --> 05:28.000
+Sigma-Algebren interpretiert. Sigma-Algebren sind Algebren, die eine Struktur haben,
+
+05:28.000 --> 05:33.000
+die mit den vereinbarten Signaturen kompatibel ist.
+
+05:33.000 --> 05:38.000
+Wir haben das vereinfacht und haben festgestellt, meistens haben unsere Formeln,
+
+05:38.000 --> 05:43.000
+sehen unsere Formeln, unser Alphabet, was auch immer, sieht immer so aus,
+
+05:43.000 --> 05:53.000
+das ist eine bestimmte Signatur, suggeriert und sogar auch eine bestimmte Sigma-Algebra.
+
+05:53.000 --> 06:03.000
+Atomare Formeln werden also immer zu Wahrheitswerten interpretiert.
+
+06:03.000 --> 06:14.000
+Und komplexe Formeln der Prädikatenlogik werden wie in Aussagenlogik interpretiert.
+
+06:14.000 --> 06:21.000
+Und die quantifizierten Formeln, die werden dann interpretiert in Abhängigkeit
+
+06:21.000 --> 06:27.000
+von den Belegungsfunktionen bzw. der Existenz der Belegungsfunktionen.
+
+06:27.000 --> 06:34.000
+Also die logischen Junkturen von prädikatenlogischen Formeln bedeuten im Endeffekt
+
+06:34.000 --> 06:40.000
+dasselbe wie in der Aussagenlogik, wie wir es dadurch das kleine i festgelegt haben.
+
+06:40.000 --> 06:46.000
+Hinzu kommt jetzt die Auswertung von Termin durch eine Auswertungsfunktion e,
+
+06:46.000 --> 06:54.000
+sowie eben womöglich freie Variablen in Abhängigkeit von unseren Belegungen
+
+06:54.000 --> 07:01.000
+und das sind mal wieder im Endeffekt eigentlich nur die Parameter, die wir betrachten.
+
+07:01.000 --> 07:05.000
+Und unser kleines J ist klar, das interpretiert die Termenkonstrukturen
+
+07:05.000 --> 07:09.000
+und die Prädikation wurde in unserer Sigma-Algebra.
+
+07:09.000 --> 07:28.000
+Also so kurz kann man es eigentlich auch machen.
+

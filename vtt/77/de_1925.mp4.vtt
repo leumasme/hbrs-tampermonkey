@@ -1,0 +1,404 @@
+WEBVTT
+
+00:00.000 --> 00:13.300
+So, also wir haben jetzt diese schreckliche, wir haben jetzt sehr viel sortiert und normal
+
+00:13.300 --> 00:22.480
+formisiert und das sieht schon ganz hübsch aus, bis auf die führende Sequenz der unordentlichen
+
+00:22.480 --> 00:31.360
+Anordnung der verschiedenen Quanten. So, und dazu gibt es jetzt ja Folgendes zu sagen.
+
+00:31.360 --> 00:37.720
+Wir haben ja schon mal gesehen, dass wir diese universelle Quantifikation haben. Es wäre
+
+00:37.720 --> 00:43.200
+also toll irgendwie, wenn wir die Allquantoren nach vorne kriegen würden, dann hätten wir
+
+00:43.200 --> 00:50.920
+sozusagen eine universelle Quantifikation davon und könnten die weglassen. Dann blieben nur
+
+00:50.920 --> 01:00.680
+noch die Existenzquantoren, die dahinter kommen. Aber wir wissen ja, es ist ein Unterschied,
+
+01:00.680 --> 01:09.360
+ob es für alle x ein y gibt, so dass etwas gilt, oder ob es ein y gibt, so dass für
+
+01:09.360 --> 01:25.720
+alle x etwas gilt. Das ist ja ein großer Unterschied. Punkt Nummer 2, und das ist jetzt der Trick,
+
+01:25.720 --> 01:29.680
+weil wir ja auch eben festgestellt haben, dass das, was uns eigentlich Probleme macht,
+
+01:29.680 --> 01:41.480
+Existenzkontrollen sind. Das ist jetzt der Trick, den dann ein Herr namens Skolen sich
+
+01:41.480 --> 01:48.240
+angenommen hat. Und das sieht aus, und was der sich gedacht hat, sieht aus wie folgt.
+
+01:48.240 --> 01:59.640
+Ach, der Jäger. Da sind wir. So, ganz klar, ich denke, damit stimmen Sie mit mir überein,
+
+01:59.640 --> 02:05.000
+die Formel, es existiert ein x, so dass p von x ist, nicht äquivalent zur Formel p
+
+02:05.000 --> 02:18.920
+von c. Also, es existiert ein x, so dass x grün ist, kann wahr sein, aber wenn c Charlie
+
+02:18.920 --> 02:25.680
+ist, dann ist Charlie vielleicht nicht grün. Also, das hängt an der Interpretation dieser
+
+02:25.680 --> 02:35.840
+Konstanten hier. Es gibt aber, wenn das hier wahr ist, muss es ja irgendwie ein c geben,
+
+02:35.840 --> 02:44.480
+da drüben in unserer Struktur, dass diese Formel hier wahr macht. Nämlich, es muss
+
+02:44.480 --> 02:53.280
+ein c geben, dass die Auswertung von diesem c ist. Wenn das so wäre, dann wären diese
+
+02:53.280 --> 03:03.200
+beiden Formeln äquivalent. Okay, also, die Formel, es existiert ein x, p von x, ist
+
+03:03.200 --> 03:10.400
+also wahr, wenn es einen Wert für x gibt, der p von x wahr macht. Nehmen wir mal an,
+
+03:10.400 --> 03:16.120
+es gibt so einen, dann nehmen wir uns den einfach mal her. Dann nennen wir den einfach
+
+03:16.120 --> 03:28.760
+mal Peter. Egal, ob das jetzt die 7 ist oder Paul. Also, angenommen, die Formel, es existiert
+
+03:28.760 --> 03:38.520
+ein x, so dass px, muss es irgendeinen Peter geben, der die Formel p erfüllt. Gut. Und
+
+03:38.520 --> 03:50.280
+das ist genau diese Idee. Die sogenannte Ohlenfunktion ist jetzt so eine hypothetische Funktion,
+
+03:50.280 --> 03:56.760
+die uns für einen Existenzquantor oder für eine existenzquantifizierte Variable x genau
+
+03:56.760 --> 04:06.280
+ein erfüllendes Objekt gibt. So, wir nehmen das einfach mal an. Wir wissen ja, die Formel
+
+04:06.280 --> 04:15.120
+ist wahr, wenn es so ein Ding gibt, dann gibt es auch irgendeine Funktion, die uns das bestimmt.
+
+04:15.120 --> 04:27.440
+Die Frage ist jetzt nur, wovon hängt diese Funktion ab? So, schauen wir uns folgendes
+
+04:27.440 --> 04:32.200
+an. Wir haben jetzt hier eine Funktion, äh, Entschuldigung, wir haben jetzt hier eine
+
+04:32.200 --> 04:45.680
+Formel, wo vorne erstmal nur Allquantoren stehen. Dann kommt ein Existenzquantor. Dieser Existenzquantor
+
+04:45.680 --> 04:55.760
+wirkt irgendwo auf ein Vorkommen von Yz und in dieser Formel p. So, was machen wir jetzt?
+
+04:55.760 --> 05:03.200
+Und jetzt sehen Sie den Trick, den man auf unseren Sigma-Altern machen kann. Wir fügen
+
+05:03.200 --> 05:11.120
+zu unserer Signatur jetzt einfach mal ein neues Funktionssymbol hinzu. Das nennen wir
+
+05:11.120 --> 05:19.600
+Sk für Skolen, ja, und weil wir das brauchen, um das Y zu beschreiben, nennen wir das SkY.
+
+05:19.600 --> 05:28.040
+Wir nehmen, wir definieren uns in unserer Signatur jetzt einfach ein neues Funktionssymbol,
+
+05:28.040 --> 05:34.240
+das n ständig ist. Ja, und was sollen jetzt bitte schön diese n Argumente dieser Skolenfunktion
+
+05:34.240 --> 05:41.920
+sein? Ja, Sie sehen schon, hier oben tauchen genau n Dinger, nämlich genau die Variablen,
+
+05:41.920 --> 05:51.760
+die hier allquantifiziert sind. Die Formel, wenn wir jetzt also Q, in Q jedes Vorkommen
+
+05:51.760 --> 06:00.080
+von Y durch einen Term ersetzen, der sich eben, tschuldigung, das hier müsste jetzt
+
+06:00.080 --> 06:06.400
+natürlich in dem Schritt vorgesetzt sein, indem wir jedes Vorkommen der Variablen Y
+
+06:06.400 --> 06:12.280
+durch diesen Term hier ersetzen, also SkY X1 bis Xn ist zulässig, das ist ne zulässige
+
+06:12.280 --> 06:21.840
+Substitution, ja, weil diese X1 bis Xn, ja, trivialerweise schon drin vorkommen, ja, das
+
+06:21.840 --> 06:31.160
+heißt, es entsteht keine neue Bindung, ja, diese Substitution ist also zulässig. So,
+
+06:31.160 --> 06:38.200
+und dann nennen wir die durch diese Substitution entstandene Formel die skolemisierte Version,
+
+06:38.200 --> 06:49.360
+ja, also, hier steht jetzt der Existenzquantor fehlt, aber jedes Vorkommen von Y, das vorher
+
+06:49.360 --> 06:56.200
+durch diesen Existenzquantor verbunden war, ist jetzt ersetzt durch diesen Term, die Skolenfunktion
+
+06:56.200 --> 07:04.400
+für Y von X1 bis Xn. Was macht die? Ja, oder was soll sie machen? Wir haben hier den Ausbruch
+
+07:04.400 --> 07:11.560
+für alle X1 bis für alle Xn, gilt, es existiert ein Q. Für alle diese X gilt das, also bauen
+
+07:11.560 --> 07:19.840
+wir uns jetzt eine Funktion, die in Abhängigkeit von X1 bis Xn uns genau den Verb für das
+
+07:19.840 --> 07:27.040
+Y bestimmt, dass die Existenzquantifikation über Y wahr macht. Wie diese Funktion aussieht,
+
+07:27.040 --> 07:32.280
+ist uns pups egal, ja, wir wissen nur, dass wenn der Existenz, wenn diese Existenzquantifikation
+
+07:32.280 --> 07:37.400
+wahr ist, dann gibt es so einen Wert, den wir dann mit dieser hypothetischen Funktion
+
+07:37.400 --> 07:50.880
+bestimmen können. Gut. So, und jetzt kommt was Tolles, nämlich die Erfüllungsäquivalenz.
+
+07:50.880 --> 08:00.440
+Wir nehmen jetzt also an, für solche Formeln, ja, dass wir Skolenfunktionen bilden und
+
+08:00.440 --> 08:07.120
+sozusagen unsere Signaturen für alle Skolenfunktionen, die wir da so brauchen, nach Definition bilden,
+
+08:07.120 --> 08:20.960
+ja, und dann haben wir folgendes. Wenn eine solche skolemisierte Formel ein Modell hat,
+
+08:20.960 --> 08:32.160
+dann hat auch die unskolomisierte ein Modell. Das ist cool, ne. Also wir können jetzt versuchen,
+
+08:32.160 --> 08:41.320
+die skolemisierte Variante einer Formel zu erfüllen und wenn wir wissen, dass die erfüllt
+
+08:41.320 --> 08:46.520
+ist, wissen wir auch, dass die ursprüngliche Formel erfüllt ist. Und warum ist es so schön,
+
+08:46.520 --> 08:52.240
+die Erfüllbarkeit dieser skolemisierten Formel zu überprüfen? Ganz einfach, wenn wir das
+
+08:52.240 --> 08:59.360
+gescheit gemacht haben, taucht kein Existenzquantor mehr in dieser Formel auf, sondern nur noch
+
+08:59.360 --> 09:09.400
+Funktionen. Funktionen in Abhängigkeit der allquantifizierten Variablen, die ja im Endeffekt
+
+09:09.400 --> 09:15.160
+dann universelle Quantifikationen sind, wir sie also eigentlich weglassen können und
+
+09:15.160 --> 09:25.400
+nur noch eine Formel im Endeffekt betrachten mit freien Variablen und Skolenthermen, die
+
+09:25.400 --> 09:33.720
+zuvor existenzquantifizierten Variablen ersetzen. Gut, ja, also dann kann man diese Modelle
+
+09:33.720 --> 09:39.920
+erweitern. Wichtig ist also, allein relevant ist die Existenz von so einer Funktion. Wie
+
+09:39.920 --> 09:43.800
+die jetzt im Einzelnen aussieht, welches der konkrete Wert ist, damit wollen wir uns gar
+
+09:43.800 --> 10:07.800
+nichts anderes schenken. So, jetzt haben wir P ist erfüllbar genau dann, wenn, genau dann, wenn sogar, die skolemisierte Variante erfüllbar ist. Gut, und jetzt können wir hingehen und sagen, eine Formel
+
+10:07.800 --> 10:20.800
+P ohne Existenzquantoren in premix-konjunktiver Normalform nennen wir in skolem-Normalform.
+
+10:20.800 --> 10:26.800
+Das heißt, wir nehmen uns einfach eine premix-CNF her, mit diesem fürchterlichen Kladderadatsch
+
+10:26.800 --> 10:34.800
+der verschiedenen Variablen und wenden sukzessive das Prinzip der Skolemisierung an, um die
+
+10:34.800 --> 10:39.800
+Existenzquantoren aus dieser Formel zu eliminieren. Ja, und was dann übrig bleibt, ist natürlich
+
+10:39.800 --> 10:46.800
+eine Formel, wo hier vorne in diesem Präfix kein Existenzquantor mehr auftaucht. Aber
+
+10:46.800 --> 10:55.800
+wir haben halt nur noch ein q hier und das ist jetzt quantorenfrei. Und dennoch hat sie
+
+10:55.800 --> 11:02.800
+keine einzige freie Variabel. Weil die Ersetzung der existenzquantifizierten Variablen durch
+
+11:02.800 --> 11:14.800
+die skolem-Therme hat ja nur Variablen eingeführt, die vorher schon allquantifiziert waren. Wir
+
+11:14.800 --> 11:27.800
+haben also, ja, okay. Der Sinn und Zweck dieser Sache ist also der folgende. Ich will die
+
+11:27.800 --> 11:38.800
+Aussage, ähm, äh, Moment. So, genau, wir nehmen uns jetzt irgendwie so eine Sigma-Algebra
+
+11:38.800 --> 11:48.800
+her. Ja? Und, ähm, dieses, äh, das ist jetzt blöd, hier müsste, hier fehlt eine 1 oder
+
+11:48.800 --> 11:52.800
+ich müsste hier die Erfüllungsrelation mit reinschreiben. Erfüllungsrelation fehlt
+
+11:52.800 --> 11:58.800
+hier, ja? Also so eine Interpretation erfüllt diese existenzquantifizierte Formel, wenn
+
+11:58.800 --> 12:06.800
+es eine Interpretation in dieser, äh, in dieser, ähm, Sigma-Algebra gibt. Und was
+
+12:06.800 --> 12:16.800
+wir jetzt machen ist, wenn das der Fall gibt, dann gibt es auch eine, ähm, um entsprechende
+
+12:16.800 --> 12:24.800
+Skolem-Funktionen erweiterte Signatur und damit auch eine entsprechend erweiterte Sigma-Algebra,
+
+12:24.800 --> 12:34.800
+in der das interpretiert wird, ja, ähm, so dass hier p von, ähm, skx stimmt. So, hier
+
+12:34.800 --> 12:40.800
+ist jetzt kein Tippfehler. Warum? Ähm, diese Formel hier hat ja nur einen Existenzquantor.
+
+12:40.800 --> 12:46.800
+Und als, ähm, Argument für diese Skolem-Funktion nimmt man ja alle Varianten, die in den Alquantdrucken
+
+12:46.800 --> 12:50.800
+davorstehen. Hier steht jetzt keiner, also ist das eine Skolem-Funktion ohne Argument,
+
+12:50.800 --> 12:58.800
+eine Skolem-Konstante. Kommen wir gleich noch in die Teilhaut. So. Oder umgekehrt. Ähm,
+
+12:58.800 --> 13:03.800
+also zum Beispiel, es existiert ein x, so dass x' ist, hat ein Modell, genau dann, wenn
+
+13:03.800 --> 13:11.800
+die Formel Prim von irgendeiner Konstante ein Modell hat. Und das ist der Fall. Nämlich,
+
+13:11.800 --> 13:21.800
+indem wir nämlich zum Beispiel die 3 nehmen. Ja? So. Ähm, die Formel, es existiert ein
+
+13:21.800 --> 13:28.800
+x, äh, für alle x gilt, es gibt ein y, so dass x kleiner gleich y ist, wird jetzt wie
+
+13:28.800 --> 13:34.800
+folgt umgebaut, aus diesem Existenzquantor wird jetzt natürlich eine Skolem-Funktion
+
+13:34.800 --> 13:44.800
+für das y, in Abhängigkeit von dem allquantifizierten x. Also, die Formel für alle x gilt für
+
+13:44.800 --> 13:53.800
+alle y gilt x kleiner gleich y, wird ungeformt, in die Formel für alle x gilt x ist kleiner
+
+13:53.800 --> 14:02.800
+gleich Skolem-Y. Irgendeine Funktion von x. Irgendeine. Also dieses Ding hat ein Modell,
+
+14:02.800 --> 14:08.800
+wenn dieses Ding ein Modell hat. Jetzt müssen wir also, und jetzt sehen Sie wozu auch die
+
+14:08.800 --> 14:15.800
+Übungsaufgaben gut waren, jetzt müssen wir eine Interpretation finden, die dieses Ding
+
+14:15.800 --> 14:22.800
+hier sozusagen wahr macht. Eine Interpretation für die Funktion von x, die den Ausdruck
+
+14:22.800 --> 14:29.800
+x kleiner f von x sage ich jetzt mal, wahr macht. Gibt es sowas? Ja, gibt es. Wir nehmen
+
+14:29.800 --> 14:38.800
+jetzt, wir werten jetzt diesen Term Sk y von x aus als die Funktion, die zu x1 drauf
+
+14:38.800 --> 14:46.800
+addiert. Das ist genau das, was auf den Übungszetteln war. Suchen Sie Interpretationen, die etwas
+
+14:46.800 --> 14:55.800
+wahr machen. Und dann wissen wir natürlich, diese Formel hier wird jetzt wahr, wenn für
+
+14:55.800 --> 15:07.800
+alle x gilt, dass x kleiner gleich x plus eins. Stimmt. Also ist die Formel für alle
+
+15:07.800 --> 15:15.800
+x, es existiert ein Y, so wie x kleiner gleich Y wahr. Wir haben sowas gefunden. Das ist
+
+15:15.800 --> 15:25.800
+der Trick. Abschließend, ach Mensch, bin ich ja richtig gut in der Zeit. Abschließend,
+
+15:25.800 --> 15:29.800
+und dazu zoome ich vielleicht sogar mal ein bisschen auf die Tafel rein, Sie wollen ja
+
+15:29.800 --> 15:33.800
+immer, dass ich nicht so viel vorne weg laufe, deswegen habe ich eigentlich den Ausschnitt
+
+15:33.800 --> 15:41.800
+etwas größer gemacht, aber jetzt halte ich mich aus dem Bild raus. Abschließend, ein
+
+15:41.800 --> 15:48.800
+Beispiel aus dem in Anführungszeichen echten Leben. Wir reden jetzt zwar wieder über Bauern,
+
+15:48.800 --> 15:59.800
+Pferde und Esel, aber das könnte auch eine Aussage sein über die Ausfallsicherheit von
+
+15:59.800 --> 16:09.800
+Netzen. Nehmen wir mal eine Formel P her und diese Formel P soll beschreiben die Aussage,
+
+16:09.800 --> 16:21.800
+jeder Bauer hat einen Esel oder ein Pferd, den er gerne hat oder das er gerne hat. Die
+
+16:21.800 --> 16:28.800
+erste Aufgabe, der man sich stellen muss und die ist, wie wir wissen, im Endeffekt immer
+
+16:28.800 --> 16:40.800
+die schwierigste Aufgabe, ist folgende, nämlich wir müssen für diese Aussage eine möglichst
+
+16:40.800 --> 16:47.800
+adäquate Formulierung im Prädikat nötig finden. Und dann wissen wir, was wir für eine Signatur
+
+16:47.800 --> 16:55.800
+brauchen, blablabla, haben wir alles gemacht und dann finden wir diese Formel hier. Für
+
+16:55.800 --> 17:04.800
+alle x, wenn xf, also ein Farmer, also Bauer ist, dann gibt es ein y und y ist ein Horse
+
+17:04.800 --> 17:17.800
+oder ein Donkey, also ein Pferd oder ein Esel und hier haben bedeutet ja besitzen, also
+
+17:17.800 --> 17:23.800
+es existiert irgendein Tier, sage ich jetzt mal y, welches ein Pferd oder ein Esel ist
+
+17:23.800 --> 17:32.800
+und der Bauer x besitzt diesen Esel und er oder Pferd und der Bauer hat dieses y, welches
+
+17:32.800 --> 17:45.800
+ein Pferd oder ein Esel ist gerne. L wie likes. So schreiben wir es hin. Jetzt wollen
+
+17:45.800 --> 17:57.800
+wir das mal exemplarisch ins Golem-Normal-Formulieren führen. Was müssen wir also zuerst machen?
+
+17:57.800 --> 18:04.800
+Wir müssen zuerst die Quantoren alle nach vorne kriegen. Da haben wir hier ein großes
+
+18:04.800 --> 18:14.800
+Glück. Die gesamte Formel hier ist für das x alle quantifiziert und der zweite Quantor,
+
+18:14.800 --> 18:20.800
+der vorkommt, kommt hier hinten in der Konklusion dieser Subjunktion. Und da wissen wir jetzt
+
+18:20.800 --> 18:32.800
+nach diesem Ausweitungsgesetz, dass wir einen Quantor aus der Konklusion einer Subjunktion
+
+18:32.800 --> 18:38.800
+rausziehen dürfen, wenn hier vorne in der Prämisse die Variable, über die quantifiziert
+
+18:38.800 --> 18:45.800
+wird, nicht vorkommt. Hier kommt kein y vor, das heißt wir dürfen diesen Existenzquantor
+
+18:45.800 --> 18:51.800
+vor die gesamte Form stellen. Ist jetzt auch nicht weiter verwunderlich, jetzt steht da
+
+18:51.800 --> 19:01.800
+für alle x gibt es ein y, so dass wenn x ein Pharma ist, dann ist auch intuitiv equivalent.
+
+19:01.800 --> 19:10.800
+Schön. Ja? Ich führe mich beim Prädikat.
+

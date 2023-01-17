@@ -1,0 +1,356 @@
+WEBVTT
+
+00:00.000 --> 00:08.880
+So, kommen wir zum zweiten Beispiel und in diesem zweiten Beispiel werden wir jetzt schon mal ein
+
+00:08.880 --> 00:19.520
+bisschen weniger Farben benutzen und wir werden gleichzeitig auch schon mal ein bisschen weniger
+
+00:19.520 --> 00:31.040
+selbst sprechende Elemente aus unserer Signatur wählen. Wir machen das, oder ich male das,
+
+00:31.040 --> 00:44.440
+um Ihnen schrittweise jetzt klar zu machen, wie die Wahrheit einer Formel eben von ihrer
+
+00:44.440 --> 00:55.360
+Interpretation abhängt und nicht von sich selbst, so wie sie dasteht oder wie sie scheint,
+
+00:55.360 --> 01:05.920
+etwas zu meinen. Gut, gucken wir uns mal folgendes an. Wir sagen 32 ist eine Zweierpotenz. Hoffentlich,
+
+01:05.920 --> 01:12.280
+denke ich, stimmen Sie sich damit näher bei ein und wir sagen Zweierpotenzen sind natürlich
+
+01:12.280 --> 01:21.160
+Vielfache von 2 und natürlich wollen wir daraus auch schließen können, dass die 32 ein Vielfaches
+
+01:21.160 --> 01:26.120
+von 2 ist. Schreiben wir das mal an. So, und Sie sehen, es sieht jetzt schon ein bisschen anders
+
+01:26.120 --> 01:34.240
+aus. Hier steht pow2, also power of two, ja, 32 und für alle x gilt, wenn x eine Zweierpotenz ist.
+
+01:34.240 --> 01:40.840
+Sehen Sie, jetzt spreche ich es schon so, aber eigentlich müsste ich sagen, für alle x gilt
+
+01:40.840 --> 01:52.680
+pow2x Subjunktion mit 2x. Das ist eine Formel, nichts mehr. Wir wollen diese Formel, oder wir
+
+01:52.680 --> 01:59.560
+schreiben diese Formel hin, nachdem wir implizit, was wir jetzt gar nicht mehr gemacht haben,
+
+01:59.560 --> 02:06.560
+eine Signatur gewählt haben und aufgeschrieben haben, die es uns ermöglicht, solche Formeln
+
+02:06.560 --> 02:14.760
+hinzuschreiben, die wir dann so interpretieren können, wie wir möchten. Also, pow2 32 für alle
+
+02:14.760 --> 02:29.840
+x, pow2x Subjunktion mal 2x und daraus wollen wir logisch ableiten mal 2, 32. Machen wir das.
+
+02:29.840 --> 02:39.120
+Wir gehen also davon aus, um diesen Schluss nachzuvollziehen, dass wir ein Modell dieser
+
+02:39.120 --> 02:43.760
+beiden Formeln haben und müssen dann zeigen, dass wenn wir ein Modell dieser beiden Formeln haben,
+
+02:43.760 --> 02:53.360
+dass auch ein Modell dieser Formel ist. Gut, wie machen wir das? Naja, wir nehmen uns weder wie
+
+02:53.360 --> 03:04.400
+eben die erste Formel her, pow2 32 und wir interpretieren die 32. Deswegen wird jetzt
+
+03:04.400 --> 03:08.640
+der gesamte Term hier, das mache ich jetzt ein bisschen anders, weil hier ja blau und orange
+
+03:08.640 --> 03:17.200
+fehlen, also die 32 aus unseren natürlichen Zahlen ist gleich der Interpretation dieser 32,
+
+03:17.200 --> 03:23.560
+deswegen ist das hier auch schon grün. Und das ist halt ein Element der Menge, die entsteht,
+
+03:23.560 --> 03:34.640
+wenn wir pow2 interpretieren. Gut, also Interpretation von 32 ist ein Element der
+
+03:34.640 --> 03:46.880
+Interpretation von pow2. Nächste Formel. Für alle x, pow2x Subjunktion mal 2x. Schreiben wir es
+
+03:46.880 --> 03:56.200
+jetzt. Hier steht die Formel ohne v, einfach nur so. Wir sagen einfach nur, wir haben eine
+
+03:56.200 --> 04:06.680
+Interpretation, die diese Formel hier erfüllt. Was bedeutet das für diese Interpretation? Wir
+
+04:06.680 --> 04:15.440
+interpretieren den Allquantor. Das heißt, diese Formel hier ohne den Allquantor muss von jeder
+
+04:15.440 --> 04:23.440
+Interpretation erfüllt sein, in der der Wert von x als ein beliebiges a aus unserer Domain
+
+04:23.440 --> 04:30.880
+interpretiert wird. Und ansonsten steht hier einfach nur noch die Formel ohne den Allquantor,
+
+04:30.880 --> 04:38.080
+weil die Definition, die Semantik des Allquantors steckt jetzt hier. Jetzt gehen wir wieder hin
+
+04:38.080 --> 04:48.600
+und betrachten die Interpretation, die Semantik der Subjunktion. Für alle unsere Objekte muss
+
+04:48.600 --> 04:58.960
+also gelten, dass wenn wir die Variable x durch irgendein Objekt ersetzen, diese Interpretation
+
+04:58.960 --> 05:15.520
+ein Modell von pow2x ist, dann auch von multiply2x. Gut, jetzt gehen wir her und überlegen uns,
+
+05:15.520 --> 05:22.520
+wann ist denn diese Interpretation hier tatsächlich ein Modell hiervon bzw. ein Modell hiervon. Naja,
+
+05:22.520 --> 05:31.920
+wenn eben für alle Objekte a, a ein Element der Interpretation von pow2 ist und wenn a ein Element
+
+05:31.920 --> 05:41.840
+der Interpretation von multiply2 ist. Fertig. Jetzt machen wir den gleichen Trick wie eben. Also,
+
+05:41.840 --> 05:49.400
+wir sagen, wir nehmen ja an, diese Interpretation sei ein Modell der Formelmenge, das heißt,
+
+05:49.400 --> 05:57.160
+wir nehmen an, diese Interpretation sei ein Modell dieser Formel. Davon gehen wir aus. Wenn das also
+
+05:57.160 --> 06:04.200
+der Fall ist, dass das ein Modell dieser Formel ist, dann muss diese Aussage hier zutreffen.
+
+06:04.200 --> 06:12.720
+Für alle Objekte gilt also, wenn es eine Zweierpotenz ist, dann ist es ein vielfaches
+
+06:12.720 --> 06:22.400
+von 2. Gut, nehmen wir uns mal eins und, weil wir ja gescheit sind, wählen wir uns die 32,
+
+06:22.400 --> 06:32.360
+also die Interpretation der Konstanten 32. Und dann schreiben wir es hin. Wenn also die 32
+
+06:32.360 --> 06:37.080
+eine Zweierpotenz ist, dann ist die 32 ein Vielfaches von 2. Das habe ich jetzt so gesagt,
+
+06:37.080 --> 06:43.480
+aber formal gesehen, die Interpretation der Konstanten 32 ist ein Element der Menge,
+
+06:43.480 --> 06:52.080
+die die Interpretation des einstelligen Prädikat-Symbols tau2 ist. Und wenn das der
+
+06:52.080 --> 06:59.640
+Fall ist, dann ist genau diese Interpretation der Konstanten 32 auch ein Element der Menge,
+
+06:59.640 --> 07:10.120
+die durch die Interpretation des Prädikat-Symbols multiply entsteht. Mit anderen Worten könnte
+
+07:10.120 --> 07:15.680
+man auch schreiben, die Menge, die entsteht durch die Interpretation von tau2 ist eine Teilmenge
+
+07:15.680 --> 07:24.640
+der Menge von multiply2. Und hier steht es nur für 32, aber hier oben haben wir es für alle
+
+07:24.640 --> 07:32.000
+Arten. Hier könnten wir also auch diese Teilmenge erzielen. Ich habe es aber bewusst genau so
+
+07:32.000 --> 07:40.440
+gehalten wie den Beweis auf der letzten. So, nun wissen wir, 32 ist eine Zweierpotenz,
+
+07:40.440 --> 07:46.000
+also die Interpretation der Konstanten 32 ist tatsächlich ein Element der Interpretation
+
+07:46.000 --> 07:57.640
+von tau2. Also hier steht true. Weil das Ganze ja wahr sein soll, muss also auch die Aussage 32
+
+07:57.640 --> 08:07.920
+ist Element der Interpretation von multiply2 wahr. Also 32 Element multiply2. Nun, und wenn wir das
+
+08:07.920 --> 08:17.000
+jetzt wieder rückübersetzen, bedeutet das nichts anderes als dass die Interpretation von multiply2 32,
+
+08:17.000 --> 08:29.040
+also unsere Formel Q hier, erfüllt ist unter der Interpretation. Also wir haben bewiesen,
+
+08:29.040 --> 08:38.560
+wenn 32 eine Zweierpotenz ist und wenn jede Zweierpotenz ein Vielfaches von 2 ist,
+
+08:38.560 --> 08:51.120
+dann ist 32 auch ein Vielfaches von 2. Hier unten eine kleine kursiv gedruckte Anmerkung.
+
+08:51.120 --> 09:02.480
+Einige von Ihnen sagen jetzt vielleicht schon, das stimmt ja gar nicht. Warten Sie kurz ab. Als drittes
+
+09:02.480 --> 09:13.520
+Beispiel machen wir es jetzt ganz ohne Farben und mit einer Signatur, die uns keinen Hinweis darauf
+
+09:13.520 --> 09:21.920
+gibt, wie Formeln zu interpretieren sind. Wir haben also einfach nur p von einem konstanten
+
+09:21.920 --> 09:31.800
+Symbol c. Für alle x gilt px subjunktion qx, dann folgt q von c. Dann machen wir genau das gleiche.
+
+09:31.800 --> 09:38.520
+Wir schreiben also, wenn wir ein Modell dieser Formelmenge haben, ist dieses Modell ein Modell
+
+09:38.520 --> 09:44.400
+hiervon und hiervon. Das heißt, für p1 gilt, wir haben ein Modell von pc. Das heißt also,
+
+09:44.400 --> 09:51.560
+die Interpretation von c ist ein Element der Interpretation von p. Wir wissen, unsere
+
+09:51.560 --> 09:58.120
+Interpretation ist ein Modell von dieser allkantifizierten Formel. Das heißt, diese
+
+09:58.120 --> 10:05.280
+Formel hier ist erfüllt für alle Interpretationen, indem wir den Wert von x durch ein beliebiges a
+
+10:05.280 --> 10:18.400
+aus unserer Gemeinde ersetzen. Wenn das der Fall ist, dass es eben für alle gizoglipte gilt,
+
+10:18.400 --> 10:26.520
+wählen wir wieder unser a entsprechend. Wie gesagt, weil wir klug sind, nehmen wir genau das a,
+
+10:26.520 --> 10:34.160
+das die Interpretation dieser Konstanten ist. Dann steht da, wenn die Interpretation von c
+
+10:34.160 --> 10:43.040
+die Eigenschaft, sag ich jetzt mal, p hat, dann hat die Interpretation von c auch die Eigenschaft q.
+
+10:43.040 --> 10:53.920
+Drücken wir es mal so aus. Wir wissen aber, dass c die Eigenschaft p hat. Das steht nämlich hier oben.
+
+10:53.920 --> 11:00.560
+Und das, was hier oben steht, ist Konsequenz dessen, dass wir gesagt haben, wir haben ein Modell von
+
+11:00.560 --> 11:08.760
+dieser Formelmenge, also auch ein Modell hier oben. Wir wissen also, die Interpretation von c hat
+
+11:08.760 --> 11:16.080
+die Eigenschaft p. Also ist das true. Damit dann diese Aussage hier wahr ist, muss also auch die
+
+11:16.080 --> 11:23.400
+Interpretation von c die Eigenschaft q haben. Schreiben wir es hin, cj ist aus qj. Und das ist
+
+11:23.400 --> 11:37.800
+nichts anderes als eben die Aussage, dass die Interpretation von qc wahr ergibt. Ganz einfach.
+
+11:37.800 --> 11:47.720
+Na ja, was steht hier? Hier steht ja im Endeffekt so eine Art Modus propens. In allen drei Felden.
+
+11:47.720 --> 11:59.480
+Und was wir jetzt gesehen haben, ist, dass das Modus propens als Schlussprinzip offenbar eine
+
+11:59.480 --> 12:07.820
+Schlussregel ist, die unter sehr vielen Interpretationen wahr ist. Jetzt kommen
+
+12:07.820 --> 12:14.000
+Sie eventuell wieder zu der Folie, die wir eben hatten, wo unten die kursiv gesetzte Anmerkung
+
+12:14.000 --> 12:20.120
+war und einige vielleicht von Ihnen protestieren wurden. Schauen wir uns mal diesen Fall an.
+
+12:20.120 --> 12:31.480
+Wenn das ja stimmt, dass jede zweier Potenz ein Vielfaches von zwei ist, muss es ja auch für die
+
+12:31.480 --> 12:38.200
+1 gelten. Die 1 ist ja auch eine zweier Potenz, nämlich die Null. 1 von 2 hoch 0 ist eine zweier
+
+12:38.200 --> 12:52.120
+Potenz, das heißt, wir haben Paul 2, 1. Und wir wissen, für alle Paul 2, x ist ein Vielfaches von
+
+12:52.120 --> 13:00.640
+2. Das heißt, wir wollen aus diesen beiden Formeln schließen, dass die 1 ein Vielfaches von 2 ist.
+
+13:00.640 --> 13:08.720
+Sagen Sie, das kann doch jetzt nicht gehen. Interessanterweise gibt es auch. Nämlich
+
+13:08.720 --> 13:15.840
+genau nach dem gleichen Schema. Es geht. Wir können nach diesem Schema beweisen, ja, wir sagen wieder,
+
+13:15.840 --> 13:22.360
+wir haben ein Potent dieser beiden Formeln. Das heißt, wir wissen, dass 1 eine zweier Potenz ist.
+
+13:22.360 --> 13:28.120
+Dann haben wir diese Formel, dann schreiben wir das auf. Es muss also für alle natürlichen Zahlen,
+
+13:28.120 --> 13:33.240
+sage ich jetzt mal, gelten. Eine besondere natürliche Zahl ist die 1. Hurra, die 1 ist
+
+13:33.240 --> 13:40.960
+eine zweier Potenz. Also ist die 1 auch ein Vielfaches von 2. Haben wir da jetzt einen
+
+13:40.960 --> 13:49.720
+Fehler gemacht? Nein. Dieser Schluss ist richtig. Dieser Schluss ist vollkommen korrekt. Warum?
+
+13:49.720 --> 14:02.200
+Ganz einfach, wenn wir Paul 2 tatsächlich als zweier Potenz interpretieren auf den natürlichen
+
+14:02.200 --> 14:09.120
+Zahlen und multiple 2 tatsächlich als Vielfaches von 2 auf den natürlichen Zahlen interpretieren,
+
+14:09.120 --> 14:20.960
+ist diese Aussage hier falsch. Es sind eben nicht alle zweier Potenzen Vielfache von 2. Aber wir
+
+14:20.960 --> 14:30.000
+sind davon ausgegangen, dass es so wäre. Und unter der Annahme, dass es so ist, können wir
+
+14:30.000 --> 14:41.680
+beweisen, dass die 1 auch ein Vielfaches von 2 ist. Ja, Pech gehabt. Aber der logische Schluss von
+
+14:41.680 --> 14:53.960
+diesen Formeln auf diese Konklusion ist korrekt. Das einzige, was halt ist, ist, sie stimmen nicht
+
+14:53.960 --> 15:06.040
+mit unserer intuitiven Theorie überein. Und deswegen, und nur deswegen, genau deswegen versuche
+
+15:06.040 --> 15:18.560
+ich Ihnen immer klar zu machen, dass das, was hier steht, eben nichts grundsätzlich mit unserem
+
+15:18.560 --> 15:24.920
+intuitiven Verständnis von einer Formel, wie sie da steht, zu tun hat. Das kann schon sein,
+
+15:24.920 --> 15:34.920
+wie zum Beispiel bei Sokrates. Aber eben nicht immer. Also das, was wir hier, wie man so schön
+
+15:34.920 --> 15:44.800
+sagt, axiomatisiert haben, ergibt uns eine Theorie. Und zwar eine Theorie, in dem auch 1 durch 2
+
+15:44.800 --> 15:54.000
+teilbar ist. Das ist einfach nur eine andere Theorie. Diese andere Theorie ist also der
+
+15:54.000 --> 16:02.560
+Gestalt, dass sie eben auf Basis der Axiome, die wir sonst meinetwegen in irgendeiner anderen Theorie
+
+16:02.560 --> 16:12.760
+als falsch interpretieren würden, ist der Schluss trotzdem vollkommen korrekt. Also, Sie wissen ja
+
+16:12.760 --> 16:27.720
+auch, versteckt sich hier wieder das ganz übliche Prinzip der Implikation oder Subjunktion. Wenn wir
+
+16:27.720 --> 16:36.240
+ein Modell hiervon haben, dann ist, oder Q folgt aus dieser Menge von Formeln, genau dann, wenn jedes
+
+16:36.240 --> 16:46.520
+Modell hiervon auch ein Modell hiervon ist. Unser Verständnis von Zweierpotenzen und Vielfachen ist
+
+16:46.520 --> 16:59.600
+kein Modell hiervon. Ist kein Modell. Das heißt, was dann die Konsequenz daraus ist für unser
+
+16:59.600 --> 17:09.280
+Modell, in dem die 1 eben kein Vielfaches von 2 ist, kann diese Aussage gelten, muss aber nicht.
+
+17:09.280 --> 17:23.800
+Okay, also ich blättere lieber einfach noch mal zurück, zeige Ihnen das, wo Sie anhand des Beispiels
+
+17:23.800 --> 17:30.560
+sehen, wie des Modus ponens hier für eine bestimmte Instanz, ja, für eine bestimmte Instanz, ja,
+
+17:30.560 --> 17:40.160
+das kann man auch anders machen. Bewiesen wird, wie aus einer Formelmenge eine weitere Formel
+
+17:40.160 --> 17:50.960
+logisch folgt. Das ist die Erklärung, wie die Definition des logischen, der logischen Implikation
+
+17:50.960 --> 17:55.920
+des Enthelmens auch in der Prädikatenlogik funktioniert.
+

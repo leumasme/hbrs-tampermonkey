@@ -1,0 +1,293 @@
+WEBVTT
+
+00:00.000 --> 00:11.240
+Also diese Erfüllungsmengen sind durchaus eine sehr praktische Angelegenheit für die
+
+00:11.240 --> 00:20.160
+Aussagenlogik, um Fragen nach Erfüllbarkeit etc. zu beantworten. Also wie wir auch gesehen haben,
+
+00:20.160 --> 00:33.320
+Implikationen sind sehr schön durch Erfüllungsmengen darzustellen. Und wie wir eben noch gesehen haben,
+
+00:33.320 --> 00:41.680
+kann man eben die Erfüllbarkeit einer Formelmenge dadurch ausdrücken, dass der Schnitt der
+
+00:41.680 --> 00:48.040
+Erfüllungsmengen aller Formeln aus dieser Menge nicht leer sein darf. Es muss also eine Belegung
+
+00:48.040 --> 00:57.760
+geben, die alle Elemente dieser Formelmenge wahr macht. Es gibt aber noch einiges andere, was man
+
+00:57.760 --> 01:11.440
+damit anfangen kann. Und das wäre, wenn ich wieder meine Maus finde, zum Beispiel folgendes.
+
+01:11.440 --> 01:15.680
+Also wir nehmen jetzt erstmal an, unsere Interpretation ist einigermaßen fest. Das
+
+01:15.680 --> 01:21.520
+heißt wir lassen das jetzt hier in den Indizes mal weg, damit es nicht so aufwändig zu notieren ist.
+
+01:21.520 --> 01:32.240
+Die Erfüllungsmenge einer Formelmenge p ist gleich der Erfüllungsmenge der Formel, die entsteht,
+
+01:32.240 --> 01:40.640
+wenn wir alle Elemente von p miteinander verunten. Also das ist nichts anderes als eine andere
+
+01:40.640 --> 01:58.400
+Beschreibweise für, wenn jetzt p die Menge der Formeln p1, p2 usw. bis pn ist, dann ist das hier
+
+01:58.400 --> 02:13.520
+die Konjunktion aller Elemente aus p. Das heißt das hier ist die Formel p1 und p2 und usw. bis
+
+02:13.520 --> 02:24.920
+irgendwann mal hier unser pn kommt und dann gehen ganz viele Klammern zu.
+
+02:24.920 --> 02:35.840
+Also hier haben wir eine Menge von Formeln p1 bis pn und hier haben wir noch eine Formel,
+
+02:35.840 --> 02:43.000
+nämlich die Konjunktion aller Formeln hier raus. Und die Erfüllungsmenge sind für diese
+
+02:43.000 --> 02:53.160
+Formelmenge und für diese Formel das Gleiche, die sind dieselben. Es ergeben sich noch andere
+
+02:53.160 --> 03:00.280
+sehr wichtige, interessante und auch praktische Zusammenhänge. Wenn wir zwei verschiedene
+
+03:00.280 --> 03:13.880
+Formelmengen betrachten, p und q, dann können wir uns überlegen, wenn p eine Teilmenge von q ist.
+
+03:13.880 --> 03:23.280
+Also p ist eine Formelmenge von p1 bis pn und q enthält alle Formeln aus p, also p1 bis pn und
+
+03:23.280 --> 03:31.000
+eventuell noch ein paar mehr. Dann ist die Erfüllungsmenge von q, also Obacht, das dreht sich
+
+03:31.000 --> 03:40.080
+hier um, eine Teilmenge der Erfüllungsmenge von p. Kann man sich eigentlich schon relativ einfach
+
+03:40.080 --> 03:47.680
+hier dran klar machen. Wenn wir nämlich uns überlegen, dass p eine Teilmenge von q ist,
+
+03:47.680 --> 03:59.640
+haben wir ja nach dieser Aussage hier eine Formel dieser Art, also p1 und und und bis pn. Da p jetzt
+
+03:59.640 --> 04:10.120
+eine Teilmenge davon ist, bekommen wir für q natürlich auch alle Elemente hier raus und so
+
+04:10.120 --> 04:17.520
+weiter. Aber das ist halt noch nicht alles, weil im q eventuell noch mehr dran ist. Also schreiben
+
+04:17.520 --> 04:26.120
+wir mal nicht, wie die q ist noch davor, qm und und so weiter. Jetzt komme ich hier mit der Klammer
+
+04:26.120 --> 04:32.120
+hoch und langsam durch die Hand an. Also hier sind mehr drin. Und natürlich ist es schwieriger eine
+
+04:32.120 --> 04:39.600
+Belegung zu finden, die mehr Formeln wahrmacht, als eine Belegung zu finden, die nur einen Teil
+
+04:39.600 --> 04:46.560
+dieser Formeln wahrmacht. Wir machen es weg, damit wir es wieder lesen können. Also wenn p eine
+
+04:46.560 --> 04:52.200
+Teilmenge der Formelmenge q ist, dann ist die Erfüllungsmenge der größeren Formelmenge eine
+
+04:52.200 --> 04:58.360
+Teilmenge der Erfüllungsmenge der kleineren Formelmenge. Auf der linken Seite haben wir die
+
+04:58.360 --> 05:02.960
+Formelmenge, auf der rechten Seite die Erfüllungsmenge, also die Mengen der Belegungen,
+
+05:02.960 --> 05:10.120
+die die jeweiligen Formelmengen wahrmachen. Wenn wir uns jetzt zwei Formelmengen ansehen und die
+
+05:10.120 --> 05:18.400
+miteinander vereinigen, dann kommt ja wieder eine Formelmenge heraus und die Erfüllungsmenge dieser
+
+05:18.400 --> 05:27.480
+einen Formelmenge muss alle Formeln aus dieser Menge wahrmachen. Sie muss also die Formeln aus
+
+05:27.480 --> 05:36.040
+p wahrmachen und die Formeln aus q. Und deswegen ist die Erfüllungsmenge von p vereinigt q,
+
+05:36.040 --> 05:42.000
+die Menge aller Belegungen, die sowohl p wahrmachen als auch q. Also ist es die Schnittmenge der
+
+05:42.000 --> 05:55.040
+Erfüllungsmenge von p und q. Gut, das kann man auch richtig beweisen. Ich habe es Ihnen eben
+
+05:55.040 --> 06:01.160
+schon skizziert, aber ich denke, es ist mal an der Zeit, dass Sie mal sehen, wie ein Beweis
+
+06:01.160 --> 06:08.400
+funktioniert, der eben nichts anderes sein soll oder nichts anderes ist als eine schrittweise
+
+06:08.400 --> 06:18.840
+Argumentation. Wir werden das ganz formal, werden wir noch verschiedene Verfahren kennenlernen,
+
+06:18.840 --> 06:26.760
+wie man einen Beweis richtig führt. So, schauen wir uns das mal an. Wir wollen also beweisen,
+
+06:26.760 --> 06:35.280
+dass die Erfüllungsmenge der Formelmenge p gleich der Erfüllungsmenge der Formel ist,
+
+06:35.280 --> 06:42.680
+die entsteht, wenn man alle Formeln aus p miteinander verbindet. Jetzt schauen wir mal.
+
+06:42.680 --> 06:48.000
+Das bedeutet also, wenn es eine Belegung gibt, die hier drin ist, dann ist sie auch da drin und wenn
+
+06:48.000 --> 06:55.080
+es eine Belegung gibt, die hier drin ist, ist es auch da drin. Wir fangen mal an und überlegen uns
+
+06:55.080 --> 07:03.040
+angenommen, es sei jetzt mal eine Belegung hier drin. Es sei jetzt also mal eine Belegung alpha
+
+07:03.040 --> 07:11.640
+aus der Erfüllungsmenge von groß p. Das heißt jetzt ja nichts anderes nach der Definition von
+
+07:11.640 --> 07:28.240
+Sat angewendet auf Mengen, dass diese Belegung alle pi aus p erfüllen muss. Klar, sonst wäre
+
+07:28.240 --> 07:35.120
+es ja keine erfüllende Belegung für die gesamte. Es gilt also, jetzt überlegen wir uns, was ist
+
+07:35.120 --> 07:42.760
+die Definition von Erfüllbarkeit. Es gilt also, dass die Interpretation von p1 1 ergibt und die
+
+07:42.760 --> 07:52.720
+Interpretation von p2 1 ergibt und und und und und bis jetzt hin zur Interpretation von pn,
+
+07:52.720 --> 08:02.120
+die auch 1 ergeben muss. Dann und nur dann erfüllt alpha alle pi und dann und nur dann ist alpha in
+
+08:02.120 --> 08:06.920
+der Erfüllungsmenge von groß p. So, jetzt gucken wir uns das hier mal an. Jetzt steht hier dauert
+
+08:06.920 --> 08:17.560
+UND und für solche Aussagen, komplexen Aussagen, haben wir uns ja unsere Konjunktion gebaut. Wir
+
+08:17.560 --> 08:26.720
+können also sagen, dass wenn wir hier stehen haben, die Interpretation von p1 ist gleich 1 und die
+
+08:26.720 --> 08:42.000
+Interpretation von p2 ist gleich 1, dann ist es eben auch so, die Interpretation von p1 ist 1 und
+
+08:42.000 --> 08:52.360
+die von p2 ist 3, dann ist natürlich auch die Interpretation von p1 und p2 1 und weiterhin
+
+08:52.360 --> 09:01.680
+sowieso der ganze restliche Kladderadatsch, also p3 ist 1 und so weiter und so fort, ist pn ist
+
+09:01.680 --> 09:08.560
+gleich 1. Also alles, was wir jetzt gemacht haben nach der Definition der Konjunktion, diese ersten
+
+09:08.560 --> 09:15.720
+beiden durch UND verknüpften Aussagen über die Erfüllung, haben wir zusammengesetzt, dass wenn
+
+09:15.720 --> 09:25.920
+unsere Interpretation p1 erfüllt und p2, dieselbe Interpretation auch p1 UND p2 erfüllt. Schön,
+
+09:25.920 --> 09:33.920
+das können wir jetzt iterieren. Jetzt haben wir nämlich hier eine Formel, die 1 gibt und p3,
+
+09:33.920 --> 09:42.680
+also schreiben wir doch hin p1 und p2 UND p3 und das iterieren wir so lange, bis wir eben wieder
+
+09:42.680 --> 09:49.520
+hier mit den entsprechenden Indizes, Entschuldigung, ich koordiniere das auf den Folien, bis man eben so
+
+09:49.520 --> 09:57.680
+eine lange Konjunktion nachstimmen hat. Also diese Aussage bedeutet, dass die Interpretation der
+
+09:57.680 --> 10:05.800
+Konjunktion aller dieser Formen 1 erfüllt ist. Das bedeutet also, i ist ein Modell bzw. i, also in
+
+10:05.800 --> 10:11.800
+anderen Worten, Alpha erfüllt diese lange Konjunktion und weil das eben ein bisschen
+
+10:11.800 --> 10:17.680
+schwierig ist, ja, schreibt man solche Konjunktionen nun mal so, das ist nichts anderes. Also Alpha
+
+10:17.680 --> 10:26.720
+erfüllt die Konjunktion von p und wenn Alpha die Konjunktion oder die Verwundung aller Formen aus
+
+10:26.720 --> 10:35.440
+p erfüllt, ist Alpha in der Erfüllungsmenge der Konjunktion von p. Ja, und das ist nun mal genau
+
+10:35.440 --> 10:46.320
+das, was hier steht. Hier oben haben wir angefangen. Und jeder dieser Schritte ist umkehrbar. Wenn wir
+
+10:46.320 --> 10:52.280
+also davon ausgehen, dass Alpha in Sat p ist, dann ist Alpha da drin und so weiter und so fort.
+
+10:52.280 --> 10:57.400
+Wir können es also von vorne nach hinten und von hinten nach vorne lesen und das bedeutet, dass diese
+
+10:57.400 --> 11:20.400
+Mengen gleich sind. Gut. Weiterhin hatten wir ja noch die Aussage, dass wenn wir eine Inklusion
+
+11:20.400 --> 11:27.880
+zwischen zwei Formelmengen hatten, wir die umgekehrte Inklusion in den Erfüllungsmengen haben.
+
+11:27.880 --> 11:38.840
+Wie können wir uns denn das jetzt vorstellen? Also überlegen wir uns doch mal zum Beispiel, dass,
+
+11:38.840 --> 11:50.320
+genau so macht man es. Wir gehen einfach mal davon aus, dass p tatsächlich eine Teilmenge von q sei.
+
+11:50.320 --> 12:06.200
+Und wir nehmen uns jetzt mal eine Belegung aus der Erfüllungsmenge von q, also der größeren hier.
+
+12:06.200 --> 12:19.640
+Also das Alpha, das wir uns hier ansehen, erfüllt alle Formeln aus q. Hier, wenn Alpha aus der
+
+12:19.640 --> 12:27.280
+Erfüllungsmenge von q ist, bedeutet das, dass die Interpretation von q 1 ergibt für alle Formeln
+
+12:27.280 --> 12:38.320
+q aus Großq. So, jetzt ist p aber eine Teilmenge von q. Das heißt, jede Formel, die in p drin ist,
+
+12:38.320 --> 12:49.040
+ist auch in q drin. Und das bedeutet, weil ja alle Formeln in q durch Alpha, in Großq durch Alpha
+
+12:49.040 --> 13:01.600
+erfüllt sind, sind natürlich auch alle Formeln aus p erfüllt, durch Alpha erfüllt. Und somit wissen
+
+13:01.600 --> 13:19.000
+wir, dass jedes Alpha, das q erfüllt, auch p erfüllt. Wenn also Alpha q erfüllt, dann erfüllt Alpha
+
+13:19.000 --> 13:28.760
+auch p. Und das ist nichts anderes als diese Teilmengebeziehung und das ist genau das, was wir
+
+13:28.760 --> 13:37.960
+zeigen wollen. Schließlich und letztendlich, die dritte Sache war, dass wenn wir zwei Formelmengen
+
+13:37.960 --> 13:47.920
+vereinigen, deren Erfüllungsmenge gleich dem Schnitt der Erfüllungsmengen der beiden Formelmengen
+
+13:47.920 --> 14:01.120
+sind. Das ist eigentlich sehr einfach zu sehen. Wir nehmen uns also eine Belegung, die p vereinigt
+
+14:01.120 --> 14:10.760
+q erfüllt. Damit wissen wir, dass diese Belegung alle p aus p erfüllt und natürlich auch alle q
+
+14:10.760 --> 14:19.440
+aus q. Sonst würde sie ja nicht alle aus p oder q erfüllt. Also Alpha erfüllt alle p aus p und
+
+14:19.440 --> 14:28.560
+Alpha erfüllt alle q aus q. Und damit muss also Alpha aus der Erfüllungsmenge von p sein und aus
+
+14:28.560 --> 14:36.160
+der Erfüllungsmenge von q. Und wenn Alpha aus der Erfüllungsmenge von p ist und Alpha aus der
+
+14:36.160 --> 14:45.080
+Erfüllungsmenge von q ist, dann wissen sie, dass Alpha aus der Schnittmenge der beiden Erfüllungsmengen
+
+14:45.080 --> 15:00.480
+von p und von q respektive ist. Ja und das soll es damit eigentlich jetzt schon zu diesen Themen
+
+15:00.480 --> 15:07.440
+komplex gewesen sein. Und als nächstes sind dann dran logische Schlussfolgerungen.
+

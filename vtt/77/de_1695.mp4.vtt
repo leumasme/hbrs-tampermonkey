@@ -1,0 +1,275 @@
+WEBVTT
+
+00:00.000 --> 00:18.000
+Also, gut, wir wollen als erstes uns beschäftigen in dieser Vorlesung mit der Aussagenlogik.
+
+00:18.000 --> 00:25.000
+Die Aussagenlogik wird manchmal auch propositionaler Logik genannt, Proposition als Fremdwort für Aussage.
+
+00:25.000 --> 00:34.000
+Sie wird im Englischen auch Sentential Logic genannt, also Sentenzenlogik oder Satzlogik.
+
+00:34.000 --> 00:42.000
+Warum? Man beschäftigt sich mit Sätzen, wie wir sie aus den Äußerungen der natürlichen Sprache kennen,
+
+00:42.000 --> 00:53.000
+die Aussagen darstellen und eine Aussage ist dementsprechend etwas, dem wir einen Wahrheitswert zuordnen können wollen.
+
+00:53.000 --> 01:04.000
+Das heißt, sämtliche Äußerungen, die nicht wirklich Aussagen sind, so wie wir sie uns gleich herleiten,
+
+01:04.000 --> 01:15.000
+können gar nicht in Aussagenlogik behandelt werden. Dazu gibt es andere Logiken und das ist ja auch Gegenstand einer Übung.
+
+01:15.000 --> 01:32.000
+Gleichzeitig mit der propositionalen Logik werden wir aber viele, viele wichtige Begriffe,
+
+01:32.000 --> 01:37.000
+zum Teil schon auf eine etwas abstraktere Art und Weise kennenlernen,
+
+01:37.000 --> 01:46.000
+weil diese Begriffe für alle Logiken von Relevanz sind. Wir werden also diese Begriffe uns erarbeiten
+
+01:46.000 --> 01:52.000
+und definieren aber auf eine Art und Weise, dass wir sie später sehr einfach wiederverwenden können.
+
+01:52.000 --> 02:00.000
+Das ist im ersten Anlauf vielleicht ein bisschen komplizierter, als es notwendig erscheint,
+
+02:00.000 --> 02:10.000
+erspart uns aber im weiteren sehr viel Arbeit. Gut, das allererste und einfachste natürlich,
+
+02:10.000 --> 02:21.000
+und wie Sie sehen, auch auf zwei Folien innerhalb von drei Minuten zu behandeln, ist die Syntax der Aussagenlogik.
+
+02:21.000 --> 02:31.000
+Sie beschreibt also, wie in der Aussagenlogik, wenn wir etwas hinschreiben wollen, es auszusehen hat,
+
+02:31.000 --> 02:38.000
+sodass wir im Endeffekt am Aussehen dessen, was wir hinschreiben können, sagen können,
+
+02:38.000 --> 02:49.000
+das ist eine aussagenlogische Darstellung einer Äußerung bzw. das ist keine korrekte Darstellung einer aussagenlogischen Form.
+
+02:49.000 --> 02:58.000
+Das macht man deswegen, weil man eine klar definierte Sprache haben muss und nur wenn man eine klar definierte Sprache hat,
+
+02:58.000 --> 03:06.000
+kann man den Elementen dieser Sprache auch eine eindeutige Bedeutung zuweisen.
+
+03:06.000 --> 03:16.000
+Die elementaren Bausteine der Aussagenlogik sind dann die Aussagen, also die Proposition.
+
+03:16.000 --> 03:25.000
+Wir sagen also, eine Proposition oder Aussage ist eine Äußerung, der man einen Wahrheitswert zuordnen kann.
+
+03:25.000 --> 03:35.000
+Ich greife jetzt schon mal ein bisschen vor und sage, wir wollen Äußerungen nach Möglichkeit in ihrer Struktur
+
+03:35.000 --> 03:48.000
+natürlich so weit verlegen, dass eine Äußerung strukturell sich wieder in einer aussagenlogischen Formel wiederfindet.
+
+03:48.000 --> 03:58.000
+Und zwar, indem die natürlichen sprachigen Wörter, die wir benutzen, um einzelne Aussagen zu verknüpfen,
+
+03:58.000 --> 04:08.000
+durch logische Operatoren dargestellt werden oder sagen wir mal logische Operator-Symbole und wir versuchen,
+
+04:08.000 --> 04:18.000
+wie gesagt, die Struktur einer komplexen Äußerung herunterzubrechen, bis auf die kleinsten atomaren Elemente dieser Aussage.
+
+04:18.000 --> 04:21.000
+Schauen wir also zum Beispiel mal uns so eine Aussage an.
+
+04:21.000 --> 04:28.000
+Gödel hat recht, dann ist das eine Aussage, sie kann wahr oder falsch sein.
+
+04:28.000 --> 04:32.000
+Sie ist wahr, wenn Gödel recht hat und sie ist falsch, wenn Gödel nicht recht hat.
+
+04:32.000 --> 04:40.000
+Und wir wollen sie der Einfachheit halber mit einem einfachen Symbol, einem einfachen Variable bezeichnen.
+
+04:40.000 --> 04:46.000
+Das nennen wir eine Aussagenvariable.
+
+04:46.000 --> 04:54.000
+Gut, und die Wahrheitswerte, die wir in der Aussagenlogik betrachten, dazu gibt es zwei.
+
+04:54.000 --> 04:59.000
+Nämlich, wie wir hier gesagt haben, eine Aussage kann wahr oder falsch sein,
+
+04:59.000 --> 05:04.000
+dementsprechend betrachten wir eine Menge Omega von zwei Wahrheitswerten.
+
+05:04.000 --> 05:09.000
+Wobei der Wahrheitswert Null eben dafür stehen soll, dass eine Aussage,
+
+05:09.000 --> 05:16.000
+in der dieser Wahrheitswert Null zugeordnet wird, bedeuten soll, dass durch diese Aussagenvariable
+
+05:16.000 --> 05:21.000
+repräsentierte Aussage falsch ist und wenn ihr Eins zugeordnet wird,
+
+05:21.000 --> 05:26.000
+die der Aussagenvariable zugeordnete Äußerung wahr ist.
+
+05:26.000 --> 05:38.000
+Gut, wie kann man jetzt mit Aussagenvariablen, die ja nur atomare Äußerungen bezeichnen,
+
+05:38.000 --> 05:42.000
+komplexere Äußerungen darstellen?
+
+05:42.000 --> 05:54.000
+Dazu brauchen wir die logischen Operatorsymbole und die benutzen wir, um komplexere Formeln zu basteln.
+
+05:54.000 --> 05:58.000
+So, und das sieht dann also so aus.
+
+05:58.000 --> 06:07.000
+Wir haben ein Alphabet, ein Alphabet ist in der Regel eben eine endliche Menge von Symbolen
+
+06:07.000 --> 06:18.000
+die, das ist das Alphabet der Aussagenvariablen, also a, b, irgendwas und wir nehmen dafür,
+
+06:18.000 --> 06:27.000
+wir nennen diese Menge einfach p, a, p, p, p für propositional Variablen.
+
+06:27.000 --> 06:34.000
+Wenn Sie also eine atomare Aussage mit einer propositionalen Variable repräsentieren wollen,
+
+06:34.000 --> 06:44.000
+dann schreiben Sie das hin, ja, ich habe jetzt eine Variable a und die soll jetzt stehen für die Aussage,
+
+06:44.000 --> 06:48.000
+wie in den Übungen zum Beispiel, die Sonne stammt.
+
+06:48.000 --> 06:53.000
+Jetzt wollen wir uns aus diesen Aussagenvariablen, die ja die atomaren Elemente sind,
+
+06:53.000 --> 06:58.000
+komplexere Formeln bauen, die komplexere Äußerungen darstellen.
+
+06:58.000 --> 07:04.000
+Und dazu definieren wir uns die Menge fml für Formeln.
+
+07:04.000 --> 07:10.000
+Und die Menge der aussagenlogischen Formeln ist jetzt die kleinste Menge, für die gilt,
+
+07:10.000 --> 07:15.000
+jede propositionale Aussage oder jede Aussagenvariable ist eine Formel.
+
+07:15.000 --> 07:21.000
+Es ist die einfachste Formel, es sind atomare Formeln.
+
+07:21.000 --> 07:28.000
+Außerdem gibt es noch zwei Symbole, ein f und ein t.
+
+07:28.000 --> 07:37.000
+Auch diese beiden Dinger nehmen wir automatisch schon mal zur Menge von unseren Formeln hinzu.
+
+07:37.000 --> 07:45.000
+Jetzt kommt unter b der Schritt, der es uns erlaubt, aus bestehenden Formeln,
+
+07:45.000 --> 07:52.000
+also im ersten Schritt aus atomaren Formeln, aber im iterierten Schritt sage ich jetzt mal,
+
+07:52.000 --> 07:57.000
+auch aus zwei beliebigen Formeln, noch komplexere zu bauen.
+
+07:57.000 --> 08:05.000
+Wenn wir also zwei Formeln haben, p und q, also zwei Formeln p und q,
+
+08:05.000 --> 08:10.000
+dann kann ich mit diesen Formeln oder aus diesen Formeln weitere Formeln bauen,
+
+08:10.000 --> 08:15.000
+indem ich einen Haken davor mache und klammert rum, indem ich einen Graben dazwischen mache und klammert rum,
+
+08:15.000 --> 08:20.000
+ein Dach und klammert rum oder einen Pfeil.
+
+08:20.000 --> 08:26.000
+Also gucken Sie sich das genau an.
+
+08:26.000 --> 08:33.000
+Wenn p eine Aussagenvariable ist, dann steht da einfach nur meinetwegen ein a oder ein x.
+
+08:33.000 --> 08:44.000
+In dem Moment, wo wir aber eine komplexe Formel bauen, sind auf jeden Fall Klammern drum.
+
+08:44.000 --> 08:55.000
+Diese Operatorsymbole, die wir da benutzen, heißen falsch, wahr oder false und true,
+
+08:55.000 --> 09:00.000
+der Haken ist die Negation, der Graben ist die Disjunktion, das Dach ist die Konjunktion
+
+09:00.000 --> 09:03.000
+und der Pfeil ist die Subjunktion.
+
+09:03.000 --> 09:08.000
+Wird auch Implikation oder Konsequenz oder sonst irgendwas genannt,
+
+09:08.000 --> 09:13.000
+da kommt man mit der Benennung häufiger durcheinander.
+
+09:13.000 --> 09:18.000
+Da muss man ein bisschen aufpassen, insbesondere wenn man sich überlegt,
+
+09:18.000 --> 09:23.000
+wie werden jetzt diese Operatorsymbole in der Formel gesprochen?
+
+09:23.000 --> 09:38.000
+Wir sagen halt, etwas ist falsch oder das ist wahr oder wir sagen nicht p für das Negationssymbol vor p,
+
+09:38.000 --> 09:48.000
+wir sagen p oder q, wir sagen p und q und für den Fall der Subjunktion sagt man in der Regel p impliziert q.
+
+09:48.000 --> 10:03.000
+Aus dem einfachen Grunde, weil p subjunkt q oder p subjunkt q ein bisschen im Knoten in der Summe verursacht.
+
+10:03.000 --> 10:10.000
+Was auch manchmal durchaus wichtig ist, auf jeden Fall was später wichtig werden wird,
+
+10:10.000 --> 10:22.000
+ist eine Funktion wahr oder die Menge wahr bezüglich einer Formel p und die bezeichnet einfach die Menge
+
+10:22.000 --> 10:30.000
+aller Aussagenvariablen, sprich atomaren Aussagen, die in einer Formel p vorkommen.
+
+10:30.000 --> 10:37.000
+Wenn die Formel p also eine Aussagenvariable ist oder nur aus dieser Aussagenvariable besteht,
+
+10:37.000 --> 10:41.000
+also eine atomare Formel ist, dann stellen Sie fest, das sind ja auch keine Klammern drum,
+
+10:41.000 --> 10:50.000
+dann ist die Menge der in dieser Formel vorkommenden Aussagenvariablen natürlich nur diese Aussagenvariable selbst.
+
+10:50.000 --> 10:59.000
+Wenn es sich um eine negierte Formel handelt, dann führt diese Negation natürlich keine weitere Aussagenvariable ein,
+
+10:59.000 --> 11:07.000
+das heißt die Menge der in dieser Formel vorkommenden Variablen ist gleich der Menge der in p vorkommenden Variablen.
+
+11:07.000 --> 11:21.000
+Und wenn wir, also dieses Sternchen in dem Kreis ist im Defekt ein Platzhalter, eine Variable für alle zweistelligen Junktoren,
+
+11:21.000 --> 11:31.000
+ja, wenn ich also mit einem zweistelligen Junktor und, oder, oder Implikation zwei Formeln verbinde
+
+11:31.000 --> 11:37.000
+und zu einer komplexen Formel zusammenbaue, dann ist die Menge der darin enthaltenen Aussagenvariablen
+
+11:37.000 --> 11:46.000
+gleich der Vereinigungsmenge der Variablen Aussagenvariablen, die in p und q vorkommen.
+
+11:46.000 --> 11:52.000
+Gut, ich weiß nicht, ob das jetzt drei Minuten waren, vielleicht waren es doch ein bisschen mehr.
+
+11:52.000 --> 12:09.000
+Auf jeden Fall haben wir auf zwei Folien jetzt schon mal komplett die Syntax der Aussagenlogik uns zusammengebaut.
+
+12:09.000 --> 12:19.000
+Gut.
+

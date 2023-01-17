@@ -1,0 +1,125 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Vollkommen richtig. Sie haben es genau gesagt und jetzt hoffe ich, dass es für den Rest stimmt.
+
+00:10.000 --> 00:18.000
+Ach du Jimine! Also hier müsste jetzt überall ein Y stehen.
+
+00:18.000 --> 00:32.000
+Jajajaja, jetzt geht es natürlich ab. Machen wir mal so weit weiter, wie es geht. Entschuldigung. Also das werde ich dann noch mal korrigieren müssen.
+
+00:32.000 --> 00:40.000
+Weil ich fürchte, ich habe mich damit jetzt auch im Folgenden verrechnet. Gut, das ist das, was man in der Klausur dann einen Folgefehler nennt.
+
+00:40.000 --> 00:54.000
+Gucken wir mal. Also wir wollen jetzt diesen Existenzquanto durch die Skolonisierung platt machen. Das heißt, wir müssen jedes Vorkommen von Y durch eine entsprechende Skolonfunktion ersetzen.
+
+00:54.000 --> 01:11.000
+Das heißt also ein Term, der jedes Vorkommen von Y in dieser Formel hier ersetzt durch einen Term mit einem Argument, mit dieser Variante hier als Argument.
+
+01:11.000 --> 01:31.000
+Da kommt also folgendes raus. Wir lassen den Existenzquanto weg. Hier steht statt diesem Y jetzt eine Skolonfunktion von X, hier ist der Tippfehler, hier kommt die Skolonfunktion von X hin und hier kommt die Skolonfunktion von X hin.
+
+01:31.000 --> 01:47.000
+Gut, jetzt können wir, jetzt ist der Existenzquanto schon weg, jetzt können wir das Ganze, weil jetzt nur noch ein I-Quanto da ist, sozusagen als universell quantifiziert annehmen.
+
+01:47.000 --> 02:02.000
+Und dann diese Formel, die hier steht, nach den Verfahren, die wir bereits kennen, in eine konjunktive Normalform bringen.
+
+02:02.000 --> 02:13.000
+Man löst die Subjektion auf, man wendet jetzt, das sehe ich jetzt, das müssen Sie sich dann auf den Folien genauer angucken und können es vielleicht auch korrigieren.
+
+02:13.000 --> 02:20.000
+Wie gesagt, ich trage es nochmal nach, wo haben wir das d? Ach, schauen Sie mal, hier hinten ist das d wieder richtig.
+
+02:20.000 --> 02:36.000
+Da hinten stimmt es wieder. Also ich überprüfe es nochmal. Gut, ja, also dann muss man hier, diese Konjunktion löst man dann mit dieser Disjunktion über Distributivität auf und die Formel wird immer immer länger, dass sie gar nicht mehr in eine Zeile passt.
+
+02:36.000 --> 02:55.000
+Aber schließlich und letztendlich haben wir hier eine konjunktive Normalform stehen. Und von diesen konjunktiven Normalformen wissen wir, toll, also kein I-Quanto mehr davor, kein Existenzquanto mehr davor, eine Konjunktion von Disjunktionen,
+
+02:55.000 --> 03:06.000
+das heißt, wir können das auch als Klauselmenge hinschreiben. Das ist also die Menge mit dieser Klausel, das ist dieser Klausel und jener Klausel.
+
+03:06.000 --> 03:26.000
+Also, wenn diese Formel hier erfüllt ist oder erfüllbar ist, dann ist auch diese Klauselmenge erfüllbar und umgekehrt.
+
+03:26.000 --> 03:36.000
+Das heißt, wenn diese Klauselmenge nicht erfüllbar ist, ist diese Formel nicht erfüllbar. Und jetzt wissen Sie, wo der Hase hinläuft.
+
+03:36.000 --> 04:01.000
+Das führt uns dann nämlich dazu, dass wir als nächstes, wo ist meine Maus, das führt dann im Endeffekt dazu, dass wir wegen der Erfüllungsequivalenz von schoolen Formeln, dass wir dann letztendlich zur Resolution kommen.
+
+04:01.000 --> 04:29.000
+Gut, da liefern wir jetzt noch etwas nach und zwar können wir jetzt zwei beliebige Klauseln, also Teilformeln, in schoolen Normalformen umbenennen und variabel fremd machen.
+
+04:29.000 --> 04:49.000
+Das heißt also im Endeffekt, dass hier einmal ein x vorkommt für jedes x, hier einmal als y und hier einmal als z. Was ist das tolle daran?
+
+04:49.000 --> 04:59.000
+Naja, Sie sehen vielleicht eigentlich schon, dass man hier vielleicht so das eine oder andere unifizieren möchte.
+
+04:59.000 --> 05:14.000
+Und wenn all diese Klauselvariablen fremd sind, dann könnte man jetzt z.B. dieses y durch ein x ersetzen und das würde jetzt tatsächlich unifizieren.
+
+05:14.000 --> 05:32.000
+Also wir können diese einzelnen Klauseln variabel fremd machen. Gut, Moment, jetzt muss ich kurz überlegen, jetzt habe ich die Grundinstanzen.
+
+05:32.000 --> 06:01.000
+Ach, das kriegen wir auch noch hin. Wenn wir jetzt eine Menge solcher Formeln hernehmen, dann definieren wir uns die Menge der sogenannten Grundinstanzen solcher Formeln.
+
+06:01.000 --> 06:20.000
+So, das ist jetzt was ganz Tolles. Wir sagen ja, die sind universell allquantifiziert. Das heißt, die müssen wahr sein für alle Instanzierungen der jeweils universell quantifizierten darin vorkommenden Variablen.
+
+06:20.000 --> 06:32.000
+Was heißt das? Sie müssen also für alle Instanzen, das heißt für alle Objekte aus unserem Sigma-Algebra erfüllt sein.
+
+06:32.000 --> 06:38.000
+Dann schreiben wir das in Anführungszeichen, dann schreiben wir das doch mal hin.
+
+06:38.000 --> 06:52.000
+Wir nehmen mal an, und jetzt kommen so ein bisschen im Hinterkopf die Error-Modelle wieder ins Spiel, wir nehmen einfach mal an, in unserer Sigma-Algebra stünden alle Therme,
+
+06:52.000 --> 07:01.000
+die wir bilden können, als alle möglichen Argumente aller möglichen Formeln drin. Das nennen wir die Menge der Grundinstanzen.
+
+07:01.000 --> 07:27.000
+Und dann können wir im Endeffekt wieder genau dieselbe Aussage über die Konjunktionen und Disjunktionen von Literalen hernehmen,
+
+07:27.000 --> 07:46.000
+wie wir sie aus der Aussagenlogik kennen. Nämlich, eine Konjunktion von Literalmengen kann erfüllt werden, wenn es kein komplementäres Paar darin gibt.
+
+07:46.000 --> 07:56.000
+Wenn es ein komplementäres Paar gilt, ist klar, dann stehen da überall die Grundinstanzen drin und dann gibt es eine Formel, die sagt, Peter ist grün,
+
+07:56.000 --> 08:08.000
+und die andere sagt, Peter ist nicht grün. So, sie ist allgemeingültig, naja, nie, weil wir immer eine Interpretation finden können,
+
+08:08.000 --> 08:22.000
+die eines der Konjunkte falsch macht. Jede Disjunktion hat ein Modell und jede Disjunktion ist allgemeingültig, wenn sie ein komplementäres Paar beinhaltet.
+
+08:22.000 --> 08:35.000
+So, und damit haben wir im Endeffekt dieselbe logische Grundlage für die Resolution geschaffen, wie in der Aussagenlogik.
+
+08:35.000 --> 08:47.000
+Das hier ist jetzt der Knaller. Deswegen wissen Sie, warum man die Grundmodelle braucht und warum wir R0-Modelle betrachtet haben.
+
+08:47.000 --> 09:02.000
+Eine Menge von Formeln p hat ein Modell, genau dann, wenn die Menge der Grundinstanzen von p ein Erbrungmodell hat.
+
+09:02.000 --> 09:20.000
+Und sie ist erfüllbar, wenn jede endliche Teilmenge davon erfüllbar ist. Was heißt das? Wenn wir, und jetzt denken Sie ans Widerspruchslämmer,
+
+09:20.000 --> 09:29.000
+wenn wir eine endliche Teilmenge in diesem Erbrungmodell finden, die einen Widerspruch liefert, wissen wir, die Theorie war widersprüchlich.
+
+09:29.000 --> 09:39.000
+Wenn wir also aus einer Menge p eine Formel p ableiten wollen, nehmen wir die Negation davon, tun sie zu der Menge hinzu,
+
+09:39.000 --> 09:55.000
+und wenn wir dann einen Ausschnitt in einem solchen Modell hier hinten finden, das widersprüchlich ist, dann wissen wir, dass die logische Implikation wahr war.
+
+09:55.000 --> 10:02.000
+Ich gehe dann auch wiederholend in der nächsten Vorlesung nochmal im Detail ein. Aber für heute sind wir schon zwei Minuten drüber.
+

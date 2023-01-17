@@ -1,0 +1,221 @@
+WEBVTT
+
+00:00.000 --> 00:19.000
+Nun wollen wir uns also in der diskreten Mathematik Gedanken machen über die Strukturen, die wir brauchen, um die Grundlagen der Informatik gut greifen und beschreiben zu können.
+
+00:19.000 --> 00:26.000
+Wenn man das genau machen will, braucht man natürlich eine genaue Sprache.
+
+00:26.000 --> 00:33.000
+Und dazu nutzt man in der Regel eine Logik.
+
+00:33.000 --> 00:39.000
+Deswegen ist die Überschrift dieses Clips Logik als gemeinsame Sprache.
+
+00:39.000 --> 00:41.000
+Wo kommt das her?
+
+00:41.000 --> 01:09.000
+Ganz einfach, wir könnten so etwas sagen wie Pferde sind Säugetiere, aber Fische und Vögel nicht.
+
+01:09.000 --> 01:21.000
+Das ist ja durchaus eine Äußerung, die wir auch als Aussage bezeichnen, weil diese Äußerung einen Wahrheitswert haben kann oder nicht.
+
+01:21.000 --> 01:34.000
+Und die man in dem normalen täglichen Umgang miteinander durchaus benutzen kann und auch durchaus verstehen kann.
+
+01:34.000 --> 01:46.000
+Dennoch ist es so, dass für eine genaue mathematische Betrachtung diese Sprache, die wir täglich benutzen, zu ungenau ist.
+
+01:46.000 --> 01:52.000
+Zuerst einmal könnte man sich fragen, was bedeutet eigentlich das Wörtchen aber?
+
+01:52.000 --> 01:56.000
+Das Wörtchen aber ist vollkommen überflüssig.
+
+01:56.000 --> 02:11.000
+Denn was hier eigentlich steht von der Aussage her, ist nichts anderes als die Aussage Pferde sind Säugetiere,
+
+02:11.000 --> 02:18.000
+ich nehme noch eine andere Farbe, und Fische und Vögel nicht.
+
+02:18.000 --> 02:30.000
+Wir können also diverse Junktoren, die Satzteile zusammenfügen, vereinfachen.
+
+02:30.000 --> 02:41.000
+Die zusätzliche natürliche Konnotation des Wörtchens aber ist für uns in der Mathematik vollkommen irrelevant.
+
+02:41.000 --> 02:46.000
+Das nächste Problem, das wir haben, ist jetzt folgendes.
+
+02:46.000 --> 02:54.000
+Wenn da jetzt ein Und steht, können wir uns fragen, Pferde sind Säugetiere und Fische.
+
+02:54.000 --> 02:59.000
+Bedeutet das jetzt, dass Pferde Säugetiere und Fische sind?
+
+02:59.000 --> 03:06.000
+Naja, gemeint ist natürlich, dass Fische und Vögel nicht.
+
+03:06.000 --> 03:16.000
+Man braucht also so etwas wie eine Klammerung.
+
+03:16.000 --> 03:23.000
+Als nächstes wiederum kann man sich jetzt fragen, was bedeutet es denn Fische und Vögel nicht?
+
+03:23.000 --> 03:38.000
+Dieses komische Nicht hier bezieht sich ja auf Säugetiere.
+
+03:38.000 --> 03:43.000
+Und dieses Und hier, worauf bezieht sich das?
+
+03:43.000 --> 03:54.000
+Bezieht sich also diese Negation nur auf die Aussage, dass Vögel keine Säugetiere sind?
+
+03:54.000 --> 04:04.000
+Oder bezieht sie sich auf die Aussage, Fische und Vögel sind keine Säugetiere?
+
+04:04.000 --> 04:13.000
+Sie sehen also, dass die natürliche Sprache, die man normalerweise nutzen möchte, viel zu ungenau ist.
+
+04:13.000 --> 04:31.000
+Und man daher eine sogenannte formale Sprache nutzen muss, damit man immer genau weiß, worüber man überhaupt spricht.
+
+04:31.000 --> 04:36.000
+Ein anderes Beispiel ist folgender Satz.
+
+04:36.000 --> 04:48.000
+Das möchte ich Ihnen einfach nur nochmal so mitgeben.
+
+04:48.000 --> 04:54.000
+Wenn zu Ihnen jemand sagt, es zieht.
+
+04:54.000 --> 05:09.000
+Dann gehen Sie als Mathematiker erstmal her und sagen, naja gut, es zieht oder es zieht ist für mich kein Unterschied.
+
+05:09.000 --> 05:18.000
+Das bedeutet im Endeffekt, dass es kein Ausrufezeichen gibt.
+
+05:18.000 --> 05:20.000
+Es zieht.
+
+05:20.000 --> 05:22.000
+Was ist jetzt es zieht?
+
+05:22.000 --> 05:26.000
+Es zieht wiederum ist einfach eine Äußerung.
+
+05:26.000 --> 05:29.000
+Und diese Äußerung ist in der Tat eine Aussage.
+
+05:29.000 --> 05:32.000
+Sie kann nämlich wahr sein oder falsch.
+
+05:32.000 --> 05:36.000
+Wenn Sie jetzt in einem Raum sitzen, in dem es tatsächlich zieht.
+
+05:36.000 --> 05:44.000
+Sie sind derjenige, der am Fenster sitzt und derjenige, der sagt, es zieht, Sie dabei scharf anguckt.
+
+05:44.000 --> 05:50.000
+Dann möchte er mit der Äußerung, es zieht, Sie dazu Aufforderung, das Fenster zu schließen.
+
+05:50.000 --> 05:59.000
+Das ist für einen Mathematiker eine Interpretation dieses sprachlichen Ausdrucks vollkommen irrelevant.
+
+05:59.000 --> 06:04.000
+Wenn also Sie in einem Raum sitzen als Mathematiker,
+
+06:04.000 --> 06:11.000
+jemand guckt Sie streng an und sagt, es zieht, dann sagen Sie, wahre Aussage.
+
+06:11.000 --> 06:23.000
+Also Sie sehen, wir brauchen eine logische Sprache, die sehr genau ist.
+
+06:23.000 --> 06:31.000
+Und die trotzdem von der Ausdrucksstärke her groß genug ist,
+
+06:31.000 --> 06:38.000
+um all das, was wir im Rahmen der diskreten Mathematik behandeln wollen, ausdrücken zu können.
+
+06:38.000 --> 06:47.000
+Und zwar präzise, genau, unmissverständlich.
+
+06:47.000 --> 06:54.000
+Dazu gibt es eigentlich eine ganz eigene Vorlesung über Logiken.
+
+06:54.000 --> 06:58.000
+Also über Sprachen und dessen, was sie bedeuten.
+
+06:58.000 --> 07:09.000
+Das Dumme ist, dass Logiken meistens definiert werden durch Konzepte der diskreten Mathematik.
+
+07:09.000 --> 07:12.000
+Und dann würden wir in einen Zirkusstoß kommen.
+
+07:12.000 --> 07:15.000
+Man hat hier so ein bisschen das Henne-Ei-Problem.
+
+07:15.000 --> 07:18.000
+Wir brauchen jetzt die Logik, um die diskrete Mathematik zu beschreiben,
+
+07:18.000 --> 07:26.000
+und die Logik braucht die diskrete Mathematik.
+
+07:26.000 --> 07:29.000
+Man kann sich da herausziehen.
+
+07:29.000 --> 07:33.000
+Mehr oder weniger elegant und mehr oder weniger erfolgreich.
+
+07:33.000 --> 07:41.000
+Aber das soll für Sie im Bachelorstudium vorerst einmal keine Rolle spielen.
+
+07:41.000 --> 07:56.000
+Gut, also, kommen wir zum eigentlichen Thema dieses Clips,
+
+07:56.000 --> 08:13.000
+nämlich sagen wir mal Aussagen und deren Bedeutung.
+
+08:13.000 --> 08:21.000
+Aussagen teilen wir auf in atomare Aussagen und zusammengesetzte Aussagen.
+
+08:21.000 --> 08:34.000
+Also, zum Beispiel so etwas wie, es regnet.
+
+08:34.000 --> 09:00.000
+Und zusammengesetzte oder komplexe Aussagen sind so etwas wie, es regnet und die Sonne scheint.
+
+09:00.000 --> 09:04.000
+In der Regel macht man Folgendes.
+
+09:04.000 --> 09:13.000
+Man benutzt also, und ich schreibe das mal als Definition hin,
+
+09:13.000 --> 09:20.000
+man benutzt die Menge oder eine Menge, das wissen wir dummerweise noch gar nicht, was das ist,
+
+09:20.000 --> 09:22.000
+deswegen schreibe ich es weg.
+
+09:22.000 --> 09:39.000
+Wir definieren uns Aussagenvariablen, die wir meinetwegen mit großen Buchstaben bezeichnen.
+
+09:39.000 --> 09:52.000
+A, D, X ist vielleicht ungünstig, C, D7 und so weiter.
+
+09:52.000 --> 10:06.000
+So, Aussagenvariablen stehen für atomare Aussagen.
+
+10:06.000 --> 10:17.000
+Und ganz wichtig ist, dass also, wenn Sie eine Aussagenvariable benutzen,
+
+10:17.000 --> 10:26.000
+Sie bei deren Einführung grundsätzlich eindeutig schreiben, was sie bedeuten soll.
+
+10:26.000 --> 10:38.000
+Also, zum Beispiel A steht für, es regnet.
+
+10:38.000 --> 10:57.000
+So, die Batterie der Kamera ist leer, deswegen geht es mit komplexen Aussagen im nächsten Clip weiter.
+

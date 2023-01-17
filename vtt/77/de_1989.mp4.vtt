@@ -1,0 +1,173 @@
+WEBVTT
+
+00:00.000 --> 00:03.000
+Also schauen wir uns das an.
+
+00:09.000 --> 00:13.000
+Wenn wir jetzt natürlich die Gültigkeit von Sequenzen beschreiben wollen
+
+00:13.000 --> 00:17.000
+und wir dementsprechend einen neuen Gültigkeitsbegriff brauchen,
+
+00:17.000 --> 00:20.000
+brauchen wir natürlich auch eine neue Interpretation.
+
+00:20.000 --> 00:23.000
+Die nennen wir jetzt schön g.
+
+00:23.000 --> 00:34.000
+Ich sag jetzt, eine Sequenz p, Sequenzenimplikation q, ist gültig.
+
+00:35.000 --> 00:46.000
+Also wir schreiben hier, diese Sequenzeninterpretation erfüllt eine Sequenz p, q.
+
+00:47.000 --> 00:50.000
+Genau dann, wenn...
+
+00:50.000 --> 00:54.000
+Und jetzt nutzen wir unsere normale Prädikaten.
+
+00:54.000 --> 01:04.000
+Wenn die Konjunktion aller Formeln aus p durch eine prädikatenlogische Interpretation erfüllt ist,
+
+01:04.000 --> 01:14.000
+dann erfüllt diese Interpretation auch die Disjunktion aller Formeln in q.
+
+01:14.000 --> 01:16.000
+Ja.
+
+01:18.000 --> 01:20.000
+Was heißt das?
+
+01:20.000 --> 01:29.000
+Naja, das heißt nichts anderes, als dass Sie hier das Entailment darstellen
+
+01:29.000 --> 01:34.000
+durch diese Formel mit dieser Sequenzenimplikation.
+
+01:35.000 --> 01:41.000
+Und, weil wir ja wissen, wie dieses i definiert ist,
+
+01:41.000 --> 01:49.000
+können wir uns unter Benutzung dieser Interpretationsfunktion der Prädikatenlogik
+
+01:49.000 --> 01:54.000
+diese Interpretationsfunktion einfach definieren.
+
+01:54.000 --> 01:56.000
+Sie sieht nämlich so aus.
+
+01:56.000 --> 02:02.000
+Also, der Wahrheitswert einer Sequenz unter einer Interpretation
+
+02:02.000 --> 02:10.000
+ist gleich dem Wahrheitswert dieser Implikation.
+
+02:10.000 --> 02:14.000
+Also, der Interpretation der Konjunktion über alle p,
+
+02:14.000 --> 02:19.000
+Kompliment, Tippfehler, hier steht natürlich ein Supremer.
+
+02:19.000 --> 02:23.000
+Oder, ja, oder das hier.
+
+02:23.000 --> 02:25.000
+Okay?
+
+02:25.000 --> 02:30.000
+Also, wie ich schon mehrfach in dieser Vorlesung gesagt habe,
+
+02:30.000 --> 02:33.000
+am Anfang war es ein bisschen hakelig.
+
+02:33.000 --> 02:41.000
+Aber schauen Sie, wir können jetzt diese Interpretation in einer Zeile definieren,
+
+02:41.000 --> 02:44.000
+weil wir das alles haben.
+
+02:44.000 --> 02:46.000
+Ja?
+
+02:46.000 --> 02:51.000
+Also, wir sagen, eine Sequenz ist gültig, wenn aus der Gültigkeit,
+
+02:51.000 --> 02:55.000
+und nicht Güglichkeit, sondern wenn aus der Gültigkeit der Konjunktion
+
+02:55.000 --> 03:02.000
+ihrer Antizidenz sind, die Gültigkeit der Disjunktion der Subzidenz sind.
+
+03:02.000 --> 03:09.000
+Folgt.
+
+03:09.000 --> 03:13.000
+Natürlich können wir jetzt hier auch den Linguistentritt anwenden.
+
+03:13.000 --> 03:18.000
+Wir können einfach da unser großes Apostroph hinmalen,
+
+03:18.000 --> 03:23.000
+und sagen, die Bedeutung dieser Sequenz sei eben genau dieser Ausdruck.
+
+03:23.000 --> 03:27.000
+Er ist also wieder true oder false.
+
+03:27.000 --> 03:34.000
+Und, das wissen wir, ja, jetzt etwas ganz, ganz, ganz, ganz Wichtiges.
+
+03:34.000 --> 03:45.000
+Denken Sie an die Gültigkeitsbedingungen von Subjunktionen beziehungsweise Implikationen.
+
+03:45.000 --> 03:50.000
+Eine Implikation ist immer gültig, ist immer wahr,
+
+03:50.000 --> 03:59.000
+wenn der Wahrheitswert der Prämisse kleiner gleich dem Wahrheitswert der Konklusion ist.
+
+03:59.000 --> 04:07.000
+Wenn der Wahrheitswert der Konklusion kleiner ist als der der Prämisse,
+
+04:07.000 --> 04:14.000
+dann steht da die Implikation aus true folgt false.
+
+04:14.000 --> 04:23.000
+Und wir wissen, dass das die einzige Möglichkeit ist, die implikative Aussage falsch zu machen.
+
+04:23.000 --> 04:24.000
+Das heißt deren Umkehrung.
+
+04:24.000 --> 04:31.000
+Wenn immer der Wahrheitswert der Prämisse kleiner gleich dem Wahrheitswert der Konklusion ist,
+
+04:31.000 --> 04:34.000
+ist die gesamte Implikation wahr.
+
+04:34.000 --> 04:38.000
+Und das ist genau das, was hier steht.
+
+04:38.000 --> 04:41.000
+Eine Sequenz ist gültig.
+
+04:41.000 --> 04:54.000
+Wenn der Wahrheitswert der Konjunktion kleiner gleich dem wahr...
+
+04:54.000 --> 05:01.000
+Wenn der Wahrheitswert der Konjunktion über die Prämisse hier vorne
+
+05:01.000 --> 05:11.000
+kleiner gleich dem Wahrheitswert der Disjunktion hier hinten über die Subzendenz hin ist.
+
+05:11.000 --> 05:12.000
+Gut.
+
+05:12.000 --> 05:15.000
+Und um die Notation ein bisschen einfacher zu machen,
+
+05:15.000 --> 05:21.000
+schreiben wir jetzt ab Stelle dieses großen und und dem großen oder vor dem q und dem p
+
+05:21.000 --> 05:32.000
+das Ding einfach hier hinten als Exponent hin und ein bisschen einfacher zu schreiben.
+

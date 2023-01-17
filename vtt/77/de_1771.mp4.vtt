@@ -1,0 +1,620 @@
+WEBVTT
+
+00:00.000 --> 00:08.000
+So, jetzt kommen wir tatsächlich zum Thema Normalformel.
+
+00:08.000 --> 00:16.080
+Das ist jetzt vielleicht schon, so wie es hier steht, im ersten Moment ein bisschen
+
+00:16.080 --> 00:28.760
+unübersichtlich, aber sagen wir einfach mal, eine Formel P oder Q liegt in einer konjunktiven
+
+00:28.760 --> 00:37.760
+Normalform vor, wenn diese Formel eine Konjunktion ist von irgendetwas.
+
+00:37.760 --> 00:43.920
+Denken Sie zum Beispiel an die Definition der Erfüllungsmenge.
+
+00:43.920 --> 00:52.080
+Da wurde die Tatsache benutzt, dass eine Menge von Formeln erfüllbar ist, genau dann, wenn
+
+00:52.080 --> 00:58.320
+die Formel, die aus der Konjunktion über alle diese Formeln entsteht, erfüllbar ist.
+
+00:58.320 --> 01:07.880
+Also, eine Formel liegt in konjunktiver Normalform vor, wenn es eine Konjunktion von Formeln ist.
+
+01:07.880 --> 01:16.280
+Für diese Formeln gilt aber, dass da keine Konjunktionen mehr drin vorkommen, sondern
+
+01:16.280 --> 01:17.280
+nur Disjunktionen.
+
+01:17.280 --> 01:25.400
+Wenn Sie sich das also als Baum vorstellen, ist eine Formel in konjunktiver Normalform
+
+01:25.400 --> 01:33.120
+ein Baum, wo erstmal viele Konjunktionen kommen, dann kommen keine Konjunktionen mehr und sobald
+
+01:33.120 --> 01:40.760
+in einem Ast in diesem Baum ein logischer Operator vorkommt, der keine Konjunktion mehr
+
+01:40.760 --> 01:44.000
+ist, kommt darunter auch keine Konjunktion mehr vor.
+
+01:44.000 --> 01:51.280
+Um genau zu sein, in konjunktiver Normalform ist eine Formel genau dann, wenn der Baum
+
+01:51.280 --> 01:59.120
+einer solchen Formel oder wenn jeder Ast in diesem Baum so aussieht, dass, wenn Konjunktionen
+
+01:59.120 --> 02:06.160
+drin vorkommen, zuerst nur Konjunktionen drin vorkommen, wenn Disjunktionen drin vorkommen,
+
+02:06.160 --> 02:14.680
+danach nur Disjunktionen und wenn dann noch Negationen drin vorkommen, zum Schluss nur
+
+02:14.680 --> 02:15.680
+Negationen.
+
+02:15.680 --> 02:22.200
+Und zwar, da nimmt man sich einen Trick zur Hilfe, höchstens einen.
+
+02:22.200 --> 02:31.440
+Also, Sie sehen das, eine Formel liegt in konjunktiver Normalform vor, wenn es eine Konjunktion
+
+02:31.440 --> 02:35.000
+von Disjunktionen von Literalen ist.
+
+02:35.000 --> 02:37.600
+Was ist ein Literal?
+
+02:37.600 --> 02:45.520
+Ein Literal ist eine Aussagenvariable, also eine automatische Formel, sprich eine Aussagenvariable,
+
+02:45.520 --> 02:49.640
+nichts anderes, oder aber deren Negation.
+
+02:49.640 --> 02:59.320
+Also, da kann jetzt nur ein a stehen oder ein nicht a mit einem nicht davor.
+
+02:59.320 --> 03:08.360
+Ein Literal, also eine Aussagenvariable, ohne eine Negation davor, nennt man positives Literal.
+
+03:08.360 --> 03:17.600
+Naja, negative Literale wären dementsprechend Literale mit einem oder mehr Negationszeichen,
+
+03:17.600 --> 03:25.760
+man macht es aber anders, man sagt eben negierte Literale, dann nimmt man häufig so eine Tilde,
+
+03:25.760 --> 03:31.880
+die werden so definiert, dass eine Tilde von einer Negation gleichzeitig diese Negation
+
+03:31.880 --> 03:32.880
+löscht.
+
+03:32.880 --> 03:43.800
+Also, sozusagen sämtliche geraden Anzahlen von Negationen fliegen raus und es bleibt
+
+03:43.800 --> 03:50.120
+keine übrig und sämtliche ungeraden Anzahlen von Negationen werden auf eine einzige Negation
+
+03:50.120 --> 03:51.120
+reduziert.
+
+03:51.120 --> 03:56.160
+Dann haben wir die Menge der positiven und negativen Literale.
+
+03:56.160 --> 04:04.760
+Eine Formel ist in konjunktiver Normalform, wenn es eine Konjunktion ist, jedes dieser
+
+04:04.760 --> 04:16.440
+Konjunkte besteht aus einer Disjunktion und jedes dieser Disjunkte besteht aus einem Literal
+
+04:16.440 --> 04:22.880
+und jedes Literal ist entweder positiv oder negativ, das heißt es ist entweder eine Aussagenvariable
+
+04:22.880 --> 04:27.120
+oder eine einfach negierte Aussagenvariable.
+
+04:27.120 --> 04:36.120
+In disjunktiver Normalform liegt jetzt eine Formel vor, wenn es eine Disjunktion von Konjunktionen
+
+04:36.120 --> 04:37.120
+ist.
+
+04:37.120 --> 04:44.600
+Gut, hier ist nochmal aufgeschrieben das, was ich Ihnen eben mit meiner Gestik in der
+
+04:44.600 --> 04:47.200
+Luft versucht habe darzustellen.
+
+04:47.200 --> 04:53.360
+Die Blätter eines solchen Baumes, der eine Formel in konjunktiver Normalform darstellt,
+
+04:53.360 --> 04:56.280
+sind also die Aussagenvariable.
+
+04:56.280 --> 05:08.160
+Darüber kann es jetzt einen Negationsknoten geben, über den Negationsknoten gibt es jetzt
+
+05:08.160 --> 05:15.160
+aber nur, wo sind wir, in KNF, gibt es jetzt aber natürlich nur Disjunktionen und darüber
+
+05:15.160 --> 05:16.160
+Konjunktionen.
+
+05:16.160 --> 05:25.440
+Das heißt ein Teilbaum, der eine Disjunktion beschreibt, hat keinen anderen Konjunktionsknoten.
+
+05:25.440 --> 05:31.800
+Jetzt denken Sie sich eventuell, Moment mal, Herr Müller hat hier gesprochen von einer
+
+05:31.800 --> 05:42.480
+Konjunktion mit Disjunktionen von Literalen und hier spreche ich von Bäumen mit möglicherweise
+
+05:42.480 --> 05:47.120
+mehreren Ebenen von Konjunktionen und mehreren Ebenen von Disjunktionen.
+
+05:47.120 --> 05:53.640
+Das ist aber alleine der Tatsache geschuldet, dass wir die Baumdarstellung für unsere streng
+
+05:53.640 --> 05:57.320
+geklammerten binären Terme genommen haben.
+
+05:57.320 --> 06:04.240
+Und hier drin wird eben implizit die Assoziativität angenommen, das heißt sozusagen Sie haben
+
+06:04.240 --> 06:11.920
+einen Konjunktionsknoten mit ganz vielen, die Sie normalerweise durch Assoziativität
+
+06:11.920 --> 06:18.760
+schön in einen binären Subzweig bauen würden.
+
+06:18.760 --> 06:30.040
+Gut, das ist also die Definition der Konjunktiven bzw. Disjunktiven normal.
+
+06:30.040 --> 06:49.960
+Das Wichtige ist jetzt, dass Sie jede beliebige Formel p in eine Formel p' durch Äquivalenz
+
+06:49.960 --> 07:00.560
+in Formungen umformen können und diese Formel p' ist jetzt entweder in KNF oder DNF, wie
+
+07:00.560 --> 07:03.400
+Sie wollen, und sie ist nach wie vor äquivalent dazu.
+
+07:03.400 --> 07:11.800
+Das heißt also, zu jeder Formel gibt es eine äquivalente Darstellung in KNF oder DNF.
+
+07:11.800 --> 07:13.200
+Wie funktioniert das?
+
+07:13.200 --> 07:24.880
+Was immer man macht, in jedem Schritt, den man in diesen Verfahren anwendet, wenn eine
+
+07:24.880 --> 07:31.000
+doppelte Negation auftaucht, macht man das mit dieser Tilde sozusagen und eliminiert
+
+07:31.000 --> 07:32.000
+doppelte Negation.
+
+07:32.000 --> 07:35.200
+Die schmeißt man immer schon mal raus.
+
+07:35.200 --> 07:42.200
+Als erstes macht man dann, also das ist sozusagen ein Punkt Null, den macht man immer, als erstes
+
+07:42.200 --> 07:43.560
+macht man folgendes.
+
+07:43.560 --> 08:00.720
+Man nimmt eine Subjunktion und zerlegt sie anhand der Definition der Subjunktion in diese
+
+08:00.720 --> 08:01.720
+Disjunktion.
+
+08:01.720 --> 08:06.440
+Ganz normal, wie wir es kennen, aber, obacht, hier stehen jetzt Striche dran, das heißt
+
+08:06.440 --> 08:09.400
+diese Formeln müssen natürlich auch umgeformt werden.
+
+08:09.400 --> 08:16.680
+Und was jetzt hier algorithmisch ein bisschen blöd aussieht, eigentlich müssen wir zuerst
+
+08:16.680 --> 08:27.360
+q und r durch diesen Algorithmus jagen, um dann das Ergebnis der Umformung von q und
+
+08:27.360 --> 08:34.480
+r in KNF dann hier reinzustecken und dann diese Formel zu nehmen, um diese jetzt zu
+
+08:34.480 --> 08:35.480
+nehmen.
+
+08:35.480 --> 08:37.120
+Was macht man dann?
+
+08:37.120 --> 08:42.640
+Naja, wenn wir eine konjunktive Normalform haben wollen, bedeutet das ja, wir müssen
+
+08:42.640 --> 08:47.560
+die Konjunktionen so hoch wie möglich und die Disjunktionen so weit wie runter kriegen,
+
+08:47.560 --> 08:54.280
+das heißt, wenn wir irgendwie einen Ausdruck haben, müssen wir meinetwegen durch Distributivität
+
+08:54.280 --> 08:59.600
+die Konjunktionen rausziehen bzw. die Disjunktionen reinziehen.
+
+08:59.600 --> 09:04.640
+Das ist genau das, was wir hier machen.
+
+09:04.640 --> 09:11.480
+Wenn wir also eine Disjunktion haben, in der ein Argument eine Konjunktion ist, wird das
+
+09:11.480 --> 09:15.840
+ersetzt durch die Konjunktion der Disjunktionen nach Distributivitätsgesetz.
+
+09:15.840 --> 09:30.560
+Und Negationen wollen wir, weil wir ja Konjunktionen von Disjunktionen haben wollen, Entschuldigung,
+
+09:30.560 --> 09:36.880
+von Disjunktionen von Literalen, Negationen wollen wir ja ganz unten, wenn überhaupt,
+
+09:36.880 --> 09:41.800
+im letzten Knoten vor dem Blatt haben, das heißt, wir müssen die Negationen so weit
+
+09:41.800 --> 09:43.920
+wie möglich in die Formel reinschieben.
+
+09:43.920 --> 09:51.120
+Und das macht man dann eben durch den Morgan, wenn wir also eine Konjunktion haben, pushen
+
+09:51.120 --> 09:58.760
+wir die Negation rein, kriegen dadurch natürlich eine Disjunktion.
+
+09:58.760 --> 10:05.040
+Und diese Disjunktion würden wir dann eventuell wieder mit diesen Verfahren ausbauen.
+
+10:05.040 --> 10:10.920
+Hier steht es nochmal, die Distributivität zieht also die Konjunktion von links unten
+
+10:10.920 --> 10:19.200
+aus dem Baum nach rechts oben und der Morgan drückt die Negation dann runter vor die Blätter.
+
+10:19.200 --> 10:25.640
+Man kann das auch wirklich algorithmisch formulieren.
+
+10:25.640 --> 10:29.480
+Es gibt dazu auch Übungsaufgaben.
+
+10:29.480 --> 10:34.080
+In den Übungen, denke ich, werden wir Ihnen diesen Algorithmus oder dieses mechanische
+
+10:34.080 --> 10:37.960
+Verfahren auch vorstellen und das können Sie dann auch ausprobieren.
+
+10:37.960 --> 10:48.360
+Aber prinzipiell reicht diese Darstellung der Methoden, damit Sie entsprechend selber
+
+10:48.360 --> 10:55.080
+ausprobieren können und selber ein Gefühl dafür kriegen, wie es funktioniert, eine
+
+10:55.080 --> 10:59.400
+Formel wie KNFZ überführt.
+
+10:59.400 --> 11:15.120
+Dennoch gibt es natürlich auch hier mal wieder eine Methode, die sich Wahrheitstabellen
+
+11:15.120 --> 11:16.120
+zu Nutze macht.
+
+11:16.120 --> 11:28.920
+Wir nehmen also mal an, wir haben diese Formel P mit einer Menge V von Variablen und wir
+
+11:28.920 --> 11:37.440
+wollen die jetzt äquivalent umformen in eine, in diesem Fall, disjunktive Normalform.
+
+11:37.440 --> 11:49.440
+Jetzt stellen Sie sich mal vor, die Erfüllungsmenge für diese Formel, das heißt eine vollständig
+
+11:49.440 --> 11:54.880
+ausgefüllte Wahrheitstabelle für diese Formel, die nicht in DNF ist, es ist irgendeine, es
+
+11:54.880 --> 11:55.880
+ist vollkommen egal.
+
+11:55.880 --> 12:03.360
+So, jetzt wissen Sie, diese Formel ist erfüllt, wenn in der allerletzten Spalte hinten Einsen
+
+12:03.360 --> 12:04.360
+stehen.
+
+12:04.360 --> 12:16.280
+Das heißt, diese Formel ist erfüllt, wenn hier hinten eine Eins steht, das heißt, wenn
+
+12:16.280 --> 12:22.640
+die Aussagenvariablen diese Belegung hier haben, also wenn die die hat, die die hat,
+
+12:22.640 --> 12:28.520
+die die hat, die die hat, dann ist hier hinten, oder aber wenn die die hat und die die hat
+
+12:28.520 --> 12:32.480
+und die die hat und die die hat, oder aber wenn hier unten noch eine Eins steht, wenn
+
+12:32.480 --> 12:35.560
+die hat, die die hat, haben Sie gehört, was ich gesagt habe?
+
+12:35.560 --> 12:45.160
+Diese Formel, die Sie in der Wahrheitstabelle dargestellt haben, ist wahr genau dann, wenn
+
+12:45.160 --> 12:50.640
+diese Variable den Wert hat und diese Variable den Wert hat und diese Variable den Wert hat
+
+12:50.640 --> 12:56.720
+oder diese Variable den Wert hat und diese Variable den Wert hat und diese Variable den
+
+12:56.720 --> 12:57.720
+Wert hat.
+
+12:57.720 --> 13:04.640
+Das ist eine disjunktive Normalform, weil es muss dieser Fall gelten, der charakterisiert
+
+13:04.640 --> 13:11.800
+ist durch die gleichzeitige Belegung der Aussagenvariablen, wie sie hier ist, oder aber, und so weiter.
+
+13:11.800 --> 13:24.160
+Also, Sie können eine disjunktive Normalform aus einer Wahrheitstabelle ableiten als eben
+
+13:24.160 --> 13:36.600
+die alternative Wahl aller erfüllenden Belegungen, also hier sehen Sie die alternative Wahl oder
+
+13:36.600 --> 13:44.480
+wir betrachten all die Zeilen, also all die Belegungen, die die Formel erfüllen und in
+
+13:44.480 --> 13:56.240
+jeder Zeile haben wir ja eine Konjunktion, die uns sagt, ob die bestimmten Aussagenvariablen
+
+13:56.240 --> 13:58.320
+mit true belegt sind oder nicht.
+
+13:58.320 --> 14:04.720
+Ja, und ich meine, wenn sie natürlich mit true belegt sind, dann schreiben wir hier
+
+14:04.720 --> 14:10.640
+in die Formel genau diese Aussagenvariable hin, wenn diese Aussagenvariable aber mit
+
+14:10.640 --> 14:18.800
+null belegt sein muss, wissen wir ja, dass die Formel nicht x true ergeben muss, sodass
+
+14:18.800 --> 14:24.720
+die Konjunktion in diesen Disjunktionen war.
+
+14:24.720 --> 14:32.640
+Für konjunktive Normalformen macht man im Endeffekt, naja, mehr oder weniger genau das
+
+14:32.640 --> 14:43.040
+Gleiche, nur man schließt alle nicht erfüllenden Belegungen aus und im Endeffekt sehen Sie,
+
+14:43.040 --> 14:47.520
+alternative Wahl erfüllende oder Ausschluss aller nicht erfüllenden, da steht im Endeffekt
+
+14:47.520 --> 14:54.520
+wieder eine Dualität, also sowas wie in Anführungszeichen demodeln, also eine konjunktive Normalform
+
+14:54.520 --> 15:02.440
+bilden Sie als die Konjunktion über alle nicht erfüllenden Belegungen mit der Disjunktion
+
+15:02.440 --> 15:09.840
+aller Variablen, wobei wir sich hier jetzt drin umkehren, also wenn in einer solchen
+
+15:09.840 --> 15:19.400
+Zeile eine Variable x den Wert 0 zugewiesen hat, stecken wir in diese Disjunktion x hinein,
+
+15:19.400 --> 15:25.120
+aber für 1 nicht x, also da wird es umgedreht, das ist im Endeffekt genau das hin und her
+
+15:25.120 --> 15:26.120
+schieben der Negation.
+
+15:26.120 --> 15:36.480
+Hier jetzt einmal das Beispiel, wie man eine konjunktive Normalform wehrleitet anhand des
+
+15:36.480 --> 15:37.480
+ersten Verfahrens.
+
+15:37.480 --> 15:46.080
+Hier ist eine Disjunktion, diese Disjunktion wird aufgelöst, nicht oder, jetzt wenden
+
+15:46.080 --> 15:54.120
+wir den Morgen an, um, was wollen wir überhaupt machen, konjunktiv, jetzt wenden wir den Morgen
+
+15:54.120 --> 16:02.760
+an, ich muss gerade schauen, ich stehe so nah vor der Tagung, ich sehe es gerade gar nicht,
+
+16:02.760 --> 16:13.240
+hier, jetzt wenden wir hier den Morgen an, ja, da stimmt doch was nicht, doch natürlich,
+
+16:13.240 --> 16:17.920
+ja genau, jetzt wenden wir hier den Morgen an, ja, das heißt hier haben wir die Negation
+
+16:17.920 --> 16:22.280
+von dieser Disjunktion, da machen wir eine Konjunktion draus, das a wird negiert, das
+
+16:22.280 --> 16:27.280
+b wird doppelt negiert, doppelte Negation geht draus, hier bleibt alles gleich, jetzt
+
+16:27.280 --> 16:36.800
+machen, jetzt haben wir hier, das sieht trotzdem, nein, ach, jetzt haben wir hier eine Disjunktion
+
+16:36.800 --> 16:41.440
+von zwei Konjunktionen, wir wollen aber eine Konjunktion von Disjunktionen, das heißt
+
+16:41.440 --> 16:46.560
+wir wenden jetzt das Distributivitätsgesetz an, das heißt das und das und das und das
+
+16:46.560 --> 16:55.200
+und das und das und das und das, ja, wir kriegen also eine Konjunktion von vier Disjunktionen
+
+16:55.200 --> 16:59.480
+und wenn man jetzt lustig ist, kann man noch hingehen und sagen, naja, b oder b ist das
+
+16:59.480 --> 17:06.640
+gleiche wie b, nicht a oder a, ist immer true, fliegt also raus, also eigentlich bleiben
+
+17:06.640 --> 17:15.240
+nicht a oder b, b oder a und b, das ist das hier und wenn man jetzt ganz genau ist, kann
+
+17:15.240 --> 17:19.840
+man jetzt nochmal hinschauen, also damit das hier wahr ist, muss ja das b wahr sein, wenn
+
+17:19.840 --> 17:25.120
+das b wahr ist, ist auch diese Disjunktion wahr und diese, also eigentlich, und das ist
+
+17:25.120 --> 17:33.680
+ein sogenanntes Absorptionsgesetz, kann man diese Formel in konjunktive Normalform überführen
+
+17:33.680 --> 17:39.240
+und wenn man das macht, eigentlich wäre man hier fertig, kann man es sogar hier hin überführen,
+
+17:39.240 --> 17:44.760
+auch das ist ja eine konjunktive Normalform, es ist eine Konjunktion mit nur einer Disjunktion
+
+17:44.760 --> 17:55.120
+und diese eine Disjunktion besteht nur aus einer Disjunkt und das ist nicht negierbar.
+
+17:55.120 --> 18:12.240
+Wenn wir das als Tabelle machen wollen, bekommt man diese Wahrheitstabelle, genau, das ist
+
+18:12.240 --> 18:20.440
+also die Wahrheitstabelle für rs, also für das, das, also das hier hinten ist die Spalte
+
+18:20.440 --> 18:26.520
+für die Wahrheitswerte dieser Formel unter den Interpretationen gemäß der Belegungen
+
+18:26.520 --> 18:34.160
+darstellen und jetzt kann man die dnf und die kmf bestimmen, die dnf haben wir gesagt,
+
+18:34.160 --> 18:44.200
+ist jetzt die Menge der Belegungen oder sind jetzt alle möglichen Belegungen, die hier
+
+18:44.200 --> 18:51.160
+hinten etwas wahr machen, also das hier zum Beispiel, das heißt a muss falsch sein, das
+
+18:51.160 --> 19:02.040
+heißt nicht a ist wahr und b ist wahr oder a ist wahr und nicht b ist wahr, also nicht
+
+19:02.040 --> 19:13.440
+a ist wahr und b ist wahr oder aber, das war die Zeile, oder aber diese Zeile, ich habe
+
+19:13.440 --> 19:18.080
+mich eben in der Zeile abgefahren, sorry, diese Zeile hier ist noch wahr, oder aber
+
+19:18.080 --> 19:28.240
+a ist wahr und b ist wahr und damit haben Sie aus dem Ablesen aus dieser Wahrheitstabelle
+
+19:28.240 --> 19:38.960
+die Konjunktive oder eine Konjunktivnummer, von der benannt, auch die sieht man implodiert
+
+19:38.960 --> 19:46.920
+wieder zu b und für kmf macht man es eben anders, man guckt sich die hier an und die,
+
+19:46.920 --> 19:54.960
+also da wo es nicht erfüllt ist und dreht die Wahrheitswerte um, das heißt wir haben
+
+19:54.960 --> 20:14.400
+a oder b, hier ist nun und nicht a oder b und haben damit die Konjunktivnummer, gut,
+
+20:14.400 --> 20:25.640
+dann schauen wir mal, ob wir noch was haben, also, das interessante an diesen konjunktiven
+
+20:25.640 --> 20:32.480
+und disjunktiven Normalformen ist, dass man auf eine sehr einfache Art und Weise tolle
+
+20:32.480 --> 20:37.720
+Aussagen über die Erfüllbarkeit ableiten kann, denn Sie wissen ja, eine Konjunktion
+
+20:37.720 --> 20:44.400
+ist immer falsch, wenn sie ein komplementäres Paar enthält, eine Disjunktion ist immer
+
+20:44.400 --> 20:53.720
+wahr, wenn sie ein komplementäres Paar enthält, also, eine Disjunktion von Literalen ist immer
+
+20:53.720 --> 21:05.360
+erfüllbar, ist immer erfüllbar, weil wir müssen uns nur ein Literal daraus nehmen,
+
+21:05.360 --> 21:17.560
+das wir so belegen, dass es erfüllbar ist, eine Disjunktion von Literalen ist gültig,
+
+21:17.560 --> 21:24.200
+wenn sie eben ein komplementäres Paar enthält, das heißt zwei Literale mit umgedrehtem Vorzeichen,
+
+21:24.200 --> 21:29.640
+weil entweder ist das eine wahr oder das andere und damit ist die gesamte Formel wahr, immer,
+
+21:29.640 --> 21:42.040
+also sie ist gültig, eine Konjunktion von Literalen ist erfüllbar, dann und nur dann,
+
+21:42.040 --> 21:46.720
+wenn sie kein komplementäres Paar hat, wenn sie ein komplementäres Paar hat, haben wir
+
+21:46.720 --> 21:56.560
+immer ein false drin, das heißt, sie wird dann unerfüllbar und auf der anderen Seite
+
+21:56.560 --> 22:08.640
+ist auch eine Konjunktion nie gültig, weil man immer ein Literal so wählen kann oder
+
+22:08.640 --> 22:16.160
+mit Null belegen kann. Gut, und abschließend sehen Sie hier unten etwas, was ich Ihnen
+
+22:16.160 --> 22:23.360
+vorhin schon mal angerissen habe. Hier steht doch so etwas, was Sie wieder erinnert an
+
+22:23.360 --> 22:36.440
+das Modus Ponens, wenn P gilt und aus P folgt K. Dann können wir das ja umformen, nicht
+
+22:36.440 --> 22:46.640
+mit idem Potenz, sondern mit Neutralität. Das hier also steht Q oder F. Ich stelle
+
+22:46.640 --> 22:50.800
+gerade fest, das gefällt mir gar nicht, dass ich das hier gemacht habe, weil wir da jetzt
+
+22:50.800 --> 22:55.360
+was anderes machen. Ja, gut, da kommt jetzt noch Shunting dazu. Entschuldigung, das tut
+
+22:55.360 --> 23:03.280
+mir jetzt leid. Es soll ja auch nur ein Hinweis darauf sein, wie wir das später zeigen. Das
+
+23:03.280 --> 23:15.040
+bedeutet dann nämlich, dass wenn wir P nehmen, aus P eine Disjunktion von Literalen machen,
+
+23:15.040 --> 23:20.800
+hier haben wir eine Implikation, d.h. daraus können wir auch eine Disjunktion machen,
+
+23:20.800 --> 23:25.760
+die dann so aussieht. Und dann nehmen wir die Negation von Q, stecken sie auch dazu.
+
+23:25.760 --> 23:36.120
+Und diese Menge von Klauseln, wie sie dann heißen, ist also dann eine Konjunktion. Und
+
+23:36.120 --> 23:41.440
+da sehen wir jetzt, da kommt jetzt halt das Nicht-Q vor. Und wenn dieses Nicht-Q sich
+
+23:41.440 --> 23:49.360
+jetzt mit einem Q widerspricht, muss daraus ein Widerspruch folgen. Gut, das war jetzt
+
+23:49.360 --> 24:00.080
+ständig fest, dieses Theorie 5 war jetzt ein etwas zu holpriger Vorausblick. Das macht
+
+24:00.080 --> 24:07.240
+nichts. Die Vorlesung heute hat eigentlich hier aufgehört. Sie wissen, dass Operatorbasen
+
+24:07.240 --> 24:15.440
+sind. Sie wissen, was die zwei wichtigsten Normalformeln sind. Sie haben zwei Methoden
+
+24:15.440 --> 24:22.480
+kennengelernt, wie man Formeln in Normalformeln überführt. Und Sie sehen hier, wofür das
+
+24:22.480 --> 24:40.560
+Ganze gut ist.
+

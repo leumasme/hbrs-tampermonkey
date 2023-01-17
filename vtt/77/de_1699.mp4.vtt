@@ -1,0 +1,239 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Es geht jetzt um die Begriffe der Wahrheit, der Erfüllbarkeit, der Gültigkeit und der Modelle.
+
+00:10.000 --> 00:25.000
+Wenn Sie sich erinnern, habe ich Ihnen auch letzte Woche und zum Teil auch in den Übungen mehrfach versucht einzubläuen,
+
+00:25.000 --> 00:35.000
+dass die tatsächliche Wahrheit einer Aussage in der Logik an sich vollkommen irrelevant ist.
+
+00:35.000 --> 00:45.000
+Die Sonne scheint. Das ist schön und gut, wenn es wahr ist, das ist aber genauso gut, wenn es falsch ist.
+
+00:45.000 --> 00:56.000
+Das Interessante ist ja herauszufinden, ob die Aussage, dass die Sonne scheint, mit irgendeiner anderen Aussage nicht verträglich ist.
+
+00:56.000 --> 01:10.000
+Oder dass die Aussage, dass die Sonne scheint, vielleicht einen Schluss auf irgendetwas anderes zulässt.
+
+01:10.000 --> 01:23.000
+Also wir müssen uns mit den Wahrheitsbedingungen von Formeln beschäftigen, die das eigentlich Interessante sind.
+
+01:23.000 --> 01:35.000
+Und wie uns die bis jetzt definierte Interpretation dabei hilft, die Bedeutung von solchen Formeln zu erfassen,
+
+01:35.000 --> 01:42.000
+in Anführungszeichen unabhängig von ihren tatsächlichen konkreten Werten.
+
+01:42.000 --> 01:53.000
+Wir werden also im Endeffekt jetzt versuchen zu abstrahieren von den kleinen Alfas, von den Belegungen der atomaren Aussagen.
+
+01:53.000 --> 02:07.000
+Ich sag's mal so, wenn der Fokus hier richtig gesetzt ist, die Wahrheit, oder man sagt auch eine Formel, gilt.
+
+02:07.000 --> 02:12.000
+Eine Aussage hängt immer natürlich von ihrer Interpretation mit.
+
+02:12.000 --> 02:20.000
+Das kleine I, das machen wir mit Wahrheitstabellen, das machen wir mit Muschen, Algen, wie wir wollen, mit der Standarddefinition.
+
+02:20.000 --> 02:25.000
+Und wir haben eben gesagt, das kommt alles aufs Gleiche raus.
+
+02:25.000 --> 02:40.000
+Tatsächlich hängt also die konkrete Wahrheit, oder tatsächlich hängt also sozusagen die Antwort auf die Frage, bedeutet diese Formel true?
+
+02:40.000 --> 02:51.000
+Alleine ab von der tatsächlichen Belegung der atomaren Aussagen, der Aussagenvariablen durch die Belegungsfunktion einfach.
+
+02:51.000 --> 02:59.000
+Man unterscheidet davon die Gültigkeit, oder den Begriff der Gültigkeit.
+
+02:59.000 --> 03:14.000
+Es gibt nämlich Formeln, die vollkommen unabhängig von der Belegung, von der konkreten Belegung in einem ganz bestimmten Fall, immer wahr sind.
+
+03:14.000 --> 03:19.000
+Ich schreibe Ihnen eine hin.
+
+03:19.000 --> 03:44.000
+Die Formel a oder nicht a ergibt immer den Wahrheitswert 1, vollkommen unabhängig davon, ob die Aussagenvariable a mit true belegt ist oder mit false.
+
+03:44.000 --> 03:56.000
+Weil eines der beiden wird immer zu true ausgewertet und durch die Definition oder Interpretation des Dissimationssymbols wissen wir, die Interpretation der gesamten Formel ergibt den Wahrheitswert 1.
+
+03:56.000 --> 03:59.000
+Immer.
+
+03:59.000 --> 04:06.000
+Eine solche Formel nennt man dann kritisch.
+
+04:06.000 --> 04:14.000
+Jetzt eine etwas abstrakte Definition, deswegen ist da auch mal wieder ein Knüttel dran.
+
+04:14.000 --> 04:30.000
+Man nennt eine Formel p wahr, wenn ihre Interpretation mindestens den Wahrheitswert wahr ergibt.
+
+04:30.000 --> 04:38.000
+Das Interessante ist, ich habe jetzt hier ein kleines Omega hingeschrieben, es kann ja auch sein, dass wir mehrere Wahrheitswerte haben.
+
+04:38.000 --> 04:46.000
+Und dann kann man zum Beispiel eine Formel als wahr bezeichnen, wenn sie mindestens einen bestimmten Wahrheitswert hat.
+
+04:46.000 --> 04:55.000
+Das werden wir zwar in dieser Vorlesung, in diesem Semester noch nicht machen, aber in anderen Logik-Vorlesungen kommt das eventuell dran.
+
+04:55.000 --> 05:09.000
+Also Sie können das so lesen, eine Formel p ist wahr genau dann, wenn es gleich 1 ist.
+
+05:09.000 --> 05:12.000
+Dann nennen wir eine Formel wahr.
+
+05:12.000 --> 05:25.000
+Sie heißt gültig, wenn sie für jede Belegungsfunktion alpha den Wert wahr ergibt.
+
+05:25.000 --> 05:28.000
+So, das muss ich wieder wegmachen.
+
+05:28.000 --> 05:36.000
+Gut, hier ist nochmal die Dys.
+
+05:36.000 --> 05:38.000
+Warum das jetzt hier nochmal ist, weiß ich nicht.
+
+05:38.000 --> 05:46.000
+Also das hatten wir ja eben, das ist die Semantik jetzt der Aussagenlogik, in diesem Fall halt mit so einer kunstigen Algebra, ist egal.
+
+05:46.000 --> 05:52.000
+Hier steht im Endeffekt die Bedeutung der Junktoren, passt.
+
+05:52.000 --> 06:00.000
+Keine Ahnung, warum ich das jetzt hier nochmal hingeschrieben habe.
+
+06:00.000 --> 06:09.000
+Wir kommen stattdessen jetzt zu den wichtigen Begriffen Erfüllbarkeit und Modell.
+
+06:09.000 --> 06:21.000
+So, wir sagen, dass also eine bestimmte Interpretation eine Formel p erfüllt.
+
+06:21.000 --> 06:37.000
+Genau dann, oder wir sagen genauso, eine Interpretation ist ein Modell dieser Formel, wenn unter dieser Interpretation die Formel p wahr ergibt.
+
+06:37.000 --> 06:46.000
+Sie sehen häufig dann auch diese Notation, i ist ein Modell von p, so wird es oft gesprochen.
+
+06:46.000 --> 06:55.000
+Ich bevorzuge die Sprechweise, i erfüllt p.
+
+06:55.000 --> 07:02.000
+Warum, sehen wir mal später.
+
+07:02.000 --> 07:12.000
+Wichtig ist dabei aber, das kleine i ist für uns bekannt und wir schreiben hier zwar das große i hin,
+
+07:12.000 --> 07:17.000
+aber interessant ist für uns eigentlich nur die Belegung alpha, das ist das Wichtige.
+
+07:17.000 --> 07:25.000
+Man könnte also auch sagen, und das macht man auch, eine Belegung alpha erfüllt eine Formel p,
+
+07:25.000 --> 07:35.000
+genau dann, wenn p unter der Belegung alpha bei der Interpretation letztendlich den Wahrheitswert einsetzt.
+
+07:35.000 --> 07:45.000
+Ah ja, da habe ich es noch mal geschrieben, wenn p unter der Interpretation i also wahr ist, dann erfüllt diese Interpretation die Formel p,
+
+07:45.000 --> 07:51.000
+beziehungsweise dann erfüllt die Belegung alpha die Formel p.
+
+07:51.000 --> 07:55.000
+So, jetzt gibt es die tollsten Formeln.
+
+07:55.000 --> 08:06.000
+Und es gibt Formeln, die für jede Belegung oder niemals den Wert wahr ergeben können.
+
+08:06.000 --> 08:13.000
+Eben habe ich Ihnen eine gezeigt, die ist immer wahr, es gibt aber auch Formeln, die sind nie wahr.
+
+08:13.000 --> 08:21.000
+Eine Formel p nennen wir erfüllbar, wenn es eine erfüllende Interpretation gibt.
+
+08:21.000 --> 08:28.000
+Wenn es also ein alpha gibt, das die Formel p erfüllt.
+
+08:28.000 --> 08:37.000
+Wenn es also ein alpha gibt, so dass die Interpretation bezüglich alpha der Formel 1 ergibt.
+
+08:37.000 --> 08:44.000
+Wenn es keine Belegung gibt, die diese Formel irgendwie wahr machen könnte,
+
+08:44.000 --> 08:48.000
+ja, dann nennt man eine solche Formel unerfüllbar.
+
+08:48.000 --> 08:57.000
+Wir schalten eine hin, a und nicht a.
+
+08:57.000 --> 09:05.000
+Diese Formel ist unerfüllbar, sie ergibt immer den Wert 1.
+
+09:05.000 --> 09:11.000
+So, jetzt wissen wir ja, es gibt viele verschiedene Möglichkeiten von Belegungen.
+
+09:11.000 --> 09:16.000
+Wenn Sie an Wahrheitstabellen denken, zu dieser Auswertung,
+
+09:16.000 --> 09:20.000
+dann haben Sie ganz viele Zeilen. Ich habe vorhin gesagt, bei drei Variablen haben Sie acht Zeilen.
+
+09:20.000 --> 09:26.000
+Das heißt, es gibt im Endeffekt acht verschiedene Belegungsfunktionen, alpha,
+
+09:26.000 --> 09:31.000
+und für manche kommt am Ende true raus und für manche nicht.
+
+09:31.000 --> 09:38.000
+Diejenigen, für die true rauskommt, also diejenigen Belegungen, die p erfüllen,
+
+09:38.000 --> 09:45.000
+bilden zusammen die sogenannte Erfüllungsmenge von p.
+
+09:45.000 --> 09:50.000
+Gut, und eine Formel p heißt jetzt gültig.
+
+09:50.000 --> 09:55.000
+Das ist ja im Endeffekt genau das, was ich auf der letzten Folie gesagt habe.
+
+09:55.000 --> 10:01.000
+Eine Formel heißt gültig, wenn sie unter jeder Belegung wahr wird.
+
+10:01.000 --> 10:06.000
+Und das bedeutet nichts anderes, dass also die Erfüllungsmenge von p
+
+10:06.000 --> 10:12.000
+gleich der Menge aller Belegungsfunktionen alpha ist.
+
+10:12.000 --> 10:16.000
+Das hier ist eine Schreibweise für die Menge aller Funktionen,
+
+10:16.000 --> 10:23.000
+die den Aussagen variablen, irgendeinen Wahrheitswert zu beordnen.
+
+10:23.000 --> 10:26.000
+Gut, hier habe ich jetzt noch mal geschrieben.
+
+10:26.000 --> 10:32.000
+In unserem Fall können wir für i alpha betrachten.
+
+10:32.000 --> 10:40.000
+Hier unten noch eine Anmerkung zu den Begrifflichkeiten, je nachdem, in welches Buch Sie gucken.
+
+10:40.000 --> 10:48.000
+Ab jetzt kommen wir zu einem Punkt in der Thematik, wo je nach Buch,
+
+10:48.000 --> 11:00.000
+je nach Autor, je nach Vorliebe Notation und Bezeichnung oftmals leicht variieren.
+
+11:00.000 --> 11:10.000
+Das ist der Punkt.
+

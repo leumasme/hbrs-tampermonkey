@@ -1,0 +1,386 @@
+WEBVTT
+
+00:00.000 --> 00:12.000
+Gut, jetzt haben wir uns eben mit der Tautologie beschäftigt, P impliziert Q impliziert P.
+
+00:12.000 --> 00:29.000
+Und wir haben das Deduktionstheorien benutzt, um zu zeigen, dass P impliziert Q impliziert P tatsächlich eine Tautologie ist.
+
+00:29.000 --> 00:33.000
+Tautologien sind sehr praktisch.
+
+00:33.000 --> 00:43.000
+Wenn man Tautologie nämlich äquivalent umformen kann oder wenn man eine Menge von Formeln äquivalent in eine Tautologie umformen kann,
+
+00:43.000 --> 00:52.000
+dann weiß man, dass diese Formel ebenfalls wahr ist, gültig.
+
+00:52.000 --> 01:09.000
+Wir haben also durchaus ein berechtigtes Interesse daran, eine Menge von Tautologien kennenzulernen und eine Menge von Äquivalenzen,
+
+01:09.000 --> 01:21.000
+die es uns erlaubt, Tautologien in Formeln zu überführen oder Formeln in Tautologien zu überführen.
+
+01:21.000 --> 01:31.000
+Und zwar, indem wir rein syntaktische Operationen machen.
+
+01:31.000 --> 01:44.000
+Gut, wir können uns einfach mal folgende riesengroße Menge von Tautologien ansehen.
+
+01:44.000 --> 01:58.000
+Sie sehen hier oben einen Punkt. Also ein paar dieser Tautologien lernen Sie einfach kennen oder merken Sie merken sich,
+
+01:58.000 --> 02:05.000
+weil man sie einfach häufig benutzt. Andere werden weniger häufiger benutzt.
+
+02:05.000 --> 02:11.000
+Und ich glaube, wir werden in dieser Vorlesung auch drumherum kommen, sie benutzen zu müssen.
+
+02:11.000 --> 02:18.000
+Aber ich denke mal, hier Punkt 2 stimmen Sie mit mir überein.
+
+02:18.000 --> 02:22.000
+Das haben wir eben durch Anwendung des Detuktionstheorems bewiesen.
+
+02:22.000 --> 02:30.000
+Und man kann es natürlich auch mit den von Ihnen so reißgeliebten Wahrheitstabellen machen.
+
+02:30.000 --> 02:36.000
+Ebenso, denke ich, sind Sie damit einverstanden.
+
+02:36.000 --> 02:42.000
+Und ich glaube, das war auch schon Teil eines Übungszettels bzw. wird auch Teil des 19 Übungszettels,
+
+02:42.000 --> 02:48.000
+dass die Formel P oder nicht P immer wahr ist.
+
+02:48.000 --> 02:55.000
+Auch die Formel nicht P und nicht P ist immer wahr.
+
+02:55.000 --> 03:00.000
+Warum? P und nicht P ist natürlich immer falsch.
+
+03:00.000 --> 03:05.000
+Also ist die Negation davon immer wahr.
+
+03:05.000 --> 03:23.000
+Aber auch solche schönen Formeln wie diese hier, P und Q impliziert P, ist eine Tautologie.
+
+03:23.000 --> 03:28.000
+Und das Feine ist, dass dieses hier eine Tautologie ist,
+
+03:28.000 --> 03:35.000
+können Sie jetzt wieder sehr elegant z.B. mit dem Detuktionstheorie beweisen,
+
+03:35.000 --> 03:43.000
+indem Sie nämlich P und Q als die Prämisse – ich stelle gerade fest, hier fehlt ein Klammerndrom –
+
+03:43.000 --> 03:51.000
+indem Sie nämlich P und Q hier aus der Prämisse auf die linke Seite des Entailments ziehen
+
+03:51.000 --> 03:57.000
+und P rechts stehen bleibt. Dann steht da also aus P und Q folgt P.
+
+03:57.000 --> 04:05.000
+Und jedes Modell von P und Q muss ein Modell von P sein und ein Modell von Q.
+
+04:05.000 --> 04:09.000
+Und wenn es ein Modell von P ist, ist es auch ein Modell von P.
+
+04:09.000 --> 04:17.000
+Also haben wir durch die Anwendung des Detuktionstheorens hier dies als Tautologie entlarvt.
+
+04:17.000 --> 04:32.000
+Und hier – das ist natürlich pupsegal, ob da jetzt das Q steht oder das P – da ist nicht Unge.
+
+04:32.000 --> 04:42.000
+Ähnlich beweisen Sie es hier. Sobald das P in der Disjunktion mit einer beliebigen Formel Q vorkommt,
+
+04:42.000 --> 04:48.000
+durch die Anwendung des Detuktionstheorens aber P als wahr voraussetzen, wissen wir,
+
+04:48.000 --> 04:58.000
+dass weder Disjunktion mit P ebenfalls wahr ist. Also sind auch das hier Tautologien.
+
+04:58.000 --> 05:04.000
+Ebenso natürlich die doppelte Negation – auch hier falsch geklammert,
+
+05:04.000 --> 05:09.000
+ich habe das offenbar aus einem alten Skript kopiert, tut mir leid –
+
+05:09.000 --> 05:22.000
+die Wahrheit einer doppelten Negation impliziert natürlich die Wahrheit der Formel P.
+
+05:22.000 --> 05:31.000
+Das kann man jetzt durch die Involutivität zeigen.
+
+05:31.000 --> 05:45.000
+Gut, also Sie sehen hier die verschiedensten tollen Tautologien, auf die man sich mal einschließen kann.
+
+05:45.000 --> 05:50.000
+Wie gesagt, die hier kennen Sie inzwischen und die ist richtig.
+
+05:50.000 --> 05:56.000
+Die hier ist trivial und sollte Ihnen klar sein. Das hier wissen Sie sowieso.
+
+05:56.000 --> 06:00.000
+Und diese beiden Regeln sind, denke ich, auch sofort einsehbar.
+
+06:00.000 --> 06:08.000
+Die anderen etwas größeren, naja, die können auch hilfreich sein, aber die brauchen wir wahrscheinlich gar nicht.
+
+06:08.000 --> 06:12.000
+So, jetzt haben wir – was ist jetzt das Tolle?
+
+06:12.000 --> 06:28.000
+Angenommen Sie haben irgendeine Formel. P impliziert nicht nicht Q oder P und R eine riesengroße Formel.
+
+06:28.000 --> 06:35.000
+Und jetzt wissen wir ja, weil wir Teilformeln durch äquivalente Teilformeln ersetzen können,
+
+06:35.000 --> 06:43.000
+dass wir eine solche Formel durch Äquivalenzumformungen in andere Formeln überführen können.
+
+06:43.000 --> 06:54.000
+So, und wenn diese Formeln, wenn diese Überführung von Formeln letztendlich in dem Schema einer Tautologie enden,
+
+06:54.000 --> 06:59.000
+dann wissen wir, dass auch diese Formel wahr war.
+
+06:59.000 --> 07:04.000
+Umgekehrt können wir natürlich eine beliebige Tautologie nehmen,
+
+07:04.000 --> 07:15.000
+Äquivalenzumformungen anwenden und versuchen, eine andere Formel herzuleiten oder in diesem Falle abzuleiten.
+
+07:15.000 --> 07:29.000
+Und die dazu verwendeten Gesetze zu äquivalenten Äquivalenzumformungen sind die folgenden.
+
+07:29.000 --> 07:33.000
+Denen habe ich alle kurze Namen gegeben. Sie wissen, wenn ich irgendwas aufschreibe,
+
+07:33.000 --> 07:39.000
+dann mache ich immer über das Gleichheitszeichen oder das Äquivalenzzeichen gerne immer so kleine Kommentare,
+
+07:39.000 --> 07:43.000
+damit Sie wissen, warum das gilt.
+
+07:43.000 --> 07:53.000
+Wir können also das Auftauchen einer beliebigen Formel P in einer beliebigen anderen Formel immer ersetzen
+
+07:53.000 --> 07:57.000
+durch die doppelt negierte Version.
+
+07:57.000 --> 08:04.000
+Umgekehrt, wann immer wir eine doppelt negierte Teilformel in irgendeiner anderen Formel finden,
+
+08:04.000 --> 08:09.000
+können wir diese beiden weglassen.
+
+08:09.000 --> 08:12.000
+So, kurze Pause.
+
+08:12.000 --> 08:17.000
+Bereits in der allerersten Übung haben Sie zum Teil gesagt,
+
+08:17.000 --> 08:20.000
+ja, kann man doppelte Negation, kann man das nicht weglassen?
+
+08:20.000 --> 08:30.000
+Ja, aber erst jetzt wissen wir, warum.
+
+08:30.000 --> 08:40.000
+Implikation haben wir, denke ich, schon ausgerechnet anhand von Wahrheitstabellen,
+
+08:40.000 --> 08:46.000
+dass wann immer man eine Disjunktion findet, hier,
+
+08:46.000 --> 08:51.000
+kann man diese umformen in eine Implikation.
+
+08:51.000 --> 08:57.000
+So, jetzt stellen Sie sich mal vor, dieses P wäre nicht negiert.
+
+08:57.000 --> 09:01.000
+Da würde also einfach nur P stehen.
+
+09:01.000 --> 09:08.000
+Naja, können wir das auch in eine Subjunktion umformen?
+
+09:08.000 --> 09:16.000
+Ja, natürlich, weil dieses P hier können wir in ein nicht-nicht-P umformen.
+
+09:16.000 --> 09:22.000
+Dann würde da also stehen nicht-nicht-P oder Q.
+
+09:22.000 --> 09:26.000
+Ja, und wenn da nicht-nicht-P oder Q steht,
+
+09:26.000 --> 09:32.000
+können wir natürlich das erste nicht von nicht-nicht-P,
+
+09:32.000 --> 09:35.000
+können wir im Endeffekt noch eins davor machen,
+
+09:35.000 --> 09:39.000
+hätten also sozusagen, ne, halt, Moment, können wir das erste weg lassen,
+
+09:39.000 --> 09:44.000
+ja, und hätten anstatt nicht-nicht-P oder Q noch da steht nicht-P oder Q,
+
+09:44.000 --> 09:49.000
+und dann würde hier stehen nicht-P impliziert Q.
+
+09:49.000 --> 10:03.000
+Ja, eine meiner Lieblingsregeln, die Sie wahrscheinlich öfter benutzen werden,
+
+10:03.000 --> 10:09.000
+als es Ihnen bewusst wird, ist die sogenannte Rongier-Regel,
+
+10:09.000 --> 10:13.000
+die heißt auch Englisch Chante, Entschuldigung, also die Rongier-Regel.
+
+10:13.000 --> 10:18.000
+Die sagt, wenn Sie eine Subjunktion haben,
+
+10:18.000 --> 10:23.000
+wo auf der linken Seite eine Konjunktion auftaucht,
+
+10:23.000 --> 10:30.000
+dann können Sie die umformen, indem Sie eins dieser beiden Konjunkte negiert
+
+10:30.000 --> 10:34.000
+als Disjunktion auf der rechten Seite hinzufügen.
+
+10:34.000 --> 10:40.000
+Ja, das ist im Übrigen sehr hübsch zu beweisen mit dem Deduktionstheorien.
+
+10:40.000 --> 10:43.000
+Hier schiebt man das rüber, hat hier ein Minimum,
+
+10:43.000 --> 10:47.000
+hier schiebt man das rüber, hier hat man ein Maximum über eins Minus,
+
+10:47.000 --> 10:52.000
+da können Sie sich wirklich mal dran probieren.
+
+10:52.000 --> 11:06.000
+Die demorgenschen Gesetze gelten und zwar jetzt als kleiner Hinweis,
+
+11:06.000 --> 11:14.000
+wenn wir also die Semantik in einem buddhischen Verband betrachten,
+
+11:14.000 --> 11:17.000
+also mit diesem geschwungenen B, dann wissen wir ja,
+
+11:17.000 --> 11:20.000
+dass das als Komplement übersetzt wird, das als Infimum
+
+11:20.000 --> 11:23.000
+und das hier als Supremum.
+
+11:23.000 --> 11:31.000
+Und wir wissen, dass in einem buddhischen Verband das demorgensche Gesetz gilt.
+
+11:31.000 --> 11:36.000
+Und weil alle Semantiken, die wir uns überlegt haben,
+
+11:36.000 --> 11:41.000
+äquivalent sind, schiebt sich das demorgensche Gesetz
+
+11:41.000 --> 11:48.000
+aus der buddhischen Algebra bis hin in unsere Logik
+
+11:48.000 --> 11:55.000
+und sogar von der Logik wieder zurück, meinetwegen in geeignete Halbringe oder was auch immer.
+
+11:55.000 --> 12:00.000
+Das Gleiche ist im Endeffekt für die Distributivität zu finden.
+
+12:00.000 --> 12:07.000
+Die kann man aber auch wunderbar beweisen, indem Sie sich hier überlegen,
+
+12:07.000 --> 12:12.000
+das ist wahr, genau dann, also hier kommt genau eins raus,
+
+12:12.000 --> 12:15.000
+wenn wir das Minimum haben und hier das Maximum
+
+12:15.000 --> 12:19.000
+und dann setzen Sie hier die entsprechenden Terme, einrechnen das aus
+
+12:19.000 --> 12:24.000
+und dann stellen Sie fest, dass wenn hier eins rauskommt, hier auch eins rauskommt
+
+12:24.000 --> 12:30.000
+und wenn hier null rauskommt, da auch null rauskommt.
+
+12:30.000 --> 12:35.000
+Das hier ist im Endeffekt genau das, was wir eben in zwei verschiedenen,
+
+12:35.000 --> 12:40.000
+ah ne, hier steht es auch als Implikation, was wir eben gesehen haben.
+
+12:40.000 --> 12:45.000
+Also wenn p und q gilt, dann folgt daraus p.
+
+12:45.000 --> 12:51.000
+Man kann auch umgekehrt sagen, naja, wir könnten jetzt zum Beispiel
+
+12:51.000 --> 12:55.000
+eine dieser beiden Formeln als Implikation da vorne hinschieben
+
+12:55.000 --> 13:02.000
+und wir könnten sagen, aus q folgt p oder aus q folgt aus p folgt p.
+
+13:02.000 --> 13:07.000
+Ne, können wir nicht, Entschuldigung, vergessen Sie es.
+
+13:07.000 --> 13:18.000
+So, dann haben wir hier noch die Abschwächung, dass wenn p gilt, natürlich auch p oder q.
+
+13:18.000 --> 13:30.000
+Eine sehr wichtige Sache oder eine sehr praktische Sache sind folgende beiden Äquivalenzen.
+
+13:30.000 --> 13:39.000
+Erstens, ich komme noch mal zu der unteren hier, die wir nämlich heute schon behandelt haben.
+
+13:39.000 --> 13:45.000
+Das ist dieses aus etwas Falschem folgt etwas Beliebiges Prinzip.
+
+13:45.000 --> 13:52.000
+Wir haben gesagt, naja, wenn in einer Menge p von Formeln die falsche Formel drin ist,
+
+13:52.000 --> 13:57.000
+dann kann ich jede beliebige Formel p daraus ableiten.
+
+13:57.000 --> 14:03.000
+Das umgesetzt mit dem Detuktionstheorem, können wir jetzt sagen, diese Formel hier,
+
+14:03.000 --> 14:09.000
+wo false in der Prämisse der Subjunktion steht, ist Äquivalent zu jeder beliebigen Formel,
+
+14:09.000 --> 14:16.000
+insbesondere natürlich auch zur Formel, die immer wahr ist.
+
+14:16.000 --> 14:29.000
+Und schließlich und letztendlich können wir uns überlegen, naja, wann gilt denn nicht p?
+
+14:29.000 --> 14:36.000
+Und das, meinetwegen, kann man sich mal als Wahrheitstabelle aufschreiben.
+
+14:36.000 --> 14:42.000
+Dieser Term oder diese Formel hier wird so true oder als true interpretiert,
+
+14:42.000 --> 14:46.000
+genau dann, wenn diese Formel hier als true interpretiert wird.
+
+14:46.000 --> 14:52.000
+Und diese Formel hier können wir wieder verwenden, um das Detuktionstheorem zu nutzen.
+
+14:52.000 --> 15:04.000
+Wir wissen also, p ist, ich sage es jetzt mal so, p ist falsch, wenn unter der Annahme p folgt Widerspruch.
+
+15:04.000 --> 15:14.000
+Okay.
+

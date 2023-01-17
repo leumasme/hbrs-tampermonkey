@@ -1,0 +1,419 @@
+WEBVTT
+
+00:00.000 --> 00:12.000
+Also, wie können wir das jetzt benutzen in aller Welt?
+
+00:12.000 --> 00:22.000
+Naja, um die Unerfüllbarkeit einer Formel zu beweisen, kann man jetzt im Endeffekt zwei Sachen machen.
+
+00:22.000 --> 00:35.000
+Wir können diese Formel nehmen und die Vereinigung über alle endlich häufigen Anwendungen des Resolutionsoperators aufsammeln.
+
+00:35.000 --> 00:45.000
+Wir generieren einfach alle möglichen Klauseln, die aus der ursprünglichen Klauselmenge ableitbar sind.
+
+00:45.000 --> 00:55.000
+Und wenn irgendwann da drin die leere Klausel vorkommt, wissen wir, ist unerfüllbar.
+
+00:55.000 --> 01:01.000
+Die andere Sache ist die zweite Idee.
+
+01:01.000 --> 01:18.000
+Wir versuchen mehr oder weniger konstruktiv durch sinnvolle Wahl von Elternklauseln
+
+01:18.000 --> 01:37.000
+einen endlichen Ableitungspfad zu finden in dem Baum aller möglichen Ableitungen, der uns die leere Klausel bringt.
+
+01:37.000 --> 01:48.000
+Das ist vielleicht ein bisschen missverständlich, aber man kann es sich als Algorithmus so vorstellen.
+
+01:48.000 --> 02:10.000
+Die erste Idee ist die hier. Man wendet diesen Resolutionsoperator immer weiter an, bis nichts Neues mehr hinzukommt.
+
+02:10.000 --> 02:22.000
+Das ist so, irgendwann kommt nichts Neues mehr hinzu. Und dann guckt man sich die resultierende Menge aller Resolventen an, die entstehen konnten.
+
+02:22.000 --> 02:29.000
+Wenn dann die leere Klausel da drinnen ist, dann wissen wir, unerfüllbar.
+
+02:29.000 --> 02:37.000
+Wenn die leere Klausel dann nicht da drin ist, wissen wir, erfüllbar.
+
+02:37.000 --> 02:41.000
+Aber wie man sieht, man muss da sehr viel arbeiten.
+
+02:41.000 --> 02:51.000
+Die andere Sache wäre, solange wie wir die leere Klausel nicht haben, machen wir folgendes.
+
+02:51.000 --> 02:58.000
+Wähle zwei Elternklauseln, bilde die Resolvente und füge die hinzu.
+
+02:58.000 --> 03:08.000
+Und da ist jetzt natürlich das Problem, choose. Choose ist eine nicht deterministische Funktion.
+
+03:08.000 --> 03:14.000
+Das kann man so nicht so ohne weiteres sinnvoll implementieren.
+
+03:14.000 --> 03:31.000
+Aber eine solche Auswahl ist in der Regel intuitiv relativ schnell heuristisch gut zu steuern, dass man das hinkriegt.
+
+03:31.000 --> 03:39.000
+Warum kommt nichts? Nix, Folie.
+
+03:39.000 --> 03:46.000
+Also schauen wir es uns einfach mal an.
+
+03:46.000 --> 03:53.000
+Wir nehmen eine Formel hier e.
+
+03:53.000 --> 04:01.000
+Die sieht so aus L1 und L2 und nicht L1 impliziert L2.
+
+04:01.000 --> 04:08.000
+Und jetzt wollen wir beweisen, dass diese Formel unerfüllbar ist.
+
+04:08.000 --> 04:18.000
+Wie machen wir das? Man nimmt diese Formel, überführt sie in konjunktive Normalform,
+
+04:18.000 --> 04:23.000
+erhält also eine Menge von Klauseln.
+
+04:23.000 --> 04:28.000
+Die schreibt man sich auf.
+
+04:28.000 --> 04:32.000
+Also nur noch mal als Wiederholung, was Literale und was Klauseln sind.
+
+04:32.000 --> 04:38.000
+Und hatten wir schon ganz am Anfang, sogar schon bevor wir cmf eingeführt haben.
+
+04:38.000 --> 04:44.000
+Wir haben also hier die Klausel Darstellung der konjunktiven Normalform.
+
+04:44.000 --> 04:48.000
+Also hier haben wir lauter Disjunktionen.
+
+04:48.000 --> 04:54.000
+Das ist relativ langweilig, weil das alles Disjunktionen sind mit nur jeweils einem Literal.
+
+04:54.000 --> 04:58.000
+Und die sind alle verbundet.
+
+04:58.000 --> 05:01.000
+Das ist unsere konjunktive Normalform.
+
+05:01.000 --> 05:06.000
+Schauen wir mal genau hin.
+
+05:06.000 --> 05:22.000
+Dieses p wurde jetzt also überführt in eine Menge mit vier Klauseln.
+
+05:22.000 --> 05:28.000
+Eins, zwei, drei und das vierte ist gleich dem ersten.
+
+05:28.000 --> 05:32.000
+Wir wollen zeigen, dass die Formel p unerfüllbar ist.
+
+05:32.000 --> 05:38.000
+Das heißt also, wir müssen versuchen durch Anwendung des Resolutionsoperators
+
+05:38.000 --> 05:44.000
+auf diese Menge, die im Endeffekt drei verschiedene Klauseln beinhaltet,
+
+05:44.000 --> 05:47.000
+die leere Klausel abzuleiten.
+
+05:47.000 --> 05:58.000
+Und in der Tat sehen wir, Klausel 2 ist L2 und Klausel 3 ist nicht L2,
+
+05:58.000 --> 06:01.000
+stellt genau ein komplementäres Paar ab.
+
+06:01.000 --> 06:06.000
+Das heißt, durch die Anwendung des Resolutionsoperators fliegen die gegeneinander raus.
+
+06:06.000 --> 06:09.000
+Der Rest, leere Mengen, wird vereinigt, leere Menge.
+
+06:09.000 --> 06:13.000
+Das Ergebnis ist die leere Menge, also die leere Klausel.
+
+06:13.000 --> 06:20.000
+Und damit haben wir gezeigt, dass diese Formel p unerfüllbar ist.
+
+06:20.000 --> 06:24.000
+Zweites Beispiel.
+
+06:24.000 --> 06:30.000
+Eine etwas kompliziertere Formel, ist aber vollkommen egal.
+
+06:30.000 --> 06:34.000
+Aber wenn Sie genau hingucken, dann sehen Sie vielleicht schon was Interessantes darin.
+
+06:34.000 --> 06:41.000
+Hier sagt man einmal L1 und hier sagen wir L1 impliziert L2 und nicht L2.
+
+06:41.000 --> 06:46.000
+Das sieht von vornherein schon ein bisschen hakelig aus.
+
+06:46.000 --> 06:58.000
+Auf jeden Fall, was man macht, man baut sich also hierfür wieder die konjunktive Normalform
+
+06:58.000 --> 07:06.000
+und bekommt in diesem Fall drei Klauseln, einmal nur das Literal L1, einmal nur das negierte Literal L2
+
+07:06.000 --> 07:13.000
+und die zweite Klausel besteht immer hinaus zweiliteral, nämlich nicht L1 und L2.
+
+07:13.000 --> 07:20.000
+So, und das machen wir jetzt aber mal, indem wir dieses Verfahren der Hüllenbildung,
+
+07:20.000 --> 07:25.000
+also diese wiederholte Anwendung des Resolutionsoperators nehmen.
+
+07:25.000 --> 07:33.000
+Und da habe ich jetzt mal versucht, hier so ein bisschen mit Farben klar zu machen, was da passiert.
+
+07:33.000 --> 07:48.000
+Wenn Sie an natürliche Deduktion denken, dann standen hier Formeln und die wurden durchnumeriert
+
+07:48.000 --> 07:58.000
+und dann hat man irgendwie durch die Anwendung irgendeiner Regel 7 mit den Argumenten
+
+07:58.000 --> 08:06.000
+Zeile 3 und Zeile 19 eben die Zeile 27 rausgekriegt.
+
+08:06.000 --> 08:08.000
+Genau das Gleiche machen wir jetzt hier.
+
+08:08.000 --> 08:16.000
+Wir nehmen also mal die Klausel 1, die Klausel 2 und die Klausel 3, die sind jetzt erstmal rot markiert
+
+08:16.000 --> 08:24.000
+und jetzt bilde ich sämtliche Resolventen, die ich auf dieser Menge erzeugen kann.
+
+08:24.000 --> 08:33.000
+Und dazu übernehme ich jetzt erstmal P, bleibt, aber hinzukommt, dass wenn ich die Klausel 1 mit der Klausel 2
+
+08:33.000 --> 08:40.000
+resolviere, fliegt L1 gegen nicht L1 raus und es bleibt übrig L2.
+
+08:40.000 --> 08:47.000
+L2 ist jetzt eine neue Klausel, die hatten wir bisher nicht, deswegen geben wir ihr die Nummer 4.
+
+08:47.000 --> 09:02.000
+Wenn wir die Klausel 2 mit der Klausel 3 resolvieren, dann bekommen wir hier, also aus 2 und 3,
+
+09:02.000 --> 09:09.000
+das Ergebnis nicht L1 als Klausel Nummer 5.
+
+09:09.000 --> 09:17.000
+Wir haben jetzt also 1, 2, 3, 4, 5 Klauseln, also es wird größer.
+
+09:17.000 --> 09:23.000
+Aber mehr können wir in diesem Schritt hier draus nicht herleiten.
+
+09:23.000 --> 09:31.000
+Trotzdem machen wir jetzt den nächsten Schritt und jetzt gucken wir, was können wir denn mit diesen 5 Klauseln anfangen
+
+09:31.000 --> 09:51.000
+und dann stellen wir fest, dass wenn wir das hier nehmen, die dritte Klausel, nicht L2
+
+09:51.000 --> 09:59.000
+und die vierte Klausel, die wir im ersten Resolutionsbildungsschritt gebaut haben,
+
+09:59.000 --> 10:08.000
+wenn wir die resolvieren, also im nächsten Schritt, dann bekommen wir als sechste Klausel die Lehrenklausel raus,
+
+10:08.000 --> 10:14.000
+indem wir eben 3 und 4 zusammen in den Resolutionsapparat eingeschrieben haben.
+
+10:14.000 --> 10:26.000
+Wir hätten es auch erreicht, wenn wir L1 und nicht L1 miteinander resolviert hätten.
+
+10:26.000 --> 10:30.000
+Auch dann würden wir die leere Menge rausbekommen.
+
+10:30.000 --> 10:37.000
+So, und jetzt können wir überlegen, kommt jetzt noch was dazu?
+
+10:37.000 --> 10:41.000
+Naja, ich meine, die leere Menge kann man mit nichts mehr weiterem resolvieren
+
+10:41.000 --> 10:51.000
+und in diesem Schritt haben wir bereits die Resolventen über die gesamte Menge der vorhandenen Klauseln gebildet.
+
+10:51.000 --> 11:00.000
+Das heißt, im nächsten Schritt kommt nichts mehr dazu und wenn im nächsten Schritt nichts mehr dazu kommt,
+
+11:00.000 --> 11:03.000
+dann kommt natürlich auch im übernächsten Schritt nichts mehr dazu.
+
+11:03.000 --> 11:10.000
+Das heißt, die Vereinigung können wir an der Stelle abbrechen.
+
+11:10.000 --> 11:15.000
+Wir haben also sozusagen hier eine leere Klausel abgeleitet und haben damit gezeigt,
+
+11:15.000 --> 11:28.000
+dass die ursprüngliche Formel nicht erfüllbar ist.
+
+11:28.000 --> 11:36.000
+Man kann das Ganze dann auch noch ein bisschen hübscher darstellen.
+
+11:36.000 --> 11:40.000
+Und zwar habe ich das jetzt hier mal als so einen Baum dargestellt.
+
+11:40.000 --> 11:42.000
+Das ist der gleiche Beweis.
+
+11:42.000 --> 11:50.000
+Also hier stehen die drei ursprünglichen Klauseln, L1, nicht L1, R2 und nicht R2.
+
+11:50.000 --> 12:01.000
+Und dann guckt man mit etwas Entfernung mal drauf und stellt fest, hier kann ich resolvieren L1 gegen nicht L1, habe L2.
+
+12:01.000 --> 12:08.000
+Dann guckt man nochmal aus Entfernung drauf und stellt fest, hier diese Klausel L2 kann ich mit diesem Literal,
+
+12:08.000 --> 12:11.000
+das allerdings schon ursprünglich im P drin war, resolvieren.
+
+12:11.000 --> 12:18.000
+Und ich kriege die leere Klausel und so kommt man eventuell ein bisschen flotter zum Ziel.
+
+12:18.000 --> 12:29.000
+Und habe gezeigt, dass man auf diese Art und Weise die leere Klausel ableiten kann.
+
+12:29.000 --> 12:33.000
+Wie sieht denn das jetzt mit Erfüllbarkeit aus?
+
+12:33.000 --> 12:44.000
+Naja, Erfüllbarkeit, eine Formel ist erfüllbar, wenn wir eben nicht die leere Klausel ableiten können.
+
+12:44.000 --> 12:55.000
+Man hat also hier wieder irgendeine Formel, überführt die in cnf, schreibt das in Klauselnotation hin,
+
+12:55.000 --> 13:06.000
+hat also die Klauselnotation in p und guckt sich jetzt mal genauer einfach nur diese Menge an
+
+13:06.000 --> 13:10.000
+und versucht jetzt Resolution darauf anzuwenden.
+
+13:10.000 --> 13:17.000
+Was stellt man fest? L1 kriege ich nirgends weg, weil nirgends ein nicht L1 vorkommt.
+
+13:17.000 --> 13:23.000
+L2 kriege ich nicht weg, weil nirgends ein nicht L2 vorkommt.
+
+13:23.000 --> 13:30.000
+Das hier kriege ich nicht weg, aus Gründen wie vorher und das hier kriege ich auch nicht weg, weil nirgends ein L3 vorkommt.
+
+13:30.000 --> 13:39.000
+Ich kann also auf diese Klauselmenge den Resolutionsoperator überhaupt gar nicht einmal effektiv anwenden.
+
+13:39.000 --> 13:45.000
+Es kommt also gar nicht viel zu, wenn ich ihn anwenden würde.
+
+13:45.000 --> 13:56.000
+Das heißt, Res-Stern von p ist nichts anderes als p selbst und da ist die leere Klausel nicht drin.
+
+13:56.000 --> 14:00.000
+Also ist diese Formel erfüllbar.
+
+14:00.000 --> 14:05.000
+Wie ist sie erfüllbar, indem z.B. Literal L1 wahr ist?
+
+14:05.000 --> 14:12.000
+Jetzt argumentieren wir hier mit der Formel, also L1 muss wahr sein, L2 muss wahr sein.
+
+14:12.000 --> 14:18.000
+Sehen wir hier, L1 muss wahr sein und L2, um dieses Konjunkt wahr zu machen.
+
+14:18.000 --> 14:24.000
+Und dann haben wir dies hier und da wissen wir jetzt schon, weil L1 wahr ist, ist auch diese Disjunktion wahr.
+
+14:24.000 --> 14:30.000
+Und damit ist diese Formel erfüllbar.
+
+14:30.000 --> 14:45.000
+Hier unten haben wir noch ein anderes Beispiel, das im Endeffekt absolut derselben Argumentation folgt.
+
+14:45.000 --> 15:03.000
+Gut, also wir haben jetzt gesehen, wie wir dieses Verfahren nutzen können, um die Erfüllbarkeit oder Unerfüllbarkeit einer Form zu zeigen.
+
+15:03.000 --> 15:26.000
+Und hier habe ich Ihnen einfach mal aufgeschrieben in aller Ausführlichkeit, was Sie machen müssen, wenn die Frage ist, ob die Formel p, die so aussieht, erfüllbar ist.
+
+15:26.000 --> 15:35.000
+Man geht also hin und überführt diese Formel erstmal in konjunktive Normalform.
+
+15:35.000 --> 15:46.000
+Das können Sie jetzt. Und Sie sehen, dass das der größte Teil der Arbeit ist.
+
+15:46.000 --> 15:51.000
+Jetzt können Sie diese konjunktive Normalform umschreiben in Klauseln und Funktionen.
+
+15:51.000 --> 15:59.000
+Sie sehen also, diese Formel hier zerfällt in eine Klauselmenge mit vier Klauseln.
+
+15:59.000 --> 16:11.000
+Und jetzt wenden Sie den Resolutionsoperator an und gucken, ob Sie die leere Klausel erzeugen können.
+
+16:11.000 --> 16:20.000
+Und wenn man das einmal macht, dann kommt man zu dieser Klauselmenge hier.
+
+16:20.000 --> 16:31.000
+Und wenn man sich jetzt diese Klauselmenge ansieht, dann stellt man fest, ja, wir könnten vielleicht nochmal die L3, nicht L3 versuchen, mit der hier zu resolvieren,
+
+16:31.000 --> 16:40.000
+weil da kommt ja L3 raus. Was käme dann? Dann käme L2 raus. L2 haben wir aber schon. Und so weiter und so weiter.
+
+16:40.000 --> 16:52.000
+Langer Rede, kurzer Sinn. An dieser Stelle wäre die Anwendung der Resolution bereits im Endeffekt am Ende, weil keine neue Klausel mehr hinzukommt.
+
+16:52.000 --> 17:00.000
+Dann guckt man sich diese Menge einfach an und stellt fest, da ist keine leere Klausel drin.
+
+17:00.000 --> 17:13.000
+Also ist diese Formel erfüllbar. Ganz einfach. Und wie sie erfüllbar ist, naja, das kann man eigentlich relativ schnell hier dran ablesen an dieser Klauselform.
+
+17:13.000 --> 17:22.000
+Wie kann man das ablesen? Na ja, man schaut durch, die ist erfüllbar, wenn alle Klauseln erfüllbar sind. Also auf jeden Fall muss L2 wahr sein.
+
+17:22.000 --> 17:30.000
+Wenn L2 wahr ist, ist überall L2 wahr. Damit gucken wir uns hier schon mal L3 gar nicht an.
+
+17:30.000 --> 17:41.000
+Was wissen wir noch? Wir wissen, L1 muss falsch sein. Also steht hier nicht L1 drin.
+
+17:41.000 --> 17:58.000
+Also ist das Ding hier falsch. Das heißt, das Ding hier muss richtig sein. Das heißt, L3, was uns hier nicht interessiert hat, muss falsch sein.
+
+17:58.000 --> 18:09.000
+Wenn also L1 falsch ist und L3 falsch ist und L2 wahr ist, dann ist diese Formel erfüllbar. Kann man direkt aus dieser Klauselform ablesen.
+
+18:09.000 --> 18:30.000
+Ups, das waren glaube ich zwei. Schauen wir uns das mal an, wenn wir nicht eine Formel betrachten, obwohl ich es vorhin schon angedeutet habe, wie das dann funktioniert,
+
+18:30.000 --> 18:45.000
+sondern eine Formelmenge. Wir haben eine Menge von Formeln P1, P2, P3. Dann wissen Sie, diese Formelmenge ist erfüllbar, wenn die eine Formel, die aus der Konjunktion der drei Formeln entsteht, erfüllbar ist.
+
+18:45.000 --> 19:04.000
+Also nehmen wir diese Formel hier, also die Konjunktion von P1, P2 und P3. Das ist diese Konjunktion. Wir stellen fest, wunderbar, da ist bereits nicht mehr viel zu machen,
+
+19:04.000 --> 19:16.000
+weil durch die Konjunktion über all diese Formeln, die wir betrachten, haben wir ja schon eine CNF, vorausgesetzt die betrachteten Formeln liegen alle in CNF vor.
+
+19:16.000 --> 19:32.000
+Was Sie hier tun, weil wir da ja nur die Kanäle haben, vergessen Sie den letzten Halbsatz. Und dann schreibt man das in Klauselform auf, wendet wieder den Resolutionsoperator an, bis es nicht mehr geht.
+
+19:32.000 --> 19:41.000
+Und was stellt man fest? Man kann die leere Klausel ableiten, sogar auf zwei verschiedene Art und Weise.
+
+19:41.000 --> 20:08.000
+Und das heißt, diese Formel hier ist unerfüllbar. Das heißt, diese Formel hier ist unerfüllbar. Also satt von dieser Formel ist leer. Das heißt, satt von dieser Formelmenge ist leer. Das heißt, diese Formelmenge ist unerfüllbar.
+
+20:08.000 --> 20:12.000
+Gut, jetzt machen wir eine kurze Pause.
+

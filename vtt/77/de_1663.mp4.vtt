@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00.000 --> 00:08.000
+So, ebenso wie ich das letzte Video begonnen habe mit einer Korrektur des vorletzten Videos,
+
+00:08.000 --> 00:18.000
+können wir auch jetzt an dem ersten Teilbeweis zur Symmetrie der Konjunktion nochmal eine kleine Ungenauigkeit überlegen.
+
+00:18.000 --> 00:27.000
+Und zwar ging es ja darum zu zeigen, dass die Konjunktion symmetrisch ist und ich habe Ihnen das nicht folgt aufgeschrieben.
+
+00:27.000 --> 00:34.000
+Die Bedeutung von p und q ist dieselbe wie von q und p.
+
+00:34.000 --> 00:47.000
+Und wenn Sie jetzt hier unten hinsehen, dann stellen Sie bereits fest, dass die Bedeutung von p und die Bedeutung von q betrachtet wird,
+
+00:47.000 --> 00:53.000
+um die Bedeutung von p und q bzw. q und p zu betrachten.
+
+00:53.000 --> 01:02.000
+Wäre es nicht eigentlich zu erwarten gewesen, dass wir p und q betrachten wollen?
+
+01:02.000 --> 01:05.000
+Ja, ja und nein.
+
+01:05.000 --> 01:13.000
+Das Problem, und das ist ein Problem, mit dem wir uns jetzt hier an der jetzigen Stelle noch nicht beschäftigen wollen,
+
+01:13.000 --> 01:23.000
+ist, dass dieses Symbol hier, so wie alle logischen Konjunkturen, an zwei Stellen auftaucht.
+
+01:23.000 --> 01:35.000
+Nämlich einmal als Elemente eines syntaktischen Ausdrucks, einer Formel und einmal als Operator, der es uns erlaubt, auf Wahrheitswerten zu rechnen.
+
+01:35.000 --> 01:43.000
+Das ist eine gewisse Ambiguität, die an sich sehr unschön ist, die man aber erst dann richtig ausschließen kann,
+
+01:43.000 --> 01:50.000
+wenn wir genügend Hilfsmittel aus der diskreten Mathematik haben.
+
+01:50.000 --> 02:05.000
+Ich nehme das jetzt an dieser Stelle bewusst in Kauf und zeige Ihnen sozusagen, dass das dennoch einigermaßen funktioniert.
+
+02:05.000 --> 02:24.000
+Aber an einem anderen Beispiel, bevor ich Ihnen dann zum Schluss, nein, an einem anderen Beispiel, genau, und zwar
+
+02:24.000 --> 02:39.000
+wenn wir uns ja mal überlegen, wie das ausschaut, wenn wir hinschreiben, p oder q sei dasselbe,
+
+02:39.000 --> 02:51.000
+also zu zeigen ist, dass die Bedeutung von q dasselbe ist, die Bedeutung von q oder Bedeutung von p.
+
+02:51.000 --> 02:59.000
+So, und jetzt machen wir ganz was Tolles. Wir machen nämlich folgendes. Wir schauen uns, und das können wir jetzt ja machen,
+
+02:59.000 --> 03:11.000
+weil wir wirklich mit den Wahrheitswerten rechnen, uns einfach die Tabelle an, die Operator-Tabelle für die Disjunktion.
+
+03:11.000 --> 03:21.000
+Und die sieht ja so aus. Und was stellen wir fest? Um zu zeigen, dass ein Operator symmetrisch ist,
+
+03:21.000 --> 03:25.000
+muss man zeigen, dass man die Argumente miteinander vertauschen kann.
+
+03:25.000 --> 03:36.000
+Und wenn sich dann bei der Vertauschen der Argumente, was einem Lesen von links nach oben bzw. von oben nach links entspricht,
+
+03:36.000 --> 03:46.000
+nichts ändert, heißt nichts anderes, als dass diese Operator-Tabelle symmetrisch zu der Diagonalen sein muss.
+
+03:46.000 --> 03:58.000
+Und das ist hier die Gegend. Genauso wie bei der Konjunktion. Man kann also mit diesem einfachen Argument
+
+03:58.000 --> 04:07.000
+den Beweis bereits abschließen. Ein Gegenbeispiel ist folgendes.
+
+04:07.000 --> 04:33.000
+Natürlich die Subjunktion ist nicht symmetrisch. Das heißt, im Allgemeinen gilt eben die Bedeutung von p, phi, q ist ungleich
+
+04:33.000 --> 04:51.000
+der Bedeutung von q, phi, p. Und entsprechend die Implikation, also der Operator auf den Wahrheitswerten,
+
+04:51.000 --> 05:05.000
+ist auch nicht symmetrisch. Es gibt aber etwas anderes, was wir noch festhalten können.
+
+05:05.000 --> 05:31.000
+Wir können nämlich z.B. feststellen, true ist neutral bezüglich der Konjunktion und false ist neutral bezüglich
+
+05:31.000 --> 05:47.000
+der Disjunktion. Was heißt das? Nun, das heißt ganz einfach, dass eine beliebige Formel per Konjunktion
+
+05:47.000 --> 06:05.000
+mit der Aussage true denselben Wahrheitswert ergibt wie den Wahrheitswert von p bzw. den Wahrheitswert von t und p.
+
+06:05.000 --> 06:14.000
+Das Interessante ist, dass dieser Ausdruck hier gleich dem ist. Das wissen wir bereits aufgrund der Symmetrie der Konjunktion.
+
+06:14.000 --> 06:36.000
+Was also zum Zeigen bliebe, wäre die Gleichheit von p und t zu p bzw. in diesem Fall p oder f zu p und f oder p.
+
+06:36.000 --> 06:46.000
+Das nennt man ein neutrales Element. Das heißt, die Verknüpfung eines beliebigen Wertes mit einem neutralen Element ändert
+
+06:46.000 --> 07:03.000
+an dem Wert des anderen Argumentes nichts. Auch das kann man anhand von Wahrheitstabellen beweisen zeigen.
+
+07:03.000 --> 07:31.000
+Ebenso kann man sich überlegen, was z.B. die sogenannte Idempotenz betrifft.
+
+07:31.000 --> 07:51.000
+Es gilt nämlich, p und p ist gleich p und q oder q ist gleich q. Warum ich jetzt q genommen habe, weiß ich nicht.
+
+07:51.000 --> 08:06.000
+Es gibt auch sogenannte Anihilationsgesetze, was im Endeffekt so eine Art verdrehte Neutralität ist.
+
+08:06.000 --> 08:24.000
+Man weiß nämlich z.B., dass p und false immer false ergibt. Falsch. Und es gibt noch etwas sehr Interessantes,
+
+08:24.000 --> 08:41.000
+was wir uns noch ansehen wollen, die sogenannte Infusion der Negation, nämlich, dass die doppelte Komplimentation sich aufhebt.
+
+08:41.000 --> 08:51.000
+Letzteres, also diese Sachen hier könnte man sich allesamt mal als Beispiel oder in einer Übungsaufgabe ansehen.
+
+08:51.000 --> 09:01.000
+Was wir uns angucken wollen, ist die Gültigkeit der Indolution. Das wäre dann, ich schreibe sie einfach mal auf,
+
+09:01.000 --> 09:14.000
+also wenn wir hier den Wahrheitswert von p haben und hier den Wahrheitswert von nicht p, dann sieht das ja so aus.
+
+09:14.000 --> 09:37.000
+Und wenn ich jetzt betrachte den Wahrheitswert von nicht nicht p, dann ist das gleich, ich schreibe es mal hier hin, null,
+
+09:37.000 --> 09:54.000
+wenn nicht p den Wahrheitswert eins hat und eins, wenn nicht p den Wahrheitswert null hat.
+
+09:54.000 --> 10:13.000
+Und das wiederum ist der Fall, wenn hier die Bedeutung von nicht p eins ist, bedeutet das, wenn die Bedeutung von p gleich null ist
+
+10:13.000 --> 10:27.000
+und eins, wenn, hier wieder die Negation genommen. So, und damit haben wir also ausgeschrieben, ich schreibe es noch mal hier hin,
+
+10:27.000 --> 10:44.000
+nicht nicht p, der Wahrheitswert von nicht nicht p ist immer derselbe wie der von p. Gut, etwas, was wir damit bis jetzt gemacht haben,
+
+10:44.000 --> 10:58.000
+wird das Thema des nächsten Clips, nämlich was es bedeutet, dass Wahrheitswerte von bestimmten Formeln Wahrheitswerte anderer Formeln
+
+10:58.000 --> 11:05.000
+beeinflussen bzw. grundsätzlich auf eine ganz bestimmte Art und Weise zusammenhängen oder aber,
+
+11:05.000 --> 11:15.000
+wenn ein solcher Zusammenhang erkennbar ist, was ein solcher Zusammenhang bedeutet.
+

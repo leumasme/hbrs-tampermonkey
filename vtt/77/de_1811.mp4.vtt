@@ -1,0 +1,77 @@
+WEBVTT
+
+00:00.000 --> 00:03.880
+sehr einfach ist und das sich ideal auch eignet
+
+00:05.600 --> 00:06.560
+als
+
+00:06.560 --> 00:13.240
+Abschluss der Aussagenlogik um es hinterher dann wenn wir als nächstes die Prädikaten logik also ja
+
+00:14.840 --> 00:20.960
+Behandeln werden um es dort als Einführung des Kalküls weiter zu verwenden dann hat man da einen leichteren Einstieg
+
+00:21.760 --> 00:23.760
+gut
+
+00:23.800 --> 00:27.080
+Worum geht es in diesem Resolutionskalkül?
+
+00:27.080 --> 00:34.160
+Resolution klar wie alles was toll klingt kommt irgendwie aus dem lateinischen
+
+00:35.000 --> 00:37.400
+ja und es geht um ein
+
+00:38.200 --> 00:41.440
+wiederholtes Auflösen von irgendetwas
+
+00:44.280 --> 00:51.640
+Und zwar werden in Resolutionsverfragen, im technischen also in Anführungszeichen
+
+00:52.480 --> 00:54.320
+syntaktischen
+
+00:54.320 --> 00:55.840
+Ableitungskalkül
+
+00:55.840 --> 00:57.840
+verholt
+
+00:57.880 --> 00:59.880
+Literalpaare
+
+01:00.400 --> 01:02.400
+aufgelöst weggeworfen
+
+01:03.360 --> 01:04.480
+die
+
+01:04.480 --> 01:10.200
+Nicht zu den Wahrheitsbedingungen der einer gesamten Formel beitragen
+
+01:11.200 --> 01:13.920
+Was das genau sieht werden wir gleich sehen
+
+01:15.920 --> 01:18.760
+Das Prinzip des Resolutionskalküls dabei ist
+
+01:18.760 --> 01:27.840
+Folgendes, dass es auf Klauselmengen aufbaut. Wir wissen Klauselmengen sind Mengen von Klauseln, also Mengen von Disjunktionen
+
+01:29.080 --> 01:35.320
+und eine Menge von Formeln ist erfüllbar genau dann wenn die Konjunktion all dieser Formeln
+
+01:35.800 --> 01:42.040
+erfüllbar ist. Eine Klauselmenge ist also im Endeffekt eine Formel in konjunktiver Normalform
+
+01:42.880 --> 01:45.760
+Deswegen haben wir uns mit Normalformen beschäftigt
+
+01:45.760 --> 02:00.640
+Um eben den Begriff der Klauselmenge hinzubekommen
+
+02:00.640 --> 02:13.120
+So, einen kurzen Moment, es gibt offenbar Video-Probleme
+

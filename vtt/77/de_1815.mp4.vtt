@@ -1,0 +1,542 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+So, also, jetzt haben wir die ganzen theoretischen Grundlagen gelegt.
+
+00:07.000 --> 00:15.000
+Wir wissen, was wir machen dürfen oder wir wissen, was wir machen können.
+
+00:15.000 --> 00:18.000
+Wir haben diese Regel logisch analysiert.
+
+00:18.000 --> 00:25.000
+Das heißt, wir wissen, was wir machen dürfen mit dieser Regel und welche Bedeutung es hat.
+
+00:25.000 --> 00:33.000
+Und jetzt können wir mal versuchen, dieses Werkzeug anzuwenden.
+
+00:33.000 --> 00:38.000
+Dazu müssen wir allerdings natürlich im Hinterkopf behalten,
+
+00:38.000 --> 00:45.000
+was wir bereits gelernt haben über semantische Folgerungen etc. pp.
+
+00:45.000 --> 00:48.000
+Also, gucken wir es uns mal an.
+
+00:48.000 --> 00:51.000
+Na, warum hängt es jetzt schon wieder?
+
+00:51.000 --> 00:55.000
+Also, so, jetzt dann.
+
+00:55.000 --> 00:58.000
+Sie haben sich vielleicht gewundert.
+
+00:58.000 --> 01:03.000
+Naja, mit dieser einen Regel und Streichen von komplementären Paaren,
+
+01:03.000 --> 01:06.000
+das scheint ja vollkommen willkürlich.
+
+01:06.000 --> 01:11.000
+Wie hängt denn das in aller Welt überhaupt noch mit Logik zusammen?
+
+01:11.000 --> 01:18.000
+Und vor allen Dingen, ich habe den Hilbert-Kalkül einmal ganz kurz erwähnt.
+
+01:18.000 --> 01:22.000
+Wir haben natürliche Deduktionen in einer Vorlesung behandelt.
+
+01:22.000 --> 01:24.000
+Ich könnte Ihnen noch anrennen.
+
+01:24.000 --> 01:28.000
+Überall, dieses Modus ponens, das ist doch offenbar irgendwie das,
+
+01:28.000 --> 01:31.000
+was man braucht, um logische Schlussfolgerungen zu ziehen.
+
+01:31.000 --> 01:33.000
+Und das fehlt in der Resolution.
+
+01:33.000 --> 01:36.000
+Wie kann denn das überhaupt sein?
+
+01:36.000 --> 01:44.000
+Naja, also, das Modus ponens ist keine Regel im Resolutionskalkül.
+
+01:44.000 --> 01:48.000
+Aber wir wollen doch tatsächlich sowas machen,
+
+01:48.000 --> 01:55.000
+dass wenn man eine Formelmenge hat mit einem p und einem p impliziert q,
+
+01:55.000 --> 02:02.000
+dass wir dann eine Regel haben, ein mechanisches Handwerkszeug,
+
+02:02.000 --> 02:06.000
+mit dem wir diese mantische Implikation nachbinden können,
+
+02:06.000 --> 02:13.000
+die eben sagt, dass aus p und p folgt q folgt und nicht p, wie es auf dem Fohnen steht.
+
+02:13.000 --> 02:15.000
+Entschuldigung, muss ich noch mal rüber.
+
+02:15.000 --> 02:21.000
+Also auch in der 12.000. Eteration gibt es immer noch Tippfehler.
+
+02:21.000 --> 02:30.000
+So, wie würden wir denn das zum Beispiel beweisen wollen?
+
+02:30.000 --> 02:32.000
+Oder was wissen wir jetzt darüber?
+
+02:32.000 --> 02:40.000
+Also sozusagen dieses Ding hier, R, bedeutet ja, hier steht das q richtig,
+
+02:40.000 --> 02:47.000
+wenn wir ein Modell von dieser Formelmenge haben, dann ist das auch ein Modell von q.
+
+02:47.000 --> 02:50.000
+Das ist die Bedeutung der logischen Implikation.
+
+02:50.000 --> 02:58.000
+Also ein Modell von p und p impliziert q ist auch ein Modell von q.
+
+02:58.000 --> 03:07.000
+So, und jetzt schauen wir uns mal an, hier diese logische Implikation.
+
+03:07.000 --> 03:12.000
+Wann wäre die denn falsch?
+
+03:12.000 --> 03:17.000
+Falsch ist sie dann, wenn sie nicht wahr ist.
+
+03:17.000 --> 03:19.000
+Und wann ist sie falsch?
+
+03:19.000 --> 03:27.000
+Falsch ist sie, wenn wir also ein Modell von p und p folgt q haben,
+
+03:27.000 --> 03:32.000
+das kein Modell von q ist.
+
+03:32.000 --> 03:46.000
+Okay, wenn wir also zeigen können, dass p, p impliziert q und q unerfüllbar ist,
+
+03:46.000 --> 03:48.000
+dann wissen wir was?
+
+03:48.000 --> 03:55.000
+Naja, dann wissen wir, mit q ist es erfüllbar, beziehungsweise noch viel eher aus p
+
+03:55.000 --> 04:01.000
+und p impliziert q folgt q.
+
+04:01.000 --> 04:07.000
+Da ist so ein doppelter Twist drin, aber ich glaube, der kam ganz gut rüber.
+
+04:07.000 --> 04:13.000
+Also hier, semantische, also entailment, logische Implikation.
+
+04:13.000 --> 04:17.000
+Implikation, Wahrheitstabelle haben sie alle im Kopf, stehen fast überall eins,
+
+04:17.000 --> 04:19.000
+nur einmal steht da eine Null.
+
+04:19.000 --> 04:21.000
+Wann steht denn da eine Null?
+
+04:21.000 --> 04:28.000
+In diesem dummen Fall, den wir als Widerspruch, als Kontrapositionsverfahren kennen.
+
+04:28.000 --> 04:34.000
+Jetzt bilden wir den in der Resolution ab, hier steht ein und.
+
+04:34.000 --> 04:41.000
+Das heißt, dieses und, das kommt ja im Endeffekt aus der Semantik,
+
+04:41.000 --> 04:44.000
+also hier müsste eigentlich und ausgeschrieben stehen,
+
+04:44.000 --> 04:48.000
+aber es bedeutet ja eigentlich, dass dieses Modell und dieses,
+
+04:48.000 --> 04:54.000
+das ist dasselbe Modell von der Formelmenge, wenn dieses q noch dazu als Konjunktion kommt.
+
+04:54.000 --> 04:57.000
+Das heißt, hier ein Komma getrennt einfach mit drinsteht.
+
+04:57.000 --> 05:01.000
+Wir also eine Formelmenge haben.
+
+05:01.000 --> 05:09.000
+Und weil eben eine Interpretation eine Formel nur wahrmachen kann oder falsch,
+
+05:09.000 --> 05:17.000
+haben wir eben die Sache, naja, wenn wir das Ding, was daraus folgen soll,
+
+05:17.000 --> 05:22.000
+als falsch hinzutun, müssten wir einen Widerspruch bekommen.
+
+05:22.000 --> 05:26.000
+Wenn wir einen Widerspruch bekommen, und jetzt denken Sie dran,
+
+05:26.000 --> 05:30.000
+wir leiten uns ja sukzessive alle Formeln ab.
+
+05:30.000 --> 05:35.000
+Wenn wir also Formeln bekommen, die den Widerspruch offensichtlich machen,
+
+05:35.000 --> 05:41.000
+wissen wir resolutionslämmer, dass diese ursprüngliche Formel unerfüllbar ist.
+
+05:41.000 --> 05:43.000
+Und wann ist sie widersprüchlich?
+
+05:43.000 --> 05:45.000
+Naja, wenn sie kein Modell hat.
+
+05:45.000 --> 05:48.000
+Das heißt, wenn wir die leere Klausel ableiten können.
+
+05:48.000 --> 05:53.000
+Was wir also machen, ist folgendes, um zu zeigen,
+
+05:53.000 --> 05:59.000
+dass aus p und p folgt q, q folgt, machen wir was?
+
+05:59.000 --> 06:06.000
+Wir nehmen p, p folgt q, also als Klausel dargestellt nicht p, q,
+
+06:06.000 --> 06:15.000
+und tun die Negation dessen, was wir beweisen wollen, hier in diese Menge dazu.
+
+06:15.000 --> 06:20.000
+Und wenn wir es dann schaffen, daraus die leere Klausel abzuleiten,
+
+06:20.000 --> 06:25.000
+wird bewiesen, dass aus diesen beiden Formeln diese folgt.
+
+06:25.000 --> 06:30.000
+Es tut mir wirklich leid, dass da jetzt ein paar Mal q steht.
+
+06:30.000 --> 06:34.000
+Okay, wie macht man es jetzt konkret?
+
+06:34.000 --> 06:36.000
+Sieht so aus, machen wir es noch mal.
+
+06:36.000 --> 06:40.000
+Also wir nehmen jetzt genau das Modus Pungens daher.
+
+06:40.000 --> 06:43.000
+Wissen, cnf, davon sieht es so aus, p ist klar,
+
+06:43.000 --> 06:48.000
+und das wissen wir auch, nicht p oder q, also nicht p, q.
+
+06:48.000 --> 06:52.000
+Und das hier soll hergeleitet werden, q.
+
+06:52.000 --> 06:55.000
+Was machen wir jetzt?
+
+06:55.000 --> 07:01.000
+Wir negieren jetzt unsere These, also das, was wir beweisen wollen,
+
+07:01.000 --> 07:04.000
+und schieben es in diese Menge mit rein.
+
+07:04.000 --> 07:08.000
+Wir haben also p, nicht p, q, und nicht q.
+
+07:08.000 --> 07:12.000
+Und jetzt benutzen wir das Resonanzierungsverfahren.
+
+07:12.000 --> 07:18.000
+Wir schreiben also alle unsere Klauseln hier hin.
+
+07:18.000 --> 07:23.000
+Das nicht q steht jetzt hier vorne, warum auch immer, das hier und das da.
+
+07:23.000 --> 07:25.000
+Und jetzt fangen wir an zu resolvieren.
+
+07:25.000 --> 07:31.000
+Wir stellen fest, nicht q mit nicht p und q, nicht q fliegt gegen q raus,
+
+07:31.000 --> 07:39.000
+bleibt, ich habe nicht dargeschrieben, bleibt nicht p übrig, Entschuldigung,
+
+07:39.000 --> 07:44.000
+hier sind ja schrecklich viele Fehler aufgefallen, das ist aber noch gar nicht aufgefunden.
+
+07:44.000 --> 07:52.000
+Also bleibt nicht p übrig, und das nicht p kann ich mit dem p zur leeren Klausel wegresonieren.
+
+07:52.000 --> 08:04.000
+Damit habe ich halt gezeigt, okay, die Annahme, die Kontraposition ist,
+
+08:04.000 --> 08:13.000
+nein, nicht die Kontraposition, die Negation, der Widerspruch.
+
+08:13.000 --> 08:18.000
+Der Widerspruch führt zu Unerfüllbarkeit.
+
+08:18.000 --> 08:22.000
+Sehr wummer ich auch.
+
+08:22.000 --> 08:39.000
+Gut, wenn wir uns die von mir so geliebte Rongierregel anschauen,
+
+08:39.000 --> 08:44.000
+dann kann man sich jetzt mal überlegen, wie funktioniert es denn,
+
+08:44.000 --> 08:56.000
+wie zeigt man, dass p und q impliziert r äquivalent ist zu p impliziert nicht q oder r.
+
+08:56.000 --> 09:02.000
+Jetzt kamen wir wieder in unser Archiv und wissen,
+
+09:02.000 --> 09:11.000
+Äquivalenz zeigen wir durch Hin- und Rückimplikation.
+
+09:11.000 --> 09:15.000
+Nehmen wir also erstmal die Implikation in diese Richtung,
+
+09:15.000 --> 09:23.000
+wir nehmen uns also diese Formel her, p und q impliziert r und überführen sie in cnf.
+
+09:23.000 --> 09:31.000
+Jetzt wollen wir ja zeigen, dass daraus diese Formel hier folgt.
+
+09:31.000 --> 09:40.000
+Wir negieren also diese Formel hier und überführen sie ebenfalls in cnf.
+
+09:40.000 --> 09:42.000
+Und was machen wir jetzt?
+
+09:42.000 --> 09:47.000
+Jetzt verunten wir diese beiden Formeln oder aber, wenn wir sagen,
+
+09:47.000 --> 09:51.000
+das hier haben wir als Klauselmenge und das hier haben wir als Klauselmenge,
+
+09:51.000 --> 09:56.000
+also die cnf den negierten Formel, die wir beweisen wollen,
+
+09:56.000 --> 10:01.000
+vereinigen das zu einer Menge und bekommen diese Menge.
+
+10:01.000 --> 10:08.000
+Und jetzt müssen wir zeigen, dass wir darauf die leere Klausel ableiten können.
+
+10:08.000 --> 10:12.000
+Und dann schreibt man sie wieder so hin.
+
+10:12.000 --> 10:18.000
+Kann einmal mit dem p das p hier aus der Klausel weglöschen,
+
+10:18.000 --> 10:24.000
+kriegt nicht r raus und was wir hier hatten ist q und nicht r
+
+10:24.000 --> 10:28.000
+und q und nicht r kann man einmal benutzen, um das q wegzutun
+
+10:28.000 --> 10:31.000
+und ein zweites Mal das r wegzumachen.
+
+10:31.000 --> 10:36.000
+Ich habe das jetzt nur aus Platzgründen mal so mit zwei Doppelstrichen gemacht.
+
+10:36.000 --> 10:39.000
+Eigentlich sind das halt zwei Schritte, die nacheinander kommen.
+
+10:39.000 --> 10:44.000
+Hat aber nicht mehr auf die Folie gepasst.
+
+10:44.000 --> 10:49.000
+So, also, Hinweise zur Nutzung.
+
+10:49.000 --> 10:55.000
+Obwohl wir da natürlich viel in den Übungen machen.
+
+10:55.000 --> 10:59.000
+Die Resolution ist verdammt praktisch.
+
+10:59.000 --> 11:01.000
+Es gibt nur eine Regel.
+
+11:01.000 --> 11:10.000
+Man kann sich nicht überlegen, muss ich jetzt Doppelte Negationseinführung,
+
+11:10.000 --> 11:14.000
+muss ich jetzt Implikationseinführung, Disjunktionselimination
+
+11:14.000 --> 11:16.000
+oder was soll ich jetzt anwenden in aller Welt.
+
+11:16.000 --> 11:21.000
+Oder sollte ich jetzt mal eine Annahme treffen, um hinterher eine Implikation.
+
+11:21.000 --> 11:25.000
+Diese Probleme haben Sie nicht.
+
+11:25.000 --> 11:26.000
+Sie haben nur eine Regel.
+
+11:26.000 --> 11:28.000
+Fertig auch so.
+
+11:28.000 --> 11:38.000
+Was man dann macht, ist, wenn man einen logischen Schluss
+
+11:38.000 --> 11:44.000
+in Resolution oder mithilfe von Resolution beweisen will, macht man folgendes.
+
+11:44.000 --> 11:48.000
+Der logische Schluss, den man beweisen soll,
+
+11:48.000 --> 11:51.000
+sagen wir mal, besteht aus einer Implikation.
+
+11:51.000 --> 11:54.000
+Jetzt sind wir da ganz oben geformt, zu mir.
+
+11:54.000 --> 11:56.000
+Dann sagen wir folgendes.
+
+11:56.000 --> 12:00.000
+Okay, ich muss also die Gültigkeit dieser Implikation zeigen.
+
+12:00.000 --> 12:03.000
+Und dazu nimmt man die Prämisse der Implikation,
+
+12:03.000 --> 12:09.000
+formt sie in einer Klauselmenge um und das, was daraus folgen soll,
+
+12:09.000 --> 12:15.000
+also die These von dem, was zu beweisen ist, negiert man und tut sie auch dazu.
+
+12:15.000 --> 12:18.000
+Und dann fängt man mit dieser Maschinerie an,
+
+12:18.000 --> 12:22.000
+bis die leere Klausel rauskommt und dann ist es bewiesen.
+
+12:22.000 --> 12:28.000
+Wenn Sie die leere Klausel nicht rauskriegen,
+
+12:28.000 --> 12:32.000
+dann haben wir erst mal ein Problem.
+
+12:32.000 --> 12:42.000
+Gut, wenn man jetzt diese iterierte Anwendung des Resolutionsoperators macht,
+
+12:42.000 --> 12:47.000
+dann ist die Frage, dass man nicht durcheinanderkommt.
+
+12:47.000 --> 12:52.000
+Ich habe Ihnen das hier mit Farben gezeigt und alles brav untereinander gemalt.
+
+12:52.000 --> 12:56.000
+Es gibt auch eine Möglichkeit, dass man eine Matrix aufbaut,
+
+12:56.000 --> 13:00.000
+wo Spalten und Zeilen gleich gelabelt sind.
+
+13:00.000 --> 13:05.000
+Und dann schreibt man erst die ursprüngliche Menge P hin mit dem ligierten Goal,
+
+13:05.000 --> 13:10.000
+hier genauso, und dann resolviert man alle Paare.
+
+13:10.000 --> 13:14.000
+Und immer wenn ein neues rauskommt, das noch nicht hier oben stand,
+
+13:14.000 --> 13:18.000
+schreibt man das da hinten zu und da unten dran.
+
+13:18.000 --> 13:23.000
+Und im nächsten Schritt geht man wieder durch alle durch und so weiter und so fort.
+
+13:23.000 --> 13:26.000
+Und irgendwann ist diese Tabelle höchstwahrscheinlich ziemlich groß,
+
+13:26.000 --> 13:28.000
+aber es kommt nichts mehr Neues hinzu.
+
+13:28.000 --> 13:33.000
+Und wenn dann irgendwo in dieser Tabelle bzw. beim iterativen Aufbau dieser Tabelle,
+
+13:33.000 --> 13:39.000
+wenn Sie irgendwann auf eine leere Klausel stoßen, wissen Sie, sind fertig.
+
+13:39.000 --> 13:41.000
+Nicht erfüllt.
+
+13:41.000 --> 13:48.000
+Das kann man auch in Anführungszeichen relativ einfach implementieren,
+
+13:48.000 --> 13:52.000
+ist aber natürlich wahnsinnig speicherlich.
+
+13:52.000 --> 13:58.000
+Man kann auch so eine linearisierte Darstellung wählen,
+
+13:58.000 --> 14:02.000
+wie wir es in der natürlichen Reduktion haben.
+
+14:02.000 --> 14:06.000
+Also das dann da steht, jetzt resolviere ich Klauseln 2 und 3,
+
+14:06.000 --> 14:08.000
+kriege dadurch die Klausel 17.
+
+14:08.000 --> 14:15.000
+Resolviert mit Klausel 15, ergibt Klausel 23 und so weiter und so fort.
+
+14:15.000 --> 14:21.000
+Und die Klausel 736, Klausel 253 ist die leere Klausel, hurra, Beweis hat geklappt.
+
+14:21.000 --> 14:24.000
+Kann man also auch runterschreiben.
+
+14:24.000 --> 14:29.000
+Da sieht man dann aber eventuell nicht mehr immer alles, was oben drüber steht.
+
+14:29.000 --> 14:33.000
+Das wäre dann schön, wenn man es mit so einer Baumdarstellung macht.
+
+14:33.000 --> 14:37.000
+Wenn man aber eine Baumdarstellung macht, dann hat man häufig das Problem,
+
+14:37.000 --> 14:42.000
+dass man Resolutionen über verschiedene Ebenen machen muss.
+
+14:42.000 --> 14:45.000
+Dann wird es auch nicht mehr richtig.
+
+14:45.000 --> 14:49.000
+Ist also alles mal so, mal so.
+
+14:49.000 --> 15:01.000
+Okay, das Schöne ist, wir sind jetzt fast pünktlich,
+
+15:01.000 --> 15:05.000
+sogar ein bisschen zu früh, mit Aussagenlogik fertig.
+
+15:05.000 --> 15:12.000
+Und nächste Woche können wir dann endlich mit einer Logik anfangen,
+
+15:12.000 --> 15:19.000
+die man eigentlich wirklich braucht, um das darzustellen, was man darstellen will,
+
+15:19.000 --> 15:36.000
+weil Aussagenlogik in den meisten interessanten Fällen eigentlich gar nicht reicht.
+

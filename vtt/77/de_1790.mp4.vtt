@@ -1,0 +1,629 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+Gut, also kommen wir zum Thema der natürlichen Deduktion.
+
+00:07.000 --> 00:12.000
+Was Deduktion ist, habe ich eben gesagt, oder was das Wort bedeuten soll.
+
+00:12.000 --> 00:15.000
+Und warum heißt das Ganze natürlich?
+
+00:15.000 --> 00:27.000
+Ganz einfach, weil es die natürliche, intuitive, logische Schließung,
+
+00:27.000 --> 00:31.000
+so wie Sie es alle kennen und auch schon machen,
+
+00:31.000 --> 00:40.000
+und wie wir es jetzt auch bisher in der Vorlesung theoretisch untermauert haben,
+
+00:40.000 --> 00:50.000
+in einfach nachvollziehbare Ableitungsregeln überführt.
+
+00:50.000 --> 00:59.000
+Mit Hilfe dieser Ableitungsregeln haben wir dann ein sogenanntes formales System.
+
+00:59.000 --> 01:08.000
+Das können Sie sich vorstellen wie die Regeln eines Brettspiels,
+
+01:08.000 --> 01:11.000
+eines komplizierten Brettspiels.
+
+01:11.000 --> 01:18.000
+Das heißt, Sie haben jetzt mit einem Kalkül oder mit solchen Ableitungsregeln
+
+01:18.000 --> 01:27.000
+die Möglichkeit durch Symbolmanipulation hin- und herschieben einen Beweis zu führen.
+
+01:27.000 --> 01:31.000
+Und das Tolle ist, dass Sie in jedem Schritt dieses Beweises
+
+01:31.000 --> 01:36.000
+eben immer eine Regel anwenden und somit genau wissen,
+
+01:36.000 --> 01:38.000
+was in diesem Schritt passiert ist.
+
+01:38.000 --> 01:42.000
+Ich habe bis jetzt in allen Beweisen, die ich Ihnen immer gezeigt habe,
+
+01:42.000 --> 01:50.000
+immer versucht, exzessiv diese Beweise zu kommentieren.
+
+01:50.000 --> 01:55.000
+Ah, das hier wollte ich haben.
+
+01:55.000 --> 02:00.000
+Nämlich, ich habe dann immer, wenn hier irgendwie eine Zeile stand
+
+02:00.000 --> 02:04.000
+und das war zur Äquivalenz zu irgendetwas anderem,
+
+02:04.000 --> 02:07.000
+dann habe ich entweder hier was drüber geschrieben,
+
+02:07.000 --> 02:12.000
+sozusagen die Art oder den Namen des Argumentes,
+
+02:12.000 --> 02:17.000
+oder ich habe hier so ein Kommentarzeichen gemacht und da was reingeschrieben.
+
+02:17.000 --> 02:23.000
+Bei diesen formalen Systemen ist es jetzt so, dass alle diese Regeln Namen haben.
+
+02:23.000 --> 02:27.000
+Und jetzt brauchen wir im Endeffekt nur noch diese Namen dran zu schreiben.
+
+02:27.000 --> 02:30.000
+So, schauen wir uns das doch mal an.
+
+02:30.000 --> 02:35.000
+Dieses Kalkül erlaubt es uns jetzt,
+
+02:35.000 --> 02:41.000
+für eine beliebige aussagenlogische Formel P,
+
+02:41.000 --> 02:46.000
+wenn diese hergeleitet werden konnte,
+
+02:46.000 --> 02:51.000
+dürfen wir auch nicht nicht P schreiben.
+
+02:51.000 --> 02:56.000
+Ich stelle gerade fest, ich sollte hier noch korrekt klammern.
+
+02:56.000 --> 02:59.000
+Also es wird noch eine neue Folienversion geben.
+
+02:59.000 --> 03:03.000
+Genauso können wir aus nicht nicht P P machen.
+
+03:03.000 --> 03:07.000
+Wenn wir also nicht nicht P herleiten konnten,
+
+03:07.000 --> 03:12.000
+können wir auch durch Anwendung dieser Regel P herleiten.
+
+03:12.000 --> 03:21.000
+Das modelliert genau das, was Sie als das Negationsgesetz kennen.
+
+03:21.000 --> 03:27.000
+Genauso gibt es hier zum Beispiel eine Regel,
+
+03:27.000 --> 03:30.000
+die müssen Sie um Himmels Willen nicht auswendig lernen.
+
+03:30.000 --> 03:36.000
+Genauso gibt es hier eine Regel, die heißt Konjunktions-Elimination.
+
+03:36.000 --> 03:41.000
+Wenn also in einer Formel oder wenn eine Formel aus einer Konjunktion
+
+03:41.000 --> 03:46.000
+von P und Q besteht und Sie diese ableiten konnten,
+
+03:46.000 --> 03:50.000
+dann können Sie hieraus auch P ableiten.
+
+03:50.000 --> 03:53.000
+Das heißt, wenn P und Q wahr ist, ist auch P wahr.
+
+03:53.000 --> 03:56.000
+Genauso geht es natürlich mit Q.
+
+03:56.000 --> 04:02.000
+Ein bisschen anders ist es hier, wenn Sie P ableiten konnten
+
+04:02.000 --> 04:07.000
+und wenn Sie Q ableiten konnten.
+
+04:07.000 --> 04:13.000
+Dann, weil wir davon ausgehen, dass dieser Ableitungsprozess korrekt ist,
+
+04:13.000 --> 04:17.000
+können Sie aus dem Ergebnis der Ableitung, nämlich P,
+
+04:17.000 --> 04:21.000
+und aus dem Ergebnis der anderen Ableitung, nämlich Q,
+
+04:21.000 --> 04:28.000
+auch die Formel P und Q ableiten.
+
+04:28.000 --> 04:35.000
+Das hier sind im Endeffekt alles sogenannte strukturelle Regeln.
+
+04:35.000 --> 04:38.000
+Und erinnern Sie sich ganz an den Anfang,
+
+04:38.000 --> 04:43.000
+als wir über die Repräsentation von Formeln als Bäume gesprochen haben,
+
+04:43.000 --> 04:50.000
+dass ich Ihnen so etwas erzählt habe,
+
+04:50.000 --> 04:56.000
+dass zum Beispiel in einem Baum eine doppelte Negation verkürzt werden kann.
+
+04:56.000 --> 05:08.000
+Oder hier die Tatsache, dass hier zwei Regeln existieren,
+
+05:08.000 --> 05:14.000
+einmal um aus P und Q P abzuleiten und einmal aus P und Q Q abzuleiten.
+
+05:14.000 --> 05:20.000
+Das entspricht zum Beispiel, naja, das ist jetzt ein bisschen weit hergeholt,
+
+05:20.000 --> 05:26.000
+aber Sie können sich so etwas wie Bäumchen umdrehen und vorstellen.
+
+05:26.000 --> 05:32.000
+Sie kennen die Abschwächungsregel, das heißt, Sie können immer ein Disjunkt hinzutun.
+
+05:32.000 --> 05:37.000
+Und was Sie natürlich auch kennen, ist Modus Ponens.
+
+05:37.000 --> 05:42.000
+Wenn Sie also P herleiten konnten und wenn Sie herleiten konnten P Subjunktion Q,
+
+05:42.000 --> 05:51.000
+dann können Sie mit Hilfe der Modus Ponens Strukturregel herleiten die Formel Q.
+
+05:51.000 --> 06:05.000
+Es sieht jetzt alles auf den ersten Blick komplett irrelevant oder
+
+06:05.000 --> 06:08.000
+wiederholend oder redundant aus,
+
+06:08.000 --> 06:16.000
+aber bedenken Sie, was wir hier machen ist keine Äquivalenzumformung,
+
+06:16.000 --> 06:28.000
+sondern eine Formelmanipulation.
+
+06:28.000 --> 06:32.000
+Damit kann man jetzt, wenn wir zum Beispiel zeigen wollen,
+
+06:32.000 --> 06:38.000
+dass aus einer Formelmenge groß P eine kleine Formel P logisch folgt,
+
+06:38.000 --> 06:42.000
+einen Beweis strukturiert darstellen.
+
+06:42.000 --> 06:45.000
+Denn denken Sie, wie haben wir das gemacht?
+
+06:45.000 --> 06:52.000
+Wir beweisen so ein Entailment, in dem wir annehmen, dass diese Formelmenge P oder erfüllt ist
+
+06:52.000 --> 06:59.000
+und wir dann zeigen oder wann immer sie erfüllt ist, ob P erfüllt ist.
+
+06:59.000 --> 07:05.000
+Wir gehen also in einem solchen Beweis nun wie folgt vor,
+
+07:05.000 --> 07:17.000
+nämlich dass wir alle Formeln aus groß P im Endeffekt als Annahmen,
+
+07:17.000 --> 07:24.000
+ich nenne sie jetzt hier bewusst Prämissen, als gegeben hinnehmen.
+
+07:24.000 --> 07:29.000
+Wir schreiben uns die alle auf, gehen davon aus, dass sie wahr sind
+
+07:29.000 --> 07:37.000
+und benutzen jetzt diese Formeln aus der Menge groß P,
+
+07:37.000 --> 07:49.000
+um durch sukzessive Anwendung von den Regeln dieses Kalküls neue Formeln abzuleiten.
+
+07:49.000 --> 07:55.000
+Und das machen wir so lange, bis unten eine Formel rauskommt,
+
+07:55.000 --> 08:08.000
+die genau die Formel ist, von der wir zeigen wollten, dass sie aus P logisch folgt.
+
+08:08.000 --> 08:11.000
+Das ist die Idee dahinter.
+
+08:11.000 --> 08:32.000
+Und jetzt sehen Sie hier schon, dass das nichts anderes ist als eine kommentierte, linearisierte Darstellung von Formeln.
+
+08:32.000 --> 08:49.000
+Wobei eben gilt, dass wenn hier Formeln stehen, diese logisch aus den Formeln folgen, die oben drüben stehen.
+
+08:49.000 --> 08:51.000
+Ein ganz einfaches Beispiel.
+
+08:51.000 --> 09:02.000
+Gegeben sei eine Menge groß P mit der Formel P und Q und R und der Formel S und T.
+
+09:02.000 --> 09:12.000
+Und daraus soll jetzt abgeleitet werden, deswegen dieses Symbol, die Formel Q und S.
+
+09:12.000 --> 09:22.000
+Nämlich das soll bedeuten, wenn P und Q und R und S und T wahr sind, ist auch Q und S wahr.
+
+09:22.000 --> 09:25.000
+Oder aus dieser Formelmenge folgt logisch diese hier.
+
+09:25.000 --> 09:27.000
+Das möchte man damit erreichen.
+
+09:27.000 --> 09:35.000
+Man geht also so vor, man schreibt die Formeln aus dieser Formelmenge als Prämissen hin.
+
+09:35.000 --> 09:38.000
+Und nennt die meinetwegen A und B.
+
+09:38.000 --> 09:49.000
+So und jetzt haben wir einen Haufen von Regeln, die wir anwenden können, um aus diesen Formeln hier neue Formeln zu machen.
+
+09:49.000 --> 09:58.000
+Wir können also zum Beispiel diese Formel hier nehmen.
+
+09:58.000 --> 10:02.000
+Also wir können zum Beispiel diese Formel hier nehmen.
+
+10:02.000 --> 10:10.000
+Und dann hatten wir diese schöne Regel P und Q.
+
+10:10.000 --> 10:15.000
+P, das war eine sogenannte Konjunktionselimination.
+
+10:15.000 --> 10:17.000
+Die können wir jetzt mal anwenden.
+
+10:17.000 --> 10:25.000
+Hier, wenden wir also mal die Konjunktionseliminationsregel auf die Formel A an.
+
+10:25.000 --> 10:32.000
+Dann haben wir hier das Q eliminiert, das heißt, was übrig bleibt ist P und Q.
+
+10:32.000 --> 10:36.000
+Diese Formel haben wir jetzt einfach nur syntaktisch hergeleitet.
+
+10:36.000 --> 10:41.000
+Genauso gut, die Konjunktionselimination funktionierte ja auch für die andere Seite.
+
+10:41.000 --> 10:47.000
+Wir können also diesen Teil hier eliminieren und bekommen R raus.
+
+10:47.000 --> 10:52.000
+So, jetzt haben wir schon mal zwei neue Formeln aus diesen beiden Formeln gebaut.
+
+10:52.000 --> 11:02.000
+Naja, wenn ich jetzt aber diese Formel hier habe, P und Q, kann ich ja wieder die Konjunktionselimination zweimal anwenden.
+
+11:02.000 --> 11:11.000
+Einmal kriege ich P raus, indem ich Q weglasse mit dieser Regel und einmal kriege ich Q raus, indem ich P weglasse mit dieser Regel.
+
+11:11.000 --> 11:19.000
+Wir haben jetzt also aus diesen beiden Formeln abgeleitet die Formel P und Q, R, P und Q.
+
+11:19.000 --> 11:34.000
+Das heißt, was wir bis jetzt gezeigt haben, ist, dass aus dieser Formelmenge logisch folgt, dass P und Q wahr ist, dass R wahr ist, dass P wahr ist und dass Q wahr ist.
+
+11:34.000 --> 11:39.000
+Und das haben wir nur gezeigt durch Anwendung dieser Regel.
+
+11:39.000 --> 11:49.000
+So, wir können natürlich auch hier unsere Prämisse B nehmen und durch Konjunktionselimination einmal das S herleiten und einmal das T.
+
+11:49.000 --> 11:52.000
+So, und jetzt kommt was ganz Tolles.
+
+11:52.000 --> 11:59.000
+Wir hatten ja auch die Einführung der Konjunktion uns definiert.
+
+11:59.000 --> 12:10.000
+Das war die Regel, wenn wir P haben oder wenn wir P herleiten konnten und wenn wir Q herleiten konnten, dann dürfen wir auch P und Q entscheiden.
+
+12:10.000 --> 12:13.000
+Und das ist genau das, was wir hier machen.
+
+12:13.000 --> 12:26.000
+Wir führen eine Konjunktion ein für die hergeleiteten Formeln Q und für die hergeleiteten Formeln S.
+
+12:26.000 --> 12:44.000
+So, und damit haben wir unter Anwendung hier ganz einfach nur von zwei Regeln aus diesen Prämissen, aus diesen beiden Formeln in einer Sequenz diese Formel hier hergeleitet, die es abzuleiten galt.
+
+12:44.000 --> 12:49.000
+Und damit haben wir das gewünschte Ergebnis gefunden.
+
+12:49.000 --> 12:56.000
+Das also ist die Idee hinter eines Beweises.
+
+12:56.000 --> 13:10.000
+Hier steht immer als Kommentar, also das, was ich immer über die Äquivalenzzeichen geschrieben habe oder als Kommentar zwischen zwei Zeilen eingefügt habe.
+
+13:10.000 --> 13:15.000
+Hier steht jetzt, und das sehen Sie auch, das ist in einem etwas anderen Font gesetzt.
+
+13:15.000 --> 13:27.000
+Hier sehen Sie jetzt immer den Namen der Regel, der angewendet wird, und als Argument davon die Zeile bzw. die Zeilen,
+
+13:27.000 --> 13:36.000
+weil wir hier die Zeile 4 nehmen mit dem Q, was wir hier brauchen, und hier die 5, weil wir hier das S für den Teil brauchen.
+
+13:36.000 --> 13:53.000
+Dabei setzen wir jetzt natürlich eins voraus.
+
+13:53.000 --> 14:04.000
+Wir setzen voraus, dass jede Regel in diesem Kalkül korrekt ist.
+
+14:04.000 --> 14:12.000
+Das heißt, die Anwendung einer Regel führt zu einem Ergebnis, das korrekt ist.
+
+14:12.000 --> 14:20.000
+Wenn wir also einen Haufen von Formeln haben ableiten können, und darunter sind P und Q,
+
+14:20.000 --> 14:36.000
+und jetzt leiten wir ab P und Q, müssen wir auch sicher gehen, dass, wenn wir P und Q ableiten konnten und Q ableiten, daraus auch logisch folgt, dass die Formel P und Q wahr ist.
+
+14:36.000 --> 14:47.000
+Im Endeffekt ist das eine ganz einfache Sache, weil auch hier macht man jetzt nichts anderes.
+
+14:47.000 --> 14:57.000
+Gucken wir uns an, die NNI, Moment, das ist die Einführung der doppelten Negation.
+
+14:57.000 --> 15:08.000
+Ich schreibe die beiden mal hin. Wir hatten einmal diese Regel, dass wir aus P nicht nicht P machen konnten.
+
+15:08.000 --> 15:17.000
+Hier, ich klammere sie, ich sehe jetzt mal, und dass wir aus nicht nicht P machen konnten.
+
+15:17.000 --> 15:25.000
+Also das hier war eigentlich doppelte Negationsillimination und das war doppelte Negationseinführung.
+
+15:25.000 --> 15:37.000
+Wir müssen also zeigen, dass, wenn P wahr ist, auch nicht nicht P wahr ist.
+
+15:37.000 --> 15:48.000
+Wenn P wahr ist, dann wissen wir, wir haben jetzt eine erfüllende Interpretation und dann rechnen wir einfach aus,
+
+15:48.000 --> 16:02.000
+was ist denn der Wert von nicht nicht P, kriegen wir 1 und so weiter und so fort, also 1 und somit denselben Wahrheitswert.
+
+16:02.000 --> 16:09.000
+Diese Beweise kennen Sie im Endeffekt schon und ich habe ja auch gesagt, diese strukturellen Regeln bilden im Endeffekt etwas nach,
+
+16:09.000 --> 16:19.000
+was wir bisher immer schon gemacht haben, also Konjunktion, Minimum und so weiter.
+
+16:19.000 --> 16:30.000
+Hier haben wir die Konjunktionseinführung, genau da haben wir die Illimination.
+
+16:30.000 --> 16:56.000
+Weiterhin muss man dann auch natürlich sagen und erklären, dass die Anwendung der Modus Pronens Regel korrekt ist.
+
+16:56.000 --> 17:06.000
+Im Endeffekt macht man das, indem man sie auf die Gültigkeit des Modus Pronens Prinzip in der Aussagenlogik zurückführt.
+
+17:06.000 --> 17:17.000
+Man geht davon aus, P gilt, man geht davon aus, P subjunktion Q gilt und dann rechnet man, rechnet man, rechnet man,
+
+17:17.000 --> 17:28.000
+und stellt fest, dass hier die Konsequenz Q des Modus Pronens wahr ist, wenn auch diese beiden wahr sind.
+
+17:28.000 --> 17:37.000
+Ich gehe jetzt hier in der Vorlesung bewusst flott über die Beweise herüber.
+
+17:37.000 --> 17:51.000
+Es ist erstes Semester Einführung in die Logik, das reicht, ich will Ihnen das Material nur an die Hand geben
+
+17:51.000 --> 18:03.000
+und ich denke, die Tatsache, wie ich Ihnen das verbal darstelle, reicht für das Verständnis soweit aus.
+
+18:03.000 --> 18:11.000
+Natürlich ist es damit nicht getan.
+
+18:11.000 --> 18:23.000
+Wie Sie wissen, haben wir ja auch solche tollen Ergebnisse erhalten,
+
+18:23.000 --> 18:36.000
+die sich nannten hier ex falso quod libit, also wenn wir ein F herleiten konnten, die immer wahre Formel,
+
+18:36.000 --> 18:42.000
+dann wussten wir, dass daraus etwas beliebig ist folgt.
+
+18:42.000 --> 18:51.000
+Wir haben das Widerspruchsprinzip, das hier ist ein bisschen uneindeutig, manchmal nehme ich das für Kontraposition und manchmal für Widerspruch.
+
+18:51.000 --> 18:55.000
+Das werde ich noch versuchen in den Folien klarzuziehen.
+
+18:55.000 --> 19:09.000
+Hier haben wir das Prinzip, das sogenannte terzium non dato, also eine Formel kann nicht wahr und falsch gleichzeitig sein.
+
+19:09.000 --> 19:18.000
+Und das hier ist das sogenannte axiom of choice, das heißt, es gilt immer, dass eine Formel wahr ist oder falsch.
+
+19:18.000 --> 19:38.000
+Und diese logischen Prinzipien kann man jetzt nachweisen, sind auch auf diese Art und Weise eben als Regeln in dem Kalkül zu verwenden.
+
+19:38.000 --> 19:53.000
+Und Sie sehen, nach und nach werden unsere Beweise nicht notwendiger einfacher, aber kürzer, indem wir hier eben einfach schreiben,
+
+19:53.000 --> 20:02.000
+der Wahrheitswert hiervon ist immer Null und die Null ist immer kleiner als der Wahrheitswert von P.
+
+20:02.000 --> 20:09.000
+Dieses kleine Gleich mit der logischen Implikation haben wir aus der Semantik mit den Heilprinzen.
+
+20:09.000 --> 20:20.000
+Auch hier gehen wir jetzt nicht weiter darauf ein, ach ne, das ist hier sogar aus dem Pulschen verwandt.
+
+20:20.000 --> 20:46.000
+Also auch diese logischen Prinzipien können nachgebildet werden bzw. die Nachbildungen entsprechen den logischen Prinzipien und sind somit korrekte Schlussregeln.
+
+20:46.000 --> 20:53.000
+Ein bisschen schwierig ist es, wenn Sie jetzt ganz genau aufgepasst haben, aber ich bin Ihnen nicht böse,
+
+20:53.000 --> 21:00.000
+wenn Sie das jetzt bei dem Tempo, mit dem ich Ihnen das hier vortrage, wenn Sie das übersehen haben.
+
+21:00.000 --> 21:09.000
+Es gibt ein paar Sachen, die jetzt noch nicht in diesem Kalkül drin waren.
+
+21:09.000 --> 21:20.000
+Und zwar hatten wir zwar, wie man mit doppelter Negation umgehen kann, nämlich indem man sie löscht oder indem man sie einführt,
+
+21:20.000 --> 21:33.000
+wir haben aber noch nicht nachgebildet, naja, wie man eine einfache Negation herleiten oder begründen kann.
+
+21:33.000 --> 21:44.000
+Und da sehen Sie eigentlich hier etwas Wunderwunderschönes. Hier steht nämlich, wenn man es jetzt mal einfach so liest,
+
+21:44.000 --> 22:01.000
+dass wenn aus P etwas Falsches folgt, wir daraus folgern können, dass nicht P wahr ist bzw. umgekehrt, wenn aus nicht P etwas Falsches folgt, P folgt.
+
+22:01.000 --> 22:12.000
+Das ist jetzt ein bisschen etwas anders. Warum? Hier steht jetzt nicht mehr eine Formel oder zwei Formeln,
+
+22:12.000 --> 22:23.000
+aus denen wir eine weitere herleiten können, sondern hier steht im Endeffekt, dass es bereits irgendwo in unserem Beweis
+
+22:23.000 --> 22:36.000
+eine Formel gibt, äh, Entschuldigung, eine Ableitung gibt, die so aussieht, dass wenn wir ein P haben und daraus ein verlaubtes Beweis ist,
+
+22:36.000 --> 22:55.000
+dass ein F als Konsequenz unseres korrekten Kalküls auftaucht, P, sozusagen die Annahme P als falsch sich erweist.
+
+22:55.000 --> 23:09.000
+Naja, weil eine Formel eben nicht wahr und falsch sein kann, wenn sie halt falsch ist, muss die Negation wahr sein.
+
+23:09.000 --> 23:25.000
+Ein bisschen schwieriger zu erklären ist auch etwas, was gefehlt hat, nämlich wie in aller Welt kann man denn eine Disjunktion loswerden?
+
+23:25.000 --> 23:33.000
+Wir haben gelernt, wie wir sie einfügen können, wir haben aber noch nicht gelernt, wie wir sie loswerden können.
+
+23:33.000 --> 23:49.000
+Und da ist jetzt die Idee, wenn sozusagen eine Disjunktion hergeleitet worden ist und sowohl aus dem einen Disjunkt
+
+23:49.000 --> 24:01.000
+als auch aus dem anderen Disjunkt dieselbe Konsequenz abgeleitet werden kann, dann wissen wir, dass diese Konsequenz gültig ist.
+
+24:01.000 --> 24:24.000
+Also, richtig. Schließlich und letztendlich, und das ist im Endeffekt das Allerwichtigste bei allem, wie können wir eine Implikation erzeugen?
+
+24:24.000 --> 24:33.000
+Und das ist im Endeffekt etwas, was ich eben in der Argumentation schon bei der Negationseinführung oder Behinderung gelernt habe.
+
+24:33.000 --> 24:49.000
+Wenn wir in einem großen Beweis irgendwo meinetwegen ein P haben oder hätten und wir dann unter Verwendung
+
+24:49.000 --> 25:01.000
+aller bisher als korrekt geltenden abgeleiteten Formeln die Formel Q ableiten können, dann wissen wir ja sozusagen,
+
+25:01.000 --> 25:07.000
+dass unter der Annahme, also unter der Bedingung, dass P gilt, Q gefolgert werden kann.
+
+25:07.000 --> 25:25.000
+Das heißt also, dass die Subjunktion P impliziert Q wahr ist. Also, Sie sehen, diese Regeln sind rein syntaktischer Natur.
+
+25:25.000 --> 25:36.000
+Es geht hier nur darum, wie kann ich aus einer Formel ein logisches Symbol wegkriegen, wenn ich es nicht haben will,
+
+25:36.000 --> 25:51.000
+oder wie kann ich aus einer Formel oder wie kann ich aus mehreren Formeln oder in einer Formel ein logisches Symbol hinzufügen,
+
+25:51.000 --> 26:01.000
+das noch nicht da ist, das ich aber haben will. Das ist alles. Wenn man das hat und da was dazwischen,
+
+26:01.000 --> 26:11.000
+dann darf man auch dieses Symbol zwischen diesen beiden hinzufügen. Das ist an sich erstmal überhaupt keine
+
+26:11.000 --> 26:21.000
+in Anführungszeichen logische Aussage, sondern wie ich vorhin gesagt habe, eine reine Spielerei mit Symbol.
+
+26:21.000 --> 26:40.000
+Wozu baut man sich diese Implikationseinführung? Also, naja, wir können das uns so überlegen.
+
+26:40.000 --> 26:53.000
+Wenn man ein Q direkt beweisen will, dann kann es sein, dass das auf Anhieb nicht so klappt.
+
+26:53.000 --> 27:02.000
+Jetzt macht man eine Hilfsannahme P. Jetzt macht man eine Hilfsannahme P. Also, wir wollen Q beweisen,
+
+27:02.000 --> 27:17.000
+kriegen es nicht hin und machen jetzt mal eine Hilfsannahme P. Und mit Hilfe dieser Hilfsannahme P können wir auf Q kommen.
+
+27:17.000 --> 27:35.000
+Das heißt, dass wenn man die Hilfsannahme P hat und zu Q kommt, bewiesen hat, dass P Q impliziert.
+
+27:35.000 --> 27:44.000
+Was muss man jetzt noch machen? Na ja, man muss jetzt eigentlich nur noch P beweisen.
+
+27:44.000 --> 27:54.000
+Und wenn man dann P bewiesen hat und weil unter der Annahme, dass P impliziert, Q gilt,
+
+27:54.000 --> 28:07.000
+kann man dann mit der Anwendung der Regel Modus Ponens auf die Gültigkeit von Q schließen.
+
+28:07.000 --> 28:21.000
+Gut. Was ich Ihnen jetzt also hier in einem Schweinsgalopp vorgeführt habe, ist im Endeffekt etwas,
+
+28:21.000 --> 28:31.000
+was nichts anderes ist, zum Beispiel, als, naja, ein bisschen mehr steckt schon dahinter,
+
+28:31.000 --> 28:38.000
+aber wenn Sie jetzt an die Programmierung denken oder an formale Sprachen,
+
+28:38.000 --> 28:53.000
+wie kann ich bestimmte Ausdrücke mit einer Grammatik oder durch Ersetzungsregeln auf regulären Ausdrücken,
+
+28:53.000 --> 29:12.000
+wie kann ich eine Menge von Strings algorithmisch umformen in einen String, den ich haben will?
+
+29:12.000 --> 29:20.000
+Das ist der Trick, warum man sich Kalkülregeln baut.
+
+29:20.000 --> 29:23.000
+Da steckt noch einiges mehr dahinter.
+
+29:23.000 --> 29:29.000
+Damit so ein Kalkül funktioniert, muss man entscheiden können, ob eine Formel da reinpasst.
+
+29:29.000 --> 29:35.000
+Was das ist, lernen Sie später. Natürlich dürfen es nur endlich viele Regeln sein.
+
+29:35.000 --> 29:41.000
+Wenn es mehrere Regeln sind an einer bestimmten Stelle, die man anwenden könnte,
+
+29:41.000 --> 29:48.000
+ist das ganze Verfahren nicht deterministisch und man muss sich überlegen, was probiert man aus
+
+29:48.000 --> 29:54.000
+und wenn das nicht klappt, muss man daran denken, dass man ja noch eine andere Möglichkeit hatte und so weiter und so fort.
+
+29:54.000 --> 29:58.000
+Da steckt also noch einiges mehr dahinter.
+
+29:58.000 --> 30:05.000
+Aber im Prinzip, denke ich, hoffe ich, Ihnen Klagenmacht zu haben,
+
+30:05.000 --> 30:18.000
+wofür so ein Kalkül in der Informatik sinnvoll und wichtig ist.
+

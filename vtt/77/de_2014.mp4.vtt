@@ -1,0 +1,299 @@
+WEBVTT
+
+00:00.000 --> 00:20.000
+Ich habe ja eben schon angesprochen, wie man das im Endeffekt von der Idee her relativ einfach zeigen kann.
+
+00:20.000 --> 00:25.000
+Wenn ich in der Sequenz hier vorne, die ja als Konjunktion gelesen wird, zwei Formeln habe,
+
+00:25.000 --> 00:28.000
+dann kann ich das umformen zu einer Konjunktion.
+
+00:28.000 --> 00:35.000
+Und jetzt sehen Sie auch, warum ich in den Beweisen oder allem, was ich Ihnen aufgeschrieben habe,
+
+00:35.000 --> 00:41.000
+über die Äquivalenzzeichen immer diese Kürzel geschrieben habe,
+
+00:41.000 --> 00:50.000
+die zeigen, was von jedem Äquivalenzschritt oder in jeder Äquivalenzumformung welches Gesetz ich angewendet habe.
+
+00:50.000 --> 00:59.000
+Jetzt kann man nämlich eigentlich schon den Beweis einer solchen Junge Regel, den ich hier zum Beispiel für die Einführung der Negation
+
+00:59.000 --> 01:08.000
+auf der linken Seite oder auf der rechten Seite hinschreiben, die Korrektheit von Null und Nil folgt aus der Schampingregel.
+
+01:08.000 --> 01:15.000
+Also aus der Rancieregel. Fertig aus. Also man schreibt das hin und dann weiß man, hat man einen ganz kurzen Äquivalenzbeweis,
+
+01:15.000 --> 01:18.000
+wo man nur die Rancieregel braucht.
+
+01:18.000 --> 01:29.000
+Hier für die Konjunktionseinführung und die Disjunktionseinführung nutzt man die Assoziativität von Konjunktion und Disjunktion aus.
+
+01:29.000 --> 01:33.000
+Im Endeffekt genauso, wie ich es Ihnen eben erklärt habe.
+
+01:33.000 --> 01:39.000
+Also man kann dann die Beweise sehr komprimiert darstellen.
+
+01:39.000 --> 01:43.000
+Jetzt ist wieder der Mausfokus verloren gegangen.
+
+01:43.000 --> 01:57.000
+So. Manchmal ist es natürlich auch ein bisschen komplizierter, wie eben mit der Einführung einer Subjunktion auf der linken Seite.
+
+01:57.000 --> 02:10.000
+Das ist im Endeffekt eben auch wieder ein in Anführungszeichen Abschätzungsbeweis.
+
+02:10.000 --> 02:18.000
+Erinnern Sie sich daran, eine Implikation oder eine Subjunktion ist wahr, wenn der Wahrheitswert der Prämisse kleiner
+
+02:18.000 --> 02:22.000
+gleich dem Wahrheitswert der Subjunktion ist.
+
+02:22.000 --> 02:35.000
+Ich kann also zum Beispiel, also wir gehen davon aus, dass diese beiden Sequenzen hier natürlich bereits abgeleitet worden sind.
+
+02:35.000 --> 02:41.000
+Und wir müssen zeigen, dass wenn diese bereits abgeleitet worden sind, auch diese hier sind.
+
+02:41.000 --> 02:49.000
+Gut. Jetzt kann man natürlich sich diese Sequenz hier nehmen, von der wissen wir ja, dass sie in Ordnung ist.
+
+02:49.000 --> 02:57.000
+Und was wir machen können ist, wir können jetzt über die Rangierregel das P negieren und hier rüberziehen.
+
+02:57.000 --> 02:59.000
+Gut.
+
+02:59.000 --> 03:18.000
+Dann haben Sie folgendes. Dann haben wir halt einmal hier QP stehen und wir haben einmal hier nicht P und R stehen.
+
+03:18.000 --> 03:27.000
+Und QP kann ich jetzt ja mit der Abschwächungsregel nach oben abschätzen.
+
+03:27.000 --> 03:41.000
+Also wenn aus Q und P Q folgt, also die Disjunktion all dieser Formen hier hinten, dann folgt aus Q und P natürlich auch,
+
+03:41.000 --> 03:48.000
+wenn das hier gilt, die Disjunktion von Q, weil ein erfüllendes muss dann da drin sein, oder noch weitere.
+
+03:48.000 --> 03:54.000
+Kann ich ja irgendwas dazuspeilen. Und das mache ich, indem ich das S dazuspeile.
+
+03:54.000 --> 04:04.000
+Und nachdem ich dieses P hier rübergeholt habe und negiert habe, kann ich natürlich auch das S, das hier hinten steht,
+
+04:04.000 --> 04:11.000
+nach oben abschätzen und irgendwie ein Q dazu oder sage ich mal so.
+
+04:11.000 --> 04:23.000
+Also die rechten Seiten kann ich abschwächen und analog dazu kann ich die linken Seiten nach unten abschätzen,
+
+04:23.000 --> 04:32.000
+indem ich sie strenger mache. Wenn aus einer schwachen Aussage etwas folgt, dann folgt das natürlich auch
+
+04:32.000 --> 04:41.000
+aus der strengeren Variante unserer Aussage. Und dann sehen Sie, wird eben zum Beispiel aus nicht PR S
+
+04:41.000 --> 04:56.000
+beziehungsweise nicht PR Q S jetzt schon, kann ich dann natürlich mein P hier noch dazunehmen. Analog eben auch für die anderen.
+
+04:56.000 --> 05:09.000
+So und jetzt passiert was Tolles. Jetzt habe ich nämlich hier im Endeffekt die Sequenz steht PR Q S und die steht hier auch PR Q S.
+
+05:09.000 --> 05:18.000
+Der einzige Unterschied ist, dass hier einmal Q steht und hier einmal nicht P.
+
+05:18.000 --> 05:30.000
+Und dann ist natürlich klar, wenn diese Sequenz geht und diese Sequenz, dann folgt aus der Gültigkeit dieser hier das
+
+05:30.000 --> 05:47.000
+und aus der Gültigkeit dieser hier folgt das auch. Also kann ich sagen nicht P ist wahr oder hier Q und das kann ich dann
+
+05:47.000 --> 06:02.000
+über die Definition der Subjunktion umformen. Und damit habe ich dann eben die Äquivalenz gezeigt oder zu dieser
+
+06:02.000 --> 06:11.000
+Sequenz hier und das ist genau diese Sequenz, die wir mit dieser Regel ableiten wollen. Ein bisschen komplizierter,
+
+06:11.000 --> 06:20.000
+aber das Schema ist immer das Gleiche. Das sind die Junkturregeln, die sind jetzt einfacher und über die können wir dann
+
+06:20.000 --> 06:31.000
+jetzt auch einfach hinweg springen. So das Schöne ist also, wir haben jetzt gezeigt, dass LK ein korrektes Kalkül für Aussagenlogik ist.
+
+06:31.000 --> 06:43.000
+Das reicht schon. Das Problem ist, wir brauchen jetzt um zu zeigen, dass wir auch mit Quantoren umgehen können, noch
+
+06:43.000 --> 06:54.000
+zusätzliche Regeln, nämlich für die quantifizierten Regeln. Die Vollständigkeit des Kalküls, das habe ich glaube ich
+
+06:54.000 --> 07:07.000
+letztes Mal auch schon angedeutet, zeigt nämlich hier. Das wird aber in der Regel so gemacht, dass man einmal ein Kalkül oder
+
+07:07.000 --> 07:18.000
+für eines dieser Kalküle für Prädikatenlogik oder auch Aussagenlogik, dass man einmal dessen Vollständigkeit beweist und dann,
+
+07:18.000 --> 07:29.000
+wenn man die Vollständigkeit eines anderen Kalküls beweisen will, das vollständige Kalkül in diesem simuliert.
+
+07:29.000 --> 07:40.000
+Kommen wir also zu den Quantorenregeln. Ein paar von Ihnen, die gestern in der Übung waren, haben mich nach Chorlogik
+
+07:40.000 --> 07:53.000
+befragt und die haben schon etwas gesehen, was manchmal etwas verwirrend wirkt, aber hier in diesem Sequenzenkalkül auch
+
+07:53.000 --> 08:13.000
+auftaucht. Wir können also in Anführungszeichen relativ einfach und relativ unbekümmert in unseren Sequenzen
+
+08:13.000 --> 08:29.000
+Quantoren hinzufügen. Also wenn ich zum Beispiel eine Formel p mit einer darin auftauchenden Variable x alt quantifizieren will,
+
+08:29.000 --> 08:52.000
+dann darf ich das machen, und das klingt jetzt ein bisschen mutig, dann darf ich es machen, wenn diese Formel p erfüllt ist,
+
+08:52.000 --> 09:06.000
+wobei allerdings die Variable x in p durch einen Tertie ersetzt ist. Also wenn hier zum Beispiel steht, und das ist das,
+
+09:06.000 --> 09:17.000
+sagen wir mal, Kontraintuitive, wenn hier steht 3 ist ungerade, dann steht hier unten, für alle x gilt x ist ungerade.
+
+09:17.000 --> 09:33.000
+Der Trick ist allerdings die Wahl dieses Terms, und vor allen Dingen sagt man eben, naja, wenn ich dafür jetzt
+
+09:33.000 --> 09:40.000
+einen Term einsetzen kann, also es gibt eine Variante, in der sagt man, es dürfen nur Grundterme sein, wenn ich das mache,
+
+09:40.000 --> 09:48.000
+und es setzt da Grundterme ein, dann muss ich ja beweisen, dass dieses Prädikat hier oder diese Formel für einen bestimmten
+
+09:48.000 --> 10:04.000
+Grundterm wahr ist. Weil jetzt aber diese Einsetzung im Endeffekt wahlfrei ist, stehen hier oben die p's mit allen möglichen
+
+10:04.000 --> 10:13.000
+Instanzen oder Einsetzungen von Termen für die Variable x. Und dafür schreiben wir einfach für alle x.
+
+10:13.000 --> 10:15.000
+Das berühmte Belegung war fest?
+
+10:15.000 --> 10:34.000
+So in etwa. Genau. Gut. Und das können Sie sich jetzt schon überlegen mit der Dualität der Quantoren, dass man auf die
+
+10:34.000 --> 10:42.000
+ähnliche Art und Weise den Existenzquantor sehr einfach auf der rechten Seite einführen darf. Die Einführung der Quantoren
+
+10:42.000 --> 10:54.000
+jeweils auf der anderen Seite sieht jetzt etwas eigenartig aus, nämlich weil hier eine Variable y steht.
+
+10:54.000 --> 11:09.000
+Das heißt also sozusagen eine nicht festgelegte Belegung. Wichtig ist dabei natürlich, dass diese Ersetzung zulässig ist.
+
+11:09.000 --> 11:23.000
+Und natürlich, dass wir eben durch die Allquantifizierung hier, wenn wir es von oben nach unten lesen, hier keine
+
+11:23.000 --> 11:37.000
+Veränderungen bezüglich der Wirkbereiche von Quantoren auf Variablen haben. Auch hierzu gibt es eine vereinfachte
+
+11:37.000 --> 11:49.000
+Variante. Und deswegen vorsichtig, wenn Sie das lesen, man sagt, hier oben stehen Terme. Terme, in denen, wenn man nicht
+
+11:49.000 --> 12:06.000
+diese Annahme macht, womöglich auch Variablen stehen können. Da muss dann aber auch hier die Zulässigkeit gegeben sein.
+
+12:06.000 --> 12:12.000
+Jetzt habe ich gerade den Faden verloren. Genau, richtig. Jetzt waren wir ja hier unten. Und wir hatten hier die Ersetzung
+
+12:12.000 --> 12:21.000
+durch eine Variable. Und auch da gibt es eine Variante, die dann aber sagt, dass die Variable y, die als sogenannte
+
+12:21.000 --> 12:33.000
+Eigenvariable bezeichnet wird, auch durch eine Konstante, also einen nicht komplexen Term ersetzt werden kann,
+
+12:33.000 --> 12:47.000
+die allerdings neu ist. Also ich möchte jetzt hier auf die Bedeutung und den Beweis der Korrektheit dieser Regel
+
+12:47.000 --> 13:04.000
+nicht im Einzelnen eingehen. Ja, genau. Sie werden aber je nachdem, wo Sie in der Literatur nachschauen, immer leicht
+
+13:04.000 --> 13:17.000
+verschiedene Definitionen, zum Beispiel in dieser Kantonregel finden. Es gibt zum Beispiel auch eine Variante,
+
+13:17.000 --> 13:27.000
+in denen es sogenannte Substitutionsregeln gibt. In diesen Substitutionsregeln geht man davon aus, dass es dann
+
+13:27.000 --> 13:36.000
+ein besonderes Prädikat für die Gleichheit zweier Therme gibt oder für die Gleichheit zweier Ausdrücke.
+
+13:36.000 --> 13:48.000
+Und wenn das gegeben ist, dann darf eben auch eine entsprechende Substitution durchgeführt werden.
+
+13:48.000 --> 14:02.000
+Gut. Hier habe ich jetzt einfach mal aufgeschrieben, wie der Beweis für die Korrektheit der Einführung
+
+14:02.000 --> 14:12.000
+von all Quantoren aus der Medienseite funktionieren würde. Man geht also davon aus, dass eine Sequenz
+
+14:12.000 --> 14:21.000
+bestehend mit dieser Formel p, wobei eben nicht ein x drinsteht, sondern ein Thern, eine gültige Sequenz ist.
+
+14:21.000 --> 14:29.000
+Das heißt, jedes Modell von dieser Konjunktion ist auch ein Modell von dieser Disjunktion.
+
+14:29.000 --> 14:39.000
+Um dann die Gültigkeit zu zeigen, gehen wir davon aus, dass eben hier diese Sequenzen-Premisse,
+
+14:39.000 --> 14:47.000
+irgendwann gehen einem die Wörter aus. Wieder die falsche Tastatur. Geht man eben davon aus, dass
+
+14:47.000 --> 14:56.000
+dieses hier prädikatenlogisch erfüllt ist und dann muss ja dieses prädikatenlogisch auch erfüllt sein,
+
+14:56.000 --> 15:07.000
+damit die gesamte Sequenz gültig ist. Dann macht man das also, dann schreibt man dieses Ding hier hin,
+
+15:07.000 --> 15:17.000
+dann überlegt man sich, wie das mit dem all Quantor ist. Gut, hier ist jetzt ein bisschen, ja genau,
+
+15:17.000 --> 15:28.000
+also ein x nicht bei p, meck passt, genau. Dann ist das die Definition des all Quantors.
+
+15:28.000 --> 15:38.000
+Dann überlegen wir uns, dieses a hier aus unserem Universum ist wieder das sogenannte beliebige, aber
+
+15:38.000 --> 15:44.000
+feste, für das es natürlich viele Therme gibt, die in der Auswertung genau dieses a ergeben.
+
+15:44.000 --> 15:52.000
+Dann nehme ich das Substitutionslämmer, schmeiße genau ein solches T, das in der Auswertung genau dieses a
+
+15:52.000 --> 16:04.000
+gibt, nämlich alle, das ist genau das, was ich vorhin gesagt habe, hier hinein und dann haben wir ja
+
+16:04.000 --> 16:20.000
+angenommen, dass aus p, wobei x eben den Wert T hat, mit p q folgt. Das heißt, hier, diese Formel ist
+
+16:20.000 --> 16:28.000
+prädikatenlogisch erfüllt. Das haben wir jetzt hier unten stehen und weil diese prädikatenlogische
+
+16:28.000 --> 16:42.000
+Formel erfüllt ist, ist dann nach unserer Annahme hier eben auch q erfüllt. Und damit dürfen wir
+
+16:42.000 --> 16:52.000
+diese Disjunktion von q hinter unsere Sequenzenimplikation schreiben und das ist genau das.
+
+16:52.000 --> 17:00.000
+War jetzt vielleicht wieder ein bisschen technisch. Wie gesagt, ich wollte es Ihnen zeigen. Interessanter
+
+17:00.000 --> 17:07.000
+für Sie ist natürlich die Aussage, dass man die Korrektheit der anderen Regeln jeweils als Übung in
+
+17:07.000 --> 17:17.000
+einer Hausaufgabe oder in der Klausur beweisen können sollte. Nein, müssen Sie nicht. Nicht im
+
+17:17.000 --> 17:38.000
+ersten Semester. Also, diese Folie hier ist für Sie jetzt irreverantwortlich. Gut.
+

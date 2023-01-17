@@ -1,0 +1,296 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Also bis hierhin denke ich, bis wie gesagt auf die Tatsache, dass es verblüffend war, dass hier zweimal P angenommen wird,
+
+00:10.000 --> 00:14.000
+weil das eine hier konsumiert wird und wir das zweite eigentlich dafür brauchen.
+
+00:14.000 --> 00:18.000
+Ansonsten denke ich, war es bis hierhin relativ klar.
+
+00:18.000 --> 00:25.000
+Dieser Teil hier unten ist ein bisschen mühselig.
+
+00:25.000 --> 00:32.000
+Wenn ich meine Maus wieder richtig hinstelle.
+
+00:32.000 --> 00:45.000
+Naja, immerhin, Gott sei Dank, können wir jetzt wegen unseres angemammelten Ps hier Q subjunktion R hinschreiben.
+
+00:45.000 --> 00:51.000
+Schön, durch die Anwendung des Musospolens.
+
+00:51.000 --> 00:58.000
+Und jetzt sieht man, hier wurde dieses P verwendet.
+
+00:58.000 --> 01:05.000
+Weil dieses P hier nur in diesem Seitenbeweis funktioniert und jetzt gar nicht mehr da ist.
+
+01:05.000 --> 01:08.000
+Aber wie gesagt, das ist ein Detail.
+
+01:08.000 --> 01:17.000
+Wir haben jetzt also, was wir haben wollten, nämlich die Subjunktion Q impliziert R.
+
+01:17.000 --> 01:26.000
+Weil das hatten wir uns ja vorgenommen rauszukriegen, damit wir von hier relativ einfach zu nicht Q oder R kommen.
+
+01:26.000 --> 01:38.000
+Das ist jetzt halt nicht so einfach, weil jetzt muss man etwas machen, was man bei Beweisen immer macht.
+
+01:38.000 --> 01:44.000
+Wenn man keine Ahnung hat, wie es funktionieren soll, versucht man einen Widerspruch.
+
+01:44.000 --> 01:53.000
+Wir nehmen jetzt einfach mal an, dass das, was wir haben wollen, nicht Q oder R, nicht gilt.
+
+01:53.000 --> 02:00.000
+Weil wenn nicht Q oder R nicht gilt und daraus ein Widerspruch folgt,
+
+02:00.000 --> 02:15.000
+Entschuldigung, hier stand vorhin ein großes F für forms, wenn also nicht Q oder R, oder wenn unter der Annahme das nicht Q oder R der Widerspruch abgeleitet werden kann,
+
+02:15.000 --> 02:19.000
+dann wissen wir, dass die Negation hiervon wahr sein muss.
+
+02:19.000 --> 02:21.000
+Und das ist ja das, was wir haben wollen.
+
+02:21.000 --> 02:35.000
+Wir versuchen also jetzt einen Widerspruch dessen, was wir haben wollen, herzuleiten, indem wir es negieren.
+
+02:35.000 --> 02:49.000
+Jetzt wäre es natürlich super, wenn wir dieses Ding so weit zerlegt kriegen, dass hier Q und R rauskommen.
+
+02:49.000 --> 03:03.000
+Weil wenn Q und R gelten, wird tatsächlich dieses Teil falsch.
+
+03:03.000 --> 03:05.000
+Was machen wir nun?
+
+03:05.000 --> 03:13.000
+Wir müssen nun erneut einen kleinen Widerspruchsbeweis machen, um Q zu bekommen.
+
+03:13.000 --> 03:24.000
+Wir nehmen also an, dass nicht Q gilt, leiten einen Widerspruch her und werden dann wissen, dass Q gilt.
+
+03:24.000 --> 03:36.000
+Die Frage ist, wie kriegen wir denn in aller Welt aus dem nicht Q einen Widerspruch her?
+
+03:36.000 --> 03:39.000
+Da müssen wir jetzt kurz gucken.
+
+03:39.000 --> 03:44.000
+Dazu nutzen wir jetzt die Disjunktionseinführung.
+
+03:44.000 --> 03:55.000
+Dazu nehmen wir einfach die Disjunktionseinführung.
+
+03:55.000 --> 03:59.000
+Das heißt, wir können nicht Q absprechen zu nicht Q oder R.
+
+03:59.000 --> 04:08.000
+Dann haben wir hier einen Widerspruch dazu.
+
+04:08.000 --> 04:19.000
+Und kommen zu der Aussage, dass nicht Q nicht gilt.
+
+04:19.000 --> 04:28.000
+Das ist doch schon mal toll, weil mit der doppelten Negation können wir jetzt aus nicht Q Q machen.
+
+04:28.000 --> 04:37.000
+Kriegen Sie keine Angst, wenn Sie das jetzt auf Anhieb nicht nachvollziehen können.
+
+04:37.000 --> 04:39.000
+Das ist überhaupt nicht schlimm.
+
+04:39.000 --> 04:47.000
+Ich will es Ihnen nur zeigen, wie es geht.
+
+04:47.000 --> 04:57.000
+Jetzt können wir wieder die Disjunktionseinführung nehmen aus 15.
+
+04:57.000 --> 05:00.000
+Wir nehmen R und schreiben uns ein nicht Q dazu.
+
+05:00.000 --> 05:01.000
+Warum nehmen wir das nicht Q?
+
+05:01.000 --> 05:05.000
+Ganz einfach, damit wir mit dem Q ein Widerspruch kriegen.
+
+05:05.000 --> 05:12.000
+Aus 9 und 16.
+
+05:12.000 --> 05:16.000
+Entschuldigung, wir haben ja schon wieder eine Deklamation dazwischen.
+
+05:16.000 --> 05:25.000
+Aus nicht Q und unserer Annahme nicht Q oder R haben wir hier den nächsten Widerspruch.
+
+05:25.000 --> 05:34.000
+Das heißt, wir wissen, dass nicht Q oder R gilt.
+
+05:34.000 --> 05:41.000
+Beziehungsweise, um genau zu sein, wissen wir jetzt erst mal, dass nicht nicht nicht gilt.
+
+05:41.000 --> 05:47.000
+Wenn das nicht gilt und zu einem Widerspruch führt, müssen wir noch ein nicht davor schreiben.
+
+05:47.000 --> 05:49.000
+Jetzt stehen da zwei nichts davor.
+
+05:49.000 --> 05:57.000
+Dann nehmen wir die Negationselimination, nicht Einführung, streichen die zwei weg.
+
+05:57.000 --> 06:00.000
+Kommen wir zu nicht Q oder R.
+
+06:00.000 --> 06:03.000
+Und zwar unter der Annahme P.
+
+06:03.000 --> 06:07.000
+Jetzt können wir das letzte angenommenen P konsumieren, sozusagen.
+
+06:07.000 --> 06:17.000
+Und wir haben aus P, unter der Annahme P, konnten wir mit unserer Prämisse nicht Q oder R ableiten.
+
+06:17.000 --> 06:23.000
+Das heißt, wenn P, dann nicht Q oder R.
+
+06:23.000 --> 06:45.000
+Also, was Sie aber sehen, ist im Endeffekt, dass dieser Beweis beim drauf gucken vollkommen unverständlich ist.
+
+06:45.000 --> 06:52.000
+Dass er aber von der Struktur her einem Beweis gleicht, wie wir ihn führen würden.
+
+06:52.000 --> 06:59.000
+Und der detailliert bis ins Kleinste ist.
+
+06:59.000 --> 07:09.000
+Und in jedem Schritt auch erklärt ist, was tatsächlich passiert.
+
+07:09.000 --> 07:16.000
+Er sieht also im ersten Moment nicht verständlich aus.
+
+07:16.000 --> 07:26.000
+Es steckt aber alle Informationen drin.
+
+07:26.000 --> 07:30.000
+Es steht aber alles drin.
+
+07:30.000 --> 07:38.000
+Und gleichzeitig ist dieses Ding so formal, dass Sie sich genau vorstellen können,
+
+07:38.000 --> 07:48.000
+dass Sie ein Programm schreiben, das genau das macht und zwar versucht, so wie ich es Ihnen dargestellt habe, zu konstruieren.
+
+07:48.000 --> 08:00.000
+Teilweise von unten nach oben, teilweise von oben nach unten, teilweise mit einem sogenannten Lämmer und was auch immer.
+
+08:00.000 --> 08:08.000
+Und wenn ein Computer einen solchen Beweis hinkriegt mit solchen Kommentaren,
+
+08:08.000 --> 08:23.000
+dann ist es dann auch ein kleines Programmchen zu schreiben, das aus diesen fürchterlichen Kürzeln einen lesbaren Beweis macht.
+
+08:23.000 --> 08:38.000
+Also, ich hoffe oder das, was mir wichtig ist, was Sie jetzt aus diesem natürlichen Detuktionskalkül mitgenommen haben,
+
+08:38.000 --> 08:50.000
+ist, dass die natürliche Detuktion nichts anderes ist als eine formale Darstellung dessen, was man normalerweise beim Beweisen macht.
+
+08:50.000 --> 09:00.000
+Eine Ableitung in diesem Kalkül ist also exakt.
+
+09:00.000 --> 09:07.000
+Jeder Schritt kann richtig sein oder falsch und es ist unmissverständlich.
+
+09:07.000 --> 09:12.000
+Wenn man etwas hinschreibt, kann man genau sagen, das war korrekt oder nein, das war nicht korrekt.
+
+09:12.000 --> 09:15.000
+Im letzteren Fall ist der Beweis falsch.
+
+09:15.000 --> 09:21.000
+Das kann zwar heißen, dass das, was rauskommt, trotzdem rechtlich ist, aber das wäre Zufall.
+
+09:21.000 --> 09:31.000
+Wir haben gezeigt, beziehungsweise teilweise nur argumentiert, dass das korrekt ist.
+
+09:31.000 --> 09:40.000
+Also alles, was man damit ableiten kann, stellt eine gültige logische Schlussfolgerung dar und es ist vollständig.
+
+09:40.000 --> 09:45.000
+Das habe ich vorhin schon begründet, indem man einen vollständigen Kalkül darin simulieren kann.
+
+09:45.000 --> 09:49.000
+Das fällt aber in eine andere Form.
+
+09:49.000 --> 10:00.000
+Also, diese natürliche Detuktion ist sicher, weil man nichts Falsches ableiten kann und sie ist ausreichend mächtig,
+
+10:00.000 --> 10:04.000
+weil man alles ableiten kann, was man braucht.
+
+10:04.000 --> 10:07.000
+Achso, hier steht es.
+
+10:07.000 --> 10:21.000
+Also, diese natürliche Detuktion ist ein Werkzeug, das man jetzt nutzen kann, wie man will.
+
+10:21.000 --> 10:27.000
+Dazu möchte ich Ihnen insbesondere Folgendes sagen.
+
+10:27.000 --> 10:33.000
+Es gibt ein ganz tolles Buch, das ich Ihnen wirklich ans Herz lege, auch wenn es auf Englisch ist.
+
+10:33.000 --> 10:36.000
+Das ist von Hoof und Ryan, Logical Computer Science.
+
+10:36.000 --> 10:41.000
+Da gibt es inzwischen mehrere Auflagen von oder mehrere Editionen.
+
+10:41.000 --> 10:50.000
+Das ist zwar auf Englisch, aber das ist so anschaulich geschrieben.
+
+10:50.000 --> 11:01.000
+Es ist einerseits formal genau genug, dass Sie nachvollziehen können oder dass Sie eine wunderbare Ergänzung zu dem haben,
+
+11:01.000 --> 11:03.000
+was hier in der Vorlesung ist.
+
+11:03.000 --> 11:08.000
+Auf der anderen Seite ist der Text, der da drin steht, einfach wunderbar einfach zu verstehen.
+
+11:08.000 --> 11:10.000
+Es ist wirklich schön geschrieben.
+
+11:10.000 --> 11:17.000
+Also, es ist eigentlich ein Buch für den Nachtisch.
+
+11:17.000 --> 11:30.000
+Ursprünglich wurde dieses Kalkül der natürlichen Detuktion unter dem Namen N.J. von Genzen vorgestellt
+
+11:30.000 --> 11:36.000
+und dann verfallen hat in andere Kalküle, die weitere Vorteile haben.
+
+11:36.000 --> 11:41.000
+Sie finden einige Online-Tutorials dazu im Internet.
+
+11:41.000 --> 11:48.000
+Was ich Ihnen ganz einfach schon mal hier ans Herz legen will, wir haben gesagt, dieses Ding kann man implementieren.
+
+11:48.000 --> 11:51.000
+Das haben natürlich einige Leute gemacht.
+
+11:51.000 --> 11:59.000
+Sie finden sogar eine Online-Version, wo Sie einfach in ein HTML-Dings eine Formel eingeben können,
+
+11:59.000 --> 12:04.000
+da kann man etwas beweisen und dann drücken Sie auf Submit und dann kommt der Beweis raus.
+
+12:04.000 --> 12:30.000
+Das kann man natürlich nicht in der Klausur verwenden, aber es zeigt Ihnen, dass das möglich ist.
+

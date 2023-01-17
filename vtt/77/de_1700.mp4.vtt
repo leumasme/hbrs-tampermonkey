@@ -1,0 +1,203 @@
+WEBVTT
+
+00:00.000 --> 00:08.000
+So, jetzt wissen wir also, was Bildlichkeit ist und was Wahrheit ist.
+
+00:08.000 --> 00:20.000
+Das Interessante ist jetzt natürlich, sich zu überlegen, ob aus der Wahrheit einer bestimmten Formel
+
+00:20.000 --> 00:27.000
+abzuleiten ist, ob auch eine andere Formel wahr ist.
+
+00:27.000 --> 00:33.000
+Also, wenn ich zum Beispiel sage, die Sonne scheint oder es regnet,
+
+00:33.000 --> 00:42.000
+nein, wenn ich zum Beispiel sage, die Sonne scheint, ob dann auch die Aussage, die Sonne scheint oder es regnet, wahr ist.
+
+00:42.000 --> 00:47.000
+Wenn also die erste Aussage wahr ist, ist dann auch die zweite wahr.
+
+00:47.000 --> 00:56.000
+So, und jetzt bedenken Sie, das ist etwas ganz anderes als eine Subjunktion.
+
+00:56.000 --> 01:11.000
+Eine Subjunktion ist ein Operator, der einer Aussage der syntaktischen Form, wenn a dann b, hilft, in einer Logik darzustellen.
+
+01:11.000 --> 01:18.000
+Was wir jetzt aber machen, wenn wir mehrere solche Formeln haben, ist, uns zu überlegen,
+
+01:18.000 --> 01:26.000
+ob wenn eine Formel wahr ist, dann auch eine andere Formel wahr ist.
+
+01:26.000 --> 01:31.000
+Wir reden jetzt also über die Wahrheitsbedingungen von Formeln.
+
+01:31.000 --> 01:36.000
+Und wir reden nicht mehr über die Formeln selber.
+
+01:36.000 --> 01:50.000
+Gut, und dazu gibt es eben dann den, halt, falsche Maus, den Begriff der Implikation.
+
+01:50.000 --> 02:00.000
+Also, was ich gerade gesagt habe, ist, die Subjunktion dient alleine der Darstellung einer Äußerung wie, wenn p dann k ist.
+
+02:00.000 --> 02:08.000
+Deswegen schreibt man p impliziert k. Und deswegen habe ich gesagt, das Wort impliziert ist an dieser Stelle ein bisschen irreführend.
+
+02:08.000 --> 02:22.000
+Eine tatsächliche Implikation, auch logische Implikation genannt, bedeutet, dass, wenn p gilt, auch k gilt.
+
+02:22.000 --> 02:28.000
+Wenn also wann immer p wahr ist, auch k wahr. Und genau so definieren wir es uns.
+
+02:28.000 --> 02:33.000
+Wir sagen also, eine Formel p impliziert eine Formel q.
+
+02:33.000 --> 02:39.000
+Und das schreiben wir mit einem Doppelpfeil, um eben klar zu machen, dass es keine Subjunktion ist,
+
+02:39.000 --> 02:45.000
+sondern eine Aussage über die Wahrheitsbedingungen der evaluierten Formeln.
+
+02:45.000 --> 02:51.000
+Also p impliziert q, geschrieben als p Doppelpfeil q.
+
+02:51.000 --> 03:02.000
+Genau dann, wenn sozusagen die Interpretation von p kleiner gleich der Interpretation von q ist,
+
+03:02.000 --> 03:16.000
+vergessen Sie das mal kurz, und das ist dasselbe, wie wenn ich sage, wann immer für eine bestimmte Belegung die Formel p zu true ausgewertet wird,
+
+03:16.000 --> 03:25.000
+dann wird auch die Formel q zu true ausgewertet. Wir schreiben dann also p impliziert q.
+
+03:25.000 --> 03:33.000
+Und p und q nennt man Äquivalent, und das macht man dann mit einem Doppelpfeil in beide Richtungen,
+
+03:33.000 --> 03:39.000
+wenn sowohl p q impliziert als auch q p impliziert.
+
+03:39.000 --> 03:43.000
+Also eigentlich müsste man auch klar machen.
+
+03:43.000 --> 04:07.000
+Das heißt, wenn für jede erfüllende Belegung von p auch q erfüllt ist, dann impliziert p q.
+
+04:07.000 --> 04:19.000
+Wann immer p wahr wird, wird auch q wahr. Also jede Belegung alpha, die p wahr macht, macht auch q wahr.
+
+04:19.000 --> 04:25.000
+Und jetzt wissen Sie schon, naja, das ist nichts anderes als eine Teilmengebeziehung.
+
+04:25.000 --> 04:36.000
+Und dementsprechend ist also die Erfüllungsmenge von p eine Teilmenge der Erfüllungsmenge von q.
+
+04:36.000 --> 04:49.000
+Weil p impliziert q genau dann, wenn jede erfüllende Belegung von p, die ja hier drin sein muss,
+
+04:49.000 --> 04:54.000
+auch eine erfüllende Belegung von q ist, die dann da drin ist.
+
+04:54.000 --> 05:05.000
+Also wir können die Implikation auch definieren über die Teilmengebeziehung zwischen der Erfüllungsmenge
+
+05:05.000 --> 05:10.000
+und das hier ist im Endeffekt etwas, damit können Sie mal rumspielen.
+
+05:10.000 --> 05:18.000
+Wenn Sie sich die Wahrheitstabelle der Subjunktion angucken, dann werden Sie feststellen,
+
+05:18.000 --> 05:28.000
+dass sie immer dann zu 1 ausgewertet wird, wenn der Wert, der links vom Pfeil steht,
+
+05:28.000 --> 05:33.000
+kleiner gleich dem Wert ist, der rechts vom Pfeil steht.
+
+05:33.000 --> 05:46.000
+So, wir haben es in den seltensten Fällen mit nur einer Form zu tun, sondern mit mehreren.
+
+05:46.000 --> 05:52.000
+Und was man deswegen macht, ist, dass man, wenn man Formelmengen betrachtet,
+
+05:52.000 --> 06:00.000
+die Eigenschaften von Formeln auch auf Formelmengen übertragen möchte.
+
+06:00.000 --> 06:07.000
+Wir sagen, eine Formelmenge p hat eine bestimmte Eigenschaft e,
+
+06:07.000 --> 06:12.000
+wenn alle Formeln p aus dieser Formelmenge diese Eigenschaft haben.
+
+06:12.000 --> 06:22.000
+Also zum Beispiel die Formelmenge p ist erfüllbar, wenn es ein Alpha gibt, das alle p erfüllt.
+
+06:22.000 --> 06:27.000
+Nicht, wenn jedes p aus p irgendwie erfüllbar ist,
+
+06:27.000 --> 06:32.000
+sondern es muss ein Alpha geben, das alle p in p erfüllt.
+
+06:32.000 --> 06:35.000
+Dann nennen wir p erfüllbar.
+
+06:35.000 --> 06:41.000
+Sonst ist p unerfüllbar, ist klar, oder aber, weil es halt eine Menge von Formeln ist,
+
+06:41.000 --> 06:46.000
+muss es dann in diesem Fall zwei Formeln geben, die einander widersprechen.
+
+06:46.000 --> 06:49.000
+Deswegen nennt man sie widersprechend.
+
+06:49.000 --> 06:56.000
+Gut, das ist jetzt nichts anderes als eben die Aussage, wir schreiben dann die große Formelmenge p hin
+
+06:56.000 --> 07:06.000
+und sagen, p ist erfüllbar, genau dann, wenn Alpha erfüllt p,
+
+07:06.000 --> 07:14.000
+genau dann, wenn Alpha klein p erfüllt, und zwar für alle Formeln p.
+
+07:14.000 --> 07:23.000
+Hier das Ganze dann nochmal in der Schreibweise mit der Erfüllungsrelation.
+
+07:23.000 --> 07:32.000
+Und genauso können wir jetzt dann eben auch die Schreibweise für die Erfüllungsmenge satt anwenden auf p.
+
+07:32.000 --> 07:41.000
+Das heißt, satt groß p ist die Menge aller Belegungen, die alle Elemente von p wahr macht.
+
+07:41.000 --> 07:54.000
+Und dann können wir uns überlegen, unter welcher Bedienung jetzt eine Formelmenge p erfüllbar ist,
+
+07:54.000 --> 08:03.000
+wenn alle Formeln aus dieser Formelmenge p erfüllbar sind.
+
+08:03.000 --> 08:06.000
+Genau, erfüllbar sind.
+
+08:06.000 --> 08:23.000
+Dazu betrachten wir jetzt die Menge der, genau, also eine Formelmenge groß p ist erfüllbar,
+
+08:23.000 --> 08:30.000
+genau dann, wenn, naja, es eine erfüllende Belegung gibt.
+
+08:30.000 --> 08:37.000
+Wenn die Menge, ich mach das hier mal weg, wenn die Menge der, ach jetzt bin ich an den Ausschalter gekommen,
+
+08:37.000 --> 08:41.000
+wenn also die Menge der erfüllenden Belegungen nicht leer ist.
+
+08:41.000 --> 08:52.000
+Und das bedeutet, dass die Schnittmenge aller erfüllenden Belegungen,
+
+08:52.000 --> 08:58.000
+aller Formeln aus der Menge groß p nicht leer sein darf.
+
+08:58.000 --> 09:07.000
+Es muss also in der Schnittmenge all dieser Erfüllungsmengen mindestens eine Belegung geben, die alle wahr macht.
+
+09:07.000 --> 09:29.000
+So, jetzt haben wir zwei Probleme.
+

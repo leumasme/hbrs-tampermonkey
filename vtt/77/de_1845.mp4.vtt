@@ -1,0 +1,350 @@
+WEBVTT
+
+00:00.000 --> 00:10.160
+So, also, wir haben jetzt hier auch, wir haben jetzt hier insbesondere unsere
+
+00:10.160 --> 00:15.120
+Quantoren eingeführt. Ich denke mal, die Sache mit den Prädikaten und der Art und
+
+00:15.120 --> 00:18.960
+Weise, wie man Formeln damit baut, ist ganz klar und intuitiv nachvollziehbar.
+
+00:18.960 --> 00:26.640
+Aber was halt wirklich neu ist, ist diese Idee des Quantos und des Skopuses
+
+00:26.640 --> 00:39.880
+eines Quantos. Maus, hier, nächste Folie. Erinnern Sie sich, wenn wir ein Quantor haben,
+
+00:39.880 --> 00:49.480
+für alle, oder es existiert, x, dann ist jedes im Wirkbereich dieses Quantos auftauchende x
+
+00:49.480 --> 01:01.440
+durch diesen Quantor gebunden. Wenn es nicht drin vorkommt, also in dieser Formel p nicht
+
+01:01.440 --> 01:09.120
+gebundene Variablen, heißen frei. So, und jetzt denken Sie schon mal dran, wir dürfen ja auch
+
+01:09.120 --> 01:15.120
+Quantoren voreinander hängen. Eine quantifizierte Formel ist eine Formel. Das heißt, wir dürfen
+
+01:15.120 --> 01:21.240
+vor diese Formel auch einen Quantor hängen. Weil jetzt eine quantifizierte Formel eine Formel ist,
+
+01:21.240 --> 01:27.480
+ist der Wirkbereich des davor gehängten Quantos natürlich diese gesamte Formel, die sich bezieht
+
+01:27.480 --> 01:32.360
+auf eine quantifizierte Formel, die einen Wirkbereich hat, aber diese gesamte quantifizierte
+
+01:32.360 --> 01:39.680
+Formel steht im Wirkbereich dieses Quantos. Das heißt, wenn das zum Beispiel ein Quantor über
+
+01:39.680 --> 01:46.480
+eine Variable y ist, dann bindet die natürlich auch jedes Vorkommen von x im Wirkbereich des
+
+01:46.480 --> 01:56.560
+inneren Quantos, sofern der über eine andere Variable y ist. Und dazu führt man jetzt ganz
+
+01:56.560 --> 02:01.080
+einfach ein paar Notationen ein. Also erst mal sagt man, okay, wir nehmen uns so eine Funktion
+
+02:01.080 --> 02:07.440
+wahr, egal ob für Prädikate oder Therme, wahr von irgendwas, liefert uns einfach immer die Menge
+
+02:07.440 --> 02:16.280
+der Variablen, Symbole, die da drin vorkommen. Und dann bauen wir uns die Funktion fvr und bvr für
+
+02:16.280 --> 02:25.000
+free oder freie Variablen und bvr für gebundene Variablen. Ja, und das sind die Teilmengen der
+
+02:25.000 --> 02:33.080
+Menge der Variablen aus der Formel, die eben frei für fvr und gebunden für bvr vorkommen.
+
+02:33.080 --> 02:44.720
+Schon gleich an dieser Menge sei angemerkt, natürlich kann in einer Formel eine Variable
+
+02:44.720 --> 02:53.040
+sowohl frei wie auch gebunden vorkommen. Wenn eine Formel keine freie Variable hat, nennen
+
+02:53.040 --> 03:02.480
+wir sie geschlossen. Und wir nennen sie bereinigt, wenn keine Variable sowohl frei als auch gebunden
+
+03:02.480 --> 03:12.960
+vorkommt. Gut, also, daraus folgt natürlich direkt, dass jede geschlossene Formel bereinigt
+
+03:12.960 --> 03:22.000
+ist. Und eine Formel, naja, was ein Grundterm ist, haben wir bereits gezeigt, wir können
+
+03:22.000 --> 03:26.080
+jetzt aber auch ganz einfach definieren, was eine Grundformel ist. Eine Grundformel ist
+
+03:26.080 --> 03:39.680
+eine Formel, die keine Variablen enthält. Gut, was ist jetzt eigentlich das Tolle an
+
+03:39.680 --> 03:48.440
+Variablen? Naja, Variablen kann man belegen. Variablen kann man einerseits belegen durch
+
+03:48.440 --> 03:58.000
+eine Belegungsfunktion. Man kann Variablen, aber auch, wenn wir Zeichenketten betrachten,
+
+03:58.000 --> 04:05.920
+Variablen als Tile Strings oder als Platzhalter für beliebige Tile Strings interpretieren.
+
+04:05.920 --> 04:11.960
+Also stellen Sie sich vor, Sie wollen in der Kommandozeile irgendwie eine Menge von
+
+04:11.960 --> 04:17.400
+Dateinamen spezifizieren, dann schreiben Sie irgendwo drei Fragezeichen oder ein Sternchen
+
+04:17.400 --> 04:31.160
+oder irgendwie sowas rein. Gut, und dazu definiert man sich das, was man eine Substitution nennt.
+
+04:31.160 --> 04:39.680
+Eine Substitution ist eine Funktion, die angewendet auf eine Formel, oder ne, fangen wir mal an,
+
+04:39.680 --> 04:50.440
+wie habe ich sie definiert? Wie habe ich hier auf Termen und Formeln definiert? Also sagen
+
+04:50.440 --> 05:00.680
+wir erstmal, also eine Substitution ist eine Funktion, die auf Termen arbeitet und die
+
+05:00.680 --> 05:05.920
+wird ein bisschen eigenartig hingeschrieben. Also so eine Substitution wird mit so einem
+
+05:05.920 --> 05:13.680
+kleinen griechischen S, also einem Sigma, notiert und in eckigen Klammern und in diesen
+
+05:13.680 --> 05:20.880
+eckigen Klammern stehen immer Paare von Variablen und Termen. Und Sie ist wie so, die Folge
+
+05:20.880 --> 05:27.600
+zu lesen, diese Funktion Sigma, Sie wissen, dass Sie Funktionen hinschreiben können als
+
+05:27.600 --> 05:33.320
+Mengen von Tuplen. Das ist nichts anderes als das. Das ist eine Funktion mit einer Menge
+
+05:33.320 --> 05:41.200
+von Tuplen. Und sie heißt, wenn ich diese Funktion auf einen Term anwende, also diese
+
+05:41.200 --> 05:50.400
+Substitution auf einen Kern anwende, wird jedes Vorkommen von x1 in diesem Falle durch
+
+05:50.400 --> 05:59.480
+den Term t1, den ich dahin schreibe, ersetzt. Wichtig ist, das ist vielleicht ein bisschen
+
+05:59.480 --> 06:09.760
+schwierig zu begreifen in diesem Moment, dass die Anwendung einer Substitution auf einen
+
+06:09.760 --> 06:21.760
+Term t mit dem Ergebnis S bedeutet, dass alle diese Substitutionen gleichzeitig erfolgen.
+
+06:21.760 --> 06:30.560
+Warum ist das wichtig? Das bedeutet nämlich Folgendes. Wenn Sie zum Beispiel in einem
+
+06:30.560 --> 06:41.720
+Term eine Variable x durch 7 ersetzen wollen, würden Sie also eine Substitution formulieren,
+
+06:41.720 --> 06:48.720
+die x durch 7 ersetzt. Gleichzeitig wollen Sie in diesem Term aber zum Beispiel die Variable
+
+06:48.720 --> 07:01.040
+z durch die Variable x ersetzen. Was passiert jetzt? Wenn Sie nicht diese beiden Therme
+
+07:01.040 --> 07:06.160
+oder diese beiden Substitutionen gleichzeitig ausführen würden, würde das bedeuten zum
+
+07:06.160 --> 07:12.040
+Beispiel, wenn Sie von links nach rechts lesen, dass Sie zuerst das z durch ein x ersetzen
+
+07:12.040 --> 07:19.240
+und dann später dieses x durch die 7 ersetzen. Das macht eine Substitution aber nicht. Wenn
+
+07:19.240 --> 07:25.960
+hier ein z auftaucht, wird es durch x ersetzt und wenn hier irgendwo ein x auftaucht, wird
+
+07:25.960 --> 07:39.400
+es durch 7 ersetzt. Aber das durch die Ersetzung entstandene x ist nicht Gegenstand dieser Substitution.
+
+07:39.400 --> 07:48.160
+Als Beispiel schauen Sie sich das mal hier unten an. Wir gucken uns eine Substitution
+
+07:48.160 --> 07:58.080
+an mit dem blauen Paar, wo also ein x durch ein g von z ersetzt wird. Also x ist eine
+
+07:58.080 --> 08:07.600
+Variable und g von z ist ein Term. Dann ersetzen wir die Variable y durch den Term f von g
+
+08:07.600 --> 08:14.240
+von y und wir ersetzen die Variable z durch eine andere Variable x, weil Variablen sind
+
+08:14.240 --> 08:28.520
+ja auch Termen. Und das wenden wir jetzt hier unten auf die Formel. Wichtig! Das Ergebnis
+
+08:28.520 --> 08:40.120
+der Anwendung einer Substitution auf eine Formel ist also die Ausführung der Substitution
+
+08:40.120 --> 08:52.200
+auf allen Termen, die in dieser Formel vorkommen. Obacht! Nur auf allen freien Vorkommen von
+
+08:52.200 --> 09:00.440
+Variablen. Wenn also eine Variable gebunden, das heißt im Skorpus eines Quantos vorkommt,
+
+09:00.440 --> 09:10.720
+ist diese sozusagen durch den Quantor geschützt. Sie wird durch eine Substitution nicht geändert.
+
+09:10.720 --> 09:18.000
+Nur freie Variable, die nicht gebunden sind, werden durch eine Substitution verändert.
+
+09:18.000 --> 09:28.040
+Schauen wir uns das hier unten in dieser Formel an. Das ist ja größer als ich dachte. Sie
+
+09:28.040 --> 09:35.720
+sehen also eine Subjunktion, eine große Subjunktion, auf die diese Substitution sigma angewendet
+
+09:35.720 --> 09:44.080
+werden soll. Sie sehen als erstes auch schon mal, dass die gesamte Subjunktion nicht quantifiziert
+
+09:44.080 --> 09:52.280
+ist. Wenn wir jetzt insbesondere die Prämisse dieser Subjunktion betrachten, stellen wir
+
+09:52.280 --> 10:03.240
+fest, das ist eine Disjunktion mit dem ersten Disjunkt p von x oder px. Dieses px steht
+
+10:03.240 --> 10:14.480
+nirgends im Skorpus eines Quantos. Es ist also frei. Man geht also hin und wendet diese Substitution
+
+10:14.480 --> 10:25.440
+auf diesen Term x an. Das heißt, aus diesem x wird ein g von z. Schauen wir uns die nächste
+
+10:25.440 --> 10:33.200
+Teilformel an. Der Skorpus dieses Existenzquantos ist die nächste Formel. Die nächste korrekte
+
+10:33.200 --> 10:40.600
+Formel, die abgeschlossen ist. Das ist genau dieses eine Prädikat. In diesem einen Prädikat
+
+10:40.600 --> 10:45.800
+ist jetzt also das Vorkommen der Variable y durch diesen Existenzquantor gebunden. Die
+
+10:45.800 --> 10:53.920
+Variable z ist aber frei. Sie kann also nach unserer Substitution durch x ersetzt werden.
+
+10:53.920 --> 11:02.920
+Nein, sie kann nicht ersetzt werden, sie wird ersetzt. Jetzt steht also hier in diesem Existenzquantifizierten
+
+11:02.920 --> 11:14.800
+Ausdruck ryx anstatt vorher yz. Gut, und auf die gleiche Art und Weise geht es weiter.
+
+11:14.800 --> 11:20.920
+Das Schöne ist jetzt, dass hier, wie gesagt, der Skorpus dieses Existenzquantors endet
+
+11:20.920 --> 11:25.640
+ja schon hier in dieser Klammer. Und wenn man hinsieht, dann ist in dieser Formel hier
+
+11:25.640 --> 11:32.920
+überhaupt kein Quantor vorhanden. Das heißt, hier sind alle Variablen frei und man kann
+
+11:32.920 --> 11:46.200
+hingehen und brav hier alles ersetzen. Obacht! Schauen wir mal kurz hin. Wir haben hier
+
+11:46.200 --> 11:55.760
+ein z stehen. Wir haben hier hinten ein freies rotes z. Dieses z wird ersetzt durch ein
+
+11:55.760 --> 12:04.720
+x, wie es hier oben angeht. In der Substitution steht ebenfalls, dass x durch g von z ersetzt
+
+12:04.720 --> 12:12.960
+wird. Weil diese Substitutionen aber gleichzeitig stattfinden, wird dieses z hier durch ein
+
+12:12.960 --> 12:18.520
+x ersetzt. In dem Moment, wo das passiert ist, ist das aber auch schon passiert. Das
+
+12:18.520 --> 12:34.560
+heißt, dieses x wird nicht mehr durch ein g von z ersetzt. Wichtig! Was eng damit zusammenhängt,
+
+12:34.560 --> 12:44.920
+ist der Begriff der Zulässigkeit von Substitutionen. Jetzt kann es ja sein, haben Sie eben gesehen,
+
+12:44.920 --> 12:51.640
+dass eine Variable, obwohl sie im Skorpus eines Quantors steht, in diesem Skorpus frei ist.
+
+12:51.640 --> 12:57.960
+Es existiert ein x, so dass p von x y und dann ist y darin frei. Das heißt, ich kann
+
+12:57.960 --> 13:03.760
+jetzt eine Substitution auf diese Formel anwenden. Wenn ich jetzt aber dieses y durch ein x
+
+13:03.760 --> 13:12.240
+ersetze, dann steht da, es existiert ein x, so dass p x x. Das ist ganz schwierig. Stellen
+
+13:12.240 --> 13:27.880
+Sie sich vor, diese Aussage lautet nämlich, es existiert ein x, so dass x größer als
+
+13:27.880 --> 13:36.800
+y ist. Das ist ja schon mal, das ist okay. Das ist eine Aussage, die kann man machen
+
+13:36.800 --> 13:42.280
+und ich denke, damit kann man eigentlich auch schon zufrieden sein und man kann auch sagen,
+
+13:42.280 --> 13:47.880
+ja, wird wohl stimmen. Wenn ich jetzt aber, und wenn ich sage, es existiert ein x, so
+
+13:47.880 --> 13:55.120
+dass x größer als y ist, ist in dieser Aussage das x gebunden durch den Existenzquantel,
+
+13:55.120 --> 14:02.280
+das y ist frei. Wenn ich jetzt hingehe und dieses y durch ein x ersetze, was genau die
+
+14:02.280 --> 14:09.520
+Variable ist, über die quantifiziert wird, steht da die Aussage, es gibt ein x, so dass
+
+14:09.520 --> 14:21.160
+x größer als x ist. Und das ist falsch. Oder das wollen wir nicht. Also, Substitutionen,
+
+14:21.160 --> 14:34.360
+deren Ergebnis es ist, dass eine Variable plötzlich gebunden im Skopus, eine zuvor ungebundene
+
+14:34.360 --> 14:42.320
+Variable nach der Substitution gebunden ist, sind nicht zulässig. Also, das ist genau
+
+14:42.320 --> 14:50.960
+das hier. Also, eine Substitution ist zulässig für eine Formel p, wenn nach der Substitution
+
+14:50.960 --> 14:57.840
+keine Variable, die in diesen Termen rein substituiert werden, eine Variable vorkommt,
+
+14:57.840 --> 15:05.720
+die danach sozusagen gebunden ist. Interessanterweise steht hier genau das Beispiel, das ich mir
+
+15:05.720 --> 15:14.640
+eben noch ausgedacht habe. Was natürlich möglich ist, und da möchte ich jetzt hier
+
+15:14.640 --> 15:23.680
+so in den Detail nicht drauf eingehen, ist, dass wir Substitutionen komponieren können.
+
+15:23.680 --> 15:31.480
+Man kann also eine Formel nehmen, darauf eine Substitution anwenden, und danach auf das
+
+15:31.480 --> 15:42.240
+Ergebnis noch eine Substitution. Aber das ist etwas anderes, und das ist ganz böse
+
+15:42.240 --> 15:53.160
+und verboten, sozusagen diese beiden Substitutionen zu vermischen, in eine Funktion zu tun. Das
+
+15:53.160 --> 15:57.920
+kann nämlich schon ganz einfach bedeuten, dass wenn man das einfach nur so macht, man
+
+15:57.920 --> 16:06.880
+feststellt, das ist gar nicht mehr funktional. Man kann da rumtrixen, indem man etwas macht,
+
+16:06.880 --> 16:12.800
+was man Umbenennung nennt, aber da kommen wir gleich zu. Generell ist natürlich ganz klar,
+
+16:12.800 --> 16:25.520
+man kann Substitutionen komponieren und nacheinander ausführen. Wir können also zum Beispiel
+
+16:25.520 --> 16:37.200
+in p von x, x zuerst durch f von z ersetzen und danach das z wieder durch ein x. Dann haben
+
+16:37.200 --> 16:56.360
+wir ein x wieder.
+

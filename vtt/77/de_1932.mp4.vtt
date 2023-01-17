@@ -1,0 +1,347 @@
+WEBVTT
+
+00:00.000 --> 00:12.000
+So, jetzt ist es natürlich ausgehängt in der Vorlesung zu der Skullimisierung zu zwei unangenehmen Tippfehlern auf dem Folien gekommen.
+
+00:12.000 --> 00:18.000
+Deswegen möchte ich das Ihnen jetzt hier nochmal wiederholen.
+
+00:18.000 --> 00:23.000
+Ich denke im Großen und Ganzen war das Verständnis schon voll und ganz in Ordnung.
+
+00:23.000 --> 00:35.000
+Aber wie gesagt, es war ein kleiner formaler Fehler drin, der, je nachdem wie genau Sie das betrachtet haben, Ihnen dann vielleicht mehr Verständnisschwierigkeiten bereitet hat.
+
+00:35.000 --> 01:02.000
+Gut, lange Rede, kurzer Sinn, es geht wie gesagt um die Skullimisierung und dabei haben wir direkt hier die Idee der Skullimisierung in die Definition gefasst.
+
+01:02.000 --> 01:10.000
+In der alten Definition stand hier, dass Q quantorenfrei sein sollte. Das stimmt natürlich nicht.
+
+01:10.000 --> 01:15.000
+Natürlich können da Quantoren drin sein. Warum?
+
+01:15.000 --> 01:23.000
+Wir betrachten natürlich jetzt eine beliebige prädikatenlogische Formel, die wir in Trennexform gebracht haben.
+
+01:23.000 --> 01:35.000
+Das heißt, wir haben sukzessive einen nach dem anderen Quantor aus der Formel mit Hilfe der Quantorengesetze zur Umformung nach vorne gezogen.
+
+01:35.000 --> 01:44.000
+Und da kann es eben durchaus passieren, da kommen erst zwei Altquantoren, dann kommt ein Existenzquantor, dann kommen wieder zwei Altquantoren, dann drei Existenzquantoren und so weiter und so fort.
+
+01:44.000 --> 01:48.000
+Die sind nicht gesortiert. Das macht aber nichts.
+
+01:48.000 --> 02:17.000
+Die Idee der Skullimisierung ist ja die folgende, wie wir hier oben gesagt haben, die Semantik des Existenzquantors dadurch nachzubilden, dass wir einen Term konstruieren, der so interpretiert wird, dass er genau als Wert das Objekt bekommt, das den Existenzquantor oder die sonst existenzquantifizierte Formel wahrmachen wird.
+
+02:17.000 --> 02:39.000
+Gut, dementsprechend, die Bedingung, die wir haben für die Umformung einer Formel in Skullim-Form, ist, wir wollen sagen, dass vor einem Existenzquantor meinetwegen nur eine Menge von Altquantoren vorkommt.
+
+02:39.000 --> 02:51.000
+Die Idee ist, wir können jetzt den Existenzquantor oder meinenetwegen den ersten Existenzquantor von eventuell noch weiter folgenden eliminieren.
+
+02:51.000 --> 02:57.000
+Und das machen wir sukzessive in Endeffekt von links nach rechts.
+
+02:57.000 --> 03:14.000
+Jetzt ist es natürlich genau so, dass die Elimination dieses Existenzquantors über dieser gesamten Formel bedeutet, dass wir für die Vorkommen der variablen y einen entsprechenden Skullin-Term einsetzen müssen.
+
+03:14.000 --> 03:37.000
+Und jetzt kann man sich fragen, ja, wenn dieser Skullin-Term ausgewertet werden soll, interpretiert halt in unserer erweiterten Sigma-Struktur, weil wir uns ja eine neue Skullin-Funktion bauen müssen,
+
+03:37.000 --> 03:46.000
+dann müssen wir eben die Vorkommen von y in dieser Formel durch diesen Term ersetzen.
+
+03:46.000 --> 03:58.000
+So, die Frage ist jetzt aber, wie gesagt, wir haben jetzt diese Skullin-Funktion, die uns für dieses y im Endeffekt ein Objekt picken soll, das diese Formel hier wahrmacht.
+
+03:58.000 --> 04:09.000
+Wovon hängt das jetzt ab? Und jetzt denken Sie daran, für alle x gibt es ein y und so weiter und so fort, ist etwas anderes, als es gibt ein x, so dass für alle y.
+
+04:09.000 --> 04:26.000
+Wenn es für alle x irgendwie ein y gibt, so dass irgendetwas gilt, muss ein solches y, das es für jedes x geben soll, in Abhängigkeit von x jeweils neu gewählt werden.
+
+04:26.000 --> 04:42.000
+Klar? Das heißt, der Term, den wir verwenden wollen, um die existenzkrantifizierten Vorkommen der Variablen y zu ersetzen, muss ein Term sein, der bei der Interpretation vom Wert der Variablen x abhängt.
+
+04:42.000 --> 04:57.000
+Diese, weil ja altkrantifiziert, wird ja in der Interpretation so gebaut, dass wir für Belegungsfunktionen oder für an der Stelle x geänderte Belegungsfunktionen unsere Formel überprüfen.
+
+04:57.000 --> 05:02.000
+Und zwar für alle möglichen Instanzierungen für diese Variablen x.
+
+05:02.000 --> 05:22.000
+Also, was wir machen ist, wie in der Vorlesung sonst auch erklärt, ganz normal, wir bauen uns diesen neuen Scholem-Term-Konstruktor, fügen ihn zu unserer Signatur hinzu,
+
+05:22.000 --> 05:42.000
+was natürlich entsprechende Sigma-Algebra und Interpretation ändert später, der endstellig sein soll. Endstellig, warum? Weil wir eben einen Term bauen wollen mit n Argumenten, n Variablen, die nämlich genau die Variablen sind, über die zuvor altkrantifiziert ist.
+
+05:42.000 --> 05:56.000
+Genau. Dann hat man diesen Existenzquantor eliminiert und dann, wenn es im Q noch weitergeht mit weiteren Quantoren, dann kommt ein Altquantor, den lässt man stehen, dann kommt ein Existenzquantor,
+
+05:56.000 --> 06:06.000
+dann stehen aber wieder alle diese Altquantoren von x1 bis xm da, der Existenzquantor y ist verschwunden,
+
+06:06.000 --> 06:23.000
+dann kam ein Altquantor xm plus 1 und jetzt wieder ein Existenzquantor für z, dann ersetzen wir die Vorkommen von z jetzt durch einen neuen Scholem-Term in Abhängigkeit von den Variablen x1 bis xm und xm plus 1.
+
+06:23.000 --> 06:44.000
+So funktioniert das Verfahren. Deswegen die Umformulierung hier, von wegen, dass das Quantoren frei ist, ist es nicht, aber die Variablen x1 bis xm werden nicht erneut benutzt.
+
+06:44.000 --> 07:00.000
+Das kriegt man durch Bereinigung hin. Gut, der zweite Tippfehler war eigentlich nur ärgerlich und hat sich dann im Verlauf der Rechnung,
+
+07:00.000 --> 07:19.000
+das war ein blöder Copy-and-Paste-Fehler, erging oder ist weggefallen, wir hatten die Formel, jeder Bauer hat einen Esel oder einen Pferd, den oder das er gerne hat formalisiert.
+
+07:19.000 --> 07:32.000
+Und da kam diese etwas längliche Formel heraus. Der Tippfehler war, ich habe hier ein x hin geschrieben, damit meinte ich natürlich nicht, dass es für jeden Bauern ein y gibt,
+
+07:32.000 --> 07:42.000
+sodass y ein Pferd ist oder der Bauer ein Esel. Das meinte ich natürlich nicht, sondern wie gesagt, hier sollte ein y hinstellen.
+
+07:42.000 --> 07:50.000
+Letztendlich ändert es am Beispiel, oder hat es am Beispiel hier unten nichts geändert, weil da war es richtig. Was macht man also?
+
+07:50.000 --> 08:01.000
+Wir dürfen den Existenzkontor nach vorne ziehen, denn das y kommt hier nicht frei vor und diese quantifizierte Formel hier steht in der Konklusion dieser Subjunktion.
+
+08:01.000 --> 08:18.000
+Dürfen wir also nach vorne ziehen, machen wir das und jetzt haben wir genau die Form, die wir zum Erstellen der Skola-Normalform brauchen. In diesem Fall nur mit einem Altquantum vor dem Existenzkontor und nichts dahinter.
+
+08:18.000 --> 08:37.000
+Im Übrigen, es kann natürlich auch sein, dass hier kein Altquantum steht. Dann müssen wir die Variable y, beim Weglassen des Existenzkontors, eben durch einen nullstelligen Scholem-Term ersetzen.
+
+08:37.000 --> 08:54.000
+Also durch eine beliebige Scholem-Konstante. Gut, also hier machen wir es jetzt wie folgt. Der Existenzkontor fliegt raus und dadurch wird jedes Vorkommen von y in dieser Formel hier durch den Term Scholem von x ersetzt.
+
+08:54.000 --> 09:11.000
+Und das war es. Der Rest geht weiter. Wir haben jetzt sozusagen eine geschlossene Formel. Das Schöne ist, hier taucht jetzt nur noch die Variable x auf. Das ist ja das Schöne an dieser Sache.
+
+09:11.000 --> 09:31.000
+Und diese Variable x ist altquantifiziert. Wenn da also mehrere Existenzkontoren gewesen wären und wir hätten dieses Verfahren durchgeführt, dann kämen hier jetzt nur noch Variablen vor, die alle altquantifiziert sind.
+
+09:31.000 --> 09:44.000
+Gut, und dann hat man hier diese Notation. Ist okay, wir können es auch weglassen und die Variablen im Endeffekt freigeben, also freilassen.
+
+09:44.000 --> 09:58.000
+Und dann haben wir hier unsere Subjunktion. Die wird aufgebaut in nicht und oder. Und dann wird hier ein paar Mal, ich sag mal, ausmultipliziert, also das Distributivitätsgesetz angewendet.
+
+09:58.000 --> 10:11.000
+Und zum Schluss haben wir tatsächlich hier eine konjunktive Normalform, die aus drei Disjunktionen besteht. Das wissen wir. Die können wir als Klausel nachstellen.
+
+10:11.000 --> 10:25.000
+So, jetzt haben wir Klausel. Und damit ist ja eigentlich schon irgendwie klar oder kann man ja schon vermuten, dass es jetzt irgendwie in Richtung Resolution weitergeht.
+
+10:25.000 --> 10:38.000
+Genau. Wir haben jetzt nur ein Problem. Wir haben hier, oder sagen wir mal so, wir haben schon unheimlich viel erreicht. Wir sind die Existenzkontoren losgeworfen.
+
+10:38.000 --> 11:01.000
+Wir haben aber immer noch Variablen. Was man jetzt hier dann zum Beispiel feststellt, ist ja auch etwas sehr Interessantes. Wir haben hier eine Menge von Klauseln mit all quantifizierten Variablen.
+
+11:01.000 --> 11:17.000
+Das heißt, für alle x gilt das hier und das hier und das hier. Jetzt erinnern Sie sich an die Quantorengesetze. Das heißt, für alle x gilt das hier und für alle x gilt das hier und für alle x gilt das hier.
+
+11:17.000 --> 11:31.000
+Und jetzt denken Sie an die gebundene Umbenennung. Wir können also hingehen und daraus machen, für alle x gilt das hier und für alle y gilt das hier, wenn wir alle vorkommen von x durch ein y ersetzen.
+
+11:31.000 --> 11:51.000
+Und hieraus können wir machen, für alle z gilt das hier, wenn wir aus all den x ein z machen. Wir können also jetzt auch diese einzelnen Klauseln hier alle variablen fremd machen. Gut. Das ist auch schon mal schön.
+
+11:51.000 --> 12:07.000
+Jetzt haben wir also das. Jetzt haben wir eine Menge von Klauseln und in all diesen Klauseln sind paarweise Variablen fremd. Schön.
+
+12:07.000 --> 12:21.000
+Wenn wir jetzt aber an die Resolution denken, die wir sie hatten, war es ja immer klar, wir hatten da ein Literal rumliegen, ein Literal, das eine Aussagenvariable war oder deren Negation.
+
+12:21.000 --> 12:29.000
+Und wir wussten, die hat den Wert da oder falsch. Schön. Hier ist es jetzt anders. Hier haben wir Variablen.
+
+12:29.000 --> 12:44.000
+Aber was wissen wir denn von diesen Variablen? Diese Variablen nehmen im Rahmen der Interpretation ja irgendwelche Werte an.
+
+12:44.000 --> 13:04.000
+Welche Werte können sie denn annehmen? Nun ja, sie können all die Werte annehmen, die wir berechnen können aus allen möglichen Termen, die wir konstruieren können.
+
+13:04.000 --> 13:14.000
+Denken Sie im Hinterkopf vielleicht schon ein bisschen an diese Apoalge drin. Wir machen das hier wie folgt.
+
+13:14.000 --> 13:23.000
+Ach, wie ich schon gesagt habe, wir können die Klausel variablen fremd machen. Gut.
+
+13:23.000 --> 13:38.000
+Und die zweite Sache ist jetzt genau das hier. Wir gehen hin und ersetzen in einer solchen Formel alle Vor-, oder nein, wir müssen es so machen.
+
+13:38.000 --> 13:54.000
+Die Menge aller Formeln, die entsteht, wenn wir alle Variablen in dieser Formel jeweils durch alle möglichen Grundtermine über unsere Signatur ersetzen,
+
+13:54.000 --> 14:03.000
+diese Menge nennt man die Menge der Grundinstanzen. Was heißt das? Das ist jetzt nichts anderes sozusagen,
+
+14:03.000 --> 14:15.000
+als wir nehmen eine Formel und setzen für die Variablen in dieser Formel alle möglichen Kombinationen von allen möglichen konstruierten Termen ein.
+
+14:15.000 --> 14:26.000
+Das sind viele. Es ist aber egal. Das Tolle daran ist nämlich, wir sind die Variablen los. Das ist der Knackpunkt.
+
+14:26.000 --> 14:41.000
+Das heißt, wenn wir jetzt die Variablen los haben, stehen da lauter atomare Grundformeln drin, die wir auswerten können.
+
+14:41.000 --> 14:52.000
+Wenn es Literale sind, dann sind es sowieso atomare Grundformeln.
+
+14:52.000 --> 15:00.000
+Aber an denen müssen wir nichts mehr großartig ausrechnen oder ruminterpretieren oder was auch immer.
+
+15:00.000 --> 15:05.000
+Die Semantik des Prädikatsymbols einer atomaren Grundformel ist klar als Relation.
+
+15:05.000 --> 15:12.000
+Und nun tauchen keine Variablen mehr auf, sondern wir gucken uns einfach an, was stehen da für Terme drin. Die werden ausgewertet.
+
+15:12.000 --> 15:22.000
+Das ist ausfertig. Gut, also wir betrachten jetzt diese Menge dieser Grundinstanzen.
+
+15:22.000 --> 15:31.000
+Und dann kann man nämlich genau das machen, was ich eben gesagt habe, die Grundliterale betrachten.
+
+15:31.000 --> 15:43.000
+Diese Grundliterale sind diese atomaren Grundformeln, die jetzt also ohne Weiteres wahr oder falsch ergeben in der Interpretation.
+
+15:43.000 --> 15:49.000
+Und damit sind wir im Endeffekt wieder bei der, in Anführungszeichen, Aussagenlogik.
+
+15:49.000 --> 15:58.000
+Alle diese atomaren Grundformeln sind Aussagen, die wahr oder falsch sind.
+
+15:58.000 --> 16:04.000
+Und dementsprechend können wir jetzt natürlich Konjunktionen von Literalen bilden und Disjunktionen von Literalen.
+
+16:04.000 --> 16:12.000
+Und für die gilt jetzt, weil wir ja die Semantik der logischen Junkturen bereits kennen,
+
+16:12.000 --> 16:20.000
+die gleichen Gesetze wie in der anderen Logik, in der Aussagenlogik, wo die gleichen logischen Gesetze oder die gleichen Gesetze wie die logischen Junkturen sein.
+
+16:20.000 --> 16:28.000
+Ja, wir können also sagen, eine Konjunktion hat ein Modell oder sie ist allgemeingültig, eben wie,
+
+16:28.000 --> 16:36.000
+oder eine Disjunktion ist allgemeingültig, wenn ein komplementäres Paar vorhanden ist und so weiter und so fort.
+
+16:36.000 --> 16:42.000
+Das können wir jetzt machen.
+
+16:42.000 --> 16:57.000
+Letztendlich hat das jetzt, in dieser Gesamtheit, diese in Anführungszeichen komplizierte Konstruktion, hat jetzt Folgendes zum Ergebnis.
+
+16:57.000 --> 17:04.000
+Wir wollen überprüfen, ob eine Formelmenge p ein Modell hat.
+
+17:04.000 --> 17:13.000
+Wir können es uns für das Enthalment sogar so vorstellen, welche Bedingungen müssen herrschen, damit eine Formelmenge p ein Modell hat.
+
+17:13.000 --> 17:23.000
+Gucken wir uns die Interpretationen dazu an. Dann wollen wir auch nachprüfen, ob eine andere Formel diese Interpretation als Modell hat.
+
+17:23.000 --> 17:26.000
+Dann haben wir einen logischen Schlussbegrüßung.
+
+17:26.000 --> 17:38.000
+Also die grundlegende Frage oder das grundlegende Problem, das wir immer haben, ist, zu entscheiden, ob eine Formelmenge p ein Modell hat oder nicht.
+
+17:38.000 --> 17:48.000
+Wir haben jetzt festgestellt, durch dieses Kolliminieren mit allem Drum und Dran, dass eine Formelmenge p ein Modell hat,
+
+17:48.000 --> 17:55.000
+genau dann, wenn die Menge der Grundinstanzen der Formeln aus p ein Modell hat.
+
+17:55.000 --> 18:07.000
+Genauso gut hatten wir aber vorher auch gesehen, dass diese Existenzaussage über Modelle für eine Formelmenge p
+
+18:07.000 --> 18:18.000
+immer eine Aussage war, ob man eine geeignete Struktur findet, eine geeignete Sigma-Algebra zu der vorgegebenen Signatur,
+
+18:18.000 --> 18:33.000
+die sich eben als Modell eignet, bzw. ob für die so gewählte Sigma-Algebra dann auch die Interpretation die entsprechenden Ergebnisse liefert.
+
+18:33.000 --> 18:45.000
+Und da hatten wir gesagt, wir haben gesehen, ja gut, da kann man die natürlichen Zahlen nehmen, die ganzen Zahlen oder die Menge der Kaffeekassen, weiß der Dolphel was.
+
+18:45.000 --> 18:58.000
+Aber wir haben eben auch gesehen, dass es eine Möglichkeit gibt, ganz kanonisch eine Signatur zu erweitern,
+
+18:58.000 --> 19:15.000
+zu einer Signatur, die man aus der Formelmenge sogar ablesen kann, eben eine passende Sigma-Algebra bauen kann.
+
+19:15.000 --> 19:24.000
+Und das waren unsere Herbron-Algebren. Und eine Herbron-Algebra nennen wir eben, die Modell einer Formelmenge ist ein Herbron-Modell.
+
+19:24.000 --> 19:33.000
+Und das Tolle ist also, dass P ein Modell hat, genau dann, wenn P ein Herbron-Modell hat.
+
+19:33.000 --> 19:44.000
+Nur mal ganz kurz zur Erinnerung, da stand jetzt irgendwie ein f von x, g von h irgendwas.
+
+19:44.000 --> 19:55.000
+Und im Herbron-Modell wird dieser Funktionsausdruck zu dem Term selbst ausgewertet. Da wird gar nicht groß rumgerechnet.
+
+19:55.000 --> 19:59.000
+Wir haben diesen Term selbst ausgewertet. Das war die Idee des Herbron-Modells.
+
+19:59.000 --> 20:07.000
+So, und zusammen mit der Idee der Grundinstanzen haben wir jetzt ja genau das geschafft, was wir wollten.
+
+20:07.000 --> 20:13.000
+Wir haben die Variablen rausgehauen und alle Terme, die in unseren Formeln vorkommen, bleiben drin stehen.
+
+20:13.000 --> 20:24.000
+Da sind keine Variablen drin. Die Terme an sich sind genau diese Teile, über die die logische Struktur unserer Formeln arbeitet.
+
+20:24.000 --> 20:33.000
+Ja, bleibt eigentlich nur noch nachzureichen das Kompaktheitstheorien.
+
+20:33.000 --> 20:43.000
+Das besagt, dass eine Formelmenge P erfüllbar ist, genau dann, wenn jede endliche Teilmenge von P erfüllbar ist.
+
+20:43.000 --> 20:57.000
+Und auch das kennen Sie, nämlich auch insbesondere die Umkehrung davon, nämlich wenn eine Teilmenge einer Formelmenge nicht erfüllbar ist.
+
+20:57.000 --> 21:11.000
+Wenn wir also irgendwie eine Menge von Formeln finden, die zusammen nicht erfüllbar ist, dann ist auch die gesamte Formelmenge nicht erfüllbar.
+
+21:11.000 --> 21:18.000
+Mit dem Widerspruchslämmer kommen wir dann genau dahin, wo wir hin wollen, nämlich zur Revolution.
+
+21:18.000 --> 21:25.000
+Nun, und das können Sie sich jetzt natürlich wie folgt vorstellen, wenn Sie von einer Formel ausgehen
+
+21:25.000 --> 21:33.000
+und wir im Endeffekt die Menge aller möglichen, die Menge der Grundinstanzen dieser Formel betrachten,
+
+21:33.000 --> 21:43.000
+dann haben wir keinen, dann können wir im Endeffekt darauf, ja denken Sie jetzt meinetwegen schon an Resolution,
+
+21:43.000 --> 21:58.000
+einen Beweis machen, indem wir einfach literale oder atomare Formeln mit festgeschriebenen Termen ohne Variable gegeneinander matchen.
+
+21:58.000 --> 22:06.000
+Wir wollen zum Beispiel einfach nur gucken, für P von F von A gibt es dafür eine Grundinstanz P, nicht P von F von A oder irgendwas.
+
+22:06.000 --> 22:11.000
+Egal was das bedeutet.
+
+22:11.000 --> 22:24.000
+So, damit, denke ich, haben wir das Thema soweit abgehakt und wir haben alle theoretischen Grundlagen erarbeitet
+
+22:24.000 --> 22:31.000
+und uns auch ein bisschen mit der Technik der Skolienisierung beschäftigt und der Herleitung der Skolien-Normalform,
+
+22:31.000 --> 22:39.000
+also der Klauselform von Skolienmengen, nachdem wir eben auch die präningskonjunkture Normalform haben.
+
+22:39.000 --> 22:48.000
+Wir haben jetzt also an Theorie und Methoden alles beisammen, damit wir uns auf die Resolution stürzen können.
+

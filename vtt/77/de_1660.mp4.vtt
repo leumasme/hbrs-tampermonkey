@@ -1,0 +1,338 @@
+WEBVTT
+
+00:00.000 --> 00:09.920
+Also, wir waren stehengeblieben, dass eine Logik besteht aus einer wohl definierten Sprache
+
+00:09.920 --> 00:16.020
+und einer Interpretation der sprachlichen Elemente, auch der Struktur, wie diese Elemente
+
+00:16.020 --> 00:23.960
+zusammengebastelt werden, da kommen wir dann dazu, und beides zusammen misst eben einer
+
+00:23.960 --> 00:27.440
+Aussage eine Bedeutung zu.
+
+00:27.440 --> 00:34.320
+So, was ich eben schon versucht habe zu motivieren, nicht jede Äußerung hat eine Bedeutung.
+
+00:34.320 --> 00:38.440
+Farzl-Bakzl, Nudelparteitag, ja?
+
+00:38.440 --> 00:51.800
+Aber jede Formel aus der festgelegten Sprache hat eine Bedeutung, und keine Formel hat bezüglich
+
+00:51.800 --> 00:57.160
+einer solchen Interpretation mehr als eine Bedeutung, sie hat also genau eine Bedeutung.
+
+00:57.160 --> 01:02.800
+Und, was ich gesagt habe, mehrere Formeln können dieselbe Bedeutung haben, nicht umgekehrt.
+
+01:02.800 --> 01:12.360
+Interessant ist es jetzt, dass je nach Interpretation von Äußerungen dennoch ein und dieselbe
+
+01:12.360 --> 01:17.480
+Äußerung verschiedene Bedeutungen haben kann.
+
+01:17.480 --> 01:28.040
+Also, stellen Sie sich zum Beispiel vor, die Welt der geraden Zahlen und die Welt der ungeraden
+
+01:28.040 --> 01:29.040
+Zahlen.
+
+01:29.040 --> 01:39.480
+Und jetzt schreiben Sie hin 1 plus 2 gleich, was kommt raus?
+
+01:39.480 --> 01:40.480
+3.
+
+01:40.480 --> 01:51.360
+Jetzt würde die 1 in den geraden Zahlen die 1 ergeben, und die 2 die 3, weil die 3 die
+
+01:51.360 --> 01:54.280
+zweite ungerade Zahl ist, ja?
+
+01:54.280 --> 02:00.880
+Die 1 in den geraden Zahlen würde die 2 ergeben, weil die 2 die erste, na, eigentlich die 0,
+
+02:00.880 --> 02:05.840
+ja, also die 0, ja, und die 2 würde dann die 2 ergeben.
+
+02:05.840 --> 02:12.200
+Also hätten wir einmal 0 plus 2 gleich 3 in den geraden Zahlen, die dritte gerade Zahl
+
+02:12.200 --> 02:21.200
+ist 024, also hätten wir in den geraden Zahlen die Interpretation 0 plus 2 ist 4, wenn ich
+
+02:21.200 --> 02:27.600
+mich jetzt richtig entsinne, für die Äußerung 1 plus 2 gleich 3.
+
+02:27.600 --> 02:37.080
+War jetzt vielleicht ein bisschen Hoppla Hopp, aber Sie werden feststellen, dass man damit
+
+02:37.080 --> 02:42.840
+nicht nur Schindluder treiben kann, sondern auch sehr wichtige und interessante Sachen.
+
+02:42.840 --> 02:47.880
+Gut, jetzt hatte ich erwartet, dass die nächste Folie kommt.
+
+02:47.880 --> 02:54.320
+Ach, wunderbar, hier haben wir jede Menge Beispiele, ja?
+
+02:54.320 --> 03:00.400
+Ja, Kaka Fugmorg hat, obwohl schnell, grüne Ideen, schlafen wütend, das sind alles Standardbeispiele
+
+03:00.400 --> 03:04.480
+für Äußerungen, die keine Bedeutung haben, ja?
+
+03:04.480 --> 03:10.160
+Es ist kalt, ist ein schöner Satz, der hat eine Bedeutung, wir wissen aber nicht, ob
+
+03:10.160 --> 03:15.000
+er wahr ist oder nicht, das ist ein Unterschied, ja?
+
+03:15.000 --> 03:21.760
+Keine Formel hat mehr als eine Bedeutung, es ist sonnig, da wissen wir genau, dieses,
+
+03:21.760 --> 03:26.120
+diese Äußerung soll eben darstellen, dass die Sonne scheint, ja?
+
+03:26.120 --> 03:33.920
+Hier haben wir wieder ein Beispiel für mehrere Formen, selber Bedeutung und hier haben wir
+
+03:33.920 --> 03:38.600
+das letzte Beispiel, eben zum Beispiel die Äußerung, es ist heiß, ja?
+
+03:38.600 --> 03:44.920
+Nehmen Sie einfach zwei verschiedene Leute, ja, jemanden, der am Nordpol wohnt und jemanden,
+
+03:44.920 --> 03:51.480
+der am Äquator wohnt, die haben eine unterschiedliche Interpretation des Begriffs heiß, ja?
+
+03:51.480 --> 03:52.480
+Gut.
+
+03:52.480 --> 04:04.560
+Wie ich es eben schon angedeutet habe, Logik befasst sich nicht primär damit herauszufinden
+
+04:04.560 --> 04:09.280
+oder nicht primär damit, ob etwas wahr ist oder nicht, ja?
+
+04:09.280 --> 04:16.360
+Die Erde ist eine flache Scheibe, ob diese Aussage wahr ist, ob diese Aussage wahr ist
+
+04:16.360 --> 04:27.120
+oder nicht, ist in der Logik oftmals irrelevant, interessant ist, was aus dieser Aussage folgt,
+
+04:27.120 --> 04:32.600
+wenn sie wahr ist oder wenn sie falsch ist, ja?
+
+04:32.600 --> 04:37.480
+Es geht also darum, ob etwas manchmal oder immer oder vielleicht oder was auch immer
+
+04:37.480 --> 04:42.920
+wahr sein kann oder wahr ist oder, ja, nicht.
+
+04:42.920 --> 04:49.680
+Interessant ist eben die Frage, angenommen man hat eine Menge von Äußerungen, sind
+
+04:49.680 --> 04:57.160
+da redundante Äußerungen drin, sind da Äußerungen, die einander widersprechen, sind sie kompatibel,
+
+04:57.160 --> 04:58.160
+sind sie schlüssig?
+
+04:58.160 --> 05:08.720
+Sie alle lernen eine gewisse Sprache, Java, glaube ich, jetzt, jetzt stellen Sie sich
+
+05:08.720 --> 05:15.520
+mal vor, Sie schreiben ein Java-Programm, in dem zwei Zeilen drinstehen, keine Ahnung,
+
+05:15.520 --> 05:26.040
+die nicht zusammenpassen, doof, dann tut das Programm nicht das, was es soll, ja?
+
+05:26.040 --> 05:30.400
+Was bedeutet es zu einer Menge von Aussagen, von denen man zum Beispiel ausgeht, dass
+
+05:30.400 --> 05:33.560
+sie wahr sind, eine weitere hinzufügt, ja?
+
+05:33.560 --> 05:40.280
+Und so weiter und so fort, darum geht es in der Logik.
+
+05:40.280 --> 05:48.160
+Also, anstatt über die Bedeutung von Äußerungen nachzudenken, wäre es doch sinnvoll, wenn
+
+05:48.160 --> 05:55.200
+man über die Strukturen dieser Bedeutungen oder dieser Aussagen überlegt.
+
+05:55.200 --> 05:56.200
+Warum?
+
+05:56.200 --> 06:01.120
+Sich mit Bedeutungen auseinanderzusetzen ist sehr viel Arbeit, sich mit Strukturen zu
+
+06:01.120 --> 06:08.320
+beschäftigen ist ziemlich einfach, gucken wir uns an, 1 plus 1 gleich 1, ja, das ist
+
+06:08.320 --> 06:14.920
+eine Formel, das ist eine, ja, damit kann man was anfangen, die Frage ist natürlich
+
+06:14.920 --> 06:20.840
+nur, ist das jetzt eine wahre Formel oder eine falsche Formel, ja, in den natürlichen
+
+06:20.840 --> 06:28.280
+Zahlen stimmt das nicht, ja, weil wenn man 1 plus 1 auswertet, ergibt das 2 und 2 ist
+
+06:28.280 --> 06:29.280
+ungleich 1.
+
+06:29.280 --> 06:40.560
+Klare Sache, man kann sogar sagen, dass diese Aussage deswegen falsch sein muss, weil x
+
+06:40.560 --> 06:48.840
+plus x gleich x immer falsch ist, x plus x kann nicht x sein, ja, wir reden über die
+
+06:48.840 --> 06:53.640
+natürlichen Zahlen, nicht die natürlichen Zahlen mit der Null, ne, für Null plus Null
+
+06:53.640 --> 06:58.120
+kommt wieder Null raus, das wäre schön, ne.
+
+06:58.120 --> 07:06.080
+Also, Logik hat im Endeffekt nichts mit Sinn zu tun, ob also eine Aussage sinnig ist, ja,
+
+07:06.080 --> 07:11.960
+wie zum Beispiel die Aussage 1 plus 1 ist 1 oder 1 plus 1 ist nicht 1, ja, schöne Aussage,
+
+07:11.960 --> 07:20.720
+macht aber keinen Sinn irgendwie, ja, aber sie ist wahr und sogar gültig und hat damit
+
+07:20.720 --> 07:27.600
+eine bestimmte Bedeutung, ja, darum geht es in der Logik.
+
+07:27.600 --> 07:36.760
+Was wir also machen wollen, ist aus einer Menge von Formeln Darstellung formaler Darstellung
+
+07:36.760 --> 07:47.400
+von Äußerungen eine, denen eine Bedeutung zuzumessen und wenn wir die Bedeutungen dieser
+
+07:47.400 --> 07:53.240
+Formeln erfasst haben, können wir daraus etwas Schluss folgern, was eine Bedeutung
+
+07:53.240 --> 07:54.240
+hat.
+
+07:54.240 --> 08:03.840
+Jetzt ist natürlich das Schlussformel hier vielleicht schwieriger, vielleicht einfacher,
+
+08:03.840 --> 08:04.840
+was auch immer.
+
+08:04.840 --> 08:16.480
+Schön wäre es doch, wenn man eine Formelmenge so umformen kann, dass nun diese Formelmenge,
+
+08:16.480 --> 08:23.720
+wenn sie interpretiert wird, dieselbe Bedeutung hat, als würde die Formelmenge erst interpretiert
+
+08:23.720 --> 08:26.720
+und dann die Schlussfolgerung dazu.
+
+08:26.720 --> 08:36.400
+Das ist das, was man dann gültiges Ableiten nennt und das ist das, was in der Logik man
+
+08:36.400 --> 08:43.640
+immer wieder als fundamentale Frage wiederfindet, wo möchte ich mich in Anführungszeichen
+
+08:43.640 --> 08:44.640
+lieber bewegen.
+
+08:44.640 --> 08:51.000
+Bei schönen Logiken ist es so, dass es egal ist.
+
+08:51.000 --> 08:57.200
+Bei vielen Logiken ist es aber auch nicht so, insbesondere bei Logiken, die Sie benutzen
+
+08:57.200 --> 08:58.200
+werden.
+
+08:58.200 --> 09:04.440
+Ah, ich sehe, Sie haben Whatsapp-Gruppen schon in der Menge.
+
+09:04.440 --> 09:14.200
+Also, Sie sehen, jede formale Sprache mit einer dazugehörigen Interpretation ist im Endeffekt
+
+09:14.200 --> 09:27.520
+eine Logik und es gibt unheimlich viele formale Sprachen, mit denen man unterschiedlichste
+
+09:27.520 --> 09:29.200
+Dinge modellieren möchte.
+
+09:29.200 --> 09:38.120
+Zum Beispiel möchte man ja auch vielleicht mal sowas sagen, wie ich es gerade gesagt
+
+09:38.120 --> 09:46.800
+habe, vielleicht möchte man eine Logik haben, die es ermöglicht, mit Aussagen zu arbeiten,
+
+09:46.800 --> 09:56.120
+die nicht entweder wahr oder falsch sind, sondern die vielleicht falsch sind oder die
+
+09:56.120 --> 10:01.480
+vielleicht nicht falsch sind, aber nicht notwendigerweise wahr sind oder aber vielleicht möchte man
+
+10:01.480 --> 10:11.560
+mit Logiken arbeiten, in denen es nicht nur heißt, es ist heiß, dass diese Aussage nicht
+
+10:11.560 --> 10:19.840
+den Wahrheitswert falsch hat oder wahr, sondern wenn es eh so lauwarm ist, die Aussage, es
+
+10:19.840 --> 10:22.680
+ist heiß, den Wahrheitswert 0,7 hat.
+
+10:22.680 --> 10:26.760
+Auch dafür gibt es Logiken.
+
+10:26.760 --> 10:36.640
+Man kann Logiken bauen, die dazu da sind, über Schlussfolgerungen anderer Logiken
+
+10:36.640 --> 10:37.640
+zu arbeiten.
+
+10:37.640 --> 10:55.120
+Man kann Logiken bauen, die zeitliche Aspekte berücksichtigen, also zum Beispiel eine Logik,
+
+10:55.120 --> 11:03.440
+in der man modellieren kann, der Mond ist aus grünem Käse, ist wahr, bevor jemand zum
+
+11:03.440 --> 11:06.600
+Mond fliegt und reinbeißt.
+
+11:06.600 --> 11:13.680
+Das sind ja Aussagen, mit denen man sich durchaus beschäftigen will.
+
+11:13.680 --> 11:17.800
+Das ist ja auch eine Frage, die für die Informatik interessant ist.
+
+11:17.800 --> 11:33.520
+Also zum Beispiel, mein Roboter hält dieses Ventil offen, bis irgendwas passiert und dann
+
+11:33.520 --> 11:35.400
+macht es das Ventil zu.
+
+11:35.400 --> 11:41.520
+Das heißt, solange dieses etwas nicht passiert ist, ist die Aussage, das Ventil ist offen
+
+11:41.520 --> 11:46.400
+wahr und sobald dieses Ereignis eintritt, ist die Aussage plötzlich falsch.
+
+11:46.400 --> 11:55.560
+Also ich habe Ihnen hier einfach mal einen riesen Haufen von möglichen Logiken aufgeraten
+
+11:55.560 --> 12:00.400
+und wir werden uns in dieser Vorlesung mit drei Logiken beschäftigen.
+
+12:00.400 --> 12:08.280
+Das eine ist Aussagenlogik, das zweite ist Prädikatenlogik und das dritte ist Horlogik.
+
+12:08.280 --> 12:20.800
+Das soll es zur Einleitung gewesen sein.
+

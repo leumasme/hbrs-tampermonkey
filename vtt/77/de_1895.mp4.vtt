@@ -1,0 +1,1115 @@
+WEBVTT
+
+00:00.000 --> 00:09.000
+Also, gehen wir jetzt noch mal auf diesen Modellbegriff rein.
+
+00:12.000 --> 00:23.000
+Und zwar, ich möchte Sie beruhigen, wir werden nicht abstrakter als wir es sein müssen und komplizierter,
+
+00:23.000 --> 00:34.000
+aber das, was wir uns jetzt überlegen, ist wichtig für einen Schritt, den wir machen müssen,
+
+00:34.000 --> 00:38.000
+um uns tatsächlich die Sache wesentlich zu vereinfachen.
+
+00:38.000 --> 01:02.000
+Ich möchte Ihnen dazu kurz nur drei Begriffe definieren und erklären, über die Sie vielleicht stolpern werden.
+
+01:02.000 --> 01:09.000
+Das habe ich eben schon versucht zu motivieren oder eben schon versucht zu sagen,
+
+01:09.000 --> 01:21.000
+dass eine Formelmenge natürlich auf der Menge aller möglichen Modelle quasi als Selektor funktioniert.
+
+01:21.000 --> 01:26.000
+Es gibt nämlich die Modelle, die die Formelmenge erfüllen und es gibt die Modelle, die sie nicht erfüllen.
+
+01:26.000 --> 01:38.000
+Wenn wir uns also eine Formelmenge p anschauen, dann nennt man jetzt die Menge aller Algebrünen,
+
+01:38.000 --> 01:48.000
+sodass die Interpretationen darin diese Formelmenge erfüllen, die sogenannte Modellklasse von p.
+
+01:51.000 --> 01:53.000
+Das ist die eine Sache.
+
+01:53.000 --> 02:03.000
+Die andere Sache ist, wenn wir uns jetzt mal eine Formelmenge p hernehmen und eine Interpretation dazu,
+
+02:03.000 --> 02:09.000
+dann ist ja die logische Folgerbarkeit definiert.
+
+02:09.000 --> 02:25.000
+Was passiert jetzt, wenn wir eine gegebene Interpretation einer Formelmenge haben und dann alles schlussfolgern,
+
+02:25.000 --> 02:29.000
+was logisch daraus möglich ist?
+
+02:29.000 --> 02:39.000
+Dann bildet man, was man generell als Theorie bezeichnet.
+
+02:39.000 --> 02:49.000
+Also das ist im Endeffekt der Abschluss einer Formelmenge unter der logischen Implikation.
+
+02:49.000 --> 02:58.000
+Wir nehmen eine Formelmenge mit einer bestimmten Bedeutung und alles, was aus diesen Formeln folgt,
+
+02:58.000 --> 03:03.000
+gehört zur Theorie dieser Formeln.
+
+03:03.000 --> 03:08.000
+So könnte man es vielleicht schön sagen.
+
+03:08.000 --> 03:18.000
+Und jetzt ist es natürlich sehr interessant, wenn ich jetzt eine Menge von Formeln habe,
+
+03:18.000 --> 03:33.000
+dann kann ich natürlich versuchen, eine solche Menge von Formeln zu erzeugen aus einer kleinen Menge von Formeln,
+
+03:33.000 --> 03:36.000
+von denen ich die Theorie bilde.
+
+03:36.000 --> 03:40.000
+Nehmen wir uns also eine Theorie her.
+
+03:40.000 --> 03:47.000
+Dann kann es sein, dass ich eine kleine Menge p von Formeln finde,
+
+03:47.000 --> 03:57.000
+für die gilt, dass die Theorie von p genau dieser Theorie entspricht, diesem t.
+
+03:57.000 --> 04:11.000
+Dann nennen wir eine Theorie axiomatisierbar, wenn ich sie eben durch eine Formelmenge p darstellen kann.
+
+04:11.000 --> 04:20.000
+Oder sie heißt endlich axiomatisierbar, wenn es eine ähnliche Formelmenge tut.
+
+04:20.000 --> 04:27.000
+Ich möchte Ihnen nur diese drei Wörter einmal kurz nennen,
+
+04:27.000 --> 04:31.000
+weil Sie sie bestimmt im Verlaufe Ihres Studiums immer noch mal hören werden.
+
+04:31.000 --> 04:34.000
+Wir gehen da jetzt nicht weiter drauf ein.
+
+04:34.000 --> 04:42.000
+Aber als Beispiel sage ich Ihnen einfach nur mal, Sie alle kennen die natürlichen Zahlen und wie man darauf rechnet.
+
+04:42.000 --> 04:59.000
+Das ist die Theorie der natürlichen Zahlen und die ist mit den Pianoaxiomen axiomatisierbar.
+
+04:59.000 --> 05:07.000
+Jetzt schauen wir uns mal an. Jetzt haben wir ganz komplex und kompliziert über Modellklassen und so weiter geredet.
+
+05:07.000 --> 05:09.000
+Jetzt schauen wir uns das mal konkret an.
+
+05:09.000 --> 05:15.000
+Das ist ein Beispiel, das an allen Ecken und Enden hinkt, aber es ist ein Beispiel.
+
+05:15.000 --> 05:20.000
+Wir gucken uns jetzt mal eine Signatur an, ausnahmsweise mit zwei Sorten.
+
+05:20.000 --> 05:26.000
+Wir haben uns ja eigentlich geeignet, wir nehmen nur eine, aber ich brauche jetzt zwei, um dieses Beispiel zu konstruieren.
+
+05:26.000 --> 05:32.000
+Eine Variante x von der Sorte S, eine Konstante von der Sorte S und ein Funktionssymbol,
+
+05:32.000 --> 05:38.000
+das ein Argument der Sorte S in einen Term der Sorte T überführt.
+
+05:38.000 --> 05:44.000
+Jetzt erinnern Sie sich vielleicht an eine Übungsaufgabe, an die ich Ihnen mal gestellt habe.
+
+05:44.000 --> 05:51.000
+Ich habe Ihnen nicht gesagt, erzeugen Sie mal alle möglichen Grundterme über dieser Signatur.
+
+05:51.000 --> 06:02.000
+Das C ist das hier. Sie besteht nur aus der Menge C und aus dem Kern F und C.
+
+06:02.000 --> 06:11.000
+Jetzt überlegen wir uns doch mal, was könnte C bedeuten bzw. was könnte F und C bedeuten.
+
+06:11.000 --> 06:17.000
+Na ja, klar. Wir hauen das jetzt einfach mal rein.
+
+06:17.000 --> 06:22.000
+Wir nehmen jetzt diese beiden Dinger, schieben die in eine Auswertungsfunktion und sagen,
+
+06:22.000 --> 06:29.000
+okay, gut, hier interpretiere das C mal als 0 und das F und C wird zu 1 ausgewertet.
+
+06:29.000 --> 06:36.000
+Und dieses Prädikat P, das da oben nicht steht, sondern das wir uns jetzt noch bauen,
+
+06:36.000 --> 06:42.000
+das sagen wir mal, sei jetzt kleiner gleich, also irgendein Parzellon.
+
+06:42.000 --> 06:49.000
+Und jetzt gucken wir uns mal an, die Formel für alle x gilt gCx.
+
+06:49.000 --> 07:02.000
+Also nach dieser Definition hier würden wir jetzt betrachten, für alle x gilt 0 kleiner gleich x.
+
+07:02.000 --> 07:13.000
+Jetzt kommt die Semantik des Allkrankorts rein, um also die Gültigkeit dieser Formel hier zu zeigen.
+
+07:13.000 --> 07:19.000
+Züglich einer Interpretation, wo hier natürlich jetzt wieder ein J steht und kein I,
+
+07:19.000 --> 07:27.000
+müssen wir zeigen, dass diese Formel hier wahr ist für alle Belegungsfunktionen Alpha.
+
+07:27.000 --> 07:34.000
+Und alle Belegungsfunktionen Alpha sind jetzt alle Funktionen,
+
+07:34.000 --> 07:41.000
+die a eine beliebige Zahl aus den natürlichen Zahlen zuordnen.
+
+07:41.000 --> 07:45.000
+Das sind sehr, sehr, sehr viele Funktionen.
+
+07:45.000 --> 07:49.000
+Wenn man jetzt ganz genau ist, müsste man sagen, naja, wir müssen jetzt zeigen,
+
+07:49.000 --> 07:56.000
+dass diese Aussage hier für unendlich viele Fälle gültig ist.
+
+07:56.000 --> 07:59.000
+Doch, dauert lange, oder?
+
+07:59.000 --> 08:02.000
+Wir könnten doch aber auch Folgendes machen.
+
+08:02.000 --> 08:07.000
+Nehmen wir doch mal an, wir betrachten jetzt als Grundmenge der Struktur,
+
+08:07.000 --> 08:11.000
+in der wir diese Formen interpretieren, nicht die natürlichen Zahlen.
+
+08:11.000 --> 08:14.000
+Ist ja schön und gut, wenn wir 0 und 1 haben, sagen wir natürliche Zahlen.
+
+08:14.000 --> 08:17.000
+Nee, wir haben ja nur diese zwei.
+
+08:17.000 --> 08:24.000
+Dann nehmen wir doch einfach mal nur diese eine Menge, 0 und 1, fertig aus.
+
+08:24.000 --> 08:26.000
+Und dann interpretieren wir diese Formel.
+
+08:26.000 --> 08:32.000
+Das heißt, wir müssen überprüfen, ob diese Aussage hier gilt,
+
+08:32.000 --> 08:36.000
+und zwar nur für zwei Fälle, nämlich einmal, wo das x den Wert 0 hat,
+
+08:36.000 --> 08:38.000
+und einmal, wo das x den Wert 1 hat.
+
+08:38.000 --> 08:41.000
+Und zack, schon sind wir fertig.
+
+08:41.000 --> 08:47.000
+Also, was ich mit diesen Beispielen Ihnen sagen will, ist,
+
+08:47.000 --> 08:53.000
+dass es verschiedene Modelle geben kann,
+
+08:53.000 --> 09:02.000
+die, sagen wir mal, eine gleiche Aussage über die Wirklichkeit einer Form betreffen,
+
+09:02.000 --> 09:06.000
+diese Modelle aber unterschiedlich kompliziert sind.
+
+09:06.000 --> 09:15.000
+Und was natürlich klar ist, man versucht immer, ein möglichst einfaches Modell zu finden.
+
+09:15.000 --> 09:26.000
+So, sowas hat sich ein kluger Herr namens Erbron,
+
+09:26.000 --> 09:29.000
+ich glaube Jacques Hyser, Jacques Erbron, ausgedacht.
+
+09:29.000 --> 09:34.000
+Und nach ihm sind die sogenannten Erbron-Algebra benannt.
+
+09:34.000 --> 09:37.000
+Erlegen wir es uns nochmal.
+
+09:37.000 --> 09:39.000
+Was ist unser Problem?
+
+09:39.000 --> 09:46.000
+Unser Problem ist, für die Interpretation einer Formel über einer Signatur sigma
+
+09:46.000 --> 09:50.000
+kommen alle möglichen Sigma-Algebra in Betracht.
+
+09:50.000 --> 09:53.000
+Das sind viele.
+
+09:53.000 --> 10:01.000
+Das heißt, die Arbeit der Interpretation wird je nach Sigma-Algebra beliebig kompliziert.
+
+10:01.000 --> 10:03.000
+Das wollen wir verhindern.
+
+10:03.000 --> 10:05.000
+Wir wollen es einfach machen.
+
+10:05.000 --> 10:08.000
+Wie kriegen wir das hin?
+
+10:08.000 --> 10:11.000
+Die Signatur ist gegeben.
+
+10:11.000 --> 10:17.000
+Wir suchen jetzt also, und hier taugt jetzt der Begriff der Modellklasse auf,
+
+10:17.000 --> 10:22.000
+wir suchen jetzt so irgendwie eine Art und Weise,
+
+10:22.000 --> 10:29.000
+solch komischen Sigma-Algebra H für Erbron zu finden.
+
+10:29.000 --> 10:34.000
+Was soll das Interessante an diesem Algebra sein?
+
+10:34.000 --> 10:37.000
+Ganz einfach.
+
+10:37.000 --> 10:46.000
+Sie sollen in ihrer Struktur die Interpretationsfunktion einfach machen.
+
+10:46.000 --> 10:52.000
+Und zwar so, im Endeffekt, dass sie schon komplett festgelegt,
+
+10:52.000 --> 10:55.000
+so weit wie möglich festgelegt ist.
+
+10:55.000 --> 11:05.000
+Also was wir im Endeffekt wollen, ist, dass wir, sobald wir eine Signatur haben,
+
+11:05.000 --> 11:13.000
+daraus eine Struktur oder Anforderungen mit einer Struktur definieren können.
+
+11:13.000 --> 11:18.000
+Und diese Struktur, die Interpretationsfunktion,
+
+11:18.000 --> 11:22.000
+Sie sehen, wir sind jetzt vom i übers j zum h gekommen,
+
+11:22.000 --> 11:30.000
+eine Interpretationsfunktion h automatisch uns erzeugt.
+
+11:30.000 --> 11:36.000
+So, und die soll so sein, dass eben eine Formel P erfüllbar ist.
+
+11:36.000 --> 11:40.000
+Klar, genau dann, wenn unter dieser Erbron-Interpretation,
+
+11:40.000 --> 11:48.000
+in einer Erbron-Algebra, die Formel P abzuleiten ist.
+
+11:48.000 --> 11:53.000
+Das Ganze macht natürlich nur Sinn unter einer Bedingung.
+
+11:53.000 --> 12:03.000
+Nämlich, wenn diese Konstruktion erfüllt, die Bedingung erfüllt,
+
+12:03.000 --> 12:12.000
+dass, wenn P ein beliebiges Modell hat, sie auch ein Erbron-Modell hat.
+
+12:12.000 --> 12:25.000
+Diese ganze Idee ist sinnlos, wenn es Formeln gibt, deren Wahrheitmöglichkeit, Erfüllbarkeit,
+
+12:25.000 --> 12:32.000
+wir nicht zeigen können, weil es kein dazu entsprechendes Erbron-Modell gibt.
+
+12:32.000 --> 12:41.000
+Also, das muss erfüllt sein, und das wird auch erfüllt sein.
+
+12:41.000 --> 12:45.000
+Und dann ist nämlich etwas ganz Tolles der Fall.
+
+12:45.000 --> 12:53.000
+Wenn wir dann zeigen können, dass eine Formel in einem Erbron-Modell nicht erfüllbar ist,
+
+12:53.000 --> 12:58.000
+dann wissen wir, dass sie generell unerfüllbar ist.
+
+12:58.000 --> 13:03.000
+Und jetzt können Sie schon wieder ein bisschen zurück an Aussagenlogik denken
+
+13:03.000 --> 13:06.000
+und an Resolution und Widerspruch beweisen.
+
+13:06.000 --> 13:09.000
+Wenn wir die Unerfüllbarkeit einer Formel gezeigt haben,
+
+13:09.000 --> 13:16.000
+dann wissen wir ja ganz besondere Sachen über deren Negation.
+
+13:16.000 --> 13:22.000
+Gut.
+
+13:22.000 --> 13:28.000
+Wie kann man jetzt so etwas machen?
+
+13:28.000 --> 13:36.000
+Das Interessante ist, ich bin, muss ich ehrlich sagen, zum ersten Mal jetzt wirklich heilfroh,
+
+13:36.000 --> 13:40.000
+dass wir eine Online-Vorlesung machen.
+
+13:40.000 --> 13:45.000
+Wenn das jetzt eine Präsenz-Vorlesung wäre und Sie alle vor mir säßen,
+
+13:45.000 --> 13:51.000
+müsste ich befürchten, dass Sie mich in der nächsten Viertelstunde umbringen wollen.
+
+13:51.000 --> 13:53.000
+Warum?
+
+13:53.000 --> 13:58.000
+Wir haben uns immer ganz Tolle allgemein ausgedacht, gell?
+
+13:58.000 --> 14:02.000
+Und die Idee ist jetzt ganz einfach folgendes.
+
+14:02.000 --> 14:09.000
+Warum nehmen wir nicht die syntaktischen Strukturen, die uns unsere Signatur gibt,
+
+14:09.000 --> 14:15.000
+und die Art und Weise, welche Terme wir daraus zusammenbauen können,
+
+14:15.000 --> 14:19.000
+warum nehmen wir das nicht als algebraische Struktur,
+
+14:19.000 --> 14:23.000
+in der wir unsere Formelmengen interpretieren?
+
+14:23.000 --> 14:28.000
+Wir reden ja immer über Eigenschaften konkreter Objekte.
+
+14:28.000 --> 14:35.000
+Warum sagen wir denn einfach nicht 7, die Konstante, das konstanten Symbol 7,
+
+14:35.000 --> 14:40.000
+warum sagen wir denn einfach nicht, das ist ein konsekretes Objekt?
+
+14:40.000 --> 14:46.000
+Klar, im Hinterkopf bedeutet das Symbol 7, 7.
+
+14:46.000 --> 14:51.000
+Aber das Symbol 7 ist genauso konkret wie die 7.
+
+14:51.000 --> 14:56.000
+Warum lassen wir es dann nicht bei dem Symbol 7?
+
+14:56.000 --> 15:06.000
+Auch wenn wir Variablen verwenden oder quantifizierte Ausdrücke,
+
+15:06.000 --> 15:13.000
+dann treffen wir damit ja auch Aussagen wieder über konkrete Objekte.
+
+15:13.000 --> 15:16.000
+Halt nur irgendwie viele.
+
+15:16.000 --> 15:24.000
+Also hier, wenn x kleiner gleich y ist, dann ist x auch kleiner gleich y plus 1.
+
+15:24.000 --> 15:29.000
+Schön und gut, im Endeffekt heißt es, wenn 0 kleiner gleich 0 ist,
+
+15:29.000 --> 15:33.000
+dann ist 0 kleiner gleich 1, wenn 7 kleiner gleich 3 ist,
+
+15:33.000 --> 15:36.000
+dann ist 7 auch kleiner gleich 4.
+
+15:36.000 --> 15:41.000
+Ist halb falsch, aber ist ja in Ordnung.
+
+15:41.000 --> 15:45.000
+Also das ist falsch, deswegen ist das Ganze der Wahrheit.
+
+15:45.000 --> 15:50.000
+Also dieses Ding hier steht für ganz viele konkrete Aussagen.
+
+15:50.000 --> 15:55.000
+Also, warum in aller Welt, hat sich der Herr Bron gedacht,
+
+15:55.000 --> 16:02.000
+belassen wir es nicht bei einem Term und definieren dann
+
+16:02.000 --> 16:10.000
+die Semantik der Prädikate über diese Therme
+
+16:10.000 --> 16:19.000
+auf den Termen selbst, anstatt auf ihren Interpretationen und Auswertungen.
+
+16:19.000 --> 16:23.000
+Die Idee dahinter ist ganz einfach folgende.
+
+16:23.000 --> 16:30.000
+Die gesamte Semantik, das heißt die gesamte Interpretation
+
+16:30.000 --> 16:36.000
+einer Menge von Formeln über einer bestimmten Signatur
+
+16:36.000 --> 16:41.000
+ist mit ihrer Signatur im Endeffekt gegeben.
+
+16:41.000 --> 16:52.000
+Ist da, in Anführungszeichen f von x bedeutet f von x.
+
+16:52.000 --> 16:56.000
+Das einzige, was man dann eben noch machen muss,
+
+16:56.000 --> 16:59.000
+ist die Semantik der Prädikate zu ändern.
+
+16:59.000 --> 17:06.000
+Das habe ich ja eben gesagt, zum Beispiel die Konstante 7,
+
+17:06.000 --> 17:10.000
+kann man als die natürliche Zahl 7 interpretieren.
+
+17:10.000 --> 17:13.000
+Unser Ansatz hier ist jetzt der folgende.
+
+17:13.000 --> 17:17.000
+Wir interpretieren die Konstante 7 gar nicht als die 7,
+
+17:17.000 --> 17:28.000
+sondern behalten dieses Symbol 7 als Bedeutung des Symbols 7 fest.
+
+17:28.000 --> 17:30.000
+Jetzt haben wir nur ein Problem.
+
+17:30.000 --> 17:32.000
+Jetzt gibt es die kleine Gleichrelation,
+
+17:32.000 --> 17:34.000
+jetzt gibt es irgendeine Relation P hier,
+
+17:34.000 --> 17:37.000
+ein Relationssymbol P hier.
+
+17:37.000 --> 17:39.000
+Das haben wir bisher so interpretiert,
+
+17:39.000 --> 17:41.000
+dass wir zum Beispiel so etwas sagen konnten,
+
+17:41.000 --> 17:43.000
+wie die Interpretation des Symbols 7.
+
+17:43.000 --> 17:48.000
+7 ist kleiner gleich 8.
+
+17:48.000 --> 17:51.000
+Das Symbol 7 interpretieren wir jetzt nicht mehr.
+
+17:51.000 --> 17:53.000
+Das Symbol 7 bleibt hier.
+
+17:53.000 --> 17:58.000
+Wir brauchen jetzt also eine Relation auf der Menge der Symbole,
+
+17:58.000 --> 18:01.000
+die wir da drüben haben, auf der 7.
+
+18:01.000 --> 18:06.000
+Das heißt, wir definieren uns dann eine Relation hier drüben,
+
+18:06.000 --> 18:12.000
+die die kleine Gleichrelation hier simuliert.
+
+18:12.000 --> 18:14.000
+Gut.
+
+18:14.000 --> 18:16.000
+Das ist genau das, was hier unten gemeint ist.
+
+18:16.000 --> 18:22.000
+Alles an einer solchen Interpretation wäre klar,
+
+18:22.000 --> 18:24.000
+wenn wir die Menge dieser Therme,
+
+18:24.000 --> 18:26.000
+dieser Grundtherme,
+
+18:26.000 --> 18:28.000
+als Basis einer...
+
+18:28.000 --> 18:36.000
+als Basis einer...
+
+18:36.000 --> 18:38.000
+wäre alles klar.
+
+18:38.000 --> 18:42.000
+Man muss sich nur noch um die Prädikate kümmern.
+
+18:42.000 --> 18:45.000
+Gut.
+
+18:45.000 --> 18:47.000
+Definieren wir es uns.
+
+18:47.000 --> 18:51.000
+Jetzt kommt der Punkt, an dem Sie, wie gesagt,
+
+18:51.000 --> 18:58.000
+durch viele Internetpakete von mir getrennt sind.
+
+18:58.000 --> 19:03.000
+Wir nehmen uns eine Signatur,
+
+19:03.000 --> 19:06.000
+die mindestens einen konstanten Symbol enthält.
+
+19:06.000 --> 19:11.000
+Notfalls auch auf 1.
+
+19:11.000 --> 19:19.000
+Und jetzt nehmen wir uns irgendeine Sigma-Algebra H.
+
+19:19.000 --> 19:23.000
+Sigma-Algebra nennen wir jetzt Herbron-Algebra,
+
+19:23.000 --> 19:25.000
+genau dann, wenn folgendes geht.
+
+19:25.000 --> 19:31.000
+Erstens, die Elemente, die Grundmenge
+
+19:31.000 --> 19:35.000
+dieser Sigma-Algebra, dieser Herbron-Algebra,
+
+19:35.000 --> 19:38.000
+ist gleich der Menge der Grundtherme,
+
+19:38.000 --> 19:42.000
+die wir über der Signatur bilden können.
+
+19:42.000 --> 19:47.000
+Also unser Universum hier auf der Interpretationsseite,
+
+19:47.000 --> 19:49.000
+unser Universum hier drüben,
+
+19:49.000 --> 19:56.000
+ist die Menge der Therme, die wir hier hinten bauen können.
+
+19:56.000 --> 19:58.000
+Die stehen hier auch.
+
+19:58.000 --> 20:00.000
+Jetzt müssen wir uns auf diesen Thermen,
+
+20:00.000 --> 20:02.000
+die wir hier drüben bauen können,
+
+20:02.000 --> 20:05.000
+auf diesen Dingern müssen wir jetzt nur noch Strukturen bauen.
+
+20:05.000 --> 20:09.000
+Und die sieht wie folgt aus.
+
+20:09.000 --> 20:15.000
+Wenn wir jetzt Grundtherme T1 bis Tm haben
+
+20:15.000 --> 20:21.000
+und ein n-stelliges Funktionssymbol in unserer Signatur,
+
+20:21.000 --> 20:25.000
+dann können wir daraus ja den Thermbaum f,
+
+20:25.000 --> 20:29.000
+dieses Funktionssymbol, mit den Argumenten T1 bis Tm.
+
+20:29.000 --> 20:31.000
+Jetzt kommt der Knall.
+
+20:31.000 --> 20:35.000
+T1 bis Tm sind ja Grundtherme.
+
+20:35.000 --> 20:37.000
+Da stehen keine Variablen drin.
+
+20:37.000 --> 20:39.000
+Die kann man ohne ein alpha auswerten.
+
+20:39.000 --> 20:42.000
+Da kommt irgendwas raus.
+
+20:42.000 --> 20:46.000
+Die Frage ist nur, wenn wir das jetzt hier alles ausgewertet haben,
+
+20:46.000 --> 20:49.000
+was ist dann f von dem?
+
+20:49.000 --> 20:53.000
+Naja, wenn wir die alle ausgewertet haben,
+
+20:53.000 --> 20:56.000
+kommen da wie gesagt Grundtherme raus.
+
+20:56.000 --> 21:00.000
+Das heißt, sie sind in der Domäne unserer Algorithmen.
+
+21:00.000 --> 21:03.000
+Und jetzt bauen wir einen neuen Therm,
+
+21:03.000 --> 21:05.000
+einen neuen Grundtherm daraus,
+
+21:05.000 --> 21:08.000
+indem wir dieses Funktionssymbol f davor knallen.
+
+21:08.000 --> 21:10.000
+Was bedeutet das?
+
+21:10.000 --> 21:12.000
+Das ist ein Grundtherm.
+
+21:12.000 --> 21:14.000
+Wir sind also wieder in dieser Domäne.
+
+21:14.000 --> 21:18.000
+Also, die Interpretation,
+
+21:18.000 --> 21:22.000
+die Grundinterpretation eines solchen Therms ist gleich
+
+21:22.000 --> 21:27.000
+und jetzt zur Abwechslung mal kein Tippfehler.
+
+21:27.000 --> 21:29.000
+Dasselbe.
+
+21:29.000 --> 21:36.000
+Ein Therm wird zu sich selbst ausgewertet.
+
+21:36.000 --> 21:41.000
+Das ermöglicht es uns jetzt,
+
+21:41.000 --> 21:44.000
+die gesamte Termevaluation,
+
+21:44.000 --> 21:50.000
+die ist für uns erledigt.
+
+21:50.000 --> 21:58.000
+Die ist jetzt sozusagen in dieser Ambron-Interpretation automatisch drinnen.
+
+21:58.000 --> 22:02.000
+Wir nennen dann eine solche Ambron-Algebra,
+
+22:02.000 --> 22:04.000
+ein Ambron-Modell von p,
+
+22:04.000 --> 22:06.000
+von einer Formelmenge p.
+
+22:06.000 --> 22:12.000
+Naja, wenn die Ambron-Interpretation die Menge p erfüllt.
+
+22:12.000 --> 22:15.000
+Also, nochmal.
+
+22:15.000 --> 22:20.000
+Die Domäne einer solchen Ambron-Algebra
+
+22:20.000 --> 22:23.000
+ist die Menge der Grundtherme,
+
+22:23.000 --> 22:25.000
+die wir auf unserer Signatur bauen können.
+
+22:25.000 --> 22:30.000
+Wir versuchen im Endeffekt,
+
+22:30.000 --> 22:36.000
+jeden Tag unsere Formeln gleichzeitig als deren Semantik zu begreifen.
+
+22:36.000 --> 22:41.000
+Ein Therm wird mit unserer normalen Interpretation
+
+22:41.000 --> 22:45.000
+ja immer ausgewertet.
+
+22:45.000 --> 22:47.000
+Und hier sehen Sie jetzt ganz viele Sachen,
+
+22:47.000 --> 22:50.000
+wie fürchterlich kompliziert das eigentlich ist,
+
+22:50.000 --> 22:53.000
+aber wie es dann eben hier
+
+22:53.000 --> 22:57.000
+durch die Auswertung eines Therms zu sich selber
+
+22:57.000 --> 22:59.000
+wieder vollkommen implodiert.
+
+22:59.000 --> 23:05.000
+Und deswegen, weil man das machen kann,
+
+23:05.000 --> 23:13.000
+deswegen sehen Sie eben so oft die Notation,
+
+23:13.000 --> 23:21.000
+in denen zwischen diesem f und der Funktion f
+
+23:21.000 --> 23:24.000
+notationell nichts unterschieden wird.
+
+23:24.000 --> 23:26.000
+Weil wenn man genau das macht,
+
+23:26.000 --> 23:35.000
+dann ist sie tatsächlich das Gleiche.
+
+23:35.000 --> 23:40.000
+So, das passiert also im Einzelnen.
+
+23:40.000 --> 23:45.000
+Wenn da so ein Therm steht, f von t1 bis tn,
+
+23:45.000 --> 23:50.000
+dann muss man die Unter dieser Ambron-Interpretation interpretieren.
+
+23:50.000 --> 23:54.000
+Um das zu machen, ist ja eine ganz normale Interpretationsfunktion
+
+23:54.000 --> 23:57.000
+für Therme muss man also diesen Therm auswerten.
+
+23:57.000 --> 23:58.000
+Zack, da steht er.
+
+23:58.000 --> 24:01.000
+Wir müssen also diesen Therm auswerten.
+
+24:01.000 --> 24:02.000
+Wie macht man das?
+
+24:02.000 --> 24:05.000
+Naja, man nimmt jetzt sozusagen,
+
+24:05.000 --> 24:07.000
+wir hatten das kleine eckige i hier unten stehen,
+
+24:07.000 --> 24:09.000
+wir hatten das kleine eckige j hier unten stehen,
+
+24:09.000 --> 24:12.000
+jetzt haben wir für die Ambron-Interpretation
+
+24:12.000 --> 24:14.000
+eben dieses kleine eckige h hier unten stehen.
+
+24:14.000 --> 24:17.000
+Man nimmt also die h-Interpretation von f
+
+24:17.000 --> 24:21.000
+und wertet diese Argumente aus.
+
+24:21.000 --> 24:26.000
+Was ist jetzt aber die Interpretation dieses Symbols?
+
+24:26.000 --> 24:31.000
+Die Interpretation dieses Symbols ist das Symbol selber.
+
+24:31.000 --> 24:35.000
+Wir haben also fh von irgendwelchen Thermen
+
+24:35.000 --> 24:38.000
+ist gleich f von diesen Thermen.
+
+24:38.000 --> 24:39.000
+Warum?
+
+24:39.000 --> 24:44.000
+Weil wir müssen natürlich die Argumente hier,
+
+24:44.000 --> 24:48.000
+t1 bis tn, ja auch auswerten.
+
+24:48.000 --> 24:50.000
+Aber wie ich ja eben schon gesagt habe,
+
+24:50.000 --> 24:53.000
+das sind ja Grundtherme.
+
+24:53.000 --> 24:56.000
+Das heißt, die Grundtherme haben genau diese Struktur,
+
+24:56.000 --> 24:58.000
+wie wir sie hier für f beschreiben.
+
+24:58.000 --> 25:01.000
+Das heißt, die sind in Anführungszeichen schon auswertet.
+
+25:01.000 --> 25:04.000
+Und zwar zu sich selbst.
+
+25:04.000 --> 25:11.000
+Und deswegen ist das eben hier dann auch f von t1 bis tn.
+
+25:11.000 --> 25:17.000
+Hier unten steht es, die ti sind bereits auswertet.
+
+25:17.000 --> 25:25.000
+In anderen Worten, in einer Ergon-Algebra
+
+25:25.000 --> 25:31.000
+sind automatisch alle Therme, die wir bilden können,
+
+25:31.000 --> 25:34.000
+wohl definiert.
+
+25:34.000 --> 25:36.000
+Nämlich als sich selber.
+
+25:36.000 --> 25:38.000
+Klingt total doof, ja?
+
+25:38.000 --> 25:44.000
+Aber wenn Sie vielleicht als Beispiel dafür...
+
+25:44.000 --> 25:51.000
+Wir hatten vorher einen Therm 2 plus 3.
+
+25:51.000 --> 25:57.000
+Den haben wir interpretiert als die Addition der Zahlen,
+
+25:57.000 --> 26:02.000
+die durch das Symbol 2 und das Symbol 3 dargestellt werden.
+
+26:02.000 --> 26:04.000
+Das haben wir dann meistens so gemacht,
+
+26:04.000 --> 26:06.000
+dass wir diese Symbole hier vorne, nämlich 2 und 3,
+
+26:06.000 --> 26:09.000
+so gewählt haben, dass hier hinten auch 2 und 3 steht.
+
+26:09.000 --> 26:12.000
+Und das konnten wir auswerten.
+
+26:12.000 --> 26:15.000
+Und dann steht da 5.
+
+26:15.000 --> 26:18.000
+Jetzt machen wir etwas anderes.
+
+26:18.000 --> 26:24.000
+Jetzt werten wir 2 plus 3 nicht zu 5 aus,
+
+26:24.000 --> 26:28.000
+sondern der Therm, der hier steht,
+
+26:28.000 --> 26:33.000
+Klammer auf, 2, Kreuz 3, Klammer zu,
+
+26:33.000 --> 26:36.000
+wird ausgewertet zu einem Therm,
+
+26:36.000 --> 26:42.000
+nämlich Klammer auf, 2, Kreuz 3, Klammer zu.
+
+26:42.000 --> 26:44.000
+Der wird nicht weiter ausgewertet.
+
+26:44.000 --> 26:49.000
+In 2 plus 3 steht ja keine Variante drin.
+
+26:49.000 --> 26:56.000
+Okay.
+
+26:56.000 --> 27:02.000
+Das hat eine ganz tolle Konsequenz.
+
+27:02.000 --> 27:12.000
+Nämlich, die Substitution einer Variante durch einen Therm
+
+27:12.000 --> 27:18.000
+fällt zusammen mit der entsprechenden Änderung
+
+27:18.000 --> 27:21.000
+der Beliegungsfunktion an der Stelle x.
+
+27:21.000 --> 27:23.000
+Sie sehen, der Unterschied ist hier.
+
+27:23.000 --> 27:26.000
+Hier steht dasselbe Thema da.
+
+27:26.000 --> 27:34.000
+Wir müssen jetzt also von hier nach da nichts mehr auswerten.
+
+27:34.000 --> 27:36.000
+Wenn man das formal machen will,
+
+27:36.000 --> 27:38.000
+dann muss man da einen Induktionsbeweis machen.
+
+27:38.000 --> 27:46.000
+Letztendlich ist es aber von der Idee her total einfach.
+
+27:46.000 --> 27:48.000
+So.
+
+27:48.000 --> 27:50.000
+Jetzt habe ich Ihnen gesagt,
+
+27:50.000 --> 27:52.000
+dass man sich solche Modelle bauen kann,
+
+27:52.000 --> 27:53.000
+und ich habe gesagt,
+
+27:53.000 --> 27:55.000
+Sie würden mich wahrscheinlich dafür steinigen,
+
+27:55.000 --> 28:00.000
+weil es die Sachen einfacher macht.
+
+28:00.000 --> 28:06.000
+Wahrscheinlich haben Sie jetzt noch gar nicht direkt gesehen,
+
+28:06.000 --> 28:08.000
+warum es die Sache so einfach macht,
+
+28:08.000 --> 28:13.000
+obwohl es jetzt noch mal komplizierter war.
+
+28:13.000 --> 28:17.000
+Das kriegen wir im Detail das nächste Mal.
+
+28:17.000 --> 28:25.000
+Das ist ein richtig schöner Cliffhanger.
+
+28:25.000 --> 28:35.000
+Ich habe hier in den Folien nur noch Folgendes,
+
+28:35.000 --> 28:40.000
+was ich Ihnen einfach noch mal mitgeben möchte.
+
+28:40.000 --> 28:46.000
+Wir sprechen über Modelle, Interpretationen etc. pp.
+
+28:46.000 --> 28:49.000
+Es gibt viele, viele, viele Bücher,
+
+28:49.000 --> 28:56.000
+die Sie sich bitte auch in Ergänzung zu dieser Vorlesung angucken.
+
+28:56.000 --> 29:01.000
+Und letztendlich steht überall mehr oder weniger das Gleiche drin.
+
+29:01.000 --> 29:05.000
+Alles ungefähr, was so dasteht.
+
+29:05.000 --> 29:09.000
+Das Problem ist, obwohl alle das Gleiche meinen,
+
+29:09.000 --> 29:14.000
+ich habe hier mal sieben Bücher aufgeschrieben,
+
+29:14.000 --> 29:19.000
+schreiben die das alle anders.
+
+29:19.000 --> 29:21.000
+Ich habe auf diesen paar Folien hier
+
+29:21.000 --> 29:26.000
+einfach nur mal so eine Konkordanz-Tabelle gemacht,
+
+29:26.000 --> 29:32.000
+dass Sie sehen, wenn der eine ein großes V schreibt,
+
+29:32.000 --> 29:35.000
+schreibt der andere ein großes U.
+
+29:35.000 --> 29:42.000
+Sie sehen übrigens, unsere Funktionssymbole f
+
+29:42.000 --> 29:53.000
+sind meistens bis auf hier als ein ganz normales f dargestellt.
+
+29:53.000 --> 30:00.000
+An dieser Stelle ist das vielleicht noch relativ einfach nachzuvollziehen.
+
+30:00.000 --> 30:06.000
+Aber in dem Moment, wo man dann über den Begriff der Signatur spricht
+
+30:06.000 --> 30:08.000
+oder der Sigma algebra,
+
+30:08.000 --> 30:13.000
+ist man schon fest, wie sich die Begriffe ändern.
+
+30:13.000 --> 30:18.000
+Schöning spricht einfach von einer zu f passenden Struktur A.
+
+30:18.000 --> 30:21.000
+Hier gibt es L-Strukturen, hier gibt es S-Strukturen,
+
+30:21.000 --> 30:24.000
+hier gibt es einfach nur ein dickes A.
+
+30:24.000 --> 30:27.000
+Hier wird wie gesagt die Sigma algebra selbst
+
+30:27.000 --> 30:31.000
+mit der Perfektionsfunktion gleichgesetzt und so weiter.
+
+30:31.000 --> 30:34.000
+Und dann können Sie sich natürlich vorstellen,
+
+30:34.000 --> 30:38.000
+wie weit man darum geht für den Begriff der Domäne,
+
+30:38.000 --> 30:43.000
+die Substitution, die Belegung der Substitution auf einer Belegungsfunktion.
+
+30:43.000 --> 30:46.000
+Das ist beliebig komplexer wird.
+
+30:46.000 --> 30:51.000
+Also ich hoffe, ich kann Ihnen und so weiter und so fort.
+
+30:51.000 --> 30:56.000
+Gut, wir haben jetzt die Semantik der Prädikaten-Logik
+
+30:56.000 --> 30:58.000
+in ihren Grundzügen abgeschlossen
+
+30:58.000 --> 31:00.000
+und wir haben einen ganz tollen Cliffhanger,
+
+31:00.000 --> 31:05.000
+nämlich das AMRO-Modell, mit dem wir uns Sachen sehr einfach machen können.
+
+31:05.000 --> 31:11.000
+Wir werden das dann benutzen, um uns den Normalformen zu nähern.
+
+31:11.000 --> 31:17.000
+Die Vorlesung heute hat wieder wesentlich länger gedauert, als ich gedacht habe,
+
+31:17.000 --> 31:31.000
+aber wir haben an der Stelle jetzt eigentlich einen schönen Break erreicht.
+

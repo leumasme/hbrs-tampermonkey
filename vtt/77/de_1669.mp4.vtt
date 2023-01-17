@@ -1,0 +1,341 @@
+WEBVTT
+
+00:00.000 --> 00:17.000
+Wie beweisen wir jetzt, dass aus einer Formel eine andere folgt bzw. dass wir aus einem bestimmten Sachverhalt weitere Schlussfolgerungen ziehen können?
+
+00:17.000 --> 00:38.000
+Wir beschäftigen uns also mit verschiedenen einfachen Beweismethoden, bei denen es darum geht,
+
+00:38.000 --> 01:01.000
+Beweise, dass aus p folgt das q.
+
+01:01.000 --> 01:18.000
+Das ist das, was wir in der Regel machen wollen. Wenn wir das formal darstellen, dann ist das wie folgt.
+
+01:18.000 --> 01:47.000
+Wir fragen uns, wie beweist man die Gültigkeit von p impliziert q semantisch?
+
+01:47.000 --> 02:03.000
+Dazu gibt es im Allgemeinen drei fundamentale Verfahren, die man nutzen kann.
+
+02:03.000 --> 02:19.000
+Und deren Gültigkeit man unter Verwendung des Reduktionstheorems aus der vorherigen Video ableiten kann.
+
+02:19.000 --> 02:42.000
+Schauen wir uns das doch mal an. Wir haben gesagt, p impliziert q, genau dann, wenn nach Reduktionstheorien die Auswertung von p, u immer wahr ergibt.
+
+02:42.000 --> 03:04.000
+Ich schreibe es nur noch hier dazu. 1 ist ja nichts anderes als die Auswertung von q.
+
+03:04.000 --> 03:19.000
+Um so etwas zu zeigen, gibt es mehrere Möglichkeiten, wie eben angesprochen.
+
+03:19.000 --> 03:34.000
+Diese sind erstens und das nennt man direkter Beweis.
+
+03:34.000 --> 03:49.000
+Was man dann macht, ist, man zeigt die Gültigkeit der Implikation, indem man zeigt, wann immer die Prämisse wahr ist, ist auch die Konklusion wahr.
+
+03:49.000 --> 04:02.000
+Also ich sage mal, das ist sozusagen ein Weg, der gerade heraus ist.
+
+04:02.000 --> 04:22.000
+Als zweites gibt es den Beweis durch Kontraposition.
+
+04:22.000 --> 04:37.000
+Und dieser Beweis durch Kontraposition ist ein Beweis, der sich ein bestimmtes logisches Gesetz zunutze macht, das wir uns gleich genauer ansehen werden.
+
+04:37.000 --> 05:06.000
+Und das ist anstelle eines direkten Beweises von vorne nach hinten im Endeffekt ein Beweis sozusagen von rückwärts durch Kontraposition oder wie könnten wir es nennen, ich nenne es einfach mal rückwärts.
+
+05:06.000 --> 05:28.000
+Und drittens gibt es noch als eine wichtige Beweismethode den Beweis durch Widerspruch.
+
+05:28.000 --> 05:33.000
+Und der Beweis durch Widerspruch funktioniert wie folgt.
+
+05:33.000 --> 05:45.000
+Man überlegt sich ganz einfach, was wäre denn oder was wäre denn die Folge davon, dass die behauptete Implikation falsch ist.
+
+05:45.000 --> 06:12.000
+Und diese Behauptung würde dann zu einem Widerspruch oder zu einer offensichtlichen Falschaussage führen, so dass wir wissen, wenn die Annahme des Gegenteils zu einem Widerspruch führt, muss die ursprüngliche Annahme korrekt sein.
+
+06:12.000 --> 06:34.000
+Das ist also im Endeffekt auch eine Art Rückwärtsverfahren, aber um ganz ehrlich zu sein, es fällt mir jetzt hier kein anderes Wort ein, als nochmals das Wort widersprüchlich hinzuschreiben.
+
+06:34.000 --> 06:53.000
+So, versuchen wir mal, diese drei Teile einigermaßen in Verbindung zu bringen und dazu schreibe ich Ihnen einfach mal drei Formeln aus.
+
+06:53.000 --> 07:10.000
+Die erste Formel ist eine, die wir kennen. P impliziert Q. Ja, durch das Detektionstheorie, wenn dieses wahr ist, wahr. Wissen wir.
+
+07:10.000 --> 07:34.000
+Die zweite, die ich auch schreibe, ist folgende. Nicht Q impliziert nicht P. Und die dritte, die ich auch schreibe, ist folgende. P und nicht Q.
+
+07:34.000 --> 07:48.000
+Und für diese drei Formeln schauen wir uns jetzt einfach nochmal die Wahrheitswerttabelle an.
+
+07:48.000 --> 07:58.000
+Die Implikation kennen wir langsam auswendig, können Sie also einfach hinstellen.
+
+07:58.000 --> 08:11.000
+Hier machen wir eine doppelte Verdrehung. Und in der Tat ist das das Beweisprinzip Nummer 2, nämlich das Kontrapositionsschema.
+
+08:11.000 --> 08:35.000
+Schauen wir uns an, nicht Q, ja, 1, wäre also 1, impliziert nicht P, also 1. 1 impliziert 1, ist wahr. Nicht Q, 0, ja, ist also 0, impliziert nicht P, 1.
+
+08:35.000 --> 08:58.000
+Aus 0 und 1, 0 impliziert 1, ist 1. Nicht Q, Entschuldigung, nicht Q ist also 1, impliziert nicht P, nicht P ist nicht 1, also 0, also 1 impliziert 0, wissen wir, ist falsch.
+
+08:58.000 --> 09:10.000
+Und nicht Q, also 0, impliziert nicht P, also 0, ist dasselbe wie 0 impliziert 0, ist wahr.
+
+09:10.000 --> 09:20.000
+Wir stellen also fest, als allererstes, dass diese beiden hier, diese beiden Formeln schon mal Äquivalenz sind.
+
+09:20.000 --> 09:36.000
+Das ist doch schon mal schön. Für unsere Untersuchung, ob die semantische Implikation P impliziert Q, wahr ist,
+
+09:36.000 --> 09:52.000
+müssen wir jetzt ja im Endeffekt immer nur diesen Fall hier betrachten, in dem gezeigt wird, wenn P wahr ist,
+
+09:52.000 --> 10:01.000
+also können wir uns im Endeffekt auf den unteren Teil der Tabelle verlassen, diese beiden Zahlen.
+
+10:01.000 --> 10:08.000
+Und wir wollen zeigen, dass die gesamte Implikation wahr ist, also hier eine 1 steht, wissen wir,
+
+10:08.000 --> 10:15.000
+dass wir im Endeffekt um die Gültigkeit der semantischen Implikation zu zeigen, nur die letzte Zeile gucken müssen.
+
+10:15.000 --> 10:21.000
+Und das bedeutet also, dass wenn P wahr ist, auch Q wahr ist.
+
+10:21.000 --> 10:33.000
+So, jetzt gucken wir uns nochmal die letzte Zeile an. P und nicht Q. Wissen wir automatisch, wenn P 0 ist, ist natürlich die gesamte Konjunktion.
+
+10:33.000 --> 10:54.000
+Und nicht Q ergibt also hier eine 1 und wir haben 1 und 1, also 1 und hier haben wir 1 und nicht Q 0, also 0.
+
+10:54.000 --> 11:08.000
+So, jetzt stellen wir also Folgendes fest. Wenn diese Formel hier gültig wäre,
+
+11:08.000 --> 11:25.000
+wäre in dem als relevant zu betrachtenden Teil zur Gültigkeit der semantischen Implikation die semantische Implikation nicht gültig.
+
+11:25.000 --> 11:32.000
+Und das ist genau die Aussage des Beweises durch Widerspruch.
+
+11:32.000 --> 11:51.000
+Also, P impliziert Q ist eine, semantisch gesehen, P impliziert Q ist eine wahre oder ist eine gültige Folgerung,
+
+11:51.000 --> 12:08.000
+wenn die Formel P und nicht Q falsch ergibt. Alle diese drei Möglichkeiten sind jetzt also tatsächlich
+
+12:08.000 --> 12:24.000
+equivalente, naja, nicht Äquivalente, aber in diesem Falle Äquivalent und in diesem Fall tatsächlich sozusagen, ich mach jetzt mal Lila hin,
+
+12:24.000 --> 12:40.000
+hier genau umgedreht, Formulierungen, die wir benutzen können, um die Gültigkeit einer Implikation hier in dieser letzten Zeile zu beweisen,
+
+12:40.000 --> 12:44.000
+auf die es im Endeffekt nur ankommt.
+
+12:44.000 --> 13:10.000
+Also, ich fasse noch mal zusammen. Um zu zeigen, dass aus P Q folgt, kann man zeigen,
+
+13:10.000 --> 13:29.000
+erstens, wenn beziehungsweise unter der Annahme das P gilt,
+
+13:29.000 --> 13:49.000
+also, P gleich 1, beziehungsweise unter der Annahme das, so, jetzt wollte ich das schon von Kreide wegwischen,
+
+13:49.000 --> 14:11.000
+also, wenn P gilt, beziehungsweise wenn unter der Annahme das P gilt, ist zu zeigen, dass auch Q gilt.
+
+14:11.000 --> 14:16.000
+Das ist der direkte Beweis.
+
+14:16.000 --> 14:40.000
+Die zweite Möglichkeit, das zu beweisen, ist wie folgt, wenn Q nicht gilt, dann gilt auch nicht P.
+
+14:40.000 --> 14:55.000
+Das ist die Kontraposition. Na ja, ist klar, wenn aus P Q folgt und Q nicht gilt, dann kann P sozusagen nicht gegolten haben.
+
+14:55.000 --> 15:04.000
+Weil hätte es gegolten, wäre daraus Q gefolgt.
+
+15:04.000 --> 15:13.000
+Das ist also das Kontrapositionsbezirk. Und die dritte Möglichkeit ist,
+
+15:13.000 --> 15:39.000
+unter der Annahme das P gilt und das Q nicht gilt,
+
+15:39.000 --> 15:53.000
+dann ergibt sich ein Widerspruch.
+
+15:53.000 --> 16:03.000
+Also, ich möchte das noch einmal an dieser Tabelle klarmachen.
+
+16:03.000 --> 16:22.000
+Die einzige Möglichkeit, dass eine Implikation falsch wird, hier, ist die Tatsache, dass die Prämisse wahr und die Konklusion falsch ist.
+
+16:22.000 --> 16:38.000
+Wenn wir jetzt genau das annehmen, dass die Prämisse wahr ist und die Konklusion falsch, wir das also genau annehmen,
+
+16:38.000 --> 16:48.000
+dann muss die Implikation den Wahrheitswert falsch haben.
+
+16:48.000 --> 16:59.000
+So, dieses Video ist jetzt schon ziemlich lang, weil es sich für die letzte Schlussfigur nicht mehr lohnt, auch noch eine neue zu machen.
+
+16:59.000 --> 17:05.000
+Dann machen wir dieses Video zum Abschluss der Logik.
+
+17:05.000 --> 17:20.000
+Naja, eine kleine Nachbemerkung wird es noch geben. Noch ein bisschen länger und wir betrachten sogenannte Äquivalenzbeweise.
+
+17:20.000 --> 17:26.000
+Nun, das haben Sie bestimmt schon gesehen. Ja, dann findet Sicherheit.
+
+17:26.000 --> 17:32.000
+Das hier, wir haben ja auch bewiesen, oder wir haben ja auch definiert, was dieses Symbol bedeutet.
+
+17:32.000 --> 17:46.000
+Und wir haben auch schon gesagt, dass P Äquivalenz zu Q ist, genau dann, wenn P Q impliziert und wenn Q P impliziert.
+
+17:46.000 --> 17:51.000
+So, damit haben wir schon erklärt, wie man einen Äquivalenzbeweis führt.
+
+17:51.000 --> 17:59.000
+Man führt nämlich, indem man die Äquivalenz aufsprittet in zwei Implikationen. Das ist eine Möglichkeit.
+
+17:59.000 --> 18:06.000
+Die zweite Möglichkeit ist im Endeffekt eine Verallgemeinerung daraus.
+
+18:06.000 --> 18:14.000
+Wenn Sie sich dieses hier mal anschauen, dann stellen Sie ja fest, hier ist im Endeffekt so eine Kette.
+
+18:14.000 --> 18:22.000
+P Q, hier ist das P, das ist im Endeffekt so was.
+
+18:22.000 --> 18:32.000
+In dieser Kette steckt drin, dass P Q impliziert und dass Q P impliziert.
+
+18:32.000 --> 18:38.000
+Und dass deswegen natürlich P Q und so weiter und so fort.
+
+18:38.000 --> 18:48.000
+Also, man kann das, ich muss mal kurz schauen, wo ich es am schönsten aufgeschrieben habe.
+
+18:48.000 --> 18:55.000
+Man kann das auch wie folgt.
+
+18:55.000 --> 18:57.000
+Ich starte erstmal.
+
+18:57.000 --> 18:59.000
+Also, Äquivalenzbeweis.
+
+18:59.000 --> 19:12.000
+Erstens durch gegenseitige Implikationen.
+
+19:12.000 --> 19:25.000
+Und das zweite Verfahren, das da sehr wichtig ist, ist das Verfahren des sogenannten Ringschlusses.
+
+19:25.000 --> 19:28.000
+Warum heißt der Ringschluss Ringschluss?
+
+19:28.000 --> 19:30.000
+Ganz einfach.
+
+19:30.000 --> 19:45.000
+Wenn wir beweisen wollen, Moment, ich muss kurz nachschauen.
+
+19:45.000 --> 19:50.000
+P impliziert Q und Q impliziert P.
+
+19:50.000 --> 19:57.000
+Dann könnte man jetzt das auch wie folgt aussprechen.
+
+19:57.000 --> 20:08.000
+Erstens zeigt man, wie hier oben, dass P Q impliziert.
+
+20:08.000 --> 20:13.000
+Okay, das ist nicht weiter dramatisch.
+
+20:13.000 --> 20:26.000
+Zweitens zeigt man dann, dass Q eine Formel R impliziert.
+
+20:26.000 --> 20:31.000
+Das ist auch nicht weiter schwierig, wenn man eine entsprechende Formel R findet.
+
+20:31.000 --> 20:35.000
+Aber eine ganz einfache finden wir gleich.
+
+20:35.000 --> 20:45.000
+Und drittens zeigt man, dass aus R P folgt.
+
+20:45.000 --> 20:49.000
+So, warum heißt das jetzt Ringschluss?
+
+20:49.000 --> 20:59.000
+Wenn man sozusagen die gleiche vereinfachende Schreibweise wie hier oben anwendet, ergibt sich ein RIN.
+
+20:59.000 --> 21:09.000
+Leider passt hier nicht mehr alles auf die Tafel.
+
+21:09.000 --> 21:12.000
+Ich versuche das mal ein bisschen hochzuschieben.
+
+21:12.000 --> 21:18.000
+Hier der Ringschluss.
+
+21:18.000 --> 21:34.000
+Wir haben also eine Formel P und gezeigt wird, dass aus dieser Formel P eine Formel Q folgt.
+
+21:34.000 --> 21:42.000
+Aus dieser Formel Q wird gezeigt, dass daraus eine Formel R folgt.
+
+21:42.000 --> 21:50.000
+Und aus R wird gezeigt, dass daraus wieder die Formel P folgt.
+
+21:50.000 --> 21:54.000
+Deswegen nennt man es Ringschluss.
+
+21:54.000 --> 22:02.000
+Der einfachste Ring, den man da machen könnte, wäre, wenn Q gleich R wäre.
+
+22:02.000 --> 22:18.000
+Dann ergeben sich ja im Endeffekt P S impliziert Q ist gleich R und R impliziert P.
+
+22:18.000 --> 22:23.000
+Und damit haben wir genau das ganz normale übliche Beweisschema hier oben.
+
+22:23.000 --> 22:31.000
+Hier machen wir jetzt aber so, dass wir jetzt diesen Ring haben über unsere semantische Implikation.
+
+22:31.000 --> 22:45.000
+Der uns sagt, wenn aus P Q folgt und aus Q R, dann folgt aus Q R auch P, also folgt auch aus Q P.
+
+22:45.000 --> 22:51.000
+Und damit ist dann hier diese Äquivalenz gezeigt.
+
+22:51.000 --> 22:55.000
+Da stecken noch ein paar andere Methoden drin, die wir später entdecken werden.
+
+22:55.000 --> 23:03.000
+So, jetzt haben Sie alle wichtigen Beweisprinzipien kennengelernt, die wir benutzen werden,
+
+23:03.000 --> 23:14.000
+um mit dieser Logik als Sprache, auf die wir uns verständigt haben, Schlussfolgerungen zu ziehen,
+
+23:14.000 --> 23:19.000
+über deren Gültigkeit wir uns jetzt einig sind.
+
+23:19.000 --> 23:27.000
+Es gibt jetzt noch ein kleines Video, wo wir uns noch kurz mit Quantoren beschäftigen,
+
+23:27.000 --> 23:50.000
+auch sehr informell, aber ansonsten können wir jetzt endlich mit diskreter Mathematik loslegen.
+

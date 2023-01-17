@@ -1,0 +1,125 @@
+WEBVTT
+
+00:00.000 --> 00:14.000
+Therme, schön und gut, Grundtherme, naja, okay, auch schön und gut, aber das Interessante an Prädikatenlogik sind ja nun mal die Prädikate, sonst hieße sie nicht Prädikatenlogik.
+
+00:14.000 --> 00:27.000
+Die Menge der Prädikate, also eben haben wir uns die Menge der Grundtherme über einer Signatur definiert, jetzt definieren wir uns die Menge der Prädikate über einer solchen Signatur,
+
+00:27.000 --> 00:42.000
+ist also folgendes. Für nullstellige Prädikate, die im Endeffekt Aussagenvariablen entsprechen, weil sie keine Argumente haben, das sind Relationen ohne Argument,
+
+00:42.000 --> 01:02.000
+sagen wir, das sind natürlich Prädikate und dann machen wir das gleiche wie für Therme, nämlich, wenn wir Therme haben, um die entsprechenden Stellen eines Prädikatsymbols aufzufüllen,
+
+01:02.000 --> 01:16.000
+dann dürfen wir die reinschreiben und der Ausdruck, der entsteht, wenn wir das Prädikatsymbol nehmen, Klammern machen und da die entsprechenden Therme reinschreiben, dann erhalten wir die Menge der Prädikate.
+
+01:16.000 --> 01:33.000
+Jetzt achten Sie darauf, wenn Sie sich diese Signaturen angucken, bei den Thermen stand da Therme, Doppelpunkt, Sorte, Sorte, Sorte, Komma, Sorte, Komma, Sorte, Pfeil, Sorte. Dieser letzte Pfeil, Sorte, fehlt bei Prädikaten.
+
+01:33.000 --> 01:49.000
+Warum? Naja, wie ich eben schon aus Versehen angedeutet habe, werden Prädikate später als Relationen interpretiert und Therme als Funktionen. Funktionen haben einen Wert.
+
+01:49.000 --> 02:12.000
+Prädikate, beziehungsweise Relationen, sind gegeben, also Objekte stehen zueinander in Relation oder nicht. Man kann also Prädikate durchaus als Funktionen auffassen, die einen Wert aus einem Typ Bool, meinetwegen, haben.
+
+02:12.000 --> 02:35.000
+Und das werden wir auch machen. Man nimmt dann sozusagen implizit einen solchen Wert an. Aber wie wir das genau machen, das ist jetzt erstmal in der Syntax irrelevant, das kommt genau in der Semantik an.
+
+02:35.000 --> 02:47.000
+Ich habe schon wieder die Maus abgehauen. Wo sind denn meine variablen Knie?
+
+02:47.000 --> 03:07.000
+Ach, da bin ich. Ah, genau. Hoppala. Da bin ich über eine Folie drüber gesprochen. Das macht aber nichts. Gehen wir also nochmal eine Folie zurück.
+
+03:07.000 --> 03:21.000
+Und zwar haben wir da, führen wir jetzt natürlich noch ein, die Menge der Variablen. Das wissen Sie auch aus den Programmiersprachen, Variablen sind in der Regel auch getübt.
+
+03:21.000 --> 03:32.000
+Das macht man einfach so, dass man das Sortensymbol hinschreibt, das ist genauso wie in jeder Programmiersprache, und dann einfach die Namen der Variablen aufzählt.
+
+03:32.000 --> 03:49.000
+Variablen können jetzt, genauso wie Konstanten, natürlich Elemente von Thermen sein. Allerdings sind das dann nicht mehr die sogenannten Grundtherme.
+
+03:49.000 --> 04:09.000
+Therme sind im Endeffekt alle Therme, die wir auch bei den Grundthermen gebaut haben, nur dass wir jetzt an jeder Stelle statt eines Grundtherms auch eine Variable hinschreiben dürfen.
+
+04:09.000 --> 04:23.000
+Also, jeder Grundterm ist ein Term, jede Variable ist ein Term, und wenn wir ein Funktionssymbol haben, genauso wie bei den Grundthermen,
+
+04:23.000 --> 04:32.000
+dann dürfen wir aber jetzt sozusagen für die Argumente beliebige Therme einsetzen. Nicht nur Grundtherme, sondern beliebige Therme.
+
+04:32.000 --> 04:47.000
+Also weitere Therme oder zum Beispiel eine Variable. Damit können wir also so etwas hinschreiben wie 7 plus x, und da haben wir die Variable.
+
+04:47.000 --> 04:58.000
+Jetzt habe ich vorhin schon gesagt, der Grundterm 7 plus 8 ist ein Grundterm, und ob da jetzt 15 rauskommt oder Hans-Peter ist egal.
+
+04:58.000 --> 05:13.000
+Viel interessanter wird es jetzt natürlich, wenn da steht 7 plus x. Dann wissen wir natürlich, dass wir insbesondere uns Gedanken machen müssen,
+
+05:13.000 --> 05:24.000
+was denn jetzt x sein könnte, um eine Aussage, um eine prädikative Aussage über eine Variable zu treffen.
+
+05:24.000 --> 05:40.000
+Gut, damit haben wir jetzt also Sorten bzw. Typen als Domänen, von denen wir in der Regel abstrahieren.
+
+05:40.000 --> 05:57.000
+Dann haben wir Variablen, Symbole, Variablen-Symbole. Dann haben wir Funktionssymbole, um Therme zu bauen, und als Spezialfall davon nullstellige Funktionssymbole,
+
+05:57.000 --> 06:11.000
+die konstanten sind. Dann haben wir Prädikatsymbole, mit denen wir Prädikate bauen können, die als Argumente Therme haben.
+
+06:11.000 --> 06:37.000
+Gut, genau, die Prädikate hatten wir. Und jetzt können wir uns damit die Menge der prädikatenlogischen Formeln über einer entsprechenden Signatur definieren.
+
+06:37.000 --> 06:55.000
+Die Sprache der Prädikatenlogik, also hier Formeln First Order Logic, ist die Menge von atomaren, komplexen und quantifizierten Formeln.
+
+06:55.000 --> 07:12.000
+Als atomare Formel wollen wir jede Formel bezeichnen, die einfach nur aus einem prädikativen Ausdruck besteht. Also zum Beispiel Farbe, Apfel, Grün ist ein prädikativer Ausdruck,
+
+07:12.000 --> 07:27.000
+ist ein Prädikat mit dem Prädikatsymbol Farbe und den konstanten Apfel und Grün. Genau, und das ist eine atomare Formel.
+
+07:27.000 --> 07:44.000
+Als Beispiel, wenn Sie gut mit dem Farbkasten umgehen können, könnten wir zum Beispiel Grün auch als Therme ausdrücken. Also zum Beispiel Farbe, Apfel, Mische, Blau und Gelb.
+
+07:44.000 --> 08:04.000
+Dann wäre Mischen ein Funktionssymbol für mit den Argumenten, mit den zwei Argumenten Blau und Gelb. Gut, also atomare Formeln haben die Form Prädikatsymbol mit
+
+08:04.000 --> 08:19.000
+entsprechend vielen Argumenten, welche Therme sind. So wie ich es eben gesagt habe, am Beispiel von Grundthermen, aber zum Beispiel auch Farbe, Apfel, X, wobei X eine Variable ist,
+
+08:19.000 --> 08:36.000
+ist eine atomare Formel. So, und jetzt nehmen wir diese atomaren Formeln, die ja, wie Sie es jetzt schon sehen, im Endeffekt Aussagen entsprechen, denn Farbe, Apfel, Grün
+
+08:36.000 --> 08:51.000
+steht ja für die Aussage, der Apfel hat die Farbe Grün, ist ja eine Aussage. Und dementsprechend bauen wir jetzt auf solchen Aussagen komplexe Formeln zusammen,
+
+08:51.000 --> 09:06.000
+genauso wie in der Aussagenlogik. Wenn wir also Formeln P und Q haben, also prädikatenlogische Formeln P und Q, dann kann man die auch negieren, dann kann man die verunden,
+
+09:06.000 --> 09:18.000
+dann kann man die verodern oder man darf eine Subjunktion dazwischen schreiben. Fällig aus. Und schließlich und letztendlich gibt es noch die quantifizierten Formeln.
+
+09:18.000 --> 09:30.000
+Wann immer man irgendeine dieser Formeln nimmt, egal ob atomar oder komplex, egal ob Grundformel, also es kommen keine Variablen vor oder es kommen Variablen vor,
+
+09:30.000 --> 09:43.000
+darf man einfach, was es bedeutet, kommen wir später dazu, darf man ein umgedrehtes A, eine Variable und einen Doppelpunkt dazu schreiben oder man darf ein umgedrehtes E davor schreiben
+
+09:43.000 --> 10:01.000
+mit einer Variable und einem Doppelpunkt. Ist klar, kennen Sie, das sind Allquantoren und Existenzkontore. Wichtig ist, dass die Formel, und an dieser Stelle wird klar,
+
+10:01.000 --> 10:17.000
+warum ich bisher immer so auf Klammerung gestanden habe, die Formel, die unmittelbar auf diesen Quantor hier auftaucht, nennt man den sogenannten Skopus oder Wirkbereich des Quantors.
+
+10:17.000 --> 10:37.000
+Und alle Variablen x, also genau die Variablen, über die quantifiziert wird, nennt man in diesem Skopus durch den entsprechenden Quantor gebunden.
+
+10:37.000 --> 10:47.000
+Hier unten steht das mit dem direkt folgenden Formel-Ausdruck.
+

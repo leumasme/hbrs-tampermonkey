@@ -1,0 +1,203 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+Also, wir wollen uns ab jetzt oder heute mit dem Thema der Folgerung beschäftigen.
+
+00:13.000 --> 00:25.000
+Eine Folgerung ist sozusagen eine Art von logischem Schluss.
+
+00:25.000 --> 00:34.000
+Oder sagen wir logische Schlussfolgerung.
+
+00:34.000 --> 00:39.000
+So, dann haben Sie das Wort da auch drin.
+
+00:39.000 --> 00:44.000
+Das heißt, bei einer logischen Schlussfolgerung geht es darum,
+
+00:44.000 --> 00:52.000
+ob unter bestimmten Voraussetzungen, dass etwas gilt, auch etwas anderes gilt.
+
+00:52.000 --> 01:09.000
+Und das hat natürlich, wie Sie bereits wissen, etwas mit dem Begriff der Implikation zu tun.
+
+01:09.000 --> 01:21.000
+So, wir werden heute aber noch ein anderes Symbol für die logische Schlussfolgerung kennenlernen.
+
+01:21.000 --> 01:27.000
+Bevor wir das machen, möchte ich nochmal auf die Implikation reingehen
+
+01:27.000 --> 01:40.000
+und insbesondere auf den Unterschied zur Subjunktion.
+
+01:40.000 --> 01:45.000
+Das war dieses Symbol.
+
+01:45.000 --> 02:03.000
+Diese beiden Sachen haben nichts, aber erstmal nichts, aber auch gar nichts miteinander zu tun.
+
+02:03.000 --> 02:15.000
+Die Subjunktion ist ein Symbol, der Pfeil, der die Subjunktion darstellt, ist ein Symbol,
+
+02:15.000 --> 02:29.000
+das wir bei der Konstruktion von Formeln benutzen, um Äußerungen der Art wenn-dann darzustellen.
+
+02:29.000 --> 02:40.000
+So, die Äußerung wenn-dann hat einen Wahrheitswert.
+
+02:40.000 --> 03:03.000
+Dieser Wahrheitswert der Äußerung wenn-dann muss für jede Situation definiert sein, egal ob das wenn zutrifft oder nicht
+
+03:03.000 --> 03:08.000
+und ob das dann zutrifft oder nicht.
+
+03:08.000 --> 03:23.000
+Die meisten von Ihnen in den Übungen haben Schwierigkeiten zu erkennen, dass eine Subjunktion einen Wahrheitswert hat.
+
+03:23.000 --> 03:38.000
+Die meisten von Ihnen, und das ist das Problem der natürlichsprachigen Definition der Semantik der Subjunktion mit dem wenn-dann,
+
+03:38.000 --> 03:48.000
+die meisten von Ihnen haben das Problem, dass Sie Wahrheitswerte von Subjunktionen nur in dem Fall betrachten,
+
+03:48.000 --> 03:54.000
+wo Sie denken, dass die Prämisse der Subjunktion wahr ist.
+
+03:54.000 --> 04:04.000
+Das reicht aber nicht und das will ich Ihnen noch mal kurz darstellen.
+
+04:04.000 --> 04:24.000
+Schauen Sie sich das mal an, Sie haben eine Wahrheitstabelle, die Ihnen meinetwegen die Semantik der Konjunktion erklärt.
+
+04:24.000 --> 04:41.000
+Wenn das linke Argument der Konjunktion Null ergibt und das rechte Argument der Konjunktion Null ergibt, dann ist das Ergebnis Null.
+
+04:41.000 --> 04:46.000
+Das Ergebnis ist Null.
+
+04:46.000 --> 04:55.000
+Das heißt nichts anderes, als dass die Interpretation des Konjunktionssymbols eine Rechenoperation ist.
+
+04:55.000 --> 05:04.000
+Und diese Rechenoperation ist definiert für alle möglichen Argumente.
+
+05:04.000 --> 05:18.000
+Wenn wir zum Beispiel links einen Term, sage ich jetzt schon mal, haben, der zu 1 ausgewertet wird und wir daraus einen Term bilden,
+
+05:18.000 --> 05:29.000
+1 und jetzt die der Konjunktion entsprechende Operation anwenden mit dem zweiten Argument Null,
+
+05:29.000 --> 05:42.000
+definieren wir die Operation, die durch das Konjunktionssymbol dargestellt wird, so, dass auch hier Null rauskommt.
+
+05:42.000 --> 05:48.000
+Und entsprechend gilt das für die anderen Einträge.
+
+05:48.000 --> 06:13.000
+Um Ihnen das ganz klar zu machen, schreiben wir hier mal die Semantik der Konjunktion auf, die wir in der Arithmetik hatten.
+
+06:13.000 --> 06:22.000
+Da haben wir das Minimum genommen. So, jetzt betrachten wir das Minimum zweier Werte.
+
+06:22.000 --> 06:29.000
+Das Minimum der Werte Null und Null ist Null, das Minimum der Werte Null und Null ist Null,
+
+06:29.000 --> 06:41.000
+das Minimum der Werte Eins und Null ist Null und das Minimum der Werte, Schreibfehler, der Werte Eins und Eins ist Eins.
+
+06:41.000 --> 06:52.000
+Das ist Ihnen wahrscheinlich schon ein bisschen klarer, dass das eine Rechenoperation ist, die die Konjunktion interpretiert.
+
+06:52.000 --> 07:04.000
+Machen wir es noch klarer. Schreiben wir hier mal ein Mal hin. Dann wissen Sie, Null mal irgendwas ist Null.
+
+07:04.000 --> 07:12.000
+Also auch irgendwas mal Null ist Null. Nur eins mal eins ergibt eins.
+
+07:12.000 --> 07:19.000
+Sie rechnen also den Wahrheitswert einer Konjunktion aus.
+
+07:19.000 --> 07:29.000
+So, das Gleiche, und das ist überhaupt kein Problem für Sie, geht mit der Negation, das ist halt noch einfacher.
+
+07:29.000 --> 07:43.000
+Das Gleiche gilt auch für die Disjunktion.
+
+07:43.000 --> 07:51.000
+Haben wir eben zum Beispiel gebaut mit der Operation Maximum.
+
+07:51.000 --> 08:06.000
+Wir wissen, wenn eine Eins da ist, dann muss auf jeden Fall das Maximum auch Eins sein und wenn beides Null ist, ist es Null.
+
+08:06.000 --> 08:16.000
+Wenn wir jetzt uns eine Addition nehmen, die auf die Zahlen von Eins bis Null beschränkt ist, können wir hier eine Addition nehmen.
+
+08:16.000 --> 08:30.000
+Null plus Null ist Null, Null plus Eins ist Eins, Eins plus Null ist Eins und Eins plus Eins, weil wir keinen Zwei haben, ist Eins.
+
+08:30.000 --> 08:38.000
+Sie rechnen den Wahrheitswert einer disjunktiven Formel aus.
+
+08:38.000 --> 08:50.000
+Und jetzt kommt's. Die Subjunktion ist auch eine Rechenoperation.
+
+08:50.000 --> 08:58.000
+Die Subjunktion wird auch durch eine ganz normale Rechenoperation definiert.
+
+08:58.000 --> 09:09.000
+Das heißt, die Interpretation der Subjunktion muss für alle möglichen Wertpaare definiert sein.
+
+09:09.000 --> 09:18.000
+Wir müssen also für die Subjunktion diese Tabelle komplett ausfüllen.
+
+09:18.000 --> 09:28.000
+So und die wird eben so ausgefüllt.
+
+09:28.000 --> 09:45.000
+Also wir können ausrechnen den Wahrheitswert einer Subjunktion, wenn die Prämisse falsch ist, nämlich Null Subjunktion Eins ist Eins.
+
+09:45.000 --> 09:49.000
+Fertig.
+
+09:49.000 --> 10:00.000
+Dass man das berechnen kann, wissen Sie aus diesem Ausdruck Max, Eins, Minus und so was.
+
+10:00.000 --> 10:05.000
+Ja, mal ich jetzt nicht hin.
+
+10:05.000 --> 10:17.000
+Und um Ihnen das ganz klar zu machen, es gibt auch eine Rechenoperation, mit der das darstellbar ist.
+
+10:17.000 --> 10:25.000
+Und das ist eine bestimmte Form der Division.
+
+10:25.000 --> 10:35.000
+Wenn wir Null durch Null, ja, das ist jetzt etwas, was für Sie wahrscheinlich eigenartig aussieht, aber wenn wir Null durch Null dividieren,
+
+10:35.000 --> 10:45.000
+suchen wir ja den größten Wert, der mit Null multipliziert Null ergibt.
+
+10:45.000 --> 11:03.000
+Und weil alles mit Null multipliziert Null ergibt, ist das größte Element, das wir mit Null multiplizieren können und trotzdem nur Null erhalten, Eins.
+
+11:03.000 --> 11:10.000
+Hier das Gleiche.
+
+11:10.000 --> 11:26.000
+Aber sozusagen das größte Element, mit dem wir die Eins multiplizieren können und trotzdem höchstens Null rauskriegen, ist eben die Null,
+
+11:26.000 --> 11:30.000
+weil wir die Eins in Anführungszeichen kaputt machen müssen.
+
+11:30.000 --> 11:37.000
+Wir können aber natürlich die Eins mit der Eins multiplizieren und einmal Eins gibt Eins.
+
+11:37.000 --> 11:54.000
+Sie sehen also, Subjunktion ist einfach nur ein Symbol und die Interpretation dieses Symbols ergibt einen arithmetischen Ausguck, den Sie ausrechnen können.
+
+11:54.000 --> 12:01.000
+Eine Subjunktion kann ausgewertet werden zu Null oder Eins.
+
+12:01.000 --> 12:14.000
+Und sie kann zu Null oder Eins ausgewertet werden, egal ob die Prämisse Null ist oder Eins.
+

@@ -1,0 +1,272 @@
+WEBVTT
+
+00:00.000 --> 00:12.400
+So, wir hatten uns jetzt also soweit schon mit Substitutionen beschäftigt und wir hatten
+
+00:12.400 --> 00:21.520
+insbesondere, dass es also ganz wichtig ist zu verstehen, wie Substitutionen ausgeführt
+
+00:21.520 --> 00:28.320
+werden, gleichzeitig und worauf sie wirken, nämlich nur auf freie Variate, das ist ganz,
+
+00:28.320 --> 00:29.320
+ganz wichtig.
+
+00:29.320 --> 00:31.040
+Punkt Nummer eins.
+
+00:31.040 --> 00:40.480
+Punkt Nummer zwei ist, wir dürfen Substitutionen nacheinander ausführen, also mehrere nacheinander.
+
+00:40.480 --> 00:53.000
+Punkt Nummer drei, und das ist wichtig, als es ist möglich, Substitutionen so zu machen,
+
+00:53.000 --> 01:06.440
+dass plötzlich Argumente von Prädikaten, die vorher nicht gebunden waren, insofern
+
+01:06.440 --> 01:15.120
+als dass sie eben eine Variable war, die frei war, durch eine Substitution in eine Variable
+
+01:15.120 --> 01:18.760
+verändert wird, die danach gebunden ist.
+
+01:18.760 --> 01:21.080
+Das ist möglich.
+
+01:21.080 --> 01:23.800
+Wir nennen es aber unzulässig.
+
+01:23.800 --> 01:34.120
+Gut, das hatten wir jetzt soweit.
+
+01:34.120 --> 01:43.120
+Es gibt noch weitere Möglichkeiten oder Eigenschaften von Substitutionen, die man betrachten möchte.
+
+01:43.120 --> 01:53.560
+Von diesen ist jetzt insbesondere, aber eigentlich nur hier die in der Definition 40, die für
+
+01:53.560 --> 02:02.760
+uns relevante, und sie stellt auf eine ganz besonders komplizierte Art und Weise etwas
+
+02:02.760 --> 02:05.800
+dar, was wir einfach kennen als Umbenennung.
+
+02:05.800 --> 02:26.560
+Eine Umbenennung ist nichts anderes als eine Substitution, die eine Variable durch eine
+
+02:26.560 --> 02:27.560
+andere ersetzt.
+
+02:27.560 --> 02:51.520
+Und nun ja, eben zwar so, dass diese Variable durch dieses y, also sozusagen der neue Variablenname,
+
+02:51.520 --> 02:56.840
+den wir für das x nehmen, ist in der Tat ein neuer Variablenname.
+
+02:56.840 --> 03:01.720
+Erinnern Sie sich daran, die Substitution wird ja nur wirksam auf freien Variablen.
+
+03:01.720 --> 03:10.120
+Und jetzt nehmen wir einfach diese freien Variablen und benennen sie so um, warum macht
+
+03:10.120 --> 03:17.240
+man das zum Beispiel, damit eben keine Variablen sowohl frei als auch gebunden vorkommen.
+
+03:17.240 --> 03:27.040
+Man würde also zum Beispiel alle freien x in einer Formel in y umbenennen, sofern kein
+
+03:27.040 --> 03:34.840
+y in dieser Formel vorkommt, und hätte dann alle x, die noch in dieser Formel verbleiben,
+
+03:34.840 --> 03:38.240
+jeweils durch irgendwelche Quantoren gebunden.
+
+03:38.240 --> 03:45.760
+Und es kommt kein x mehr frei vor, sondern die vormals freien x heißen jetzt alle y.
+
+03:45.760 --> 03:55.680
+Dazu braucht man Umbenennungen, die sind in der Tat sehr, sehr wichtig.
+
+03:55.680 --> 04:00.760
+Das ist eine ganz einfache, aber später sehr wichtige Technik.
+
+04:00.760 --> 04:10.080
+Und ja, entschuldigen Sie jetzt, dass ich hier ein dickes W hingeschrieben habe.
+
+04:10.080 --> 04:15.720
+Ich wusste nicht, wie ich das am besten einfacher verkürzt darstellen kann, wenn ich sage,
+
+04:15.720 --> 04:21.560
+dass wir jetzt etwas definieren, was sowohl für Therme als auch für Prädikate gilt.
+
+04:21.560 --> 04:27.480
+Deswegen habe ich gesagt, ja, nehmen wir einfach mal Worte aus unserer Sprache.
+
+04:27.480 --> 04:38.640
+Das ist jetzt in der Tat etwas Fundamentales, und das ist der sogenannte Begriff des Unifikators.
+
+04:38.640 --> 04:48.600
+Ein Unifikator ist, naja, etwas, was zwei Dinge Uniform macht, also es ist etwas, was
+
+04:48.600 --> 04:52.040
+zwei verschiedene Dinge gleich macht.
+
+04:52.040 --> 05:04.080
+Es ist also eine Substitution, die, angewendet auf beide Therme oder Formen gleichzeitig,
+
+05:04.080 --> 05:11.440
+zum Ergebnis hat, dass das Ergebnis gleich ist.
+
+05:11.440 --> 05:18.320
+Man kann das mathematisch etwas kryptisch hinschreiben, indem man sagt, okay, wir haben
+
+05:18.320 --> 05:25.960
+hier Therme oder Formen W1 bis Wn, und jetzt wollen wir die unifizieren, und dazu gibt
+
+05:25.960 --> 05:32.840
+es jetzt eine Substitution sigma, und wir wenden diese Substitution auf alle Therme
+
+05:32.840 --> 05:37.000
+oder Formen in dieser Menge an.
+
+05:37.000 --> 05:40.320
+Dieselbe Substitution, wenden wir auf alle an.
+
+05:40.320 --> 05:49.160
+Und das Ergebnis, also die Menge W1 sigma, W2 sigma bis Wn sigma, soll jetzt nur ein
+
+05:49.160 --> 05:50.160
+Element enthalten.
+
+05:50.160 --> 05:56.640
+Naja, das bedeutet ja, dass W1 sigma gleich W2 sigma gleich bis Wn sigma ist.
+
+05:56.640 --> 06:01.920
+Es ist eine etwas verschrobene Art und Weise, es darzustellen, die ist aber durchaus üblich.
+
+06:01.920 --> 06:10.160
+Was damit gesagt wird, ist das, was hier benannt ist als Wirkung von Unifikatoren.
+
+06:10.160 --> 06:15.520
+Ein Unifikator macht Therme oder Formen gleich.
+
+06:15.520 --> 06:28.920
+Also, zum Beispiel, wenn wir eine Formel haben Px und eine Formel Py, können wir eine Substitution
+
+06:28.920 --> 06:31.960
+anwenden, nämlich y durch x.
+
+06:31.960 --> 06:38.360
+Nehmen wir Px und wenden darauf die Substitution an y durch x.
+
+06:38.360 --> 06:40.680
+Naja, hier kommt gar kein y drin vor.
+
+06:40.680 --> 06:43.600
+Diese Substitution ist also unwahrsam.
+
+06:43.600 --> 06:49.000
+Es bleibt also hier bei der Formel Px, äh, was habe ich gesagt?
+
+06:49.000 --> 06:50.000
+Ja.
+
+06:50.000 --> 06:56.360
+Jetzt habe ich hier die zweite Formel Py, und auch auf diese Formel wende ich die Substitution
+
+06:56.360 --> 06:57.920
+an y durch x.
+
+06:57.920 --> 07:02.720
+Hier kommt ein y vor, und aus diesem y, weil es ja frei ist, wird jetzt ein x.
+
+07:02.720 --> 07:06.920
+Das heißt, das Ergebnis der Anwendung der selben Substitution hier hat zum Ergebnis
+
+07:06.920 --> 07:07.920
+Px.
+
+07:07.920 --> 07:09.960
+Das ist dasselbe, was wir hier auch haben.
+
+07:09.960 --> 07:11.360
+Sie sind also jetzt gleich geworden.
+
+07:11.360 --> 07:19.680
+Insbesondere gilt das natürlich auch für Therme, wenn da kompliziertere Ausdrücke stehen.
+
+07:19.680 --> 07:32.040
+Also, wenn hier zum Beispiel steht, ähm, Pf von a, und hier steht Px, dann können
+
+07:32.040 --> 07:38.160
+wir die Substitution anwenden x durch f von a, hier bleibt Pf von a stehen, und hier
+
+07:38.160 --> 07:40.840
+wird aus dem Px ein Pf von a.
+
+07:40.840 --> 07:48.640
+Wenn hier steht Pf von x, und hier steht Pf von b, dann müssen wir b und x unifizieren.
+
+07:48.640 --> 07:52.120
+Das heißt, wir bauen uns eine Substitution, die x durch b ersetzt.
+
+07:52.120 --> 07:58.800
+Dann haben wir hier Pf von b, und hier haben wir Pf von x mit dem freien x, dieses x wird
+
+07:58.800 --> 08:09.960
+durch ein b ersetzt, dann steht hier Pf von b, und hier steht Pf von b, beides ist gleich.
+
+08:09.960 --> 08:10.960
+Gut.
+
+08:10.960 --> 08:19.560
+Insbesondere, und das kann ich genau, das kann ich Ihnen auch noch an einem Beispiel erklären,
+
+08:19.560 --> 08:24.560
+stellen Sie sich vor, Sie haben zwei Formeln, Px und Py.
+
+08:24.560 --> 08:28.600
+Die wollen Sie jetzt gleich machen, für die brauchen Sie einen Unifikator.
+
+08:28.600 --> 08:35.600
+Das geht natürlich, ja, weil Sie können zum Beispiel das x ersetzen durch f von a, und
+
+08:35.600 --> 08:38.600
+das y können Sie auch durch f von a ersetzen.
+
+08:38.600 --> 08:44.400
+Dann haben Sie Pf von a und Pf von a, über Unsinn.
+
+08:44.400 --> 08:54.400
+Warum ersetzen Sie denn nicht einfach das y durch ein x, dann haben Sie Px und Px, und
+
+08:54.400 --> 09:00.400
+aus Px können Sie dann durch die Anwendung einer weiteren Substitution, nämlich x durch
+
+09:00.400 --> 09:08.840
+f von a, ableiten die Formel Pf von a.
+
+09:08.840 --> 09:22.360
+Sie können also einen Unifikator eventuell zerlegen, und zwar so zerlegen, dass erst
+
+09:22.360 --> 09:28.240
+eine sogenannte allgemeinste Unifikation stattfindet, und danach eine Spezialisierung, und das schreibt
+
+09:28.240 --> 09:38.000
+man so, also ein Unifikator, und den nennt man jetzt My für M für Most General Unifier,
+
+09:38.000 --> 09:48.440
+MgU heißt also allgemeinster Unifikator, wenn alle anderen Unifikatoren Sigma durch Anwendung
+
+09:48.440 --> 09:54.040
+einer nachfolgenden Substitution dargestellt werden können, wenn wir also einen Unifikator
+
+09:54.040 --> 10:01.680
+My haben, dann lässt sich jeder beliebige andere, wenn wir ein MgU My haben, dann lässt
+
+10:01.680 --> 10:09.480
+sich jeder beliebige andere Unifikator darstellen als die Anwendung dieses MgUs, gefolgt von
+
+10:09.480 --> 10:28.280
+einer weiteren Substitution.
+

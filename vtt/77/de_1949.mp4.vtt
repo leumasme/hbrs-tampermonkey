@@ -1,0 +1,647 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+Also, wenn wir das haben, unsere Kalkülregel der Resolution, dann müssen wir uns jetzt wieder überlegen,
+
+00:13.000 --> 00:23.000
+wenn wir unsere Menge von Formen schön hinschreiben, wie wir immer zwei verschiedene Klauseln nehmen,
+
+00:23.000 --> 00:27.000
+daraus eine Resolvente bilden, die zu unserer Menge hinzufügen.
+
+00:27.000 --> 00:32.000
+Da schreiben wir jetzt ganz einfach im Endeffekt wieder Folgendes.
+
+00:32.000 --> 00:43.000
+Wir haben eine Klauselmenge P und wir nehmen mal zwei Klauseln C1 und C2.
+
+00:43.000 --> 00:47.000
+Die sollen resolvierbar sein. Das heißt, was?
+
+00:47.000 --> 01:01.000
+In denen tauchen Literale auf. Das eine ist negiert, das andere ist positiv und es gibt eine Menge, die die Gleiche macht.
+
+01:01.000 --> 01:10.000
+Dann sagen wir eben, die Anwendung dieser Regel liefert uns für die Elternklausel C1 und C2 die Resolvente her.
+
+01:10.000 --> 01:12.000
+Auch nichts anderes.
+
+01:12.000 --> 01:22.000
+Und genauso wiederum können wir uns jetzt die Menge von Resolventen definieren,
+
+01:22.000 --> 01:28.000
+die in einem Resolutionsschritt aus einer Menge von Formeln ableitbar ist.
+
+01:28.000 --> 01:39.000
+Wir nehmen also, wenn wir einen Resolutionsschritt auf P durchführen wollen, die Menge P
+
+01:39.000 --> 01:44.000
+und fügen alle Resolventen hinzu, die wir bilden können.
+
+01:44.000 --> 01:57.000
+Das heißt, für die es Klauseln C1 und C2 aus P gibt und für die folgt, dass man aus C1 und C2 R resolvieren kann.
+
+01:57.000 --> 02:00.000
+An der Stelle kleine Nebenbemerkung.
+
+02:00.000 --> 02:06.000
+Sie sehen jetzt, wie wir Prädikatenlogik schon benutzen, um eine Menge zu definieren.
+
+02:06.000 --> 02:10.000
+Also jetzt taucht hier ein Existenzkontor drin auf.
+
+02:10.000 --> 02:20.000
+Und nochmal als Erinnerung, wir sprechen über alle Klauseln C1 und C2, die in P vorkommen,
+
+02:20.000 --> 02:26.000
+also C1 und C2 in P und Existenzkontor.
+
+02:26.000 --> 02:33.000
+Also ein Resolutionsschritt auf einer Menge von Formeln erweitert diese Menge von Formeln,
+
+02:33.000 --> 02:39.000
+um alle möglichen Resolventen, die man auf dieser Formelmenge bilden kann.
+
+02:39.000 --> 02:47.000
+Das kann man jetzt wieder iterieren mit dem Sternchenabschluss, mit dem Klinschenabschluss,
+
+02:47.000 --> 02:52.000
+mit der reflexiv-transitiven Hülle, nennen Sie es, wie Sie es wollen.
+
+02:52.000 --> 03:01.000
+Also der Vereinigung über alle endlichen Resolutionsschritte.
+
+03:01.000 --> 03:09.000
+Genau.
+
+03:09.000 --> 03:20.000
+Hierbei müssen wir uns jetzt eins allerdings im Hinterkopf bewahren.
+
+03:20.000 --> 03:33.000
+Es kann ja sein, dass wir einen Term, also zum Beispiel f von x, mit einem anderen Term unifizieren müssen,
+
+03:33.000 --> 03:38.000
+also zum Beispiel f von f von x oder f von f von y.
+
+03:38.000 --> 03:43.000
+Dann müssen wir das x durch ein f von y ersetzen.
+
+03:43.000 --> 03:48.000
+Jetzt können wir das natürlich eventuell weiter resolvieren.
+
+03:48.000 --> 03:59.000
+Jetzt kann ja dieses x den Wert f von y, und wenn wir in einem nächsten Schritt
+
+03:59.000 --> 04:09.000
+dieses wieder mit einem f von y resolvieren wollen, bekommen wir ein f von f von f von und so weiter und so fort.
+
+04:09.000 --> 04:15.000
+Es kann also sehr gut sein, im Gegensatz zu dem, was wir mit den endlichen Mengen
+
+04:15.000 --> 04:23.000
+von Aussagenvariablen in der Aussagenlogik hatten, dass es schwierig wird, hier einen Fixpunkt zu finden.
+
+04:23.000 --> 04:26.000
+Kommen wir gleich zu.
+
+04:26.000 --> 04:36.000
+Aber nichtsdestoweniger trotz gilt für diese Resolution in der Prädikatenlogik das Gleiche wie für die Resolution in der Aussagenlogik,
+
+04:36.000 --> 04:48.000
+nämlich die Konjunktion, oder nimmt man eine Formelmenge und wir bilden die Konjunktion, also eine Formel,
+
+04:48.000 --> 04:59.000
+dann ist diese unerfüllbar, genau dann, wenn wir die leere Klausel ableiten können.
+
+04:59.000 --> 05:06.000
+Und sie ist erfüllbar, wenn wir die leere Klausel nicht ableiten können.
+
+05:06.000 --> 05:15.000
+Und jetzt können Sie sich schon überlegen, dass das natürlich ein Problem ist, wenn ich sage, naja, das Ding hier hört eventuell nicht auf.
+
+05:15.000 --> 05:26.000
+Wenn wir das iterativ machen über diese i's und es gibt eine Leere, es gibt die Möglichkeit, die leere Klausel abzuleiten,
+
+05:26.000 --> 05:30.000
+dann gibt es irgendein kleinstes i, dass wir sie haben.
+
+05:30.000 --> 05:38.000
+Wenn es aber nicht möglich ist, die leere Klausel abzuleiten, dann gibt es kein kleinstes i.
+
+05:38.000 --> 05:48.000
+Das heißt, der iterative Ansatz zum Versuch, die leere Klausel abzuleiten, läuft uns unendlich.
+
+05:48.000 --> 05:55.000
+Wir sehen also, da könnte es ein Problem geben.
+
+05:55.000 --> 05:59.000
+Aber schauen wir uns das an einem Beispiel an.
+
+05:59.000 --> 06:04.000
+Sagen einfach mal, alle Menschen sind sterblich und Anton ist ein Mensch.
+
+06:04.000 --> 06:09.000
+Anton wird nachher umbenannt in Sokrates.
+
+06:09.000 --> 06:19.000
+Dann haben Sie bis jetzt klar gelernt, also alle Menschen sind sterblich, könnte man wunderschön als diese Formel darstellen.
+
+06:19.000 --> 06:25.000
+Für alle x, für alle y, human x subjunktion mortal x.
+
+06:25.000 --> 06:34.000
+Jetzt macht man das Übliche, was wir gekannt haben, reinigen, isse, pränex, isse, skolemisiert, haben wir Glück gehabt, isse auch,
+
+06:34.000 --> 06:38.000
+umformen in cnf, schwupps, da steht die Klausel.
+
+06:38.000 --> 06:46.000
+Also, nicht human x, mortal x, das ist diese Klausel.
+
+06:46.000 --> 06:52.000
+Als zweites haben wir die Aussage, Anton ist ein Mensch, ja, also jungen Anton.
+
+06:52.000 --> 07:00.000
+Kommt nicht mal ein Quantor drin vor, wissen wir, wird direkt in diese Klausel hier überführt.
+
+07:00.000 --> 07:10.000
+So, jetzt können wir uns mal anschauen, was können wir denn aus dieser Menge von Klauseln alles ableiten?
+
+07:10.000 --> 07:16.000
+Können wir denn daraus zum Beispiel die leere Klausel ableiten?
+
+07:16.000 --> 07:30.000
+Oder können wir mit Gewissheit sagen, dass wir nicht die leere Klausel ableiten können?
+
+07:30.000 --> 07:36.000
+Entschuldigung, Sie haben vollkommen recht, dieses für alle y hier ist absoluter Unsinn.
+
+07:36.000 --> 07:40.000
+Wir quantifizieren natürlich nur über ein x, alle Menschen sind sterblich.
+
+07:40.000 --> 07:45.000
+Ist gut, dass wir so schön aufpassen, dann sehe ich immer die Tümpfe.
+
+07:45.000 --> 07:49.000
+Also, schauen wir uns das mal an, ich habe es wieder rund gewählt.
+
+07:49.000 --> 07:56.000
+Ja, wir haben also eine Klausel hier mit einem negativen Literal human x,
+
+07:56.000 --> 08:01.000
+wir haben eine Klausel, ein Literal hier, mortal x, das ist positive,
+
+08:01.000 --> 08:06.000
+und wir haben eine Klausel mit einem positiven Literal human x.
+
+08:06.000 --> 08:12.000
+Das ist also jetzt unsere Menge P und wir schauen mal, was wir daraus resolvieren können.
+
+08:12.000 --> 08:19.000
+Es kommen natürlich nur zwei Klauseln als Elternklausel in Betracht, weil wir ja nur zwei haben.
+
+08:19.000 --> 08:22.000
+Jetzt stellen wir uns die Frage, sind die resolvierbar?
+
+08:22.000 --> 08:30.000
+Finden wir also zwei Literale, für die es ein MGU gibt, so dass sie als komplementäres Vergleich sind?
+
+08:30.000 --> 08:37.000
+Gut, zum mortal gibt es hier nichts, aber Gott sei Dank, hier gibt es den negativen human und hier gibt es einen positiven human.
+
+08:37.000 --> 08:53.000
+Und dieses Literal kann mit diesem unifiziert werden, wenn man das x per MGU durch Anton ersetzt.
+
+08:53.000 --> 09:06.000
+Wir wählen uns also aus, dieses Literal und dieses Literal und versuchen daraus ein komplementäres Paar zu machen und das zu resolvieren.
+
+09:06.000 --> 09:24.000
+Nachdem wir das also gemacht haben, können wir hinzufügen zu dieser Menge von Klauseln die Resolvente,
+
+09:24.000 --> 09:31.000
+nämlich wenn dieses hier gegen das hier weggestrichen wird, bleibt ja nur mortal x übrig.
+
+09:31.000 --> 09:39.000
+Weil wir aber diese beiden über den MGU rotes x durch grünen Anton gleichgemacht haben,
+
+09:39.000 --> 09:47.000
+müssen wir diese Substitution auch auf das verbleibende Literal der Resolvente anwenden.
+
+09:47.000 --> 10:04.000
+Und das heißt, wenn wir uns das jetzt nochmal anschauen, dann stellen wir gleichzeitig fest,
+
+10:04.000 --> 10:10.000
+das ist hier vielleicht etwas ungünstig dargestellt, dass jetzt einfach das Res-Stern-Vent fällt,
+
+10:10.000 --> 10:17.000
+aber wenn wir uns jetzt mal diese Menge dieser drei Klauseln ansehen, dann stellen wir fest,
+
+10:17.000 --> 10:21.000
+dass wir jetzt bereits alles mögliche resolviert haben, was möglich geht.
+
+10:21.000 --> 10:26.000
+Weil nach wie vor dieses die beiden einzigen kommentären Paare sind, die auftauchen.
+
+10:26.000 --> 10:31.000
+Hier steht das mortal x positiv und hier auch.
+
+10:31.000 --> 10:41.000
+Also wir haben alle möglichen Resolutionsschritte hier durchgeführt und es wird höchste Zeit,
+
+10:41.000 --> 10:45.000
+diese Substitution hier auszuführen.
+
+10:45.000 --> 10:56.000
+Das heißt, wir bekommen als Ergebnis des Abschlusses unter der Resolutionsoperation drei Klauseln.
+
+10:56.000 --> 11:01.000
+Nämlich unter anderem auch, dass Anton sterblich ist.
+
+11:01.000 --> 11:04.000
+Mehr können wir jetzt nicht machen.
+
+11:04.000 --> 11:07.000
+Wir sind tatsächlich am Ende.
+
+11:07.000 --> 11:15.000
+Wir haben also jetzt wirklich hier ein kleines i gefunden, in diesem Falle 1,
+
+11:15.000 --> 11:23.000
+sodass wir nicht mehr weiterkommen und wir stellen fest, die leere Klausel ist hier drin nicht enthalten.
+
+11:23.000 --> 11:34.000
+Das heißt also, es gibt ein Modell hier, das heißt, diese Formelmenge hier ist erfüllbar.
+
+11:34.000 --> 11:39.000
+Das Interessante ist, wir haben rein zufällig auch festgestellt,
+
+11:39.000 --> 11:48.000
+dass sie zum Beispiel für den Wert Anton von x erfüllbar ist.
+
+11:48.000 --> 11:59.000
+Wenn man das Ganze jetzt ein bisschen anders darstellen will, dann erinnern wir uns daran,
+
+11:59.000 --> 12:11.000
+ja, wir haben doch die logische Schlussfolgerung im Endeffekt durch Widerlegungsbeweise realisiert.
+
+12:11.000 --> 12:16.000
+Und genau das kann man hier auch machen.
+
+12:16.000 --> 12:24.000
+Wir nehmen also unsere beiden Formeln, die da wagen, alle Menschen sind sterblich und Anton ist ein Mensch.
+
+12:24.000 --> 12:34.000
+Und die Frage ist jetzt oder die Aufgabe ist jetzt, auf diesen beiden Formeln die Formel Anton ist sterblich abzuleiten.
+
+12:34.000 --> 12:39.000
+Und das haben wir gemacht, indem wir sozusagen die negierte Form dessen, was abzuleiten ist,
+
+12:39.000 --> 12:50.000
+zu der Formelmenge hinzufügen und überprüfen, dass dann die leere Klausel abbleibbar ist.
+
+12:50.000 --> 12:55.000
+Die These, die wir beweisen wollen, ist also Anton ist sterblich.
+
+12:55.000 --> 13:03.000
+Wir negieren die und dann wird aus mortal Anton nicht mortal Anton.
+
+13:03.000 --> 13:07.000
+Jetzt haben wir drei Klauseln.
+
+13:07.000 --> 13:17.000
+Wir haben die, dass human X impliziert mortal X, human Anton und nicht mortal Anton.
+
+13:17.000 --> 13:21.000
+Den Schritt, den wir eben schon gemacht haben, können wir jetzt auch so entschreiben.
+
+13:21.000 --> 13:28.000
+Wir finden hier einen MGU BÜ, nämlich X durch Anton, sodass wir aus dieser Klausel und dieser hier
+
+13:28.000 --> 13:40.000
+durch Streichen des komplementären Paares nach der Ersetzung X durch Anton das verbleibende Literal hier als Resolvente haben.
+
+13:40.000 --> 13:44.000
+Also haben wir abgeleitet mortal Anton.
+
+13:44.000 --> 13:51.000
+Wir haben aber ebenso die Negation der Aussage, die zu beweisen ist, zu P hinzugefügt.
+
+13:51.000 --> 13:58.000
+Und jetzt stellen wir fest, hier steht mortal Anton und hier steht nicht mortal Anton.
+
+13:58.000 --> 14:02.000
+Die Anwendung der Resolutionsregel führt uns dann also zur leeren Klausel.
+
+14:02.000 --> 14:10.000
+Und damit wäre dieser logische Schluss hier bewiesen.
+
+14:10.000 --> 14:13.000
+Warum sage ich wäre?
+
+14:13.000 --> 14:18.000
+Na ja, wir müssen ja eigentlich noch zeigen, dass das auch stimmt.
+
+14:18.000 --> 14:33.000
+Also erstens, wenn wir, wenn eine Formel P irgendwie durch die Anwendung von der Resolutionsregel erzeugt werden kann,
+
+14:33.000 --> 14:38.000
+dann muss sie auch logisch daraus folgen.
+
+14:38.000 --> 14:44.000
+Was es als Wiederlegungskalkul anbetrifft, müssen wir aber insbesondere sehen, dass,
+
+14:44.000 --> 14:52.000
+wenn wir die leere Klausel ableiten können, wir auch wissen, dass diese Formelmenge unerfüllbar ist.
+
+14:52.000 --> 15:01.000
+Und umgekehrt, wenn sie kein Modell hat, dass man dann auch tatsächlich die leere Klausel ableiten kann,
+
+15:01.000 --> 15:12.000
+sodass das Wiederlegungskalkul auch vollständig ist.
+
+15:12.000 --> 15:22.000
+Das ist technisch, aber im Prinzip das einzige, was technisch oder schwierig aussieht,
+
+15:22.000 --> 15:31.000
+ist wieder mal nur die Art und Weise, wie man es inschreibt.
+
+15:31.000 --> 15:51.000
+Man beweist sozusagen jetzt die Korrektheit eines Kalküls dadurch, dass jede mögliche Regelanwendung korrekt ist.
+
+15:51.000 --> 16:01.000
+Wenn also sozusagen eine wiederholte Anwendung des Resolutionsprinzips irgendwann zu einem falschen Schluss führt,
+
+16:01.000 --> 16:07.000
+dann ja nur, wenn man irgendwann mal einen Resolutionsschritt macht, der falsch ist.
+
+16:07.000 --> 16:16.000
+Was wir also zeigen wollen, ist, dass jeder Resolutionsschritt richtig ist.
+
+16:16.000 --> 16:20.000
+Machen wir das einfach mal.
+
+16:20.000 --> 16:33.000
+Also, um die Resolutionsregel anwenden zu können, gehen wir ja davon aus, dass beide Elternklauseln erfüllt sind.
+
+16:33.000 --> 16:37.000
+Beziehungsweise abgeleitet werden können. Wir sagen mal, erfüllt sind.
+
+16:37.000 --> 16:42.000
+Also, wir haben eine erfüllende Interpretation für C mit einem Literal L.
+
+16:42.000 --> 16:52.000
+Und diese Interpretation erfüllt auch C', also die andere Klausel, mit dem Literal nicht L'.
+
+16:52.000 --> 16:58.000
+Um es ganz genau zu machen, sagen wir jetzt mal, das L darf da drin nicht vorkommen und das nicht L darf nicht,
+
+16:58.000 --> 17:01.000
+weil wir müssen die gleich trennen.
+
+17:01.000 --> 17:05.000
+So, schauen wir uns das mal an hier.
+
+17:05.000 --> 17:13.000
+Das bedeutet ja, wenn ich irgendeine Interpretation mit irgendeiner Belegung habe,
+
+17:13.000 --> 17:20.000
+also hier, dann ist ja eine Klausel eine Disjunktion.
+
+17:20.000 --> 17:29.000
+Und wenn ich zu dieser Klausel noch das Literal hinzufüge, dann ist es eine Disjunktion dieser Disjunktion und dem Literal.
+
+17:29.000 --> 17:35.000
+Also, diese Interpretation mit dieser Belegung macht diese Disjunktion wahr.
+
+17:35.000 --> 17:42.000
+Und eine Interpretation mit so einer Belegung macht diese Disjunktion wahr.
+
+17:42.000 --> 17:55.000
+Jetzt gehen wir davon aus, das wird ja auch gesagt, diese beiden komplementären Literale müssen unifizierbar sein.
+
+17:55.000 --> 18:00.000
+Wenn sie unifizierbar sind, wissen wir, gibt es ein MGU. Den nehmen wir uns jetzt mal.
+
+18:00.000 --> 18:05.000
+Wir nehmen uns ein MGU, der L und L' gleich machen.
+
+18:05.000 --> 18:09.000
+Jetzt muss man in der Endeffekt nur vier Fälle betrachten.
+
+18:09.000 --> 18:18.000
+Nämlich, zwei Fälle beziehen sich hier drauf und zwei Fälle beziehen sich hier drauf,
+
+18:18.000 --> 18:24.000
+wovon sich natürlich einer da drauf und einer da drauf und einer da drauf und einer da drauf bezieht.
+
+18:24.000 --> 18:32.000
+Wir wissen ja, dass diese Interpretation hier diese Formel erfüllt.
+
+18:32.000 --> 18:35.000
+Unter welcher Bedingung erfüllt sie diese Formel?
+
+18:35.000 --> 18:42.000
+Na ja, zum Beispiel, wenn sie diese Disjunktion erfüllt.
+
+18:42.000 --> 18:48.000
+Wenn sie diese Disjunktion erfüllt, wissen wir aber auch,
+
+18:48.000 --> 18:56.000
+dass im Resolutionsschritt ja dieses L hier weggeklutzt wird,
+
+18:56.000 --> 19:04.000
+aber dieses hier, dieser Rest der Elternklausel, in der Resolvente stehen bleibt.
+
+19:04.000 --> 19:08.000
+Die Resolvente ist wiederum eine Disjunktion.
+
+19:08.000 --> 19:15.000
+Weil diese Disjunktion hier aber wahr ist, gibt es also ein Literal, das sie wahr macht.
+
+19:15.000 --> 19:25.000
+Und deswegen macht auch jede Spezialisierung eines solchen Literals hier drin durch einen MGU
+
+19:25.000 --> 19:31.000
+die gesamte Disjunktion von c und c'.
+
+19:31.000 --> 19:41.000
+Also wenn hier was drin ist, ein p von x, ein px, das das wahr macht,
+
+19:41.000 --> 19:46.000
+dann ist es ja wahr für alle Werte von x, also auch meinetwegen für ein a.
+
+19:46.000 --> 19:48.000
+Dann kann man das also ersetzen.
+
+19:48.000 --> 19:53.000
+Wenn hier also dann aus dem Wagen px folgt, pa ist wahr,
+
+19:53.000 --> 20:03.000
+dann ist ja dieses pa hier drin und damit wird das.
+
+20:03.000 --> 20:05.000
+Das gleiche gilt natürlich für c'.
+
+20:05.000 --> 20:10.000
+Wenn Sie ganz genau hingucken, steht hier auch ein Strich.
+
+20:10.000 --> 20:15.000
+Wenn also hier ein erfüllendes Literal drin steht, das hier muss ja auch erfüllt sein,
+
+20:15.000 --> 20:18.000
+gehen wir mal davon aus, das erfüllende Literal steht da drin,
+
+20:18.000 --> 20:26.000
+dann gilt dasselbe für diese Resolvente auch.
+
+20:26.000 --> 20:35.000
+Nehmen wir mal an, diese Elternklauseln hier sind zwar erfüllt,
+
+20:35.000 --> 20:45.000
+nicht durch die c und c', sondern sagen wir mal in diesem Fall hier durch das l.
+
+20:45.000 --> 20:52.000
+Diese Klausel hier ist durch das l erfüllt und die hier drinnen sind alle falsch.
+
+20:52.000 --> 20:54.000
+Was heißt das?
+
+20:54.000 --> 21:04.000
+Wenn diese Klausel durch das l erfüllt ist, ist ja dieses Ding hier falsch.
+
+21:04.000 --> 21:09.000
+Aber diese gesamte Klausel hier ist ja auch erfüllt.
+
+21:09.000 --> 21:13.000
+Also muss ein erfüllendes Literal hier drin stecken.
+
+21:13.000 --> 21:18.000
+Und weil dieses Ding in der Resolvente vorkommt, ist die Resolvente erfüllt.
+
+21:18.000 --> 21:21.000
+Das ist genau das, was hier steht.
+
+21:21.000 --> 21:27.000
+Wir haben diese Interpretation erfüllt l, dann ist klar,
+
+21:27.000 --> 21:35.000
+das ist keine Interpretation von nicht-l, dann wird wieder unifiziert.
+
+21:35.000 --> 21:42.000
+Und weil das hier nicht erfüllt ist, muss das erfüllt sein.
+
+21:42.000 --> 21:48.000
+Und dann können wir uns im Endeffekt an den Schritt 2 orientieren.
+
+21:48.000 --> 21:53.000
+Da sind wir in c'.
+
+21:53.000 --> 21:57.000
+Und für den anderen Fall gilt es auch wieder analog.
+
+21:57.000 --> 22:03.000
+Wenn also nicht-l gilt, wenn das das einzige ist, was diese Klausel hier wahrmacht,
+
+22:03.000 --> 22:07.000
+dass alles falsch ist und das wahr ist, muss das falsch sein.
+
+22:07.000 --> 22:10.000
+Das hier muss ein erfüllendes Literal drin sein.
+
+22:10.000 --> 22:14.000
+Und dieses erfüllende Literal hier drin kommt auch in der Resolvente vor.
+
+22:14.000 --> 22:26.000
+Wir haben also gesehen, diese Resolutionsregel ist korrekt.
+
+22:26.000 --> 22:31.000
+Zeigen wir die Korrektheit als Widerlegungskalkul.
+
+22:31.000 --> 22:37.000
+Dann bedeutet das, wann immer also die leere Klausel abgleichbar ist,
+
+22:37.000 --> 22:42.000
+ist auch die Menge p unerfüllbar.
+
+22:42.000 --> 22:48.000
+Gehen wir also mal davon aus, wir haben sie abgeleitet.
+
+22:48.000 --> 22:55.000
+Wir haben jetzt ja gesehen, dass die Resolution korrekt ist.
+
+22:55.000 --> 23:02.000
+Das heißt, aus p müsste jetzt die Formel folgen, logisch folgen,
+
+23:02.000 --> 23:06.000
+die durch die leere Klausel repräsentiert wird.
+
+23:06.000 --> 23:10.000
+Das ist aber genau die Formel, die unerfüllbar ist.
+
+23:10.000 --> 23:15.000
+Also im Endeffekt false.
+
+23:15.000 --> 23:20.000
+Das heißt, wenn wir eine erfüllende Interpretation von p haben,
+
+23:20.000 --> 23:25.000
+erfüllt diese Interpretation auch die Formel false.
+
+23:25.000 --> 23:31.000
+Es gibt aber keine erfüllende Interpretation für false.
+
+23:31.000 --> 23:35.000
+Also ist das, was hier auf der rechten Seite dieser Implikation steht,
+
+23:35.000 --> 23:38.000
+insgesamt false.
+
+23:38.000 --> 23:43.000
+Und unter welcher Bedingung dürfen wir false folgern?
+
+23:43.000 --> 23:46.000
+Natürlich nur, wenn die Prämisse false ist.
+
+23:46.000 --> 23:50.000
+Das heißt, es gibt auch keine Interpretation von p.
+
+23:50.000 --> 23:54.000
+Und das ist genau das, was wir zeigen wollten. p ist unerfüllbar.
+
+23:54.000 --> 23:59.000
+Es kann also kein Modell von p geben, also p ist unerfüllbar.
+
+23:59.000 --> 24:04.000
+Dann haben wir gezeigt, dass die Resolution als Widerlegungskalkul
+
+24:04.000 --> 24:09.000
+ebenfalls korrekt ist.
+
+24:09.000 --> 24:14.000
+Die Vollständigkeit des Resolutionskalkuls,
+
+24:14.000 --> 24:19.000
+auch als Widerlegungskalkul, ist fürchterlich technisch.
+
+24:19.000 --> 24:24.000
+Es soll einfach reichen, es gilt.
+
+24:24.000 --> 24:29.000
+Vollständigkeitsbeweise sind in der Regel etwas komplizierter
+
+24:29.000 --> 24:32.000
+als Korrektheitsbeweise.
+
+24:32.000 --> 24:37.000
+Ich denke, an dieser Stelle sollten wir die Tradition fortsetzen
+
+24:37.000 --> 24:42.000
+und wenn wir uns über die Korrektheit verständigt haben,
+
+24:42.000 --> 24:48.000
+die Beweise der Vollständigkeit immer auf eine Folgevorlesung verlegen.
+
+24:48.000 --> 25:06.000
+Jut.
+

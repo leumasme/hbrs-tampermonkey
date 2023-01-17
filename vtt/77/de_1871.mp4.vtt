@@ -1,0 +1,929 @@
+WEBVTT
+
+00:00.000 --> 00:20.000
+Also, es geht jetzt los heute, wie hier auf der Folie steht mit der Semantik der Prädikatenlogik.
+
+00:20.000 --> 00:33.000
+Dazu möchte ich kurz vorher noch einmal zurückgehen auf eine Folie, die ich am Ende der Syntax gemacht habe.
+
+00:33.000 --> 00:38.000
+Wir haben ein kleines Notationsproblem.
+
+00:38.000 --> 00:47.000
+Sie erinnern sich, wir haben über Signaturen gesprochen und da tauchten immer Buchstaben auf, die anders gesetzt waren.
+
+00:47.000 --> 00:58.000
+Und das bedeutet einfach, das sind Symbole, die wir vereinbaren, um Formeln bauen zu dürfen.
+
+00:58.000 --> 01:08.000
+Normalerweise sieht man das so nicht. Es werden ganz normale Symbole benutzt.
+
+01:08.000 --> 01:16.000
+Anstatt also ein Prädikatensymbol hier in Kurier P zu nehmen, schreibt man normalerweise einfach P.
+
+01:16.000 --> 01:29.000
+Und das führt natürlich bei einigen von Ihnen vollkommen verständlicherweise zu, sagen wir mal, Leseschwierigkeiten, Interpretationsschwierigkeiten, dessen was da steht.
+
+01:29.000 --> 01:42.000
+Die Tatsache oder warum wir uns vorneweg so explizit mit der Syntax und diesen Signaturen beschäftigt haben,
+
+01:42.000 --> 01:55.000
+hoffe ich, wird Ihnen jetzt klar, wenn wir uns tatsächlich mit der Semantik der Prädikatenlogik beschäftigen.
+
+01:55.000 --> 02:02.000
+Rufen wir uns noch einmal kurz ins Gedächtnis. Was wollen wir mit dieser Prädikatenlogik machen?
+
+02:02.000 --> 02:12.000
+Wir wollen über Eigenschaften von Objekten reden, zum Beispiel.
+
+02:12.000 --> 02:22.000
+Das heißt, wir brauchen Bezeichner für konkrete Objekte, über die wir sprechen können. Das sind Konstanten.
+
+02:22.000 --> 02:37.000
+Wir brauchen auch Variablen, die für einen Wert stehen. Für welchen Wert sie in der Tat in einer konkreten Situation stehen,
+
+02:37.000 --> 02:45.000
+wird natürlich wieder durch eine Art Belegung festgelegt.
+
+02:45.000 --> 02:52.000
+Mit solchen Konstanten und Variablen und den dann dazu eingeführten Funktionssymbolen
+
+02:52.000 --> 03:05.000
+möchte man natürlich auch Terme darstellen können, die aufgewertet werden und zwar zu einem Ergebnis.
+
+03:05.000 --> 03:16.000
+Das heißt, ein Term, der da steht, steht für den Wert, den er beschreibt. Also, um es einfach mal so zu sagen,
+
+03:16.000 --> 03:28.000
+der Term 3 plus 7 steht für 10. Nicht immer, aber meistens. Dann brauchen wir Prädikate.
+
+03:28.000 --> 03:38.000
+Dazu haben wir unsere Prädikatsymbole und diese nutzen wir, um Relationen zwischen Objekten auszudrücken.
+
+03:38.000 --> 03:48.000
+Jetzt bedenken Sie, auch ein Term, wie gesagt, soll ja ausgewertet werden, bezeichnet also im Endeffekt ein Objekt.
+
+03:48.000 --> 03:58.000
+Und somit können natürlich Relationen zwischen Objekten auch ausgedrückt werden als Prädikate mit Argumenten,
+
+03:58.000 --> 04:04.000
+wo einmal eine Konstante drinsteht, einmal eine Variable und einmal ein Term.
+
+04:04.000 --> 04:18.000
+Daraus zusammen bauen wir uns jetzt Formen. Und Formen sind Ausdrücke, denen wir einen Wahrheitswert zuordnen wollen,
+
+04:18.000 --> 04:28.000
+entsprechen also dem, was wir bisher aussagen. Damit ist ganz klar, dass die Prädikatenlogik
+
+04:28.000 --> 04:34.000
+von der Ausdrucksstärke her wesentlich mächtiger ist als die Aussagenlogik.
+
+04:34.000 --> 04:46.000
+Also, als Beispiel, es gibt einen Bauer, der seinen Esel füttert. In der Aussagenlogik müssten wir sagen,
+
+04:46.000 --> 04:54.000
+Peter füttert seinen Bauer und dementsprechend für alle Bauern, die den Esel nicht füttern,
+
+04:54.000 --> 05:00.000
+müsste man eben sagen, der füttert den Esel nicht, der füttert den Esel nicht und so weiter.
+
+05:00.000 --> 05:09.000
+Was wir also machen, ist jetzt folgendes. Wir wollen ja unsere Formen der Prädikatenlogik wieder interpretieren.
+
+05:09.000 --> 05:17.000
+Die sollen ja wieder einen Wahrheitswert bekommen. Die Frage ist jetzt nur, wie in aller Welt sieht jetzt hier
+
+05:17.000 --> 05:30.000
+eine solche mathematische Struktur aus, die mächtig genug ist, um Variablen, Therme, Prädikate etc. pt darzustellen.
+
+05:30.000 --> 05:43.000
+Wir müssen also hier mehr Arbeit leisten. Der normale, kleine, spulische Verband, den wir genommen haben,
+
+05:43.000 --> 05:51.000
+mit wahr und falsch oder die Zahlen 0 und 1 mit min und max oder so, alleine reicht da nicht mehr.
+
+05:51.000 --> 06:06.000
+Warum man das Ganze macht, ist jetzt folgendes. Nein, auf diese Folie überspringe ich mal.
+
+06:06.000 --> 06:16.000
+Ich komme jetzt gleich mal zu einem Beispiel. Ich habe hier mal eine prädikatenlogische Formel hingeschrieben,
+
+06:16.000 --> 06:26.000
+die Ihnen bestimmt irgendwie bekannt vorkommt. Für alle x, für alle y gilt, wenn x kleiner gleich y, genau dann wenn,
+
+06:26.000 --> 06:32.000
+also genau die Beimplikation hier als Subjunktion in beide Richtungen, also für alle x, für alle y gilt,
+
+06:32.000 --> 06:39.000
+x kleiner gleich y, genau dann wenn, es gibt ein Paar, so dass x plus k gleich y ist.
+
+06:39.000 --> 06:46.000
+Ich denke, diese Formel können Sie alle schon lesen. Die haben Sie bestimmt schon in irgendwelchen anderen Vorlesungen
+
+06:46.000 --> 06:52.000
+in dieser Art oder Ähnlichem gesehen. Und es ist auch kein Problem für Sie, aus dieser Formel
+
+06:52.000 --> 07:02.000
+eben Ihre Bedeutung heraus zu nehmen. x ist kleiner gleich y, genau dann wenn sich y aus der Addition einer Zahl k zu x ergibt.
+
+07:02.000 --> 07:09.000
+Was Sie in den Übungsblickern dann auch lernen sollten, war natürlich, aus Aussagen dieser Art,
+
+07:09.000 --> 07:16.000
+solche Formalisierungen zu bekommen. Aber es ist egal. Wir gehen jetzt einfach mal von dieser Formel hier aus,
+
+07:16.000 --> 07:24.000
+für alle x, für alle y, x kleiner gleich y, genau dann wenn, es gibt ein Paar, so dass x plus k gleich y ist.
+
+07:24.000 --> 07:33.000
+So, jetzt schauen wir uns diese Formel einmal genauer an. Und ich hoffe, dass die Farben einigermaßen hoch durchkommen,
+
+07:33.000 --> 07:39.000
+ansonsten gucken Sie sich das in dem Screencast unten an.
+
+07:39.000 --> 07:51.000
+Als allererstes muss man sich einmal klar machen, worüber man mit dieser Formel spricht.
+
+07:51.000 --> 08:02.000
+Also zum Beispiel ist das jetzt eine prädikatenlogische Formel, die uns eine ganz gewisse Aussage repräsentiert
+
+08:02.000 --> 08:10.000
+über meine Regeln, in diesem Fall die Arithmetik auf den natürlichen Zahlen mit der Null.
+
+08:10.000 --> 08:17.000
+Das kleiner gleich auf den natürlichen Zahlen ist so definiert, dass es, wenn x kleiner gleich y ist,
+
+08:17.000 --> 08:27.000
+1k geben muss, so dass x plus k gleich y ist. Wir reden also über natürliche Zahlen. Das ist Punkt Nummer 1.
+
+08:27.000 --> 08:38.000
+Das ist wichtig. Punkt Nummer 2. Worüber wird hier eine Aussage getroffen?
+
+08:38.000 --> 08:50.000
+Es wird hier eine Aussage getroffen über x, y und k. x, y und k sind Variablen.
+
+08:50.000 --> 08:59.000
+Also alles, was jetzt hier schön rot ist, das sind Variablen. Das sind die Symbole in dieser Formel
+
+08:59.000 --> 09:05.000
+oder die Sprachelemente, die zur Klasse der Variablen gehören.
+
+09:05.000 --> 09:10.000
+So, und jetzt denken Sie bitte an die Definition der Signaturen.
+
+09:10.000 --> 09:19.000
+Diese Variablen sind jetzt ja als von einem bestimmten Typ oder einer bestimmten Sorte S in einer Signatur definiert.
+
+09:19.000 --> 09:32.000
+Und dieser Typ S, diese Sorte S, soll jetzt, wenn wir die Welt der Arithmetik betrachten, natürlich die natürlichen Zahlen abstimmen.
+
+09:32.000 --> 09:44.000
+Also x, y und k sind Variablen, die als Werte natürliche Zahlen haben.
+
+09:44.000 --> 09:56.000
+Als nächstes gucken wir uns mal an, was da noch steht. Welche Aussagen treffen wir denn über die Beziehungen?
+
+09:56.000 --> 10:01.000
+Oder was wollen wir über die Beziehungen dieser Objekte zueinander ausdrücken?
+
+10:01.000 --> 10:11.000
+Nun, wir sagen einmal, dass ein x kleiner gleich einem y ist und wir sagen einmal, dass das y plus k x ergibt.
+
+10:11.000 --> 10:19.000
+Das entspricht genau diesem kleiner gleich Symbol hier oben und diesem Gleichheitssymbol dahinten.
+
+10:19.000 --> 10:25.000
+Das sind also in der Tat Prädikate, Prädikatsymbole.
+
+10:25.000 --> 10:34.000
+Und jetzt sehen Sie schon, dass das hier unten, wenn man so etwas zum ersten Mal liest, ein bisschen komisch aussieht.
+
+10:34.000 --> 10:40.000
+Kleiner gleich, kleiner gleich, gleichelement, sieht komisch aus.
+
+10:40.000 --> 10:51.000
+Das heißt aber nichts anderes, als dass das hier ein Symbol ist und dass das hier ein Symbol ist von der Klasse der Prädikatsymbole in einer festgelegten Signatur.
+
+10:51.000 --> 11:02.000
+Das heißt, in der Signatur, die wir haben, über die natürliche Arithmetik zu sprechen, haben wir zwei Symbole, die so aussehen,
+
+11:02.000 --> 11:09.000
+die eben ein kleiner Gleich und ein Gleich darstellen sollen.
+
+11:09.000 --> 11:18.000
+Dummerweise sehen diese Symbole jetzt halt auch gleich schon so aus. Aber dazu kommen wir gleich.
+
+11:18.000 --> 11:28.000
+So, als nächstes ist in der Aussage natürlich auch so etwas enthalten wie, es ergibt sich aus der Addition etwas.
+
+11:28.000 --> 11:34.000
+Hier steht die Addition x plus k. Was ist x plus k?
+
+11:34.000 --> 11:43.000
+Naja, das Plus hier drin ist nichts anderes als ein infix-geschriebenes Funktionensymbol.
+
+11:43.000 --> 11:53.000
+Und x plus k ist somit ein Term. Dieser Term kann ausgewertet werden, also zum Beispiel zu einer Zahl z.
+
+11:53.000 --> 12:10.000
+Und dieses z soll dann irgendwann gleichbeziehbar sein. Das hier ist also ein Term. Gehen wir weiter.
+
+12:10.000 --> 12:21.000
+Was fehlt noch? Nun, wir haben hier zum Beispiel die Implikationssymbol, was genau dieses genau dann wenn ausdrückt.
+
+12:21.000 --> 12:27.000
+Ja, mit den entsprechenden Klemerchen dazu. Und das sind logische Junktoren.
+
+12:27.000 --> 12:38.000
+So wie wir sie auch aus der Aussagenlogik kennen und so, wie wir definiert haben, wie man prädikatenlogische Formeln bauen kann.
+
+12:38.000 --> 12:47.000
+Nämlich, man nehme eine einfache Formel, die besteht aus einem Prädikat.
+
+12:47.000 --> 12:53.000
+Man nehme eine zweite Formel, hier. Ich springe jetzt mal über den Kant weg.
+
+12:53.000 --> 13:04.000
+Und wenn man zwei Formeln hat, dann darf man die durch einen logischen Junktor miteinander verbinden und bekommt wieder eine Formel.
+
+13:04.000 --> 13:13.000
+Ja, und schließlich und letztendlich dürfen Sie in der Prädikatenlogik natürlich auch noch hin und so etwas wie Kantoren hinschreiben.
+
+13:13.000 --> 13:22.000
+Also eben zum Beispiel ergibt sich aus der Addition einer Zahl. Es muss also so eine Zahl geben, das hier.
+
+13:22.000 --> 13:36.000
+Gut, die Tatsache ist, dass jetzt hier zwei Altkantoren für y und x davor kommen, steht einfach, die Auswahl für die Werte für x und y sind jetzt in dieser Aussage hier nicht beschränkt.
+
+13:36.000 --> 13:50.000
+Also, wenn Sie sich so eine Formel angucken, wie Sie bestimmt schon mal gesehen haben, dann können Sie daraus erkennen, wie eine prädikatenlogische Formel aufgebaut ist.
+
+13:50.000 --> 13:58.000
+Lesen wir es zurück. Sie ist, weil es eine logische Formel ist, aus logischen Junktoren aufgebaut. Hier.
+
+13:58.000 --> 14:09.000
+Und in der Prädikatenlogik kommen eben noch hinzu die Quantoten. Die Argumente logischer Junktoren sind Formeln.
+
+14:09.000 --> 14:21.000
+Formeln. Keine Terme. Formeln. Nur Formeln. Und eine Formel kann eine komplexe Formel sein, die aus mehreren Formeln zusammengebaut ist,
+
+14:21.000 --> 14:34.000
+oder eben eine atomare Formel, sprich ein einfaches Prädikat. Hier. x kleiner gleich y ist eine Formel, denn das ist eine Aussage, die wahr sein kann oder falsch.
+
+14:34.000 --> 14:45.000
+x plus k gleich y ist eine Formel, denn sie kann je nach den Werten von x, k und y wahr sein oder falsch.
+
+14:45.000 --> 14:52.000
+Wenn das eine Formel ist, dürfen wir ein Quantor davor schreiben, dann ist es auch eine Formel. Also ist das hier komplett eine Formel.
+
+14:52.000 --> 15:05.000
+Wir können sie also zerlegen. Logischer Junktor. Links und rechts die Formel. Ein Prädikat. Dann stellen wir fest, gut, hier ist es noch eine quantifizierte Formel.
+
+15:05.000 --> 15:12.000
+Dann können wir den Quantor weglassen. Dann gucken wir das. Aber Quantoren wirken ja auch auf Formeln. Also muss das hier eine Formel sein.
+
+15:12.000 --> 15:22.000
+Hier ist das Prädikat. Und das erste Argument dieses Prädikats ist ein Term. Fertig. Aus.
+
+15:22.000 --> 15:32.000
+Jetzt können wir also diese Formel lesen in der Welt der Arithmetik der natürlichen Sammlung.
+
+15:32.000 --> 15:45.000
+Und können uns entscheiden, ob sie denn nun wahr ist oder nicht. Das sieht hier trivial aus. Machen wir ein zweites Beispiel.
+
+15:45.000 --> 15:52.000
+Aus der registriken Mathematik dürfte Ihnen diese Formel hier bekannt vorkommen.
+
+15:52.000 --> 16:11.000
+Wenn wir zwei beliebige Mengen M haben, so ist M1 eine Teilmenge von M2, genau dann, wenn wir M2 aus M1 durch die Vereinigung mit einer anderen Menge darstellen können.
+
+16:11.000 --> 16:18.000
+Das ist jetzt nicht unbedingt die Definition für die Teilmengebeziehung, die ich wählen würde, aber für dieses Beispiel ist es okay.
+
+16:18.000 --> 16:33.000
+Was steht also hier? Für alle Mengen M1 und für alle Mengen M2 gilt M1 ist eine Teilmenge von M2, genau dann, wenn es gibt eine Menge N, sodass M1 vereinigt N M2 ist.
+
+16:33.000 --> 16:45.000
+Okay. Jetzt machen wir wieder genau dasselbe wie eben. Wir betrachten also die Welt der Mengentheorie.
+
+16:45.000 --> 17:00.000
+Wir betrachten also ein System von Mengen über irgendeine Mengen N. Gut. M1 ist eine Menge von Objekten aus O und N und so weiter.
+
+17:00.000 --> 17:07.000
+Was steckt noch in dieser Aussage drin? Das war die falsche Tastatur.
+
+17:07.000 --> 17:21.000
+Wir treffen Aussagen worüber, über Mengen. M1, M2, N. Das sind also Variablen vom Typ A.
+
+17:21.000 --> 17:32.000
+In der Signatur, die wir nicht hier explizit angegeben haben oder die normalerweise in den seltensten Fällen explizit angegeben wird, leider,
+
+17:32.000 --> 17:48.000
+sind das also Variablen vom Typ S in der entsprechenden Signatur und dieser Typ S wird interpretiert als Mengen.
+
+17:48.000 --> 17:56.000
+Variablen, Variablen, Variablen. Fertig. Okay. Jetzt gucken wir uns diese Formel weiter an.
+
+17:56.000 --> 18:03.000
+Jetzt bin ich gleich zweimal drauf gekommen. Was für Aussagen treffen wir über diese Mengen?
+
+18:03.000 --> 18:11.000
+Einmal treffen wir eine Teilmenge, eine Aussage über die Teilmengebeziehung zwischen M1 und M2.
+
+18:11.000 --> 18:16.000
+Und einmal treffen wir eine Aussage, dass zwei Mengenausdrücke gleich sind.
+
+18:16.000 --> 18:33.000
+Also, wir haben hier einen Term stehen. M1 vereinigt N, wird ausgewertet und da kommt irgendwie eine Menge O raus.
+
+18:33.000 --> 18:41.000
+Wir haben also hier, genauso wieder in der scheinbar verstörenden Schreibweise,
+
+18:41.000 --> 18:47.000
+dieses Symbol hier und dieses Symbol hier sind Symbole aus unserer Signatur.
+
+18:47.000 --> 18:57.000
+Wir interpretieren sie als die Teilmengenrelation und als die Gleichheitsrelation oder die Identität.
+
+18:57.000 --> 19:06.000
+Wir haben Termen. Dieses komische Symbol hier ist also ein Funktionssymbol.
+
+19:06.000 --> 19:17.000
+Interpretiert wird es als die Operation der Mengenvereinigung.
+
+19:17.000 --> 19:24.000
+Was haben wir noch? Wir haben logische Junkturen. Das hier ist eine Formel, denn sie ist eine,
+
+19:24.000 --> 19:33.000
+das ist eine Prädikatsaussage. Das hier ist eine Formel, weil das ist ein Term als Argument eines Prädikates.
+
+19:33.000 --> 19:41.000
+Damit ist das eine Formel. Die wird quantifiziert. Gut, da kommt jetzt noch das Lila hinzu.
+
+19:41.000 --> 19:48.000
+Damit ist das hier eine Formel, deswegen ist das hier eine Formel und Formeln können beliebig quantifiziert werden.
+
+19:48.000 --> 19:55.000
+Und das Ganze ist wieder eine Formel. Das heißt, das was da steht, die Aussage M1 ist Teilmenge von M2,
+
+19:55.000 --> 20:03.000
+genau dann, wenn M2 die Vereinigung von einer Menge n mit M1 ist, hat einen Wahrheitswert.
+
+20:03.000 --> 20:12.000
+In der betrachteten Welt der Mengentheorie. Ganz einfach.
+
+20:12.000 --> 20:23.000
+So, noch ein Beispiel. Der String abb, also einfach die Zeichenkette, besteht aus abb,
+
+20:23.000 --> 20:36.000
+ist kürzer als der String jjgwa. Der hat die Länge 3 und der hat die Länge 5.
+
+20:36.000 --> 20:43.000
+Jetzt sage ich einfach mal, dieser String ist kürzer als der andere, denn man kann ja den String,
+
+20:43.000 --> 20:56.000
+den kürzeren String abb nehmen und irgendwie einen anderen String xy dranhängen und dann kommt abbxy raus.
+
+20:56.000 --> 21:06.000
+Und das Interessante ist, die Länge von abbxy ist 5 und ist damit genauso lang wie jjgwa.
+
+21:06.000 --> 21:11.000
+Also denke ich, sind Sie mit mir einer Meinung, dass man sagen kann, ein String u ist kürzer
+
+21:11.000 --> 21:19.000
+als ein String v, genau dann, wenn man an u noch einen weiteren String w hängen kann,
+
+21:19.000 --> 21:29.000
+sodass der String uw dann genauso lang ist wie der String v. Kann man machen, ne?
+
+21:29.000 --> 21:38.000
+Das ist jetzt natürlich durchaus etwas, was Sie kennen. Das kann man nämlich auch so hinschreiben.
+
+21:38.000 --> 21:47.000
+Hoppla. Und jetzt gucken Sie mal, was hier steht. Hier steht ein Typewriter gleich, kleiner gleich.
+
+21:47.000 --> 21:52.000
+Und hier steht ein String cong. Und hier steht ein gleich gleich.
+
+21:52.000 --> 21:57.000
+Das ist etwas, wie Sie es in einer Programmiersprache hinschreiben würden.
+
+21:57.000 --> 22:03.000
+Und in einer Programmiersprache haben Sie eben einfach eine etwas andere Signatur.
+
+22:03.000 --> 22:08.000
+Sie haben ja die Syntax der Programmiersprache definiert und irgendwie, zumindest früher
+
+22:08.000 --> 22:13.000
+war es so, gab es ein Handbuch dazu, heute sieht man das irgendwo anders nach, weiß man,
+
+22:13.000 --> 22:21.000
+was es bedeutet, wenn man hinschreibt, String cong uw. Das darf man hinschreiben.
+
+22:21.000 --> 22:29.000
+Und die Auswertung dieses Termins, das Ding wird kompiliert, u und w bekommen irgendwelche Werte,
+
+22:29.000 --> 22:37.000
+das, dann wird String cong, ja, ist dann als Funktion da, diese Funktion wird ausgerechnet
+
+22:37.000 --> 22:40.000
+und dann kommt ein v raus. Dann kommt irgendwas raus.
+
+22:40.000 --> 22:45.000
+Und hier, dieses gleich gleich, ist ein Vergleichsoperator.
+
+22:45.000 --> 22:50.000
+Vergleichsoperatoren sind jetzt in Programmiersprachen dummerweise meistens Funktionen,
+
+22:50.000 --> 22:54.000
+aber ganz tolle Funktionen, die können nämlich nur zwei verschiedene Werte zurückgeben,
+
+22:54.000 --> 23:03.000
+true oder false. Und damit sind es Prädikate, denn sozusagen die Operation, die u und w miteinander
+
+23:03.000 --> 23:08.000
+verknüpft, ergibt einen String, den ich dann mit dem String v vergleichen kann.
+
+23:08.000 --> 23:14.000
+Also, gucken wir mal, und hier, dieses Ding hier ist jetzt vielleicht ein bisschen komisch,
+
+23:14.000 --> 23:18.000
+u kleiner gleich v, aber ich habe das einfach mal hingeschrieben, stellen wir uns vor,
+
+23:18.000 --> 23:23.000
+wir haben eine Programmiersprache, wo es diese Vergleichsoperation gibt
+
+23:23.000 --> 23:29.000
+und die betrachtet, wenn sie als Argument des Strings bekommt, eben nicht die Strings selber,
+
+23:29.000 --> 23:33.000
+sondern nur deren Länge. Überhaupt kein Problem.
+
+23:33.000 --> 23:40.000
+Also, die betrachtete Welt für diese Form ist jetzt nichts anderes als die Welt der Strings.
+
+23:40.000 --> 23:46.000
+Sie sind in der Klasse der Strings, sie reden über den Datentyp Strings, wie sie wollen.
+
+23:46.000 --> 23:56.000
+Dazu, ja, okay, und welche Methoden es dafür gibt, wird im Endeffekt in der Signatur festgelegt.
+
+23:56.000 --> 24:08.000
+So, sie, was steht jetzt hier? Nun, hier steht eine Aussage über u, v und w.
+
+24:08.000 --> 24:13.000
+Das sind also Variablen vom Typ String.
+
+24:13.000 --> 24:22.000
+Jetzt kriege ich einmal in meinem Leben einen Anruf und der stört.
+
+24:22.000 --> 24:25.000
+Wir reden also über Strings.
+
+24:25.000 --> 24:30.000
+Und u, v und w sind jetzt von einem Typ String.
+
+24:30.000 --> 24:33.000
+Diese Sorte würde man jetzt nicht S nennen, sondern man würde sagen,
+
+24:33.000 --> 24:38.000
+ach, nennen wir sie doch einfach mal String.
+
+24:38.000 --> 24:41.000
+Dann haben wir diese Vergleichsoperatoren.
+
+24:41.000 --> 24:43.000
+Ja, es sieht jetzt schon ein bisschen besser aus.
+
+24:43.000 --> 24:49.000
+Also, diese komischen Teile hier sind also Prädikate auf dem Datentyp String.
+
+24:49.000 --> 24:52.000
+Jetzt habe ich hier String hingeschrieben, anstatt, ist egal.
+
+24:52.000 --> 24:57.000
+So, hier steht Mengen, das ist natürlich falsch.
+
+24:57.000 --> 25:01.000
+Wir haben eine Funktion, das ist die String-Konkatenation.
+
+25:01.000 --> 25:04.000
+Wir haben logische Jungtore, wir haben Quantifikation.
+
+25:04.000 --> 25:08.000
+Diese Formel sieht also so aus.
+
+25:08.000 --> 25:13.000
+Also, was soll das Ganze?
+
+25:13.000 --> 25:19.000
+Gegeben sei eine Signatur mit einer Sorte s,
+
+25:19.000 --> 25:24.000
+drei Variablen x, y und z von dieser Sorte s,
+
+25:24.000 --> 25:30.000
+einem Funktionssymbol f, das zwei Argumente dieser Sorte s nimmt
+
+25:30.000 --> 25:34.000
+und ein Ergebnis dieser Sorte s zu komplizieren
+
+25:34.000 --> 25:41.000
+und zwei Prädikatsymbole p und q, die jeweils zwei Argumente der Sorte s haben.
+
+25:41.000 --> 25:43.000
+Fertig.
+
+25:43.000 --> 25:49.000
+Mit diesen B'n hier können wir jetzt eine Formel bauen.
+
+25:49.000 --> 25:53.000
+Wie sieht zum Beispiel eine Formel aus, die wir hier bauen?
+
+25:53.000 --> 25:59.000
+Zum Beispiel so, für alle x, für alle y, p, x, y, genau dann, wenn es existiert einsetzt,
+
+25:59.000 --> 26:04.000
+so dass q f von x, y, y.
+
+26:04.000 --> 26:09.000
+Sowas stand bis hier immer auf dem Folie.
+
+26:09.000 --> 26:11.000
+Stand bewusst auf dem Folie.
+
+26:11.000 --> 26:19.000
+Es ging nur darum, wie sehen Formeln aus?
+
+26:19.000 --> 26:22.000
+Das Problem, das man hat, wenn man das verstehen will,
+
+26:22.000 --> 26:29.000
+ist, dass man versucht, diesen Symbolen direkt eine Bedeutung zuzumessen.
+
+26:29.000 --> 26:34.000
+Auf den Folien vorher war es überhaupt kein Problem, das zu verstehen,
+
+26:34.000 --> 26:41.000
+weil Symbole benutzt wurden, die für sie bereits eine Bedeutung haben.
+
+26:41.000 --> 26:44.000
+Kleiner Gleich.
+
+26:44.000 --> 26:47.000
+Teilmenge. Gleich.
+
+26:47.000 --> 26:50.000
+Die haben für sie bereits eine Bedeutung.
+
+26:50.000 --> 26:54.000
+Und d, q und f haben erst mal keine Bedeutung.
+
+26:54.000 --> 26:59.000
+Und das ist ja genau das, worum es in der Semantik der Prädikatenlogik geht.
+
+26:59.000 --> 27:10.000
+Wir überlegen uns jetzt, was können diese Symbole auf den entsprechenden Strukturen bedeuten.
+
+27:10.000 --> 27:14.000
+Und dann haben wir hier eine Formel stehen
+
+27:14.000 --> 27:17.000
+und wir können uns ganz normal die Frage stellen, ist die Formel wahr?
+
+27:17.000 --> 27:21.000
+Was folgt aus dieser Formel? Was bedeutet diese Formel?
+
+27:21.000 --> 27:24.000
+Und die Antwort ist ganz einfach.
+
+27:24.000 --> 27:34.000
+Diese Formel ist zum Beispiel wahr, wenn wir die Arithmetik der natürlichen Zahlen betrachten.
+
+27:34.000 --> 27:39.000
+Das heißt, wenn s für natürliche Zahlen steht,
+
+27:39.000 --> 27:43.000
+das heißt x, y und z sind natürliche Zahlen,
+
+27:43.000 --> 27:48.000
+das heißt die Funktion f nimmt zwei natürliche Zahlen und bringt uns eine natürliche Zahl
+
+27:48.000 --> 27:54.000
+und p und q sind zweistellige Relationen auf natürliche Zahlen.
+
+27:54.000 --> 27:57.000
+Und das ist die erste Sache.
+
+27:57.000 --> 28:03.000
+Also müssen wir uns jetzt noch überlegen, was sollen f, p und q bedeuten?
+
+28:03.000 --> 28:08.000
+Und da geht man eben einfach hin, naja p soll bedeuten Kleiner Gleich, q soll bedeuten Gleich
+
+28:08.000 --> 28:11.000
+und f soll bedeuten Plus.
+
+28:11.000 --> 28:17.000
+Die Bedeutung von p, q und f steckt in den natürlichen Zahlen,
+
+28:17.000 --> 28:20.000
+in der Struktur der Arithmetik der natürlichen Zahlen.
+
+28:20.000 --> 28:24.000
+Die Bedeutung von p, q und f steht nicht in dieser Formel.
+
+28:24.000 --> 28:27.000
+Diese Formel kann wahr sein oder falsch,
+
+28:27.000 --> 28:34.000
+aber das hängt davon ab, ob diese Aussage auf die natürlichen Zahlen richtig ist.
+
+28:34.000 --> 28:38.000
+Diese Formel ist zum Beispiel auch wahr,
+
+28:38.000 --> 28:42.000
+wenn wir sagen, f ist die Menge, ist eine Menge.
+
+28:42.000 --> 28:46.000
+Dann haben wir Mengen x, y und z, dann haben wir die Funktion f,
+
+28:46.000 --> 28:48.000
+die zwei Mengen nimmt und eine Menge erzeugt
+
+28:48.000 --> 28:54.000
+und dann haben wir zwei Relationen p und q auf Mengen.
+
+28:54.000 --> 29:01.000
+Und wenn wir dann interpretieren p als Teilmengebeziehung und q als Gleich
+
+29:01.000 --> 29:03.000
+und f als die Vereinigungsmenge,
+
+29:03.000 --> 29:08.000
+steht hier nichts anderes als, für alle x, für alle y gilt,
+
+29:08.000 --> 29:11.000
+wenn x eine Teilmenge von y ist, dann gibt es ein z,
+
+29:11.000 --> 29:18.000
+sodass die Vereinigung von x mit z gleich y ist.
+
+29:18.000 --> 29:20.000
+Und schon haben Sie kein Problem mehr damit.
+
+29:20.000 --> 29:27.000
+Aber, wenn Sie das so lesen, interpretieren Sie diese Formel bereits.
+
+29:27.000 --> 29:38.000
+Und Sie stellen fest, in dem System der Mengentheorie ist diese Formel wahr.
+
+29:38.000 --> 29:40.000
+Gucken wir uns noch was an.
+
+29:40.000 --> 29:43.000
+Nehmen wir einfach mal unsere Welt, in der wir leben,
+
+29:43.000 --> 29:49.000
+und wir sagen, okay, pxy bedeutet x liebt y
+
+29:49.000 --> 29:55.000
+und qxy bedeutet x hatte dasselbe Lieblingsessen wie y,
+
+29:55.000 --> 30:02.000
+wobei f von xy bedeutet der jüngste Nächstverwandte von x und y.
+
+30:02.000 --> 30:09.000
+Das heißt, hier steht, für alle Leute gilt, x und y lieben sich,
+
+30:09.000 --> 30:20.000
+wenn es einen Nächstverwandten von x gibt, der das gleiche Lieblingsessen hat wie y.
+
+30:20.000 --> 30:25.000
+Genau dann, wenn.
+
+30:25.000 --> 30:31.000
+Wenn Sie jemanden haben, der nur Fleisch isst, und jemanden haben, der Veganer isst,
+
+30:31.000 --> 30:36.000
+dann können die sich zum Beispiel gar nicht lieben.
+
+30:36.000 --> 30:41.000
+Ne, wenn einer aus einer fleischessenden Familie kommt und einer aus einer veganen Familie.
+
+30:41.000 --> 30:48.000
+Diese Formel ist sozusagen mit dieser Interpretation falsch.
+
+30:48.000 --> 30:58.000
+Okay? Auf die Interpretation kommt es an.
+
+30:58.000 --> 31:05.000
+Wir werden später sehen, dass aus dieser Formel, wie ich sie hier oben geschrieben habe,
+
+31:05.000 --> 31:09.000
+logisch folgende Formel folgt.
+
+31:09.000 --> 31:14.000
+Wir nehmen hier wieder unsere Beispielformel von bis jetzt,
+
+31:14.000 --> 31:21.000
+und daraus folgende Formel. Für alle x gilt pi xx, also wenn x gerne gleich x,
+
+31:21.000 --> 31:28.000
+wenn m1 eine Teilmenge von m2 ist, wenn x sich selber liebt,
+
+31:28.000 --> 31:37.000
+wenn ein String genauso lang ist wie er selber, genau dann, wenn es gibt ein z,
+
+31:37.000 --> 31:47.000
+also eine Menge, eine Zahl, so dass f und xz x im Q veranstalten.
+
+31:47.000 --> 31:55.000
+Aus dieser Formel, die wir bis jetzt betrachtet haben, folgt diese hier, und zwar sie folgt logisch.
+
+31:55.000 --> 31:59.000
+Und es ist eine andere. Okay?
+
+31:59.000 --> 32:05.000
+So, und jetzt kommt der springende Punkt.
+
+32:05.000 --> 32:11.000
+Diese Formel hier folgt logisch aus dieser Formel.
+
+32:11.000 --> 32:15.000
+Was bedeuten p, q und irgendwas?
+
+32:15.000 --> 32:19.000
+Das betrachten wir gar nicht. Das betrachten wir gar nicht.
+
+32:19.000 --> 32:25.000
+Jetzt kommt aber das Interessante.
+
+32:25.000 --> 32:29.000
+x kleiner gleich x ist immer wahr.
+
+32:29.000 --> 32:41.000
+Und auch, weil wir ein z finden, nämlich 0, ist x plus 0 immer gleich x.
+
+32:41.000 --> 32:45.000
+Also ist auch das hier immer wahr.
+
+32:45.000 --> 32:49.000
+Also ist das wahr und das wahr, die Implikation, also ist das wahr.
+
+32:49.000 --> 32:58.000
+Also auch in der Welt der natürlichen Zahlen, in der diese Formel mit der entsprechenden Interpretation wahr war,
+
+32:58.000 --> 33:07.000
+ist unter derselben Interpretation die logische Folgerung auch wahr.
+
+33:07.000 --> 33:13.000
+Die selbe Formel, die selbe logische Implikation gilt in der Interpretation der Mengentheorie.
+
+33:13.000 --> 33:18.000
+Denn m ist immer eine Teilmenge von, eine Menge ist immer Teilmenge von sich selber.
+
+33:18.000 --> 33:24.000
+Und wir haben auch hier etwas, wir können zu jeder Menge die leere Menge hinzu,
+
+33:24.000 --> 33:28.000
+immer hinzu vereinigen und erhalten wieder m1.
+
+33:28.000 --> 33:32.000
+Das ist das hier.
+
+33:32.000 --> 33:38.000
+Und wir kriegen damit q, also m1 vereinigt leere Menge, ist m1.
+
+33:38.000 --> 33:42.000
+q, m1, m1 ist gleich m1.
+
+33:42.000 --> 33:48.000
+Ja, stimmt, stimmt, stimmt, stimmt.
+
+33:48.000 --> 33:54.000
+Mit der Stringkonkrete dazu, genau so.
+
+33:54.000 --> 34:00.000
+Jedes Wort ist genauso lang wie es selber, also ist es auch kürzer gleich sich selber.
+
+34:00.000 --> 34:06.000
+Wir können an jedem String den leeren String dranhängen und es ändert sich nichts.
+
+34:06.000 --> 34:11.000
+Also ist auch die Implikation wahr, also ist auch die Formel wahr.
+
+34:11.000 --> 34:13.000
+Super, oder?
+
+34:13.000 --> 34:19.000
+Und das, obwohl wir nur das hier gemacht haben und gesagt haben, wir nehmen an,
+
+34:19.000 --> 34:27.000
+dass es eine geeignete Signatur darunter gibt.
+
+34:27.000 --> 34:37.000
+Und diese Signatur, die darunter gibt, die definiert uns auch wie eine Struktur,
+
+34:37.000 --> 34:43.000
+also die Menge, die Arithmetik der natürlichen Zahlen, die Mengentheorie,
+
+34:43.000 --> 34:49.000
+dieses komische Dingpunkt, sind Strukturen,
+
+34:49.000 --> 34:57.000
+die mit den vereinbarten Signaturen kompatibel sind.
+
+34:57.000 --> 35:02.000
+So, gucken wir uns diese Liebesbeziehung-Dingspunkte an.
+
+35:02.000 --> 35:10.000
+Da würde jetzt stehen, jeder liebt sich selbst, genau dann, wenn sein eigener jüngster
+
+35:10.000 --> 35:14.000
+Nächstverwandte dasselbe Lieblingsgewicht hat wie man selber.
+
+35:14.000 --> 35:18.000
+Ich habe mir gestern Gedanken darüber gemacht, auf jeden Fall ist diese Aussage blöd,
+
+35:18.000 --> 35:21.000
+oder mindestens blöd, wenn nicht sogar falsch.
+
+35:21.000 --> 35:25.000
+Das interessiert uns aber nicht. Warum?
+
+35:25.000 --> 35:30.000
+Diese Formel hier war ja in unserer normalen Welt schon falsch.
+
+35:30.000 --> 35:34.000
+Und was wissen Sie über die logische Implikation?
+
+35:34.000 --> 35:38.000
+Aus einer widersprüchlichen Formel, aus einer widersprüchlichen Theorie,
+
+35:38.000 --> 35:42.000
+können Sie alles logisch ableiten, also auch diese komische Formel.
+
+35:42.000 --> 35:48.000
+Also auch in diesem Fall gilt die logische Implikation.
+
+35:48.000 --> 36:00.000
+So, ich hoffe, dass mit diesem Beispiel klar geworden ist,
+
+36:00.000 --> 36:07.000
+warum wir uns erst mit der Syntax der Prädikaten-Logik beschäftigt haben
+
+36:07.000 --> 36:21.000
+und warum ich Sie durch diese bedeutungslose, fürchterliche Schreibselarbeit gequält habe.
+
+36:21.000 --> 36:29.000
+Weil ganz eindeutig zu trennen ist zwischen dem, was man als Formel hinschreibt,
+
+36:29.000 --> 36:32.000
+und dem, was diese Formel bedeutet.
+
+36:32.000 --> 36:37.000
+Im alltäglichen Leben verschwindet das.
+
+36:37.000 --> 36:44.000
+Man benutzt als Symbole in der Logik meist dieselben Symbole
+
+36:44.000 --> 36:50.000
+wie in der Struktur, in der man diese Formel interpretiert.
+
+36:50.000 --> 36:57.000
+Dabei kann diese Formel in ganz anderen Strukturen ebenfalls
+
+36:57.000 --> 37:06.000
+den gleichen Wahrheitswert meinetwegen haben.
+
+37:06.000 --> 37:11.000
+Deswegen habe ich Sie durch die Syntax so gequält.
+
+37:11.000 --> 37:19.000
+Und ich denke, Sie haben jetzt auch begriffen, dass diese Strukturen,
+
+37:19.000 --> 37:26.000
+in denen wir die Semantik der Prädikaten-Logik definieren wollen,
+
+37:26.000 --> 37:32.000
+wesentlich komplexere Gebilde sind, als wir sie in der Aussagen-Logik hatten
+
+37:32.000 --> 37:35.000
+mit dem Wunscheverband 0 und 1.
+
+37:35.000 --> 37:38.000
+Da brauchen wir jetzt definitiv mehr.
+
+37:38.000 --> 37:41.000
+Und ich habe Ihnen auch gezeigt, was man alles nehmen kann.
+
+37:41.000 --> 37:45.000
+Man kann nämlich fast alles nehmen. Fast.
+
+37:45.000 --> 37:50.000
+Nachdem wir das jetzt so schön beispielhaft gemacht haben,
+
+37:50.000 --> 37:57.000
+jetzt ein bisschen detaillierter in die Theorie des Ganzen reinsteigen.
+

@@ -1,0 +1,137 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+So, wenn Sie genau aufgepasst haben, dann haben Sie festgestellt, dass in dieser Definition oder in dieser Darstellung eigentlich ein kleiner formaler Fehler verschwunden ist.
+
+00:13.000 --> 00:19.000
+Denn was steht in den Kopfzeilen dieser Tabellen? Da stehen Formen.
+
+00:19.000 --> 00:24.000
+Und was steht in den Zellen dieser Tabellen? Wahrheitswerte.
+
+00:24.000 --> 00:46.000
+Und natürlich werden ja diese Wahrheitswerte bestimmt durch unsere Funktion oder durch dieses Hochkomma, welches die jeweilige Bedeutung, das heißt den zugewiesenen Wahrheitswert, aus den entsprechenden Formen berechnet.
+
+00:46.000 --> 01:01.000
+Sie sehen also hier ganz klar, dass sich der Wahrheitswert der komplexen Aussage P und Q ergibt aus den Wahrheitswerten der darin enthaltenen Aussagen.
+
+01:01.000 --> 01:12.000
+Man macht das häufig auch in einer etwas anderen Darstellung, die die Sache eventuell ein wenig vereinfacht.
+
+01:12.000 --> 01:27.000
+Für die Negation tut sich da nicht allzu viel, denn das ist einfach nur ein Darstellungsproblem.
+
+01:27.000 --> 01:44.000
+Ich übernehme das also einfach mal, aber wenn wir uns überlegen, dass sämtliche Jungtoren ja im Endeffekt zweistellige Funktionen oder Operatoren sind,
+
+01:44.000 --> 01:53.000
+die aus zwei Argumenten einen neuen Wert errechnen, definiert man in der Regel sogenannte Operator-Tabellen.
+
+01:53.000 --> 02:06.000
+Also die Funktion der Konjunktion ist auf den Wahrheitswerten wie folgt definiert.
+
+02:06.000 --> 02:18.000
+Wenn ich ein Falsch verunde mit einem Falsch, ist das Ergebnis ein Falsch.
+
+02:18.000 --> 02:22.000
+Wenn ich ein Falsch mit einem Wahr verunde, bleibt es Falsch.
+
+02:22.000 --> 02:27.000
+Wenn ich ein Wahr mit einem Falsch verunde, bleibt es Falsch.
+
+02:27.000 --> 02:36.000
+Und nur wenn beide Teilaussagen wahr sind, soll auch die Konjunktion wahr sein.
+
+02:36.000 --> 02:47.000
+Also Sie werden meistens die Semantik der logischen Jungtoren definiert sehen durch solche Operator-Tabellen,
+
+02:47.000 --> 02:59.000
+die ich Ihnen dann auch dementsprechend anzeichnen kann und die sich ein wenig unterscheiden,
+
+02:59.000 --> 03:07.000
+aber von der Aussage her vollkommen identisch sind mit dem, was an der letzten Tafel stand.
+
+03:07.000 --> 03:21.000
+So, wir können also auf diese Art und Weise sagen, wie diese Operatoren den Wahrheitswert von zusammengesetzten Aussagen berechnet.
+
+03:21.000 --> 03:32.000
+Und darüber hinaus wollen wir uns noch zwei ganz besondere Formeln oder Aussagenvariablen definieren.
+
+03:32.000 --> 03:38.000
+Wir definieren uns nämlich noch ein Symbol T.
+
+03:38.000 --> 03:52.000
+Und T sei eine Formel, ist eine besondere Formel.
+
+03:52.000 --> 03:58.000
+Nämlich diese Formel hat immer den Wahrheitswert 1.
+
+03:58.000 --> 04:06.000
+Deswegen T für true und F ist eine besondere Formel.
+
+04:06.000 --> 04:12.000
+Und zwar der Gestalt, dass ihr Wahrheitswert immer 0 ist.
+
+04:12.000 --> 04:26.000
+Bedenken Sie, alle anderen Aussagenvariablen können ja irgendwie andere Wahrheitswerte haben.
+
+04:26.000 --> 04:37.000
+So, man kann jetzt schon sehr interessante Sachen herausfinden,
+
+04:37.000 --> 04:43.000
+was die Eigenschaften dieser logischen Operatoren anbetrifft.
+
+04:43.000 --> 04:53.000
+Und diese Eigenschaften sind durchaus relevant dafür, was wir später noch in der diskreten Mathematik brauchen werden.
+
+04:53.000 --> 05:03.000
+Insbesondere stellen wir nämlich zum Beispiel fest folgendes.
+
+05:03.000 --> 05:22.000
+Konjunktion und Disjunktion sind symmetrisch.
+
+05:22.000 --> 05:32.000
+Was heißt das? Symmetrisch bedeutet sowas ähnlich wie bei der Addition oder bei der Multiplikation, so wie Sie sie kennen.
+
+05:32.000 --> 05:35.000
+a plus b ist gleich b plus a.
+
+05:35.000 --> 05:47.000
+Also, wir könnten behaupten, oder das hier ist im Endeffekt schon ein sogenanntes kleines Theorem.
+
+05:47.000 --> 05:56.000
+Und das kann man auch schon hübsch beweisen.
+
+05:56.000 --> 06:16.000
+Wir wollen also zeigen, dass P und Q als Wahrheitswert das gleiche Ergebnis liefert wie Q und P.
+
+06:16.000 --> 06:24.000
+Und das könnten wir uns jetzt auf verschiedene Arten und Weisen ansehen.
+
+06:24.000 --> 06:38.000
+Schreiben wir uns also mal unsere Tabelle auf für den Grundoperator 01 01 00 01.
+
+06:38.000 --> 06:52.000
+Und dann machen wir folgendes. Wir schreiben eine Tabelle hin für die verschiedenen Wahrheitswerte von P und Q
+
+06:52.000 --> 07:12.000
+und die verschiedenen Formeln P und Q sowie Q und P und rechnen deren Wahrheitswerte aus.
+
+07:12.000 --> 07:26.000
+Wir haben hier also vier Möglichkeiten und gucken jetzt ganz einfach immer für diese Kombinationen in unsere Tabelle hinein.
+
+07:26.000 --> 07:46.000
+Das heißt 0 und 0 ergibt 0, 0 und 1 ergibt 0, 1 und 0 ergibt 0 und 1 und 1 ergibt 1.
+
+07:46.000 --> 07:50.000
+Wenn wir jetzt P und Q betrachten, müssen wir hier im Endeffekt umgekehrt schauen.
+
+07:50.000 --> 08:11.000
+Das heißt 0 und 0 ergibt 0, 1 und 0 ergibt 0, dann haben wir die 1 mit dieser 0 ergibt diese 0 und diese 1 mit dieser 1 ergibt 1.
+
+08:11.000 --> 08:25.000
+Und wir stellen also fest, dass für alle möglichen Werte von P und Q das Ergebnis der Konjunktion jeweils gleich ist.
+
+08:25.000 --> 08:43.000
+So, mehr nach einer Pause.
+

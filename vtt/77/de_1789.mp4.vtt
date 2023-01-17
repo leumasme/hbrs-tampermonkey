@@ -1,0 +1,191 @@
+WEBVTT
+
+00:00.000 --> 00:11.000
+Also, dann kommen wir heute zu einem schönen Thema, welches sich nennt natürliche Deduktion.
+
+00:11.000 --> 00:21.000
+Wir haben jetzt ja viele logische Prinzipien kennengelernt und auch auf dem letzten Aufgabenzettel
+
+00:21.000 --> 00:28.000
+hatte ich Ihnen sozusagen die Gelegenheit gegeben oder wollte Sie dazu motivieren.
+
+00:28.000 --> 00:38.000
+In normalen alltäglichen Beweisen, sofern man von alltäglich sprechen kann,
+
+00:38.000 --> 00:43.000
+die logischen Strukturen, die Sie kennengelernt haben, wieder zu erkennen.
+
+00:43.000 --> 00:52.000
+Aus zwei Gründen. Erstens, dass Sie in der Lage sind, logisch zu argumentieren auf der einen Seite
+
+00:52.000 --> 01:00.000
+und auf der anderen Seite, dass Sie in der Lage sind, Beweise, die Ihnen vorgesetzt werden, zu lesen,
+
+01:00.000 --> 01:07.000
+zu verstehen, nachzuvollziehen und idealerweise, wenn ein Fehler drin ist, auf diesen Fehler zu finden.
+
+01:07.000 --> 01:10.000
+Das ist durchaus wichtig.
+
+01:10.000 --> 01:22.000
+Es geht also um das Beweisen und man spricht bei einer bestimmten Art von Beweisen auch von Deduktionen.
+
+01:22.000 --> 01:35.000
+Das sind also Ableitungen. Warum benutzt man ein anderes Wort?
+
+01:35.000 --> 01:40.000
+Ganz einfach, ein Beweis ist ein logisches Argument und eine Deduktion, eine Ableitung,
+
+01:40.000 --> 01:45.000
+ist im Endeffekt eine rein syntaktische Operation.
+
+01:45.000 --> 01:58.000
+Und syntaktische Operationen sind etwas, was man sich mit ein bisschen Mühe durchaus auch in Anführungszeichen automatisieren kann.
+
+01:58.000 --> 02:14.000
+Dazu muss ich kurz ausholen und Ihnen eine Folie zeigen, die Sie hoffentlich nicht verwirrt oder abschreckt.
+
+02:14.000 --> 02:23.000
+Wir haben uns bis jetzt mit der Aussagelogik beschäftigt und der Semantik in Form unserer Interpretationenmodelle etc. pp.
+
+02:23.000 --> 02:34.000
+Man kann, und da denken Sie jetzt bitte an das Deduktionstheorem, die Semantik einer Logik im Endeffekt auch ganz anders definieren.
+
+02:34.000 --> 02:37.000
+Warum habe ich das Deduktionstheorem angesprochen?
+
+02:37.000 --> 02:46.000
+Ganz einfach, wir bauen uns ja eine Logik mit einer Semantik, um uns über den Modellbegriff
+
+02:46.000 --> 02:53.000
+und der Erfüllbarkeit die logische Implikation, das Entailment zu definieren.
+
+02:53.000 --> 03:04.000
+Darum geht es ja, wir wollen aus einer Menge von Formeln logisch daraus folgende Formeln herleiten.
+
+03:04.000 --> 03:10.000
+Und jetzt wissen wir ja, dass wenn das eine gültige Herleitung ist,
+
+03:10.000 --> 03:17.000
+dass wir durch Anwendung des Deduktionstheorems alternativ auch zeigen können,
+
+03:17.000 --> 03:27.000
+dass wir die dementsprechende Subjunktion als Tautologie bestätigen.
+
+03:27.000 --> 03:41.000
+So, mit anderen Worten, logische Schlüsse können im Endeffekt als logisch gültige Schlüsse korrelieren im Endeffekt mit Tautologie,
+
+03:41.000 --> 03:45.000
+mit logisch immer gültigen Formeln.
+
+03:45.000 --> 03:53.000
+Warum also definiert man sich eine Semantik nicht so, dass man sich ein System baut,
+
+03:53.000 --> 03:57.000
+das alle gültigen Formeln erzeugen kann?
+
+03:57.000 --> 04:09.000
+Ja, man fängt dann sozusagen mit einer Basis von logischen Formeln an, die per se wahr sind
+
+04:09.000 --> 04:19.000
+und baut sich dann Regeln, die es ermöglichen, aus diesen grundsätzlich wahren Formeln
+
+04:19.000 --> 04:25.000
+weitere wahre Formeln, Tautologien, herzuleiten.
+
+04:25.000 --> 04:30.000
+So, wenn man dann eine solche Tautologie hergeleitet hat,
+
+04:30.000 --> 04:36.000
+dann weiß man, dass sie zu einem logischen Schluss korreliert, mit einem logischen Schluss korreliert.
+
+04:36.000 --> 04:45.000
+Und man hat auf diese Art und Weise durch ein reines System aus eben sogenannten Axiomen
+
+04:45.000 --> 04:58.000
+und Regeln, die man braucht, um auf diesen Strings, sage ich mal, zu operieren, Beweise zu bauen.
+
+04:58.000 --> 05:04.000
+Es gibt mehrere solche axiomatischen Semantiken.
+
+05:04.000 --> 05:07.000
+Eine der berühmtesten ist die Hilbertsche.
+
+05:07.000 --> 05:15.000
+Die besteht im Endeffekt aus drei Axiomen. Der Strich hier oben drüber bedeutet,
+
+05:15.000 --> 05:23.000
+nein, erkläre ich Ihnen gleich, besteht aus drei verschiedenen Axiomen und einer Riege.
+
+05:23.000 --> 05:29.000
+So, diese Riege können Sie schon lesen. Das ist nichts anderes als das Modus Tonens.
+
+05:29.000 --> 05:35.000
+Wenn Sie also in der Lage waren, eine Formel P als gültig nachzuweisen
+
+05:35.000 --> 05:42.000
+und Sie in der Lage waren, eine Formel P Subjunktion Q als gültig nachzuweisen,
+
+05:42.000 --> 05:55.000
+dann nehmen Sie oder dann erlaubt Ihnen dieses Kalkül, dieses, sage ich mal, Symbolspiel,
+
+05:55.000 --> 06:04.000
+erlaubt es Ihnen auch Q hinzuschreiben, mit der Bedeutung, dass Q dann auch eine gültige Aussage ist.
+
+06:04.000 --> 06:12.000
+Jetzt sehen Sie hier unter H1 bis H3 Axiomen, das heißt, das, was hier unten drunter steht,
+
+06:12.000 --> 06:18.000
+das, was man dann auch machen darf, darf man machen, wenn diese Bedingung erfüllt ist
+
+06:18.000 --> 06:23.000
+und da steht keine Bedingung. Das sind hier also 1, 2, 3 Axiome.
+
+06:23.000 --> 06:29.000
+Alternativ zu diesem hier von Hilbert kann man auch eins von einem Mathematiker namens Jukasiewicz nehmen.
+
+06:29.000 --> 06:37.000
+Das ist erstmal vollkommen egal, damit will ich Sie überhaupt nicht belemmern.
+
+06:37.000 --> 06:45.000
+Es geht einfach nur darum, dass man diese Mantik einer Logik auch definieren kann,
+
+06:45.000 --> 06:51.000
+indem man ein solches Symbolmanipulationssystem angeht.
+
+06:51.000 --> 06:57.000
+So, und dieses Symbolmanipulationssystem ist sehr einfach, es hat drei Axiome und eine Regel
+
+06:57.000 --> 07:04.000
+und für dieses Kalkül ist bewiesen, kann man beweisen, machen wir nicht,
+
+07:04.000 --> 07:08.000
+dass es vollständig und korrekt bezüglich der Aussagen logisch ist.
+
+07:08.000 --> 07:19.000
+Das heißt, jede Tautologie kann abgeleitet werden und jede Tautologie kann abgeleitet werden.
+
+07:19.000 --> 07:29.000
+Also jeder gültige Schluss, den wir so modellieren, kann mit Hilfe dieser Axiome und dieser Regel
+
+07:29.000 --> 07:35.000
+tatsächlich symbolisch hergeleitet werden.
+
+07:35.000 --> 07:45.000
+Und zweitens, alles was man damit herleiten kann, ist auch tatsächlich ein gültiger logischer Schluss.
+
+07:45.000 --> 07:56.000
+Gut, das alles ist aber nur Gegenstand einer weiteren Logik.
+
+07:56.000 --> 08:04.000
+Das wollte ich Ihnen hier nur darstellen, um Ihnen zu zeigen, dass man gerne diesen Switch
+
+08:04.000 --> 08:08.000
+von Semantik und Syntax versucht hinzubekommen.
+
+08:08.000 --> 08:17.000
+Und ich wollte es Ihnen zeigen, um Ihnen diese Kalkülregelnotation einmal zu motivieren.
+
+08:17.000 --> 08:39.000
+Aber das Thema soll jetzt natürliche Deduktion sein.
+

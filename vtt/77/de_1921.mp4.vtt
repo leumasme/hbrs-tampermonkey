@@ -1,0 +1,497 @@
+WEBVTT
+
+00:00.000 --> 00:04.320
+die sie jetzt nicht parat haben müssen.
+
+00:04.320 --> 00:11.080
+Wir haben im Hinterkopf so die Idee, wie man sich um Quantoren drücken könnte.
+
+00:11.080 --> 00:18.000
+Kommt man jetzt natürlich wieder zu der Frage, wenn wir all diese prädikaten
+
+00:18.000 --> 00:24.720
+logischen Formen haben, gibt es dann nicht eine Möglichkeit, diese wiederum in
+
+00:24.720 --> 00:30.640
+schöne Normalformen umzuwandeln. Und ich denke, dass das die meisten von Ihnen
+
+00:30.640 --> 00:37.600
+jetzt vom Thema her erfreundet. Diejenigen, die bis jetzt keine oder nur
+
+00:37.600 --> 00:42.720
+wenig Probleme mit dem Vorlesungsstopf hatten, die können sich heute
+
+00:42.720 --> 00:47.720
+vielleicht ein wenig entspannen, weil sie sich denken, okay, gut,
+
+00:47.720 --> 00:53.280
+heute gibt es in Anführungszeichen nur technische Sachen. Und diejenigen, die mit
+
+00:53.280 --> 00:57.960
+der Theorie ein bisschen gekämpft haben, die können sich heute auch freuen, weil
+
+00:57.960 --> 01:02.960
+wir heute im Endeffekt nur etwas Technisches machen. Das heißt etwas, was
+
+01:02.960 --> 01:07.960
+man wie gestern in der Übung so schön einer gesagt hat, rechnen kann. Ja, dass
+
+01:07.960 --> 01:11.640
+man bei mir in der Logik nicht denken muss, sondern dass man rechnen kann.
+
+01:11.640 --> 01:19.120
+Also, wir wollen uns beschäftigen mit dem Thema Normalformen in der
+
+01:19.120 --> 01:30.600
+Prädikatenlogik. Und dazu betrachten wir die sogenannte Pränexform beziehungsweise
+
+01:30.600 --> 01:43.680
+die pränexkonjunktive Normalform. Was ist eine Pränexform? Sie wissen,
+
+01:43.680 --> 01:56.400
+Ihre Formeln können Sie aufbauen, wie Sie wollen, durch die... Sie fangen an
+
+01:56.400 --> 02:03.040
+mit Automatenformeln, ja, dürfen atomare Formeln beliebig zusammenbasteln mit
+
+02:03.040 --> 02:07.800
+logischen Junktoren und Sie dürfen beliebig irgendwo irgendwelche
+
+02:07.800 --> 02:12.000
+Kantoren reinschreiben und quantifizierte wieder mit logischen
+
+02:12.000 --> 02:16.240
+Junktoren zusammenbauen und dann nochmal quantifizieren. Sie können also einen
+
+02:16.240 --> 02:24.680
+beliebig unübersichtlichen Wust an Symbolen hinschreiben, was eine
+
+02:24.680 --> 02:30.240
+prädikatenlogische Form ist. Da wissen Sie schon, dann ist es immer so ein
+
+02:30.240 --> 02:35.360
+bisschen schwierig, sich zu überlegen, jetzt für alle x impliziert und dann
+
+02:35.360 --> 02:41.000
+existiert ein y da hinten, was ist der Skopus davon und was bedeutet das?
+
+02:41.000 --> 02:48.400
+Die Idee dieser Normalformen ist es jetzt, das Verständnis einer solchen Formel zu
+
+02:48.400 --> 02:54.440
+vereinfachen, indem man sie in eine äquivalente Normalform bringt.
+
+02:54.440 --> 03:03.840
+Wir wollen also eine prädikatenlogische Formel P als
+
+03:03.840 --> 03:11.880
+in Prenixform bezeichnen, wenn für Sie Folgendes gilt, alle
+
+03:11.880 --> 03:16.400
+Quantoren, die in dieser Formel vorkommen, stehen vorne dran.
+
+03:16.400 --> 03:23.120
+Es ist also ein Quantor 1 über eine Variable x1, dann ein Quantor 2 über eine Variable x2,
+
+03:23.120 --> 03:31.080
+bis hin zum Endenquantor über die Entevariable und alle diese, der erste,
+
+03:31.080 --> 03:41.600
+der Skopus des ersten Quantors ist die ab dem zweiten Quantor quantifizierte
+
+03:41.600 --> 03:46.760
+Formel, der Skopus davon und so weiter, also der Skopus all dieser Quantoren ist
+
+03:46.760 --> 03:53.280
+diese Formel Q und diese Formel Q, sagen wir, enthält keine Quantoren.
+
+03:53.280 --> 03:59.560
+Also eine Formel ist in Prenixform dann, wenn alle Quantoren vorn stehen.
+
+03:59.560 --> 04:04.840
+Jetzt ist natürlich die Frage, kann man eine beliebige Formel in eine
+
+04:04.840 --> 04:09.360
+äquivalente Formel umformen, wo alle Quantoren vorn stehen?
+
+04:09.360 --> 04:14.560
+Das ist unsere Aufgabe für heute. Ja, jetzt können wir noch sagen, okay, das hier kann man
+
+04:14.560 --> 04:20.400
+Präfix nennen und das Matrix, schön und gut, kann man sich merken, muss man es nicht merken.
+
+04:20.400 --> 04:27.720
+Also wir hätten es gerne, dass alle in einer Formel wild verteilten
+
+04:27.720 --> 04:33.480
+Quantoren nach vorne gezogen werden. Was bedeutet das?
+
+04:33.480 --> 04:45.880
+Naja, wir brauchen jetzt wieder Regeln, die es uns gestatten,
+
+04:45.880 --> 04:51.560
+Quantoren, die irgendwo eingeschachtelt in dieser Formel sind, rauszuziehen.
+
+04:51.560 --> 05:01.120
+So wie sie zum Beispiel beim Bilden der konjunktiven Normalform in eine
+
+05:01.120 --> 05:06.160
+Disjunktion eingeschachtelte Konjunktion durch das Distributivitätsgesetz
+
+05:06.160 --> 05:14.080
+herausgezogen haben. Genau das wollen wir jetzt versuchen mit Quantoren.
+
+05:14.080 --> 05:22.920
+Dazu gibt es jetzt verschiedene Regeln, die uns genau das erlauben.
+
+05:22.920 --> 05:27.600
+Die erste Regel ist nun eine Regel, na gut, die hat jetzt nicht direkt, ja doch, die hat auch
+
+05:27.600 --> 05:32.520
+etwas damit zu tun, natürlich, klar. Und zwar wie folgt, wenn wir uns zum Beispiel
+
+05:32.520 --> 05:38.800
+anschauen, die Negation einer allquantifizierten Formel, dann würden wir ja
+
+05:38.800 --> 05:46.960
+gerne den all-Quantor rausziehen über die Negation, ja, weil was hier steht,
+
+05:46.960 --> 05:52.120
+wäre sozusagen vor diesem Quantor noch ein Nicht, aber hier darf ja nichts stehen.
+
+05:52.120 --> 05:56.560
+Also dieses Nicht soll rein und dieser Quantor soll dastehen.
+
+05:56.560 --> 06:04.240
+Und in diesem Falle haben wir das sogenannte Dualitätsgesetz.
+
+06:04.240 --> 06:11.760
+Ich denke, das ist Ihnen alles intuitiv schon mal klar. Also wenn ich sage, dass
+
+06:11.760 --> 06:19.080
+nicht der Fall ist, dass für alle xp gilt, dann bedeutet das natürlich, dass es ein
+
+06:19.080 --> 06:26.880
+x gibt, so dass p nicht gilt. Also diese beiden Sachen sind äquivalent.
+
+06:26.880 --> 06:34.720
+Nicht für alle xp kann ich umformen zu, es existiert ein x, nicht p.
+
+06:34.720 --> 06:41.840
+Das gilt natürlich auch in anderen Fallen, ja, wenn hier drin eine negierte
+
+06:41.840 --> 06:49.600
+Formel steht, ja, dann oder wenn hier, wenn hier die Negation davor steht, also nicht,
+
+06:49.600 --> 06:55.920
+es existiert ein x, so dass p, ja, dann wird daraus natürlich ein für alle x,
+
+06:55.920 --> 07:06.160
+nicht p. Gut, das ist das Dualitätsgesetz. Das zweite Gesetz ist jetzt schon mal
+
+07:06.160 --> 07:13.760
+richtig knackig. Das sagt nämlich folgendes. Schauen wir uns mal an, hier eine Formel,
+
+07:13.760 --> 07:19.040
+die so aussieht. Das heißt, wir haben irgendeinen, also das hier ist ja sozusagen
+
+07:19.040 --> 07:26.200
+unser einziger einstelliger logischer Diktor. Jetzt gucken wir uns mal an,
+
+07:26.200 --> 07:31.680
+unsere zweistelligen Diktoren, aber nur die Konjunktion und die Disjunktion, die
+
+07:31.680 --> 07:36.400
+Implikation kommt später. So, also wir nehmen uns eine Konjunktion oder eine
+
+07:36.400 --> 07:43.840
+Disjunktion zweier Formeln, wobei die eine quantifiziert ist, ja, der Skopus dieses
+
+07:43.840 --> 07:50.400
+Quantos ist nur diese Form, nicht hier. Das heißt, dieser logische Junktor hängt
+
+07:50.400 --> 07:56.560
+über diesen Quantor und weil wir den Quantor ja nach vorne ziehen wollen, muss
+
+07:56.560 --> 08:03.360
+sich hier hinten irgendwas ändern. So, und da kann man folgendes machen. Man darf jetzt
+
+08:03.360 --> 08:13.360
+sozusagen den Skopus dieses Quantos hier erweitern auf q, ja, wir können einfach
+
+08:13.360 --> 08:19.280
+diese Klammer sozusagen von hier nach hier setzen. Also, wenn hier steht für
+
+08:19.280 --> 08:26.680
+alle xp und q, dürfen wir auch hinschreiben für alle xp und q unter
+
+08:26.680 --> 08:41.240
+einer Bedingung. Dieses x kommt nicht frei in q vor, ja. Also, was heißt das? Die
+
+08:41.240 --> 08:47.800
+Quantifikation dieser einen Teilformel kann ich erweitern auf die zweite
+
+08:47.800 --> 08:54.720
+Teilformel, nämlich genau dann, wenn diese Variable, über die quantifiziert
+
+08:54.720 --> 09:04.960
+wird, in q gar nicht betroffen ist. So, jetzt schauen sie genau hin. In dieser
+
+09:04.960 --> 09:10.600
+Schreibweise sind jetzt schon mehrere kleine Sachen versteckt, ja. Erstens, das
+
+09:10.600 --> 09:15.480
+kann eine Konjunktion oder eine Disjunktion sein und als zweites sehen
+
+09:15.480 --> 09:23.040
+sie, dass hier p und q in der Reihenfolge vertauscht sind. Kann sein, muss also nicht.
+
+09:23.040 --> 09:30.680
+Was diese Vertauschung hier bedeutet, ist, dass natürlich Konjunktion und
+
+09:30.680 --> 09:36.280
+Disjunktion disjunktiv sind, äh, Entschuldigung, komutativ sind.
+
+09:36.280 --> 09:40.960
+Ja, das heißt also auch, wenn dieser quantifizierte Ausdruck hier hinten
+
+09:40.960 --> 09:48.840
+stünde, dürften wir den Skopus nach vorne erweitern, ja, sofern dann hier vorne
+
+09:48.840 --> 09:55.880
+nichts gebunden wird, was vorher frei war, ja. Also, das sagt, ich nenne es mal das
+
+09:55.880 --> 10:03.760
+Extensionalität oder Extensionsgesetz. Wir dürfen den Skopus eines Quantos über
+
+10:03.760 --> 10:12.280
+eine Disjunktion, äh, auf eine Disjunktion oder Konjunktion erweitern, wenn dadurch
+
+10:12.280 --> 10:21.160
+in der Erweiterung keine Variable, vormals freie Variable durch diesen
+
+10:21.160 --> 10:30.760
+Quantor gebunden wird. Das ist dieses Gesetz. Ich denke, das ist relativ klar, ne.
+
+10:30.760 --> 10:46.600
+Für alle x gilt, ähm, ähm, es ist, es sind grün und, ähm, ja, das wäre das hier und, ähm, äh, äh, Peter trägt eine Brille.
+
+10:46.600 --> 10:52.480
+Ja, dann gilt natürlich für alle x, es ist grün und Peter trägt eine Brille. Weil in
+
+10:52.480 --> 10:55.720
+Peter trägt eine Brille kommt überhaupt gar keine Variable vor, die dann durch
+
+10:55.720 --> 11:03.800
+diesen Allquantum gebunden wird, als einfaches Beispiel. So, das Zweite ist so eine Art
+
+11:03.800 --> 11:15.400
+Distributivitätsgesetz, ja, und zwar, ähm, und da steckt schon ein bisschen mehr drin, als man im ersten Moment glaubt.
+
+11:15.400 --> 11:26.120
+Wenn ich eine Konjunktion habe, über die allquantifiziert wird, ja, also für alle x
+
+11:26.120 --> 11:33.560
+gilt diese Konjunktion, dann ist das Äquivalent zu der Aussage, dass für alle
+
+11:33.560 --> 11:41.160
+x das p gilt und für alle x das q. Um es Ihnen an dieser Stelle schon ein
+
+11:41.160 --> 11:47.480
+bisschen einfacher zu, ähm, die, die, die, den Knackpunkt davon zu sagen, wir könnten
+
+11:47.480 --> 11:56.720
+auch sagen für alle x p und für alle y q. Weil dieses x hier, ja, oder die
+
+11:56.720 --> 12:01.440
+Quantifikation hat jetzt nur den Skokusp und diese Quantifikation hier hat ja nur
+
+12:01.440 --> 12:09.840
+den Skokusq. Ja, äh, ähm, ähm, kommen wir nachher zu, das was ich eben gesagt habe ist nicht
+
+12:09.840 --> 12:15.120
+wirklich korrekt, weil wir dann natürlich auch die Variablen x und q durch y ersetzen müssen,
+
+12:15.120 --> 12:26.520
+kommen wir gleich zu. Also, wir können auf jeden Fall schon mal sagen, ähm, den Quant, äh, eigentlich
+
+12:26.520 --> 12:32.720
+sind wir ja hier, eigentlich sind wir ja hier, ja, wir können also diesen, für alle x-Quantor,
+
+12:32.720 --> 12:42.440
+der in einer Konjunktion drinsteckt, aus der Konjunktion rausziehen. Das gleiche können wir
+
+12:42.440 --> 12:50.080
+für den Existenz-Quantor machen, aber eben nicht für eine Konjunktion, sondern nur für die
+
+12:50.080 --> 12:55.120
+Disjunktion. Also, mal, wenn wir eine Disjunktion von zwei Existenz-Quantoren, die wir hier
+
+12:55.120 --> 12:59.920
+verformeln haben, dann dürfen wir den Existenz-Quantor über die Disjunktion rausziehen.
+
+12:59.920 --> 13:19.440
+Aha, ähm, an dieser Stelle sehen wir schon, ähm, dass es mit diesem hin und her schieben und
+
+13:19.440 --> 13:26.680
+rausziehen von den Quantoren vielleicht doch gar nicht so einfach ist, ja. Auf der anderen Seite
+
+13:26.680 --> 13:33.320
+haben Sie vielleicht jetzt schon im Hinterkopf, haben wir ja das Dualitätsgesetz hier oben,
+
+13:33.320 --> 13:40.480
+dass es uns erlaubt, all Quantoren in Existenz-Quantoren und umgekehrt umzubauen. Und
+
+13:40.480 --> 13:47.200
+andererseits haben wir ja eine Dualität zwischen und und oder durch das demagogische Gesetz. Also,
+
+13:47.200 --> 14:00.480
+vielleicht geht da was. So, und fünftens haben wir so eine Art Kommutativität. Nämlich, wenn
+
+14:00.480 --> 14:09.480
+wir vor einer Formel zwei Quantoren stehen haben, na, wohlgemerkt, diese beiden Quantoren sind
+
+14:09.480 --> 14:17.360
+gleich. Also, hier steht für alle x, für alle y, p. Oder es existiert ein x, es existiert ein y, p.
+
+14:17.360 --> 14:28.080
+Dann dürfen diese beiden Quantoren vertauscht werden. Na, für alle x und für alle y gilt x kleiner
+
+14:28.080 --> 14:36.280
+gleich y, ist das gleiche, als würden wir sagen für alle y, für alle x, x kleiner gleich y. Gut,
+
+14:36.280 --> 14:43.080
+also wir dürfen Quantoren auch umdrehen, nicht umdrehen, sondern die Reihenfolge vertauschen.
+
+14:43.080 --> 14:59.360
+Schön. Was jetzt natürlich, halt, ne, ich glaube jetzt, genau. Wieso gelten diese Äquivalenzen?
+
+14:59.360 --> 15:06.920
+Ich reiße jetzt hier einfach nur mal für ausgewählte Äquivalenzen oder Umformungsregeln,
+
+15:06.920 --> 15:15.360
+wenn Sie sie so nennen wollen, einfach mal die Beweise an. Die Skopusausweitung, die habe ich
+
+15:15.360 --> 15:24.600
+Ihnen eben ja schon versucht, intuitiv oder die Gültigkeit intuitiv klarzumachen. Und wenn man das
+
+15:24.600 --> 15:31.680
+jetzt wirklich versucht oder wirklich formal beweisen muss, ist das auch keine große Hexerei,
+
+15:31.680 --> 15:41.640
+weil, genau wie ich es eben gesagt habe, unter der Voraussetzung eben, dass x nicht in der Formel
+
+15:41.640 --> 15:57.080
+frei vorkommt, über die wir den Quantor jetzt rüberziehen, ja gilt, dass x in Q von der Belegungsfunktion,
+
+15:57.080 --> 16:06.440
+die wir ja bei der Interpretation der Quantoren an diesen bestimmten Stellen auswerten, unberührt
+
+16:06.440 --> 16:14.600
+bleibt. Da kommt nichts vor. Das heißt, wenn da, wenn da dieses x nicht vorkommt, ist nach dem,
+
+16:14.600 --> 16:20.520
+was wir Kovizidenzlämmer genannt haben, die Änderung einer Belegungsfunktion an dieser Stelle
+
+16:20.520 --> 16:29.520
+für diese Formel vollkommen irrelevant. So, wie sieht denn das jetzt zum Beispiel aus mit diesem
+
+16:29.520 --> 16:35.800
+Quasidistributivitätsgesetz, dass es uns erlaubt, hier ist der Beweis jetzt andersrum,
+
+16:35.800 --> 16:46.560
+sozusagen zwei Altquantoren aus einer Konjunktion rauszuziehen. Und das kann man jetzt tatsächlich
+
+16:46.560 --> 16:54.280
+wirklich wieder genauso schön, wie wir uns unsere Interpretation, beziehungsweise sozusagen die
+
+16:54.280 --> 17:02.640
+Semantik der Prädikatenlogik definiert haben, Schrittchen für Schrittchen auswächsen. Wir
+
+17:02.640 --> 17:09.640
+gehen also mal davon aus, dass wir eine Interpretation haben, die diese Formel erfüllt.
+
+17:09.640 --> 17:18.480
+Also hier, die Erfüllbarkeitsrelation bedeutet nichts anderes, die Interpretation dieser Formel
+
+17:18.480 --> 17:28.640
+ergibt 1. Was wir als nächstes also machen, ist, wir interpretieren diesen Altquantoren. Das
+
+17:28.640 --> 17:40.320
+bedeutet, dass also die Formel im Skopus dieses Altquantors zu 1 ausgewertet wird oder als true
+
+17:40.320 --> 17:47.960
+interpretiert wird, und zwar für alle beliebigen Werte, die wir für das x, wenn es hier drin
+
+17:47.960 --> 17:56.760
+vorkommt, einsetzen. Erinnern Sie sich daran, an dieser Stelle weise ich nochmal zurück auf diese
+
+17:56.760 --> 18:06.040
+ganze Idee mit den Sigma-Algebren. Also das hier sind die möglichen Werte in unserer Sigma-Algebra,
+
+18:06.040 --> 18:13.320
+die wir für die Variable x einsetzen können. Also, die Interpretation dieser Formel muss
+
+18:13.320 --> 18:23.960
+jetzt 1 ergeben für alle möglichen Belegungen der Variablen x. Gut, wenn das also gilt, können wir
+
+18:23.960 --> 18:31.280
+jetzt mit der Semantik der Konjunktion, die wir ja aus der Aussagelogik mehr oder weniger erken,
+
+18:31.280 --> 18:39.440
+können wir hier drauf klopfen und diese Konjunktion auflösen. Ich habe jetzt hier die Konjunktion
+
+18:39.440 --> 18:54.760
+hier in den Verband genommen. Das heißt also, dass das Infimum der Interpretationen für alle
+
+18:54.760 --> 19:07.160
+Werte a von x in p beziehungsweise a für x in q zusammen true ergibt. Das war nichts anderes als
+
+19:07.160 --> 19:13.760
+die, Sie können ja auch meinetwegen das Minimum nehmen oder die Multiplikation oder was für eine
+
+19:13.760 --> 19:22.320
+Semantik wir da aus der Aussagelogik auch haben. Es muss also gelten, dass diese Formel p für alle
+
+19:22.320 --> 19:40.480
+Instanzierungen von x, nein, dass sozusagen das Infimum true ergeben muss. Also, da kann man nicht
+
+19:40.480 --> 19:47.360
+großartig viel rum erklären. Es ist halt so, natürlich ist das Infimum dieser beiden Ausdrücke
+
+19:47.360 --> 19:56.680
+eins, wenn beide eins sind. Also, das hier ist jetzt die Interpretation im Buchverband. Das heißt,
+
+19:56.680 --> 20:07.680
+die Formel p muss für alle a für x true ergeben und die Formel q muss für alle a für x true ergeben.
+
+20:07.680 --> 20:17.400
+Ja, und jetzt nehmen wir für dieses Ding hier, beziehungsweise für dieses Teil hier, wieder her die
+
+20:17.400 --> 20:28.000
+Interpretation, halt, ja, genau, nehmen wir jetzt wieder die prädikatenlogische Interpretation her,
+
+20:28.000 --> 20:35.200
+ja, weil dieser Ausdruck bedeutet ja nichts anderes als, dass unter der Interpretation i
+
+20:35.200 --> 20:44.040
+alpha die Formel für alle x p war. Ja, und hier steht nichts anderes als die Interpretation i
+
+20:44.040 --> 20:52.240
+alpha erfüllt für alle x q. Wir haben also jetzt wieder da stehen, Infimum von diesen beiden ist
+
+20:52.240 --> 21:03.000
+eins, das heißt, beide müssen eins sein, ja, und umgekehrt nehmen wir jetzt wieder die Semantik der
+
+21:03.000 --> 21:11.560
+Konjunktion, ja, wir wissen also, wenn diese Interpretation hier von, dann wissen wir, diese
+
+21:11.560 --> 21:21.480
+Interpretation erfüllt die Formel für alle x p, für alle x q. Und damit haben wir in dieser Formel
+
+21:21.480 --> 21:28.160
+sozusagen den Allquantor reingepusht. Das alles waren Äquivalenzunformungen, das heißt, genauso gut
+
+21:28.160 --> 21:45.000
+können wir sagen, wir ziehen aus dieser Konjunktion den Allquantor raus. So zeigt man das, wenn man es ganz formal machen möchte.
+

@@ -1,0 +1,260 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+So, wir nähern uns jetzt langsam aber sicher dem Ende der einleitenden Worte zur Vorlesung
+
+00:10.000 --> 00:12.500
+Diskrete Mathematik.
+
+00:12.500 --> 00:19.300
+Es ging ja im Endeffekt bisher alleine um die Sprache, die wir benutzen wollen, um im
+
+00:19.300 --> 00:28.500
+Folgenden die Inhalte der Vorlesung formal sauber beschreiben zu können und damit argumentieren
+
+00:28.500 --> 00:30.500
+zu können.
+
+00:30.500 --> 00:36.500
+Gut, argumentieren bedeutet jetzt natürlich ganz einfach mit dem, was wir in unserer logischen
+
+00:36.500 --> 00:44.500
+Sprache hingeschrieben haben, auch so Ableitungen, Schlussfolgerungen ziehen zu können.
+
+00:44.500 --> 01:01.500
+Und eine ganz wichtige Sache in diesem Zusammenhang ist bekannt als das Deduktionstheoret.
+
+01:01.500 --> 01:08.000
+Ich möchte an dieser Stelle nochmal festhalten, dieses ist keine Vorlesung über Logik.
+
+01:08.000 --> 01:15.500
+Wir einigen uns momentan alleine auf eine Sprache und ich appelliere dabei mehr oder weniger
+
+01:15.500 --> 01:17.500
+an ihr intuitives Verständnis.
+
+01:17.500 --> 01:28.500
+Eine genaue, formal korrekte, mit einer vernünftigen Semantik verbundene Darstellung von Logik
+
+01:28.500 --> 01:30.500
+ist Thema einer eigenen Vorlesung.
+
+01:30.500 --> 01:38.500
+Dennoch brauchen wir das für den Verlauf dieser Vorlesung und deswegen einfach nur diese
+
+01:38.500 --> 01:39.500
+Vorrede.
+
+01:39.500 --> 01:50.500
+Gut, ich fange erstmal an beim Deduktionstheorien, indem ich Ihnen eine Äquivalenz hinschreibe.
+
+01:50.500 --> 02:19.500
+Nämlich, wie folgt, P und P impliziert Q impliziert Q ist eine logische Formel, die
+
+02:19.500 --> 02:24.500
+äquivalent zum True ist.
+
+02:24.500 --> 02:29.500
+Das heißt, diese logische Formel hier ist immer wahr.
+
+02:29.500 --> 02:34.500
+Wie zeigt man das?
+
+02:34.500 --> 02:45.500
+Nun, das zeigt man natürlich, indem man schreibt P und P impliziert Q impliziert Q.
+
+02:45.500 --> 02:51.500
+Die Auswertung davon ist immer True.
+
+02:51.500 --> 02:53.500
+Ja, okay.
+
+02:53.500 --> 03:02.500
+Ich glaube, es hat auch eins.
+
+03:02.500 --> 03:16.500
+Daraus folgt jetzt Folgendes – auch das hier sieht ein bisschen undeutlich aus – wenn
+
+03:16.500 --> 03:25.500
+oder die Tatsache, dass diese Äquivalenz wahr ist, bedeutet nichts anderes, als dass
+
+03:25.500 --> 03:37.500
+man die äußere Subjunktion in Formelsubjunktion in eine logische, semantische Implikation
+
+03:37.500 --> 03:39.500
+umwandeln kann.
+
+03:39.500 --> 04:03.500
+Das heißt, Folgendes, wenn die Formel P und P impliziert Q wahr ist, dann ist die Formel
+
+04:03.500 --> 04:05.500
+Q wahr.
+
+04:05.500 --> 04:09.500
+Jetzt erinnern Sie sich, was bedeutet das?
+
+04:09.500 --> 04:22.500
+Das bedeutet ganz einfach, wenn P und P impliziert Q ausgewertet den Wahrheitswert 1 ergibt,
+
+04:22.500 --> 04:30.500
+dann auch Q.
+
+04:30.500 --> 04:37.500
+So, wie zeigen wir das?
+
+04:37.500 --> 04:52.500
+Wir wissen, dass diese Formel hier zu 1 ausgewertet wird, das heißt, wir wissen in jedem Fall,
+
+04:52.500 --> 05:00.500
+dass diese Implikation hier zu 1 ausgewertet wird.
+
+05:00.500 --> 05:11.500
+Zu zeigen ist jetzt im Endeffekt hier unten, wenn diese Konjunktion erfüllt ist, also
+
+05:11.500 --> 05:20.500
+wenn diese Konjunktion wahr ist, dann ist auch diese Formel Q alleine wahr.
+
+05:20.500 --> 05:25.500
+Schauen wir mal, ob wir das hinbekommen.
+
+05:25.500 --> 05:46.500
+Wir haben also P und P impliziert Q als wahr.
+
+05:46.500 --> 05:53.500
+Das wollen wir sehen oder davon gehen wir auf.
+
+05:53.500 --> 05:59.500
+Schreiben wir uns dazu mal die inzwischen hoffentlich halbwegs verhassten Wahrheitstabellen
+
+05:59.500 --> 06:00.500
+auf.
+
+06:00.500 --> 06:15.500
+Wir gehen alle möglichen Belegungen durch und notieren uns die Wahrheitswerte dieser
+
+06:15.500 --> 06:16.500
+Formel.
+
+06:16.500 --> 06:29.500
+Wir wissen also auf jeden Fall, dass P immer wahr sein muss, um die gesamte Formel wahr
+
+06:29.500 --> 06:30.500
+zu machen.
+
+06:30.500 --> 06:33.500
+Schreiben wir das also mal hin.
+
+06:33.500 --> 06:41.500
+P und P impliziert Q ist also auf jeden Fall falsch, wenn P falsch ist.
+
+06:41.500 --> 06:46.500
+Das können wir ganz einfach aus der Semantik der Konjunktion ableiten.
+
+06:46.500 --> 06:53.500
+Die Frage ist also, wie sieht es aus mit diesen Belegungen für die Implikation.
+
+06:53.500 --> 07:06.500
+Wir wissen natürlich, true impliziert false ist falsch, aber wenn P wahr ist und Q wahr
+
+07:06.500 --> 07:12.500
+ist, dann ist auch die Subjunktion P impliziert Q wahr.
+
+07:12.500 --> 07:15.500
+Wir haben also hier unten eine 1 stehen.
+
+07:15.500 --> 07:32.500
+Jetzt bedenken Sie, was wir zeigen wollten, war, dass wenn P und P impliziert Q wahr
+
+07:32.500 --> 07:39.500
+ist, daraus folgt, dass Q wahr ist.
+
+07:39.500 --> 07:49.500
+Jetzt schauen wir uns doch einfach mal die Wahrheitswerte von Q an.
+
+07:49.500 --> 07:53.500
+Die können wir einfach von hier kopieren.
+
+07:53.500 --> 08:06.500
+0, 1, 0, 1 und um die Gürtigkeit dieser Implikation zu zeigen, müssen wir zeigen, dass wenn immer
+
+08:06.500 --> 08:13.500
+der linke Teil dieser Implikation zu wahr ausgewertet wird, auch der rechte Teil.
+
+08:13.500 --> 08:18.500
+Wir haben also das große Glück, hier nur einen Teil ansehen zu müssen, weil der linke
+
+08:18.500 --> 08:22.500
+Teil nur unter dieser Belegung hier wahr ist.
+
+08:22.500 --> 08:30.500
+Der rein zufällig auch dafür sorgt, dass Q wahr ist, wie wir es hier hingeschrieben haben.
+
+08:30.500 --> 08:38.500
+Wir haben also damit gezeigt, dass wann immer P und P impliziert Q wahr ist, nämlich in
+
+08:38.500 --> 08:41.500
+diesem Fall, auch Q wahr ist.
+
+08:41.500 --> 08:46.500
+Q kann auch in diesem Falle hier wahr sein, aber das interessiert uns nicht weiter.
+
+08:46.500 --> 08:51.500
+Die Aussage der Implikation ist ganz einfach jene.
+
+08:51.500 --> 09:03.500
+Wir haben damit, ich sage jetzt einfach mal, ordentlich begründet, die Gürtigkeit des
+
+09:03.500 --> 09:13.500
+Deduktionstheorien.
+
+09:13.500 --> 09:21.500
+Gleichzeitig haben wir damit etwas, oder nein, was wir damit eigentlich gezeigt haben, ist
+
+09:21.500 --> 09:50.500
+nicht das Deduktionstheorien an sich, sondern eine Schlussregel, die wir modus ponens nennen.
+
+09:50.500 --> 10:00.500
+Das haben wir jetzt bewiesen.
+
+10:00.500 --> 10:15.500
+Gut, überlegen wir jetzt einfach mal, auf welche Art und Weise man damit Beweise führt.
+
+10:15.500 --> 10:22.500
+Wir haben also unser Deduktionstheorien, das uns sagt, aus der Gürtigkeit einer solchen
+
+10:22.500 --> 10:29.500
+Subjunktion folgt die Gürtigkeit einer solchen Implikation.
+
+10:29.500 --> 10:36.500
+Und wir haben daraus schon eine erste Schlussregel abgeleitet, nämlich das sogenannte Modus
+
+10:36.500 --> 10:49.500
+ponens, das es uns erlaubt, mit Hilfe einer Subjunktion und der vorausgesetzten Wahrheit,
+
+10:49.500 --> 10:54.500
+der Prämisse dieser Subjunktion, auf ihre Konklusion zu schließen.
+
+10:54.500 --> 11:04.500
+Das übliche Beispiel, das man dazu nennt, auch wenn es aus der Prädikatenlogik kommt,
+
+11:04.500 --> 11:14.500
+ist folgendes, Sokrates ist ein Mensch, jeder Mensch ist sterblich, also ist Sokrates sterblich.
+
+11:14.500 --> 11:23.500
+Sagen wir es mal anders, wenn es regnet, dann wird die Straße nass, es regnet, also wenn
+
+11:23.500 --> 11:27.500
+es regnet wird die Straße nass, also wird die Straße nass.
+
+11:27.500 --> 11:33.500
+Das ist das Schlussfolgerungsprinzip des Modus ponens.
+
+11:33.500 --> 11:44.500
+Gut, damit haben wir den ersten wichtigen Schritt schon mal erledigt und zu den wichtigsten
+
+11:44.500 --> 11:54.500
+Beweisprinzipien, wie man die Gürtigkeit einer solchen Implikation zeigen kann, kommen wir
+
+11:54.500 --> 12:04.500
+im nächsten Clip.
+

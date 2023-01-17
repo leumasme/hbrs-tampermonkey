@@ -1,0 +1,281 @@
+WEBVTT
+
+00:00.000 --> 00:12.400
+Wir haben uns jetzt heftig durch die Prädikatenlogik durchgewühlt.
+
+00:12.400 --> 00:26.080
+Wir haben uns durchgewühlt durch verschiedene und insbesondere in einem Fall auch etwas
+
+00:26.080 --> 00:32.880
+komplizierte Modellklassen, die wir heute implizit wieder ausgraben. Aber keine Bange,
+
+00:32.880 --> 00:39.120
+wenn Sie das nicht so ganz auf dem Schirm haben, das ist nicht so schlimm oder nicht wichtig.
+
+00:39.120 --> 00:48.040
+Wir haben uns bereits damit beschäftigt, wie das logische Entailment in der Prädikatenlogik
+
+00:48.040 --> 00:57.680
+aussieht und zu guter Letzt haben wir uns damit beschäftigt, wie man auch Normalformen für
+
+00:57.680 --> 01:08.720
+beliebige Mengen von prädikatenlogischen Formen bestimmt. Das haben wir im Endeffekt nicht nur
+
+01:08.720 --> 01:17.640
+aus reinem Spaß an der Freude gemacht, sondern eben im Hinblick darauf, sich ein ganz bestimmtes
+
+01:17.640 --> 01:25.800
+Beweiskalkül anzugucken, nämlich das Resolutionskalkül für Prädikaten. Wir
+
+01:25.800 --> 01:33.200
+können an dieser Stelle nochmal etwas kurz wiederholen, was wir bereits besprochen haben,
+
+01:33.200 --> 01:44.680
+nämlich den Begriff der Unifikation. Hier steht es jetzt nochmal und vielleicht ein
+
+01:44.680 --> 01:50.200
+bisschen kryptisch, aber es ist egal. Die Unifikation funktioniert für Terme genauso
+
+01:50.200 --> 01:59.200
+wie für Formeln und wenn man jetzt eine Menge von Termen oder Formeln hat, dann nennt man
+
+01:59.200 --> 02:11.040
+eine Substitution, einen Unifikator für diese Menge von Termen oder Formeln. Wenn man diese
+
+02:11.040 --> 02:18.560
+Substitution auf die gesamte Menge, also alle Elemente dieser Menge anwendet, zum Ergebnis
+
+02:18.560 --> 02:28.960
+hat, dass nur noch eines übrig bleibt, nämlich also umgekehrt, wenn mit dieser Substitution alle
+
+02:28.960 --> 02:38.720
+vorher verschiedenen Terme hinterher gleich sind. Das kennen Sie, das haben wir bereits gemacht und
+
+02:38.720 --> 02:45.320
+wir haben auch bereits den Begriff des allgemeinsten Unifikators angeschaut. Wir haben
+
+02:45.320 --> 02:53.520
+gesehen, es gibt viele verschiedene Unifikatoren, möglicherweise für eine Menge von Termen oder
+
+02:53.520 --> 03:05.120
+Formeln, aber es gibt eben ganz besondere, nämlich solche Unifikatoren, aus denen man beliebige
+
+03:05.120 --> 03:13.800
+andere Unifikatoren herleiten kann. Sie sind in dem Sinne allgemeinste Unifikatoren, weil man durch
+
+03:13.800 --> 03:20.160
+eine weitere Substitution, die man danach anwendet, einen anderen Unifikator erhalten kann. Das sind
+
+03:20.160 --> 03:26.800
+allgemeinste Unifikatoren. Da kann man jetzt noch ein paar tolle Definitionen machen, man kann sich
+
+03:26.800 --> 03:32.880
+da irgendwelche Relationssymbole hinschreiben, dass also hier, weiß ich nicht, eine Formel,
+
+03:32.880 --> 03:38.480
+ein Term oder eine Formelmenge allgemeiner ist als eine andere, wenn es eine Substitution gibt,
+
+03:38.480 --> 03:43.520
+so dass und so weiter. Und man kann da auch noch eine Teilung der Beziehung mit einbauen,
+
+03:43.520 --> 03:52.400
+das ist für uns nicht so relevant. Was ich Ihnen aber bereits gesagt habe, ist, wir haben die
+
+03:52.400 --> 04:04.920
+Unifikation, das bestimmt man, des eines MDU, auch von Hand gemacht, mit ein wenig Verstand im
+
+04:04.920 --> 04:12.800
+Hintergrund. Und ich habe Ihnen aber gesagt, ja, es gibt auch einen Algorithmus dafür, und der geht
+
+04:12.800 --> 04:24.240
+auf Robinson zurück, und den habe ich Ihnen hier auch tatsächlich mal aufgeschrieben. Und das Schöne
+
+04:24.240 --> 04:31.040
+an so einem Algorithmus ist zweierlei. Erstens, man hat ein Kochrezept, das einem erklärt, wie
+
+04:31.040 --> 04:41.720
+etwas funktioniert, und andererseits sieht man an diesem Algorithmus sehr schön auch, wie einfach
+
+04:41.720 --> 04:54.000
+eigentlich das Problem ist, einen solchen MDU zu finden. Man beginnt mit einem MDU, also einer
+
+04:54.000 --> 05:00.680
+Substitution, die leer ist. Wir wissen, eine Substitution ist nichts anderes als eine Menge
+
+05:00.680 --> 05:09.200
+von Tupeln, wo drin steht, welche Variabel durch welchen Kern ersetzt werden. Wenn man jetzt diese
+
+05:09.200 --> 05:18.280
+Substitution auf zwei solche Termen oder Formen anwendet, und sie werden dadurch gleich, oder die
+
+05:18.280 --> 05:29.480
+beiden Dinger v und v sind ohnehin gleich. Nun, dann wissen wir, dass das ein Unifikator ist,
+
+05:29.480 --> 05:35.840
+und weil wir sozusagen bei einem leeren Unifikator anfangen, also bei einem allgemeinsten, geben wir
+
+05:35.840 --> 05:44.240
+einfach das zu. An dieser Stelle wären wir fertig. Wenn jedoch die Anwendung einer solchen Substitution
+
+05:44.240 --> 05:51.520
+nicht dazu führt, dass die beiden Terme v und v gleich werden, dann müssen wir offenbar noch
+
+05:51.520 --> 06:01.640
+etwas tun. Und dann schauen wir uns folgendes an. Wenn jetzt v, wir wählen jetzt den linken Term,
+
+06:01.640 --> 06:12.200
+eine Variable ist, und wie ein Grundterm, oder meine Bin, eine Variable ist, naja, dann wissen wir,
+
+06:12.200 --> 06:18.680
+dass man das nur dann gleich machen kann, wenn man diese Variable durch den Grundterm ersetzt,
+
+06:18.680 --> 06:25.720
+weil wir ja nur Variablen durch irgendetwas ersetzen können. Wir fügen also zu unserem MDU, den wir
+
+06:25.720 --> 06:39.880
+bisher haben, diese Substitution hinzu. Okay, wenn, und das geben wir als Ergebnis zurück, aber das
+
+06:39.880 --> 06:48.040
+Ganze ist rekursiv definiert. Das bricht natürlich hier ab, weil eine Variable keinen Subterm hat.
+
+06:48.040 --> 06:56.760
+Andernfalls, wenn jetzt v keine Variable ist, muss v ja ein Term sein. Wir sprechen jetzt hier nur mal
+
+06:56.760 --> 07:01.680
+Termen, Sie können das auch alles durch Formen ersetzen. Das heißt ja nichts anderes, als dass
+
+07:01.680 --> 07:10.400
+hier vorne ein Funktionssymbol dransteht mit n Argumenten. Das ist natürlich nur dann mit einem
+
+07:10.400 --> 07:18.520
+Term v unifizierbar, wenn dieser Term v dasselbe Funktionssymbol hat und genauso viele Argumente.
+
+07:18.520 --> 07:27.120
+Sonst geht es ja gleich schon mal gar nicht. Gut, wenn wir also diese Situation haben, dass hier
+
+07:27.120 --> 07:36.240
+Terme stehen mit gleichen Funktionssymbolen, aber verschiedenen Argumenten, dann können wir den
+
+07:36.240 --> 07:46.320
+gesamten Ausdruck unifizieren, nur indem wir jeweils alle Paare v1, v1, v2, v2 bis vn, vn miteinander
+
+07:46.320 --> 07:55.560
+unifizieren. Und das macht man hier. Für alle n fügen wir also zu unserem MDU das Ergebnis hinzu,
+
+07:55.560 --> 08:06.920
+das wir bekommen, wenn wir versuchen das vi mit dem di zu unifizieren. Wenn aber auch das nicht
+
+08:06.920 --> 08:12.800
+stimmt, also wenn zum Beispiel die Stelligkeit nicht übereinstimmt, wenn die Operatoren nicht übereinstimmen,
+
+08:12.800 --> 08:20.000
+dann brechen wir an dieser Stelle ab und geben einen Fehler zurück. Das heißt also auch, wenn wir zum
+
+08:20.000 --> 08:26.960
+Beispiel hier einen Term haben und wir sind hier bei v7 und w7, bis zu 6 konnten wir alles unifizieren,
+
+08:26.960 --> 08:34.880
+aber v7 ist mit w7 nicht unifizierbar, dann ist sozusagen hier im rekursiven Aufruf der Fehler
+
+08:34.880 --> 08:45.240
+und die gesamte Prozedur bricht ab und man sagt halt, okay, ist nicht unifizierbar. So funktioniert
+
+08:45.240 --> 08:53.640
+dieser Algorithmus. Schön. Ich denke jetzt sind soweit alle Fragen geworden und wir können uns
+
+08:53.640 --> 09:10.800
+jetzt der Resolution. Wir gehen davon aus, dass wir unsere Formelmenge in eine erfüllungsequivalente
+
+09:10.800 --> 09:20.280
+Menge von skolimisierten Klauseln, also in Skolim-Normalform. Also wir haben eine Menge von
+
+09:20.280 --> 09:30.480
+M-Klauseln, die jeweils aus Literalen bestimmen. Denken Sie, wir haben alle Existenzquatoren durch
+
+09:30.480 --> 09:37.360
+die Skolimisierung aufgelöst, da stehen jetzt also Terme drin und wir hatten ja schon mal so
+
+09:37.360 --> 09:44.880
+etwas, dass wir diese interessante Modellklasse hatten, in der Terme als zu sich selbst ausgewertet
+
+09:44.880 --> 09:51.160
+werden. Ein Term wird zu einem Term ausgewertet und die andere Sache, die da drin steht, sind
+
+09:51.160 --> 10:00.880
+Variablen, freie Variablen, also quasi implizit allquantifiziert. Wir haben also im Endeffekt hier
+
+10:00.880 --> 10:10.240
+jeweils Klauseln stehen, in denen Aussagen drinnen stehen und damit sind wir im Endeffekt genau da,
+
+10:10.240 --> 10:17.520
+womit wir auch uns das Resolutionsprinzip für Aussagen befaut haben. Und genau das passiert
+
+10:17.520 --> 10:28.920
+jetzt. Nehmen wir uns mal zwei variablenfremde Klauseln. Ich sehe gerade hier steht ein M und
+
+10:28.920 --> 10:33.680
+hier steht ein N, das ist dumm, hier sollte ein N und hier ein N stehen, weil die müssen natürlich
+
+10:33.680 --> 10:41.960
+nicht gleich lang sein. Das ist noch ein alter Tippfehler. Wir nehmen uns zwei variablenfremde
+
+10:41.960 --> 10:51.120
+Klauseln. Warum sage ich variablenfremd? Erinnern Sie sich daran, wenn wir zwei Terme oder Formeln
+
+10:51.120 --> 10:58.040
+oder was auch immer miteinander unifizieren wollen und das erste ist eine Variable und das zweite ist
+
+10:58.040 --> 11:04.520
+eine Variable oder ein Term, dann wird trotzdem die erste Variable auch durch eine Variable ersetzt.
+
+11:04.520 --> 11:16.400
+Aber wir haben ja unsere Umbenennungsregeln. Wir können also die einzelnen Klauseln jeweils so
+
+11:16.400 --> 11:23.680
+umbenennen, dass sie variablenfremd sind. Was passiert jetzt in diesem Resolutionsschritt? Genau
+
+11:23.680 --> 11:30.640
+dasselbe wie sonst auch. Wir streichen nämlich komplementäre Paare. Wir haben hier ein nicht L
+
+11:30.640 --> 11:37.960
+und hier ein L'. Warum das eine gestrichen ist, kommen wir gleich dazu. Und wir vereinigen diese
+
+11:37.960 --> 11:46.920
+beiden Elternklauseln zu der resolvente, wobei diese beiden komplementären Literale herausgestrichen
+
+11:46.920 --> 11:56.520
+werden. Also wir haben nur L1 bis MM ohne dieses und hier haben wir L'1 bis L'M. Wie gesagt,
+
+11:56.520 --> 12:07.960
+hier ein M und da ein M. Was bedeutet jetzt das µ da hinten? Das ist ein allgemeinster Unifikator.
+
+12:07.960 --> 12:16.480
+Für den folgendes gilt, dieser allgemeinste Unifikator macht jetzt tatsächlich dieses Literal
+
+12:16.480 --> 12:24.120
+mit diesem Literal gleich. Wenn also hier eine Variable als Argument auftaucht und hier an der
+
+12:24.120 --> 12:30.800
+Stelle, wo hier eine Variable auftaucht, ein Term, dann benutzen wir den M, den U, um die Variable
+
+12:30.800 --> 12:37.320
+hier drin durch den entsprechenden Term dort zu ersetzen. Dadurch werden diese beiden Literale
+
+12:37.320 --> 12:45.560
+gleich, bis auf die Tatsache, dass dieses negiert ist und dieses positiv. Aber gleichzeitig muss
+
+12:45.560 --> 12:52.960
+dieser MgU auf alle Literale angewendet werden. Der MgU wird also nicht nur auf dieses und dieses
+
+12:52.960 --> 13:02.720
+angewendet, sondern jeweils auf die gesamten Terms. Das ist die Resolutionsregel, ganz einfach. Sie
+
+13:02.720 --> 13:12.360
+entspricht der aussagelogischen Resolution, bis auf die Tatsache, dass wir uns komplementäre Paare
+
+13:12.360 --> 13:20.200
+herstellen können, indem wir, ich sag mal, fast komplementäre Paare durch einen allgemeinsten
+
+13:20.200 --> 13:43.200
+Unifikator tatsächlich komplementär machen. Gut.
+

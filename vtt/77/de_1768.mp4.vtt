@@ -1,0 +1,122 @@
+WEBVTT
+
+00:00.000 --> 00:12.900
+Also noch als Nachtrag im Endeffekt zur Woche drei zwei Theoräme, die ich Ihnen so noch
+
+00:12.900 --> 00:21.960
+nicht gezeigt habe, die wir aber in den Übungen eventuell schon benutzt haben und die auch
+
+00:21.960 --> 00:28.580
+nochmal aufgreifen den Zusammenhang zwischen Implikation und Subjunktion, beziehungsweise
+
+00:28.580 --> 00:35.080
+wenn wir die Konjunktions- und zwei gegengerichteten Subjunktionen betrachten eben die Implikation
+
+00:35.080 --> 00:46.080
+beziehungsweise Äquivalenz. Und zwar müssen wir oder können wir die Tatsache nutzen,
+
+00:46.080 --> 00:52.640
+dass wenn eine Subjunktion eine Tautologie ist, das ja nichts anderes bedeutet, als dass
+
+00:52.640 --> 01:03.800
+diese Subjunktion unter jeder Interpretation wahr wird. Das heißt, alles ist ein Modell
+
+01:03.800 --> 01:13.280
+dieser Formel. Gleichzeitig ist das jetzt natürlich auch eine Subjunktion, auf die
+
+01:13.280 --> 01:19.520
+Sie das Deduktionstheorien anwenden können. Wenn dieses Ding also eine Tautologie ist
+
+01:19.520 --> 01:26.360
+und somit alles ein Modell davon ist, wissen Sie auch aufgrund der Definition der logischen
+
+01:26.360 --> 01:33.640
+Implikation, dass eine Tautologie aus dem Nichts folgt. Sie haben also quasi eine logische
+
+01:33.640 --> 01:40.720
+Implikation, wo auf der linken Seite eine leere Formelmenge steht und auf der rechten
+
+01:40.720 --> 01:48.440
+Seite diese Subjunktion. Dann können Sie mit Hilfe des Deduktionstheorien das P auf
+
+01:48.440 --> 01:53.640
+die linke Seite der logischen Implikation ziehen und aus der leeren Menge der Formel
+
+01:53.640 --> 02:01.320
+links wird dann eine Menge, die nur eine Formel enthält, nämlich P. Und Sie haben
+
+02:01.320 --> 02:13.640
+dann die Aussage, dass aus der Gültigkeit der Formel klein p logisch die Gültigkeit
+
+02:13.640 --> 02:21.560
+der Formel klein q folgt. Und das ist eben nichts anderes als die Formulierung der Implikation,
+
+02:21.560 --> 02:34.560
+dass wenn P gilt, q auch gilt. Ich stelle gerade fest, ich habe Ihnen diesen Beweis
+
+02:34.560 --> 02:42.840
+gerade rein verbal versucht zu erklären und hier unten steht er nochmal, allerdings ohne
+
+02:42.840 --> 02:50.680
+Anwendung des Deduktionstheorien. Eine direkte Folge daraus ist natürlich, wenn wir hier
+
+02:50.680 --> 02:57.960
+eine Bi-Implikation stehen haben, also hier den einfachen Doppelpfeil, dann wird natürlich
+
+02:57.960 --> 03:04.080
+aus dieser Implikation auch eine Äquivalenz, weil diese Bi-Implikation einfach aufgelöst
+
+03:04.080 --> 03:09.520
+wird in zwei Implikationen in den verschiedenen Richtungen. Das heißt, wir haben hier dann
+
+03:09.520 --> 03:15.000
+eine Aussage, das ist eine Tautologie und das ist eine Tautologie, daraus bekommen
+
+03:15.000 --> 03:20.000
+wir dann zwei implikative Aussagen und zwei implikative Aussagen können wir dann auch
+
+03:20.000 --> 03:29.600
+wieder zu einer Äquivalenz zusammenklassen. Also, das ist nochmal etwas, um Ihnen den
+
+03:29.600 --> 03:36.960
+Zusammenhang von Subjunktionen und Implikationen zu erklären, um Ihnen die Anwendung des Deduktionstheorien
+
+03:36.960 --> 03:48.760
+zu erklären und wie diese ganzen Erfüllungsrelationen und die logische Implikation dann zusammenhängen.
+
+03:48.760 --> 04:00.720
+Weiterhin ist das natürlich auch noch eine Sache, die wir gleich wiederverwenden werden,
+
+04:00.720 --> 04:09.920
+weil wir das ja in beide Richtungen benutzen können. Das heißt, wenn wir eine Implikation
+
+04:09.920 --> 04:15.080
+beweisen wollen, also wenn wir eine Aussage der Art und Weise, wenn P gilt, gilt auch
+
+04:15.080 --> 04:25.280
+Q, beweisen wollen, können wir aus dieser Aussage eine Subjunktion formen und beweisen,
+
+04:25.280 --> 04:32.480
+dass die Subjunktion eine Tautologie ist. Und das können wir machen unter Anwendung
+
+04:32.480 --> 04:40.480
+all unserer Regel- und Umformungsregeln, wenn wir es nämlich schaffen, P und Q mithilfe
+
+04:40.480 --> 04:49.680
+dieser Ersetzungsregeln in eine Formel zu überführen, von der wir wissen, dass sie
+
+04:49.680 --> 04:58.400
+ebenfalls eine Tautologie ist und immer wahr ist. Das heißt, wenn wir eine solche Aussage
+
+04:58.400 --> 05:04.200
+haben, die wir in eine solche übersetzen können, die wir dann umformen können in
+
+05:04.200 --> 05:09.960
+eine Formel, von der wir wissen, dass sie eine Tautologie ist, ist auch das eine Tautologie
+
+05:09.960 --> 05:15.920
+und dann gilt diese Implikation. Das ist ein Beweisverfahren und dieses Beweisverfahren
+
+05:15.920 --> 05:20.480
+können wir gleich nutzen.
+

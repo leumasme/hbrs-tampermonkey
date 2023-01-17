@@ -1,0 +1,269 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+So, dann schauen wir uns jetzt einfach mal an, wie das funktionieren kann.
+
+00:10.000 --> 00:24.000
+Wir nehmen mal wieder, erstmal, ja, jetzt ohne, genau, wir fangen einfach mal an
+
+00:24.000 --> 00:35.000
+mit einer Menge von Formen, die habe ich jetzt hier schon als Formen hingeschrieben,
+
+00:35.000 --> 00:45.000
+aber gehe mal davon aus, implizit, dass man die jetzt relativ schnell in Klauselform überführen kann.
+
+00:45.000 --> 01:00.000
+Und man möge jetzt versuchen, nachzuweisen, dass diese Menge hier unerfüllbar ist.
+
+01:00.000 --> 01:10.000
+Wir wollen also versuchen, aus dieser Menge von Klauseln, oder wir wollen versuchen,
+
+01:10.000 --> 01:15.000
+mit dieser Menge von Formen einen Widerspruch herzuleiten, bzw. wir wollen versuchen,
+
+01:15.000 --> 01:27.000
+aus der entsprechenden Klauselform die leere Klausel abzuleiten.
+
+01:27.000 --> 01:42.000
+Schauen wir uns zum Beispiel an, was hier steht, wenn ein y human ist, dann ist dieses y mortal.
+
+01:42.000 --> 01:54.000
+Jetzt erinnern Sie sich, Klausel negieren oder positiv und die Subjunktion wird in dieser Schreibweise
+
+01:54.000 --> 02:10.000
+einfach umgekehrt dargestellt. Wenn wir jetzt uns mal überlegen, wir wissen, Sokrates ist ein Grieche,
+
+02:10.000 --> 02:18.000
+jeder Grieche ist ein Mensch und jeder Mensch ist sterblich. Und wir wollen jetzt beweisen,
+
+02:18.000 --> 02:28.000
+Sokrates ist sterblich. Dann müssen wir die Aussage, Sokrates ist sterblich, negieren und
+
+02:28.000 --> 02:34.000
+zu dieser Menge hinzufügen und sehen, ob wir die leere Klausel ableiten können.
+
+02:34.000 --> 02:45.000
+Hier steht jetzt die denegierte Aussage, wir wollen beweisen, dass Sokrates sterblich ist,
+
+02:45.000 --> 02:55.000
+wir nehmen also an, dass es nicht sterblich Sokrates ist. Das hier ist also jetzt ein negatives Literal
+
+02:55.000 --> 03:09.000
+und wir stellen fest, das negative Literal, mortal, taugt nur hier auf. Gut, wenn es nur hier auftaugt,
+
+03:09.000 --> 03:17.000
+gibt es nur eine Möglichkeit, diese Klausel hier zu resolvieren, nämlich mit dieser Regel hier.
+
+03:17.000 --> 03:26.000
+Schreiben wir sie hin, mortal x, then human x. Wie kann man jetzt das mit dem resolvieren?
+
+03:26.000 --> 03:33.000
+Nur indem man dieses x hier durch Sokrates ersetzt. Wenden wir also diese Substitution an,
+
+03:33.000 --> 03:41.000
+dann müssen wir diese Substitution natürlich hier auch anwenden, auf die Resolvente.
+
+03:41.000 --> 03:53.000
+Das heißt, übrig bleibt negativ, positiv, negativ, negativ. Ein negatives Literal.
+
+03:53.000 --> 04:04.000
+Hier steht jetzt das negative Literal, Sokrates ist menschlich. Dieses negative Literal wollen wir jetzt wegresolvieren.
+
+04:04.000 --> 04:17.000
+Wir suchen also in unserer Menge von Klauseln die eine, in denen human als positives Literal vorkommt.
+
+04:17.000 --> 04:30.000
+Wo steht es? Da. Also resolvieren wir jetzt human Sokrates mit human y.
+
+04:30.000 --> 04:38.000
+Das geht natürlich nur, wenn wir das y durch Sokrates ersetzen. Diese Substitution muss auf die Resolvente auch angewendet werden.
+
+04:38.000 --> 04:44.000
+Das heißt, auf Greek y muss ebenfalls diese Substitution angewendet werden.
+
+04:44.000 --> 04:52.000
+Das heißt, das Ergebnis, die Resolvente ist Greek Sokrates. Negativ, weil das ja von hierhin kommt.
+
+04:52.000 --> 04:56.000
+Und jetzt stellen wir fest, wir wissen aber, dass Sokrates ein Griech ist.
+
+04:56.000 --> 05:05.000
+Und dann haben wir hier das negative Literal, Greek Sokrates. Hier haben wir das positive Literal, Greek Sokrates.
+
+05:05.000 --> 05:12.000
+Und ohne eine weitere Substitution, weil beides Grundliterale sind, können wir die leere Klausel ersuchen.
+
+05:12.000 --> 05:24.000
+So funktioniert das.
+
+05:24.000 --> 05:43.000
+Jetzt überlegen wir uns das. Implizit war das jetzt eben schon vorgegeben.
+
+05:43.000 --> 05:58.000
+Die Frage, seit Anfang an der Vorlesung, habe ich Ihnen immer gesagt, ob eine Formel sinnvoll ist oder nicht, spielt in der Logik keine Bedeutung.
+
+05:58.000 --> 06:08.000
+Ob eine Formel sinnvoll ist oder nicht, hat mit Logik nichts zu tun. Aber jede Formel hat eine Bedeutung.
+
+06:08.000 --> 06:17.000
+Und wenn wir mit einer definierten Bedeutung, und wenn wir eine solche Bedeutung für alle Formeln definiert haben,
+
+06:17.000 --> 06:27.000
+dann können wir immer noch überlegen, ob mit dieser Bedeutung im Hinterkopf aus einer Formelmenge irgendeine andere Formel folgt,
+
+06:27.000 --> 06:38.000
+die vielleicht auch keinen Sinn ergibt, aber mit derselben Bedeutung wie diese Formeln hier eben daraus folgt.
+
+06:38.000 --> 06:47.000
+Es geht also eigentlich immer darum zu gucken, welche Formeln können wir aus einer gegebenen Formelmenge ableiten.
+
+06:47.000 --> 06:51.000
+Was können wir beweisen?
+
+06:51.000 --> 06:59.000
+Und das bedeutet im Endeffekt, dass wir uns ja darauf einigen können, dass es so eine Art Zielklausel gibt.
+
+06:59.000 --> 07:14.000
+Das Problem ist jetzt hierbei, dass wir uns natürlich auf Konjunktionen dieser Literalischen beschränken müssen.
+
+07:14.000 --> 07:29.000
+Aber wenn wir beweisen wollen, G1, G2 und Gn, dann bedeutet das, dass die Negation davon führt zu einem Widerspruch.
+
+07:29.000 --> 07:43.000
+Wir müssen also dann zeigen, dass die Negation hiervon zu einer leeren Klausel führt, die Negation hiervon usw.
+
+07:43.000 --> 07:54.000
+Wie macht man das? Man nimmt sich das erste Literal, das hier vorm steht, das wir jetzt ja quasi negiert vorliegen haben,
+
+07:54.000 --> 08:04.000
+und wir wissen dann, dass wir in unserem logischen Programm irgendwo hoffentlich so eine Klausel rumfliegen haben,
+
+08:04.000 --> 08:10.000
+wo ein dazu passendes in positiver Form vorliegt.
+
+08:10.000 --> 08:20.000
+Dann werden die unifiziert und es kommt dann in die Resolvente.
+
+08:20.000 --> 08:25.000
+Erinnern Sie daran, das hier ist zwar hier als Konjunktion dargestellt, weil es aber negiert ist,
+
+08:25.000 --> 08:31.000
+ist es die Disjunktion aller Negationen hier.
+
+08:31.000 --> 08:44.000
+Das heißt, wir vereinigen diese negativen Literalen mit dem hier und wir haben wieder eine Klausel mit den Literalen.
+
+08:44.000 --> 08:53.000
+Das heißt, was wir dann machen müssen, ist, die Resolvente sieht dann so aus, dass sie aus diesen Literalen besteht
+
+08:53.000 --> 09:03.000
+und den, was wir hier aufgelöst haben, G2 ist GM, natürlich mit dem entsprechenden Ergebnis.
+
+09:03.000 --> 09:12.000
+Und so macht man das weiter. Und wenn man dann irgendwann mal eine Klausel findet, wo so ein G1 steht,
+
+09:12.000 --> 09:23.000
+dann fliegt dieses G1 mit diesem G1 Strich weg, aber es kommt kein W dazu.
+
+09:23.000 --> 09:27.000
+Und auf diese Art und Weise wird diese Klausel kürzer.
+
+09:27.000 --> 09:37.000
+Und so können wir versuchen, sukzessive unsere Klausel zu verkürzen in der Hoffnung, dass wir irgendwann eine Lehre finden.
+
+09:37.000 --> 09:45.000
+So, ein solcher Beweis wird, sorry, jetzt kommt das Wort nochmal, auf der Erbrandbasis geführt.
+
+09:45.000 --> 10:02.000
+Wir müssen also betrachten, weil wir ja irgendwelche Grundinstanzen suchen, im Endeffekt die entsprechenden Terme,
+
+10:02.000 --> 10:07.000
+uns während der Beweisprozedur zu konstruieren.
+
+10:07.000 --> 10:11.000
+Sie wissen ja, sobald wir ein Funktionssymbol haben, ist die Erbrandbasis unendlich groß.
+
+10:11.000 --> 10:16.000
+Wir können die also nicht erst ausrechnen und dann unseren Beweis führen, sondern wir führen den Beweis
+
+10:16.000 --> 10:22.000
+und so wie der Beweis fortschreitet, bauen wir uns die Erbrandbasis dazu.
+
+10:22.000 --> 10:30.000
+Das kann aber trotzdem dazu führen, wenn die Art und Weise, in der Beweis geführt ist, in einer ungünstigen Reihenfolge ist,
+
+10:30.000 --> 10:35.000
+man irgendwo hier nicht, man irgendwo, ich sag mal, in eine Endloskeit kommt.
+
+10:35.000 --> 10:44.000
+So, das nächste ist, wir machen jetzt ja so ein lineares Teil, aber trotzdem kann es ja sein,
+
+10:44.000 --> 10:57.000
+dass es, wenn ich hier ein gi oder ein g1 wegresolvieren will, es mehrere Klauseln gibt, mit denen eine Resolution möglich wäre.
+
+10:57.000 --> 11:02.000
+Es gibt also ein g1' und noch ein g1' und noch ein g1'.
+
+11:02.000 --> 11:07.000
+Und dann kann es durchaus sein, dass wenn ich diese Klausel nehme,
+
+11:07.000 --> 11:14.000
+ich im Verlauf des Beweises nicht in der Lage bin, die leere Klausel herzuleiten.
+
+11:14.000 --> 11:20.000
+Hätte ich aber die zweite Klausel genommen, dann könnte es ja gelingen.
+
+11:20.000 --> 11:29.000
+Was man also machen muss ist, wenn jetzt eine SLD-Sequenz nicht zur leeren Klausel führt,
+
+11:29.000 --> 11:34.000
+dann muss man eventuelle Alternativen versuchen.
+
+11:34.000 --> 11:43.000
+Das führt dazu, dass jetzt natürlich, wie ich eben beschrieben habe, bestimmte SLD-Sequenzen schlimmstenfalls unendlich sind.
+
+11:43.000 --> 11:54.000
+Das heißt, wenn man irgendwo eine unendliche hat, dann kommt man nie dazu, eine Alternative, die eventuell endlich ist, zu betrachten.
+
+11:54.000 --> 12:10.000
+Nur wenn keine SLD-Sequenz, die in einer leeren Klausel endet, gefunden werden kann,
+
+12:10.000 --> 12:25.000
+dann nehmen wir an, dass eben nicht die ursprüngliche Formel der Formel MEP folgt, sondern eben der Negation.
+
+12:25.000 --> 12:35.000
+Sie sehen also, die Negation bedeutet hier nicht die Negation,
+
+12:35.000 --> 12:42.000
+sondern die Negation bedeutet, dass etwas nicht widerlegt werden kann.
+
+12:42.000 --> 12:46.000
+Also es kann nicht bewiesen, dass etwas nicht gilt.
+
+12:46.000 --> 12:52.000
+Es kann nur nachgewiesen werden, dass etwas nicht bewiesen werden kann.
+
+12:52.000 --> 13:02.000
+Und daran sehen Sie, dass wir es hier eindeutig mit einer Beschränkung der Prädikatmöglichkeit zu tun haben.
+
+13:02.000 --> 13:06.000
+Das ist es aber wert.
+
+13:06.000 --> 13:13.000
+Ich habe Ihnen hier mal so ein Stück aufgeschrieben.
+
+13:13.000 --> 13:17.000
+Der Pfund suggeriert schon, dass das vielleicht ein Programm ist.
+
+13:17.000 --> 13:24.000
+Und in der Tat, ich habe es ja vorher schon logisches Programm genannt, in der Tat ist das ein Programm.
+
+13:24.000 --> 13:28.000
+Jetzt kommt ein großer Versuch.
+
+13:28.000 --> 13:42.000
+Ich versuche nämlich mal, dieses und zwei weitere Beispiele jetzt an die Tafel zu werfen.
+
+13:42.000 --> 14:00.000
+Einen wunderschönen Moment.
+

@@ -1,0 +1,506 @@
+WEBVTT
+
+00:00.000 --> 00:07.480
+Also, es ist mir in dieser Vorlesung, in dieser Vorlesung sind mir zwei Dinge wichtig.
+
+00:07.480 --> 00:19.280
+Erstens, Logik oder Logik kennen an sich als eine Disziplin in der Mathematik oder wo immer
+
+00:19.280 --> 00:28.560
+sie hin tun wollen, ja, ist ein fundamentaler, ich sag mal, Wissenschaftszweig, der für
+
+00:28.560 --> 00:38.400
+die Informatik von großer Bedeutung ist. Er kann auch als Teil der Informatik betrachtet werden
+
+00:38.400 --> 00:46.240
+und insofern hat eine Logik-Vorlesung im Curriculum eines Informatikstudiums denselben
+
+00:46.240 --> 00:53.400
+Stellenwert und dieselbe Daseinsberechtigung wie eine Vorlesung über Datenbanken, über
+
+00:53.400 --> 01:06.680
+Computergrafik, Übereinführung in die Programmierung etc. pp. Diese Vorlesung oder auch, wie Sie sagen,
+
+01:06.680 --> 01:12.480
+Mathematik, ja, also lineare Algebra und diskrete Strukturen, da können Sie sich ja auch fragen,
+
+01:12.480 --> 01:21.520
+was hat das mit Informatik zu tun? Alle diese Vorlesungen sind Bestandteil dessen, was man
+
+01:21.520 --> 01:32.720
+Informatik nennt und natürlich spezialisiert man sich innerhalb der Informatik auf jeweilige
+
+01:32.720 --> 01:47.920
+Themenbereiche, genau so wie es Fachärzte gibt. Gut, dennoch hat diese Vorlesung Logiken,
+
+01:47.920 --> 02:00.560
+Logik, Einführung in die Logik, einen weiteren wichtigen Zweck, den sie erfüllt, für ihr
+
+02:00.560 --> 02:12.560
+gesamtes Informatikstudium und diesen Zweck sehen vielleicht einige von Ihnen noch nicht. Sie sollen
+
+02:12.560 --> 02:17.840
+diese Vorlesung nicht einfach nur begreifen als eine Vorlesung, in denen Ihnen ein Stopp vermittelt wird,
+
+02:17.840 --> 02:26.120
+den Sie lernen müssen, sondern diese Vorlesung vermittelt Ihnen Methoden, die Sie in allen
+
+02:26.120 --> 02:35.040
+anderen Vorlesungen verwenden können. Das ist wahrscheinlich etwas, was Ihnen in der notwendiger
+
+02:35.040 --> 02:44.400
+Weise kurzsichtigen Betrachtungsweise auf eine Vorlesung momentan noch schwerfällt, zu sehen,
+
+02:44.400 --> 02:50.000
+wie diese Vorlesung zum Verständnis anderer Vorlesungen und anderer Fachgebiete in der
+
+02:50.000 --> 02:58.120
+Informatik beiträgt. Deswegen möchte ich Ihnen das heute nochmal erklären und klar machen.
+
+02:58.120 --> 03:09.000
+Wenn Sie sich fragen, wozu überhaupt ist eine Vorlesung über Logiken im Rahmen eines
+
+03:09.000 --> 03:19.200
+Informatikstudiums Nutze? Was kann ich damit machen? Ist die Antwort die folgende. In der
+
+03:19.200 --> 03:27.800
+Logik geht es um Aussagen und um deren Folgen. In der gesamten Informatik haben Sie es mit Aussagen
+
+03:27.800 --> 03:34.920
+zu tun. Es geht immer um Aussagen und Sie wollen immer wissen, aus verschiedenen Aussagen über
+
+03:34.920 --> 03:43.600
+bestimmte Sachverhalte, egal welcher Art, ziehen Sie immer irgendwelche Konsequenzen. Und die
+
+03:43.600 --> 03:56.940
+Frage ist, welche Konsequenzen können Sie wie ziehen? Wir betrachten Aussagen und ich habe
+
+03:56.940 --> 04:01.800
+im Anfang der Vorlesung gesagt, wenn Ihnen eine Aussage nicht sinnvoll erscheint, hat sie dennoch
+
+04:01.800 --> 04:11.280
+eine Bedeutung, sie hat eine Struktur. Damit beschäftigen wir uns, abstrakt gesehen in der
+
+04:11.280 --> 04:23.000
+Logik als eigenständiges Thema. Das hat noch nichts unbedingt damit zu tun, wie wir es als
+
+04:23.000 --> 04:28.960
+Methode für andere Themen verwenden. Wir beschäftigen uns mit der Struktur von Aussagen und
+
+04:28.960 --> 04:38.240
+wenn es allgemein um Konsequenzen geht, beschäftigen wir uns in der Logik eben damit, was wir als
+
+04:38.240 --> 04:45.560
+gültige zulässige Schlussfolgerungen zulassen wollen. Und das haben wir uns jetzt in dieser
+
+04:45.560 --> 04:54.840
+Vorlesung alles definiert. Um es zu übersetzen, von der Struktur von Aussagen sind wir im Endeffekt
+
+04:54.840 --> 05:01.440
+auf den Formelbegriff gekommen. Und die Gültigkeit von Schlussfolgerungen sind unsere Impilikationen,
+
+05:01.440 --> 05:12.040
+unser semantisches Entailment. Darüber reden wir in der Logik. Und wenn Sie jetzt betrachten,
+
+05:12.040 --> 05:18.520
+was wir uns angesehen haben in der Vorlesung, die natürliche Deduktion in der Aussagenlogik,
+
+05:18.520 --> 05:23.600
+die Resolution in der Aussagenlogik und die Resolution in der Prädikatenlogik, dann sind
+
+05:23.600 --> 05:36.000
+das technische Verfahren zum Nachweis einer gültigen Schlussfolgerung. Sie haben also einen
+
+05:36.000 --> 05:43.440
+Sachverhalt und wollen überprüfen, ob aus diesem Sachverhalt eine bestimmte Aussage folgt über
+
+05:43.440 --> 05:50.520
+diesen Sachverhalt, meine Kollegen. Und wie Sie das machen, dazu haben Sie in dieser Vorlesung
+
+05:50.520 --> 06:03.080
+technische Verfahren kennengelernt. Ich gebe Ihnen ein paar Beispiele. Wozu sind diskrete Strukturen
+
+06:03.080 --> 06:08.240
+da in der Informatik? Nun zum Beispiel, um Klassenhierarchien darzustellen. Zack, und schon
+
+06:08.240 --> 06:17.960
+wissen Sie, wo Sie in der Informatik sind. Wozu ist lineare Algebra? Notwendig. Na ja, damit Sie
+
+06:17.960 --> 06:22.440
+irgendwelche tollen Computergrafiken machen können, wo Sie mit irgendwelchen Vektoren in
+
+06:22.440 --> 06:30.480
+irgendwelchen Koordinatensystemen rumspielen. Wozu sind Relationen wichtig? Es gibt relationale
+
+06:30.480 --> 06:38.920
+Datenbanken. Sie wollen vielleicht Graphen analysieren, wenn Sie Wege planen wollen. Sie
+
+06:38.920 --> 06:45.720
+wollen vielleicht im Rahmen der Komplexitätstheorie oder der Rechenbarkeitstheorie überprüfen, ob
+
+06:45.720 --> 06:55.040
+bestimmte Algorithmen in bestimmten Problemklassen effizienter sind als andere. Und Sie wollen zum
+
+06:55.040 --> 06:59.400
+Beispiel überlegen, gibt es verschiedene Datenstrukturen, die effizienter sind als
+
+06:59.400 --> 07:09.560
+andere und trotzdem das Gleiche können. Das sind die Anwendungsgebiete. In diesen Anwendungsgebieten
+
+07:09.560 --> 07:20.480
+formulieren Sie Aussagen und aus diesen Aussagen, oder dass in diesen, kann man sagen, Theorien
+
+07:20.480 --> 07:32.160
+bestimmte Gesetze gelten, die können Sie benutzen, um bestimmte Eigenschaften nachzuweisen, zu beweisen.
+
+07:32.160 --> 07:49.200
+Es geht darum, ganz allgemein sich zu überlegen, wenn ich ein Problem habe, wie kann ich sinnvoll
+
+07:49.200 --> 07:57.680
+damit umgehen. Kann man also schwierig zu lösende Probleme in äquivalente einfacher zu lösende
+
+07:57.680 --> 08:04.480
+Probleme umformen, ist eine zentrale Frage. Und da sehen Sie schon, da kommt das Wort
+
+08:04.480 --> 08:17.520
+Äquivalenz drin vor. Und einfacher zu lösen bedeutet, dass zum Beispiel bestimmte Operationen
+
+08:17.520 --> 08:26.040
+effizienter durchzuführen sind als andere. Zweierpotenzen zu bilden ist in einem Computer
+
+08:26.040 --> 08:34.800
+sehr einfach, da schiften Sie einfach Ihre Bits. Gucken Sie sich das an, Sie wollen die
+
+08:34.800 --> 08:43.800
+Summe der Zahlen von Null bis N berechnen. Das heißt, Sie müssen N plus 1 Additionen
+
+08:43.800 --> 08:47.840
+machen. Jetzt wissen Sie zum Beispiel schon mal, dass die Null neutral ist bezüglich
+
+08:47.840 --> 08:55.240
+der Additionen, können Sie sich eine Addition sparen, die sowieso nichts bringt. Sie würden
+
+08:55.240 --> 09:03.000
+also gerne diesen langen Term hier, naja, so darstellen, geht aber nicht. Und dann kommt
+
+09:03.000 --> 09:08.640
+ein kluger Mann daher und sagt, naja, anstatt die Summe von Null bis N auszurechnen, rechne
+
+09:08.640 --> 09:20.760
+ich aus N quadrat plus N durch 2. Das heißt, zu beweisen oder wenn Sie diese Formel benutzen
+
+09:20.760 --> 09:28.600
+wollen, um dieses Problem zu lösen, müssen Sie beweisen, dass wenn Sie das hier auswerten,
+
+09:28.600 --> 09:39.920
+das Gleiche rauskommt, wie wenn Sie das auswerten. Das ist ein Beweis. Das ist etwas, was Ihnen
+
+09:39.920 --> 09:46.200
+normalerweise in anderen Vorlesungen immer Probleme bereitet. In der linearen Algebra
+
+09:46.200 --> 09:53.360
+steht dann Theorie. Toll! Und daraus folgt, dass Sie zum Beispiel irgendwie eine andere
+
+09:53.360 --> 09:58.280
+Umformung machen müssen. Und jetzt kommt die große Frage, nachdem die Folie dastand
+
+09:58.280 --> 10:02.920
+mit Theorien, kommt eine Folie mit Beweis. Und dann sagen Sie alle, oh Gott, oh Gott,
+
+10:02.920 --> 10:10.320
+oh Gott, oh Gott. In der Datenbankvorlesung wird irgendwie über Joins und Selects und
+
+10:10.320 --> 10:14.400
+was weiß ich nicht was alles geredet und dann wird Ihnen jemand sagen, ja, wenn Sie
+
+10:14.400 --> 10:19.200
+einen solchen relationalen Ausdruck haben, dann ist der schwierig zu berechnen, den kann
+
+10:19.200 --> 10:23.520
+man aber so und so umformen, dann ist er einfacher zu berechnen. Ich beweise Ihnen
+
+10:23.520 --> 10:29.880
+das mal. Und dann sagen Sie, oh Gott, oh Gott, oh Gott, oh Gott. In dieser Vorlesung hier
+
+10:29.880 --> 10:39.680
+lernen Sie Methoden, um diese Beweise zu führen, um diese Beweise zu verstehen. Diese
+
+10:39.680 --> 10:50.440
+Vorlesung hier gibt Ihnen Hilfestellungen für alle anderen Vorlesungen. Also, was machen
+
+10:50.440 --> 11:01.040
+Sie? Wenn jetzt hier steht n² plus n halbe, es gibt gültige Umformungsregeln. Sie machen
+
+11:01.040 --> 11:07.880
+aus n² plus n halbe n mal n plus n durch 2. Sie klammern n aus und dann steht da n mal
+
+11:07.880 --> 11:14.920
+n plus 1 durch 2. Dann überlegen Sie sich, ja, was hat das denn mit dieser Summe hier
+
+11:14.920 --> 11:28.240
+zu tun? Dann schreiben Sie sich das auf. 0 plus 1 plus 2 plus plus n, ja. Und was stellen
+
+11:28.240 --> 11:36.800
+Sie fest? Oh, das sind n plus 1 Summanden. Und jetzt schreiben Sie diese n plus 1 Summanden
+
+11:36.800 --> 11:46.280
+nochmal da drunter. Dann steht hier n plus n minus 1 plus n minus 2 plus und so weiter
+
+11:46.280 --> 11:57.320
+plus 0. Okay? Jetzt summieren Sie spaltenweise. Sie stellen fest, hier kommt n raus, hier
+
+11:57.320 --> 12:09.680
+kommt n raus, hier kommt n raus. Das heißt, wenn Sie hier unten summieren, ja, kommt das
+
+12:09.680 --> 12:17.840
+Doppelte raus. Weil Sie hier, ne, diese Summe Assoziativität, äh, Kommutativität können
+
+12:17.840 --> 12:23.520
+Sie umordnen zu der hier. Jetzt addieren Sie die gleiche Summe zweimal auf sich selber,
+
+12:23.520 --> 12:28.280
+dann kommt das Doppelte raus. Und wenn Sie sich jetzt genau anschauen, was hier unten
+
+12:28.280 --> 12:38.240
+steht, ist n plus n plus n plus n und zwar n minus 1 mal. Also müssen Sie n mal oder
+
+12:38.240 --> 12:45.520
+n plus 1 mal n ausrechnen und weil das das Doppelte ist, teilen Sie es durch 2, fertig.
+
+12:45.520 --> 12:55.400
+Ja? So. Und diese Art der Argumentation ist eine Argumentation in der Struktur der natürlichen
+
+12:55.400 --> 13:04.120
+Zahlen. Und was wir hier gemacht haben, diese Gleichungskette auszurechnen, ist eine Art
+
+13:04.120 --> 13:11.760
+der Äquivalenzumformung. Wenn y gleich diese Summe ist, dann ist y gleich diese Summe,
+
+13:11.760 --> 13:20.560
+dann ist y gleich dieser Bruch, dann ist y gleich den, und so weiter und so fort. Okay.
+
+13:20.560 --> 13:28.240
+Die gleichen Fragen haben Sie zum Beispiel, kann man Datenbankoperationen optimieren?
+
+13:28.240 --> 13:34.760
+Der Datenbankprofessor geht hin und sagt, diese SQL-Anfrage ist ineffizient, wir nehmen
+
+13:34.760 --> 13:41.720
+stattdessen diese. Ja kommt denn da das gleiche Ergebnis raus? Das müsste man allgemein für
+
+13:41.720 --> 13:52.920
+alle beweisen. Hilfe Hilfe beweisen. Nix Hilfe gibt. Kann man n-dimensionale Räume einfach
+
+13:52.920 --> 14:03.440
+visualisieren, umdrehen, optimieren, Dimensionen rausnehmen, projizieren, rotieren? Diese Operation
+
+14:03.440 --> 14:09.760
+ist kompliziert. Ein verdecktes Objekt, das rechne ich gar nicht aus. Gut, dazu muss ich
+
+14:09.760 --> 14:17.720
+halt wissen, wo ist es? Gibt es irgendeine Optimierung? Tut die irgendwas? Ändert die
+
+14:17.720 --> 14:25.440
+irgendwie die Topologie des Raumes oder bleibt die erhalten? Frage. Nächste Frage. Sie wollen
+
+14:25.440 --> 14:33.160
+ein Array sortieren. Sortiert der Algorithmus Quicksort oder sortiert der Algorithmus BubbleSort
+
+14:33.160 --> 14:41.120
+überhaupt ein Array? In jedem Fall. Und wenn ja, ist es dann tatsächlich so, dass Quicksort
+
+14:41.120 --> 14:50.960
+immer schneller ist als BubbleSort? Oder im Schnitt schneller? Oder wenn ihr RAM zu teuer
+
+14:50.960 --> 14:58.160
+ist, tun es vielleicht auch zwei Stacks? Sind vielleicht ein bisschen langsamer, aber vielleicht
+
+14:58.160 --> 15:04.040
+geht genau das Gleiche damit? Solche Fragen stellen Sie sich. Und dann sagen Sie, jo,
+
+15:04.040 --> 15:09.560
+zwei Stacks können das Gleiche wie die Random Access Memory. Dann müssen Sie es beweisen.
+
+15:09.560 --> 15:23.080
+Hilfe, Hilfe, Beweis. Nix Hilfe. Dazu habe ich auf dem letzten Aufgabenzettel mit voller
+
+15:23.080 --> 15:34.320
+Absicht die eine Aufgabe drauf getan, in der Sie eine Eigenschaft in der Struktur der Relationen
+
+15:34.320 --> 15:40.160
+beweisen sollten. Nämlich, wenn eine Relation symmetrisch, transitiv und links total ist,
+
+15:40.160 --> 15:49.600
+dass sie dann auch reflexiv ist. Hier steht die Struktur der Relationen. Da hängen lauter
+
+15:49.600 --> 15:55.440
+Relationen auf einer Grundmenge U drin rum. Und mit diesen Relationen können Sie tollsten
+
+15:55.440 --> 15:58.880
+Sachen machen. Sie können sie schneiden, Sie können sie komponieren, Sie können Komplimente
+
+15:58.880 --> 16:10.400
+wenden, was auch immer. Die Aussage ist jetzt, oder die Gesetze, die hier gelten, oder die
+
+16:10.400 --> 16:16.680
+Bezeichnungen, die wir hier wählen, sind zum Beispiel, wenn wir eine Relation P nehmen
+
+16:16.680 --> 16:24.160
+und deren Konverse eine Teilmenge der Relation selber ist, dann nennen wir sie symmetrisch.
+
+16:24.160 --> 16:29.840
+Wir nennen sie transitiv, wenn sie mit sich selbst komponiert in sich enthalten ist. Oh,
+
+16:29.840 --> 16:36.480
+das klingt aber komisch. Sie ist links total, wenn die Identität eine Teilmenge der Komposition
+
+16:36.480 --> 16:45.200
+der Relation mit ihrer Konverse ist. Uh, kompliziert. Die Frage aber ist, stellen Sie sich vor,
+
+16:45.200 --> 16:55.800
+Sie müssen ein Programm schreiben, das Eigenschaften von Relationen überprüft. Überprüfen einer
+
+16:55.800 --> 17:04.160
+Eigenschaft von Relationen dauert Zeit. Transitivität ist komisch, man kann es ein bisschen runterdrücken,
+
+17:04.160 --> 17:11.680
+aber in den meisten Fällen im Schnitt, aber ist egal. Wenn Sie nachgewiesen haben, dass
+
+17:11.680 --> 17:18.320
+eine Relation symmetrisch ist, und dass sie transitiv ist, und dass sie links total ist,
+
+17:18.320 --> 17:26.640
+und jetzt die Frage entsteht, ist diese Relation auch links total, äh, Entschuldigung, ist
+
+17:26.640 --> 17:33.680
+diese Relation auch reflexiv, dann stellt sich doch die Frage, müssen Sie das überhaupt
+
+17:33.680 --> 17:44.000
+noch überprüfen? Oder folgt aus diesen drei Gesetzen, oder sagen wir, folgt aus diesen
+
+17:44.000 --> 17:52.080
+drei Voraussetzungen nicht automatisch für jede Relation, dass wenn sie diese Eigenschaften
+
+17:52.080 --> 18:01.680
+hat, sie auch automatisch reflexiv ist. Weil wenn das so ist, müssen Sie nachdem Sie diese
+
+18:01.680 --> 18:06.000
+drei Berechnungen gemacht haben, diese da gar nicht mehr machen, weil Sie wissen, sie
+
+18:06.000 --> 18:15.440
+folgt logisch daraus. Und deswegen ist es eben sinnvoll zu lernen, wie man beweist,
+
+18:15.440 --> 18:25.920
+dass aus mehreren Formeln eine weitere folgt. Ja? Und in dieser Vorlesung hier haben Sie
+
+18:25.920 --> 18:32.080
+eine natürliche Deduktion gesehen, haben Sie Resolution gesehen, und heute lernen wir
+
+18:32.080 --> 18:40.560
+noch eine kennen, die Ihnen ein mechanisches Verfahren an die Hand gibt, wie Sie solche
+
+18:40.560 --> 18:45.440
+Beweise machen müssen. Wenn das hier in einer Klausur über diskrete Mathematik vorkommt,
+
+18:45.440 --> 18:51.920
+dann denken Sie sich um Himmels Willen, wie beweise ich das denn? Ja? Das ist wahrscheinlich
+
+18:51.920 --> 18:57.760
+Ihr Problem. Wie beweise ich das? Und das haben Sie jetzt bereits gelernt, und ohne
+
+18:57.760 --> 19:06.320
+es wahrscheinlich aber zu wissen. Warum wissen Sie, wie das geht? Naja, so. Eine Relation
+
+19:06.320 --> 19:13.520
+ist symmetrisch, wenn für alle x und für alle y gilt, dass wenn P von x y folgt, dass
+
+19:13.520 --> 19:26.760
+auch P von y x ist. Eine Relation ist transitiv. Wenn für alle x y und z gilt, wenn P x y
+
+19:26.760 --> 19:38.080
+und P y z, dann ist auch P x z. Sie können die Prädikatenlogik als Sprache benutzen,
+
+19:38.080 --> 19:46.240
+um in der Struktur da drüben der Relation auf einer Menge diese Eigenschaften darzustellen.
+
+19:46.240 --> 19:55.000
+So. Eine Relation heißt links total, wenn es für jedes x auf der linken Seite ein y
+
+19:55.000 --> 20:02.560
+auf der rechten Seite gibt. Punkt. So, das sind Ihre drei Beobachtungen, die Sie gemacht
+
+20:02.560 --> 20:12.520
+haben. Und was Sie jetzt machen wollen, ist, Sie wollen überprüfen, ob daraus automatisch
+
+20:12.520 --> 20:19.000
+folgt, dass diese Relation, dargestellt durch das Prädikat Symbol P, auch reflexiv ist.
+
+20:19.000 --> 20:25.720
+Das heißt, Sie wollen überprüfen, gilt für alle x, dass wenn diese drei Formeln gelten,
+
+20:25.720 --> 20:34.640
+auch P x x gilt. Und in unserer Notation heißt das nichts anderes. Aus dieser Menge von Formeln
+
+20:34.640 --> 20:47.480
+P ist die Frage, ob daraus logisch diese Formel hier folgt. Das ist es. Okay? So. Und was
+
+20:47.480 --> 20:55.920
+machen Sie? Naja, wir haben ja gelernt, für mittels Resolution, dass wir das hier nachweisen
+
+20:55.920 --> 21:01.280
+können, wenn wir die negierte Form dessen, was wir beweisen wollen, zu dieser Formelmenge
+
+21:01.280 --> 21:07.960
+hinzustecken und daraus die leere Klausel von. Wenn Ihnen irgendjemand in einer Vorlesung
+
+21:07.960 --> 21:18.960
+oder diskrete Mathematik diesen Beweis führt, dann sagt er Folgendes, sei die Relation symmetrisch,
+
+21:18.960 --> 21:26.240
+transitiv und links-total, dann folgt daraus, sie ist reflexiv. Wir beweisen das. Nehmen
+
+21:26.240 --> 21:36.280
+wir mal an, sie sei symmetrisch, transitiv und links-total und sie sei nicht reflexiv.
+
+21:36.280 --> 21:41.480
+Es gibt also eine Relation, wir gehen davon aus, es gibt eine Relation, die alle diese
+
+21:41.480 --> 21:48.480
+drei Eigenschaften erfüllt, aber nicht reflexiv ist. Wenn wir dann einen Widerspruch bekommen,
+
+21:48.480 --> 21:56.080
+wissen wir ja, dass diese Annahme falsch war. Ihre Negation muss also richtig sein. Was
+
+21:56.080 --> 22:01.680
+machen wir? Also wir negieren das, dann kommt ja ein Existenzquantum hin, dann wird sie
+
+22:01.680 --> 22:07.480
+skolemisiert und hier steht, nach dem, was Sie gelernt haben, nichts anderes als eine
+
+22:07.480 --> 22:16.080
+Übersetzung dieser drei Formeln in Klauselform. Und hier unten steht, es existiert eine Relation
+
+22:16.080 --> 22:26.780
+p, skolem, skolem. Das, skolem, skolem, das ist die, ja, so. Und jetzt zeigen Sie mithilfe
+
+22:26.780 --> 22:34.020
+von Resolution, dass daraus ein Widerspruch entsteht. Das können Sie. Sie können also
+
+22:34.020 --> 22:43.120
+diesen Beweis führen. Und dazu ist diese Vorlesung auch da. Sie lernen oder Sie können
+
+22:43.120 --> 22:53.200
+in dieser Vorlesung vieles über die Disziplin, Logik mitnehmen. Müssen Sie aber nicht, wenn
+
+22:53.200 --> 23:02.560
+Sie nicht Logiker werden wollen. Sie kriegen in dieser Vorlesung aber auch mit Verfahren,
+
+23:02.560 --> 23:09.200
+wie Sie Probleme in anderen Vorlesungen lösen können. Also ich hoffe, dass Ihnen damit
+
+23:09.200 --> 23:15.680
+klar ist, wozu diese Vorlesung da ist und dass diese Vorlesung nicht dazu da ist, Sie
+
+23:15.680 --> 23:23.400
+zu schikanieren, sondern diese Vorlesung dazu da ist, Ihnen zu helfen. Gut.
+

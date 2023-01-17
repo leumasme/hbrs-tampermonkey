@@ -1,0 +1,482 @@
+WEBVTT
+
+00:00.000 --> 00:09.000
+Fangen wir also jetzt an mit der Prädikatenlogik erster Stufe.
+
+00:09.000 --> 00:11.000
+Na, und da sehen Sie schon, da steht erste Stufe drin.
+
+00:11.000 --> 00:15.000
+Ja, es gibt natürlich noch weitere Logiken höherer Stufe.
+
+00:15.000 --> 00:30.000
+Genau. Auf jeden Fall aber ist es so, dass wir jetzt eine Logik haben,
+
+00:30.000 --> 00:34.000
+wo wir anstelle von Aussagen Prädikate betrachten.
+
+00:34.000 --> 00:39.000
+Naja, das ist ein bisschen, weil Prädikate im Endeffekt auch Aussagen sind,
+
+00:39.000 --> 00:43.000
+aber eben spezielle Sorgen davon.
+
+00:43.000 --> 00:53.000
+Gut, und richtig, weil es eben eine Logik erster Stufe ist,
+
+00:53.000 --> 01:00.000
+wird sie im Englischen manchmal zwar auch Prädikate Logic genannt,
+
+01:00.000 --> 01:06.000
+zumeist aber als FOL bezeichnet First Order Logic.
+
+01:06.000 --> 01:13.000
+Also wenn Sie das sehen, Prädikate Logic oder First Order Logic ist dasselbe.
+
+01:13.000 --> 01:18.000
+Ich nehme die Abkürzung FOL für First Order Logic,
+
+01:18.000 --> 01:25.000
+damit sie von der Propositional Logic, also der Aussagenlogik, besser zu unterscheiden ist.
+
+01:25.000 --> 01:30.000
+Was macht jetzt die Prädikatenlogik erster Stufe?
+
+01:30.000 --> 01:38.000
+Sie erweitert also das klassische Konzept der Logik, so wie wir sie bisher kennen,
+
+01:38.000 --> 01:44.000
+indem eine Aussage eine feste Zuordnung hat, wie zum Beispiel
+
+01:44.000 --> 01:52.000
+es regnet, als Ereignis sozusagen, um prädikative Aussagen.
+
+01:52.000 --> 02:01.000
+Das heißt zum Beispiel, die Farbe des Apfels ist grün.
+
+02:01.000 --> 02:15.000
+Dann ist ja sozusagen grün, bezogen auf den Apfel,
+
+02:15.000 --> 02:20.000
+genau die Spezialisierung der Eigenschaft Farbe.
+
+02:20.000 --> 02:26.000
+Ein Apfel hat eine Eigenschaft Farbe und ich drücke die Eigenschaft der Farbe des Apfels
+
+02:26.000 --> 02:33.000
+dadurch aus, dass ich es in Beziehung setze mit Grün.
+
+02:33.000 --> 02:38.000
+Nun ist Grün im Endeffekt nichts anderes als ein Term.
+
+02:38.000 --> 02:42.000
+Terme kommen jetzt also auch hinzu.
+
+02:42.000 --> 02:46.000
+Sie wissen das in prädikatenlogischen Formeln,
+
+02:46.000 --> 02:51.000
+finden Sie dann häufiger auch, ich sage mal jetzt schon, funktionale Ausdrücke.
+
+02:51.000 --> 02:58.000
+Das sind für uns, was wir Terme nennen.
+
+02:58.000 --> 03:05.000
+Besondere Terme, beziehungsweise das, was Prädikatenlogik
+
+03:05.000 --> 03:10.000
+bezüglich dem dritten Punkt auch erst richtig interessant macht,
+
+03:10.000 --> 03:15.000
+ist das Konzept der Variablen.
+
+03:15.000 --> 03:19.000
+In der Aussagenlogik hatten wir zwar sogenannte Aussagenvariablen,
+
+03:19.000 --> 03:24.000
+die dann jeweils über die Belegungsnutzung war oder falsch belegt wurden.
+
+03:24.000 --> 03:28.000
+In der Prädikatenlogik nutzen wir aber Variablen,
+
+03:28.000 --> 03:33.000
+die für bestimmte Mengen von Objekten stehen können.
+
+03:33.000 --> 03:40.000
+Sie sehen also, wenn wir eine Variable in unserer syntaktischen Prädikatenlogik nehmen,
+
+03:40.000 --> 03:46.000
+bilden wir die schon oder wollen wir für die schon Menge von Objekten in Bezug nehmen.
+
+03:46.000 --> 03:50.000
+Da sehen Sie bereits, dass diese Struktur, in der wir die prädikatenlogischen Formeln
+
+03:50.000 --> 03:54.000
+interpretieren wollen, wesentlich komplexer wird.
+
+03:54.000 --> 03:59.000
+Schließlich und letztendlich kommt noch Quantifikation hinzu.
+
+03:59.000 --> 04:04.000
+Ich habe Ihnen hier unten einfach mal zwei Formeln hingeschrieben,
+
+04:04.000 --> 04:08.000
+die Sie wahrscheinlich schon lesen können,
+
+04:08.000 --> 04:11.000
+wenn Sie das schon in anderen Vorlesungen gesehen haben.
+
+04:11.000 --> 04:14.000
+Hier steht also, würden Sie wahrscheinlich schon so sagen,
+
+04:14.000 --> 04:18.000
+für alle x gilt, wenn x eine natürliche Zahl ist, dann gibt es ein y,
+
+04:18.000 --> 04:24.000
+das eine natürliche Zahl ist und x ist kleiner als y plus eins.
+
+04:24.000 --> 04:26.000
+Das steht da.
+
+04:26.000 --> 04:30.000
+Oder hier unten steht, es gibt eine natürliche Zahl x
+
+04:30.000 --> 04:37.000
+und für alle anderen natürlichen Zahlen gilt, dass x mal y gleich x ist.
+
+04:37.000 --> 04:43.000
+Also man könnte zum Beispiel die Null nehmen,
+
+04:43.000 --> 04:49.000
+weil Null mal Null ist Null und das gilt für alle y
+
+04:49.000 --> 04:54.000
+und damit haben wir dieses x aus Null gefunden.
+
+04:54.000 --> 05:02.000
+Sie können also bereits, denke ich mal, prädikatenlogische Formeln lesen
+
+05:02.000 --> 05:08.000
+und haben bereits sozusagen ein intuitives Verständnis davon,
+
+05:08.000 --> 05:12.000
+weil Sie bereits wissen, was die natürlichen Zahlen sind,
+
+05:12.000 --> 05:15.000
+welche Gesetze in den natürlichen Zahlen sind,
+
+05:15.000 --> 05:19.000
+welche Terme Sie hinschreiben können,
+
+05:19.000 --> 05:22.000
+was die Bedeutung einer Variable ist
+
+05:22.000 --> 05:26.000
+und Sie interpretieren das bereits vollkommen intuitiv
+
+05:26.000 --> 05:28.000
+und können sozusagen so etwas sagen wie,
+
+05:28.000 --> 05:32.000
+diese Formel sieht so aus, als ob sie stimmt.
+
+05:32.000 --> 05:36.000
+Wir müssen das aber formal in den Griff kriegen.
+
+05:36.000 --> 05:47.000
+Kommen wir also zunächst zur Syntax der Prädikatenlogik.
+
+05:47.000 --> 05:51.000
+Die Prädikatenlogik, haben wir gesagt,
+
+05:51.000 --> 05:55.000
+konstituiert sich aus bestimmten syntaktischen Elementen,
+
+05:55.000 --> 05:59.000
+Variablen, Prädikaten, Termen, etc.
+
+05:59.000 --> 06:03.000
+Das Wichtigste ist also, wenn Sie an das Beispiel von eben denken,
+
+06:03.000 --> 06:05.000
+mit den natürlichen Zahlen,
+
+06:05.000 --> 06:09.000
+wir reden also über eine bestimmte Menge von Objekten,
+
+06:09.000 --> 06:11.000
+natürliche Zahlen.
+
+06:11.000 --> 06:13.000
+Denken Sie an lineare Algebra.
+
+06:13.000 --> 06:18.000
+Wir reden über Skalare und den Vektorraum oder irgendwie sowas.
+
+06:18.000 --> 06:21.000
+Entschuldigung, ja, genau, Vektorraum.
+
+06:21.000 --> 06:30.000
+Diese Elemente oder diese Grundmenge,
+
+06:30.000 --> 06:32.000
+über die wir reden und Aussagen treffen wollen,
+
+06:32.000 --> 06:36.000
+nennen wir auch eine Domäne.
+
+06:36.000 --> 06:40.000
+Den Begriff kennen Sie hoffentlich aus der diskreten Mathematik auch.
+
+06:40.000 --> 06:44.000
+Man nennt sie auch gerne Sorten oder Typen.
+
+06:44.000 --> 06:47.000
+Und man sagt einfach, okay, gut,
+
+06:47.000 --> 06:52.000
+wir nehmen einfach mal an, wir haben eine Menge von solchen Sorten
+
+06:52.000 --> 06:55.000
+oder von solchen Domänen.
+
+06:55.000 --> 06:59.000
+Also wir bauen uns unsere mathematische Struktur auf
+
+06:59.000 --> 07:02.000
+aus einer Menge von solchen Objekten
+
+07:02.000 --> 07:06.000
+und diesen Mengen geben wir als typengestimmte Bezeichnung.
+
+07:06.000 --> 07:11.000
+Zum Beispiel die natürlichen Zahlen.
+
+07:11.000 --> 07:19.000
+Als zweites braucht man dann eine Menge von Prädikatsymbolen.
+
+07:19.000 --> 07:32.000
+Das sind Symbole, mit denen wir
+
+07:32.000 --> 07:38.000
+Ausdrücke, die auf Objekte in diesen Domänen referieren,
+
+07:38.000 --> 07:40.000
+zueinander in Beziehung setzen können.
+
+07:40.000 --> 07:41.000
+Das sind Prädikate.
+
+07:41.000 --> 07:47.000
+Wie ich eben sagte, es gibt das Prädikat Farbe,
+
+07:47.000 --> 07:52.000
+das zum Beispiel Apfel mit Grün verbindet.
+
+07:52.000 --> 07:56.000
+Während also unsere Menge der Sorten
+
+07:56.000 --> 08:00.000
+einfach so eine Auflistung der Sortennamen ist,
+
+08:00.000 --> 08:05.000
+sind jetzt Prädikate dargestellt,
+
+08:05.000 --> 08:09.000
+werden dargestellt durch Prädikatsymbole
+
+08:09.000 --> 08:15.000
+und ein Prädikatsymbol wird gleichzeitig deklariert
+
+08:15.000 --> 08:22.000
+als ein Symbol, dessen Stelligkeit fest definiert ist.
+
+08:22.000 --> 08:28.000
+Also zum Beispiel, wenn Sie das Prädikatsymbol Farbe nehmen,
+
+08:28.000 --> 08:32.000
+dann nehmen Sie ein zweistelliges Prädikatsymbol,
+
+08:32.000 --> 08:37.000
+das eben als erstes Argument das Objekt nimmt,
+
+08:37.000 --> 08:39.000
+dessen Farbe Sie beschreiben wollen,
+
+08:39.000 --> 08:47.000
+und das zweite ist dann das Objekt der Domäne Farben.
+
+08:47.000 --> 08:52.000
+Das ist also eine Menge von Prädikatsymbolen, die wir brauchen.
+
+08:52.000 --> 08:57.000
+Als nächstes brauchen wir, um Terme zu bauen,
+
+08:57.000 --> 09:03.000
+noch so etwas wie Funktionssymbole.
+
+09:03.000 --> 09:06.000
+Und Funktionssymbole kennen Sie.
+
+09:06.000 --> 09:10.000
+Wann immer Sie eine Funktion definieren,
+
+09:10.000 --> 09:14.000
+geben Sie ja als erstes die Signatur der Funktion an.
+
+09:14.000 --> 09:16.000
+f geht von... nach...
+
+09:16.000 --> 09:20.000
+Und genau das machen wir bei der Deklaration von Funktionssymbolen.
+
+09:20.000 --> 09:24.000
+Ein Funktionssymbol einer bestimmten Stelligkeit
+
+09:24.000 --> 09:28.000
+nimmt also genau so viele Argumente an
+
+09:28.000 --> 09:32.000
+aus den entsprechenden Sorten oder Typen
+
+09:32.000 --> 09:38.000
+und liefert zurück ein Ergebnis einer bestimmten Sort.
+
+09:38.000 --> 09:43.000
+Ganz besonders dabei sind natürlich nullstellige Funktionssymbole.
+
+09:43.000 --> 09:47.000
+Nullstellige Funktionssymbole sind natürlich Funktionssymbole,
+
+09:47.000 --> 09:50.000
+die kein Argument nehmen,
+
+09:50.000 --> 09:52.000
+aber etwas zurückliefern,
+
+09:52.000 --> 09:57.000
+nämlich normalerweise ihren eigenen Wert.
+
+09:57.000 --> 10:02.000
+Was hier also jetzt sehr kompliziert dargestellt ist,
+
+10:02.000 --> 10:06.000
+kann man ein wenig vereinfachen,
+
+10:06.000 --> 10:08.000
+indem man nämlich einfach sagt...
+
+10:08.000 --> 10:11.000
+Ich schau mal, ob das auf der nächsten Folie steht.
+
+10:11.000 --> 10:13.000
+Ja, da kommt es gleich.
+
+10:13.000 --> 10:16.000
+Indem man nämlich davon ausgeht,
+
+10:16.000 --> 10:22.000
+diese explizite Nennung der Stelligkeit von Prädikaten etc.
+
+10:22.000 --> 10:26.000
+die lassen wir mal weg,
+
+10:26.000 --> 10:31.000
+weil wir davon ausgeht, wir verwenden sie konsistent.
+
+10:31.000 --> 10:36.000
+Also wir benutzen kein Prädikatsymbol Farbe,
+
+10:36.000 --> 10:44.000
+einmal als zweistelliges Prädikat und einmal als fünfstelliges Prädikat.
+
+10:44.000 --> 10:47.000
+Genauso eben bei den Funktionen.
+
+10:47.000 --> 10:50.000
+Die Addition nimmt immer zwei Argumente
+
+10:50.000 --> 10:52.000
+und liefert immer eins zurück.
+
+10:52.000 --> 10:56.000
+Und wir nehmen nicht dasselbe Additionssymbol plus
+
+10:56.000 --> 10:59.000
+für eine dreistellige Addition.
+
+10:59.000 --> 11:02.000
+Deswegen schreibt man ja auch immer ein Argument davor,
+
+11:02.000 --> 11:03.000
+ein Argument dahinter.
+
+11:03.000 --> 11:05.000
+Wenn man das so macht, gut in aller Welt,
+
+11:05.000 --> 11:06.000
+sollte man das kritisch machen.
+
+11:06.000 --> 11:09.000
+Darüber oder darunter, ich weiß es nicht.
+
+11:09.000 --> 11:13.000
+So, gucken Sie sich jetzt
+
+11:13.000 --> 11:16.000
+also nochmal eigentlich an,
+
+11:16.000 --> 11:18.000
+diese Formel hier,
+
+11:18.000 --> 11:23.000
+die Sie ja eigentlich schon in der Lage sind zu lesen.
+
+11:23.000 --> 11:32.000
+Wir sehen also, dass wir hier zum Beispiel einen Term haben,
+
+11:32.000 --> 11:36.000
+der gebaut wird aus dem Funktionssymbol plus
+
+11:36.000 --> 11:39.000
+mit den Argumenten y und 1.
+
+11:39.000 --> 11:42.000
+Wir könnten das also auch besser vielleicht so hinschreiben.
+
+11:42.000 --> 11:48.000
+Plus y, 1.
+
+11:48.000 --> 11:52.000
+So, hier sehen Sie,
+
+11:52.000 --> 11:58.000
+naja, offenbar bauen wir uns hier eine logische Formel zusammen.
+
+11:58.000 --> 12:01.000
+Mit dem und in der Mitte.
+
+12:01.000 --> 12:06.000
+Das heißt, wenn wir das als logisches Symbol sehen,
+
+12:06.000 --> 12:10.000
+müssen links und rechts davon eigentlich Aussagen stehen.
+
+12:10.000 --> 12:12.000
+Und diese Aussage, die hier steht,
+
+12:12.000 --> 12:15.000
+ist eine prädikative Aussage.
+
+12:15.000 --> 12:21.000
+Weil dieses Kleine ist ja eine Relation,
+
+12:21.000 --> 12:30.000
+die x und y plus 1 zueinander in Verbindung setzt.
+
+12:30.000 --> 12:37.000
+Wir haben also hier schon sozusagen ein Prädikat.
+
+12:37.000 --> 12:41.000
+Bist du sicher, dass du nicht im WLAN bist?
+

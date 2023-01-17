@@ -1,0 +1,140 @@
+WEBVTT
+
+00:00.000 --> 00:11.000
+Nun, wie wir eben festgestellt haben, lässt sich eine wunderbare Äquivalenz zwischen
+
+00:11.000 --> 00:14.920
+verschiedenen Ausdrücken von Konjunktion und Disjunktion darstellen unter der Verwendung
+
+00:14.920 --> 00:15.920
+der Negation.
+
+00:15.920 --> 00:27.680
+Man kann es auch so hinschreiben, indem man sagt, P und Q ist gleich der Negation von
+
+00:27.680 --> 00:33.560
+nicht P oder nicht Q, das heißt, man hat hier einmal sozusagen die Legislation herübergezogen.
+
+00:33.560 --> 00:41.480
+Das gäbe es durchaus dementsprechend auch als Übung zu beweisen.
+
+00:41.480 --> 00:57.240
+Allgemein ist das durchaus bekannt als das sogenannte de Morganische Gesetz, worauf es
+
+00:57.240 --> 01:06.200
+mir aber jetzt in diesem Falle ankommt, ist einfach die Tatsache, dass man im Endeffekt
+
+01:06.200 --> 01:12.480
+die Konjunktion gar nicht braucht, wenn man die Disjunktion und die Negation hat.
+
+01:12.480 --> 01:21.160
+Das Interessante ist, das Gleiche gilt auch im sogenannten dualen Fall.
+
+01:21.160 --> 01:26.280
+Auch diese Äquivalenz ist gültig.
+
+01:26.280 --> 01:34.600
+Man kann sich also die Disjunktion sparen, wenn man die Konjunktion und die Negation
+
+01:34.600 --> 01:35.600
+hat.
+
+01:35.600 --> 01:45.840
+Und das hier kennen Sie im Endeffekt als etwas, als eine sogenannte Operatorbasis, das heißt,
+
+01:45.840 --> 01:52.600
+eine kleinstmögliche Menge von Operatoren, die ausreicht, um alle logischen Operationen
+
+01:52.600 --> 01:53.600
+auszuführen.
+
+01:53.600 --> 01:56.520
+Das lernen Sie in der Logik-Vorlesung.
+
+01:56.520 --> 01:59.040
+Nun, allerdings fehlt eines noch.
+
+01:59.040 --> 02:08.960
+Und dazu könnte man gerne Folgendes beweisen wollen, nämlich, dass P impliziert Q, also
+
+02:08.960 --> 02:17.080
+hier impliziert im Sinne der Subjunktion, äquivalent ist zu nicht P oder Q.
+
+02:17.080 --> 02:24.560
+Auch das würde man nach unseren einfachen Methoden wieder mit einer Wahrheitstabelle
+
+02:24.560 --> 02:33.240
+machen, dass solche Beweise in der Regel oder später unsinnig sind, das lernen Sie auch
+
+02:33.240 --> 02:39.400
+in der Logik-Vorlesung, aber für uns hier soll es erst einmal reichen, dann stellt
+
+02:39.400 --> 02:54.080
+man fest, dass sich für die Implikation natürlich, upsala, das hier ergibt, ja, so, für das
+
+02:54.080 --> 03:07.920
+nicht P einfach nur die Negation hiervon, 1, 1, 0, 0, ja, und für nicht P oder Q dann
+
+03:07.920 --> 03:19.960
+die Subjunktion hierauf, also 1 von hier, 1 von beiden, dann 0 oder 0 ergibt, ja, also
+
+03:19.960 --> 03:28.520
+Q und nicht P, ja, also nicht P oder Q ergibt 0 und hier haben wir wieder die 1 und wieder
+
+03:28.520 --> 03:36.080
+ist hier und hier für diese beiden Formen die Gleichheit gezeigt.
+
+03:36.080 --> 03:52.000
+Das heißt, Subjunktion durch Disjunktion und Negation darstellen.
+
+03:52.000 --> 04:02.360
+Jetzt gibt es noch einen ganz, ganz tollen Trick.
+
+04:02.360 --> 04:10.160
+Es ist nämlich auch möglich, die Negation durch die Implikation darzustellen und zwar
+
+04:10.160 --> 04:24.560
+indem man sagt, nicht P ist äquivalent zu P impliziert F, ja, was heißt das?
+
+04:24.560 --> 04:37.200
+Nun ja, wir haben ja für die möglichen Wahrheitswerte von P, 0 und 1, die Negation davon ist also
+
+04:37.200 --> 04:51.840
+1 und 0, betrachten wir jetzt die Implikation von P und F, dann haben wir für die möglichen
+
+04:51.840 --> 05:03.160
+Wahrheitswerte von F ja immer 0, ja, und wenn wir uns jetzt anschauen, 0 impliziert 0 ist
+
+05:03.160 --> 05:14.200
+nach der Definition der Subjunktion wahr und 1 impliziert 0 ist nach Definition der Subjunktion
+
+05:14.200 --> 05:29.400
+falsch und auch hier haben wir jetzt für diese beiden Formen die Äquivalenz gezeigt.
+
+05:29.400 --> 05:36.680
+Wir können also die Implikation darstellen oder die Negation darstellen durch die Implikation
+
+05:36.680 --> 05:47.120
+unter der Verwendung unseres speziellen Auslagens und Goals F für den Wert falsch, wenn wir
+
+05:47.120 --> 05:48.120
+ihn haben.
+
+05:48.120 --> 05:59.200
+Eine andere Möglichkeit ist es zum Beispiel, wenn man versucht, die Menge aller logischen
+
+05:59.200 --> 06:07.800
+Operatoren weiter herunterzubrechen, einen sogenannten Not-and-Operator zu definieren,
+
+06:07.800 --> 06:12.600
+der dann im Endeffekt durch eine geschickte Verschaltung der Argumente mit sich selber
+
+06:12.600 --> 06:13.600
+genauso funktioniert.
+
+06:13.600 --> 06:22.760
+Gut, das soll es im Endeffekt für diesen kleinen, oder Moment, ich muss mal kurz schauen,
+
+06:22.760 --> 06:39.520
+nein, jetzt gibt es noch, nein, das war's, gut.
+

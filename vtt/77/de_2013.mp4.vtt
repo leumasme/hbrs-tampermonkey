@@ -1,0 +1,287 @@
+WEBVTT
+
+00:00.000 --> 00:12.000
+Also, wir hatten uns ja schon mit dem Sequenzenkalkül ein wenig beschäftigt.
+
+00:12.000 --> 00:22.000
+Und ich möchte zur Wiederholung einfach nur noch mal sagen oder Ihnen klar machen,
+
+00:22.000 --> 00:35.000
+dass auch wenn es im ersten Moment schwierig erscheint, dass wir irgendwie in Anführungszeichen eine neue Sprache von neuen Formeln eben diese Sequenzen haben,
+
+00:35.000 --> 00:45.000
+das Sequenzenkalkül extrem gut zu handhaben ist.
+
+00:45.000 --> 00:58.000
+Es ist eigentlich, wenn man ein bisschen die anfänglichen Bedenken etwas Neues zu benutzen überwunden hat,
+
+00:58.000 --> 01:06.000
+einfacher zu lesen oder natürlicher zu lesen als zum Beispiel ein Resolutionsbeweis.
+
+01:06.000 --> 01:18.000
+Obwohl, sagen wir mal von der technischen Seite aus, ein Resolutionsbeweis gegebenenfalls einfacher durchzutragen ist.
+
+01:18.000 --> 01:25.000
+Ich habe Ihnen immer gesagt, wenn Sie einen Resolutionsbeweis machen, müssen Sie nur rechnen.
+
+01:25.000 --> 01:31.000
+Und in der Tat ist es eigentlich auch so, dass das Rechnen und das Streichen der komplementären Paare
+
+01:31.000 --> 01:37.000
+eine rein technische Variante ist oder ein rein technisches Vorgehen.
+
+01:37.000 --> 01:41.000
+Denn wenn Sie eine riesengroße Klauselmenge auf Ihrem Papier stehen haben,
+
+01:41.000 --> 01:52.000
+haben Sie ja nicht mehr im Hinterkopf sozusagen, was die Bedeutung der einzelnen Klauselmengen ist.
+
+01:52.000 --> 02:02.000
+Die intendierte Bedeutung dieser Klauselmengen oder die Bedeutung dieser Klauselmengen leitet sich ja aus der Bedeutung der Formeln ab,
+
+02:02.000 --> 02:08.000
+die Sie ursprünglich aufgestellt haben und die haben ja eine intendierte Bedeutung.
+
+02:08.000 --> 02:16.000
+Der Vorteil jetzt bei diesem Sequenzenkalkül ist, dass Sie diese Formeln ja nicht in eine Klauselform bringen müssen.
+
+02:16.000 --> 02:33.000
+Das heißt, was Sie immer sehen, sind Sequenzen von Formeln, die einfacher auf Ihre Bedeutung für Sie im Kopf abbildbar sind
+
+02:33.000 --> 02:42.000
+und deswegen mit Ihrem Verständnis oder unter Zuhilfenahme Ihres Verständnisses von den Formeln
+
+02:42.000 --> 02:49.000
+den Beweis strukturierter und einfacher angehen können als zum Beispiel im Resultat.
+
+02:49.000 --> 02:53.000
+Ich hoffe, das wird nachher durch ein paar Beispiele klarer.
+
+02:53.000 --> 02:56.000
+Gehen wir nochmal kurz durch.
+
+02:56.000 --> 03:06.000
+Wir hatten uns den Gültigkeitsbegriff genommen und wir hatten uns im Endeffekt, wenn ich mich recht entsinne,
+
+03:06.000 --> 03:16.000
+auch schon alle Regeln uns definiert und vor allen Dingen sogar auch schon die Korrektheitsbeweise für diese Regeln gemacht.
+
+03:16.000 --> 03:25.000
+Ganz klar als Axiom haben wir gesagt P, Sequenzenimplikation P.
+
+03:25.000 --> 03:31.000
+Was ebenso viel heißt, dass wenn wir die Semantik von Sequenzen nehmen,
+
+03:31.000 --> 03:39.000
+jedes normale prädikatenlogische Modell von P auch ein prädikatenlogisches Modell von P ist,
+
+03:39.000 --> 03:46.000
+was ja nun mal wahr ist und deswegen nehmen wir das als Axiom.
+
+03:46.000 --> 03:59.000
+Darauf aufbauend haben wir dann, das war der falsche Rechner, haben wir dann sehr viele Regeln uns gebaut,
+
+03:59.000 --> 04:05.000
+die aufzuteilen sind in die sogenannten strukturellen Regeln,
+
+04:05.000 --> 04:12.000
+wo wir sowas wie die Identpotenz der Konjunktion haben und der Disjunktion oder auch die Kommutativität
+
+04:12.000 --> 04:16.000
+und es ist tatsächlich so, dass es Varianten dieses Kalküls gibt,
+
+04:16.000 --> 04:24.000
+die sage ich mal auf diese Regeln oder diese Regeln explizit hinzuschreiben, die darauf verzichten,
+
+04:24.000 --> 04:29.000
+bis auf die weakening Regeln natürlich.
+
+04:29.000 --> 04:37.000
+Weil, naja, warum? Das sind im Endeffekt einfache notationelle Varianten.
+
+04:37.000 --> 04:43.000
+Eine Ausnahme bildet die sogenannte Cut-Regel.
+
+04:43.000 --> 04:57.000
+Die Cut-Regel sagt jetzt im Endeffekt Folgendes, dass sie eine Kette von logischen Implikationen bilden können,
+
+04:57.000 --> 05:05.000
+wenn es ein verbindendes Element in solchen beiden Sequenzen gibt.
+
+05:05.000 --> 05:14.000
+Also wenn Sie hier eine logische Implikation haben, die unter anderem auf der rechten Seite erfüllt ist,
+
+05:14.000 --> 05:25.000
+wenn wir ein Modell von P haben, dann können wir daraus schließen, dass wenn wir hier eine gültige Sequenz haben,
+
+05:25.000 --> 05:31.000
+die, weil das hier ja eine Konjunktion ist, auf jeden Fall auch P wahr macht,
+
+05:31.000 --> 05:37.000
+unter der Bedingung, dass auch R wahr ist, es folgt.
+
+05:37.000 --> 05:47.000
+Das heißt, wir können das P, das ja wahr sein muss und deswegen diese Sequenz hier hinten wahr macht, weglassen,
+
+05:47.000 --> 05:59.000
+sodass wir direkt aus diesen beiden Prämissen P und R auf die Disjunktion der Konklusionen schließen können.
+
+05:59.000 --> 06:06.000
+Das ist die Cut-Regel und die ist durchaus verwandt mit der Resonationsregel.
+
+06:06.000 --> 06:13.000
+Das Interessante an diesem Kalkül LH ist, das werden Sie sich vielleicht wundern bei den Beweisen,
+
+06:13.000 --> 06:18.000
+die ich nachher als Beispiel nenne, dass die Cut-Regel gar nicht vorkommt.
+
+06:18.000 --> 06:29.000
+Und in der Tat ist es so, diese Cut-Regel nimmt man natürlich mit rein, weil sie das eben moduliert.
+
+06:29.000 --> 06:40.000
+Aber eines der interessantesten Eigenschaften dieses Kalküls ist im sogenannten Hauptsatz von Genzen formuliert,
+
+06:40.000 --> 06:45.000
+nämlich, dass man diese Regel sogar aus dem Kalkül weglassen kann.
+
+06:45.000 --> 06:54.000
+Man braucht sie gar nicht und dieser Sequenzen-Kalkül bleibt dennoch korrekt sowieso, aber auch vollständig.
+
+06:54.000 --> 07:05.000
+Gut, wir haben uns dann mit der Korrektheit der verschiedenen Regeln beschäftigt.
+
+07:05.000 --> 07:19.000
+Insbesondere, daran entsinne ich mich noch, habe ich Sie auch in einem schnellen Gewaltritt durch den Beweis
+
+07:19.000 --> 07:25.000
+dieser Cut-Regel, die ich eben angesprochen habe, durchgejagt.
+
+07:25.000 --> 07:41.000
+Und zwar war es mir bei diesem Beweis eben auch wichtig, dass Sie gesehen haben, wie man die normal algebraischen Gesetze,
+
+07:41.000 --> 07:53.000
+sage ich jetzt mal, und die Technik der Abschätzung nutzen kann, um eben relativ einfach
+
+07:53.000 --> 07:59.000
+und ohne viele Variablen und so weiter die Gültigkeit in solchen Regeln zu zeigen.
+
+07:59.000 --> 08:05.000
+Aber wie gesagt, das haben wir ja im Detail schon letztes Mal gemacht und da müssen wir jetzt gar nicht mehr groß drauf eingehen.
+
+08:05.000 --> 08:12.000
+Die Beweise, die gebe ich Ihnen ja, weil ich Ihnen kein Werkzeug an die Hand geben will,
+
+08:12.000 --> 08:26.000
+von dem ich Ihnen nicht auch gesagt habe, dass Sie dieses Werkzeug mit Sicherheit benutzen können, ohne dass Sie sich damit verletzen.
+
+08:26.000 --> 08:29.000
+Deswegen die Korrektheitsbeweisung.
+
+08:29.000 --> 08:47.000
+Gut, es kamen dann die Junkturregeln dazu. Es geht ja darum, einen logisch gültigen Schluss als eine Sequenz darzustellen.
+
+08:47.000 --> 08:56.000
+Und wenn ich jetzt diesen logischen oder die Gültigkeit dieses logischen Schlusses beweisen möchte,
+
+08:56.000 --> 09:02.000
+muss ich halt so, und das ist jetzt der andere Gültigkeitsbegriff, der Gültigkeitsbegriff des logischen Schlusses,
+
+09:02.000 --> 09:12.000
+den logischen Schluss stelle ich dann als Sequenz dar und ich muss dann mit dem Gültigkeitsbegriff für Sequenzen,
+
+09:12.000 --> 09:19.000
+der auch den Gültigkeitsbegriff der Prädikaten der logischen Formen aufbaut, eben die Gültigkeit dieser Sequenz zeigen.
+
+09:19.000 --> 09:24.000
+Jetzt haben wir eben das Problem, dass wir diese Sequenz erzeugen müssen.
+
+09:24.000 --> 09:34.000
+Sie können also wirklich davon ausgehen, dass das, was Sie beweisen wollen, irgendwo, sagen wir mal, unten steht.
+
+09:34.000 --> 09:44.000
+Also Sie wollen irgendetwas beweisen, wo aus der Negation einer Formel P mit irgendwas anderem Q folgt.
+
+09:44.000 --> 09:51.000
+Jetzt haben Sie aber nur eine Aktion, das eben sagt, aus P folgt P.
+
+09:51.000 --> 09:56.000
+Sie müssen also irgendwie ein nicht P erzeugen können.
+
+09:56.000 --> 10:01.000
+Und dazu haben wir diese Einführungsregeln.
+
+10:01.000 --> 10:06.000
+Also wir können zum Beispiel auf der linken Seite eine Negation erzeugen,
+
+10:06.000 --> 10:13.000
+ja wenn wir vorher auf der rechten Seite eben die positive Variante der Formel hatten.
+
+10:13.000 --> 10:15.000
+Wir können es auf der rechten Seite machen.
+
+10:15.000 --> 10:23.000
+Wir können zwei Formeln aus dieser Formelmenge, die ja als Konjunktion gelesen wird, zu einer Konjunktion zusammenfassen.
+
+10:23.000 --> 10:26.000
+Rechts können wir das mit einer Disjunktion machen.
+
+10:26.000 --> 10:32.000
+Und natürlich ist es dann ein bisschen spannender, was man mit der Subjunktion macht.
+
+10:32.000 --> 10:41.000
+Hier können Sie sich vorstellen, naja, P, Subjunktion, Q, nicht P oder Q, einmal Rangierregel, fertig.
+
+10:41.000 --> 10:43.000
+Hier ist es ein bisschen schwieriger.
+
+10:43.000 --> 10:52.000
+Hier müssen Sie, wenn die Subjunktion in der Prämisse steht, müssen wir eben einmal zeigen,
+
+10:52.000 --> 11:02.000
+dass hier mit der Konklusion hier vorne und mit der Prämisse hier hinten.
+
+11:02.000 --> 11:14.000
+Ja, ein bisschen ähnlich wie, ja, genau, okay.
+
+11:14.000 --> 11:27.000
+Als Device, ja, konnten wir uns überlegen, wie ist denn das, wenn wir die Gültigkeit irgendwie eines Aktiones oder,
+
+11:27.000 --> 11:31.000
+nein, nein, wenn wir die Gültigkeit einer Tautologie zeigen wollen.
+
+11:31.000 --> 11:35.000
+Dann wissen wir ja, eine Tautologie gilt unter jeder Interpretation.
+
+11:35.000 --> 11:38.000
+Das heißt, sie folgt eigentlich aus dem Nichts.
+
+11:38.000 --> 11:44.000
+Deswegen ist hier auch die linke Seite dieser Sequenz leer.
+
+11:44.000 --> 11:56.000
+Wir müssen also diese Sequenz hier erzeugen, um zu beweisen, dass P, Subjunktion, Q, Subjunktion, P, eine Tautologie ist.
+
+11:56.000 --> 12:04.000
+Und das kann man relativ einfach machen, weil das wirklich kein schwieriges Problem ist.
+
+12:04.000 --> 12:10.000
+Ja, man fängt mit einer Aktion an, sagt P, P, P, dann wendet man die Abschwächungsregel an,
+
+12:10.000 --> 12:18.000
+schreibt auf der linken Seite ein Q dazu, dann hat man die Regel zur Anwendung der Implikationseinführung
+
+12:18.000 --> 12:26.000
+auf der rechten Seite, zieht das Q hier rüber in die Bremse dieser Subjunktion,
+
+12:26.000 --> 12:38.000
+und kann dann nochmal die Implikationseinführung anwenden mit Hilfe dieses Ps, das man dann hier hinzieht.
+
+12:38.000 --> 12:45.000
+Und schon hat man unter Anwendung der Regeln, die wir haben, aus dem Aktion,
+
+12:45.000 --> 12:52.000
+eigentlich ist das ja ein axiomen Schema, diese Sequenz abgeleitet und hat gezeigt,
+
+12:52.000 --> 13:15.000
+dass in der Tat diese Formel hier eine Tautologie ist.
+

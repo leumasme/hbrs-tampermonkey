@@ -1,0 +1,110 @@
+WEBVTT
+
+00:00.000 --> 00:19.400
+Gut, also wie Sie eben schon richtig bemerkt haben, gilt das, habe ich die
+
+00:19.400 --> 00:27.360
+Gültigkeit dieser Quantokengesetze für die Distribution eben bei den
+
+00:27.360 --> 00:32.040
+Altquantoren nur für die Konjunktion genannt und bei den Existenzquantoren nur für
+
+00:32.040 --> 00:37.280
+die Disjunktion und das habe ich mit gutem Grund gemacht, weil es eben nicht gilt,
+
+00:37.280 --> 00:43.440
+dass der Altquantor über eine Disjunktion distribuiert und der
+
+00:43.440 --> 00:51.360
+Existenzquantor nicht über die Konjunktion. So, schauen wir uns dieses Beispiel hier an.
+
+00:51.360 --> 01:00.360
+Vergessen Sie diese Vorbemerkung. Wir gucken uns mal an, was passiert, wenn wir uns die
+
+01:00.360 --> 01:06.120
+Formeln für den Altquantor und die Disjunktion anschauen. Wir haben also
+
+01:06.120 --> 01:17.640
+sozusagen einmal die Formel für alle x, p von x oder q von x und hier wähle ich
+
+01:17.640 --> 01:25.400
+jetzt mal die Formeln p und q so, also für alle x, p oder q und die Formeln p, q
+
+01:25.400 --> 01:31.480
+wähle ich jetzt so, dass hier steht p ist die Formel px und q ist die Formel
+
+01:31.480 --> 01:44.000
+nicht px. Ist ja egal. Natürlich sagen oder ich sage jetzt einfach mal, die
+
+01:44.000 --> 01:52.920
+Formel für alle x, px oder nicht px gilt. Aber wenn jetzt die Äquivalenz
+
+01:52.920 --> 02:00.000
+gelten würde für das über die über die Disjunktion rausgezogene
+
+02:00.000 --> 02:05.600
+Altquantifizieren, dann müsste ja auch gelten für alle x gilt p von x oder für
+
+02:05.600 --> 02:15.080
+alle x gilt nicht p von x. Das ist aber eben nicht der Fall. Also wenn wir uns
+
+02:15.080 --> 02:19.400
+hier überlegen, was könnte denn p von x bedeuten, nehmen wir die natürlichen
+
+02:19.400 --> 02:26.880
+Zahlen und sagen wir mal p von x bedeutet x ist gerade. Dann gilt natürlich, dass
+
+02:26.880 --> 02:33.200
+alle Zahlen gerade sind oder ungerade. Für jede Zahl x gilt, x ist gerade oder x
+
+02:33.200 --> 02:43.000
+ist nicht gerade. Aber hier steht jetzt für alle x gilt, x ist gerade oder für
+
+02:43.000 --> 02:49.400
+alle x gilt, x ist nicht ungerade. Das heißt diese Formel hier wäre nur
+
+02:49.400 --> 02:55.080
+dann wahr, wenn es nur gerade Zahlen gäbe oder nur ungerade und das ist offenbar
+
+02:55.080 --> 03:05.000
+falsch. Es gibt sowohl gerade als auch ungerade. Deswegen muss man eben bei
+
+03:05.000 --> 03:11.600
+der Altquantifikation und der Disjunktion aufpassen. Genauso oder ähnlich ist es für
+
+03:11.600 --> 03:17.240
+Existenz den Existenzkonto und die Konjunktion. Schauen wir uns einfach mal
+
+03:17.240 --> 03:20.920
+an. Es gibt natürlich eine Primzahl und es
+
+03:20.920 --> 03:25.480
+gibt eine Zahl, die durch 42 teilbar ist.
+
+03:27.400 --> 03:30.400
+84.
+
+03:34.200 --> 03:42.280
+Was steht da? Ach so, ja genau. Es existiert eine Primzahl in zum Beispiel 3 und es
+
+03:42.280 --> 03:49.360
+existiert eine durch 42 teilbare Zahl, nämlich 42. Aber es existiert natürlich
+
+03:49.360 --> 03:57.160
+keine Zahl, die sowohl eine Primzahl ist als auch durch 42 teilbar, weil 42
+
+03:57.160 --> 04:06.560
+hat den Primfaktor 7 und sogar 2 ist sogar gerade. Das heißt es gibt
+
+04:06.560 --> 04:17.200
+keine Zahl, die eine Primzahl sein kann und durch 42 teilbar ist. Also sie sehen
+
+04:17.200 --> 04:20.840
+genauso wie man bei der Altquantifikation und der Disjunktion
+
+04:20.840 --> 04:28.440
+aufpassen muss, muss man auch bei der Existenzkvantifikation und der
+
+04:28.440 --> 04:47.600
+Konjunktion aufpassen.
+

@@ -1,0 +1,119 @@
+WEBVTT
+
+00:00.000 --> 00:14.800
+Dann definieren wir uns jetzt mal streng, was wir unter einem logischen Schluss, einer
+
+00:14.800 --> 00:20.000
+logischen Implikation, einer Folgerung verstehen wollen.
+
+00:20.000 --> 00:26.320
+Man nennt es im Englischen auch Entailment, wird nicht immer so genannt, manche nennen
+
+00:26.320 --> 00:27.320
+es auch Implikation.
+
+00:27.320 --> 00:32.880
+Sie wissen inzwischen, ich versuche den Begriff Implikation zu vermeiden, wo immer es nur
+
+00:32.880 --> 00:41.200
+geht, weil, wie Sie auch wissen, das häufig dazu führt, dass Implikation und Subjunktion
+
+00:41.200 --> 00:43.200
+durcheinander geworfen werden.
+
+00:43.200 --> 00:54.440
+Ok, also, und dazu wollen wir dieses Symbol verwenden, das so ähnlich wie die Erfüllbarkeitsrelation
+
+00:54.440 --> 01:01.080
+aussieht, allerdings eben mit so einem geschwungenen Gleich.
+
+01:01.080 --> 01:04.880
+Warum ich dieses Symbol genommen habe, ist ganz einfach, wenn das Entailment heißt,
+
+01:04.880 --> 01:09.920
+dann ist da ein Tail drin und das sieht halt so ein bisschen aus, als würde dieses Symbol
+
+01:09.920 --> 01:13.480
+mit dem Schwanz beteln.
+
+01:13.480 --> 01:28.320
+Gut, also, wir sagen, dass eine Formel P aus einer Menge von Formeln P folgt, logisch
+
+01:28.320 --> 01:43.880
+folgt oder dass P, Groß-P, Klein-P logisch impliziert oder was auch immer, genau dann,
+
+01:43.880 --> 01:57.120
+wenn, wann immer P erfüllt ist, das heißt, wann immer wir eine Interpretation mit einer
+
+01:57.120 --> 02:06.120
+Belegung haben, die ein Modell von P ist, also wann immer wir eine Interpretation haben,
+
+02:06.120 --> 02:21.040
+die jede Formel in Groß-P wahrmacht, muss auch P erfüllt sein, das heißt, dass ein
+
+02:21.040 --> 02:32.240
+Modell von Groß-P ist auch immer ein Modell von Klein-P, das heißt, wenn alle Formeln
+
+02:32.240 --> 02:46.920
+in Groß-P zu true ausgewertet werden, wird auch die Formel Klein-P zu true ausgewertet,
+
+02:46.920 --> 02:54.760
+also deswegen steht hier unten, jedes Modell von Groß-P ist auch ein Modell von Klein-P.
+
+02:54.760 --> 02:57.920
+Was heißt das jetzt?
+
+02:57.920 --> 03:13.960
+Schauen wir uns nochmal an, wir hatten ja den Begriff der Erfüllungsmenge, also die
+
+03:13.960 --> 03:20.800
+Menge der Belegungen, die bei einer Interpretation alle Formeln in P wahrmacht, wir können
+
+03:20.800 --> 03:27.680
+uns das jetzt mal vorstellen, als eine Menge von Welten, also die Aussagenvariable, es
+
+03:27.680 --> 03:32.400
+regnet, ist in einer Welt wahr und in einer anderen ist es falsch, hier ist es momentan
+
+03:32.400 --> 03:43.920
+falsch, bei Ihnen zu Hause, andere Welt, ist es vielleicht gerade wahr, also, die Erfüllungsmenge
+
+03:43.920 --> 03:58.680
+von P ist jetzt aber die Menge all der Welten, in denen alle Pi aus P wahr werden, gut, jetzt
+
+03:58.680 --> 04:08.640
+gucken wir uns die mal an, wir haben in unserem Multiversum jetzt also eine kleine Menge von
+
+04:08.640 --> 04:17.840
+Universen ausgesucht oder Welten ausgesucht, in denen P erfüllt ist, wenn jetzt in all
+
+04:17.840 --> 04:29.360
+diesen Welten, in denen alle Formeln aus Groß-P erfüllt sind, auch Klein-P gilt, was wissen
+
+04:29.360 --> 04:30.360
+wir denn dann?
+
+04:30.360 --> 04:40.040
+Nun ja, dann wissen wir, dass die Menge aller Welten, die Groß-P wahrmachen, eine Teilmenge
+
+04:40.040 --> 04:51.640
+der Menge ist, die auch Klein-P wahrmachen, also, sobald wir wissen, dass wir eine Welt
+
+04:51.640 --> 05:00.160
+erwischt haben, in der alle Formeln aus Groß-P wahr sind, sind wir automatisch auch in einer
+
+05:00.160 --> 05:10.080
+Welt, in der Klein-P wahr ist, und das heißt, wenn wir wissen, dass, ja, genau das, was
+
+05:10.080 --> 05:16.920
+ich gesagt habe, und das heißt, dass das Wissen, in einer Welt zu sein, die Groß-P erfüllt,
+
+05:16.920 --> 05:23.480
+ausreicht, um zu sagen, dass wir auch in einer Welt sind, in der Klein-P wahr ist, und das
+
+05:23.480 --> 05:30.360
+heißt nichts anderes, als dass wir aus dem Wissen über Groß-P schlussfolgern können,
+
+05:30.360 --> 05:57.080
+dass Klein-P auch wahr ist, ja, also, wenn Groß-P gilt, dann folglich auch Klein-P.
+

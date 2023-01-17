@@ -1,0 +1,338 @@
+WEBVTT
+
+00:00.000 --> 00:11.560
+hier zunutze gemacht. Wir haben uns definiert, wie wir Terme auswerten wollen. Wir wissen,
+
+00:11.560 --> 00:18.520
+wie wir Prädikatsymbole interpretieren wollen. Wir haben uns dadurch die Interpretation atomarer
+
+00:18.520 --> 00:30.920
+Formeln definiert und haben dann die Semantik komplexer Formeln definiert, indem wir eben
+
+00:30.920 --> 00:41.560
+rekursiv auf die Interpretation anderer Formeln P und Q zurückgreifen, aber eben die logischen
+
+00:41.560 --> 00:51.640
+Operatoren, die man benutzt, um komplexe Formeln zu bilden, deren Interpretation uns im Endeffekt
+
+00:51.640 --> 01:02.480
+aus der Aussagenlogik geborgt, was ja geht, weil das, was hier steht, ja im Endeffekt wiederum
+
+01:02.480 --> 01:08.040
+nichts anderes ist als eine Aussage über die Gründlichkeit einer prädikatmologischen Form.
+
+01:08.040 --> 01:15.120
+Und diese Aussage wiederum kann wahr oder falsch sein. Das heißt, wir können dann diese Wahr-
+
+01:15.120 --> 01:21.520
+oder Falschaussagen mit den Operatoren, wie wir sie aus der Aussagenlogik kennen,
+
+01:21.520 --> 01:28.720
+zum Beispiel in einem burschen Verband, entsprechend interpretieren. Das waren die
+
+01:28.720 --> 01:39.920
+komplexen Formeln mit den logischen Operatoren. Und da kamen dann noch hinzu natürlich die
+
+01:39.920 --> 01:47.440
+Quantoren. Wir konnten natürlich auch prädikatmologische Formeln noch quantifizieren,
+
+01:47.440 --> 01:55.840
+indem man ein Allquantor oder ein Existenzquantor davor schreibt. Das war ja erst mal
+
+01:55.840 --> 02:02.440
+einfach nur ein syntaktisches Konstrukt. Und man hat eben gesagt, gut, also eine Formel,
+
+02:02.440 --> 02:10.760
+in der das x universell quantifiziert wird, soll als wahr interpretiert werden, wenn die Formel
+
+02:10.760 --> 02:23.520
+im Skobus dieses Quantors als wahr interpretiert wird und zwar für alle möglichen Werte, die das
+
+02:23.520 --> 02:30.160
+x in dieser Formel p anhängen kann. Entsprechend war es für die existenziell quantifizierten
+
+02:30.160 --> 02:34.960
+Formeln, da haben wir halt gesagt, ja, wenn wir uns halt diese Bewegungsfunktion angucken,
+
+02:34.960 --> 02:42.960
+dann muss es eben einen Wert aus unserem Universum geben, der, wenn wir das in dieser Struktur
+
+02:42.960 --> 02:50.560
+interpretieren, für x eingesetzt wird, diese Formel wahr macht. Gut, so weit haben wir gekommen.
+
+02:50.560 --> 02:54.480
+Ja, also eigentlich könnte man sagen, so, wir haben die Semantik, jetzt machen wir weiter,
+
+02:54.480 --> 03:00.480
+aber man sollte sich das natürlich schon noch mal ein bisschen im Beispiel angucken.
+
+03:00.480 --> 03:11.280
+Dazu springe ich jetzt erst mal hier kurz drüber weg und sage einfach nur, dass es natürlich auch
+
+03:11.280 --> 03:19.400
+so etwas gibt wie das Koinzidenzlämmer für Aussagenlogik, gibt es auch in der Prädikatenlogik,
+
+03:19.400 --> 03:29.920
+mit anderen Worten, man darf Bewegungsfunktionen verändern und wenn man sie an den Stellen ändert,
+
+03:29.920 --> 03:34.720
+die für eine Interpretation nicht relevant sind, dann ändert sich an der Interpretation nichts.
+
+03:34.720 --> 03:43.680
+Das braucht man später, wenn es um Quantongesetze geht. Aber wie gesagt, da möchte ich kurz drüber
+
+03:43.680 --> 03:50.280
+springen. Ebenso möchte ich hinweg springen über, und deswegen ist es auch mit drei Punkten
+
+03:50.280 --> 04:00.000
+gekennzeichnet, über das Thema der Gleichheit. Da kann man auch beliebig komplizierte Überlegungen
+
+04:00.000 --> 04:05.520
+anstellen. Ich möchte nicht darauf eingehen, wenn wir ein Gleich benutzen, benutzen wir einfach
+
+04:05.520 --> 04:14.120
+ein Gleich. Wir wissen, was ein Gleich in unseren Strukturen, in denen wir Formeln interpretieren,
+
+04:14.120 --> 04:19.320
+bedeuten soll. Damit ist für uns an dieser Stelle auf diesem Level der Käse gegessen.
+
+04:19.320 --> 04:38.400
+Kommen wir erst jetzt noch dazu, welche weiteren Begriffe, die wir ja für Logiken definiert haben
+
+04:38.400 --> 04:45.360
+wollen, in der Prädikatenlogik haben. Es ist ganz klar, genauso wie wir es vorher schon hatten,
+
+04:45.360 --> 04:49.000
+wir wollen über Wahrheit sprechen, wir wollen über Erfüllbarkeit, Gründigkeit und Modelle
+
+04:49.000 --> 04:57.160
+sprechen. Und genau das Gleiche machen wir in der Prädikatenlogik. Und das Schöne ist jetzt,
+
+04:57.160 --> 05:02.520
+weil wir uns am Anfang ein bisschen mehr Arbeit gemacht haben und das Ganze sehr abstrakt
+
+05:02.520 --> 05:12.560
+definiert haben, können wir das jetzt im Endeffekt alles eins zu eins erben. Also eine Formel ist wahr
+
+05:12.560 --> 05:21.120
+bzw. gilt unter einer bestimmten Interpretation, wenn die Auswertung der Interpretationsfunktion
+
+05:21.120 --> 05:28.640
+eins ergibt. Was man eben auch so schreibt, dass diese Interpretation die Formel erfüllt. Fertig
+
+05:28.640 --> 05:35.120
+aus. Wissen wir, was es ist. Sie heißt erfüllbar, wenn es eine Interpretation gibt, so dass es wahr
+
+05:35.120 --> 05:48.360
+wird. Wir nennen eine Interpretation ein Modell einer Formel P, wenn diese Interpretation mit
+
+05:48.360 --> 05:55.920
+jeder Belegungsfunktion, hier sprechen wir von bestimmten Interpretationsfunktionen,
+
+05:55.920 --> 06:05.920
+Belegungsfunktionen. Wir sagen P hat oder J. Diese Interpretation ist ein Modell einer Formel, wenn
+
+06:05.920 --> 06:14.160
+diese Interpretation für jede Belegung eins ergibt. Dann lässt man eben auch manchmal das Alphabet
+
+06:14.160 --> 06:22.040
+weg. Und schließlich und letztendlich, und das ist das Interessante, wie wir gleich auch bei
+
+06:22.040 --> 06:28.680
+einem Beispiel sehen werden, natürlich gibt es auch in der Prädikatenlogik allgemeingültige Formeln.
+
+06:28.680 --> 06:36.440
+In der Aussagenlogik war halt eine Formel allgemeingültig, wenn sie unter jeder Belegung
+
+06:36.440 --> 06:44.320
+der Aussagenvariablen immer zu true ausgewertet wurde. Unsere Belegungsfunktion oder unsere
+
+06:44.320 --> 06:51.920
+Interpretation jetzt ist aber wesentlich komplexer als die Interpretation in der Aussagenlogik. Wir
+
+06:51.920 --> 06:58.800
+betrachten ja ganze Strukturen, in denen unsere Ausdrücke interpretiert werden. Und die
+
+06:58.800 --> 07:03.320
+Belegungsfunktionen liefern jetzt ja nicht einfach irgendwelche Wahrheitswerte, sondern sie liefern
+
+07:03.320 --> 07:11.600
+ja Objekte in diesen Strukturen, über die Aussagen getroffen werden. Dennoch ist es natürlich so,
+
+07:11.600 --> 07:25.200
+dass bestimmte Formeln, prädikatenlogische Formeln, eine Form haben, die dennoch grundsätzlich wahr
+
+07:25.200 --> 07:34.000
+sind, egal wie sie interpretiert sind. Und das können Sie sich so vorstellen, dass wir ja diesen
+
+07:34.000 --> 07:38.640
+Gültigkeitsbegriff in der Aussagenlogik hatten. Wenn also eine Formel eine bestimmte logische
+
+07:38.640 --> 07:46.440
+Struktur hat, zum Beispiel A oder nicht A, dann ist das eine gültige Formel. Wenn Sie jetzt
+
+07:46.440 --> 07:52.080
+daran denken, wie wir die Semantik der Prädikatenlogik definiert haben, nämlich die Semantik der
+
+07:52.080 --> 07:57.560
+logischen Junktoren über die Semantik der Aussagenlogik, dann sehen Sie, dass wenn eine
+
+07:57.560 --> 08:05.120
+prädikatenlogische Formel eine bestimmte logische Struktur hat, eben diesen Gültigkeitsbegriff auch
+
+08:05.120 --> 08:12.880
+aus der Aussagenlogik erbt. Wenn also jede Sigma-Algebra ein Modell von p ist, also alle
+
+08:12.880 --> 08:26.440
+Interpretationen einer Formel p erfüllen, dann nennen wir p allgemeinwürdig, also zum Beispiel
+
+08:26.440 --> 08:39.200
+px oder nicht px. Gut, also an dieser Stelle müssen wir gar nicht mehr so viel machen. Wir brauchen
+
+08:39.200 --> 08:49.640
+nur eine Folie, um diese wichtigen Begriffe einfach noch mal zusammenbauen. Weiß ich nicht, wo steht
+
+08:49.640 --> 08:55.760
+hier ein i? Entschuldigung, das ist natürlich ein Tippfehler. Hier muss ein j stehen. Vielen Dank
+
+08:55.760 --> 09:12.120
+für den Hinweis. So, jetzt machen wir mal, also ich gehe immer dann ins Bild vor die Folien,
+
+09:12.120 --> 09:20.160
+wenn wir einen kleinen Neun abstimmen. Ansonsten versuche ich mich entsprechend dem, was Sie in der
+
+09:20.160 --> 09:28.200
+Evaluation gesagt haben, möglichst aus dem Bild rauszuhalten. Jetzt machen wir mal ein Beispiel.
+
+09:28.200 --> 09:37.880
+Auf den Übungsblättern habe ich Ihnen ja Formeln hingeschrieben, zu denen Sie, die Sie in
+
+09:37.880 --> 09:42.920
+Anführungszeichen mit natürlichem Menschenverstand erst mal interpretieren sollten. Sie sollten sich
+
+09:42.920 --> 09:50.200
+überlegen, was könnte diese Formel denn bedeuten wollen? Und dazu sollten Sie Signaturen finden.
+
+09:50.200 --> 09:59.480
+Dazu sollten Sie dann, wenn Sie die Signaturen finden, überprüfen, was das für ein Modell sein
+
+09:59.480 --> 10:07.040
+kann, in welcher Struktur das ist, und sich dann eben überlegen, ist jetzt diese Formel unter
+
+10:07.040 --> 10:13.760
+dieser Interpretation wahr oder erfüllbar oder gültig oder was auch immer. So, das machen wir
+
+10:13.760 --> 10:29.640
+jetzt mal an einem Beispiel. Wir schauen uns die Formel an P3x und P3f von x. Dann ist sofort klar,
+
+10:29.640 --> 10:35.120
+dass das Ganze ist eine Formel. Hier steht ein logischer Junk dort, das heißt, das ist eine
+
+10:35.120 --> 10:40.960
+Formel, das heißt, das ist eine Formel, das heißt, weil das eine atomare Formel ist und das auch,
+
+10:40.960 --> 10:49.480
+muss P ein Prädikatzenmodus sein. Nehmen wir mal an, P bedeutet jetzt kleiner Gleich. Wir denken
+
+10:49.480 --> 10:59.840
+also mal, wir wollen diese Formel in den natürlichen Zahlen interpretieren. Der Einfachheit halber nehmen
+
+10:59.840 --> 11:08.160
+wir jetzt also zum Beispiel auch diese Konstante 3 hier und interpretieren die als 3, also ein
+
+11:08.160 --> 11:14.520
+Element aus den natürlichen Zahlen. Und dann haben wir noch das Funktionssymbol f, ja, und das wollen
+
+11:14.520 --> 11:18.760
+wir, diese Notation kennen Sie hier vielleicht nicht mit diesem hochgestellten Ding, das ist einfach
+
+11:18.760 --> 11:28.200
+die Nachfolgefunktion, können Sie lesen als plus 1. So, und weiterhin sei jetzt einfach mal angenommen,
+
+11:28.200 --> 11:40.560
+dass die Variable x mit dem Wert 3 gelegt sei. So, jetzt schauen wir doch einfach mal, was bedeutet
+
+11:40.560 --> 11:53.320
+mit dieser Interpretation, mit dieser Modellstruktur, was bedeutet dann die Formel P. Wir wollen also
+
+11:53.320 --> 12:00.880
+schlichtweg ausrechnen die Interpretation dieser Formel in n mit dieser Signatur und dieser
+
+12:00.880 --> 12:08.680
+Interpretation. Ja, und dann machen wir das ganz einfach. Wir nutzen jetzt an dieser Stelle die
+
+12:08.680 --> 12:14.920
+Tatsache, dass es sich um eine komplexe Formel handelt mit dem logischen Junktor und. Der wird
+
+12:14.920 --> 12:21.200
+jetzt in der Prädikatenlogik genauso interpretiert wie eben in der Aussagenlogik. Das heißt,
+
+12:21.200 --> 12:28.400
+wir müssen diese Formel prädikatenlogisch interpretieren, diese Formel prädikatenlogisch
+
+12:28.400 --> 12:40.520
+interpretieren und deren Ergebnis, was ja wahr oder falsch dann ist, aussagenlogisch mit dem und
+
+12:40.520 --> 12:43.920
+verknüpfen. Das heißt, wir bilden jetzt, wenn wir das zum Beispiel in den buddhistischen Verband
+
+12:43.920 --> 12:51.280
+machen, einfach das infimum. Wir bilden also das infimum der Interpretation der Formel P3x und
+
+12:51.280 --> 13:01.120
+der Interpretation der Formel P3fx. Gut, jetzt muss man wieder ein bisschen notationell hin und
+
+13:01.120 --> 13:11.120
+her fuscheln. Das heißt jetzt ja hier, hier haben wir jetzt ein Prädikat, Prädikatsymbol. Das heißt,
+
+13:11.120 --> 13:16.160
+es handelt sich um eine Relation. Hier haben wir dasselbe Prädikatsymbol. Das heißt,
+
+13:16.160 --> 13:23.400
+es handelt sich um die Relation. Diese Relation ist hier oben festgehend. Diese Relation oder
+
+13:23.400 --> 13:29.880
+dieses Prädikat hat zwei Argumente, 3 und x. Das heißt, wir müssen die 3 interpretieren und den
+
+13:29.880 --> 13:38.960
+Wert von x als Tuple in dieser Relation. Und das gleiche müssen wir hier machen. Hier steht jetzt
+
+13:38.960 --> 13:43.160
+allerdings noch ein komplexer Term oder hier steht jetzt noch ein Term. Das heißt, wir müssen
+
+13:43.160 --> 13:53.600
+natürlich f von x auswerten. So, wenn wir f von x auswerten. Hier unten geht es weiter. So,
+
+13:53.600 --> 14:02.280
+und jetzt schauen wir einfach mal. Na ja, P wird interpretiert als kleiner gleich und die Tatsache,
+
+14:02.280 --> 14:06.600
+dass dieses Tuple in dieser Relation, es heißt also nichts anderes die Interpretation von 3,
+
+14:06.600 --> 14:16.720
+ist kleiner gleich dem Wert von x. Der Wert von x ist 3, also steht hier 3 kleiner gleich 3. Das ist
+
+14:16.720 --> 14:25.760
+jetzt sozusagen der Wahrheitswert dieser Aussage in unserem Modell, den natürlichen Zahlen,
+
+14:25.760 --> 14:33.720
+ist jetzt der Wahrheitswert der pädagogischen Interpretation dieser Teilform hier. Deswegen
+
+14:33.720 --> 14:47.440
+steht da der Linguisten. Das gleiche machen wir hierfür. 3 ist 3, also hier. Pj kleiner gleich ist
+
+14:47.440 --> 14:54.080
+hier, ist kleiner gleich. f von irgendwas ist also der Nachfolger von irgendwas, ist also der
+
+14:54.080 --> 15:00.960
+Nachfolger von x. Der Wert von x ist 3, ist also der Nachfolger von 3. Also steht hier im Endeffekt
+
+15:00.960 --> 15:10.560
+nichts anderes als, gut, die Aussage 3 ist kleiner gleich 3 ist wahr. Infimum, die Aussage 3 ist kleiner
+
+15:10.560 --> 15:18.360
+gleich 3 plus 1, also 3 ist kleiner gleich 4, ist auch wahr. Und das Infimum von 1 und 1 ist 1.
+
+15:18.360 --> 15:32.720
+Das heißt, diese Formel hier ist mit unserer Interpretation wahr. Okay.
+

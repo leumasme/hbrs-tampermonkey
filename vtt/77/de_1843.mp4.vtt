@@ -1,0 +1,92 @@
+WEBVTT
+
+00:00.000 --> 00:17.000
+Also, wir haben uns jetzt mit diesem Begriff der Signatur beschäftigt und eine Signatur ist im Endeffekt nichts anderes als die Deklaration von Symbolen, die Sie benutzen wollen.
+
+00:17.000 --> 00:31.000
+Hatte ich Ihnen schon gesagt, für die Funktionssymbole zum Beispiel ist es Ihnen aus der Mathematik klar, dass wenn Sie eine Funktion definieren, Sie vorher angeben, von welcher Menge in welche Menge Sie zum Beispiel laufen.
+
+00:31.000 --> 01:00.000
+Sie machen das aber auch, wenn Sie programmieren. Wenn Sie eine Funktion in einer Programmiersprache definieren oder wahrscheinlich nehmen Sie Java und müssen irgendwie eine Klasse definieren, dann müssen Sie ja auch angeben, von welchem Typ diese Klasse ist, welche Argumente eine bestimmte Methode erwarten und wenn Sie etwas zurückgeben,
+
+01:00.000 --> 01:21.000
+wenn Sie ein Objekt zurückgeben, von welchem Typ dieses Objekt ist. Und Sie müssen so programmieren, dass die jeweiligen Objekte, mit denen Sie rumjungulieren in Ihrem Programm typverträglich sind. Genau das liefert uns eine solche Signatur.
+
+01:21.000 --> 01:43.000
+Hier am Beispiel, also eine Signatur bestimmt jetzt diese strukturellen Eigenschaften einer Sprache. Und als Beispiel können Sie sich jetzt zum Beispiel mal ansehen, wir nehmen uns einen Typ Omega vor. Sie wissen, Omega ist die Menge unserer Wahrheitswerte.
+
+01:43.000 --> 02:05.000
+Und dann führen wir einfach zwei Konstanten ein, f und t. Das sind zwei Nullstellige Funktionssymbole und die werden einfach jeweils als ein Element von Omega interpretiert. Als welches wird in der Signatur selbst noch nicht festgelegt.
+
+02:05.000 --> 02:28.000
+Dann baut man sich zum Beispiel einen einstelligen Funktionsoperator, den Haken, den wir als Negation kennen und wir sagen, naja, ein Wahrheitswert geht rein, ein Wahrheitswert kommt raus, Omega nach Omega. Welcher? Das liegt dann wieder an der Interpretation, nicht an der Signatur.
+
+02:28.000 --> 02:57.000
+Und genauso sehen Sie dann die Konjunktion, die Disjunktion und die Subjunktion nehmen zwei Argumente und liefern eines. Und in unserer Interpretation legen wir eben fest, wie die Konjunktion oder welches Element aus Omega einer Konjunktion von zwei beliebigen Elementen aus Omega zugeordnet wird. Unsere in Anführungszeichen Wahrheitstabelle.
+
+02:57.000 --> 03:24.000
+Jetzt sehen Sie hier natürlich auch schon an diesem Beispiel, naja, da taucht nur eine Sorte auf. In der Regel, so wie wir uns jetzt mit Prädikatenlogik beschäftigen werden, werden wir eigentlich auch nur eine Sorte brauchen bzw. diese implizit als gegeben und vereinbart annehmen.
+
+03:24.000 --> 03:45.000
+Dennoch werden wir eine Konstruktion später machen, wo man es sehr vernünftig benutzen kann, dass man, wie es hier steht, die Art und Weise, was man für das kleine I aus einer Interpretation leisten muss,
+
+03:45.000 --> 03:56.000
+dass man das im Endeffekt schon alleine durch eine Signatur festlegen kann, die, wenn sie interpretiert wird, dann in der Prädikatenlogik genutzt werden kann.
+
+03:56.000 --> 04:25.000
+Wir können also, sieht man hier eigentlich schon, die Formelstruktur von auslagenlogischen Formeln schwupps in die Prädikatenlogik mit reinziehen. Das heißt, die Interpretation, die wir für diese logischen Operatoren in der Aussagenlogik haben, können wir schwupps mit in die Prädikatenlogik hineinziehen.
+
+04:25.000 --> 04:46.000
+Jetzt haben wir also eine solche Signatur, die uns beschreibt, wie man Konstanten nehmen kann von einem bestimmten Typ und zu Strukturen zusammenbauen kann.
+
+04:46.000 --> 04:55.000
+In diesen Signaturen stecken drin die Gesetzmäßigkeiten, die man beachten muss, um typverträgliche Ausdrücke zu bauen.
+
+04:55.000 --> 05:09.000
+Dazu definieren wir uns erstmal die sogenannte Menge der Grundterne.
+
+05:09.000 --> 05:24.000
+Die Menge der Grundterne ist jetzt die kleinste Menge, die wir aus unserer Signatur erzeugen können und die folgenden Bedingungen erfüllt.
+
+05:24.000 --> 05:51.000
+Jedes Konstantensymbol ist ein Grundterne. Also zum Beispiel aus dem Beispiel unserer Signatur für Aussagenlogik ist T ein solches Konstantensymbol.
+
+05:51.000 --> 06:03.000
+Wenn wir Vektorräume nehmen, dann wollen Sie vielleicht einen Einskalar oder einen Nullvektor oder sowas.
+
+06:03.000 --> 06:13.000
+Das wären dann die Konstanten und die sind sogenannte Grundterne.
+
+06:13.000 --> 06:26.000
+Nächste Sache ist jetzt folgendes. Wenn wir eine Menge von Grundtermen haben, im ersten Schritt also nur die Konstanten,
+
+06:26.000 --> 06:41.000
+und wir haben ein Funktionssymbol f, das jetzt Argumente nimmt, und zwar eine bestimmte Zahl von Argumenten, die einen bestimmten Typ haben müssen,
+
+06:41.000 --> 06:53.000
+dann können wir diese Argumente des Funktionssymbols mit Grundtermen der entsprechenden Sorte auffüllen.
+
+06:53.000 --> 06:59.000
+Und dieser Ausdruck ist wiederum ein Grundterm.
+
+06:59.000 --> 07:15.000
+Also zum Beispiel die 7 ist eine Konstante und die 8 ist eine Konstante, beide sind dann Grundterme, 7 ist ein Grundterm, 8 ist ein Grundterm,
+
+07:15.000 --> 07:21.000
+und weil sie das Plus haben, ist der Ausdruck 7 plus 8 auch ein Grundterm.
+
+07:21.000 --> 07:33.000
+Achtung! Dass da 15 rauskommt, ist überhaupt nicht gesagt. Da kann auch Hans-Peter rauskommen.
+
+07:33.000 --> 07:44.000
+Alleine der syntaktische Ausdruck, Klammer auf, 7 Kreuz 8 Klammer zu, ist ein Grundterm. Mehr wird hier nicht gesagt.
+
+07:44.000 --> 07:54.000
+Auf diese spezifische Nennung der einzelnen Sorten, wie gesagt, wird häufig verzichtet, wenn man sie nicht unbedingt braucht.
+
+07:54.000 --> 08:10.000
+Und die Nennung, über welche Signatur man redet, ist in der Regel aus dem Kontext ebenfalls sehr wichtig.
+
+08:10.000 --> 08:21.000
+Diese Zwischenbemerkung hier unten greift sehr weit vorrauf, deswegen möchte ich über die einfach mal hinüberspringen.
+

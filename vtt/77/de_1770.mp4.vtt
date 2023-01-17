@@ -1,0 +1,329 @@
+WEBVTT
+
+00:00.000 --> 00:11.700
+Gut, also, wir sind jetzt im Themenbereich Beweise und wir haben Beweisverfahren kennengelernt
+
+00:11.700 --> 00:22.760
+und wir haben jetzt vielleicht auch schon so ein bisschen eine Ahnung davon, dass die Effizienz
+
+00:22.760 --> 00:33.280
+von bestimmten Beweisverfahren davon abhängt, welche äußere Form oder Struktur eine Formel
+
+00:33.280 --> 00:43.040
+beziehungsweise eine Menge von Formeln hat. Und dazu erzeugt man sich etwas, was man eine
+
+00:43.040 --> 00:58.520
+Normalform nennt. Im Zusammenhang mit Normalformen steht auch etwas, was ich vorne wegschieben
+
+00:58.520 --> 01:07.480
+möchte und was Sie vielleicht auch schon zum Beispiel in der technischen Informatik kennengelernt
+
+01:07.480 --> 01:12.680
+haben. Sie kennen da aus der technischen Informatik vielleicht so etwas wie das NAND-Gata.
+
+01:12.680 --> 01:20.400
+Das NAND-Gata ist eine ganz tolle Sache. Das ist nämlich sozusagen ein logischer Schaltkreis,
+
+01:20.400 --> 01:29.720
+den man in Silizium gießen kann und mit dieser einen logischen Struktur auf einem Chip können
+
+01:29.720 --> 01:37.640
+Sie sämtliche anderen logischen Operatoren aus der Schaltalgebra, sage ich jetzt mal,
+
+01:37.640 --> 01:42.800
+bauen. Sie brauchen also nur ein Bauteil, das Sie herstellen müssen, und mit diesem
+
+01:42.800 --> 01:48.720
+einen Bauteil können Sie alles bauen, was Sie auch bauen könnten, wenn Sie eben ein
+
+01:48.720 --> 01:53.280
+Schaltteil für und, für oder, für Subjunktion und so weiter hätten. Sie brauchen aber
+
+01:53.280 --> 02:02.520
+all diese Bauteile gar nicht, eins genügt. Und insofern nennt man einen NAND-Gata in
+
+02:02.520 --> 02:10.720
+diesem Fall eine minimale Operatorbasis. Schauen wir uns das mal an. Sie kennen ja bereits
+
+02:10.720 --> 02:20.200
+die Umformungsregeln einer demortischen Gesetz, so dass Sie sich zum Beispiel eine Disjunktion
+
+02:20.200 --> 02:26.760
+sparen können, wenn Sie stattdessen nur eine Negation und eine Konjunktion verwenden.
+
+02:26.760 --> 02:35.920
+Also Sie brauchen die Disjunktion gar nicht. Jedes Mal, wenn irgendwo sozusagen ein Disjunktionsschaltteil
+
+02:35.920 --> 02:43.160
+verwendet werden würde, können Sie stattdessen auch drei Negationsschaltteile und ein Konjunktionsschaltteil
+
+02:43.160 --> 02:52.640
+benutzen. Und dasselbe kennen Sie für die Subjunktion. Die Subjunktion können Sie
+
+02:52.640 --> 03:03.800
+natürlich nicht oder darstellen. Das Tolle ist, mit unserer Formel F, also der immer
+
+03:03.800 --> 03:14.520
+falschen Formel und der Subjunktion, können wir mit diesen beiden, können wir alle anderen
+
+03:14.520 --> 03:27.400
+logischen Operatoren simulieren. Es ist nämlich die Formel nicht P mit der Negation äquivalent
+
+03:27.400 --> 03:34.560
+zur Formel P Subjunktion falsch. Wir brauchen also das Negationssymbol gar nicht, weil wir
+
+03:34.560 --> 03:42.920
+jedes Auftaufen des Negationssymbols durch diese Formel hier ersetzen können. Wir brauchen
+
+03:42.920 --> 03:50.160
+auch gar keine Disjunktion, weil wir wissen ja, jede Disjunktion lässt sich darstellen
+
+03:50.160 --> 03:58.800
+durch nicht P Subjunktion Q. Und wenn jetzt hier das nicht steht, wissen wir, dass wir
+
+03:58.800 --> 04:06.800
+das nicht darstellen können durch P Subjunktion F. Also was hier steht, ist im Endeffekt,
+
+04:06.800 --> 04:14.240
+ich schreibe es noch mal hin dazu, ist im Endeffekt nichts anderes, als wenn wir jetzt für nicht
+
+04:14.240 --> 04:23.640
+P das hier einsetzen, P Subjunktion F, das ist das nicht P, das war jetzt einmal eine
+
+04:23.640 --> 04:30.280
+Klammer zu viel, die kann ich jetzt hier nicht wegmachen, sorry, Subjunktion Q. Und jetzt
+
+04:30.280 --> 04:35.000
+stellen Sie fest, hier steht jetzt eine Formel, in der kommt nur das Subjunktionssymbol vor
+
+04:35.000 --> 04:43.080
+und die Formel F. Das heißt, Sie brauchen auch die Disjunktion. Nun, und jetzt gehen
+
+04:43.080 --> 04:47.160
+Sie hin und überlegen Sie sich, naja, was ist denn die Konjunktion, die Konjunktion
+
+04:47.160 --> 04:53.600
+können Sie durch das dämmorische Gesetz so darstellen, die Disjunktion hier drin können
+
+04:53.600 --> 05:01.200
+Sie so darstellen und die Negation der Disjunkte können Sie so darstellen. Das wird dann zwar
+
+05:01.200 --> 05:09.640
+ein ziemlich großes Ding, aber Sie kommen allein mit der Subjunktion und der falschen
+
+05:09.640 --> 05:20.880
+Formel aus. Also, als Beispiel habe ich hier mal diese Formel hingeschrieben, P und Q oder
+
+05:20.880 --> 05:28.320
+nicht P, ist jetzt vollkommen egal, es interessiert uns jetzt erstmal überhaupt nichts über die
+
+05:28.320 --> 05:35.160
+Wahrheitsbedingungen davon. Wir wollen jetzt einfach diese Formel so umformen, dass sie
+
+05:35.160 --> 05:42.920
+nur logische Operatoren aus einer bestimmten, möglichst kleinen Teilmenge benutzen. Man
+
+05:42.920 --> 05:52.240
+geht also hin, macht aus dieser Negation hier die Implikation false, dann, jetzt muss ich
+
+05:52.240 --> 06:04.080
+hinschauen, wo geht's weiter, macht man aus dieser Disjunktion hier diese Subjunktion,
+
+06:04.080 --> 06:11.640
+das heißt man muss das hier negieren, ja, aus diesem negierten Term macht man jetzt
+
+06:11.640 --> 06:19.960
+das hier und dann hat man eine Konjunktion übrig und die Konjunktion kann man jetzt
+
+06:19.960 --> 06:26.960
+durch die Disjunktion der beiden negierten, da hab ich jetzt ein bisschen schneller gemacht,
+
+06:26.960 --> 06:34.440
+das hier machen, dann kommt noch eine Negation drin vor, die ersetzt man auch, ja, und dann
+
+06:34.440 --> 06:42.320
+hat man hier eine ziemlich lange Formel stehen, die man eigentlich gar nicht mehr lesen kann,
+
+06:42.320 --> 06:47.720
+die aber äquivalent zu der Ausgangsform ist. Das ist egal, ob man die nicht mehr lesen
+
+06:47.720 --> 06:52.760
+kann, weil man macht das Ganze nur aus dem einfachen Grund, man geht davon aus, dass
+
+06:52.760 --> 07:01.480
+man ein Verfahren hat oder eine Technik, also auch im physikalischen Sinne, die diesen Ausdruck
+
+07:01.480 --> 07:15.280
+hier schneller oder einfacher oder billiger auswerten kann als den hier. Also eine Operatorbasis
+
+07:15.280 --> 07:23.840
+ist eine Menge von logischen Operatoren, mit deren Hilfe ich durch Äquivalenzumformungen
+
+07:23.840 --> 07:31.360
+alle anderen logischen Operatoren definieren kann oder simulieren, wie Sie wollen.
+
+07:31.360 --> 07:55.920
+Hier waren wir. Naja, jetzt wissen Sie, normalerweise benutzen Sie vier oder fünf verschiedene
+
+07:55.920 --> 08:03.520
+logische Junktoren. Die Negation ist ein einstelliger Junktor, ja, Konjunktion, Disjunktion, Subjunktion
+
+08:03.520 --> 08:09.200
+sind zweistellige. Niemand sagt etwas dagegen, und das können wir auch gerne in einer anderen
+
+08:09.200 --> 08:17.120
+Logikvorlesung machen, dass man nicht zum Beispiel auch dreistellige Operatoren benutzt, ja,
+
+08:17.120 --> 08:28.720
+und aus der Menge der tatsächlich möglichen Wahrheitswerte und der Stelligkeit von möglichen
+
+08:28.720 --> 08:35.120
+logischen Operatoren ergibt sich eine Vielzahl von logischen Operatoren, die man definieren
+
+08:35.120 --> 08:46.120
+kann, ja. Muss ich jetzt nicht großartig weiter darauf eingehen, ja, Sie können sich
+
+08:46.120 --> 08:53.080
+einfach überlegen, hier haben Sie einen zweistelligen Operator, wie viele Möglichkeiten gibt es,
+
+08:53.080 --> 09:01.200
+diese Tabelle mit Nullen und Einsen auszufüllen, ja. Also das sind vier Zellen und das sind
+
+09:01.200 --> 09:07.120
+vier Zellen, weil es zwei mal zwei sind. Sie haben also zwei Wahrheitswerte und in diese
+
+09:07.120 --> 09:18.920
+vier Zellen können Sie jeweils zwei Wahrheitswerte eintragen, ja, ansonsten zwei hoch vier und
+
+09:18.920 --> 09:24.120
+wenn Sie jetzt mehr Wahrheitswerte hätten, könnten Sie natürlich noch mehr eintragen
+
+09:24.120 --> 09:29.560
+und wenn Sie mehr Spalten oder Zeilen hätten, was halt zeigt, dass Sie mehrstellige Operatoren
+
+09:29.560 --> 09:37.120
+haben, könnten Sie noch mehr machen. Ist egal, wir bleiben in der Aussagenlogik in der Regel,
+
+09:37.120 --> 09:44.920
+ja, eben bei zwei Wahrheitswerten und bei zweistelligen logischen Operatoren. Und die
+
+09:44.920 --> 09:51.320
+jenigen, die Ihnen noch häufiger vielleicht vorkommen, sind eben hier das NAND-Gatter,
+
+09:51.320 --> 09:57.520
+von dem ich eben gesprochen habe, das wird oft mit so einem kleinen Pfeil nach oben bezeichnet,
+
+09:57.520 --> 10:03.240
+es gibt das NOR-Gatter, also das ist im Endeffekt nichts anderes als die Negation einer Konjunktion,
+
+10:03.240 --> 10:07.960
+das hier ist die Negation einer Disjunktion und dann gibt es natürlich auch noch das
+
+10:07.960 --> 10:14.400
+exklusive RODA. Man kann natürlich genauso gut die Subjunktion, wenn man will, auch einfach
+
+10:14.400 --> 10:23.840
+mal umdrehen, ja, und wenn Sie sich jetzt daran erinnern, haben wir ja eine mögliche
+
+10:23.840 --> 10:31.240
+Interpretation der Subjunktion uns definiert, dass wir gesagt haben, eine Subjunktion wird
+
+10:31.240 --> 10:36.160
+so wahr ausgewertet, wenn der Wahrheitswert der Prämisse kleiner gleich dem Wahrheitswert
+
+10:36.160 --> 10:44.240
+der Konklusion ist, ja, und wenn man jetzt halt als Komplimente dieser kleiner Gleichrelation
+
+10:44.240 --> 10:51.160
+in die eine oder andere Richtung eben wirklich echt größer oder echt kleiner nimmt, hat
+
+10:51.160 --> 10:56.800
+man auch davon nochmal die Negation und hat sozusagen eine negierte Implikation, beziehungsweise
+
+10:56.800 --> 11:04.920
+eine negierte diverse Implikation. Und zu all dem kann man jetzt Wahrheitstabellen aufstellen,
+
+11:04.920 --> 11:09.160
+ja, also Sie erinnern sich an die Wahrheitstabelle für UND, da stand hier unten eine 1 und alles
+
+11:09.160 --> 11:16.160
+andere war 0. NAND ist nichts anderes als einfach die Negation dieser Tabelle. NOR ist
+
+11:16.160 --> 11:22.560
+genau das Gleiche, ja, da hatten wir hier 1, 1, 1 und hier eine 0, wird negiert. Das exklusive
+
+11:22.560 --> 11:31.280
+ODER ist die Konstruktion, in der eine Formel eben dann und nur dann wahr wird, wenn genau
+
+11:31.280 --> 11:37.880
+eines der beiden Argumente wahr ist, entweder das zweite oder das erste. Dann kann man die
+
+11:37.880 --> 11:42.800
+Subjunktion umdrehen und dann kann man die Dinger auch nochmal negieren, ja, hier sehen
+
+11:42.800 --> 11:49.880
+Sie, das ist die umgedrehte Subjunktion und hier ist die Negation davon. Das sind alles
+
+11:49.880 --> 11:59.400
+mögliche Operatoren, die man definieren kann, ja, und die man dann heranziehen kann zu einer
+
+11:59.400 --> 12:07.000
+Untersuchung, ob sie denn ausreichen, um die üblicherweise genutzten logischen Junktoren
+
+12:07.000 --> 12:21.240
+und oder nicht dadurch simulieren kann. Also, eine Menge von Operatoren heißt also eine
+
+12:21.240 --> 12:30.800
+Operatorbasis, wenn sie vollständig bezüglich der burschen Funktion ist. Und was wir jetzt
+
+12:30.800 --> 12:35.080
+nochmal machen können ist, vorhin hatten wir das Beispiel, dass sich alle logischen
+
+12:35.080 --> 12:42.000
+Operatoren durch Subjunktion und False darstellen lassen, können wir jetzt mal versuchen, wie
+
+12:42.000 --> 12:49.200
+das denn aussieht, was wir vorhin gesagt haben, ein Nand-Gather allein reicht, wie wir denn
+
+12:49.200 --> 12:56.840
+alle logischen Formeln, die normalerweise so aussehen, durch Nand-Gather darstellen
+
+12:56.840 --> 13:08.240
+können. Also, nicht p zum Beispiel, ja, lässt sich darstellen als p-Nand-p. Diese Art und
+
+13:08.240 --> 13:14.720
+Weise können Sie also mit einer geschickten Vergratung den Negation eines einzelnen Arguments
+
+13:14.720 --> 13:20.080
+darstellen, indem Sie das einzelne Argument eben zweimal in ein Nand-Gather reinschieben
+
+13:20.080 --> 13:28.520
+und das Ergebnis ist die Negation dessen, was Sie einschieben. Die Disjunktion formen Sie
+
+13:28.520 --> 13:34.360
+wieder über den Morgenumweg so etwas, dann benutzen Sie die Definition der Negation,
+
+13:34.360 --> 13:41.280
+schreiben für diese Negation ein Nand und dann bleiben die Negationen drinnen übrig
+
+13:41.280 --> 13:49.720
+und dafür benutzen Sie wieder die Definition von Nand und bekommen diesen länglichen Ausdruck
+
+13:49.720 --> 14:04.600
+für nicht, nicht p und nicht q, also für p oder q. Eine Konjunktion negiert man erst
+
+14:04.600 --> 14:13.160
+mal zweifach, dann kann man die innere Negation benutzen, um daraus ein Nand zu machen, dann
+
+14:13.160 --> 14:18.960
+hat man die Negation dieses Nandausdrucks und diese Negation wird ebenfalls wieder durch
+
+14:18.960 --> 14:27.120
+ein Nand ausgedrückt, wobei man die beiden Argumente einfach verdoppelt. Und genauso
+
+14:27.120 --> 14:31.120
+funktioniert es dann auch mit der Subjunktion, allerdings ist das dann ein bisschen länglicher
+
+14:31.120 --> 14:50.440
+und dann sehen Sie, was hier für ein riesengroßer, glatter Gadatsch rauskommt.
+

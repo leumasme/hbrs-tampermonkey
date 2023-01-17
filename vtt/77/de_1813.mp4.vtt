@@ -1,0 +1,617 @@
+WEBVTT
+
+00:00.000 --> 00:11.000
+Gut, wir müssen uns jetzt natürlich überlegen, wenn wir diese Resolutionsregel haben,
+
+00:11.000 --> 00:26.000
+in diesen Resolutionskartüren, wollen wir natürlich auch gucken, dass die Anwendung einer solchen Regel logisch verträglich ist.
+
+00:26.000 --> 00:31.000
+Und dazu gibt es das sogenannte Resolutionslämmer.
+
+00:31.000 --> 00:50.000
+Wir nehmen uns jetzt meinetwegen mal so eine Formel P in konjunktiver Normalform
+
+00:50.000 --> 00:59.000
+bzw. eine Menge von Klauseln in konjunktiver Normalform, die äquivalent ist zu der Formel P.
+
+00:59.000 --> 01:05.000
+Oder noch anders ausgedrückt, wir nehmen eine Formel P und formen sie in konjunktiver Normalform um.
+
+01:05.000 --> 01:22.000
+Und betrachten jetzt zwei Klauseln K1 und K2, also einmal die hier L1 bis Ln und L-1 bis Ln aus dieser Menge,
+
+01:22.000 --> 01:27.000
+aus dieser konjunktiven Normalform, die die Formel P darstellt.
+
+01:27.000 --> 01:33.000
+Dann gilt ja nach Resolutionsregel, hier haben wir eine resolvente R.
+
+01:33.000 --> 01:53.000
+Das Resolutionslämmer besagt jetzt Folgendes, dass wir diese resolvente unter Beibehaltung der Wahrheitsbedingungen zu der Formel hinzunehmen können.
+
+01:53.000 --> 02:09.000
+Also die ursprüngliche Formel P und verundet mit der resultierenden Resolvente, bleibt äquivalent zu P.
+
+02:09.000 --> 02:19.000
+Das heißt also umgekehrt, wenn wir uns die Formel P darstellen als eine Menge von Klauseln,
+
+02:19.000 --> 02:29.000
+dann können wir zu dieser Klauselmenge die resolvente R hinzufügen, also eine weitere Klausel, ein weiteres disjunkt.
+
+02:29.000 --> 02:36.000
+Und dennoch bleibt diese Menge äquivalent zur ursprünglichen Menge.
+
+02:36.000 --> 02:40.000
+Warum macht man das? Oder warum ist das interessant?
+
+02:40.000 --> 02:48.000
+Nun ja, man versucht natürlich eine ganz bestimmte Klausel herzuleiten.
+
+02:48.000 --> 02:59.000
+Und wenn man jetzt ausgeht von einer Formel klein P bzw. der dazugehörigen CNF groß P
+
+02:59.000 --> 03:10.000
+und dann durch die wiederholte Anwendung dieser Resolutionsregel irgendwann mal eine besondere Resolvente hinzutut, die eine ganz bestimmte Form hat,
+
+03:10.000 --> 03:15.000
+dann kann man über diese Menge hier eine Aussage treffen.
+
+03:15.000 --> 03:23.000
+Und weil diese äquivalent ist zur ursprünglichen Formel, hat man damit auch eine Aussage über die ursprüngliche Formel getroffen.
+
+03:23.000 --> 03:36.000
+Das wird sich gleich mit konkreter Sinnhaftigkeit füllen.
+
+03:36.000 --> 03:45.000
+Hier haben wir es noch mal ein bisschen anders ausgestiegen. Also wenn wir zwei Klauseln K1 und K2 aus P haben
+
+03:45.000 --> 03:58.000
+und wir aus K1 und K2 eine resolvente R ableiten können, dann ist P äquivalent zu P mit der resolvente R.
+
+03:58.000 --> 04:09.000
+Das kann man jetzt wunderschön beweisen. Die eine Richtung ist natürlich ganz einfach.
+
+04:09.000 --> 04:16.000
+Das ist die von hier nach hier. Weil wenn ich eine erfüllende Belegung für diese Formelmenge habe,
+
+04:16.000 --> 04:23.000
+dann erfüllt diese Interpretation natürlich auch die Teilmenge P.
+
+04:23.000 --> 04:34.000
+Andersherum muss man ein bisschen Arbeit investieren, aber es ist eigentlich auch nicht wirklich schwer.
+
+04:34.000 --> 04:43.000
+Nehmen wir also mal an, wir haben ein Modell von P.
+
+04:43.000 --> 04:54.000
+Nun, wenn wir ein Modell von P haben, also der gesamten Formelmenge, dann ist das natürlich auch ein Modell von K1 und K2.
+
+04:54.000 --> 05:02.000
+Weil ein Modell einer Formelmenge ist ein Modell aller der Formelten der Menge. Das haben wir also hier stehen.
+
+05:02.000 --> 05:10.000
+Also diese Interpretation erfüllt K1 und sie erfüllt K2. Schön.
+
+05:10.000 --> 05:23.000
+Jetzt machen wir eine Fallunterscheidung. In einem Resolutionsschritt streichen wir aus K1 und K2 dieses Literalpaar.
+
+05:23.000 --> 05:30.000
+In einem steht L und in dem anderen steht die Negation von L.
+
+05:30.000 --> 05:40.000
+Wir nehmen jetzt einfach mal an, hier L sei in K1. Also das positive Literal ist in K1.
+
+05:40.000 --> 05:53.000
+Wenn also das positive Literal in K1 ist und K1 und diese Interpretation ist ein Modell von K1,
+
+05:53.000 --> 06:00.000
+dann ist sie natürlich auch ein Modell von diesem Literal L.
+
+06:00.000 --> 06:05.000
+Dann ist sie natürlich kein Modell von der Negation dieses Literals.
+
+06:05.000 --> 06:13.000
+Und dieses negierte Literal ist ja in der Formel in der Klausel K2. Ist klar.
+
+06:13.000 --> 06:19.000
+Wir sagen K1 ist erfüllt, K2 ist erfüllt und jetzt machen wir die Fallunterscheidung.
+
+06:19.000 --> 06:26.000
+Wir sagen mal L ist erfüllt und jetzt ohne Beschränkung der Allgemeinheit, wie man so schön sagt,
+
+06:26.000 --> 06:37.000
+also dieses L aus K1. Dann ist natürlich klar, es ist kein Modell von nicht L2, was dann ja in K2 sein muss.
+
+06:37.000 --> 06:49.000
+Weil jetzt aber K2 ja auch erfüllt ist, muss diese Klausel, die ja eine Disjunktion ist,
+
+06:49.000 --> 06:54.000
+durch ein anderes Literal wahrgemacht werden.
+
+06:54.000 --> 07:06.000
+Also es gibt irgendeinen L', das ungleich diesem negierten Literal ist und unsere Interpretation erfüllt dieses L'.
+
+07:06.000 --> 07:10.000
+Nur dann kann K2 ja auch wahr werden.
+
+07:10.000 --> 07:17.000
+Naja, wenn dieses L' diese Klausel aber wahr macht, dann macht es auch die Klausel wahr,
+
+07:17.000 --> 07:24.000
+in der wir das nicht L wegstreichen, weil das L' das sie wahr macht, ist ja nach wie vor da.
+
+07:24.000 --> 07:27.000
+Wir können das also raushauen.
+
+07:27.000 --> 07:38.000
+So und jetzt gucken wir uns an, jetzt ist natürlich K2 minus, also die Klausel K2 ohne das negative Literal L,
+
+07:38.000 --> 07:48.000
+eine Teilmenge der Resolvente. In die Resolvente kommt ja sozusagen noch der ganze Kladder-Radatsch aus K1 hinzu, ohne L.
+
+07:48.000 --> 08:02.000
+Aber, ja, wir haben das hier abgeleitet und sagen, okay, gut, ist halt so, das heißt,
+
+08:02.000 --> 08:13.000
+nein, andersrum, also K2 ist erfüllt, ist also eine Teilmenge der Resolvente und damit ist natürlich auch die Resolvente erfüllt.
+
+08:13.000 --> 08:20.000
+Weil wir das Literal aus K2, das K2 wahr gemacht haben, jetzt auch in der Resolvente drin war.
+
+08:20.000 --> 08:30.000
+Und daraus folgt dann natürlich, weil wir ja ein Modell von P hatten,
+
+08:30.000 --> 08:38.000
+wir auch ein Modell von P haben und wir jetzt gezeigt haben, dass das auch ein Modell von R ist,
+
+08:38.000 --> 08:42.000
+also ist das auch ein Modell von P mit R.
+
+08:42.000 --> 08:53.000
+Wenn man jetzt sagt, okay, gut, Fall 2 ist, unsere Interpretation macht eben nicht L wahr,
+
+08:53.000 --> 09:04.000
+dann dreht man eben K1 und K2 um und negiert einmal komplett durch und der Beweis geht analog durch und ist damit fertig.
+
+09:04.000 --> 09:15.000
+Also, hier habe ich Ihnen halt einfach nur noch mal so einen Beweis aufgeschrieben, wie der geführt wird.
+
+09:15.000 --> 09:25.000
+Wir haben eine Äquivalenz, die splicken wir auf in zwei Implikationen, die eine ist trivial,
+
+09:25.000 --> 09:34.000
+bei der anderen, weil es ja eine Implikation ist, nehmen wir die Wahrheit der Prämisse an, denken Sie an natürliche Reduktion
+
+09:34.000 --> 09:41.000
+und dann rechnen wir einfach ein bisschen rum, weil wir nicht alle Fälle auf einmal erschlagen können,
+
+09:41.000 --> 09:47.000
+suchen wir einen Punkt, an dem wir alle Fälle in zwei Teile aufschalten können, das ist Fall 1 und Fall 2
+
+09:47.000 --> 09:53.000
+und dann rasselt der Beweis so durch.
+
+09:53.000 --> 10:07.000
+Gut, wir können uns, also wir können diesem Resolutionsoperator jetzt, sage ich mal, in Anführungszeichen vertrauen.
+
+10:07.000 --> 10:15.000
+Und wenn wir aber darauf aus sind, das Ganze eben algorithmisch zu fassen als Kalkül,
+
+10:15.000 --> 10:23.000
+die durchrechnen lassen wollen, möchte man einen Resolutionsoperator haben, den man implementieren kann.
+
+10:23.000 --> 10:29.000
+Und den definiert man sich also wie vor, der weiß halt einfach res, der kriegt eine Formelmenge
+
+10:29.000 --> 10:37.000
+und der liefert uns eine Formelmenge und der funktioniert wie folgt,
+
+10:37.000 --> 10:49.000
+wenn ich eine Formelmenge p habe, dann kann ich oder dann wird durch die einmalige Anwendung dieses Resolutionsoperators
+
+10:49.000 --> 10:57.000
+zu dieser Formelmenge p eine Menge von Resolventen hinzugefügt.
+
+10:57.000 --> 11:07.000
+Und zwar die Menge aller Resolventen, die ich erhalten kann, wenn ich versuche, beliebige Paare
+
+11:07.000 --> 11:13.000
+von Klauseln aus der Menge p mit einer Lotte zu resolvieren.
+
+11:13.000 --> 11:17.000
+Sie gucken sich das so an, Sie haben eine Menge von Klauseln,
+
+11:17.000 --> 11:21.000
+und jetzt nehmen Sie sich zwei, gucken, was passiert, wenn ich resolviere,
+
+11:21.000 --> 11:29.000
+nehmen zwei andere und so weiter, Sie nehmen alle Paare.
+
+11:29.000 --> 11:33.000
+Dann kriegen Sie natürlich eine wesentlich größere Menge von Klauseln.
+
+11:33.000 --> 11:37.000
+Und nach dem Resolutionslämmer wissen wir, diese größere Menge von Klauseln ist jetzt
+
+11:37.000 --> 11:41.000
+äquivalent zu der kleineren Klauselmenge vorher.
+
+11:41.000 --> 11:45.000
+Jetzt können Sie die größere Menge von Klauseln nehmen und wieder den Resolutionsoperator darauf anwenden,
+
+11:45.000 --> 11:48.000
+dann kriegen Sie noch eine größere Klauselmenge.
+
+11:48.000 --> 11:53.000
+Die ist aber nach wie vor äquivalent, wegen des Resolutionslämmers.
+
+11:53.000 --> 11:59.000
+Und das kann man jetzt in Anführungszeichen beliebig oft machen.
+
+11:59.000 --> 12:05.000
+Und dann hoffe ich, dass Sie jetzt inzwischen in der diskreten Mathematik bei den Relationen
+
+12:05.000 --> 12:13.000
+bereits den Sternoperator kennengelernt haben, also die endliche Vereinigung über alle Exponenten,
+
+12:13.000 --> 12:28.000
+wie der Abschluss einer Menge von Klauseln unter der Resolutionsoperation ist also die Menge aller Klauseln,
+
+12:28.000 --> 12:35.000
+die wir bekommen, wenn wir auf die ursprüngliche Klauselmenge nehmen.
+
+12:35.000 --> 12:42.000
+Dazu tun alle Klauseln, die wir bekommen, wenn wir den Resolutionsoperator einmal anwenden.
+
+12:42.000 --> 12:49.000
+Dazu tun alle Klauseln, die wir bekommen, wenn wir den Resolutionsoperator zweimal nacheinander anwenden.
+
+12:49.000 --> 12:53.000
+Dazu tun, wenn wir ihn dreimal nacheinander anwenden und so weiter.
+
+12:53.000 --> 12:58.000
+Und das Ganze machen wir so oft, wie wir natürliche Zahlen haben.
+
+12:58.000 --> 13:06.000
+Müssen wir Gott sei Dank nicht, weil irgendwann kommen wir immer an einen Punkt,
+
+13:06.000 --> 13:13.000
+an dem wir keine weiteren Klauseln mehr hinzufügen können.
+
+13:13.000 --> 13:18.000
+Da kommen wir gleich drauf.
+
+13:18.000 --> 13:26.000
+So.
+
+13:26.000 --> 13:32.000
+Man macht also Folgendes.
+
+13:32.000 --> 13:44.000
+Es ist nochmal aufgeschrieben, das was ich gesagt habe, wenn ich sozusagen eine Formel P aus einer Klauselmenge P herleiten will,
+
+13:44.000 --> 13:53.000
+mache ich nichts anderes, als dass ich den Resolutionsoperator iteriert auf diese Klauselmenge P anwende,
+
+13:53.000 --> 14:01.000
+bis sich in dieser Klauselmenge irgendwann auch die Formel P ergibt.
+
+14:01.000 --> 14:16.000
+Weil dann weiß ich, P ist äquivalent zur Menge, die P vereinigt mit irgendwas, wo auch das kleine P drin ist.
+
+14:16.000 --> 14:19.000
+Gut.
+
+14:19.000 --> 14:23.000
+Jetzt gibt es ein wichtiges Theorien.
+
+14:23.000 --> 14:27.000
+Und das sagt Folgendes.
+
+14:27.000 --> 14:32.000
+Eine Formel P ist unerfüllbar.
+
+14:32.000 --> 14:37.000
+Also eine Formel P hat kein Modell.
+
+14:37.000 --> 14:44.000
+Genau dann, wenn, das ist hier jetzt vielleicht ein bisschen unklar auf dem Folien dargestellt,
+
+14:44.000 --> 15:04.000
+wenn diese Formel klein P sozusagen über die Bildung der Konjunktiven Normalform und der Klauselform in die Menge groß P überführt wird.
+
+15:04.000 --> 15:13.000
+Also ich nehme eine Formel P und überführe die in eine Klauselmenge groß P.
+
+15:13.000 --> 15:30.000
+Wenn ich jetzt endlich oft den Resolutionsoperator anwende und durch die endlich wiederholte Anwendung des Resolutionsoperators die leere Klausel ableiten kann,
+
+15:30.000 --> 15:38.000
+dann ist diese Formel P unerfüllbar.
+
+15:38.000 --> 15:46.000
+Beziehungsweise wenn sie unerfüllbar ist, dann kann ich die leere Klausel ableiten.
+
+15:46.000 --> 15:48.000
+Warum ist das so interessant?
+
+15:48.000 --> 15:51.000
+Naja, das ist genau dann, wenn.
+
+15:51.000 --> 15:55.000
+Das gilt auch für die Migration.
+
+15:55.000 --> 16:02.000
+Also ist erfüllbar, wenn die leere Klausel nicht ableitbar ist.
+
+16:02.000 --> 16:04.000
+Und warum ist das so?
+
+16:04.000 --> 16:07.000
+Denken Sie dran.
+
+16:07.000 --> 16:16.000
+Die leere Klausel, die leere Disjunktion ist eine Formel, die kein Modell hat.
+
+16:16.000 --> 16:24.000
+Können Sie nochmal auf dem Folien nachschauen oder Sie können selber ein bisschen mit Deduktionstheorien herumspielen
+
+16:24.000 --> 16:29.000
+und ein bisschen versuchen Sachen hin und her zu schieben.
+
+16:29.000 --> 16:32.000
+Was interessant ist, wenn Sie leere Mengen hin und her schieben.
+
+16:32.000 --> 16:37.000
+Hier unten steht es auch.
+
+16:37.000 --> 16:42.000
+Also warum hat die leere Klausel kein Modell?
+
+16:42.000 --> 16:51.000
+Also wenn ich aus zwei Klauseln eine Resolvente herleiten kann,
+
+16:51.000 --> 17:00.000
+dann folgt die Resolvente logisch aus diesen beiden Klauseln.
+
+17:00.000 --> 17:09.000
+Die einzige Möglichkeit, eine leere Klausel herzuleiten, besteht also darin,
+
+17:09.000 --> 17:19.000
+zwei Klauseln als Elternklauseln K1 und K2 auszuwählen, die genau nur aus dem komplementären Paar bestehen.
+
+17:19.000 --> 17:26.000
+Also nur, wenn in der einen Elternklausel K1 das Literal L drinsteht
+
+17:26.000 --> 17:34.000
+und das negierte Literal L in der Elternklausel K2 steht,
+
+17:34.000 --> 17:42.000
+nur dann, nur unter dieser Bedingung, kriegt man die leere Klausel als Resolvente raus.
+
+17:42.000 --> 17:47.000
+Weil was machen wir? Wir streichen die komplementären Paare und vereinigen den Rest.
+
+17:47.000 --> 17:49.000
+Der Rest ist leer.
+
+17:49.000 --> 17:53.000
+Also es kommt nichts hinzu, nachdem wir das komplementäre Paar gestrichen haben.
+
+17:53.000 --> 18:03.000
+So, und jetzt denken wir aber dran, dass das ja als Klauseln disjunkte in einer konjunktiven Normalform sind.
+
+18:03.000 --> 18:10.000
+Das heißt, damit die gesamte Konjunktion wahr wird, müssen alle Klauseln wahr sein.
+
+18:10.000 --> 18:11.000
+Alle.
+
+18:11.000 --> 18:16.000
+Es muss also L wahr sein und nicht L.
+
+18:16.000 --> 18:18.000
+Ja, und das wissen wir.
+
+18:18.000 --> 18:24.000
+Aber die Teilformel L und nicht L hat kein Modell und damit hat die gesamte CNF kein Modell.
+
+18:24.000 --> 18:26.000
+Erinnern Sie sich daran?
+
+18:26.000 --> 18:35.000
+Da gab es die Folie, in der drin stand, wozu die DNF und die CNF jeweils sinnvoll waren,
+
+18:35.000 --> 18:46.000
+um bestimmte Wahrheitsbedingungen einfach zu überprüfen.
+
+18:46.000 --> 18:49.000
+Gut.
+
+18:49.000 --> 18:54.000
+Ach, sorry, falsch gedrückt.
+
+18:54.000 --> 18:58.000
+Ein Problem allerdings haben wir.
+
+18:58.000 --> 19:06.000
+Die Resolution auf diese Art und Weise, wie wir sie jetzt betrachtet haben, kann nicht alles.
+
+19:06.000 --> 19:12.000
+Wir haben das in der Vorlesung sehr stiefmütterlich behandelt, weil es für eine Einführungsvorlesung ziemlich kompliziert ist.
+
+19:12.000 --> 19:17.000
+Wir haben uns eventuell mit der Korrektheit von solchen Regeln beschäftigt, aber nicht mit der Vollständigkeit.
+
+19:17.000 --> 19:25.000
+Ich habe Ihnen nur mal gesagt, alles, was Sie mit dem Hilbert-Kalpül ableiten können, ist eine gültige Formel
+
+19:25.000 --> 19:28.000
+und jede gültige Formel können Sie mit dem Hilbert-Kalpül ableiten.
+
+19:28.000 --> 19:30.000
+Weiter sind wir da nicht drauf eingegangen.
+
+19:30.000 --> 19:34.000
+Auch natürliche Deduktion ist, wie man so schön sagt, vollständig und korrekt.
+
+19:34.000 --> 19:41.000
+Als normales Ableitungskalpül ist aber die Resolution nicht vollständig.
+
+19:41.000 --> 19:49.000
+Es gibt gültige Formeln, die Sie mit der Resolution nicht aus dem Nichts herleiten können.
+
+19:49.000 --> 20:00.000
+Wenn Sie Nichts haben, dann haben Sie keine Elternklauseln, aus denen Sie eine gültige Resolvente ableiten können.
+
+20:00.000 --> 20:06.000
+Eine gültige Resolvente, wissen Sie, ist ja zum Beispiel das Axiom H1, also p impliziert p.
+
+20:06.000 --> 20:08.000
+Wissen wir, ist true.
+
+20:08.000 --> 20:16.000
+Aber aus einer leeren Klauselmenge können Sie mithilfe der Resolutionsregel diese Formel hier nicht ableiten.
+
+20:16.000 --> 20:26.000
+Aber wir können, weil wir die Idee der Unerfüllbarkeit haben,
+
+20:26.000 --> 20:34.000
+beziehungsweise die Idee haben, dass die Unerfüllbarkeit gezeigt ist, sobald eine leere Klausel ableitbar ist,
+
+20:34.000 --> 20:42.000
+Nutzen, um so etwas wie einen konstruktiven Widerlegungsbeweis zu konstruieren.
+
+20:42.000 --> 20:57.000
+Wir können einfach hier zeigen, wenn eine Klauselmenge p erfüllbar ist.
+
+20:57.000 --> 21:13.000
+Und wir wollen zeigen, dass wenn wir p dazu tun, wir immer noch erfüllbar sind, dann können wir das umformulieren.
+
+21:13.000 --> 21:20.000
+Wenn p erfüllbar ist und wir tun etwas hinzu, dann kann es die Erfüllbarkeit entweder erhalten oder kaputt machen.
+
+21:20.000 --> 21:24.000
+Das heißt, es liegt dann an dem, was wir hinzutun.
+
+21:24.000 --> 21:32.000
+Wenn also das Hinzutun von nicht p zur Unerfüllbarkeit führt, nachdem p vorher erfüllbar war,
+
+21:32.000 --> 21:38.000
+dann muss p mit dem nicht negierten p erfüllbar sein.
+
+21:38.000 --> 21:40.000
+Klar?
+
+21:40.000 --> 21:54.000
+Und wenn man diese Argumentation zugrunde legt, dann hat man einen korrekten und sogenannten Widerlegungsvollständigen.
+
+21:54.000 --> 22:00.000
+Also, langer Rede, kurzer Sinn, wenn ich Sie jetzt schon ein bisschen abgehängt habe,
+
+22:00.000 --> 22:10.000
+sagen Sie, merken Sie sich einfach, wenn man es geschickt anstellt, wozu wir noch kommen, was man dazu machen muss,
+
+22:10.000 --> 22:18.000
+dann kann man mit Resolution eigentlich so ziemlich alles beweisen, was man beweisen möchte.
+
+22:18.000 --> 22:26.000
+Und jeden Beweis, den man damit führt, der ist auch korrekt, der ist auch gültig.
+
+22:26.000 --> 22:36.000
+Ich muss mal schauen, habe ich den Beweis aufgedröselt? Ah, ja. Gut, den machen wir noch.
+
+22:36.000 --> 22:49.000
+Also, wir wollen also wissen, oder wir müssen halt zeigen, dass wenn die leere Klausel abgeleitet werden kann,
+
+22:49.000 --> 23:00.000
+p unerfüllbar ist und wir müssen zeigen, dass wenn p unerfüllbar ist, die leere Klausel abgeleitet werden kann.
+
+23:00.000 --> 23:04.000
+Gucken wir uns doch zuerst mal die Korrektheit an.
+
+23:04.000 --> 23:12.000
+Also, wie können wir sicher gehen, dass wenn wir eine leere Klausel ableiten können,
+
+23:12.000 --> 23:20.000
+dies auch bedeutet, dass eine Formel unerfüllbar ist.
+
+23:20.000 --> 23:30.000
+Das sieht wie folgt aus. Also, wir gehen mal davon aus, die leere Klausel sei ableitbar.
+
+23:30.000 --> 23:38.000
+So, jetzt kommen wir im Endeffekt zu genau dem Argument, das ich Ihnen eben schon genannt habe.
+
+23:38.000 --> 23:50.000
+Wenn wir eine leere Klausel herleiten konnten, dann muss im Resolutionsschritt direkt davor der Fall existiert haben,
+
+23:50.000 --> 24:00.000
+dass es eine Klausel gab, die aus einem Plural bestand und eine zweite Elternklausel, die genau aus der Negation bestand.
+
+24:00.000 --> 24:12.000
+Mit der Definition unseres Resolutionsoperators und dem Resolutionslämmer wissen wir also,
+
+24:12.000 --> 24:21.000
+dass p erfüllbar ist, genau dann, wenn diese Menge hier, also die Menge, die entsteht,
+
+24:21.000 --> 24:26.000
+wenn wir endlich auf den Resolutionsoperator anwenden, erfüllbar ist.
+
+24:26.000 --> 24:38.000
+Also ist dann auch die Menge p mit den Klauseln k1 und k2 erfüllbar.
+
+24:38.000 --> 24:45.000
+So, und damit sind wir eigentlich schon fertig. Das ist genau das, was ich Ihnen vor ein paar Minuten schon erzählt habe.
+
+24:45.000 --> 24:53.000
+Diese Menge, bestehend aus der Klausel 1 und der Klausel 2, also L und nicht L, ist nun mal unerfüllbar.
+
+24:53.000 --> 24:58.000
+Und das bedeutet, dass p vereinigt mit k1 und k2 unerfüllbar ist.
+
+24:58.000 --> 25:09.000
+Und das bedeutet, dass aufgrund der Äquivalenz durch das Resolutionslämmer das ursprüngliche p unerfüllbar war.
+
+25:09.000 --> 25:22.000
+Also, wenn man die leere Klausel, also wenn man eine Formel hat, aus der man eine Klauselmenge macht,
+
+25:22.000 --> 25:34.000
+oder wenn man eine Menge von Formeln hat, die man alle mit und verknüpft,
+
+25:34.000 --> 25:44.000
+Sie wissen ja, eine Menge von Formeln ist erfüllbar, genau dann, wenn die Konjunktion über all die Formeln in dieser Menge erfüllbar ist.
+
+25:44.000 --> 25:50.000
+Nehmen wir also eine Menge von Formeln, bilden wir davon die Konjunktion, dann haben wir eine Formel.
+
+25:50.000 --> 25:55.000
+Jetzt machen wir aus dieser einen Formel eine konjunktive Normalform.
+
+25:55.000 --> 26:03.000
+Dann haben wir eine Menge von Klauseln, die im Endeffekt äquivalent ist zur ursprünglichen Formelmenge.
+
+26:03.000 --> 26:15.000
+Wenn wir jetzt aus dieser Menge von Literalen die leere Klausel ableiten können, wissen wir, dass die ursprüngliche Formelmenge nicht erfüllbar war.
+
+26:15.000 --> 26:32.000
+Und der Trick ist jetzt, wenn man zeigen will, dass aus einer Menge etwas folgt, muss ja jedes Modell von dieser Formelmenge auch ein Modell von dem sein, was folgen soll.
+
+26:32.000 --> 26:35.000
+Semantische Implikation.
+
+26:35.000 --> 26:49.000
+Wenn ich jetzt aber sage, Moment mal, machen wir doch mal Folgendes, nehmen wir doch mal an, das, was folgen soll, gilt nicht.
+
+26:49.000 --> 26:59.000
+Dann ist das dasselbe, als würden wir eben die Negation zu dieser Formelmenge hinzutun und zeigen, dass sie unerfüllbar ist.
+
+26:59.000 --> 27:09.000
+Dann können Sie im Endeffekt auch wieder ein bisschen mit der Rangierregel rumspielen, um sich das deutlicher zu machen.
+
+27:09.000 --> 27:17.000
+Wie gesagt, den Vollständigkeitsbeweis lassen wir hier weg.
+
+27:17.000 --> 27:30.000
+Den machen wir vielleicht in einer Folgeveranstaltung.
+

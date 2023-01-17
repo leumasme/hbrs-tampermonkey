@@ -1,0 +1,197 @@
+WEBVTT
+
+00:00.000 --> 00:10.120
+Wir kommen jetzt zu zwei fundamentalen Begriffen in der Logik, die nämlich genau den Punkt
+
+00:10.120 --> 00:16.680
+widerspiegeln, den wir am Anfang als für die Informatik zentral befunden haben oder
+
+00:16.680 --> 00:27.680
+bezeichnet haben, nämlich die Darstellung von Wissen sowie das Verarbeiten oder Erarbeiten
+
+00:27.680 --> 00:36.240
+von Wissen, womit man ja sagen möchte, dass aus einer gegebenen Menge von Wissen neues
+
+00:36.240 --> 00:41.520
+Wissen oder anderes Wissen abgeleitet werden kann.
+
+00:41.520 --> 01:01.240
+Dazu definieren wir uns folgendes. Die semantische Implikation. Das Wort semantisch lässt man
+
+01:01.240 --> 01:07.120
+häufig weg, was spätestens dann zur Verwirrung führt, wenn man die Subjunktion auch Implikation
+
+01:07.120 --> 01:15.040
+nennt, aber die Zeichen, die wir verwenden, machen das Ganze eindeutig. Die semantische
+
+01:15.040 --> 01:43.920
+Implikation. P doppeltweil Q bedeutet, wann immer Q wahr ist, ist auch Q wahr. Nun, und
+
+01:43.920 --> 02:03.200
+das können wir auch anders schreiben, nämlich das heißt, wenn P den Wahrheitswert 1 zugeordnet
+
+02:03.200 --> 02:17.880
+bekommt, dann hat Q ebenfalls den Wahrheitswert 1. Also die semantische Implikation bedeutet,
+
+02:17.880 --> 02:25.640
+dass aus einer Form P eine andere folgt, in dem Sinne, dass wenn die sogenannte Prämisse
+
+02:25.640 --> 02:34.320
+wahr ist, auch die Konklusion, die Folgerung dieser Implikation wahr ist. Also das hier
+
+02:34.320 --> 02:44.320
+nennt man Prämisse, das hier Konklusion. Die semantische Implikation ist also ein Sachverhalt
+
+02:44.320 --> 02:59.560
+oder eine deductive Verarbeitung oder Ableitung von Wissen, dergestalt, dass diese Implikation
+
+02:59.560 --> 03:06.320
+gültig ist unter der Bedingung, dass wenn immer die Prämisse wahr ist, auch die Konklusion
+
+03:06.320 --> 03:28.520
+wahr ist. Und dann sagt man, zwei Formeln sind äquivalent und man schreibt das als
+
+03:28.520 --> 03:39.520
+P doppelter Doppelpfeil, Q, genau dann, wenn, und jetzt ist es ganz praktisch, wenn man
+
+03:39.520 --> 03:55.200
+Latein kann, wenn sie gleichwertig sind, also denselben Wahrheitswert haben. Wenn sie immer
+
+03:55.200 --> 04:11.880
+denselben Wahrheitswert haben. Also, wenn der Wahrheitswert von P immer der Wahrheitswert,
+
+04:11.880 --> 04:18.720
+dasselbe ist wie der Wahrheitswert von Q. Wir könnten genauso gut sagen, P und Q sind
+
+04:18.720 --> 04:26.760
+äquivalent, wenn P Q impliziert und wenn Q P impliziert. Dazu kommen wir aber später.
+
+04:26.760 --> 04:37.520
+Also, wir haben den Ausdruck der semantischen Implikation und den Ausdruck der Äquivalenz
+
+04:37.520 --> 04:45.360
+zweier Formeln. Das sind Eigenschaften von Formeln und Zusammenhänge zwischen Formeln,
+
+04:45.360 --> 04:52.160
+die nichts mit der tatsächlichen Belegung der Aussagenvariablen mit den eigentlichen
+
+04:52.160 --> 05:00.800
+Wahrheitswerten zu tun haben. Denn hier steht, wann immer P wahr ist, ist auch Q wahr und
+
+05:00.800 --> 05:09.520
+hier steht, wenn sie immer denselben Wahrheitswert haben, also vollkommen unabhängig davon, ob
+
+05:09.520 --> 05:26.320
+jetzt P oder Q zu wahr oder falsch ausgewertet werden. Schauen wir uns mal folgendes an.
+
+05:26.320 --> 05:52.400
+Zum Beispiel könnten wir sagen, die Formel P und Q impliziert die Formel P. Damit das
+
+05:52.400 --> 05:58.440
+wahr ist, müssten wir also sagen, wann immer diese Formel hier wahr ist, ist auch diese
+
+05:58.440 --> 06:07.880
+Formel hier wahr. Schreiben wir es also mal hin. Wiederum, wir lassen jetzt sogar dieses
+
+06:07.880 --> 06:17.040
+Strichlein weg, damit wir es etwas einfacher haben. Der Wahrheitswert, der Prämisse ist
+
+06:17.040 --> 06:23.320
+abhängig von P und Q, aber wir sagen ja, wann immer das wahr ist. Wir müssen also alle möglichen
+
+06:23.320 --> 06:33.880
+Belegungen betrachten. Also schreiben wir hin, P und Q. Jetzt schauen wir uns an, welche
+
+06:33.880 --> 06:44.520
+möglichen Belegungen gibt es. Beides ist falsch, Q ist wahr, P ist wahr, beides ist wahr. Jetzt
+
+06:44.520 --> 06:52.560
+können wir uns die Prämisse dieser Implikation anschauen und stellen fest, hier steht jetzt
+
+06:52.560 --> 07:04.360
+P und Q. Wir können jetzt also auf Basis dieser Wahrheitswertbelegung den Wahrheitswert
+
+07:04.360 --> 07:14.480
+dieser Formel hier ausrechnen. Und der ist 0001. Jetzt schauen wir mal, was ist denn
+
+07:14.480 --> 07:22.000
+der Wahrheitswert dieser Formel hier hinten. Weil, wann immer diese Formel wahr ist, muss
+
+07:22.000 --> 07:27.800
+ja diese Formel auch wahr sein, damit diese Implikation möglich ist. Also schreiben wir
+
+07:27.800 --> 07:35.920
+das P nochmal hier hin, wir können das einfach kopieren. So, und jetzt schauen wir mal, wann
+
+07:35.920 --> 07:42.800
+immer dieses hier wahr ist. Ist nicht wahr, ist uninteressant. Ist nicht wahr, ist uninteressant.
+
+07:42.800 --> 07:46.960
+Ist nicht wahr, ist uninteressant. Das hier da einsteht, ist vollkommen uninteressant.
+
+07:46.960 --> 07:53.480
+Der einzige Fall ist, wenn das hier wahr ist, also dieser Fall, dann muss dieses hier auch
+
+07:53.480 --> 08:09.240
+wahr sein. Und es ist wahr. Also ist diese Implikation richtig. Wir können uns auch
+
+08:09.240 --> 08:19.320
+noch ein etwas schwierigeres Beispiel einfallen lassen für eine Äquivalenz. Und vielleicht
+
+08:19.320 --> 08:27.040
+werden wir das später auch nochmal bekommen. Schreiben wir es gleich mal hier auf. Ich
+
+08:27.040 --> 08:48.040
+sag jetzt einfach mal, nicht P und Q ist Äquivalent zu nicht P oder nicht Q. Jetzt müssen wir
+
+08:48.040 --> 08:59.400
+also sagen, dass unter jeder Bewegung von P und Q diese beiden Formeln im Gesamten jeweils
+
+08:59.400 --> 09:10.600
+den gleichen Wahrheitswert ergeben. Machen wir es also. P, Q. Das übliche. 0, 0, 0,
+
+09:10.600 --> 09:25.960
+1, 1, 0, 1, 1. Schauen wir uns die Teilformeln an, die es gilt auszurechnen. P und Q. Kein Problem.
+
+09:25.960 --> 09:34.440
+0, 0, 0, 1. Wenn ich diese Einsen mal so, mal so male, tut es mir leid. Jetzt haben wir
+
+09:34.440 --> 09:44.880
+diese Teilformel, jetzt müssen wir das negieren. Gut. Wissen wir, nicht P und Q wird negiert,
+
+09:44.880 --> 09:54.240
+also 1, 1, 1, 0. Jetzt schauen wir uns mal die rechte Seite an. Na okay, das ist jetzt
+
+09:54.240 --> 09:59.640
+eigentlich sehr einfach, aber wir machen es ausführlich. Nicht P müssen wir jetzt also
+
+09:59.640 --> 10:10.640
+als Integration hiervon hinschreiben. Dann haben wir nicht Q, also 1, 0, 1, 0. Jetzt
+
+10:10.640 --> 10:19.160
+werden diese beiden Spalten hier verodert. Nicht P oder nicht Q. Und dann stellen wir
+
+10:19.160 --> 10:36.440
+fest 1, 1, 1, 0. Und das Tolle ist, genau so wie wir es uns gewünscht haben, ist diese
+
+10:36.440 --> 10:48.200
+Spalte, welche diese Formel hier, die linke Seite der Äquivalenz darstellt, genau gleich
+
+10:48.200 --> 10:55.400
+wie diese Spalte hier, welche den rechten Teil der Formel darstellt. Ja? Also, damit
+
+10:55.400 --> 11:01.240
+es ganz deutlich wird, mache ich auch überall nochmal graf die gleichen Einsen raus. Wir
+
+11:01.240 --> 11:09.160
+haben also jetzt gezeigt, dass unter jeder möglichen Belegung immer die Auswertung einer
+
+11:09.160 --> 11:19.160
+solchen Formel denselben Wert ergibt wie die Auswertung dieser Formel. Gut, damit haben
+
+11:19.160 --> 11:25.520
+wir mal wieder die magische 10 Minuten Grenze erreicht und es geht dann nachher im nächsten
+
+11:25.520 --> 11:43.520
+Video weiter.
+

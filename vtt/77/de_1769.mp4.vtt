@@ -1,0 +1,800 @@
+WEBVTT
+
+00:00.000 --> 00:17.200
+Sie haben ja bereits bisher schon Beweise geführt und wir haben diese Beweise immer
+
+00:17.200 --> 00:24.180
+mal wieder versucht natürlichsprachig darzustellen.
+
+00:24.180 --> 00:27.200
+Zum Teil haben wir sie auch schon richtig schön formal hingeschrieben.
+
+00:27.200 --> 00:38.720
+Wir wollen aber einfach noch mal uns überlegen, welche Beweisprinzipien oder sagen wir mal
+
+00:38.720 --> 00:45.280
+besser, welche Beweistechniken man in den unterschiedlichen Fällen anwenden kann.
+
+00:45.280 --> 00:53.440
+Das ist so wie wenn Sie einen Werkzeugkasten mit haben mit den unterschiedlichsten Werkzeugen
+
+00:53.440 --> 01:01.080
+für die unterschiedlichsten Probleme die Sie haben, brauchen Sie ein leicht anderes Werkzeug.
+
+01:01.080 --> 01:10.160
+Es gibt natürlich auch die Möglichkeit jedes mechanische Problem mit Hilfe eines Hammers
+
+01:10.160 --> 01:14.040
+und einer Rolle Draht zu lösen.
+
+01:14.040 --> 01:24.120
+Es ist aber eben sinnvoller manchmal auch, weiß ich nicht, einen Schraubenzieher zu
+
+01:24.120 --> 01:25.120
+benutzen.
+
+01:25.120 --> 01:33.600
+Wir überlegen uns also heute, was gibt es für solche Beweistechniken und was wir jetzt
+
+01:33.600 --> 01:39.920
+auch können ist, weil wir in den letzten Veranstaltungen uns eben mit logischer Schlussfolgerung
+
+01:39.920 --> 01:48.400
+beschäftigt haben, wir können jetzt auch die Gültigkeit dieser Beweisprinzipien zeigen
+
+01:48.400 --> 01:53.440
+oder wir können aus der Gültigkeit dieser Beweisprinzipien motivieren, was es für Beweisverfahren
+
+01:53.440 --> 01:54.440
+gibt.
+
+01:54.440 --> 02:00.600
+Also ganz allgemein, ein Beweis ist nichts anderes als ein formales Argument, also eine
+
+02:00.600 --> 02:08.160
+schlüssige Begründung für irgendetwas und formal bedeutet in diesem Sinne unser formales
+
+02:08.160 --> 02:16.000
+System ist das System der Aussagenpolitik, so wie wir es bis jetzt uns aufgebaut haben.
+
+02:16.000 --> 02:24.920
+Ein Argument ist also eine endliche Kette von zulässigen Schlussfolgerungen und damit
+
+02:24.920 --> 02:33.320
+sind wir schon beim Begriff der Implikation und wichtig ist dabei, was man vielleicht
+
+02:33.320 --> 02:41.120
+im ersten Moment übersieht in der Mathematik oder insbesondere in der Informatik, hier
+
+02:41.120 --> 02:43.320
+die Aussage, dass es endlich sein soll.
+
+02:43.320 --> 02:47.720
+Also ein Beweis darf nicht unendlich lang sein, ein Beweis muss irgendwann mal zu einem
+
+02:47.720 --> 02:48.720
+Ende kommen.
+
+02:48.720 --> 03:01.360
+In dieser Sequenz der Folgerungen darf jede Folgerung, ein jeder Schritt auf alle zuvor
+
+03:01.360 --> 03:06.200
+gemachten gültigen Argumente aufbauen.
+
+03:06.200 --> 03:17.760
+Wenn Sie also eine Annahme haben oder eine Theorie, von der Sie ausgehen, dann können
+
+03:17.760 --> 03:29.920
+Sie in der starten und daraus eine neue Aussage ableiten und mit dieser neuen abgeleiteten
+
+03:29.920 --> 03:37.400
+Aussage, unter der Verwendung einer weiteren abgeleiteten Aussage, eine neue ableiten.
+
+03:37.400 --> 03:46.600
+Also natürlich ist ein Beweis sozusagen ein sequenzielles Argument, das heißt aber nicht,
+
+03:46.600 --> 03:54.960
+dass in diesem sequenziellen Argument es nicht viele kleine Nebenstraßen gibt.
+
+03:54.960 --> 04:02.720
+Vielleicht haben Sie in der Vorlesung diskrete Strukturen schon etwas über Induktionsbeweise
+
+04:02.720 --> 04:03.720
+gehört.
+
+04:03.720 --> 04:10.040
+Da macht man im Endeffekt auch etwas ähnliches, dass man je nachdem, ob man Schrittweise oder
+
+04:10.040 --> 04:14.800
+vollständige Induktion macht, jeweils nur auf die vorhergehende beziehungsweise auf alle
+
+04:14.800 --> 04:18.000
+vorhergehenden Schlussfolgerungen bezogen wird.
+
+04:18.000 --> 04:20.440
+Gut, welche gibt es jetzt?
+
+04:20.440 --> 04:27.920
+Ja, eben erwähnt, Beweis durch Induktion, aber den besprechen wir jetzt erstmal gar
+
+04:27.920 --> 04:36.920
+nicht, sondern wir beschäftigen uns mit drei, hauptsächlich nämlich dem direkten Beweis,
+
+04:36.920 --> 04:44.720
+einem Beweis durch Kontraposition und dem Beweis durch Widerspruch.
+
+04:44.720 --> 04:51.520
+Gut, schauen wir uns die mal im Einzelnen an.
+
+04:51.520 --> 05:01.120
+Der Beweis, den Sie bisher am häufigsten geführt haben, ist ein Beweis unter Verwendung von
+
+05:01.120 --> 05:04.800
+Wahrheitstabellen und das ist nichts anderes als ein direkter Beweis.
+
+05:04.800 --> 05:12.200
+Sie sollen einen bestimmten Sachverhalt begründen und genau das machen Sie von vorne nach hinten.
+
+05:12.200 --> 05:22.800
+Wenn man also zum Beispiel das Dualitätsprinzip beweisen will bzw. hier, Sie können es umstellen
+
+05:22.800 --> 05:28.960
+und haben dann das demorgensche Gesetz dastehen, dann müssen Sie eben zeigen, dass wenn immer
+
+05:28.960 --> 05:36.280
+die linke Seite einer solchen Äquivalenz zu true interpretiert wird, auch die rechte.
+
+05:36.280 --> 05:43.640
+Und das haben Sie eben bisher gemacht, indem Sie Wahrheitstabellen aufgestellt haben und
+
+05:43.640 --> 05:52.280
+es ausgerechnet haben, sodass, jetzt sehe ich es natürlich gerade nicht, hier in diesen
+
+05:52.280 --> 05:59.920
+beiden Spalten immer unter jeder Belegung der richtige Wahrheitswert oder derselbe
+
+05:59.920 --> 06:01.920
+Wahrheitswert herauskommt.
+
+06:01.920 --> 06:08.160
+Eine kurze Bemerkung an dieser Stelle, da muss ich also auch nochmal in die Folie rein.
+
+06:08.160 --> 06:19.200
+Mittlerweile wissen Sie, dass das natürlich so aussehen muss, ja, und so weiter.
+
+06:19.200 --> 06:28.320
+Uiuiui, da fehlen aber jede Menge Klammern und sonst macht es Eiernei, da habe ich sehr
+
+06:28.320 --> 06:29.320
+eilig gehabt.
+
+06:29.320 --> 06:34.080
+Okay, also, so muss es eigentlich aussehen.
+
+06:34.080 --> 06:38.680
+Die zweite Äquivalenz ist klar, dafür bauen Sie eine Tabelle, genauso.
+
+06:38.680 --> 06:47.080
+Und was ich auch in den meisten Übungen gesagt habe, Sie können alles, was Sie beweisen
+
+06:47.080 --> 06:52.520
+wollen, in der Aussagenlogik mit Wahrheitstabellen machen, aber auf einer bestimmten Größe
+
+06:52.520 --> 06:57.240
+und Komplexität dieser Formeln wird es ein bisschen eklig.
+
+06:57.240 --> 07:08.600
+Gut, wir können einen direkten Beweis aber jetzt anhand dieser Umformungsregeln, die
+
+07:08.600 --> 07:16.400
+ich Ihnen vorhin nochmal gezeigt habe, durch eben Ableitungen beziehungsweise Folgerungen
+
+07:16.400 --> 07:17.400
+führen.
+
+07:17.400 --> 07:29.080
+Was wir also machen ist, wenn wir zeigen wollen, dass eine bestimmte Implikation, meinetwegen,
+
+07:29.080 --> 07:39.520
+gültig ist, eine wahre Aussage darstellt, dann nehmen wir das, was auf der linken Seite
+
+07:39.520 --> 07:49.680
+der Implikation steht, also die Annahme, also die Prämisse, und führen auf dieser Prämisse,
+
+07:49.680 --> 07:58.320
+einfach nur auf dieser Prämisse, immer wieder die Anwendung von Umformungsregeln aus, bis
+
+07:58.320 --> 08:06.000
+wir etwas haben, was genau der Konklusion entspricht.
+
+08:06.000 --> 08:14.000
+Und wenn wir bei all diesen Umformungsregeln nur Äquivalenzen benutzt haben, dann haben
+
+08:14.000 --> 08:19.120
+wir die Äquivalenz dieser beiden Formeln bewiesen, und wenn wir zwischendurch mal Implikationen
+
+08:19.120 --> 08:24.760
+benutzt haben, dann haben wir immerhin eine Implikation benutzt.
+
+08:24.760 --> 08:34.520
+So, erinnern Sie sich an die Rangiering, oder auch manchmal auf den Folien auch Shantin
+
+08:34.520 --> 08:35.520
+genannt?
+
+08:35.520 --> 08:45.920
+Also, wie gesagt, diese Formel hier, also P und Q, Subjunktion R, ist Äquivalent dazu,
+
+08:45.920 --> 08:51.640
+dass man meinetwegen das Q negiert und auf die rechte Seite der Subjunktion schiebt,
+
+08:51.640 --> 08:57.000
+wobei allerdings aus der Konjunktion hier vor der Subjunktion eine Disjunktion hier
+
+08:57.000 --> 08:59.720
+hinten ist.
+
+08:59.720 --> 09:08.320
+Es sei jetzt also, meinetwegen, zu beweisen, dass diese Formel hier Äquivalent ist zu
+
+09:08.320 --> 09:09.320
+dieser.
+
+09:09.320 --> 09:15.720
+Und das macht man dann eben durch Anwendung von Äquivalenzumformeln.
+
+09:15.720 --> 09:24.920
+Wir sehen uns also diese Formel hier an, stellen fest, das ist eine Subjunktion, und für die
+
+09:24.920 --> 09:31.840
+Subjunktion haben wir eine Umformungsregel, die haben wir eben genannt, und mit der können
+
+09:31.840 --> 09:33.400
+wir die Subjunktion auflösen.
+
+09:33.400 --> 09:40.080
+Das heißt, aus dieser Subjunktion wird eine Disjunktion, wobei die Bremse negiert wird.
+
+09:40.080 --> 09:50.800
+Jetzt wissen wir aufgrund der Äquivalenz dieser Formel, okay, dass das hier also dasselbe
+
+09:50.800 --> 09:51.800
+ist.
+
+09:51.800 --> 09:52.800
+Gut.
+
+09:52.800 --> 09:59.520
+Jetzt benutzen wir, ich habe es hier Dualität genannt, ich sollte das vielleicht wirklich
+
+09:59.520 --> 10:08.640
+noch in dem Morgen umformulieren, dieses Gesetz, um aus dieser Konjunktion hier eine Disjunktion
+
+10:08.640 --> 10:09.640
+zu machen.
+
+10:09.640 --> 10:15.720
+Dazu ziehen wir also die Negation herein, und wir kommen aus nicht P und Q, nicht P
+
+10:15.720 --> 10:16.720
+oder nicht U.
+
+10:16.720 --> 10:24.200
+Das ist im Übrigen ein Beweis, der, denke ich, schon auf dem letzten Aufgabenzettel
+
+10:24.200 --> 10:28.600
+drauf war, aber der eignet sich hervorragend, um das hier nochmal zu erklären.
+
+10:28.600 --> 10:41.600
+Jetzt haben wir hier eine Disjunktion stehen von drei Formen, und wir wissen, dass die
+
+10:41.600 --> 10:47.160
+Disjunktion assoziativ ist, das heißt, wir können die Klammern umsetzen.
+
+10:47.160 --> 10:56.000
+Also, aufgrund der Assoziativität der Disjunktion, hier nochmal kurz mit ASC bezeichnet, setzen
+
+10:56.000 --> 11:01.560
+wir die Klammern um diese Disjunktion um über diese Disjunktion.
+
+11:01.560 --> 11:09.640
+Und jetzt steht hier nicht P oder nicht Q oder R, das ist also eine reine Termersetzung,
+
+11:09.640 --> 11:20.360
+wenn Sie so wollen, und wir benutzen jetzt wieder die Regel zur Äquivalenzumformung
+
+11:20.360 --> 11:23.480
+für Subjunktionen, nur lesen wir sie jetzt andersherum.
+
+11:23.480 --> 11:32.800
+Das heißt, wir haben gegeben eine Disjunktion mit einem negierten Disjunkt, und das machen
+
+11:32.800 --> 11:36.680
+wir also zur Kremisse einer neuen Subjunktion.
+
+11:36.680 --> 11:41.880
+Jeder dieser Schritte, wussten wir, war eine Äquivalenzumformung, und wir wissen, dass
+
+11:41.880 --> 11:48.000
+wir in Formeln äquivalente Teilformeln ersetzen können, ohne etwas an Wahrheitswert zu ändern.
+
+11:48.000 --> 11:51.600
+Das heißt, hier haben wir nichts geändert, hier haben wir nichts geändert, hier haben
+
+11:51.600 --> 11:55.440
+wir nichts geändert, hier haben wir nichts geändert, und interessanterweise haben wir
+
+11:55.440 --> 12:03.040
+jetzt durch diese Umformung einfach diese Formel hier umgeformt in eine Formel, deren
+
+12:03.040 --> 12:06.480
+Äquivalenz wir zeigen sollten, und fertig, pause.
+
+12:06.480 --> 12:10.680
+So funktioniert also ein direkter Beweis.
+
+12:10.680 --> 12:21.920
+Sie hätten natürlich auch hier unten anfangen können, und das so aufdrücken.
+
+12:21.920 --> 12:34.720
+Genau so können Sie dieses Beweisschema natürlich auch in anderen Teilen der Mathematik verwenden.
+
+12:34.720 --> 12:47.040
+Bedenken Sie, die Äquivalenz bedeutet Gleichheit von Wahrheitswerten unter allen Interpretationen.
+
+12:47.040 --> 12:56.720
+Wenn wir also nicht über diese Formeln sprechen würden, sondern nur über deren Wahrheitswerte,
+
+12:56.720 --> 13:03.000
+wenn Sie sich also hier überall einen Apostroph dahinter denken, dann würde aus diesem Symbol
+
+13:03.000 --> 13:05.320
+hier ein Gleich.
+
+13:05.320 --> 13:14.120
+Und dann hätten Sie eine Gleichungskette, wie Sie sie aus der Mathematik kennen, also
+
+13:14.120 --> 13:27.080
+wenn Sie beweisen sollen, dass a² plus b², nein, a plus b² gleich a² plus 2ab plus
+
+13:27.080 --> 13:36.080
+b² ist, dann machen Sie das über eine Gleichungskette, und genau das gleiche machen wir hier, nur
+
+13:36.080 --> 13:42.840
+mit einer Äquivalenzkette, die eben eine Gleichheitskette der Wahrheitswerte ist.
+
+13:42.840 --> 13:52.480
+Hier ist zwar ein Knüttel dran, aber nach dem, was ich Ihnen eben erklärt habe, nämlich
+
+13:52.480 --> 13:59.680
+sozusagen die Reduktion auf Tautologien, sieht man hier etwas sehr Hübsches, wie man die
+
+13:59.680 --> 14:05.840
+nämlich benutzen kann, um zum Beispiel die Gültigkeit der Abschwöchungsrede zu beweisen.
+
+14:05.840 --> 14:07.840
+Die habe ich jetzt hier mal gemacht.
+
+14:07.840 --> 14:13.520
+Soll also zeigen, dass aus p und q, oder dass p und q, q impliziert.
+
+14:13.520 --> 14:18.800
+Wenn immer also p und q wahr ist, ist auch q wahr.
+
+14:18.800 --> 14:30.640
+Jetzt haben wir mit diesen Theorien von vorhin, dass also eine Implikation wahr ist, wenn
+
+14:30.640 --> 14:36.880
+die entsprechend daraus konstruierte Subjunktion eine Tautologie ist, folgende Sache.
+
+14:36.880 --> 14:42.640
+Wir schreiben also einfach mal in, diese Implikation als Subjunktion.
+
+14:42.640 --> 14:45.000
+Und was muss jetzt passieren?
+
+14:45.000 --> 14:53.320
+Wir wollen ja, wir sagen ja, dass diese Implikation wahr ist, wenn diese Subjunktion eine Tautologie
+
+14:53.320 --> 14:54.320
+ist.
+
+14:54.320 --> 15:05.520
+Wir müssen jetzt also diese Subjunktion so umformen, dass da offenbar eine Tautologie
+
+15:05.520 --> 15:06.520
+steht.
+
+15:06.520 --> 15:15.160
+Und das macht man wieder, und wie Sie sehen werden, mit einiger Erfahrung, eigentlich
+
+15:15.160 --> 15:21.080
+immer nach Schema F, man geht einfach erstmal her, löst die Subjunktion aus, bekommt also
+
+15:21.080 --> 15:27.480
+die Negation dieser Konjunktion, macht hier die Disjunktion drauf, nutzt jetzt wieder
+
+15:27.480 --> 15:34.280
+De Morgan, schmeißt alle Konjunktionen raus, hat jetzt eine Disjunktion.
+
+15:34.280 --> 15:42.960
+Bei dieser Disjunktion wiederum können wir jetzt einfach wieder das Assoziativgesetz
+
+15:42.960 --> 15:43.960
+benutzen.
+
+15:43.960 --> 15:49.520
+So, und jetzt schauen wir mal hin, also hier wird, das hier war klar, Dualität ist auch
+
+15:49.520 --> 15:56.440
+klar, das ist hier, jetzt schauen wir hier schon mal hin und jetzt steht hier nicht p
+
+15:56.440 --> 16:00.880
+oder nicht q oder q.
+
+16:00.880 --> 16:06.720
+Vom Verständnis her sieht man es jetzt schon, aber um es mal ganz genau zu machen, wenden
+
+16:06.720 --> 16:13.880
+wir jetzt halt das Assoziativgesetz an und da steht hier nicht p oder nicht q oder q.
+
+16:13.880 --> 16:24.960
+Und wir wissen, nicht q oder q ist immer wahr, ist also Äquivalent zur Formel T, die immer
+
+16:24.960 --> 16:25.960
+wahr ist.
+
+16:25.960 --> 16:33.120
+Und jetzt steht hier nicht p oder true und wir wissen, irgendwas oder true ist immer
+
+16:33.120 --> 16:34.120
+true.
+
+16:34.120 --> 16:41.440
+Das heißt, durch diese Äquivalenz und Formel hier unten kommen wir zu einer Formel, von
+
+16:41.440 --> 16:44.240
+der wir wissen, dass sie eine Tautologie ist.
+
+16:44.240 --> 16:51.160
+Naja, und wenn diese Tautologie Äquivalent zu dieser Formel ist und eine Tautologie immer
+
+16:51.160 --> 16:58.000
+wahr ist, muss auch diese Formel immer wahr sein, das heißt, diese Formel ist eine Tautologie
+
+16:58.000 --> 17:01.480
+und deswegen ist diese Implikation hier wahr.
+
+17:01.480 --> 17:12.600
+So kann man das also auch eigentlich sehr elegant nützen.
+
+17:12.600 --> 17:19.200
+Mir fiel gestern oder vorgestern auf einem Spaziergang noch etwas ein, auch das kennen
+
+17:19.200 --> 17:27.920
+Sie vielleicht aus der normalen Mathematik, wenn Sie irgendetwas ausrechnen wollen.
+
+17:27.920 --> 17:38.640
+Sie möchten zum Beispiel irgendwie aus irgendeiner Gleichung oder irgendeinem Gleichungssystem
+
+17:38.640 --> 17:44.560
+möchten Sie den Wert einer Variablen x ermitteln.
+
+17:44.560 --> 17:56.480
+Und jetzt rechnen Sie ganz viel und am Ende bekommen Sie raus 3 gleich 3, das macht Sie
+
+17:56.480 --> 18:01.800
+meistens wahrscheinlich sehr unglücklich, weil eigentlich würden Sie am Ende gerne
+
+18:01.800 --> 18:06.040
+so etwas rausbekommen wie x gleich 3 oder x gleich 17.
+
+18:06.040 --> 18:17.840
+Wenn am Ende aber rauskommt 3 gleich 3, dann bedeutet das im Endeffekt, dass das Gleichungssystem
+
+18:17.840 --> 18:27.160
+von dem Sie ausgegangen sind, grundsätzlich für alle Werte erfüllt ist.
+
+18:27.160 --> 18:37.120
+Also einerseits können Sie eventuell davon ausgehen, dass Sie vielleicht einen Fehler
+
+18:37.120 --> 18:40.320
+gemacht haben, wenn Sie eben wollen, dass da steht x gleich irgendwas.
+
+18:40.320 --> 18:45.480
+Auf der anderen Seite, wenn Sie das als einen logischen Beweis interpretieren, die Gleichheit
+
+18:45.480 --> 18:53.920
+dieser Umformungen, also als die Äquivalenz der Gültigkeit der Gleichungen in jeder Zeile,
+
+18:53.920 --> 19:04.400
+dann haben Sie die Aussage, dass das in der Aufgabe gestellte Gleichungssystem für alle
+
+19:04.400 --> 19:07.760
+Werte erfüllt ist.
+
+19:07.760 --> 19:14.960
+Sie können auch sagen, dass x unterbestimmt ist.
+
+19:14.960 --> 19:31.080
+Wichtiger, und auch das haben einige in der letzten Woche schon gemacht, ist das Prinzip
+
+19:31.080 --> 19:32.480
+der Kontraposition.
+
+19:32.480 --> 19:44.280
+Wenn wir Schwierigkeiten damit haben, zu zeigen, dass aus p, q folgt, ist es eventuell
+
+19:44.280 --> 19:48.840
+einfacher zu zeigen, dass aus nicht-q, nicht-p folgt.
+
+19:48.840 --> 19:56.640
+Wir können es auch umgekehrt lesen, wenn Sie etwas beweisen sollen der Art, wenn q
+
+19:56.640 --> 20:04.640
+nicht gilt, dann gilt p auch nicht und es stört Sie einfach, diese Negation hier, dann
+
+20:04.640 --> 20:08.920
+vertauschen Sie die Argumente der Subjunktion und lassen die Negationen weg, so kann man
+
+20:08.920 --> 20:09.920
+es auch lesen.
+
+20:09.920 --> 20:21.160
+Das ist also das Kontrapositionsprinzip und um das zu zeigen, sehen Sie mal wie das Ganze
+
+20:21.160 --> 20:22.160
+zusammenspielt.
+
+20:22.160 --> 20:26.120
+Hier steht jetzt eine Äquivalenz, aus der machen wir im Endeffekt, können wir zwei
+
+20:26.120 --> 20:30.400
+Implikationen machen, müssen wir aber nicht, wir können aber eben auch hingehen und sagen
+
+20:30.400 --> 20:43.920
+Jo, also hier durch Äquivalenzumformungen kommen wir von dieser Formel zu dieser Formel
+
+20:43.920 --> 20:47.600
+und wenn es Äquivalenzumformungen sind, eben auch von dem nach hier.
+
+20:47.600 --> 20:56.080
+Ist klar, p Subjunktion q, Auflösen der Subjunktion, immer das gleiche, nicht p oder q, in diesem
+
+20:56.080 --> 21:01.160
+Fall benutzen wir jetzt einfach mal die Kommutativität, drehen diese beiden Sachen um, schon steht
+
+21:01.160 --> 21:06.160
+das q vorne und das nicht p hinten, das ist ja schon mal ganz gut, das nicht p wollen
+
+21:06.160 --> 21:12.760
+wir ja auch hinten, wo in aller Welt kriegen wir jetzt ein nicht q vorne hin, naja, die
+
+21:12.760 --> 21:20.520
+einzige Art und Weise uns eine Negation zu besorgen ist, indem wir uns zwei besorgen,
+
+21:20.520 --> 21:26.280
+ja, das ist das Negationsgesetz, also schreiben wir hinten nicht, nicht q oder nicht p, jetzt
+
+21:26.280 --> 21:34.160
+nehmen wir dieses nicht mit dieser Disjunktion, ersetzen das mit der Äquivalenz der Subjunktion
+
+21:34.160 --> 21:43.720
+und haben dann da stehen nicht q Subjunktion, nicht p und wir sehen hier ist ein Tippfehler,
+
+21:43.720 --> 21:59.160
+muss wirklich nochmal über die Folie rüber, gut, bereits jetzt mehrfach erwähnt, die
+
+21:59.160 --> 22:05.560
+wechselseitige Inklusion, das kennen Sie im Endeffekt aus der diskreten Mathematik, wenn
+
+22:05.560 --> 22:12.720
+Sie beweisen sollen, dass zwei Mengen gleich sind, müssen Sie zeigen, dass jedes Element
+
+22:12.720 --> 22:16.720
+in der einen Menge auch in der anderen ist und dass jedes Element aus der anderen Menge
+
+22:16.720 --> 22:23.800
+auch in der einen ist, Sie müssen also für die Gleichheit von zwei Mengen die gegenseitige
+
+22:23.800 --> 22:29.920
+Inklusion beweisen und genau so macht man das mit einer Äquivalenz, die wird durch
+
+22:29.920 --> 22:40.520
+die wechselseitige Inklusion bewiesen. So, und jetzt kommen wir zu einem ganz wichtigen
+
+22:40.520 --> 22:48.280
+Beweisprinzip, dass wir, naja, dass uns eigentlich intuitiv schon immer klar ist, dass wir jetzt
+
+22:48.280 --> 22:55.920
+aber auch durch die, durch logische Folgerbarkeit, Deduktionstheorie, alles was wir bis jetzt
+
+22:55.920 --> 23:02.840
+gelernt haben, rechtfertigen, das heißt dessen Gültigkeit wir auch zeigen können. Das ist
+
+23:02.840 --> 23:19.200
+nämlich folgendes, wenn wann immer p gilt auch q gilt und es gilt p, dann muss ja, weil
+
+23:19.200 --> 23:28.720
+wann immer p gilt auch q gilt, gilt q gelten, also wenn p gilt und p, ich sag jetzt mal
+
+23:28.720 --> 23:34.560
+impliziert q gilt, dann gilt auch q. Das ist das sogenannte Modus Ponens. Es gibt noch
+
+23:34.560 --> 23:44.280
+viele andere Schlussschemata, die benutzt werden können oder aber in manchen Logiken
+
+23:44.280 --> 23:54.640
+sogar korrekt sind, in anderen aber nicht. Das Modus Ponens erlaubt es jetzt, ähnlich
+
+23:54.640 --> 24:05.640
+wie das Deduktionstheorien eben, einen Beweis für eine Formel q zu zerlegen. Nämlich wie
+
+24:05.640 --> 24:18.880
+folgt, wenn wir, klar, wenn wir ein Modell von p und p impliziert q haben und zu zeigen
+
+24:18.880 --> 24:26.280
+ist, dass daraus eben q logisch folgt, was ja die Aussage des Modus Ponens ist, wird
+
+24:26.280 --> 24:36.520
+das einfach zerlegt, indem man eben nach dem Deduktionstheorien was darüberzieht und
+
+24:36.520 --> 24:48.240
+dieses p und man hat dann, dass wenn p gilt und diese Subjunktion dann auch q gilt. Das
+
+24:48.240 --> 24:56.960
+Modus Ponens, ich habe es eben genannt, ist eine, wie habe ich es genannt, eine Schlussregel,
+
+24:56.960 --> 25:06.680
+eine Form, ein Schema. Das ist also sozusagen ein Schema, das wir syntaktisch benutzen
+
+25:06.680 --> 25:17.680
+können, um eine semantische Folgerung durchzuführen. Da kommen wir insbesondere darauf, wenn wir
+
+25:17.680 --> 25:28.720
+uns ein formales Beweissystem anschauen werden, in dem das Modus Ponens als, sage ich mal,
+
+25:28.720 --> 25:50.960
+Operator definiert ist. Gut, jetzt kommen wir noch abschließend zu diesem kleinen Themenbereich
+
+25:50.960 --> 26:01.280
+der Beweissverfahren zu etwas sehr sehr Wichtigem, zum sogenannten Kompaktheorien. Wir haben
+
+26:01.280 --> 26:10.720
+uns bis jetzt immer mit endlichen Formelmengen beschäftigt. Es kann aber auch unendlich große
+
+26:10.720 --> 26:18.440
+Formelmengen geben. Naja, überlegen Sie sich ganz einfach mal, Sie leiten irgendeine Formel
+
+26:18.440 --> 26:27.040
+ab, oder nein, Sie nehmen eine Tautologie, formen diese Tautologie um, haben eine neue
+
+26:27.040 --> 26:33.480
+Tautologie. Formen diese Tautologie um, haben eine neue Tautologie. Das können Sie machen,
+
+26:33.480 --> 26:41.760
+wie Sie wollen. Und das können Sie unendlich lange machen. Gott sei Dank nur abzählbar
+
+26:41.760 --> 26:50.440
+unendlich oft. Also so viel, wie es natürliche Zahlen gibt, aber nicht mehr. Und jetzt haben
+
+26:50.440 --> 26:56.680
+Sie so eine große Formelmenge. Sehr einfach, kann man sehr einfach konstruieren. Wenn man
+
+26:56.680 --> 27:03.360
+jetzt aber eine unendlich große Formelmenge hat und man sich fragt, ist die denn erfüllbar?
+
+27:03.360 --> 27:11.120
+Klar, im Fall von Tautologien ist das trivial. Aber wenn jetzt eine unendlich große Menge
+
+27:11.120 --> 27:19.280
+von Formeln hat und wir uns jetzt die Frage stellen nach der Erfüllbarkeit, Unerfüllbarkeit,
+
+27:19.280 --> 27:24.680
+was auch immer, dann haben wir natürlich ein Problem. Weil die Erfüllbarkeit einer
+
+27:24.680 --> 27:33.000
+Formelmenge ist definiert als, eine Formelmenge ist erfüllbar, wenn jede ihrer Formeln, wenn
+
+27:33.000 --> 27:39.800
+es eine Interpretation gibt, die Modell von all diesen Formeln ist. Wie aber wollen Sie
+
+27:39.800 --> 27:47.840
+das überprüfen, wenn doch ein Beweis endlich sein soll, ihre Formelmenge aber unendlich
+
+27:47.840 --> 27:58.600
+groß ist. Deswegen gibt es das Kompaktheitstheorien und wir nehmen jetzt mal an, wir hätten eine
+
+27:58.600 --> 28:06.760
+abzählbar unendlich große Formelmenge T. Dann ist die aber erfüllbar, wenn alle endlichen
+
+28:06.760 --> 28:14.280
+Formelmengen, wenn alle endlichen Teilmengen dieser Formelmenge erfüllbar sind. Jetzt
+
+28:14.280 --> 28:20.480
+können Sie natürlich sagen, es sind ja mindestens genauso viele. Das sind nämlich zwei hoch
+
+28:20.480 --> 28:28.040
+so viele, zwei hoch so viele, wie wir unendlich viele haben. Das ist aber vollkommen egal
+
+28:28.040 --> 28:37.160
+an dieser Stelle, denn aus dieser Formulierung mit genau dann wenn, hier folgt, eine Formelmenge
+
+28:37.160 --> 28:47.640
+ist unerfüllbar. Also eine unendlich große Formelmenge ist unerfüllbar, genau dann wenn
+
+28:47.640 --> 28:56.360
+sie eine endlich unerfüllbare Teilmenge von Formeln hat. Das heißt die Unerfüllbarkeit
+
+28:56.360 --> 29:06.880
+einer unendlich großen Menge von Formeln können Sie zeigen, indem Sie eine endlich große Menge
+
+29:06.880 --> 29:16.440
+finden, die nicht erfüllbar ist. So, also hier unten steht der Beweis, so wie ich ihn
+
+29:16.440 --> 29:27.320
+eben noch mal gesagt habe. Also P soll unerfüllbar sein. Wenn jetzt P unerfüllbar ist, müsste
+
+29:27.320 --> 29:38.160
+es also eine endliche Herleitung eines Widerspruchs geben. Genau. Und wenn alle Teilmengen, und
+
+29:38.160 --> 29:44.040
+ich habe es hier extra mal als Elemente der Potenznänge hingeschrieben ist, erfüllbar
+
+29:44.040 --> 29:53.040
+sind, dann, wenn alle erfüllbar sind, dann können sie keinen Widerspruch herleiten.
+
+29:53.040 --> 29:56.800
+Das Endlichkeitsargument, das ich Ihnen eben verbal genannt habe, steht jetzt hier gar
+
+29:56.800 --> 30:05.400
+nicht drin. Es ist aber, jetzt weiß ich nicht, ob das auf der nächsten Folie steht, nein,
+
+30:05.400 --> 30:17.560
+leider nicht, in genau diesem Kompaktheorien und dem Korreler daraus die Grundlage für
+
+30:17.560 --> 30:25.200
+ein fantastisches, für eine fantastische Beweistechnik gelegt. Nämlich, schauen Sie
+
+30:25.200 --> 30:34.080
+sich das an, eine Formelmenge ist unerfüllbar, genau dann, wenn sie eine endlich unerfüllbare
+
+30:34.080 --> 30:45.000
+Teilmenge hat. Gut. Angenommen, Sie wollen zeigen, dass aus einer unendlich großen Menge
+
+30:45.000 --> 30:55.400
+von Formeln eine Formel P logisch folgt. Dann wissen wir, alle Modelle dieser unendlich
+
+30:55.400 --> 31:05.520
+großen Menge müssen auch Modelle dieser Menge P sein. Wenn das ein Modell von P ist, dann
+
+31:05.520 --> 31:20.760
+wissen wir natürlich auch, dass es kein Modell von nicht P ist. Gut. Nicht P bedeutet, dass,
+
+31:20.760 --> 31:33.080
+wenn P wahr ist, auch falsch wahr ist. Gut. Das heißt also, wenn Sie durch Anwendung
+
+31:33.080 --> 31:42.560
+des Reduktionstheorien aus der Subjunktion P, Subjunktion falsch, jetzt das nicht P vorne
+
+31:42.560 --> 31:52.720
+weg hinziehen, das nicht P rüberziehen, muss ein Widerspruch folgen. So, jetzt wollen Sie
+
+31:52.720 --> 31:59.600
+also eigentlich P beweisen, was Sie aber machen ist, Sie nehmen die Migration von P zu Ihrer
+
+31:59.600 --> 32:07.200
+Formelmenge hinzu. Die ist unendlich groß, macht aber nichts. Dann tun Sie eben noch
+
+32:07.200 --> 32:12.720
+das nicht P hinzu, ist sie immer noch unendlich groß. Aber jetzt konstruieren Sie eine endliche
+
+32:12.720 --> 32:18.720
+Teilmenge, die nicht erfüllbar ist. Das heißt, Sie zeigen einen Widerspruch, dass eine endliche
+
+32:18.720 --> 32:26.000
+Teilmenge mit nicht P nicht erfüllbar ist. Das ist ein ganz tolles Beweisprinzip, das
+
+32:26.000 --> 32:37.600
+wir später noch kennenlernen werden.
+

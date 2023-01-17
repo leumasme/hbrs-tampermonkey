@@ -1,0 +1,191 @@
+WEBVTT
+
+00:00.000 --> 00:10.000
+Es geht um Folgerungen beziehungsweise eben, wie ich es eben schon notiert habe,
+
+00:10.000 --> 00:23.000
+na komm Schwarz, um logische Schlussfolgerungen.
+
+00:23.000 --> 00:33.000
+Also, wir möchten uns jetzt damit beschäftigen, dass wir untersuchen wollen, ob gegeben,
+
+00:33.000 --> 00:41.000
+eine bestimmte Menge von Formeln, so was nennt man zum Beispiel auch Theorie, sagen wir das mal,
+
+00:41.000 --> 00:53.000
+auch aus einer Theorie, von der man also ausgeht, dass alles, was in ihr formuliert ist, wahr ist,
+
+00:53.000 --> 01:00.000
+auch eine andere Aussage folgt, logisch folgt.
+
+01:00.000 --> 01:07.000
+Das machen Sie beim Herrn Hülsmann in der linearen Algebra oder sonst wo die ganze Zeit.
+
+01:07.000 --> 01:17.000
+Sie legen ein paar Definitionen und müssen zeigen, dass dann zum Beispiel aus diesen Definitionen,
+
+01:17.000 --> 01:25.000
+aus diesen Theorämen, aus diesen Annahmen bestimmte andere Fakten logisch folgen.
+
+01:25.000 --> 01:33.000
+Dazu ist also die logische Schlussfolgerung da.
+
+01:33.000 --> 01:45.000
+Dazu müssen wir uns als erstes mal eine kleine Brücke bauen.
+
+01:45.000 --> 01:50.000
+So, ich hatte jetzt eigentlich gedacht, dass es schon weiter gegangen ist.
+
+01:50.000 --> 01:54.000
+Nein, warum springt die Folie jetzt nicht um?
+
+01:54.000 --> 01:59.000
+Jetzt!
+
+01:59.000 --> 02:08.000
+Ihnen ist vielleicht schon aufgefallen, dass auf den Aufgabenzetteln manchmal zum Beispiel
+
+02:08.000 --> 02:18.000
+Beweise mit Wahrheitstabellen gefordert waren, die entweder die Belegung von Aussagenvariablen
+
+02:18.000 --> 02:26.000
+vorausgesetzt haben oder aber in einer Aufgabe waren Ihnen Formelschemata gegeben,
+
+02:26.000 --> 02:34.000
+in denen nicht Aussagenvariablen drin standen, sondern weitere Formeln P, Q und R tauchten darauf.
+
+02:34.000 --> 02:44.000
+Das bedeutete im Endeffekt, dass Sie für, hier, Moment, da unten steht's, dass Sie in diesen
+
+02:44.000 --> 02:52.000
+Wahrheitstabellen die Aussagenvariablen jeweils nach ihrer Belegung Alpha aufgeschlüsselt haben,
+
+02:52.000 --> 02:59.000
+Teilformeln aber nach deren Interpretation.
+
+02:59.000 --> 03:09.000
+Wenn wir jetzt, da fehlt ein S, wenn wir jetzt also mit Teilformeln P darin gearbeitet haben,
+
+03:09.000 --> 03:15.000
+konnten wir trotzdem natürlich immer davon ausgehen, nun ja, eine beliebige Teilformel
+
+03:15.000 --> 03:21.000
+kann auch immer nur den Wahrheitswert 0 oder 1 haben.
+
+03:21.000 --> 03:28.000
+So, und das hat jetzt Folgendes zur Folge.
+
+03:28.000 --> 03:38.000
+Naja, wenn wir zwei Teilformeln haben, die unter jeder Belegung immer denselben Wahrheitswert
+
+03:38.000 --> 03:45.000
+ergeben, dann wissen wir ja, dass diese Formeln äquivalent sind.
+
+03:45.000 --> 03:51.000
+Das bedeutet, Sie haben in einer Wahrheitstabelle, wenn wir sie denn aufschreiben würden, in
+
+03:51.000 --> 03:55.000
+jeder Spalte immer genau dieselben Einträge.
+
+03:55.000 --> 04:06.000
+Und das wiederum würde bedeuten, dass wenn wir jetzt in einer Wahrheitstabelle die Interpretation
+
+04:06.000 --> 04:12.000
+der komplexen, der gesamten komplexen Formel berechnen wollen, es eigentlich egal ist,
+
+04:12.000 --> 04:19.000
+welche beiden dieser Spalten wir nehmen, weil sie ja dieselben Einträge haben.
+
+04:19.000 --> 04:24.000
+Also, nehmen wir an, P sei eine Formel.
+
+04:24.000 --> 04:27.000
+P ist irgendeine Formel.
+
+04:27.000 --> 04:34.000
+Und diese Formel P hat jetzt eine Teilformel Q.
+
+04:34.000 --> 04:38.000
+Die taucht da irgendwo da drinnen auf.
+
+04:38.000 --> 04:43.000
+Jetzt nehmen wir noch eine andere Formel R her.
+
+04:43.000 --> 04:49.000
+Und diese Formel R sei jetzt äquivalent zu Q.
+
+04:49.000 --> 04:54.000
+Das heißt, Ihre Spalte sieht genauso aus.
+
+04:54.000 --> 04:59.000
+Die Spalte von R sieht genauso aus wie die von Q.
+
+04:59.000 --> 05:02.000
+Was können wir jetzt machen?
+
+05:02.000 --> 05:20.000
+Wir können jetzt vorkommen von Q, also der Teilformel, in P durch R ersetzen.
+
+05:20.000 --> 05:30.000
+Denn ob wir jetzt die Interpretation von P berechnen, indem wir die Teilformel Q betrachten,
+
+05:30.000 --> 05:37.000
+oder die Teilformel R, ist gehupft wie gesprungen.
+
+05:37.000 --> 05:46.000
+Denn Q und R sind ja äquivalent.
+
+05:46.000 --> 05:56.000
+Wenn wir jetzt also vorkommen von Q durch R ersetzen, dann sieht die Formel P ein bisschen anders aus.
+
+05:56.000 --> 05:59.000
+Dann kommt eben eine Formel P' raus.
+
+05:59.000 --> 06:08.000
+Aber es ändert sich natürlich nichts an der tatsächlichen Interpretation dieser Formel.
+
+06:08.000 --> 06:14.000
+Also an der Auswertung, am Ausrechnen des Wahrheitswertes dieser Formel.
+
+06:14.000 --> 06:20.000
+Denn einfach, was wir machen ist, anstatt dass wir einen Wahrheitswert der Teilformel Q nehmen,
+
+06:20.000 --> 06:28.000
+den Wahrheitswert der Teilformel R, der ja, weil die beiden äquivalent sind, derselbe ist.
+
+06:28.000 --> 06:37.000
+Es ändert sich also an der Rechnung oder an den Werten, die in der Rechnung vorkommen, nichts.
+
+06:37.000 --> 06:42.000
+Man kann sich das auch klarmachen, indem Sie Ihren Baum aufmalen.
+
+06:42.000 --> 07:05.000
+Wenn Sie jetzt in Ihrem Baum, der eine Formel P darstellt, einen Knoten haben, dessen Baum eine Teilformel Q darstellt,
+
+07:05.000 --> 07:14.000
+dann können Sie diesen Teilbaum Q ersetzen durch einen Teilbaum R unter einer Bedingung.
+
+07:14.000 --> 07:25.000
+Nämlich, dass egal wie Ihre Belegungen der Aussagenvariablen unten in den Blättern des Baumes,
+
+07:25.000 --> 07:32.000
+immer denselben Wert für den Baum R ergibt wie für den Baum Q.
+
+07:32.000 --> 07:40.000
+Weil die Berechnung darüber ja dieselbe bleibt, wenn diese beiden Q und R immer den gleichen Wert haben.
+
+07:40.000 --> 07:46.000
+Sie nehmen also, die schneiden also einen Teilbaum Q raus, setzen den Teilbaum R ein,
+
+07:46.000 --> 07:51.000
+der immer dieselben Werte hat wie Q, egal, weil unten die Blätter belegt sind.
+
+07:51.000 --> 07:56.000
+Und Sie wissen, oben kommt trotzdem immer dasselbe Ergebnis raus,
+
+07:56.000 --> 08:01.000
+aber der Baum mit jetzt R drin sieht natürlich einfach ein bisschen anders aus.
+
+08:01.000 --> 08:09.000
+Nichts desto weniger trotz, das Ergebnis ganz oben bleibt immer dasselbe.
+

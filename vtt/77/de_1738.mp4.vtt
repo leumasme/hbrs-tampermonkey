@@ -1,0 +1,113 @@
+WEBVTT
+
+00:00.000 --> 00:13.200
+Wir müssen jetzt noch mal kurz aus dem Fluss der Vorlesung ausbrechen und Sie mögen sich
+
+00:13.200 --> 00:22.240
+bitte an die erste Folie von heute erinnern, wo es um die Ersetzung von äquivalenten Teilformeln
+
+00:22.240 --> 00:38.720
+ging. Das bedeutete ja im Endeffekt, dass P, Q und R nichts anderes sind als Variablen für Formen,
+
+00:38.720 --> 00:49.840
+Namen für Formen. Und Sie können an ein und derselben Stelle verschiedene Formen benennen,
+
+00:49.840 --> 01:02.800
+wenn diese äquivalent sind. Das führt jetzt dazu, oder ich habe es mal hier hingestellt,
+
+01:02.800 --> 01:11.920
+ach verflix, da müsste jetzt doch eigentlich ein schönes altes A stehen, egal. Also P wird als
+
+01:11.920 --> 01:20.880
+konkrete Formel aufgefasst oder eben als Variablenname oder in dem Fall eben als eine Metavariable für
+
+01:20.880 --> 01:30.080
+äquivalente Formen. So und jetzt kommt ein großer Sprung, den wir jetzt mal wagen. Wir haben hier
+
+01:30.080 --> 01:39.960
+unten unsere Förmchen mit dem Konjunktionssymbol, dem Disjunktionssymbol, dem Negationssymbol und
+
+01:39.960 --> 01:55.040
+dem Subjunktionssymbol. Jetzt treffen wir über Mengen von solchen Förmchen Aussagen. Wir treffen
+
+01:55.040 --> 02:07.960
+Aussagen über Formenmengen, zum Beispiel. So, jetzt sind das also Aussagen über Aussagen. Es
+
+02:07.960 --> 02:20.040
+sind Meta-Aussagen. Jetzt können wir aber diese Meta-Aussagen natürlich wieder als Elemente einer
+
+02:20.040 --> 02:30.600
+Logik auf dieser Metaebene begreifen. Wir haben vorhin gesagt, aus der Formelmenge groß P
+
+02:30.600 --> 02:44.840
+folgt klein P, wenn jedes Modell von groß P auch ein Modell von klein P ist. Diese Formulierung
+
+02:44.840 --> 02:50.280
+ist eine Aussage über Aussagenmengen oder Beziehungen zwischen Aussagenmengen, die in
+
+02:50.280 --> 03:02.440
+der Formulierung als Äußerung die Form einer Subjunktion hat. Also auch wenn ich hinschreibe
+
+03:02.440 --> 03:11.280
+P ist äquivalent zu Q, so kann das als Aussage interpretiert werden. Wenn Sie zum Beispiel ein
+
+03:11.280 --> 03:23.640
+englisches Buch lesen, dann sehen Sie davor zum Beispiel immer Proposition 12, P äquivalent Q.
+
+03:23.640 --> 03:35.280
+Proposition ist nichts anderes als eine Aussage. Auch zum Beispiel, dass aus der Formel P logisch
+
+03:35.280 --> 03:44.800
+die Formel Q folgt und aus der Formel Q logisch die Formel P ist eine Aussage. Jetzt sozusagen
+
+03:44.800 --> 03:53.840
+nochmal obendrauf gesetzt. Und wir haben schließlich noch eine Aussage, die eine
+
+03:53.840 --> 04:00.640
+Äquivalenz formuliert, indem wir nämlich sagen, P ist äquivalent zu Q, genau dann wenn Q aus P
+
+04:00.640 --> 04:12.400
+folgt und P aus Q zum Beispiel. Und jetzt können wir natürlich hingehen und unsere logischen
+
+04:12.400 --> 04:25.000
+Junktoren aus der Sprache aus der logischen Sprache nehmen und diese Äußerungen ebenfalls als logische
+
+04:25.000 --> 04:33.440
+Formeln darstellen. Also eben zum Beispiel, P ist äquivalent zu Q, genau dann wenn schreibt man dann,
+
+04:33.440 --> 04:40.680
+weil man hier jetzt ein Problem kriegt und einem die Symbole ausgehen. P ist äquivalent zu Q, genau dann wenn...
+
+04:40.680 --> 04:50.400
+Hier habe ich was falsches hingeschrieben. Hier soll ein kleines P stehen. Also hier soll jetzt
+
+04:50.400 --> 04:57.880
+genau das stehen. Tim Fehler, bitte dich zu entschuldigen. Also wir können so eine Äußerung
+
+04:57.880 --> 05:04.000
+auch als logische Formel hinschreiben und das interessante ist, für die gelten jetzt dann auch
+
+05:04.000 --> 05:11.640
+die gleichen Gesetze. Obacht, jetzt habe ich gerade gesagt, hier kriegen wir jetzt ein Problem, weil
+
+05:11.640 --> 05:19.160
+mit jeder Metaebene unserer Aussagen brauchen wir ja eigentlich ein anderes Symbol und deswegen finden
+
+05:19.160 --> 05:24.680
+sie dann in der Literatur die englische Übersetzung von genau dann wenn durch ist. Manche machen dann
+
+05:24.680 --> 05:30.440
+ein dreifaches Gleichheitszeichen dafür. Manche machen sogar, manche machen auch dieses komische
+
+05:30.440 --> 05:44.240
+nach links und nach rechts Modellzeichen, wobei sie gegenseitig... Also in der Regel sollte das
+
+05:44.240 --> 05:51.000
+aber kein Problem sein und was ich jetzt hier nur sagen wollte, ist sozusagen in Erweiterung der
+
+05:51.000 --> 06:01.640
+ersten Folie von heute, dass wir ab jetzt auch die logischen Junktoren benutzen, um unsere natürlich
+
+06:01.640 --> 06:14.720
+sprachlichen, metallurgischen Äußerungen oder Aussagen kompakt hinschreiben zu können.
+

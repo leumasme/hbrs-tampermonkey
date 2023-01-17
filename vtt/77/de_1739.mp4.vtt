@@ -1,0 +1,182 @@
+WEBVTT
+
+00:00.000 --> 00:14.560
+Wir kommen jetzt zum sogenannten Deduktionstheorien. Das Deduktionstheorien beschreibt uns jetzt,
+
+00:14.560 --> 00:32.160
+wie wir die syntaktische Subjunktion in Verbindung setzen können zu einer semantischen Implikation.
+
+00:32.160 --> 00:41.520
+Wir können also jetzt unter bestimmten Voraussetzungen endlich das machen, was sie früher
+
+00:41.520 --> 00:47.600
+oder was sie schon oft verfrüht gemacht haben und ihnen dann leider Probleme bereitet hat.
+
+00:47.600 --> 00:58.520
+Also das Deduktionstheorien oder das semantische Deduktionstheorien, es gibt viele, die werden wir
+
+00:58.520 --> 01:07.120
+alle kennenlernen, für Aussagenlogik, besteht aus zwei Teilen. Der erste ist der hier. Der erste Teil
+
+01:07.120 --> 01:23.760
+sagt, wenn ich eine Formelmenge p habe mit einem kleinen p und daraus logisch eine Formel q folgt,
+
+01:23.760 --> 01:37.760
+wenn ich also q aus p mit klein p herleiten kann, nein ich sag mal Schluss folgen kann, also wenn
+
+01:37.760 --> 01:48.360
+ich q aus p mit klein p Schluss folgen kann, dann kann ich auch in Anführungszeichen oder in Klammern
+
+01:48.360 --> 02:08.880
+stattdessen aus groß p alleine ohne p Schluss folgen, die Subjunktion p impliziert q. Also,
+
+02:08.880 --> 02:29.800
+Sie sehen, dass wir hier diese Subjunktion auf der rechten Seite erlangen, indem wir das vorher
+
+02:29.800 --> 02:42.280
+auf der linken Seite des entailments enthaltenen p herüberziehen. Mit anderen Worten, machen was
+
+02:42.280 --> 02:59.920
+anders. Wenn immer wir ein Modell haben oder wann immer es der Fall ist, dass wenn wir ein Modell von
+
+02:59.920 --> 03:13.240
+p und klein p haben, dieses auch ein Modell von q ist, dann haben wir auch, wann immer wir ein Modell nur von p haben,
+
+03:13.240 --> 03:35.360
+auch ein Modell von p Subjunktion q. Das kann man relativ einfach beweisen. Ich möchte diesen
+
+03:35.360 --> 03:43.600
+Beweis jetzt hier in der Vorlesung ausnahmsweise aber nicht machen, weil gleich noch einer kommt
+
+03:43.600 --> 03:50.360
+und es glaube ich sinnvoller ist, wenn wir dann Beispiele dazu rechnen. Also vielleicht mache ich
+
+03:50.360 --> 03:58.360
+hierzu noch ein extra Video. Also das Deduktionstheorien im ersten Teil sagt, dass wenn wir eine Formel q aus
+
+03:58.360 --> 04:07.120
+einer Theorie mit p ableiten können, wir aus der Theorie ohne das p herleiten können,
+
+04:07.120 --> 04:21.120
+dass p kodempliziert. Der zweite Teil des Deduktionstheorien sagt, dass das auch umgekehrt
+
+04:21.120 --> 04:43.120
+geht. Wenn also wir aus p Schluss folgern können, dass p q impliziert, also wenn jedes Modell von p auch ein Modell von p impliziert ist,
+
+04:43.120 --> 04:57.840
+dann ist p zusammen mit p ein Modell von q. Und ich denke diese Lesweise ist Ihnen intuitiv schnell
+
+04:57.840 --> 05:08.800
+einsichtlich. Angenommen wir sind sozusagen in einer Welt, in der gilt, wenn p dann q ist.
+
+05:08.800 --> 05:19.040
+Und jetzt kommen Sie und jetzt passiert genau das, was Sie sich denken, wenn ich also in einer Welt bin,
+
+05:19.040 --> 05:30.080
+in der aus p q folgt. Die natürliche Sprache wird da sehr ungenau, aber auf diese Art und Weise
+
+05:30.080 --> 05:37.880
+kriegen Sie vielleicht ein intuitives Verständnis dafür. Wenn wir also in einer Welt sind, in der,
+
+05:37.880 --> 05:51.360
+wenn p gilt, auch q gilt, dann gilt natürlich in einer Welt, in der grundsätzlich p gilt, auch q.
+
+05:51.360 --> 06:01.640
+Also ich denke diese Lesweise des Deduktionstheorien ist Ihnen oder liegt Ihnen recht nahe.
+
+06:01.640 --> 06:19.440
+Der Beweis hierfür ist mit einem kleinen Knacker am Anfang, denke ich, wesentlich kürzer und einfacher
+
+06:19.440 --> 06:29.200
+zu verstehen als der Beweis für den anderen Teil. Man kann diese Implikation hier auch beweisen,
+
+06:29.200 --> 06:35.320
+indem man sie umdreht und die beiden Argumente negiert. Dass man das machen kann, werden wir
+
+06:35.320 --> 06:49.200
+nachher noch beweisen. Wir zeigen also, dass wenn p mit klein p, dass wenn daraus q nicht logisch
+
+06:49.200 --> 07:01.520
+folgt, aus p auch p impliziert q, nicht logisch folgt. Um so eine Implikation zu zeigen, gehen wir
+
+07:01.520 --> 07:09.880
+also einfach mal davon aus, dass das hier gilt. Also wir gehen mal davon aus, aus p mit klein p
+
+07:09.880 --> 07:20.000
+folgt nicht logischerweise, dass q gilt. So, jetzt nehmen wir die Definition des logischerweise her.
+
+07:20.000 --> 07:29.920
+Das heißt, der logische, hier, das Entailment. Entailment bedeutet, jedes Modell hiervon ist
+
+07:29.920 --> 07:36.240
+auch ein Modell hiervon. Wenn dieses Entailment also nicht gilt, muss es ein Modell hiervon geben,
+
+07:36.240 --> 07:43.960
+das kein Modell hiervon ist. Also schreiben wir das hin. Es gibt also eine Belegung, die hier diese
+
+07:43.960 --> 07:50.600
+große Konjunktion über das p mit dem kleinen p und so weiter alles wahr macht, dass q aber falsch.
+
+07:50.600 --> 08:00.800
+So, jetzt wissen wir aber hier aus unserer Semantik dieser Konjunktion, dass das nichts anderes
+
+08:00.800 --> 08:08.880
+bedeutet, als dass natürlich die Konjunktion über groß p 1 sein muss und dass die Interpretation
+
+08:08.880 --> 08:15.560
+von klein p 1 sein muss und wir haben ja auch angenommen, dass die Interpretation von q 0 sein muss.
+
+08:15.560 --> 08:21.760
+Jetzt lassen wir wieder weg, was wir nicht brauchen, nämlich diese Konjunktion über groß p und dann
+
+08:21.760 --> 08:30.760
+steht da also die Interpretation von p ist 1 und die Interpretation von q ist 0. Und jetzt nehmen
+
+08:30.760 --> 08:39.400
+wir die Semantik der Subjunktion her und schreiben mal hin, wie sieht denn dann der Wahrheitswert von
+
+08:39.400 --> 08:46.720
+p Subjunktion q aus. Naja und der ist 0, weil diese Subjunktion ja so definiert ist, dass wenn das
+
+08:46.720 --> 08:57.640
+linke Argument zu 1 ausgewertet wird und das rechte Argument zu 0, das Ergebnis 0 ist. Also ist genau
+
+08:57.640 --> 09:09.920
+diese Belegung, die hier 0 ergibt, auch kein Modell hiervon. Wir wissen also, wenn es hier, wenn wir
+
+09:09.920 --> 09:15.320
+also eine Belegung hier oder wenn wir ja eine Interpretation haben, die hier kein Modell ist,
+
+09:15.320 --> 09:19.840
+dann haben wir jetzt hergeleitet, wir haben auch eine Interpretation, die hier kein Modell ist und
+
+09:19.840 --> 09:32.600
+das ist genau das, was da steht. Gut, das war jetzt schon im Ansatz denke ich ein relativ trickreicher
+
+09:32.600 --> 09:40.120
+Beweis, aber hieran sehen Sie, auch wenn Sie diesen Beweis jetzt nicht selber direkt helfen führen
+
+09:40.120 --> 09:47.240
+können und vielleicht jetzt auch noch ein bisschen Verständnisprobleme haben, dass er einer gewissen
+
+09:47.240 --> 09:55.200
+Struktur folgt, einem gewissen Schema, das wir noch kennenlernen werden, aber ansonsten ein Beweis,
+
+09:55.200 --> 10:03.120
+wie ich auch in den Übungen immer gesagt habe, nichts anderes ist als Einsetzen von Definitionen. Gut,
+
+10:03.120 --> 10:08.320
+wir gehen davon aus, dann setzen wir ein, was bedeutet denn dieses Symbol, dann schreiben wir
+
+10:08.320 --> 10:15.560
+das hin, dann setzen wir hier die Definition der kleinen Konjunktion ein, bekommen das hier heraus,
+
+10:15.560 --> 10:22.200
+dann stellen wir fest, das gilt und das gilt und das gilt, also gilt insbesondere natürlich auch das
+
+10:22.200 --> 10:27.960
+und das, wir können das also weglassen, wenn das und das gilt, dann wissen wir die Semantik hiervon,
+
+10:27.960 --> 10:45.920
+müssen wir die Definitionen rückwärts umgehen, schreiben sie hin, also null und der Beweis ist fertig.
+

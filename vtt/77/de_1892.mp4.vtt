@@ -1,0 +1,173 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+So, machen wir nochmal weiter und nehmen nochmal die selbe Formel hier.
+
+00:13.000 --> 00:18.000
+Im Endeffekt auch mit der selben Interpretation.
+
+00:18.000 --> 00:25.000
+Allerdings betrachten wir jetzt mal eine andere Belegungsfunktion,
+
+00:25.000 --> 00:33.000
+nämlich weisen wir mal dem x den Wert 2 zu.
+
+00:33.000 --> 00:47.000
+Dann können wir jetzt dieses Drum hier schon mal etwas flotter hinschreiben.
+
+00:47.000 --> 00:53.000
+Bitte ignorieren Sie diese Zeile, da habe ich es mal versucht, das ohne die Fonts zu machen,
+
+00:53.000 --> 00:55.000
+aber manchmal verwirrt es, manchmal nicht.
+
+00:55.000 --> 01:04.000
+Langer Rede, kurzer Sinn, wenn wir das wieder schrittweise wie für die andere Formel,
+
+01:04.000 --> 01:08.000
+also wenn wir das wieder schrittweise so ausrechnen.
+
+01:08.000 --> 01:16.000
+Sie haben gesehen, diese Formel hier wurde interpretiert als 3 kleiner gleich 3 und 3 kleiner gleich 4.
+
+01:16.000 --> 01:32.000
+Weil x gleich 3 war, jetzt ist x aber gleich 2 und somit ist der Wahrheitswert der Aussage 3 kleiner gleich 2 und 3 kleiner gleich 2 plus 1.
+
+01:32.000 --> 01:42.000
+2 plus 1 ist 3, 3 ist kleiner gleich 3, stimmt, 3 ist aber nicht kleiner gleich 2, hier steht also ein false, hier steht ein true.
+
+01:42.000 --> 01:49.000
+Das Ganze jetzt wieder Wunsch interpretiert, false, true, infimum ergibt false.
+
+01:49.000 --> 01:55.000
+Das heißt, unter dieser Belegung ist diese Formel falsch.
+
+01:55.000 --> 02:08.000
+Es gibt also eine Belegung, unter der sie wahr ist, es gibt aber auch eine Belegung, unter der sie falsch ist.
+
+02:08.000 --> 02:21.000
+Wenn wir uns jetzt aber mal beispielhaft eine etwas andere Formel anschauen, ähnlich, aber nicht gleich ist,
+
+02:21.000 --> 02:36.000
+nämlich wie folgt, wenn p, was wir ja als kleiner interpretieren, also die heißt einfach nur p x y impliziert p x f von y.
+
+02:36.000 --> 02:45.000
+Wenn wir das jetzt interpretieren und einfach so hinschreiben, wie wir es verstehen wollen, dann steht da ja übersetzt,
+
+02:45.000 --> 02:57.000
+so wie ich es hier oben gemacht habe, im Endeffekt die Formel x ist kleiner gleich y impliziert x ist kleiner gleich y plus 1.
+
+02:57.000 --> 03:05.000
+Das ist jetzt aber sogar eine in den natürlichen Zahlen gültige Formel. Warum?
+
+03:05.000 --> 03:15.000
+Also sie ist eine gültige Formel, weil sie für alle Belegungen von x und y wahr ist.
+
+03:15.000 --> 03:26.000
+Für jedes beliebige Zahlenpaar x und y gilt, dass wenn x kleiner gleich y ist, x auch kleiner gleich y plus 1 ist.
+
+03:26.000 --> 03:45.000
+Also für jede mögliche Belegung gilt, also für jede mögliche Belegung alpha gilt, dass die Interpretation hier von 1 ergibt.
+
+03:45.000 --> 04:01.000
+Und das bedeutet nach unserer Definition ein paar Folien vorher, dass diese Formel in den natürlichen Zahlen immer wahr ist.
+
+04:01.000 --> 04:17.000
+Gut, der Knackpunkt an dieser Formel, oder was wir bis jetzt gemacht haben, ist folgendes.
+
+04:17.000 --> 04:33.000
+Wir haben eine Formel betrachtet, oder zwei Formeln, die allerdings ein wichtiges Element der Prädikatenlogik sich ja gar nicht zunutze gemacht haben.
+
+04:33.000 --> 04:37.000
+Da tauchten ja gar keine Quantoren drauf.
+
+04:37.000 --> 04:50.000
+Dennoch, das haben Sie gesehen, kamen Variablen drin vor. Das heißt, diese Variablen waren ungebunden, diese Variablen waren freie.
+
+04:50.000 --> 04:55.000
+Wenn keine Quantoren drin sind, müssen diese Variablen frei sein.
+
+04:55.000 --> 05:08.000
+Freie Variablen sind eine Situation, bei der man in der Regel aufpassen muss.
+
+05:08.000 --> 05:23.000
+Und das gilt insbesondere, wenn man sich die Erfüllbarkeitsrelation von solchen Formeln ansieht.
+
+05:23.000 --> 05:29.000
+Schauen wir uns das mal genauer an.
+
+05:29.000 --> 05:48.000
+Wenn wir eine Formel haben P oder Q, und diese Formel wird als wahr interpretiert,
+
+05:48.000 --> 05:57.000
+dann bedeutet das natürlich, dass P als wahr interpretiert wird oder Q wird als wahr interpretiert.
+
+05:57.000 --> 06:05.000
+Eine dieser beiden Formeln muss wahr sein. Nur dann ist das Gesamte wahr.
+
+06:05.000 --> 06:20.000
+Aber wenn die Formel P oder Q gültig ist, das heißt also, unter allen Belegungen wahr sein soll,
+
+06:20.000 --> 06:28.000
+dann bedeutet das nicht, dass P unter allen Bedingungen wahr ist oder Q unter allen Bedingungen wahr ist.
+
+06:28.000 --> 06:30.000
+Also achten Sie darauf.
+
+06:30.000 --> 06:36.000
+Dadurch, dass dieses Alpha hier fehlt, geht dieses genau dann, wenn verloren.
+
+06:36.000 --> 06:42.000
+Wenn es für alle Belegungen das gilt, dann gilt das für alle Belegungen oder es gilt das für alle Belegungen.
+
+06:42.000 --> 06:49.000
+Wenn das für eine Belegung gilt, dann gilt das für diese Belegung oder das für diese Belegung.
+
+06:49.000 --> 06:56.000
+Aber wenn das hier für alle Belegungen gilt, dann heißt es eben nicht, dass das für alle Belegungen gilt oder das.
+
+06:56.000 --> 07:04.000
+Hier das Beispiel. Wir nehmen wieder mal die natürlichen Zahlen und sagen einfach mal,
+
+07:04.000 --> 07:10.000
+die Formel P soll jetzt ausdrücken, 2 ist ein Teiler von x.
+
+07:10.000 --> 07:17.000
+Und die Formel Q soll ausdrücken, 2 ist kein Teiler von x.
+
+07:17.000 --> 07:27.000
+Natürlich ist dann die Aussage, also im Endeffekt x ist gerade oder x ist ungerade gültig.
+
+07:27.000 --> 07:31.000
+Weil das gilt für alle natürlichen Zahlen.
+
+07:31.000 --> 07:37.000
+Für alle natürlichen Zahlen gilt gerade oder nicht gerade.
+
+07:37.000 --> 07:50.000
+Aber es gilt nicht, dass alle Zahlen gerade sind oder dass alle Zahlen ungerade sind.
+
+07:50.000 --> 07:58.000
+Weil es gibt die 3, die nicht gerade ist und es gibt die 4, die nicht ungerade sind.
+
+07:58.000 --> 08:04.000
+Also natürlich sind alle Zahlen gerade oder ungerade.
+
+08:04.000 --> 08:11.000
+Aber es ist nicht der Fall, dass alle Zahlen gerade sind oder dass alle Zahlen ungerade sind.
+
+08:11.000 --> 08:18.000
+Das ist ein großer Unterschied. Also da muss man aufpassen.
+
+08:18.000 --> 08:30.000
+Ähnliches gilt in diesem Fall, naja im Endeffekt habe ich das analog zu dem da oben gemacht, auch für die einfache Negation.
+
+08:30.000 --> 08:46.000
+Wenn unter einer bestimmten Belegung nicht P wahr ist, dann kann P natürlich nicht wahr sein.
+
+08:46.000 --> 09:04.000
+Aber wenn nicht P gültig ist, bedeutet das nicht, dass P nicht gültig ist.
+
+09:04.000 --> 09:17.000
+Auch hier wieder genau das Beispiel mit gerade und ungerade.
+

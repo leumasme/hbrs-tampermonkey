@@ -1,0 +1,413 @@
+WEBVTT
+
+00:00.000 --> 00:13.280
+Also, wie kann man jetzt so ein Kalkül benutzen?
+
+00:13.280 --> 00:24.420
+Wie Sie eben richtig gesagt, gelesen haben, sind Kalküle sehr praktisch, um sie zu implementieren.
+
+00:24.420 --> 00:35.360
+Umgekehrt haben Sie sich vielleicht auch immer gefragt, warum ich auch noch so trivial
+
+00:35.360 --> 00:44.320
+erscheinende Aussagen beweise und dann auch immer noch dranschreibe, warum jeder Schritt gilt.
+
+00:44.320 --> 00:58.120
+Und ich habe Ihnen in der letzten Woche mit dem Aufgabenzettel gesagt, dass Sie sich damit
+
+00:58.120 --> 01:04.560
+vertraut machen und darüber klar werden, wie all diese logischen Prinzipien, die wir
+
+01:04.560 --> 01:12.880
+kennengelernt haben, inklusive aller arithmetischen oder sonst irgendwas Operationen, die wir
+
+01:12.880 --> 01:19.640
+verwendet haben, um die Semantik zu definieren – jetzt habe ich den Anfang des Satzes verloren
+
+01:19.640 --> 01:27.440
+– wie die zusammenhängen, damit Sie halt sehen, wie ein Beweis im Allgemeinen geführt
+
+01:27.440 --> 01:28.440
+wird.
+
+01:28.440 --> 01:36.520
+So, und jetzt verwenden wir mal diesen Kalkül der natürlichen Reduktion, um Ihnen einen
+
+01:36.520 --> 01:45.800
+Beweis, den Sie bereits geführt haben, mal mit Hilfe dieser Regeln ganz genau darzustellen.
+
+01:45.800 --> 01:59.720
+So, und zwar – da hängt die Maus – wie macht man das?
+
+01:59.720 --> 02:13.520
+Hier sehen Sie den Trick, von dem ich Ihnen vorhin schon erzählt habe, wie die Implikationseinführung
+
+02:13.520 --> 02:20.200
+genutzt wird, dass, wenn man bereits Formeln bewiesen hat, man eine Annahme Q trifft, mit
+
+02:20.200 --> 02:29.720
+Hilfe dieser Annahme Q R beweisen kann und dann aus dieser natürlichen Reduktion in
+
+02:29.720 --> 02:41.240
+sozusagen einem Unterschritt unter der Annahme, dass P gilt, zu der Konklusion kommt, dass
+
+02:41.240 --> 02:47.240
+die Subjunktion Q impliziert R als abgeleitete Formel gelten kann.
+
+02:47.240 --> 02:55.320
+Und dann haben wir den tollen Fall, dass wenn man irgendwo – also dieses Q könnte auch
+
+02:55.320 --> 03:02.720
+hier oben stehen – wenn wir irgendwo das Q bewiesen haben, können wir, weil es in
+
+03:02.720 --> 03:15.720
+der Zeile K steht, aus Q und der Zeile J plus 1, also hier, mit der Modus Ponens-Regel
+
+03:15.720 --> 03:22.000
+auf R schließen, wenn das genau das ist, was wir haben wollen.
+
+03:22.000 --> 03:37.200
+Also, das ist sehr wichtig, um nochmal klar zu machen, wie diese Implikationseinführung
+
+03:37.200 --> 03:38.200
+funktioniert.
+
+03:38.200 --> 03:43.640
+Nochmal zur Wiederholung, wir schreiben uns, wenn wir einen Beweis mit natürlicher Reduktion
+
+03:43.640 --> 03:48.840
+umführen, oben eine Menge von Prämissen, hier habe ich jetzt keine hingeschrieben,
+
+03:48.840 --> 03:52.200
+weil das für das Beispiel nicht relevant war.
+
+03:52.200 --> 03:59.920
+Dann wenden wir irgendwelche Regeln an, daraus folgt zum Beispiel diese Formel.
+
+03:59.920 --> 04:06.000
+Jetzt können wir auf alles, was da drüber steht, irgendeine Regel anwenden, daraus
+
+04:06.000 --> 04:07.800
+folgt wieder irgendeine Formel.
+
+04:07.800 --> 04:14.000
+Jetzt können wir auf alle Formeln, die da drüber stehen, irgendeine Regel anwenden,
+
+04:14.000 --> 04:17.040
+daraus können wir wieder eine neue ableiten.
+
+04:17.040 --> 04:28.000
+Wenn wir jetzt das Problem haben, wie in aller Welt kriege ich denn ein Q impliziert R, oder
+
+04:28.000 --> 04:33.960
+noch schlimmer, wie in aller Welt kriege ich denn ein R, machen wir genau den Trick, den
+
+04:33.960 --> 04:35.600
+ich vorhin gesagt habe.
+
+04:35.600 --> 04:48.680
+Wenn ich das R nicht direkt zeigen kann, aber ich kann zeigen, dass R aus Q folgt, und dann
+
+04:48.680 --> 04:56.560
+ist und der Beweis für Q ist einfacher, durch irgendwelche Anwendungen, dann mache ich folgendes.
+
+04:56.560 --> 05:05.200
+Ich nehme an, dass Q gilt, und zwar können Sie sich das vorstellen als einen Eingeschlechter,
+
+05:05.200 --> 05:10.640
+deswegen sind hier diese Klammern drum, als einen eingeschachtelten Nebenbeweis.
+
+05:10.640 --> 05:20.040
+Unter der Annahme, also das Q ist, und unter der Anwendung oder unter der Nutzung sämtlicher
+
+05:20.040 --> 05:27.960
+Formeln, die Sie bereits vorher als möglich dargestellt haben, können Sie jetzt R beweisen,
+
+05:27.960 --> 05:31.120
+wissen Sie, wie kompliziert R ist.
+
+05:31.120 --> 05:38.000
+Und, weil meinetwegen Q jetzt irgendwie einfacher zu beweisen ist, haben Sie durch Anwendung
+
+05:38.000 --> 05:41.040
+des Modus Tonens R geklärt.
+
+05:41.040 --> 05:43.400
+Das ist die Idee dahinter.
+
+05:43.400 --> 05:56.320
+Zum Beispiel, die tolle Regel aus P folgt Q folgt P, das ist rein zufällig das erste
+
+05:56.320 --> 06:02.720
+Axiom aus dem Hilbert-Aktiv, und Sie kennen es auch als eine der ersten Tautologien, die
+
+06:02.720 --> 06:04.680
+ich Ihnen vorgestellt habe.
+
+06:04.680 --> 06:06.880
+Was bedeutet, was ist eine Tautologie?
+
+06:06.880 --> 06:11.800
+Eine Tautologie ist immer wahr, das heißt, sie folgt logisch aus einer leeren Menge von
+
+06:11.800 --> 06:12.800
+Prämissen.
+
+06:12.800 --> 06:13.800
+Tada!
+
+06:13.800 --> 06:15.880
+Wir nehmen also einfach mal nichts an.
+
+06:15.880 --> 06:25.920
+Wie in aller Welt bekomme ich denn jetzt die Formel, denken Sie als String, denken Sie
+
+06:25.920 --> 06:31.040
+Sie sich das als Zeichenkette, wo in aller Welt kriege ich diesen Pfeil her?
+
+06:31.040 --> 06:43.800
+Nun, und das wissen Sie, Sie kriegen diesen Pfeil her, wenn Sie unter der Annahme P das
+
+06:43.800 --> 06:44.800
+hier ableiten können.
+
+06:44.800 --> 06:53.560
+Sie brauchen also einen Beweis, dass unter der Annahme P dieses hier abgeleitet werden
+
+06:53.560 --> 06:54.560
+kann.
+
+06:54.560 --> 06:59.960
+Und jetzt haben Sie hier einen Pfeil stehen, wie in aller Welt kriegen Sie diesen Pfeil
+
+06:59.960 --> 07:00.960
+her?
+
+07:00.960 --> 07:11.920
+Nun ja, in dem unter der Annahme Q P hergeleitet werden kann, also nehmen Sie Q an, wenn Sie
+
+07:11.920 --> 07:20.560
+jetzt Q angenommen haben als zweite Annahme, wissen Sie aber auch, weil Sie ja zuvor schon
+
+07:20.560 --> 07:31.120
+P angenommen haben, dass bei P gilt und weil Sie jetzt unter der Annahme, dass Q gilt, P
+
+07:31.120 --> 07:37.280
+gezeigt haben, gilt unter der Annahme P die Implikation Q impliziert P.
+
+07:37.280 --> 07:44.280
+Wenn unter der Annahme P Q impliziert P gilt, dann gilt auch die Implikation P impliziert
+
+07:44.280 --> 07:45.280
+Q impliziert P.
+
+07:45.280 --> 08:06.760
+So, was ich Ihnen jetzt beschrieben habe, war einfach nur eine Suche nach geeigneten Zeichenersetzungen,
+
+08:06.760 --> 08:15.640
+die diese Zeichenkette hier herleitet.
+
+08:15.640 --> 08:28.160
+So, und das hier kennen Sie, das hier ist eine Umformulierung der von mir so heiß geliebten
+
+08:28.160 --> 08:29.160
+Hongierige.
+
+08:29.160 --> 08:40.920
+Aus P und Q impliziert R folgt, das aus P folgt nicht Q oder R.
+
+08:40.920 --> 08:52.040
+Sie sehen, das ist jetzt ein elendiglich langer Device, aber Sie kriegen den schneller hin.
+
+08:52.040 --> 08:56.640
+Jetzt kommen Sie mir nicht mit Wahrheitstabellen.
+
+08:56.640 --> 09:01.520
+Mit Wahrheitstabellen ist ein Computer noch schneller als Sie.
+
+09:01.520 --> 09:06.000
+Wir lernen aber Logiken kennen, in denen Wahrheitstabellen überhaupt nichts bringen.
+
+09:06.000 --> 09:14.480
+Also nutzen Sie in diesem Fall irgendwelche Äquivalenzumformungen.
+
+09:14.480 --> 09:16.440
+Das ist schön.
+
+09:16.440 --> 09:27.200
+Aber, wie Sie alle selber festgestellt haben, kann man einen solchen Beweis mithilfe von
+
+09:27.200 --> 09:36.640
+Äquivalenzumformungen erst dann führen, wenn man ein gewisses Gefühl, eine gewisse Intuition
+
+09:36.640 --> 09:44.160
+und eine gewisse Erfahrung gesammelt hat, unter welchen Bedingungen welche Äquivalenzumformungen
+
+09:44.160 --> 09:45.160
+zielführend sind.
+
+09:45.160 --> 09:53.280
+So, Intuition, Erfahrung und Gefühl ist genau das, was einem Computer fehlt.
+
+09:53.280 --> 10:02.520
+Der muss algorithmisch hergehen, aber das kann er wahnsinnig schnell.
+
+10:02.520 --> 10:10.760
+Das heißt, wenn ich Ihnen das jetzt hier in 20 Schritten vorstelle, dauert das vielleicht
+
+10:10.760 --> 10:19.040
+auch 20 Minuten, aber für einen Rechner, naja, in dem Fall hat er auch mehrere Wahlmöglichkeiten,
+
+10:19.040 --> 10:20.760
+der kriegt es aber auf jeden Fall schneller hin.
+
+10:20.760 --> 10:28.080
+Also, was man macht ist, diese Formelmenge hier als Prämisse anzunehmen.
+
+10:28.080 --> 10:34.920
+Wir starten also im Endeffekt mit diesem String hier und was wir wollen ist, wir wollen diesen
+
+10:34.920 --> 10:36.480
+String hier herleiten.
+
+10:36.480 --> 10:41.080
+Das ist also das, was rauskommen soll, okay?
+
+10:41.080 --> 10:47.480
+Und jetzt können wir als allererstes gleich schon sagen, wenn hier unten eine Subjunktion
+
+10:47.480 --> 10:54.400
+rauskommen soll, dann wissen wir, diese Subjunktion muss Ergebnis einer Implikationseinführung
+
+10:54.400 --> 10:55.400
+sein.
+
+10:55.400 --> 11:01.000
+Und ich habe jetzt einfach mal hingeschrieben, naja, diese Subjunktionseinführung soll jetzt
+
+11:01.000 --> 11:04.960
+aus einer Implikationseinführung von Zeilen 1 und 19 sein.
+
+11:04.960 --> 11:12.480
+Das heißt, hier oben wird irgendwo p angenommen und hier unten wird dann irgendwie nicht q
+
+11:12.480 --> 11:17.000
+oder r hergeleitet werden worden sein sollen.
+
+11:17.000 --> 11:21.320
+So, da haben wir es.
+
+11:21.320 --> 11:27.800
+Wir nehmen also an das p und hoffen, dass wir es irgendwie hinkriegen, dass unten rauskommt
+
+11:27.800 --> 11:34.920
+nicht q oder r, weil dann ist eben unter Anwendung der Implikationseinführung diese Subjunktion
+
+11:34.920 --> 11:43.400
+als abgeleitet und weil wir den Kalkül als korrekt annehmen, auch korrekt.
+
+11:43.400 --> 11:49.320
+Gut, jetzt schauen wir mal da ein bisschen genauer hin.
+
+11:49.320 --> 11:56.120
+Also auch hier braucht man ein bisschen Intuition, zumindest um es zu erklären, warum das Ding
+
+11:56.120 --> 11:58.120
+so aussieht, wie es aussieht.
+
+11:58.120 --> 12:04.000
+Dieses Ding wissen Sie jetzt, und ein Computer kann das schnell suchen, dass das hier äh
+
+12:04.000 --> 12:06.960
+äquivalent ist zu q impliziert r.
+
+12:06.960 --> 12:10.160
+Es wäre also super, wenn wir irgendwie q impliziert r haben.
+
+12:10.160 --> 12:17.560
+Und wenn wir q impliziert r unter der Annahme p haben, dann können wir hier q impliziert
+
+12:17.560 --> 12:25.480
+r hinschreiben und aus q impliziert r hoffentlich irgendwie nicht q oder r ableiten.
+
+12:25.480 --> 12:35.400
+Also auf dem Weg von a nach b schlägt man irgendwo mal einen Pflok in die Mitte.
+
+12:35.400 --> 12:43.000
+Nun, und dieser Pflok hat wiederum genau die Form einer Subjunktion, das heißt wir können
+
+12:43.000 --> 12:48.480
+auch wieder sagen, hier unter der Annahme das p muss folgen q oder r.
+
+12:48.480 --> 12:54.120
+Um dieses Ding, um diese Implikation, um diese Subjunktion zu kriegen, müssen wir das aus
+
+12:54.120 --> 12:56.400
+irgendeiner Implikationseinführung kriegen.
+
+12:56.400 --> 13:03.520
+Also schreiben wir das mal hin und wir denken uns, wie in aller Welt kann ich das füllen?
+
+13:03.520 --> 13:14.840
+Naja, Sache ist klar, wenn hier q impliziert r ist, ist das auch wieder eine Implikationseinführung.
+
+13:14.840 --> 13:18.440
+Wir müssen also aus q r folgen.
+
+13:18.440 --> 13:21.720
+So, und jetzt schauen wir mal genau hin.
+
+13:21.720 --> 13:29.120
+Da steht doch jetzt, also wir haben p angenommen, dann haben wir nochmal p angenommen, ist wurscht,
+
+13:29.120 --> 13:30.120
+jetzt haben wir q angenommen.
+
+13:30.120 --> 13:40.880
+Heideneidenei, wenn wir doch p und q angenommen haben, das also im momentanen Beweis, Seitenbeweis
+
+13:40.880 --> 13:47.600
+gilt, dann haben wir ja die Konjunktionseinführung, wenn also p gilt und q gilt, gilt auch p und
+
+13:47.600 --> 13:48.600
+q.
+
+13:48.600 --> 13:53.440
+So, und wenn p und q gilt, dann haben wir ja Modus Ponens zum Beispiel, um da ein r raus
+
+13:53.440 --> 13:57.840
+zu ziehen, aus unserer Prämisse.
+
+13:57.840 --> 14:04.880
+Ich hoffe, dass ich jetzt in die richtige Richtung argumentiert habe, ta-da, Glück gehabt.
+
+14:04.880 --> 14:13.320
+Also, indem wir die Zeile 2 nehmen, dieses p, und die Zeile 3, dieses q, können wir
+
+14:13.320 --> 14:17.280
+p und q durch Konjunktionseinführung bauen.
+
+14:17.280 --> 14:31.120
+Wenn wir jetzt haben, aus q, ja, folgt mit p und q, r, also r, wissen wir, dass unter
+
+14:31.120 --> 14:34.600
+der Annahme, dass p gilt, r gilt.
+
+14:34.600 --> 14:37.200
+Also können wir das hinschreiben.
+
+14:37.200 --> 14:44.960
+Und, weil wir das hier bewiesen haben, unter der Annahme, dass p gilt, wissen wir, dass
+
+14:44.960 --> 14:47.720
+p impiziert, q impiziert, r gilt.
+
+14:47.720 --> 14:51.800
+Und immer, wenn ich jetzt sage, gilt, ist das falsch.
+
+14:51.800 --> 15:02.200
+Das heißt nicht, dass es gilt, sondern es ist eine zulässige Ableitung oder String-Veränderung.
+
+15:02.200 --> 15:19.920
+Ja, im Titel steht die wichtige Frage, warum p zweimal angenommen wurde.
+

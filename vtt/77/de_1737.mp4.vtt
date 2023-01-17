@@ -1,0 +1,161 @@
+WEBVTT
+
+00:00.000 --> 00:13.000
+Mit dieser Schlussfolgerbarkeit, mit diesem Entailment können wir jetzt hingehen und
+
+00:13.000 --> 00:19.160
+weitere interessante Aussagen machen und uns einige andere Konzepte, die wir vorher bereits
+
+00:19.160 --> 00:26.040
+uns überlegt haben, nochmal von einer anderen, etwas anderen Sichtweise uns überlegen.
+
+00:26.040 --> 00:38.360
+Zum Beispiel sind Tautologien allgemeingültig. Wir hatten ja gesagt, eine Formel ist eine
+
+00:38.360 --> 00:43.960
+Tautologie, wenn sie immerzu wahr ausgewertet wird, egal wie die Belegung ist. So, jetzt
+
+00:43.960 --> 00:52.720
+überlegen wir uns doch mal, wenn eine Formel immerzu wahr ausgewertet wird, was brauchen
+
+00:52.720 --> 01:02.080
+wir denn, um auf eine Tautologie zu schlussfolgern zu können. Und da kommt man zu dem tollen
+
+01:02.080 --> 01:11.960
+Ergebnis, dass Tautologien quasi aus dem Nichts folgen. Schauen wir uns das mal an. Ich behaupte
+
+01:11.960 --> 01:31.960
+also, dass aus der leeren Menge von Formeln folgt, dass eine Tautologie wahr ist. Entschuldigung,
+
+01:31.960 --> 01:39.760
+dass aus einer leeren Menge von Formeln eine Tautologie folgt. So, wieso denn? Jetzt schauen
+
+01:39.760 --> 01:46.920
+wir uns das mal an. Also, aus einer Menge folgt logisch eine Formel p, genau dann,
+
+01:46.920 --> 01:56.160
+wenn jedes Modell der leeren Menge auch ein Modell der Formel klein p ist. Eigentlich
+
+01:56.160 --> 02:06.320
+sind wir jetzt schon fertig. Denn, wenn Sie jetzt mal verbotenerweise diesen Implikationsfall
+
+02:06.320 --> 02:15.080
+durch eine Subjunktion ersetzen, wissen wir ja, dass, weil p eine Tautologie ist, jedes
+
+02:15.080 --> 02:24.480
+Modell ein Modell von p ist. Das heißt, hier steht immer ein true. Und wir wissen, dass
+
+02:24.480 --> 02:36.480
+eine Subjunktion, deren Konklusion true ist, bei der Interpretation immer den Wahrheitswert
+
+02:36.480 --> 02:43.040
+1 ergibt. Das heißt, wir können eigentlich hier mit dem Beweis schon aufhören. Egal,
+
+02:43.040 --> 02:48.840
+was hier steht, wir wissen, hier hinten steht true. Und damit ist die Implikation wahr.
+
+02:48.840 --> 02:57.920
+Gut, also, für alle Modelle oder für alle Interpretationen gilt also, wenn diese Interpretation
+
+02:57.920 --> 03:08.560
+die leere Menge erfüllt, dann erfüllt sie auch p. Das heißt also, für alle Formeln
+
+03:08.560 --> 03:21.520
+q aus der leeren Menge gilt, dass, wenn i ein Modell davon ist, dann ist i auch ein
+
+03:21.520 --> 03:28.640
+Modell von p. Naja, jetzt gucken wir uns mal die Menge aller Formeln q an, die in der leeren
+
+03:28.640 --> 03:38.520
+Menge sind. Das sind keine. Also, die Aussage für alle q aus der leeren Menge gilt, dass
+
+03:38.520 --> 03:49.160
+i ein Modell ist, ist immer wahr. Wir haben also aus wahr folgt, dass i ein Modell von
+
+03:49.160 --> 04:00.920
+p ist. Und jetzt wissen wir, hier ist es also ein bisschen anders dargestellt, dass das
+
+04:00.920 --> 04:12.880
+hier natürlich den Wahrheitswert wahr ergibt, wenn auch das wahr ist. Also muss jedes Modell,
+
+04:12.880 --> 04:19.320
+jede Interpretation ein Modell von p sein. Das ist genau dann der Fall, wenn p allgemeingültig
+
+04:19.320 --> 04:25.760
+ist und das bedeutet, dass p eine Tautologie ist. Also, wenn p eine Tautologie ist, dann
+
+04:25.760 --> 04:43.280
+folgt diese Tautologie aus dem Nichts. Wir können sie einfach so schlussfolgern. Ähnlich
+
+04:43.280 --> 04:58.640
+interessant sind noch, ich bin mal wieder auf der Suche nach meiner Maus, sind auch folgende
+
+04:58.640 --> 05:06.000
+Feststellungen. Erstmal, die Formel f, die immer falsch ist, hat kein Modell. Na klar,
+
+05:06.000 --> 05:13.400
+sie ist nicht erfüllbar, weil sie immer zu falsch ausgewertet wird. Das halten wir also
+
+05:13.400 --> 05:21.680
+erst mal fest. So, jetzt gucken wir uns aber ein Prinzip an, das sich nennt x-valse-quot-libet,
+
+05:21.680 --> 05:28.440
+also aus etwas Falschen folgt etwas Beliebiges. Das kennen Sie jetzt interessanterweise natürlich
+
+05:28.440 --> 05:38.800
+auch aus der Tabelle für die Subjunktion. Also, wenn die falsche Formel, sage ich jetzt
+
+05:38.800 --> 05:50.680
+mal, ein Element der Menge p ist, dann folgt aus dieser Menge p von Formeln logisch, dass
+
+05:50.680 --> 06:03.320
+die Formel p wahr ist. Und zwar, gucken Sie hin, es gilt für alle Formeln p. Das heißt,
+
+06:03.320 --> 06:12.440
+sobald in unserer in Anführungszeichen Theorie ein Fehler drin ist, können wir alles daraus
+
+06:12.440 --> 06:30.920
+folgern. Einen Beweis, obwohl wir zu den Beweisprinzipien erst später kommen, würde man in diesem Falle
+
+06:30.920 --> 06:37.640
+durch einen Widerspruch führen. Wir wissen ja, also, wenn das wahr ist, ist auch das
+
+06:37.640 --> 06:44.880
+wahr. Wir gehen also mal davon aus, dass das hier wahr ist, das aber nicht. Und dann müsste
+
+06:44.880 --> 06:54.520
+es ja zu einem Widerspruch kommen. So, wenn also f in p ist und wir wissen, dass f kein
+
+06:54.520 --> 07:01.880
+Modell hat, dann hat natürlich auch die Konjunktion aller Formeln aus P mit f, die kein Modell
+
+07:01.880 --> 07:10.640
+hat, auch kein Modell. Also, p ist unerfüllbar. Das heißt, p hat kein Modell, so wie ich es
+
+07:10.640 --> 07:21.040
+eben schon gesagt habe. Also, wenn f in p ist, hat p kein Modell. So, wenn jetzt aus
+
+07:21.040 --> 07:35.120
+Groß-p, Klein-p nicht logisch folgt, heißt das was? Es gibt ein Modell von Groß-p, das
+
+07:35.120 --> 07:44.760
+kein Modell von Klein-p ist. Das ist genau das hier. Es gibt also eine Interpretation,
+
+07:44.760 --> 07:52.680
+die ein Modell von Groß-p ist, aber die kein Modell von Klein-p ist. Wenn da jetzt aber
+
+07:52.680 --> 08:01.560
+steht, es gibt ein Modell von Groß-p, für das noch irgendetwas anderes gilt, steht da
+
+08:01.560 --> 08:10.000
+vor allen Dingen, es gibt ein Modell von p. Naja, aber hier oben haben wir gesagt, p hat
+
+08:10.000 --> 08:17.640
+kein Modell. Und das ist definitiv ein Widerspruch. Also wissen wir, dass wenn f, oder die immer
+
+08:17.640 --> 08:30.440
+falsche Formel f, in einer Menge p von Formeln, ist aus dieser Menge p beliebiges Quot-Libet
+
+08:30.440 --> 08:40.520
+geschlussfolgert werden kann.
+

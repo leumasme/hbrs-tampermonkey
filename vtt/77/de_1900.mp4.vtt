@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00.000 --> 00:12.000
+Kommen wir jetzt natürlich auch zu der interessanten Frage, wie es jetzt in der Prädikatenlogik aussieht mit dem Enthalment, mit der logischen Implikation.
+
+00:12.000 --> 00:20.000
+Wir hatten bereits diese Definitionen von Implikation, Equivalenz und Enthalment.
+
+00:20.000 --> 00:32.000
+Insbesondere haben wir dabei festgestellt, dass, allerdings natürlich mit der Beschränkung aufgeschlossenen Formeln,
+
+00:32.000 --> 00:47.000
+wir die Definitionen der Implikation, der Equivalenz und der logischen Schlussfolgerung des Enthalments 1 zu 1 aus der Aussagenlogik erhoben können.
+
+00:47.000 --> 00:58.000
+Also eine Formel P impliziert eine Formel Q, wenn jedes Modell der Formel P auf ein Modell der Formel Q ist. Ganz normal.
+
+00:58.000 --> 01:18.000
+Genauso ist es für das logische Enthalment, das aus einer Menge von Formeln P, eine Formel P folgt, wenn jedes Modell der Formel P, und das wiederum bedeutet Modell der Konjunktion aller Formeln P, etc.
+
+01:18.000 --> 01:25.000
+wenn also jedes Modell dieser Formelmenge P auch ein Modell der Formel p ist.
+
+01:25.000 --> 01:35.000
+Die Definition, wie gesagt, ist dadurch fertig, sehr schnell, sehr einfach und wir könnten weitermachen.
+
+01:35.000 --> 01:41.000
+Allerdings sollten wir vielleicht an der Stelle auch ein Beispiel betrachten.
+
+01:41.000 --> 01:54.000
+Wir machen das mal mit einer ganz kleinen Formelmenge, mit zwei Formeln, und versuchen aus diesen zwei kleinen Formeln eine dritte.
+
+01:54.000 --> 02:16.000
+Was wir jetzt im Folgenden machen werden, ich werde Ihnen diese Formelmenge vorstellen in drei verschiedenen Varianten und werde dabei anfangen mit einer sehr einfach zu interpretierenden Darstellung,
+
+02:16.000 --> 02:37.000
+inklusive vielen Farben, aus denen Ihnen hoffentlich nochmal ganz klar wird, wo oder in welchen Teilen wir jeweils argumentieren, ob ein logischer Schluss gültig ist.
+
+02:37.000 --> 02:57.000
+Es kommt also jetzt ganz besonders darauf an, zu unterscheiden zwischen der Anwendung der Definition der Interpretationsfunktion und dem Überprüfen der – jetzt fehlt natürlich das richtige Wort –
+
+02:57.000 --> 03:11.000
+und dem Überprüfen, ob die Interpretation einer solchen Formel in der Struktur, die wir im Hinterkopf haben, auch tatsächlich gültig ist.
+
+03:11.000 --> 03:15.000
+Entschuldigung, das war das Wort, das ich vermeiden wollte, zutrifft.
+
+03:15.000 --> 03:20.000
+Also schauen wir uns erstmal das in Anführungszeichen einfache Beispiel an.
+
+03:20.000 --> 03:28.000
+Es tut mir leid, diese Folie ist jetzt sehr voll, gucken Sie sich das eventuell dann auf den ausgedruckten Folien an.
+
+03:28.000 --> 03:36.000
+Und sie ist sehr, sehr bunt und vor allen Dingen ist sie auch in den Details bunt.
+
+03:36.000 --> 04:01.000
+Also wir fangen mal an mit dem Ausschnitt unseres Weltwissens, das wir jetzt durch prädikatenlogische Formeln repräsentieren wollen.
+
+04:01.000 --> 04:09.000
+Genauso wie wir das in der Aussagenlogik gemacht haben, es regnet auch nachts, dann haben wir da eine Implikation draus gemacht.
+
+04:09.000 --> 04:11.000
+Genau das Gleiche machen wir hier.
+
+04:11.000 --> 04:21.000
+Wir nehmen jetzt also mal zwei Aussagen, nämlich Sokrates ist ein Mensch und jeder Mensch ist sterblich.
+
+04:21.000 --> 04:35.000
+Ist also ganz klar, wir reden über ein bestimmtes Objekt aus der Domäne, in der wir uns bewegen und dieses eine Objekt hat Eigenschaften,
+
+04:35.000 --> 04:42.000
+die wir dann natürlich durch Prädikate darstellen wollen, nämlich ein Mensch zu sein und sterblich zu sein.
+
+04:42.000 --> 04:54.000
+Die zweite Formel, die wir uns angucken, ist die Aussage, dass jeder Mensch sterblich ist.
+
+04:54.000 --> 05:03.000
+Diese Aussage ist also eine Aussage, die für alle x über unsere Domäne gelten soll.
+
+05:03.000 --> 05:20.000
+Es heißt also im Endeffekt nichts anderes, als dass wir eine Aussage über alle Instanzen der Variablen x in unserer Domäne treffen wollen.
+
+05:20.000 --> 05:23.000
+Wir sagen also, jeder Mensch sei sterblich.
+
+05:23.000 --> 05:37.000
+Was wir jetzt wollen, ist formal daraus zu schließen, dass Sokrates ebenfalls menschlich ist.
+
+05:37.000 --> 05:42.000
+Das stimmt hier ja eigentlich noch gar nicht.
+
+05:42.000 --> 05:45.000
+Wie verpräsentiert man das jetzt?
+
+05:45.000 --> 05:56.000
+Der grüne Sokrates hier, das ist der echte Sokrates. Das ist der Sokrates in der tatsächlichen Welt.
+
+05:56.000 --> 06:08.000
+Und das rote Wort Mensch ist die tatsächliche Eigenschaft in der echten Welt, Mensch zu sein.
+
+06:08.000 --> 06:10.000
+Wie repräsentiert man diese Aussage?
+
+06:10.000 --> 06:19.000
+Indem man ein einstelliges Prädikatsymbol nimmt. In diesem Falle nennt man es netterweise auch gleich mal Junge.
+
+06:19.000 --> 06:31.000
+Und man natürlich eine Konstante braucht, die ja in unserer echten Welt als der echte Sokrates interpretiert werden soll.
+
+06:31.000 --> 06:39.000
+Und diese Konstante nennt man der Einfachheit halber auch Sokrates.
+
+06:39.000 --> 06:49.000
+Beachten Sie, nicht nur die Schriftarten unterscheiden sich, nicht nur die Sprache unterscheidet sich,
+
+06:49.000 --> 06:55.000
+sondern, um es ganz, ganz deutlich zu machen, eben auch die Farbe.
+
+06:55.000 --> 07:08.000
+Sie sehen, die Orangenen sind die Symbole aus der Signatur, die wir haben, um diese Eigenschaften darzustellen.
+
+07:08.000 --> 07:18.000
+Das Blau steht halt für die Objekte aus der Domäne.
+
+07:18.000 --> 07:29.000
+Das Blau bezeichnet also ein Konstantensymbol, das interpretiert wird als etwas Grünes.
+
+07:29.000 --> 07:37.000
+Also Rot und Grün ist die echte Welt und Orange und Blau ist etwas ganz anderes.
+
+07:37.000 --> 07:45.000
+Rot und Blau sind einfach nur Symbole, die nichts hiermit zu tun haben.
+
+07:45.000 --> 07:59.000
+Also schreiben wir es mal auf. Wir wollen jetzt also aus diesen beiden Formeln P1 und P2 schlussfolgern, dass Sokrates sterblich ist.
+
+07:59.000 --> 08:08.000
+In der Übersetzung bedeutet das also Sokrates human, dann für alle x gilt, wenn x human ist, dann ist x auch mortal.
+
+08:08.000 --> 08:13.000
+Und wir wollen daraus ableiten, dass Sokrates mortal ist.
+
+08:13.000 --> 08:26.000
+Wie stellen wir das fest? Wir müssen sagen, dass jedes Modell dieser beiden Formeln auch ein Modell dieser Formeln ist.
+
+08:26.000 --> 08:34.000
+Gehen wir also mal davon aus, wir hätten ein Modell dieser beiden Formeln.
+
+08:34.000 --> 08:42.000
+Ein Modell dieser Formelmenge P, groß P, auch steht hier gar nicht.
+
+08:42.000 --> 08:49.000
+Ein Modell dieser Formelmenge hier ist also ein Modell jeder Formel in dieser Menge.
+
+08:49.000 --> 08:57.000
+Insbesondere ist es also ein Modell der Formel der ersten Formel.
+
+08:57.000 --> 09:10.000
+Unsere Interpretation hier erfüllt also dieses syntaktische Konstrukt, die Formel human Sokrates.
+
+09:10.000 --> 09:19.000
+Wenn unsere Interpretation also diese Formel erfüllt, was heißt das?
+
+09:19.000 --> 09:25.000
+Die Interpretation dieses konstanten Symbols.
+
+09:25.000 --> 09:33.000
+Jetzt müssen Sie ganz genau hinschauen. Die Interpretation, hier steht jetzt ein grünes kleines J.
+
+09:33.000 --> 09:42.000
+Dieses konstanten Symbol, das blaue konstanten Symbol aus unserer Signatur wird jetzt interpretiert.
+
+09:42.000 --> 09:56.000
+Und das habe ich mit grün gemalt, weil ja sozusagen der Wert der blauen Konstante unter der Interpretation ein Objekt aus unserer Welt ist.
+
+09:56.000 --> 10:04.000
+Also wenn unsere Interpretation ein Modell der Formel human Sokrates ist, dann bedeutet das,
+
+10:04.000 --> 10:09.000
+dass unter dieser Interpretation das Objekt, das durch Sokrates bezeichnet wird,
+
+10:09.000 --> 10:24.000
+ein Element der Menge ist oder des einstelligen Prädikates, welches durch das Prädikatsymbol human bezeichnet wird.
+
+10:24.000 --> 10:35.000
+Also human wird interpretiert hier unten und da steht jetzt ein rotes J, weil da kommt die Bedeutung Mensch hinzu.
+
+10:35.000 --> 10:41.000
+Das Prädikatsymbol human wird die Bedeutung Mensch zugenommen.
+
+10:41.000 --> 10:48.000
+Wenn also die Formel human Sokrates wahr ist, dann ist die Interpretation der konstanten Sokrates
+
+10:48.000 --> 10:58.000
+ein Element der Menge aller Objekte, die wir als Menschen bezeichnen.
+
+10:58.000 --> 11:01.000
+Das ist das, was hier steht.
+
+11:01.000 --> 11:05.000
+Und wir gehen ja davon aus, unsere Interpretation ist ein Modell davon.
+
+11:05.000 --> 11:19.000
+Das heißt, wenn das hier gilt, bedeutet das, in unserer noch echten Welt ist die Interpretation von Sokrates und Mensch.
+
+11:19.000 --> 11:33.000
+Zweitens, wenn das ein Modell unserer Formeln P1 und P2 ist, ist es natürlich auch ein Modell der zweiten Form.
+
+11:33.000 --> 11:35.000
+Schreiben wir das auf.
+
+11:35.000 --> 11:40.000
+Also es ist, diese Interpretation ist ein Modell dieser Formel.
+
+11:40.000 --> 11:45.000
+Sie sehen, hier steht nur etwas Blaues und etwas Orangenes.
+
+11:45.000 --> 11:50.000
+Diese Formel hat erstmal keine Bedeutung.
+
+11:50.000 --> 11:59.000
+Aber wir wollen sie als wahr interpretieren, wenn jetzt die Interpretation dieser Formel eben 1 ist.
+
+11:59.000 --> 12:02.000
+So, true.
+
+12:02.000 --> 12:07.000
+Und dazu nehmen wir jetzt her die Definition unserer Interpretationsfunktion.
+
+12:07.000 --> 12:11.000
+Dazu müssen wir uns zuallererst den Allquantor anwählen.
+
+12:11.000 --> 12:13.000
+Sehen Sie hin.
+
+12:13.000 --> 12:17.000
+Der Allquantor quantifiziert über eine Variable x.
+
+12:17.000 --> 12:19.000
+Das ist ein syntaktisches Symbol.
+
+12:19.000 --> 12:21.000
+Kommt aus unserer Signatur.
+
+12:21.000 --> 12:36.000
+Aber diese Formel hier ist unter dieser Interpretation wahr, wenn diese Formel hier ohne den Allquantor unter dieser Interpretation wahr ist.
+
+12:36.000 --> 12:40.000
+So, und was ist das jetzt für eine Interpretation?
+
+12:40.000 --> 12:42.000
+Sehen Sie sich die Definition an.
+
+12:42.000 --> 12:45.000
+Und schauen Sie hier genau auf die Farben.
+
+12:45.000 --> 12:58.000
+Für alle grünen Arten, also für alle Objekte aus unserer in Anführungszeichen echten, wahren Domäne,
+
+12:58.000 --> 13:14.000
+muss gelten, dass wenn die Variable x als ein wirkliches Objekt aus unserer Welt interpretiert wird,
+
+13:14.000 --> 13:23.000
+muss gelten, dass human x subjunktion mortal x.
+
+13:23.000 --> 13:25.000
+Mehr steht da erstmal noch nicht.
+
+13:25.000 --> 13:28.000
+Ich habe es jetzt extra so vorgelesen.
+
+13:28.000 --> 13:32.000
+Hier haben wir jetzt keine weitere Bedeutung drin.
+
+13:32.000 --> 13:41.000
+Das Interessante ist halt, dass wir nur aufgrund der Definition der Interpretationsfunktion den Allquantor hier aufgelöst haben
+
+13:41.000 --> 13:53.000
+und gesagt haben, die Matrix, also das, was hier im Skopus dieses Quantors steht, muss modelliert werden, muss erfüllt werden.
+
+13:53.000 --> 14:02.000
+Und zwar unter allen Interpretationen, in denen wir für x ein beliebiges a aus unserer Domäne einsetzen.
+
+14:02.000 --> 14:06.000
+Gut, jetzt haben wir das Schöne.
+
+14:06.000 --> 14:12.000
+Wir haben jetzt hier einen ganzen Haufen von solchen Interpretationen.
+
+14:12.000 --> 14:18.000
+Und dieser ganze Haufen von Interpretationen muss jetzt diese Formeln erfüllen.
+
+14:18.000 --> 14:22.000
+Da können wir jetzt mit der Semantik der subjunktion rangehen.
+
+14:22.000 --> 14:40.000
+Für diesen Riesenhaufen von Interpretationen muss gelten, dass wenn unter einer solchen Interpretation die Formel human x zu true ausgewertet wird,
+
+14:40.000 --> 14:48.000
+dann wird unter dieser Interpretation auch die Formel mortal x zu true ausgewertet.
+
+14:48.000 --> 14:50.000
+Mehr steht da nicht.
+
+14:50.000 --> 14:55.000
+Das a ist das einzig Grüne, ansonsten steht hier nur Blau und Orange.
+
+14:55.000 --> 14:58.000
+Wir sind immer noch hier.
+
+14:58.000 --> 15:02.000
+So, jetzt wird es interessant.
+
+15:02.000 --> 15:12.000
+Was bedeutet das, wenn diese Interpretation diese Formel erfüllt und diese Interpretation diese Formel erfüllt?
+
+15:12.000 --> 15:14.000
+Schreiben wir es hin.
+
+15:14.000 --> 15:28.000
+Für alle a aus unserer Domäne muss also gelten, dass ein a, dieses a oder alle a, die wir für dieses x einsetzen,
+
+15:28.000 --> 15:47.000
+eine Instanz sein muss, die das Prädikat, das entsteht, wenn wir das Prädikatsymbol human interpretieren, wahrmacht.
+
+15:47.000 --> 16:05.000
+Also, es muss gelten, dass für alle Objekte aus unserer Domäne, wenn dieses Objekt in der Interpretation von human enthalten ist,
+
+16:05.000 --> 16:12.000
+dann muss dieses a auch in der Interpretation von mortal enthalten sein.
+
+16:12.000 --> 16:14.000
+Das ist es.
+
+16:14.000 --> 16:23.000
+So, und jetzt sehen Sie, jetzt stehen hier schon rote j und kein blaues x mehr.
+
+16:23.000 --> 16:34.000
+Das heißt, das, was hier steht in dieser Zeile, ist jetzt tatsächlich die Bedeutung der Formel, so wie wir sie festgelegt haben,
+
+16:34.000 --> 16:39.000
+nämlich alle Menschen a sind sterblich.
+
+16:39.000 --> 16:54.000
+Genau, weil alle a sind die Menschen, wenn also ein a ein Mensch ist, dann ist a sterblich.
+
+16:54.000 --> 16:59.000
+Hätte ich vielleicht ein bisschen schöner hier vor mir.
+
+16:59.000 --> 17:15.000
+So, wenn wir jetzt also wissen, dass für alle Dinge in unserer Welt gilt, wenn ein solches Ding ein Mensch ist,
+
+17:15.000 --> 17:20.000
+dann ist es auch ein Ding, das sterblich ist.
+
+17:20.000 --> 17:30.000
+Also, das hier oder dieser Stift, vielleicht ist es sterblich oder nicht, aber darüber treffen wir keine Aussage.
+
+17:30.000 --> 17:40.000
+Hier, dieses Ding hier wird meistens als Mensch interpretiert
+
+17:40.000 --> 17:51.000
+und ist ebenfalls eine Instanz all der Objekte, die wir als sterblich betrachten wollen.
+
+17:51.000 --> 18:03.000
+So, wenn das so ist, dass also alle Instanzen der menschlichen Objekte sterblich sind,
+
+18:03.000 --> 18:09.000
+dann gilt das natürlich auch für eine spezielle Instanz, Hans Peter.
+
+18:09.000 --> 18:17.000
+Wenn alle Menschen sterblich sind und Hans Peter ist so ein Mensch, dann ist Hans Peter auch sterblich.
+
+18:17.000 --> 18:25.000
+Wir nehmen jetzt aber einen anderen, weil wir haben ja gesagt, hier, wir haben so eine Konstante Sokrates,
+
+18:25.000 --> 18:35.000
+die eine Interpretation hat als Objekt aus unserer Domäne, die ein Mensch ist.
+
+18:35.000 --> 18:50.000
+Ganz wichtig, hier steht es, diese Konstante Sokrates wird interpretiert als ein Objekt aus unserer Welt, die menschlich ist.
+
+18:50.000 --> 19:01.000
+So, gut, naja, und weil wir jetzt hier diese Quantifikation haben, die sagt, für alle menschlichen Objekte folgt,
+
+19:01.000 --> 19:12.000
+gehen wir halt hin und wählen dieses grüne A, also wir wählen ein Objekt aus unserer Welt
+
+19:12.000 --> 19:16.000
+und wir sagen mal, naja, wir nehmen eben Sokrates.
+
+19:16.000 --> 19:23.000
+Und Sokrates ist ja die Interpretation des konstanten Symbols Sokrates.
+
+19:23.000 --> 19:26.000
+Das können wir jetzt machen, wir können ja spezialisieren, das gilt ja für alle.
+
+19:26.000 --> 19:30.000
+Also nehmen wir uns einen und wir wissen, wir haben den Sokrates.
+
+19:30.000 --> 19:40.000
+Also bedeutet das dann, also würden wir dann schreiben, wenn wir für dieses A hier Sokrates wählen,
+
+19:40.000 --> 19:49.000
+steht da nichts anderes als die Interpretation der konstanten Sokrates, ist ein Element der Interpretation des Kredikats human,
+
+19:49.000 --> 19:57.000
+dann ist auch die Interpretation der konstante Sokrates ein Element der Interpretation von mortal.
+
+19:57.000 --> 20:02.000
+Also, wenn Sokrates ein Mensch ist, dann ist Sokrates stärklich.
+
+20:02.000 --> 20:10.000
+Okay? So, und Sie sehen, das hier ist jetzt wieder die Darstellung in unserer Welt.
+
+20:10.000 --> 20:19.000
+Jetzt haben wir aber das hier hingeschrieben und das ist die formale Repräsentation, worüber wir hier reden.
+
+20:19.000 --> 20:24.000
+Und das können wir jetzt in Anführungszeichen ausrechnen,
+
+20:24.000 --> 20:34.000
+weil was hier steht, Sokrates J ist Element von human J, ist ja, nachdem was hier steht, eine wahre Aussage.
+
+20:34.000 --> 20:39.000
+Also true, meinetwegen.
+
+20:39.000 --> 20:50.000
+Also, wenn diese Interpretation hier, oder wenn das hier gilt, also wenn wir ein Modell dieser Formel haben
+
+20:50.000 --> 21:04.000
+und wir auch ein Modell dieser Formel haben, dann wissen wir, dass dann auch folgen muss,
+
+21:04.000 --> 21:15.000
+weil das ja true ist, dass Sokrates, die Interpretation von Sokrates, ein Element der Interpretation von mortal sein muss.
+
+21:15.000 --> 21:20.000
+Das heißt also nichts anderes, jetzt schreiben wir es hier hin, Sokrates J ist Element von mortal J.
+
+21:20.000 --> 21:27.000
+Und das bedeutet, Sokrates ist sterblich.
+
+21:27.000 --> 21:37.000
+Also schreiben wir es hin, unsere Interpretation alpha ist ein Modell der Formel mortal Sokrates.
+
+21:37.000 --> 21:42.000
+Sokrates, mortal, mortal, Sokrates, da. Das ist unsere Formel.
+
+21:42.000 --> 21:53.000
+Und damit haben wir gezeigt, dass logisch, die prädikatenlogische Repräsentation dieser Aussage hier,
+
+21:53.000 --> 22:02.000
+dieser beiden Aussagen, zu einer prädikatenlogischen Formel impliziert, logisch impliziert,
+
+22:02.000 --> 22:07.000
+die wir unter derselben Interpretation interpretieren als die Aussage Sokrates ist stark.
+
+22:07.000 --> 22:14.000
+Und das ist genau das, was wir machen.
+

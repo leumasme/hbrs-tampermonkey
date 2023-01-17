@@ -1,0 +1,413 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+So, ich hatte Ihnen ja versprochen, dass ich Ihnen noch was nachfrage zum Sequenzenkalkül,
+
+00:07.000 --> 00:13.000
+weil das softwarenlich geklappt hat heute in der Vorlesung, in der FAQ-Vorlesung.
+
+00:13.000 --> 00:17.000
+Drum jetzt nochmal hier.
+
+00:17.000 --> 00:23.000
+Also, wie gesagt, Sequenzenkalkül.
+
+00:23.000 --> 00:35.000
+Und nochmal zur Erinnerung, eine Sequenz ist dazu da, eine Meta oder eine Aussage der Art,
+
+00:35.000 --> 00:43.000
+wenn dies ein korrekter Schuss ist, dann auch jenes darzustellen.
+
+00:43.000 --> 00:53.000
+Wir reden also hier über Sequenzen von Schussfolgerungen oder über Abfolgerungen von Schussfolgerungen.
+
+00:53.000 --> 00:58.000
+Und eine Schussfolgerung selbst wiederum wird als eine Sequenz dargestellt,
+
+00:58.000 --> 01:03.000
+dieser Art p und dann dieses tolle Symbol hier q.
+
+01:03.000 --> 01:07.000
+Jetzt nichts anderes als das eben.
+
+01:07.000 --> 01:11.000
+Diese Formel hier im Sequenzenkalkül soll darstellen,
+
+01:11.000 --> 01:24.000
+wenn die Konjunktion aller Formeln aus p wahr ist, dann ist auch die Disjunktion aus den Formeln von q wahr.
+
+01:24.000 --> 01:29.000
+Also, wenn alle diese Formeln hier wahr sind, dann auch diese hier.
+
+01:29.000 --> 01:37.000
+Und die Idee ist jetzt dann eben ganz einfach, wenn ich eine Implikation zeigen will,
+
+01:37.000 --> 01:46.000
+also das aus einer Menge von Formeln etwas folgt, ich die Gültigkeit der entsprechenden Sequenz nachweisen muss.
+
+01:46.000 --> 01:55.000
+Ich muss also mit Hilfe dieses Kalküls eine D-Sequenz herleiten, die mir diesen logischen Schuss repräsentiert.
+
+01:55.000 --> 02:05.000
+Und das kann ich nur machen, indem ich eben mit Sequenzen anfange, die nach den Axiomen wahr sind.
+
+02:05.000 --> 02:10.000
+Und das hatten wir uns hier so aufgeschrieben.
+
+02:10.000 --> 02:16.000
+Natürlich ist jede Sequenz, bestehend aus einer Formel, gefolgt von dem Sequenzen-Symbol,
+
+02:16.000 --> 02:19.000
+gefolgt von der Formel selbst, wieder eine Axiom.
+
+02:19.000 --> 02:24.000
+Warum? Wenn p wahr ist, ist natürlich p wahr.
+
+02:24.000 --> 02:27.000
+Das ist unsere Axiom.
+
+02:27.000 --> 02:32.000
+Und dann kamen ganz fürchterlich viele Formeln.
+
+02:32.000 --> 02:38.000
+Und das Interessante eben an diesem Kalkül, gut, das sind alles die Strukturregeln,
+
+02:38.000 --> 02:50.000
+ist eben, dass jede dieser Regeln dazu führt, aus dem in Anführungszeichen nichts Symbole einzuführen.
+
+02:50.000 --> 02:56.000
+Also dieses Kalkül ist einfach nur dazu da,
+
+02:56.000 --> 03:03.000
+beginnend bei den Axiomen Formeln und Sequenzen von Formeln zu erzeugen,
+
+03:03.000 --> 03:12.000
+mit all den logischen Konnektoren, die wir haben wollen, um die Sequenz herzuleiten, die wir haben wollen.
+
+03:12.000 --> 03:15.000
+Also das war der Sequenzen-Kalkül.
+
+03:15.000 --> 03:24.000
+Hier war schon ein Beispiel, wie man, p ist das, dann gibt es eine Abschwächungsregel,
+
+03:24.000 --> 03:29.000
+das heißt, hier hinten dürfen wir ein q davor malen, dann gibt es eine Regel,
+
+03:29.000 --> 03:35.000
+wonach man dann dieses q hier hinten rüberschieben darf vor dieses p und so weiter und so fort.
+
+03:35.000 --> 03:37.000
+So kann man Beweise machen.
+
+03:37.000 --> 03:44.000
+Und ich habe Ihnen dann auch gezeigt, dass es dann halt in der Regel eigentlich eher so ist,
+
+03:44.000 --> 03:50.000
+dass um einen solchen Beweis zu machen, hier an diesem Beispiel,
+
+03:50.000 --> 04:00.000
+man den in der Regel von hinten nach vorne überführt, um also zu zeigen, dass das hier wahr ist.
+
+04:00.000 --> 04:09.000
+Also nicht p oder q impliziert p impliziert q.
+
+04:09.000 --> 04:17.000
+Schreibt man hin, die Gültigkeit dieser Sequenz hier muss hergeleitet werden.
+
+04:17.000 --> 04:19.000
+Also links steht nichts.
+
+04:19.000 --> 04:23.000
+Die Frage ist, wo kann jetzt diese einzige Formel herkommen?
+
+04:23.000 --> 04:27.000
+Naja, die kann ja nur daher kommen, dass sie aus zwei Formeln,
+
+04:27.000 --> 04:36.000
+nämlich nicht p oder q und p impliziert q hergeleitet wurde, indem hier eine Subjunktion wird.
+
+04:36.000 --> 04:40.000
+Dazu braucht man die Regel.
+
+04:40.000 --> 04:42.000
+Na, wo ist sie? Hier.
+
+04:42.000 --> 04:44.000
+Diese Regel braucht man dazu.
+
+04:44.000 --> 04:52.000
+Wenn ich auf der rechten Seite eine Subjunktion haben will, dann kann ich das machen, wenn ich das hier habe.
+
+04:52.000 --> 05:00.000
+Wir müssen also, um zu zeigen, dass das hier möglich ist, zeigen, dass das hier möglich ist.
+
+05:00.000 --> 05:05.000
+Und es wird dann eben hier so gemacht, wenn man das hier haben will, weiß man,
+
+05:05.000 --> 05:11.000
+das kriegt man durch die Anwendung der Einführungsregel für Implikation auf der rechten Seite
+
+05:11.000 --> 05:17.000
+und dafür muss vorher das gegolten haben, weil wenn das hier gilt, kann man das daraus machen.
+
+05:17.000 --> 05:22.000
+Und dann fragt man sich, ja, wo kommt jetzt diese Sequenz her?
+
+05:22.000 --> 05:25.000
+Und dann stellt man wieder fest, hier steht wieder eine Subjunktion,
+
+05:25.000 --> 05:28.000
+also kommt diese Subjunktion vielleicht auch durch die Anwendung der Regel,
+
+05:28.000 --> 05:32.000
+dann muss vorher das da gestanden haben und so weiter und sofort.
+
+05:32.000 --> 05:34.000
+Das habe ich Ihnen dann an ein paar Beispielen gezeigt.
+
+05:34.000 --> 05:43.000
+Und hier sieht man nochmal dann, wie sich das z.B. für die Prädikatenlogik mit den Quantoren von unten nach oben aufbaut
+
+05:43.000 --> 05:51.000
+bzw. wie man versuchen kann, sich, wenn man hier stecken geblieben ist, von oben daran anzunähern.
+
+05:51.000 --> 05:54.000
+Das können Sie sich nochmal im Video angucken.
+
+05:54.000 --> 06:05.000
+Und die Frage, die jetzt in der Klausur war, war jetzt ja ein bisschen anders.
+
+06:05.000 --> 06:14.000
+Und die sah ja, Moment, ich suche sie gerade, schwupps, die sah ja so aus.
+
+06:14.000 --> 06:18.000
+In der Aussagenlogik, das war also schon mal sehr schön,
+
+06:18.000 --> 06:26.000
+sollte jetzt gezeigt werden, dass wenn PQ impliziert und QR impliziert, dass dann auch PR impliziert, direkt.
+
+06:26.000 --> 06:30.000
+Also im Endeffekt Transitivität der Subjunktion.
+
+06:30.000 --> 06:36.000
+Dann gab es da eine etwas ungünstige Musterlösung dazu.
+
+06:36.000 --> 06:43.000
+Oh, verflixt, doch, ja, haben Sie schon gesehen, Gott sei Dank, hoffentlich mal.
+
+06:43.000 --> 06:52.000
+Und jetzt will ich Ihnen zeigen, wie das hier funktioniert, wenn man ein anderes Tool benutzt.
+
+06:52.000 --> 06:57.000
+Und nämlich, jetzt muss man nochmal das Fenster wechseln.
+
+06:57.000 --> 07:05.000
+Jetzt nehmen wir, ja, wo ist er denn? Da. So, bitteschön.
+
+07:05.000 --> 07:11.000
+Also ich muss dazu jetzt ein bisschen leider nur die Syntaxe ändern,
+
+07:11.000 --> 07:21.000
+weil, ups, oder? P und Q und so weiter kann er nicht und das Siegrenzen-Symbol wird auch anders geschrieben, nämlich so.
+
+07:21.000 --> 07:26.000
+Aber Sie können sich vorstellen, das ist das Gleiche wie in der Aufgabenstellung.
+
+07:26.000 --> 07:31.000
+Jetzt möchte man wissen, ist das gültig, stimmt das?
+
+07:31.000 --> 07:37.000
+Naja, jetzt stehen hier also im Endeffekt drei Formeln und die Frage ist, wo kommen die her?
+
+07:37.000 --> 07:44.000
+Was kann also passiert sein? Naja, irgendwie müssen diese drei Subventionen eingeführt worden sein.
+
+07:44.000 --> 07:48.000
+Also diese beiden links können eingeführt worden sein oder diese hier rechts eingeführt.
+
+07:48.000 --> 07:55.000
+Und jetzt sehen Sie hier auf der rechten Seite einen ganzen Haufen von Knöpfen,
+
+07:55.000 --> 08:01.000
+die alle dafür stehen für die Anwendung von bestimmten Regeln.
+
+08:01.000 --> 08:07.000
+Wenn Sie sich das jetzt runtergeladen haben und damit arbeiten, dann würden Sie jetzt auch sehen, dass da so schöne Pop-Ups hochkommen.
+
+08:07.000 --> 08:15.000
+Die sind jetzt aber hier im Screen, die werden hier im Screengrabber jetzt komischerweise nicht gezogen.
+
+08:15.000 --> 08:22.000
+Okay, also hier sehen, ja, wir können uns jetzt also zum Beispiel überlegen, wo kommt diese Subjunktion her?
+
+08:22.000 --> 08:29.000
+Zum Beispiel, ja, also auf der linken Seite ein Pfeil, ein Pfeil auf der linken Seite.
+
+08:29.000 --> 08:37.000
+Nehmen wir mal diese Regel. Was muss also der Fall gewesen sein, damit das hier stehen kann?
+
+08:37.000 --> 08:50.000
+Ja, dann muss das der Fall gewesen sein. Dann muss diese Subjunktion hier hergeleitet worden sein und diese Subjunktion muss hier hergeleitet worden sein.
+
+08:50.000 --> 09:04.000
+Na, das ist doch schon mal was. Jetzt können wir uns mal überlegen, schaut denn das hier aus? Hier haben wir jetzt A Subjunktion B mit C und A Subjunktion C.
+
+09:04.000 --> 09:10.000
+Und da wissen wir ja sowas, da gibt es irgendwie sowas wie diese Rangierregel.
+
+09:10.000 --> 09:15.000
+Na, gucken wir doch mal, ob wir diese Subjunktion hier auf der rechten Seite wegkriegen hier.
+
+09:15.000 --> 09:21.000
+Ja, also mit diesem Teil hier. So, und jetzt steht da das.
+
+09:21.000 --> 09:29.000
+So, und jetzt kann man sich schon mal angucken, was steht denn hier? Hier steht ein C, da steht ein C, da steht ein A und da steht ein B.
+
+09:29.000 --> 09:36.000
+Jetzt kommt das Allerwichtigste. Wir wissen ja, dass es die Abschwächungsregel gibt.
+
+09:36.000 --> 09:45.000
+Die Abschwächungsregel hieß nichts anderes, als dass wir auf der linken und der rechten Seite einfach immer Sachen dazu schreiben können.
+
+09:45.000 --> 09:53.000
+Im umgekehrten Fall können wir die also auch löschen. Weg damit, weg damit.
+
+09:53.000 --> 10:11.000
+Und jetzt steht hier C impliziert C. C impliziert ist ja wohl wahr. Das heißt, das ist eine Instanz unseres Axioms und wir sind an der Stelle fertig.
+
+10:11.000 --> 10:18.000
+Wir müssen aber noch beweisen, dass diese hier, dass diese Sequenz hier rüstig ist.
+
+10:18.000 --> 10:25.000
+Also machen wir doch auch hier einfach mal die Subjunktion auf der rechten Seite weg. Dann haben wir das da stehen.
+
+10:25.000 --> 10:30.000
+Dann können wir jetzt noch nicht so richtig viel mit anfangen. Müssen wir also noch die Subjunktion hier auf der linken Seite auflösen.
+
+10:30.000 --> 10:38.000
+Jetzt haben wir diese beiden Sachen hier stehen. Jetzt einmal genau hinschauen, dann stellt man fest, hier steht ein B, hier steht ein B, hier steht ein A, da steht ein A.
+
+10:38.000 --> 10:52.000
+Also werden die einfach wieder weggewiegend. Dann steht da A impliziert A, B impliziert B, C impliziert C.
+
+10:52.000 --> 11:06.000
+Das sind Axiome und wenn wir das letzte Axiom wegklicken, tada, sagt das Ding, was man jetzt leider im Screen Recording auch nicht sieht, dass der Beweis erfolgt ist.
+
+11:06.000 --> 11:14.000
+Das hier ist jetzt dann einfach nur eine Baumdarstellung, der linearen Darstellung für einen Beweis dieser Art.
+
+11:14.000 --> 11:22.000
+Das können Sie also wunderbar mit diesem Tool hier üben.
+
+11:22.000 --> 11:32.000
+Ich kann Ihnen noch ein Beispiel geben. Schauen wir mal, ob ich hier auf Anhieb was Hübsches finde.
+
+11:32.000 --> 11:44.000
+Load Sequence, schauen wir einfach mal das hier an.
+
+11:44.000 --> 11:49.000
+Kurz gucken, ob ich Ihnen die zeigen kann. Ja, kann ich Ihnen zeigen.
+
+11:49.000 --> 11:54.000
+Sie sehen jetzt, schalten wir mal auf Logik erste Ordnung um.
+
+11:54.000 --> 12:03.000
+Dann kommen natürlich hier noch die Quantorregeln dazu, Substitutionsregeln, sind eher alle auf den Folien.
+
+12:03.000 --> 12:09.000
+Aber wir wissen auf jeden Fall, hier kann man erstmal nur den Existenzquantor aufwiesen, hier den Allquantor.
+
+12:09.000 --> 12:14.000
+Und schon ist die ganze Sache im Endeffekt einfach 0 ab 15.
+
+12:14.000 --> 12:23.000
+Man muss also offenbar diesen Existenzquantor, gucken Sie sich die Regeln an, da muss man Konstanten für eingeben.
+
+12:23.000 --> 12:35.000
+Hier können wir jetzt den Allquantor weghauen, den hier, da müssen wir eine Konstante für eingeben.
+
+12:35.000 --> 12:43.000
+Hier gibt es jetzt immer noch einen Existenzquantor y, jetzt müssen wir den Existenzquantor auf der linken Seite weghauen,
+
+12:43.000 --> 12:57.000
+nehmen wir mal c, hier müssen wir den Allquantor weghauen, also Allquantor, rechte Seite, nehmen wir mal c,
+
+12:57.000 --> 13:08.000
+dürfen wir nicht, sagt uns das zu c, nehmen wir also d, und jetzt können wir uns überlegen, wie kriegen wir die Konjunktion weg.
+
+13:08.000 --> 13:14.000
+Einmal so, ist klar, linke Seite, wie kriegen wir die Konjunktion auf der rechten Seite weg,
+
+13:14.000 --> 13:19.000
+naja, das ist natürlich ein bisschen schwieriger, weil dann entstehen zwei Sachen, die wir zeigen müssen.
+
+13:19.000 --> 13:29.000
+Und jetzt sehen Sie an dieser Stelle schon, wir würden jetzt natürlich gerne das hier wegschwächen,
+
+13:29.000 --> 13:42.000
+und auf dieser Seite das hier wegschwächen, aber jetzt haben wir ein Problem, jetzt steht hier pbpd, und die beiden sind offenbar nicht gleich.
+
+13:42.000 --> 13:52.000
+Also haben wir uns hier unten in diesem Beweis irgendwo ungünstig Konstanten ausgesucht.
+
+13:52.000 --> 13:59.000
+Also es wäre einfach super, wenn das p das gleiche Argument hätte, wie das andere p und das q,
+
+13:59.000 --> 14:06.000
+dann kann man hier unten auf Delete Subtree drücken und meinetwegen ab, hier nochmal alles neu machen,
+
+14:06.000 --> 14:12.000
+ist aber blöd, weil da war nicht schon Allquantor weg, also einfach hier meinetwegen nochmal ansetzen,
+
+14:12.000 --> 14:31.000
+und das meinetwegen, mach mal dieses, haben wir denn hier, was war das, ein Allquantor, auf der rechten Seite weg, hier, den hier weg,
+
+14:31.000 --> 14:37.000
+dann nennen wir das mal a, das geht nicht, ja klar, haben wir ja schon hierfür genutzt, ne?
+
+14:37.000 --> 14:47.000
+b, ja, und auf diese Art und Weise können wir jetzt versuchen, uns weiter durch diese ganze Sache durchzuhangen, ne?
+
+14:47.000 --> 14:54.000
+Zieh mal, also jetzt mach meinetwegen zuerst das hier auf, a, dann den Allquantor auf der linken Seite weg,
+
+14:54.000 --> 15:00.000
+ja, das wäre also das p, wäre uns ja eigentlich egal, nehmen wir meinetwegen ein d dafür, so,
+
+15:00.000 --> 15:08.000
+und kriegen wir jetzt vielleicht für dieses y hier ein a hin, wäre natürlich eine tolle Sache, ne?
+
+15:08.000 --> 15:16.000
+Zapp, Konstante eingeben, schade, dass Sie diese Popup-Linien hier nicht sehen, also Sie müssen es wirklich ausprobieren, ne?
+
+15:16.000 --> 15:23.000
+Was hab ich gesagt, a, ne, a geht natürlich nicht, ist wichtig, nehmen wir also ein b, okay,
+
+15:23.000 --> 15:30.000
+geht natürlich auch nicht, warum? Weil das b irgendwoanders offenbar schon steht, ah ja, da,
+
+15:30.000 --> 15:36.000
+also Sie können mit diesem Tool wirklich rumschmeißen, ich hab jetzt ein c genommen, ne?
+
+15:36.000 --> 15:43.000
+Aber jetzt haben wir natürlich wieder ein Problem, das geht nicht mit dem weg.
+
+15:43.000 --> 15:51.000
+Gut, also das soll es gewesen sein als dieses Video für Sequenzenkalkul und ich sag Ihnen einfach nur,
+
+15:51.000 --> 16:02.000
+benutzen Sie dieses Tool, um sich einfach ein bisschen durch diese, durch solche Aufgaben durchzuspielen, ne?
+
+16:02.000 --> 16:11.000
+Aber wie gesagt, es gibt eine einfache Aufgabe zum Sequenzenkalkul, die ist vorausgefüllt, es ist ein Lückentext
+
+16:11.000 --> 16:21.000
+und ich weiß nicht, ob ein Sternchen dran stehen wird oder nicht, aber es ist ungefähr eine von ziemlich vielen Aufgaben.
+
+16:21.000 --> 16:28.000
+Gut, also das soll es gewesen sein, kommen Sie zur Klausur, schreiben Sie es, wird schon was, ne?
+
+16:28.000 --> 16:42.000
+Viel Spaß und Glück dabei.
+
