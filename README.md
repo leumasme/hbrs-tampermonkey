@@ -52,10 +52,10 @@ On all FSLab Course Video Links (lectures.fslab.de/course/\*/\*), an input box i
 To enable subtitles, press the "CC" button on the bottom right in the player controls and select a language.
 If there are no languages listed then I have not generated subtitles for your course, please contact me via Discord (@Temm#9188).
 
-The subtitles may be very wrong. They are automatically generated with OpenAI's Whisper (large version) model.
-I would put the VTT files in this repo so anyone can make changes and PR them to update the subtitles, but I would likely get into
-copyright trouble if I publicly publish video transcripts without the professors permission.
+The subtitles may be very wrong. They are automatically generated with OpenAI's Whisper (large version)
 
+I have gotten explicit permission from Prof. Dr. Dr. M. E. Müller to upload the transcription files for his course here.
+Corrections to the transcripts in the form of Pull Requests are welcome. The files are only provided to allow corrections to be submitted or for local use, Please do not duplicate them for other purposes to prevent the spread of old/outdated/incorrect subtitle files.
 ## Praktomat
 [Script Link](https://openuserjs.org/install/Temm/HBRS_FSLab_Speed.user.js)
 ### Features
