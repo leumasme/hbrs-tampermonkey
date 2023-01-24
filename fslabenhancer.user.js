@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HBRS FSLab Enhancer
-// @version      1.1
+// @version      1.2
 // @description  Finer speed control and Whisper Subtitles for FSLab videos
 // @author       Temm
 // @updateURL    https://openuserjs.org/meta/Temm/HBRS_FSLab_Enhancer.meta.js
@@ -12,8 +12,8 @@
 // @license      GPL-3.0-or-later
 // ==/UserScript==
 
-console.log("FSLab Enhancer Loaded, player: ", player != null);
 const plugin = player.getPlugin("closed_captions");
+console.log("FSLab Enhancer Loaded, subtitle plugin: ", window.plugin = plugin);
 
 // Speed Control
 let speed = localStorage.getItem("fslabspeed") ?? 1;
@@ -29,7 +29,6 @@ input.min = "0.05";
 input.max = "20";
 input.value = speed;
 input.step = 0.05;
-input.
 input.style.marginBottom = "0.5em";
 
 player.setPlaybackRate(speed);
@@ -60,11 +59,20 @@ function langDone() {
             /** @type {{id: number, name: string, track: TextTrack}} */
             let track = plugin.container.closedCaptionsTracks.find(e => e.id == id);
 
+            // Save last used language shortname
+            localStorage.setItem("fslabsub", track.track.language);
+
             console.log("Subtitle Changed to ", track);
             displayTranscript(track.track);
-        })
+        });
+        let lang = localStorage.getItem("fslabsub");
+        if (lang) {
+            console.log("Re-Selecting Subtitle Language: " + lang);
+            plugin.container.closedCaptionsTrackId = plugin.container.closedCaptionsTracks.find(e => e.track.language == lang).id;
+        }
     }
 }
+
 document.querySelectorAll("video > track").forEach(e => {
     e.addEventListener("error", () => {
         console.log("%c Subtitles Language Unavailable: " + e.srclang + " ", "background: red; color: black");
