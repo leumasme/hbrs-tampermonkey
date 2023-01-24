@@ -6,7 +6,12 @@
 // @match        http*://praktomat.inf.h-brs.de/*/tasks/*/solutionupload/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=h-brs.de
 // @grant        none
+// @copyright    2022, Temm (https://openuserjs.org/users/Temm)
+// @license      GPL-3.0-or-later
+// @updateURL    https://openuserjs.org/meta/Temm/Praktomat_File_Upload.meta.js
+// @downloadURL  https://openuserjs.org/install/Temm/Praktomat_File_Upload.user.js
 // ==/UserScript==
+
 
 console.log("Praktomat File Upload Loaded");
 
