@@ -25,10 +25,11 @@ pl.appendChild(label);
 
 let input = document.createElement("input");
 input.type = "number";
-input.min = "0.01";
+input.min = "0.05";
 input.max = "20";
 input.value = speed;
 input.step = 0.05;
+input.
 input.style.marginBottom = "0.5em";
 
 player.setPlaybackRate(speed);
