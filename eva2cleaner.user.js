@@ -139,7 +139,7 @@ console.log("Loaded Timetable Cleaner!");
 
     //#region Module Data Processing and UI
     let rawData = {}
-    const groupRegex = /Gr(?:\.| |\. )((?:alle)|[a-z0-9])/i;
+    const groupRegex = /(?:[^a-zA-Z])Gr(?:\.| |\. )([a-z0-9\-]{1,6})/i;
     const typeRegex = /\((Ü|V|P)\)/i;
     for (let module of modules) {
         module = module.querySelector(".nobreak");
