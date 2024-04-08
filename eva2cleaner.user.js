@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HBRS eva2 Timetable Cleaner
-// @version      1.2
+// @version      1.3
 // @description  Clean up your HBRS eva2 timetable!
 // @author       Temm
 // @updateURL    https://openuserjs.org/meta/Temm/HBRS_eva2_Timetable_Cleaner.meta.js
@@ -139,15 +139,21 @@ console.log("Loaded Timetable Cleaner!");
 
     //#region Module Data Processing and UI
     let rawData = {}
-    const groupRegex = /(?:[^a-zA-Z])Gr(?:\.| |\. )([a-z0-9\-]{1,6})/i;
+    const groupRegex = /(?:[^a-zA-Z])Gr(?:\.| |\. )((?:Wdh\.? )?[a-z0-9\-]{1,6})/i;
     const typeRegex = /\((Ü|V|P)\)/i;
     for (let module of modules) {
         module = module.querySelector(".nobreak");
         let title = module.querySelector(".lvtitel").textContent;
         let cleanTitle = title;
 
-        while (cleanTitle.includes("  ")) cleanTitle = cleanTitle.replace(/  /g, " ");
-        cleanTitle = cleanTitle.replace(groupRegex, "").replace(typeRegex, "").trim();
+        cleanTitle = cleanTitle.replace(/  +/g, " ");
+        cleanTitle = cleanTitle
+            .replace(groupRegex, "")
+            .replace(typeRegex, "")
+            .replace(/\(Online\)/i, "")
+            .replace(/\./g, "")
+            .trim();
+        cleanTitle = cleanTitle.replace(/  +/g, " ");
 
         if (rawData[title]) continue;
         let roomtime = module.querySelector(".lvraumzeit").textContent;
