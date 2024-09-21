@@ -47,7 +47,7 @@ let [, course, video] = /\/cdn\/([0-9]+)\/([0-9]+)\//.exec(url.pathname);
 
 let languages = { "de": "Deutsch", "en": "Englisch" };
 for (let [lang, name] of Object.entries(languages)) {
-    vid.insertAdjacentHTML("afterbegin", `<track label="${name}" kind="subtitles" srclang="${lang}" src="https://tf.2d.rocks/vtt/${course}/${lang}_${video}.mp4.vtt" />`)
+    vid.insertAdjacentHTML("afterbegin", `<track label="${name}" kind="subtitles" srclang="${lang}" src="https://raw.githubusercontent.com/leumasme/hbrs-tampermonkey/refs/heads/main/vtt/${course}/${lang}_${video}.mp4.vtt" />`)
 }
 
 let done = 0;
@@ -107,6 +107,7 @@ function displayTranscript(track) {
         return;
     };
     transcript.style.display = "block";
+    transcript.parentElement.parentElement.style.maxWidth = "1900px"
 
     let frag = document.createDocumentFragment();
     for (let cue of track.cues) {
