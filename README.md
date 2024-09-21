@@ -14,7 +14,7 @@
 - [Praktomat Enhancer](#Praktomat)
 - [Lea Autologin](#Lea)
 ## Eva2
-[Script Link](https://openuserjs.org/install/Temm/HBRS_eva2_Timetable_Cleaner.user.js)
+[Script Link](https://github.com/leumasme/hbrs-tampermonkey/raw/refs/heads/main/eva2cleaner.user.js)
 ### [Deutsch] Nutzung
 - Gehe auf die Seite https://eva2.inf.h-brs.de/stundenplan/
 - Wähle "Anzeigen als" -> "Zeitraster" aus
@@ -40,7 +40,7 @@
 - [ ] Count total free time between courses
 
 ## FSLab
-[Script Link](https://openuserjs.org/install/Temm/HBRS_FSLab_Speed.user.js)
+[Script Link](https://github.com/leumasme/hbrs-tampermonkey/raw/refs/heads/main/fslabenhancer.user.js)
 ### Features
 - Fine Video Speed Control
 - Subtitles
@@ -57,7 +57,7 @@ The subtitles may be very wrong. They are automatically generated with OpenAI's 
 I have gotten explicit permission from Prof. Dr. Dr. M. E. Müller to upload the transcription files for his course here.
 Corrections to the transcripts in the form of Pull Requests are welcome. The files are only provided to allow corrections to be submitted or for local use, Please do not duplicate them for other purposes to prevent the spread of old/outdated/incorrect subtitle files.
 ## Praktomat
-[Script Link](https://openuserjs.org/install/Temm/HBRS_FSLab_Speed.user.js)
+[Script Link](https://github.com/leumasme/hbrs-tampermonkey/raw/refs/heads/main/praktomatupload.user.js)
 ### Features
 - Uplad many files at once via a drag-and-drop area
 ### Usage
