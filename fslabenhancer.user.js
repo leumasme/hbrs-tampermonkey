@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HBRS FSLab Enhancer
-// @version      1.2
+// @version      1.3
 // @description  Finer speed control and Whisper Subtitles for FSLab videos
 // @author       Temm
 // @updateURL    https://openuserjs.org/meta/Temm/HBRS_FSLab_Enhancer.meta.js
