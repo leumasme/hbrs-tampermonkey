@@ -3,8 +3,6 @@
 // @version      1.3
 // @description  Finer speed control and Whisper Subtitles for FSLab videos
 // @author       Temm
-// @updateURL    https://openuserjs.org/meta/Temm/HBRS_FSLab_Enhancer.meta.js
-// @downloadURL  https://openuserjs.org/install/Temm/HBRS_FSLab_Enhancer.user.js
 // @match        https://lectures.fslab.de/course/*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=https://lectures.fslab.de
 // @grant        none
